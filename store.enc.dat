@@ -1671,6 +1671,91 @@
      "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
     }
    }, 
+   "shenqibaotu": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqizijin": [
+        1, 
+        0.15
+       ], 
+       "bian": [
+        1, 
+        0.2
+       ], 
+       "shenqiginseng": [
+        1, 
+        0.15
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        0.15
+       ], 
+       "feverfew": [
+        1, 
+        0.2
+       ], 
+       "qiaokelidangao": [
+        1, 
+        0.2
+       ], 
+       "zijin": [
+        1, 
+        0.2
+       ], 
+       "paradiseflower": [
+        1, 
+        0.2
+       ], 
+       "qj": [
+        1, 
+        0.2
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        0.1
+       ], 
+       "shenqichinesecrabapple": [
+        1, 
+        0.16
+       ], 
+       "shenqisweetviolet": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         0.33
+        ], 
+        "gaoji": [
+         3, 
+         0.23
+        ], 
+        "gaosu": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }, 
+    "config": {
+     "price": {
+      "F_coin": 60
+     }, 
+     "used": false, 
+     "goods_str": "魔法の種への行き方が書かれていて、いろいろな魔法の種を探すことができます.", 
+     "name": "魔法の種の地図", 
+     "introduce": "魔法の種への行き方が書かれていて、いろいろな魔法の種を探すことができます."
+    }
+   }, 
    "cangbaotu1": {
     "data": {
      "farm": {
