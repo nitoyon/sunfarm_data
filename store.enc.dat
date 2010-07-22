@@ -1634,7 +1634,7 @@
     }, 
     "config": {
      "price": {
-      "F_coin": 38
+      "F_coin": 48
      }, 
      "used": true, 
      "goods_str": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
@@ -2588,7 +2588,7 @@
     "shizizuo": {
      "total_time": 720, 
      "harvest_type": 3, 
-     "used": false, 
+     "used": true, 
      "name": "しし座", 
      "base_fruit": 25, 
      "fruit_time": 240, 
@@ -3601,7 +3601,7 @@
     "juxiezuo": {
      "total_time": 720, 
      "harvest_type": 3, 
-     "used": true, 
+     "used": false, 
      "name": "かに座", 
      "base_fruit": 25, 
      "fruit_time": 240, 
@@ -6886,13 +6886,13 @@
     }, 
     "huoyancai": {
      "total_time": 960, 
-     "leaflet_time": 60, 
+     "leaflet_time": 90, 
      "used": false, 
      "name": "ビーツ", 
      "base_fruit": 25, 
      "level_need": 42, 
      "fruit_time": 330, 
-     "sprout_time": 60, 
+     "sprout_time": 30, 
      "experience": 3.5, 
      "bloom_time": 330, 
      "sale_price": 12, 
@@ -8796,13 +8796,13 @@
     }, 
     "shanzhu": {
      "total_time": 960, 
-     "leaflet_time": 60, 
+     "leaflet_time": 90, 
      "used": false, 
      "name": "マンゴスチン", 
      "base_fruit": 25, 
      "level_need": 45, 
      "fruit_time": 330, 
-     "sprout_time": 60, 
+     "sprout_time": 30, 
      "experience": 2.95, 
      "bloom_time": 330, 
      "sale_price": 10, 
@@ -11505,7 +11505,7 @@
      "increment_fruit": 25, 
      "leaf_time": 138, 
      "seed_price": {
-      "gold": 130
+      "gold": 188
      }
     }, 
     "xiangchun": {
@@ -12106,7 +12106,7 @@
      }, 
      "jisu": {
       "price": {
-       "F_coin": 2
+       "F_coin": 3
       }, 
       "used": true, 
       "name": "中級肥料", 
@@ -12184,7 +12184,7 @@
       "used": true, 
       "name": "高級肥料", 
       "price": {
-       "F_coin": 4
+       "F_coin": 6
       }, 
       "effect": 5.5, 
       "introduce": "使うと作物の成熟時間を5.5時間短縮できます。", 
