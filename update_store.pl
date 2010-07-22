@@ -22,6 +22,7 @@ my $git_arg = "";
 my $time = DateTime->now( time_zone => 'Asia/Tokyo' );
 &log_and_system("$git commit store.dat -m $time $git_arg");
 &log_and_system("$git commit store.enc.dat -m $time $git_arg");
+&log_and_system("$git push");
 
 sub get_store{
     my $res = makeReq(
