@@ -9841,23 +9841,44 @@
       "gold": 10
      }
     }, 
-    "mayshucai": {
-     "total_time": 780, 
-     "leaflet_time": 30, 
-     "used": false, 
-     "name": "ヤサイジュース", 
+    "jin_yu_cao": {
+     "total_time": 2880, 
+     "leaflet_time": 300, 
+     "seed_price": {
+      "gold": 223
+     }, 
+     "name": "金魚草", 
      "base_fruit": 25, 
-     "level_need": 3, 
-     "fruit_time": 330, 
-     "sprout_time": 10, 
-     "experience": 3.0, 
-     "bloom_time": 325, 
-     "sale_price": 3, 
+     "level_need": 17, 
+     "fruit_time": 600, 
+     "introduce": "花言葉：清純な心", 
+     "experience": 4.6, 
+     "bloom_time": 840, 
+     "used": true, 
+     "sprout_time": 300, 
+     "sale_price": 25, 
      "seasons": 1, 
      "increment_fruit": 25, 
-     "leaf_time": 85, 
+     "leaf_time": 840, 
+     "goodstype": "flower"
+    }, 
+    "caiji": {
+     "total_time": 960, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "アーティチョーク", 
+     "base_fruit": 25, 
+     "level_need": 46, 
+     "fruit_time": 390, 
+     "sprout_time": 150, 
+     "experience": 5.73, 
+     "bloom_time": 390, 
+     "sale_price": 19, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 10
+      "gold": 235
      }
     }, 
     "youmaicai": {
@@ -9959,26 +9980,24 @@
       "gold": 3
      }
     }, 
-    "jin_yu_cao": {
-     "total_time": 2880, 
-     "leaflet_time": 300, 
-     "seed_price": {
-      "gold": 223
-     }, 
-     "name": "金魚草", 
+    "mayshucai": {
+     "total_time": 780, 
+     "leaflet_time": 30, 
+     "used": false, 
+     "name": "ヤサイジュース", 
      "base_fruit": 25, 
-     "level_need": 17, 
-     "fruit_time": 600, 
-     "introduce": "花言葉：清純な心", 
-     "experience": 4.6, 
-     "bloom_time": 840, 
-     "used": true, 
-     "sprout_time": 300, 
-     "sale_price": 25, 
+     "level_need": 3, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "experience": 3.0, 
+     "bloom_time": 325, 
+     "sale_price": 3, 
      "seasons": 1, 
      "increment_fruit": 25, 
-     "leaf_time": 840, 
-     "goodstype": "flower"
+     "leaf_time": 85, 
+     "seed_price": {
+      "gold": 10
+     }
     }, 
     "orange": {
      "total_time": 2793, 
@@ -13248,7 +13267,8 @@
     "huoyancai", 
     "yangtao", 
     "feidaofumu", 
-    "shanzhu"
+    "shanzhu", 
+    "caiji"
    ]
   }
  }, 
