@@ -395,6 +395,38 @@
      "goods_str": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。"
     }
    }, 
+   "huafeibao3": {
+    "data": {
+     "farm": {
+      "properties": {
+       "fertilizer": {
+        "zengshou": [
+         1, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }
+    }, 
+    "config": {
+     "used": false, 
+     "name": "综合化肥包", 
+     "price": {
+      "F_coin": 35
+     }, 
+     "introduce": "综合化肥包", 
+     "goods_str": "高级化肥5，增收化肥1，魔术化肥10。", 
+     "hot_level": 1
+    }
+   }, 
    "huafeibao1": {
     "data": {
      "farm": {
@@ -4817,7 +4849,7 @@
     "modify": false, 
     "limit_type": "limit_time_and_number", 
     "limit_time": "5日21時間", 
-    "last_number": 341, 
+    "last_number": 340, 
     "end_time": 1280988000.0, 
     "goods_description": "大きい。実に、本当に大きい。あれより大きなものは多分存在しないだろう。（ご注意：本当に大きいので植えるところに注意しましょう。）", 
     "limit_number": 500, 
