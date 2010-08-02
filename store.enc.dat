@@ -418,12 +418,12 @@
     }, 
     "config": {
      "used": false, 
-     "name": "综合化肥包", 
+     "name": "マルチ肥料セット", 
      "price": {
       "F_coin": 35
      }, 
-     "introduce": "综合化肥包", 
-     "goods_str": "高级化肥5，增收化肥1，魔术化肥10。", 
+     "introduce": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
+     "goods_str": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
      "hot_level": 1
     }
    }, 
@@ -5088,66 +5088,13 @@
     "need_level": 6, 
     "need_gold": 1400
    }, 
-   "items_dijifeiliao": {
-    "category": "items", 
-    "product": {
-     "zengshou8": {
-      "category": "properties", 
-      "name": "合成肥料(中)", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       100
-      ], 
-      "goods_type": "fertilizer"
-     }, 
-     "zengshou9": {
-      "category": "properties", 
-      "name": "合成肥料(高)", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       0, 
-       5, 
-       10, 
-       15, 
-       20, 
-       25
-      ], 
-      "goods_type": "fertilizer"
-     }
-    }, 
-    "name": "合成肥料(中)", 
-    "skilled": 1, 
-    "materials": [
-     [
-      "farm", 
-      "properties", 
-      "fertilizer", 
-      "zengshou7", 
-      1
-     ], 
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "mulberry", 
-      20
-     ]
-    ], 
-    "need_energy": 26, 
-    "intro": "LV1～9の作物の増産量を一回だけ15%アップさせます（花には使えません）", 
-    "exp": 50, 
-    "need_level": 3, 
-    "need_gold": 500
-   }, 
-   "crops_emozhixin": {
+   "crops_naiyoukaoyumi": {
     "category": "crops", 
     "product": {
-     "tianshizhixin": {
+     "naiyouyumitang": {
       "category": "seeds", 
-      "name": "エンジェルハート", 
-      "seedtype": "flower", 
+      "name": "奶油玉米汤", 
+      "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
        0, 
@@ -5159,10 +5106,10 @@
       ], 
       "goods_type": ""
      }, 
-     "emozhixin": {
+     "naiyoukaoyumi": {
       "category": "seeds", 
-      "name": "デーモンハート", 
-      "seedtype": "flower", 
+      "name": "奶油烤玉米", 
+      "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
        100
@@ -5170,36 +5117,241 @@
       "goods_type": ""
      }
     }, 
-    "name": "デーモンハート", 
+    "name": "奶油烤玉米", 
     "skilled": 1, 
     "materials": [
      [
       "farm", 
       "harvest", 
       "", 
-      "hyacinth", 
-      9
+      "corn", 
+      12
      ], 
      [
       "farm", 
       "harvest", 
       "", 
-      "mofabang", 
+      "naiyou", 
       1
+     ]
+    ], 
+    "need_energy": 30, 
+    "intro": "奶油加在烤玉米上", 
+    "exp": 196, 
+    "need_level": 9, 
+    "need_gold": 320
+   }, 
+   "crops_moguniurouchaofan": {
+    "category": "crops", 
+    "product": {
+     "moguniuroujufan": {
+      "category": "seeds", 
+      "name": "蘑菇牛肉焗饭", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "moguniurouchaofan": {
+      "category": "seeds", 
+      "name": "蘑菇牛肉炒饭", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "蘑菇牛肉炒饭", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "mogu", 
+      6
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "shuidao", 
+      12
      ], 
      [
       "ranch", 
       "harvest", 
       "", 
-      "friesian", 
+      "shenhuniu", 
       4
      ]
     ], 
-    "need_energy": 35, 
-    "intro": "", 
-    "exp": 140, 
-    "need_level": 5, 
-    "need_gold": 1500
+    "need_energy": 34, 
+    "intro": "蘑菇和牛肉一起做出来的炒饭", 
+    "exp": 125, 
+    "need_level": 8, 
+    "need_gold": 330
+   }, 
+   "crops_yingtaodangao": {
+    "category": "crops", 
+    "product": {
+     "yingtaodangao": {
+      "category": "seeds", 
+      "name": "樱桃蛋糕", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "yingtaozhishidangao": {
+      "category": "seeds", 
+      "name": "樱桃芝士蛋糕", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "樱桃蛋糕", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "cherry", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "naiyou", 
+      2
+     ]
+    ], 
+    "need_energy": 26, 
+    "intro": "加了樱桃的蛋糕", 
+    "exp": 270, 
+    "need_level": 6, 
+    "need_gold": 260
+   }, 
+   "crops_yusan": {
+    "category": "crops", 
+    "product": {
+     "poyusan": {
+      "category": "harvest", 
+      "name": "ボロ傘", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "yusan": {
+      "category": "harvest", 
+      "name": "傘", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       50, 
+       60, 
+       70, 
+       80, 
+       85, 
+       90
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "傘", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "zhuzixin", 
+      30
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "yanpi", 
+      30
+     ]
+    ], 
+    "need_energy": 2, 
+    "intro": "梅雨の季節イベントアイテム", 
+    "exp": 5, 
+    "need_level": 1, 
+    "need_gold": 10
+   }, 
+   "crops_hongtang": {
+    "category": "crops", 
+    "product": {
+     "hongtang": {
+      "category": "harvest", 
+      "name": "红糖", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "baitang": {
+      "category": "harvest", 
+      "name": "白糖", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "红糖", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "gan_zhe", 
+      10
+     ]
+    ], 
+    "need_energy": 15, 
+    "intro": "甘蔗榨的糖", 
+    "exp": 80, 
+    "need_level": 4, 
+    "need_gold": 45
    }, 
    "crops_danhuangjiang": {
     "category": "crops", 
@@ -5307,6 +5459,52 @@
     "need_level": 4, 
     "need_gold": 650
    }, 
+   "crops_suanrulao": {
+    "category": "crops", 
+    "product": {
+     "rulao": {
+      "category": "harvest", 
+      "name": "乳酪", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "suanrulao": {
+      "category": "harvest", 
+      "name": "酸乳酪", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "酸乳酪", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "juanshanniu", 
+      16
+     ]
+    ], 
+    "need_energy": 13, 
+    "intro": "牛奶发酵制造", 
+    "exp": 140, 
+    "need_level": 2, 
+    "need_gold": 60
+   }, 
    "crops_pingguopai": {
     "category": "crops", 
     "product": {
@@ -5366,6 +5564,204 @@
     "exp": 30, 
     "need_level": 1, 
     "need_gold": 20
+   }, 
+   "crops_mapodoufu": {
+    "category": "crops", 
+    "product": {
+     "mapodoufu": {
+      "category": "seeds", 
+      "name": "麻婆豆腐", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "maladougan": {
+      "category": "seeds", 
+      "name": "麻辣豆干", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "麻婆豆腐", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "maodou", 
+      20
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "honglajiao", 
+      15
+     ]
+    ], 
+    "need_energy": 16, 
+    "intro": "好吃的麻辣味豆腐", 
+    "exp": 87, 
+    "need_level": 3, 
+    "need_gold": 120
+   }, 
+   "crops_tilamisu": {
+    "category": "crops", 
+    "product": {
+     "tilamisu": {
+      "category": "seeds", 
+      "name": "提拉米苏", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "kafeitilamisu": {
+      "category": "seeds", 
+      "name": "咖啡提拉米苏", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "提拉米苏", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "naiyou", 
+      1
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "langshanChook", 
+      16
+     ]
+    ], 
+    "need_energy": 28, 
+    "intro": "一种蛋糕", 
+    "exp": 150, 
+    "need_level": 6, 
+    "need_gold": 220
+   }, 
+   "juice_miganzhi": {
+    "category": "juice", 
+    "product": {
+     "nongsuomiganzhi": {
+      "category": "juice", 
+      "name": "濃縮蜜柑ジュース", 
+      "seedtype": "", 
+      "scene_type": "factory", 
+      "appear_rate": [
+       0, 
+       100, 
+       100, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "miganzhi": {
+      "category": "juice", 
+      "name": "蜜柑ジュース", 
+      "seedtype": "", 
+      "scene_type": "factory", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "蜜柑ジュース", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "orange", 
+      7
+     ]
+    ], 
+    "need_energy": 0, 
+    "intro": "使用するとスタミナが75ポイント回復します", 
+    "exp": 40, 
+    "need_level": 5, 
+    "need_gold": 750
+   }, 
+   "crops_jiangbaojiding": {
+    "category": "crops", 
+    "product": {
+     "jiangbaojiding": {
+      "category": "seeds", 
+      "name": "酱爆鸡丁", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "gongbaojiding": {
+      "category": "seeds", 
+      "name": "宫保鸡丁", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "酱爆鸡丁", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "langshanChook", 
+      16
+     ]
+    ], 
+    "need_energy": 28, 
+    "intro": "爆鸡丁加上酱", 
+    "exp": 53, 
+    "need_level": 5, 
+    "need_gold": 240
    }, 
    "crops_zhuomuniao": {
     "category": "crops", 
@@ -5487,6 +5883,59 @@
     "need_level": 9, 
     "need_gold": 150
    }, 
+   "crops_dongguapaigutang": {
+    "category": "crops", 
+    "product": {
+     "dongguadunpaigu": {
+      "category": "seeds", 
+      "name": "冬瓜炖排骨", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "dongguapaigutang": {
+      "category": "seeds", 
+      "name": "冬瓜排骨汤", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "冬瓜排骨汤", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "dongguaxin", 
+      6
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      12
+     ]
+    ], 
+    "need_energy": 36, 
+    "intro": "冬瓜排骨煮的汤", 
+    "exp": 120, 
+    "need_level": 9, 
+    "need_gold": 400
+   }, 
    "juice_mangguozhi": {
     "category": "juice", 
     "product": {
@@ -5539,6 +5988,59 @@
     "exp": 20, 
     "need_level": 3, 
     "need_gold": 400
+   }, 
+   "crops_congchuan": {
+    "category": "crops", 
+    "product": {
+     "kaojirouchuan": {
+      "category": "seeds", 
+      "name": "烤鸡肉串", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "congchuan": {
+      "category": "seeds", 
+      "name": "葱串", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "葱串", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "langshanChook", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "cong", 
+      6
+     ]
+    ], 
+    "need_energy": 22, 
+    "intro": "加葱的肉串", 
+    "exp": 82, 
+    "need_level": 4, 
+    "need_gold": 56
    }, 
    "crops_huanxianghua": {
     "category": "crops", 
@@ -5600,7 +6102,258 @@
     "need_level": 5, 
     "need_gold": 1500
    }, 
-   "items_shiyanfeiliao": {
+   "crops_tudoudunzhurou": {
+    "category": "crops", 
+    "product": {
+     "jueweishaorou": {
+      "category": "seeds", 
+      "name": "绝味烧肉", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "tudoudunzhurou": {
+      "category": "seeds", 
+      "name": "土豆炖猪肉", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "土豆炖猪肉", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      6
+     ]
+    ], 
+    "need_energy": 6, 
+    "intro": "土豆和猪肉一起炖", 
+    "exp": 45, 
+    "need_level": 1, 
+    "need_gold": 50
+   }, 
+   "juice_guosuanjinghua": {
+    "category": "juice", 
+    "product": {
+     "guosuanjinghua": {
+      "category": "juice", 
+      "name": "フルーツ酸", 
+      "seedtype": "", 
+      "scene_type": "factory", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "boluozhi": {
+      "category": "juice", 
+      "name": "パイナップルジュース", 
+      "seedtype": "", 
+      "scene_type": "factory", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "フルーツ酸", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "pineapple", 
+      7
+     ]
+    ], 
+    "need_energy": 0, 
+    "intro": "使用するとスタミナが55ポイント回復します", 
+    "exp": 30, 
+    "need_level": 4, 
+    "need_gold": 600
+   }, 
+   "crops_zhishijumogu": {
+    "category": "crops", 
+    "product": {
+     "zhishijumogu": {
+      "category": "seeds", 
+      "name": "芝士焗蘑菇", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "zhishimogutang": {
+      "category": "seeds", 
+      "name": "芝士蘑菇汤", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "芝士焗蘑菇", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "naiyou", 
+      1
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "mogu", 
+      16
+     ]
+    ], 
+    "need_energy": 30, 
+    "intro": "芝士和蘑菇一起煮", 
+    "exp": 175, 
+    "need_level": 7, 
+    "need_gold": 280
+   }, 
+   "crops_zhugunongtangmian": {
+    "category": "crops", 
+    "product": {
+     "zhugunongtangmian": {
+      "category": "seeds", 
+      "name": "猪骨浓汤面", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "zhuguwudongguo": {
+      "category": "seeds", 
+      "name": "猪骨乌冬锅", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "猪骨浓汤面", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "damai", 
+      12
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      6
+     ]
+    ], 
+    "need_energy": 28, 
+    "intro": "猪骨炖成浓汤后做的面", 
+    "exp": 160, 
+    "need_level": 7, 
+    "need_gold": 330
+   }, 
+   "crops_zhishimianbaogan": {
+    "category": "crops", 
+    "product": {
+     "zhishimianbaogan": {
+      "category": "seeds", 
+      "name": "芝士面包干", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "zhishimianbaotiao": {
+      "category": "seeds", 
+      "name": "芝士面包条", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "芝士面包干", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "damai", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "naiyou", 
+      1
+     ]
+    ], 
+    "need_energy": 26, 
+    "intro": "加了芝士的面包干", 
+    "exp": 140, 
+    "need_level": 6, 
+    "need_gold": 240
+   }, 
+   "items_dijifeiliao": {
     "category": "items", 
     "product": {
      "zengshou8": {
@@ -5609,73 +6362,13 @@
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
-       0, 
-       5, 
-       10, 
-       15, 
-       20, 
-       25
+       100
       ], 
       "goods_type": "fertilizer"
      }, 
-     "zengshou7": {
+     "zengshou9": {
       "category": "properties", 
-      "name": "合成肥料(低)", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       100
-      ], 
-      "goods_type": "fertilizer"
-     }
-    }, 
-    "name": "合成肥料(低)", 
-    "skilled": 1, 
-    "materials": [
-     [
-      "ranch", 
-      "harvest", 
-      "", 
-      "goose", 
-      15
-     ], 
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "goldenmelon", 
-      10
-     ], 
-     [
-      "ranch", 
-      "harvest", 
-      "", 
-      "beijingDuck", 
-      15
-     ]
-    ], 
-    "need_energy": 18, 
-    "intro": "LV1～9の作物の増産量を一回だけ10%アップさせます（花には使えません）", 
-    "exp": 30, 
-    "need_level": 2, 
-    "need_gold": 300
-   }, 
-   "crops_hongfushi": {
-    "category": "crops", 
-    "product": {
-     "hongfushi": {
-      "category": "seeds", 
-      "name": "東北高級赤りんご", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       100
-      ], 
-      "goods_type": ""
-     }, 
-     "lizhixiang": {
-      "category": "seeds", 
-      "name": "レイシリンゴ", 
+      "name": "合成肥料(高)", 
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
@@ -5686,138 +6379,32 @@
        20, 
        25
       ], 
-      "goods_type": ""
+      "goods_type": "fertilizer"
      }
     }, 
-    "name": "東北高級赤りんご", 
+    "name": "合成肥料(中)", 
     "skilled": 1, 
     "materials": [
      [
       "farm", 
-      "harvest", 
-      "", 
-      "guoguangpingguo", 
-      4
+      "properties", 
+      "fertilizer", 
+      "zengshou7", 
+      1
      ], 
      [
       "farm", 
       "harvest", 
       "", 
-      "litchi", 
-      6
-     ], 
-     [
-      "ranch", 
-      "harvest", 
-      "", 
-      "putianDuck", 
-      3
+      "mulberry", 
+      20
      ]
     ], 
-    "need_energy": 18, 
-    "intro": "東北高級赤りんご,同レベルの作物より収益が高いです", 
+    "need_energy": 26, 
+    "intro": "LV1～9の作物の増産量を一回だけ15%アップさせます（花には使えません）", 
     "exp": 50, 
     "need_level": 3, 
     "need_gold": 500
-   }, 
-   "juice_miganzhi": {
-    "category": "juice", 
-    "product": {
-     "nongsuomiganzhi": {
-      "category": "juice", 
-      "name": "濃縮蜜柑ジュース", 
-      "seedtype": "", 
-      "scene_type": "factory", 
-      "appear_rate": [
-       0, 
-       100, 
-       100, 
-       15, 
-       20, 
-       25
-      ], 
-      "goods_type": ""
-     }, 
-     "miganzhi": {
-      "category": "juice", 
-      "name": "蜜柑ジュース", 
-      "seedtype": "", 
-      "scene_type": "factory", 
-      "appear_rate": [
-       100
-      ], 
-      "goods_type": ""
-     }
-    }, 
-    "name": "蜜柑ジュース", 
-    "skilled": 1, 
-    "materials": [
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "orange", 
-      7
-     ]
-    ], 
-    "need_energy": 0, 
-    "intro": "使用するとスタミナが75ポイント回復します", 
-    "exp": 40, 
-    "need_level": 5, 
-    "need_gold": 750
-   }, 
-   "crops_yusan": {
-    "category": "crops", 
-    "product": {
-     "poyusan": {
-      "category": "harvest", 
-      "name": "ボロ傘", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       100
-      ], 
-      "goods_type": ""
-     }, 
-     "yusan": {
-      "category": "harvest", 
-      "name": "傘", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       50, 
-       60, 
-       70, 
-       80, 
-       85, 
-       90
-      ], 
-      "goods_type": ""
-     }
-    }, 
-    "name": "傘", 
-    "skilled": 1, 
-    "materials": [
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "zhuzixin", 
-      30
-     ], 
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "yanpi", 
-      30
-     ]
-    ], 
-    "need_energy": 2, 
-    "intro": "梅雨の季節イベントアイテム", 
-    "exp": 5, 
-    "need_level": 1, 
-    "need_gold": 10
    }, 
    "juice_huluobosu": {
     "category": "juice", 
@@ -5949,6 +6536,165 @@
     "need_level": 0, 
     "need_gold": 10
    }, 
+   "crops_qiukuishala": {
+    "category": "crops", 
+    "product": {
+     "qiukuibiandang": {
+      "category": "seeds", 
+      "name": "秋葵便当", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "qiukuishala": {
+      "category": "seeds", 
+      "name": "秋葵沙拉", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "秋葵沙拉", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "qiukui", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "zisu", 
+      10
+     ]
+    ], 
+    "need_energy": 14, 
+    "intro": "秋葵制作的美味沙拉", 
+    "exp": 30, 
+    "need_level": 2, 
+    "need_gold": 70
+   }, 
+   "crops_yejunhuoguo": {
+    "category": "crops", 
+    "product": {
+     "yejunhuoguo": {
+      "category": "seeds", 
+      "name": "野菌火锅", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "yejunniuroutang": {
+      "category": "seeds", 
+      "name": "野菌牛肉汤", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "野菌火锅", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "shenhuniu", 
+      4
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "mogu", 
+      14
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "lajiaojiang", 
+      1
+     ]
+    ], 
+    "need_energy": 32, 
+    "intro": "各种野菌烧的火锅", 
+    "exp": 210, 
+    "need_level": 7, 
+    "need_gold": 320
+   }, 
+   "crops_fanqieguopu": {
+    "category": "crops", 
+    "product": {
+     "fanqiejiang": {
+      "category": "harvest", 
+      "name": "番茄酱", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "fanqieguopu": {
+      "category": "harvest", 
+      "name": "番茄果脯", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "番茄果脯", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "tomato", 
+      12
+     ]
+    ], 
+    "need_energy": 5, 
+    "intro": "西红柿蒸熟了密封起来", 
+    "exp": 5, 
+    "need_level": 1, 
+    "need_gold": 10
+   }, 
    "juice_shucaizhi": {
     "category": "juice", 
     "product": {
@@ -6062,6 +6808,165 @@
     "need_level": 4, 
     "need_gold": 800
    }, 
+   "crops_xiangkaoyangpai": {
+    "category": "crops", 
+    "product": {
+     "xiangkaoyangpai": {
+      "category": "seeds", 
+      "name": "香烤羊排", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "kaoquanyang": {
+      "category": "seeds", 
+      "name": "烤全羊", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "香烤羊排", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "semifineWool", 
+      16
+     ]
+    ], 
+    "need_energy": 38, 
+    "intro": "烤羊排", 
+    "exp": 190, 
+    "need_level": 9, 
+    "need_gold": 420
+   }, 
+   "crops_juxianghuacha": {
+    "category": "crops", 
+    "product": {
+     "shijinshuiguocha": {
+      "category": "seeds", 
+      "name": "什锦水果茶", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "juxianghuacha": {
+      "category": "seeds", 
+      "name": "橘香花茶", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "橘香花茶", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "marigold", 
+      7
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "orange", 
+      13
+     ]
+    ], 
+    "need_energy": 15, 
+    "intro": "橘子味的花茶", 
+    "exp": 89, 
+    "need_level": 3, 
+    "need_gold": 150
+   }, 
+   "crops_jingjiangrousi": {
+    "category": "crops", 
+    "product": {
+     "jingjiangrousi": {
+      "category": "seeds", 
+      "name": "京酱肉丝", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "yuxiangrousi": {
+      "category": "seeds", 
+      "name": "鱼香肉丝", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "京酱肉丝", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "maodou", 
+      10
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "cong", 
+      5
+     ]
+    ], 
+    "need_energy": 24, 
+    "intro": "甜酱烧肉丝", 
+    "exp": 220, 
+    "need_level": 5, 
+    "need_gold": 200
+   }, 
    "crops_qingtongshu": {
     "category": "crops", 
     "product": {
@@ -6168,6 +7073,59 @@
     "need_level": 5, 
     "need_gold": 900
    }, 
+   "crops_boluogulaorou": {
+    "category": "crops", 
+    "product": {
+     "boluogulaorou": {
+      "category": "seeds", 
+      "name": "菠萝古老肉", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "guobaorou": {
+      "category": "seeds", 
+      "name": "锅包肉", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "菠萝古老肉", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "pineapple", 
+      10
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      10
+     ]
+    ], 
+    "need_energy": 26, 
+    "intro": "菠萝和猪肉一起煮", 
+    "exp": 180, 
+    "need_level": 5, 
+    "need_gold": 120
+   }, 
    "crops_guoguangpingguo": {
     "category": "crops", 
     "product": {
@@ -6227,6 +7185,112 @@
     "exp": 40, 
     "need_level": 2, 
     "need_gold": 300
+   }, 
+   "crops_fanqieroujiangmian": {
+    "category": "crops", 
+    "product": {
+     "fanqieroujiangmian": {
+      "category": "seeds", 
+      "name": "番茄肉酱面", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "fanqieroujiangyimian": {
+      "category": "seeds", 
+      "name": "番茄肉酱意面", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "番茄肉酱面", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "damai", 
+      8
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "fanqiejiang", 
+      2
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "friesian", 
+      22
+     ]
+    ], 
+    "need_energy": 24, 
+    "intro": "番茄加肉串做面", 
+    "exp": 220, 
+    "need_level": 4, 
+    "need_gold": 78
+   }, 
+   "crops_naiyou": {
+    "category": "crops", 
+    "product": {
+     "huangyou": {
+      "category": "harvest", 
+      "name": "黄油", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "naiyou": {
+      "category": "harvest", 
+      "name": "奶油", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "奶油", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "juanshanniu", 
+      6
+     ]
+    ], 
+    "need_energy": 8, 
+    "intro": "牛奶制作产品", 
+    "exp": 39, 
+    "need_level": 1, 
+    "need_gold": 60
    }, 
    "crops_tianyuanji": {
     "category": "crops", 
@@ -6288,24 +7352,84 @@
     "need_level": 4, 
     "need_gold": 650
    }, 
-   "juice_guosuanjinghua": {
-    "category": "juice", 
+   "items_shiyanfeiliao": {
+    "category": "items", 
     "product": {
-     "guosuanjinghua": {
-      "category": "juice", 
-      "name": "フルーツ酸", 
+     "zengshou8": {
+      "category": "properties", 
+      "name": "合成肥料(中)", 
       "seedtype": "", 
-      "scene_type": "factory", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": "fertilizer"
+     }, 
+     "zengshou7": {
+      "category": "properties", 
+      "name": "合成肥料(低)", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": "fertilizer"
+     }
+    }, 
+    "name": "合成肥料(低)", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "goose", 
+      15
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "goldenmelon", 
+      10
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "beijingDuck", 
+      15
+     ]
+    ], 
+    "need_energy": 18, 
+    "intro": "LV1～9の作物の増産量を一回だけ10%アップさせます（花には使えません）", 
+    "exp": 30, 
+    "need_level": 2, 
+    "need_gold": 300
+   }, 
+   "crops_lanmeibingjiling": {
+    "category": "crops", 
+    "product": {
+     "lanmeibingjiling": {
+      "category": "seeds", 
+      "name": "蓝莓冰激凌", 
+      "seedtype": "", 
+      "scene_type": "farm", 
       "appear_rate": [
        100
       ], 
       "goods_type": ""
      }, 
-     "boluozhi": {
-      "category": "juice", 
-      "name": "パイナップルジュース", 
+     "lanmeixiangjiaochuan": {
+      "category": "seeds", 
+      "name": "蓝莓香蕉船", 
       "seedtype": "", 
-      "scene_type": "factory", 
+      "scene_type": "farm", 
       "appear_rate": [
        0, 
        5, 
@@ -6317,22 +7441,195 @@
       "goods_type": ""
      }
     }, 
-    "name": "フルーツ酸", 
+    "name": "蓝莓冰激凌", 
     "skilled": 1, 
     "materials": [
      [
       "farm", 
       "harvest", 
       "", 
-      "pineapple", 
-      7
+      "lanmeixin", 
+      13
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "naiyou", 
+      1
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "shuiguojiang", 
+      1
      ]
     ], 
-    "need_energy": 0, 
-    "intro": "使用するとスタミナが55ポイント回復します", 
-    "exp": 30, 
-    "need_level": 4, 
-    "need_gold": 600
+    "need_energy": 17, 
+    "intro": "蓝莓制作的冰激凌", 
+    "exp": 120, 
+    "need_level": 3, 
+    "need_gold": 140
+   }, 
+   "crops_shishutianfuluo": {
+    "category": "crops", 
+    "product": {
+     "tianfuluopinpan": {
+      "category": "seeds", 
+      "name": "天妇罗拼盘", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "shishutianfuluo": {
+      "category": "seeds", 
+      "name": "什蔬天妇罗", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "什蔬天妇罗", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "eggplant", 
+      17
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "qiukui", 
+      10
+     ]
+    ], 
+    "need_energy": 14, 
+    "intro": "蔬菜做的天妇罗", 
+    "exp": 40, 
+    "need_level": 3, 
+    "need_gold": 85
+   }, 
+   "crops_emozhixin": {
+    "category": "crops", 
+    "product": {
+     "tianshizhixin": {
+      "category": "seeds", 
+      "name": "エンジェルハート", 
+      "seedtype": "flower", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "emozhixin": {
+      "category": "seeds", 
+      "name": "デーモンハート", 
+      "seedtype": "flower", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "デーモンハート", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "hyacinth", 
+      9
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "mofabang", 
+      1
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "friesian", 
+      4
+     ]
+    ], 
+    "need_energy": 35, 
+    "intro": "", 
+    "exp": 140, 
+    "need_level": 5, 
+    "need_gold": 1500
+   }, 
+   "crops_ganlanyou": {
+    "category": "crops", 
+    "product": {
+     "ganlanyou": {
+      "category": "harvest", 
+      "name": "橄榄油", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "jingzhiganlanyou": {
+      "category": "harvest", 
+      "name": "精制橄榄油", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "橄榄油", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "ganlan", 
+      6
+     ]
+    ], 
+    "need_energy": 12, 
+    "intro": "橄榄榨的油", 
+    "exp": 40, 
+    "need_level": 8, 
+    "need_gold": 30
    }, 
    "crops_jiajiepingguo": {
     "category": "crops", 
@@ -6393,6 +7690,52 @@
     "exp": 30, 
     "need_level": 1, 
     "need_gold": 30
+   }, 
+   "crops_youlicishen": {
+    "category": "crops", 
+    "product": {
+     "youlisanwenyucishen": {
+      "category": "seeds", 
+      "name": "油梨三文鱼刺身", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "youlicishen": {
+      "category": "seeds", 
+      "name": "油梨刺身", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "油梨刺身", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "youli", 
+      42
+     ]
+    ], 
+    "need_energy": 10, 
+    "intro": "油梨制作的刺身", 
+    "exp": 43, 
+    "need_level": 2, 
+    "need_gold": 62
    }, 
    "crops_zhuanjiyindanji": {
     "category": "crops", 
@@ -6499,6 +7842,165 @@
     "exp": 50, 
     "need_level": 6, 
     "need_gold": 1500
+   }, 
+   "crops_hongfushi": {
+    "category": "crops", 
+    "product": {
+     "hongfushi": {
+      "category": "seeds", 
+      "name": "東北高級赤りんご", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "lizhixiang": {
+      "category": "seeds", 
+      "name": "レイシリンゴ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "東北高級赤りんご", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "guoguangpingguo", 
+      4
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "litchi", 
+      6
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "putianDuck", 
+      3
+     ]
+    ], 
+    "need_energy": 18, 
+    "intro": "東北高級赤りんご,同レベルの作物より収益が高いです", 
+    "exp": 50, 
+    "need_level": 3, 
+    "need_gold": 500
+   }, 
+   "crops_lajiaoyou": {
+    "category": "crops", 
+    "product": {
+     "lajiaojiang": {
+      "category": "harvest", 
+      "name": "辣椒酱", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "lajiaoyou": {
+      "category": "harvest", 
+      "name": "辣椒油", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "辣椒油", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "honglajiao", 
+      15
+     ]
+    ], 
+    "need_energy": 12, 
+    "intro": "辣椒磨碎了榨油", 
+    "exp": 40, 
+    "need_level": 2, 
+    "need_gold": 60
+   }, 
+   "crops_xilenniupai": {
+    "category": "crops", 
+    "product": {
+     "feiliniupai": {
+      "category": "seeds", 
+      "name": "菲力牛排", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "xilengniupai": {
+      "category": "seeds", 
+      "name": "西冷牛排", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "西冷牛排", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "shenhuniu", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "huangyou", 
+      1
+     ]
+    ], 
+    "need_energy": 36, 
+    "intro": "牛排", 
+    "exp": 320, 
+    "need_level": 8, 
+    "need_gold": 370
    }, 
    "crops_chaiquan": {
     "category": "crops", 
