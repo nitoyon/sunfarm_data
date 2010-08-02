@@ -4818,21 +4818,6 @@
     "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0—35の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "shizizuo": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "しし座", 
-    "price": {
-     "num": 9, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "目立ちたがり屋で派手好き、友人を集めて、大勢でワイワイお祭り騒ぎをすることが大好き", 
-    "activity_type": "discount"
-   }, 
    "xianliangluobo": {
     "product_type": {
      "scene_type": "farm", 
@@ -4843,10 +4828,10 @@
      "num": 300, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_time_and_number", 
     "limit_time": "5日21時間", 
-    "last_number": 281, 
+    "last_number": 276, 
     "end_time": 1280988000.0, 
     "goods_description": "大きい。実に、本当に大きい。あれより大きなものは多分存在しないだろう。（ご注意：本当に大きいので植えるところに注意しましょう。）", 
     "limit_number": 500, 
@@ -4961,6 +4946,25 @@
     }, 
     "modify": false, 
     "goods_description": "マジック肥料", 
+    "activity_type": "discount"
+   }, 
+   "wurong": {
+    "original_price": {
+     "num": 28, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "マイタケ", 
+    "price": {
+     "num": 20, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "マイタケ", 
     "activity_type": "discount"
    }
   }, 
@@ -10414,7 +10418,7 @@
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 28
+      "F_coin": 20
      }
     }, 
     "huangyou": {
