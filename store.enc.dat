@@ -4880,6 +4880,10 @@
     "activity_type": "discount"
    }, 
    "gaoji": {
+    "original_price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
     "specific_type": "re", 
     "product_type": {
      "goods_type": "property", 
@@ -4888,10 +4892,10 @@
     }, 
     "name": "高級肥料", 
     "price": {
-     "num": 6, 
+     "num": 5, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。マイミクに取られる前に収穫しちゃいましょう。", 
     "activity_type": "discount"
    }, 
@@ -12477,7 +12481,7 @@
       "used": true, 
       "name": "高級肥料", 
       "price": {
-       "F_coin": 6
+       "F_coin": 5
       }, 
       "effect": 5.5, 
       "introduce": "使うと作物の成熟時間を5.5時間短縮できます。", 
