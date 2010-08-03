@@ -4837,6 +4837,22 @@
     "goods_description": "マツタケ", 
     "activity_type": "discount"
    }, 
+   "shizizuo": {
+    "specific_type": "xin", 
+    "product_type": {
+     "goods_type": "decoration", 
+     "scene_type": "farm", 
+     "goods_category": "sky"
+    }, 
+    "name": "しし座の空", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "しし座の空", 
+    "activity_type": "discount"
+   }, 
    "xianliangluobo": {
     "product_type": {
      "scene_type": "farm", 
@@ -4847,10 +4863,10 @@
      "num": 300, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time_and_number", 
     "limit_time": "5日21時間", 
-    "last_number": 180, 
+    "last_number": 176, 
     "end_time": 1280988000.0, 
     "goods_description": "大きい。実に、本当に大きい。あれより大きなものは多分存在しないだろう。（ご注意：本当に大きいので植えるところに注意しましょう。）", 
     "limit_number": 500, 
@@ -4897,26 +4913,6 @@
     "goods_description": "使うと作物の成熟時間を2.5時間短縮できます。", 
     "start_time": 1280817000.0, 
     "activity_type": "hot_sale"
-   }, 
-   "gaoji": {
-    "original_price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "高級肥料", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。マイミクに取られる前に収穫しちゃいましょう。", 
-    "activity_type": "discount"
    }, 
    "chashu": {
     "specific_type": "xin", 
@@ -13887,7 +13883,7 @@
        "deadline": 30
       }, 
       "shizizuo": {
-       "used": false, 
+       "used": true, 
        "name": "しし座の大地", 
        "layer_order": 3, 
        "price": {
@@ -14255,7 +14251,7 @@
        "deadline": 30
       }, 
       "shizizuo": {
-       "used": false, 
+       "used": true, 
        "name": "しし座の空", 
        "layer_order": 3, 
        "price": {
