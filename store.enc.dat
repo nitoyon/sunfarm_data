@@ -4876,22 +4876,26 @@
     "activity_type": "hot_sale"
    }, 
    "jisu": {
+    "original_price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
      "goods_category": "fertilizer"
     }, 
     "name": "中級肥料", 
-    "start_time": 1280817000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "23時間30分", 
-    "end_time": 1280901600.0, 
-    "goods_description": "使うと作物の成熟時間を2.5時間短縮できます。", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "23時間30分", 
+    "end_time": 1280901600.0, 
+    "goods_description": "使うと作物の成熟時間を2.5時間短縮できます。", 
+    "start_time": 1280817000.0, 
     "activity_type": "hot_sale"
    }, 
    "gaoji": {
