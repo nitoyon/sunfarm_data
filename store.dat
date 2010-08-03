@@ -4876,22 +4876,26 @@
     "activity_type": "hot_sale"
    }, 
    "jisu": {
+    "original_price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
      "goods_category": "fertilizer"
     }, 
     "name": "\u4e2d\u7d1a\u80a5\u6599", 
-    "start_time": 1280817000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "23\u6642\u959330\u5206", 
-    "end_time": 1280901600.0, 
-    "goods_description": "\u4f7f\u3046\u3068\u4f5c\u7269\u306e\u6210\u719f\u6642\u9593\u30922.5\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "23\u6642\u959330\u5206", 
+    "end_time": 1280901600.0, 
+    "goods_description": "\u4f7f\u3046\u3068\u4f5c\u7269\u306e\u6210\u719f\u6642\u9593\u30922.5\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002", 
+    "start_time": 1280817000.0, 
     "activity_type": "hot_sale"
    }, 
    "gaoji": {
