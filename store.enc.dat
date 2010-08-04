@@ -4863,10 +4863,10 @@
      "num": 300, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_time_and_number", 
     "limit_time": "5日21時間", 
-    "last_number": 147, 
+    "last_number": 141, 
     "end_time": 1280988000.0, 
     "goods_description": "大きい。実に、本当に大きい。あれより大きなものは多分存在しないだろう。（ご注意：本当に大きいので植えるところに注意しましょう。）", 
     "limit_number": 500, 
@@ -10323,6 +10323,25 @@
       "gold": 999999
      }
     }, 
+    "boheshu": {
+     "total_time": 2880, 
+     "leaflet_time": 630, 
+     "used": false, 
+     "name": "ミント", 
+     "base_fruit": 25, 
+     "level_need": 47, 
+     "fruit_time": 660, 
+     "sprout_time": 330, 
+     "experience": 11.9, 
+     "bloom_time": 630, 
+     "sale_price": 38, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "leaf_time": 630, 
+     "seed_price": {
+      "gold": 475
+     }
+    }, 
     "peony": {
      "total_time": 1620, 
      "leaflet_time": 243, 
@@ -14779,7 +14798,8 @@
     "yangtao", 
     "feidaofumu", 
     "shanzhu", 
-    "caiji"
+    "caiji", 
+    "boheshu"
    ]
   }
  }, 
