@@ -4818,25 +4818,6 @@
     "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0—35の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "songrong": {
-    "original_price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "マツタケ", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "マツタケ", 
-    "activity_type": "discount"
-   }, 
    "xianliangluobo": {
     "product_type": {
      "scene_type": "farm", 
@@ -4847,10 +4828,10 @@
      "num": 300, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_time_and_number", 
     "limit_time": "5日21時間", 
-    "last_number": 135, 
+    "last_number": 129, 
     "end_time": 1280988000.0, 
     "goods_description": "大きい。実に、本当に大きい。あれより大きなものは多分存在しないだろう。（ご注意：本当に大きいので植えるところに注意しましょう。）", 
     "limit_number": 500, 
@@ -4864,11 +4845,11 @@
     }, 
     "name": "ドキドキ", 
     "start_time": 1280901600.0, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "2日", 
     "end_time": 1281074400.0, 
-    "goods_description": "ドキドキ", 
+    "goods_description": "やっと会えたきのこののたち", 
     "price": {
      "num": 30, 
      "type": "F_coin"
@@ -4895,28 +4876,24 @@
     "goods_description": "飾ると1900経験値を獲得します、有効期限は15日です.", 
     "activity_type": "discount"
    }, 
-   "jisu": {
+   "songrong": {
     "original_price": {
-     "num": 3, 
+     "num": 38, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "goods_type": "seed"
     }, 
-    "name": "中級肥料", 
+    "name": "マツタケ", 
     "price": {
-     "num": 1, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "23時間30分", 
-    "end_time": 1280901600.0, 
-    "goods_description": "使うと作物の成熟時間を2.5時間短縮できます。", 
-    "start_time": 1280817000.0, 
-    "activity_type": "hot_sale"
+    "goods_description": "マツタケ", 
+    "activity_type": "discount"
    }, 
    "chashu": {
     "specific_type": "xin", 
@@ -4952,6 +4929,24 @@
     "modify": false, 
     "goods_description": "マジック肥料", 
     "activity_type": "discount"
+   }, 
+   "shuijingputao": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "アメシストのグレープ", 
+    "start_time": 1280901600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1280988000.0, 
+    "goods_description": "もっとも安いKコイン作物登場！？24時間限定の販売です、お見逃しなく！", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "wurong": {
     "original_price": {
@@ -12365,8 +12360,8 @@
     "shuijingputao": {
      "total_time": 720, 
      "leaflet_time": 120, 
-     "used": false, 
-     "name": "水晶葡萄", 
+     "used": true, 
+     "name": "アメシストのグレープ", 
      "base_fruit": 25, 
      "level_need": 1, 
      "fruit_time": 330, 
