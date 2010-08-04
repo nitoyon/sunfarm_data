@@ -4837,22 +4837,6 @@
     "goods_description": "マツタケ", 
     "activity_type": "discount"
    }, 
-   "shizizuo": {
-    "specific_type": "xin", 
-    "product_type": {
-     "goods_type": "decoration", 
-     "scene_type": "farm", 
-     "goods_category": "sky"
-    }, 
-    "name": "しし座の空", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "しし座の空", 
-    "activity_type": "discount"
-   }, 
    "xianliangluobo": {
     "product_type": {
      "scene_type": "farm", 
@@ -4863,10 +4847,10 @@
      "num": 300, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time_and_number", 
     "limit_time": "5日21時間", 
-    "last_number": 141, 
+    "last_number": 136, 
     "end_time": 1280988000.0, 
     "goods_description": "大きい。実に、本当に大きい。あれより大きなものは多分存在しないだろう。（ご注意：本当に大きいので植えるところに注意しましょう。）", 
     "limit_number": 500, 
@@ -4890,6 +4874,26 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "jingling": {
+    "original_price": {
+     "num": 98, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "decoration", 
+     "scene_type": "farm", 
+     "goods_category": "butterfly"
+    }, 
+    "name": "ルリシジミ", 
+    "price": {
+     "num": 60, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "飾ると1900経験値を獲得します、有効期限は15日です.", 
+    "activity_type": "discount"
    }, 
    "jisu": {
     "original_price": {
