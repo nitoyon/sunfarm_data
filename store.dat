@@ -4837,22 +4837,6 @@
     "goods_description": "\u30de\u30c4\u30bf\u30b1", 
     "activity_type": "discount"
    }, 
-   "shizizuo": {
-    "specific_type": "xin", 
-    "product_type": {
-     "goods_type": "decoration", 
-     "scene_type": "farm", 
-     "goods_category": "sky"
-    }, 
-    "name": "\u3057\u3057\u5ea7\u306e\u7a7a", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "\u3057\u3057\u5ea7\u306e\u7a7a", 
-    "activity_type": "discount"
-   }, 
    "xianliangluobo": {
     "product_type": {
      "scene_type": "farm", 
@@ -4863,10 +4847,10 @@
      "num": 300, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time_and_number", 
     "limit_time": "5\u65e521\u6642\u9593", 
-    "last_number": 141, 
+    "last_number": 136, 
     "end_time": 1280988000.0, 
     "goods_description": "\u5927\u304d\u3044\u3002\u5b9f\u306b\u3001\u672c\u5f53\u306b\u5927\u304d\u3044\u3002\u3042\u308c\u3088\u308a\u5927\u304d\u306a\u3082\u306e\u306f\u591a\u5206\u5b58\u5728\u3057\u306a\u3044\u3060\u308d\u3046\u3002\uff08\u3054\u6ce8\u610f\uff1a\u672c\u5f53\u306b\u5927\u304d\u3044\u306e\u3067\u690d\u3048\u308b\u3068\u3053\u308d\u306b\u6ce8\u610f\u3057\u307e\u3057\u3087\u3046\u3002\uff09", 
     "limit_number": 500, 
@@ -4890,6 +4874,26 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "jingling": {
+    "original_price": {
+     "num": 98, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "decoration", 
+     "scene_type": "farm", 
+     "goods_category": "butterfly"
+    }, 
+    "name": "\u30eb\u30ea\u30b7\u30b8\u30df", 
+    "price": {
+     "num": 60, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "\u98fe\u308b\u30681900\u7d4c\u9a13\u5024\u3092\u7372\u5f97\u3057\u307e\u3059\u3001\u6709\u52b9\u671f\u9650\u306f15\u65e5\u3067\u3059.", 
+    "activity_type": "discount"
    }, 
    "jisu": {
     "original_price": {
