@@ -4857,20 +4857,20 @@
     "start_time": 1280480400.0, 
     "activity_type": "hot_sale"
    }, 
-   "shenqihuo_long_guo": {
+   "qinglvmogu": {
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "魔法のピターヤ", 
-    "start_time": 1280817000.0, 
-    "modify": false, 
+    "name": "ドキドキ", 
+    "start_time": 1280901600.0, 
+    "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "23時間30分", 
-    "end_time": 1280901600.0, 
-    "goods_description": "魔法の種、収穫するといろいろなプレゼントがもらえます！", 
+    "limit_time": "2日", 
+    "end_time": 1281074400.0, 
+    "goods_description": "ドキドキ", 
     "price": {
-     "num": 25, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
@@ -7693,7 +7693,7 @@
      "fruit_time": 775, 
      "sprout_time": 39, 
      "experience": 4.39625, 
-     "used": true, 
+     "used": false, 
      "bloom_time": 592, 
      "sale_price": 17, 
      "seasons": 2, 
@@ -9394,22 +9394,22 @@
      }
     }, 
     "qinglvmogu": {
-     "total_time": 1650, 
+     "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
+     "used": true, 
      "name": "ドキドキ", 
      "base_fruit": 25, 
      "level_need": 1, 
-     "fruit_time": 330, 
-     "sprout_time": 330, 
-     "experience": 6, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "experience": 11, 
      "bloom_time": 330, 
-     "sale_price": 12, 
+     "sale_price": 15, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 40
+      "F_coin": 30
      }
     }, 
     "kaoquanyang": {
@@ -13562,7 +13562,7 @@
      }, 
      "jisu": {
       "price": {
-       "F_coin": 1
+       "F_coin": 3
       }, 
       "used": true, 
       "name": "中級肥料", 
