@@ -4852,18 +4852,18 @@
     "goods_description": "ミント", 
     "activity_type": "discount"
    }, 
-   "zuinv": {
+   "bingyerizhonghua": {
     "product_type": {
      "scene_type": "farm", 
-     "goods_type": "baby"
+     "goods_type": "seed"
     }, 
-    "name": "ヨッパラウカノジョ", 
+    "name": "アイスプラント", 
     "start_time": 1280988000.0, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "1日", 
     "end_time": 1281074400.0, 
-    "goods_description": "ヨッパラウカノジョ", 
+    "goods_description": "アイスプラント", 
     "price": {
      "num": 10, 
      "type": "F_coin"
@@ -7058,7 +7058,7 @@
     "xianliangluobo": {
      "total_time": 1920, 
      "leaflet_time": 150, 
-     "used": true, 
+     "used": false, 
      "name": "メガブ", 
      "base_fruit": 25, 
      "level_need": 0, 
@@ -12353,7 +12353,7 @@
     "shuijingputao": {
      "total_time": 720, 
      "leaflet_time": 120, 
-     "used": true, 
+     "used": false, 
      "name": "アメシストのグレープ", 
      "base_fruit": 25, 
      "level_need": 1, 
@@ -12449,23 +12449,21 @@
     "bingyerizhonghua": {
      "total_time": 1410, 
      "leaflet_time": 330, 
-     "seed_price": {
-      "F_coin": 10
-     }, 
-     "name": "冰叶日中花", 
+     "used": true, 
+     "name": "アイスプラント", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 330, 
-     "introduce": "", 
+     "sprout_time": 90, 
      "experience": 5.4, 
      "bloom_time": 330, 
-     "used": false, 
-     "sprout_time": 90, 
      "sale_price": 15, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
-     "goodstype": "flower"
+     "seed_price": {
+      "F_coin": 10
+     }
     }, 
     "jinyinhua": {
      "total_time": 480, 
