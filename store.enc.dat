@@ -2514,7 +2514,7 @@
      }, 
      "gaosu": {
       "price": {
-       "F_coin": 3
+       "F_coin": 1
       }, 
       "used": true, 
       "name": "中級飼料", 
@@ -4140,14 +4140,14 @@
     }, 
     "zuinv": {
      "total_time": 1320, 
-     "used": false, 
+     "used": true, 
      "name": "ヨッパラウカノジョ", 
      "base_fruit": 25, 
      "fruit_time": 594, 
      "is_auto_harvest": true, 
      "adult_time": 396, 
      "buy_price": {
-      "F_coin": 12
+      "F_coin": 10
      }, 
      "fruit_name": "たまご", 
      "experience": 10, 
@@ -4802,21 +4802,23 @@
    }
   }, 
   "hot_sale": {
-   "zengshou1": {
-    "specific_type": "xin", 
+   "zuinv": {
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "goods_type": "baby"
     }, 
-    "name": "中級増産肥料", 
+    "name": "ヨッパラウカノジョ", 
+    "start_time": 1280988000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1281074400.0, 
+    "goods_description": "ヨッパラウカノジョ", 
     "price": {
-     "num": 15, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0—35の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "songrong": {
     "original_price": {
@@ -4852,45 +4854,44 @@
     "goods_description": "ミント", 
     "activity_type": "discount"
    }, 
-   "xianliangluobo": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "メガブ", 
-    "price": {
-     "num": 300, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time_and_number", 
-    "limit_time": "5日21時間", 
-    "last_number": 51, 
-    "end_time": 1280988000.0, 
-    "goods_description": "大きい。実に、本当に大きい。あれより大きなものは多分存在しないだろう。（ご注意：本当に大きいので植えるところに注意しましょう。）", 
-    "limit_number": 500, 
-    "start_time": 1280480400.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "xunjie": {
-    "original_price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
+   "zengshou1": {
+    "specific_type": "xin", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
      "goods_category": "fertilizer"
     }, 
-    "name": "マジック肥料", 
+    "name": "中級増産肥料", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0—35の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
+    "activity_type": "discount"
+   }, 
+   "gaosu": {
+    "original_price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "feedstuffs"
+    }, 
+    "name": "中級飼料", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "マジック肥料", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1281074400.0, 
+    "goods_description": "使うと動物の生産時間を2時間短縮できます。", 
+    "start_time": 1280988000.0, 
+    "activity_type": "hot_sale"
    }, 
    "qinglvmogu": {
     "product_type": {
@@ -4925,23 +4926,25 @@
     "goods_description": "暑い日には熱いお茶を飲もう", 
     "activity_type": "discount"
    }, 
-   "shuijingputao": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+   "xunjie": {
+    "original_price": {
+     "num": 2, 
+     "type": "F_coin"
     }, 
-    "name": "アメシストのグレープ", 
-    "start_time": 1280901600.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1280988000.0, 
-    "goods_description": "もっとも安いKコイン作物登場！？24時間限定の販売です、お見逃しなく！", 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック肥料", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "マジック肥料", 
+    "activity_type": "discount"
    }, 
    "wurong": {
     "original_price": {
