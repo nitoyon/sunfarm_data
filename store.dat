@@ -4802,23 +4802,21 @@
    }
   }, 
   "hot_sale": {
-   "zuinv": {
+   "zengshou1": {
+    "specific_type": "xin", 
     "product_type": {
+     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_type": "baby"
+     "goods_category": "fertilizer"
     }, 
-    "name": "\u30e8\u30c3\u30d1\u30e9\u30a6\u30ab\u30ce\u30b8\u30e7", 
-    "start_time": 1280988000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "1\u65e5", 
-    "end_time": 1281074400.0, 
-    "goods_description": "\u30e8\u30c3\u30d1\u30e9\u30a6\u30ab\u30ce\u30b8\u30e7", 
+    "name": "\u4e2d\u7d1a\u5897\u7523\u80a5\u6599", 
     "price": {
-     "num": 10, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "\u5897\u7523\u80a5\u6599\u306e\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u7248\u3001\u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb0\u201435\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
+    "activity_type": "discount"
    }, 
    "songrong": {
     "original_price": {
@@ -4854,43 +4852,40 @@
     "goods_description": "\u30df\u30f3\u30c8", 
     "activity_type": "discount"
    }, 
-   "zengshou1": {
-    "specific_type": "xin", 
+   "zuinv": {
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "goods_type": "baby"
     }, 
-    "name": "\u4e2d\u7d1a\u5897\u7523\u80a5\u6599", 
+    "name": "\u30e8\u30c3\u30d1\u30e9\u30a6\u30ab\u30ce\u30b8\u30e7", 
+    "start_time": 1280988000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1\u65e5", 
+    "end_time": 1281074400.0, 
+    "goods_description": "\u30e8\u30c3\u30d1\u30e9\u30a6\u30ab\u30ce\u30b8\u30e7", 
     "price": {
-     "num": 15, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "\u5897\u7523\u80a5\u6599\u306e\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u7248\u3001\u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb0\u201435\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
-   "gaosu": {
-    "original_price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
+   "shenqinigerseed": {
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "feedstuffs"
+     "goods_type": "seed"
     }, 
-    "name": "\u4e2d\u7d1a\u98fc\u6599", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
+    "name": "\u9b54\u6cd5\u306e\u9ed2\u30b4\u30de", 
+    "start_time": 1280988000.0, 
     "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "1\u65e5", 
     "end_time": 1281074400.0, 
-    "goods_description": "\u4f7f\u3046\u3068\u52d5\u7269\u306e\u751f\u7523\u6642\u9593\u30922\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002", 
-    "start_time": 1280988000.0, 
+    "goods_description": "\u9b54\u6cd5\u306e\u9ed2\u30b4\u30de", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
     "activity_type": "hot_sale"
    }, 
    "qinglvmogu": {
@@ -8215,14 +8210,14 @@
      "fruit_time": 744, 
      "sprout_time": 37, 
      "experience": 4.215, 
-     "used": false, 
+     "used": true, 
      "bloom_time": 568, 
      "sale_price": 16, 
      "seasons": 2, 
      "increment_fruit": 25, 
      "leaf_time": 568, 
      "seed_price": {
-      "F_coin": 999
+      "F_coin": 25
      }
     }, 
     "tonghao": {
@@ -9873,7 +9868,7 @@
      "increment_fruit": 25, 
      "leaf_time": 632, 
      "seed_price": {
-      "F_coin": 18
+      "F_coin": 30
      }
     }, 
     "guoguangpingguo": {
