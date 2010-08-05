@@ -4852,18 +4852,18 @@
     "goods_description": "\u30df\u30f3\u30c8", 
     "activity_type": "discount"
    }, 
-   "zuinv": {
+   "bingyerizhonghua": {
     "product_type": {
      "scene_type": "farm", 
-     "goods_type": "baby"
+     "goods_type": "seed"
     }, 
-    "name": "\u30e8\u30c3\u30d1\u30e9\u30a6\u30ab\u30ce\u30b8\u30e7", 
+    "name": "\u30a2\u30a4\u30b9\u30d7\u30e9\u30f3\u30c8", 
     "start_time": 1280988000.0, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "1\u65e5", 
     "end_time": 1281074400.0, 
-    "goods_description": "\u30e8\u30c3\u30d1\u30e9\u30a6\u30ab\u30ce\u30b8\u30e7", 
+    "goods_description": "\u30a2\u30a4\u30b9\u30d7\u30e9\u30f3\u30c8", 
     "price": {
      "num": 10, 
      "type": "F_coin"
@@ -7058,7 +7058,7 @@
     "xianliangluobo": {
      "total_time": 1920, 
      "leaflet_time": 150, 
-     "used": true, 
+     "used": false, 
      "name": "\u30e1\u30ac\u30d6", 
      "base_fruit": 25, 
      "level_need": 0, 
@@ -12353,7 +12353,7 @@
     "shuijingputao": {
      "total_time": 720, 
      "leaflet_time": 120, 
-     "used": true, 
+     "used": false, 
      "name": "\u30a2\u30e1\u30b7\u30b9\u30c8\u306e\u30b0\u30ec\u30fc\u30d7", 
      "base_fruit": 25, 
      "level_need": 1, 
@@ -12449,23 +12449,21 @@
     "bingyerizhonghua": {
      "total_time": 1410, 
      "leaflet_time": 330, 
-     "seed_price": {
-      "F_coin": 10
-     }, 
-     "name": "\u51b0\u53f6\u65e5\u4e2d\u82b1", 
+     "used": true, 
+     "name": "\u30a2\u30a4\u30b9\u30d7\u30e9\u30f3\u30c8", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 330, 
-     "introduce": "", 
+     "sprout_time": 90, 
      "experience": 5.4, 
      "bloom_time": 330, 
-     "used": false, 
-     "sprout_time": 90, 
      "sale_price": 15, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
-     "goodstype": "flower"
+     "seed_price": {
+      "F_coin": 10
+     }
     }, 
     "jinyinhua": {
      "total_time": 480, 
