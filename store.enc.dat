@@ -4802,23 +4802,21 @@
    }
   }, 
   "hot_sale": {
-   "zuinv": {
+   "zengshou1": {
+    "specific_type": "xin", 
     "product_type": {
+     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_type": "baby"
+     "goods_category": "fertilizer"
     }, 
-    "name": "ヨッパラウカノジョ", 
-    "start_time": 1280988000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1281074400.0, 
-    "goods_description": "ヨッパラウカノジョ", 
+    "name": "中級増産肥料", 
     "price": {
-     "num": 10, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0—35の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
+    "activity_type": "discount"
    }, 
    "songrong": {
     "original_price": {
@@ -4854,43 +4852,40 @@
     "goods_description": "ミント", 
     "activity_type": "discount"
    }, 
-   "zengshou1": {
-    "specific_type": "xin", 
+   "zuinv": {
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "goods_type": "baby"
     }, 
-    "name": "中級増産肥料", 
+    "name": "ヨッパラウカノジョ", 
+    "start_time": 1280988000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1281074400.0, 
+    "goods_description": "ヨッパラウカノジョ", 
     "price": {
-     "num": 15, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0—35の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
-   "gaosu": {
-    "original_price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
+   "shenqinigerseed": {
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "feedstuffs"
+     "goods_type": "seed"
     }, 
-    "name": "中級飼料", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
+    "name": "魔法の黒ゴマ", 
+    "start_time": 1280988000.0, 
     "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "1日", 
     "end_time": 1281074400.0, 
-    "goods_description": "使うと動物の生産時間を2時間短縮できます。", 
-    "start_time": 1280988000.0, 
+    "goods_description": "魔法の黒ゴマ", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
     "activity_type": "hot_sale"
    }, 
    "qinglvmogu": {
@@ -8215,14 +8210,14 @@
      "fruit_time": 744, 
      "sprout_time": 37, 
      "experience": 4.215, 
-     "used": false, 
+     "used": true, 
      "bloom_time": 568, 
      "sale_price": 16, 
      "seasons": 2, 
      "increment_fruit": 25, 
      "leaf_time": 568, 
      "seed_price": {
-      "F_coin": 999
+      "F_coin": 25
      }
     }, 
     "tonghao": {
@@ -9873,7 +9868,7 @@
      "increment_fruit": 25, 
      "leaf_time": 632, 
      "seed_price": {
-      "F_coin": 18
+      "F_coin": 30
      }
     }, 
     "guoguangpingguo": {
