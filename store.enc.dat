@@ -5135,6 +5135,59 @@
     "need_level": 3, 
     "need_gold": 500
    }, 
+   "crops_zhishimianbaogan": {
+    "category": "crops", 
+    "product": {
+     "zhishimianbaogan": {
+      "category": "seeds", 
+      "name": "チーズトースト", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "zhishimianbaotiao": {
+      "category": "seeds", 
+      "name": "チーズフランスパン", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "チーズトースト", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "damai", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "naiyou", 
+      1
+     ]
+    ], 
+    "need_energy": 26, 
+    "intro": "チーズのカロリーは高いので食べ過ぎに注意です。", 
+    "exp": 140, 
+    "need_level": 6, 
+    "need_gold": 240
+   }, 
    "crops_emozhixin": {
     "category": "crops", 
     "product": {
@@ -5194,6 +5247,52 @@
     "exp": 140, 
     "need_level": 5, 
     "need_gold": 1500
+   }, 
+   "crops_hongtang": {
+    "category": "crops", 
+    "product": {
+     "hongtang": {
+      "category": "harvest", 
+      "name": "黒砂糖", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "baitang": {
+      "category": "harvest", 
+      "name": "砂糖", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "黒砂糖", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "gan_zhe", 
+      10
+     ]
+    ], 
+    "need_energy": 15, 
+    "intro": "他のアイテムの材料に使えます。", 
+    "exp": 80, 
+    "need_level": 4, 
+    "need_gold": 45
    }, 
    "crops_danhuangjiang": {
     "category": "crops", 
@@ -5301,6 +5400,52 @@
     "need_level": 4, 
     "need_gold": 650
    }, 
+   "crops_suanrulao": {
+    "category": "crops", 
+    "product": {
+     "rulao": {
+      "category": "harvest", 
+      "name": "チーズ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "suanrulao": {
+      "category": "harvest", 
+      "name": "生ヨーグルト", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "生ヨーグルト", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "juanshanniu", 
+      16
+     ]
+    ], 
+    "need_energy": 13, 
+    "intro": "他のアイテムの材料に使えます。", 
+    "exp": 140, 
+    "need_level": 2, 
+    "need_gold": 60
+   }, 
    "crops_pingguopai": {
     "category": "crops", 
     "product": {
@@ -5360,6 +5505,204 @@
     "exp": 30, 
     "need_level": 1, 
     "need_gold": 20
+   }, 
+   "crops_tudoudunzhurou": {
+    "category": "crops", 
+    "product": {
+     "jueweishaorou": {
+      "category": "seeds", 
+      "name": "シチュー", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "tudoudunzhurou": {
+      "category": "seeds", 
+      "name": "肉じゃが", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "肉じゃが", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      6
+     ]
+    ], 
+    "need_energy": 6, 
+    "intro": "家庭料理の定番。", 
+    "exp": 45, 
+    "need_level": 1, 
+    "need_gold": 50
+   }, 
+   "crops_tilamisu": {
+    "category": "crops", 
+    "product": {
+     "tilamisu": {
+      "category": "seeds", 
+      "name": "ティラミス", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "kafeitilamisu": {
+      "category": "seeds", 
+      "name": "コーヒーティラミス", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "ティラミス", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "naiyou", 
+      1
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "langshanChook", 
+      16
+     ]
+    ], 
+    "need_energy": 28, 
+    "intro": "イタリアのケーキです。", 
+    "exp": 150, 
+    "need_level": 6, 
+    "need_gold": 220
+   }, 
+   "crops_xilengniupai": {
+    "category": "crops", 
+    "product": {
+     "feiliniupai": {
+      "category": "seeds", 
+      "name": "ヒレステーキ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "xilengniupai": {
+      "category": "seeds", 
+      "name": "サーロインステーキ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "サーロインステーキ", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "shenhuniu", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "huangyou", 
+      1
+     ]
+    ], 
+    "need_energy": 36, 
+    "intro": "贅沢を尽くしたステーキ。", 
+    "exp": 320, 
+    "need_level": 8, 
+    "need_gold": 370
+   }, 
+   "crops_jiangbaojiding": {
+    "category": "crops", 
+    "product": {
+     "jiangbaojiding": {
+      "category": "seeds", 
+      "name": "鶏肉のソース炒め", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "gongbaojiding": {
+      "category": "seeds", 
+      "name": "鶏肉のピリ辛炒め", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "鶏肉のソース炒め", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "langshanChook", 
+      16
+     ]
+    ], 
+    "need_energy": 28, 
+    "intro": "白いご飯にすごく合います", 
+    "exp": 53, 
+    "need_level": 5, 
+    "need_gold": 240
    }, 
    "crops_zhuomuniao": {
     "category": "crops", 
@@ -5481,6 +5824,59 @@
     "need_level": 9, 
     "need_gold": 150
    }, 
+   "crops_dongguapaigutang": {
+    "category": "crops", 
+    "product": {
+     "dongguadunpaigu": {
+      "category": "seeds", 
+      "name": "トウガンと豚肉の煮込み", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "dongguapaigutang": {
+      "category": "seeds", 
+      "name": "トウガンスープ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "トウガンスープ", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "dongguaxin", 
+      6
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      12
+     ]
+    ], 
+    "need_energy": 36, 
+    "intro": "", 
+    "exp": 120, 
+    "need_level": 9, 
+    "need_gold": 400
+   }, 
    "juice_mangguozhi": {
     "category": "juice", 
     "product": {
@@ -5533,6 +5929,59 @@
     "exp": 20, 
     "need_level": 3, 
     "need_gold": 400
+   }, 
+   "crops_congchuan": {
+    "category": "crops", 
+    "product": {
+     "kaojirouchuan": {
+      "category": "seeds", 
+      "name": "やきとり", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "congchuan": {
+      "category": "seeds", 
+      "name": "ねぎま", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "ねぎま", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "langshanChook", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "cong", 
+      6
+     ]
+    ], 
+    "need_energy": 22, 
+    "intro": "肉よりネギのほうが美味しいかもしれません。", 
+    "exp": 82, 
+    "need_level": 4, 
+    "need_gold": 56
    }, 
    "crops_huanxianghua": {
     "category": "crops", 
@@ -5593,6 +6042,59 @@
     "exp": 140, 
     "need_level": 5, 
     "need_gold": 1500
+   }, 
+   "crops_mapodoufu": {
+    "category": "crops", 
+    "product": {
+     "mapodoufu": {
+      "category": "seeds", 
+      "name": "マーボー豆腐", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "maladougan": {
+      "category": "seeds", 
+      "name": "押し豆腐のピリ辛炒め", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "マーボー豆腐", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "maodou", 
+      20
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "honglajiao", 
+      15
+     ]
+    ], 
+    "need_energy": 16, 
+    "intro": "中華料理というより四川料理です。", 
+    "exp": 87, 
+    "need_level": 3, 
+    "need_gold": 120
    }, 
    "items_shiyanfeiliao": {
     "category": "items", 
@@ -5713,6 +6215,59 @@
     "exp": 50, 
     "need_level": 3, 
     "need_gold": 500
+   }, 
+   "crops_zhugunongtangmian": {
+    "category": "crops", 
+    "product": {
+     "zhugunongtangmian": {
+      "category": "seeds", 
+      "name": "とんこつラーメン", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "zhupaiwudongguo": {
+      "category": "seeds", 
+      "name": "豚カツうどん", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "とんこつラーメン", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "damai", 
+      12
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      6
+     ]
+    ], 
+    "need_energy": 28, 
+    "intro": "こってりしたラーメンです。", 
+    "exp": 160, 
+    "need_level": 7, 
+    "need_gold": 330
    }, 
    "juice_miganzhi": {
     "category": "juice", 
@@ -5943,6 +6498,225 @@
     "need_level": 0, 
     "need_gold": 10
    }, 
+   "crops_yejunhuoguo": {
+    "category": "crops", 
+    "product": {
+     "yejunhuoguo": {
+      "category": "seeds", 
+      "name": "きのこ鍋", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "yejunniuroutang": {
+      "category": "seeds", 
+      "name": "きのこビーフスープ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "きのこ鍋", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "shenhuniu", 
+      4
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "mogu", 
+      14
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "lajiaojiang", 
+      1
+     ]
+    ], 
+    "need_energy": 32, 
+    "intro": "きのこの鍋とてもヘルシーです。", 
+    "exp": 210, 
+    "need_level": 7, 
+    "need_gold": 320
+   }, 
+   "crops_moguniurouchaofan": {
+    "category": "crops", 
+    "product": {
+     "moguniuroujufan": {
+      "category": "seeds", 
+      "name": "きのこグラタン", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "moguniurouchaofan": {
+      "category": "seeds", 
+      "name": "きのこチャーハン", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "きのこチャーハン", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "mogu", 
+      6
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "shuidao", 
+      12
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "shenhuniu", 
+      4
+     ]
+    ], 
+    "need_energy": 34, 
+    "intro": "きのこをたくさん使ったチャーハン、きのこの食感が別格です。", 
+    "exp": 125, 
+    "need_level": 8, 
+    "need_gold": 330
+   }, 
+   "crops_fanqieguopu": {
+    "category": "crops", 
+    "product": {
+     "fanqiejiang": {
+      "category": "harvest", 
+      "name": "ケチャップ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "fanqieguopu": {
+      "category": "harvest", 
+      "name": "干しトマト", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "干しトマト", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "tomato", 
+      12
+     ]
+    ], 
+    "need_energy": 5, 
+    "intro": "トマトを干す、それだけ。", 
+    "exp": 5, 
+    "need_level": 1, 
+    "need_gold": 10
+   }, 
+   "crops_naiyoukaoyumi": {
+    "category": "crops", 
+    "product": {
+     "naiyouyumitang": {
+      "category": "seeds", 
+      "name": "コーンポタージュ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "naiyoukaoyumi": {
+      "category": "seeds", 
+      "name": "トウモロコシクリーム焼き", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "トウモロコシクリーム焼き", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "corn", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "naiyou", 
+      1
+     ]
+    ], 
+    "need_energy": 30, 
+    "intro": "クリームでトウモロコシの甘みをさらに引き立てます。", 
+    "exp": 196, 
+    "need_level": 9, 
+    "need_gold": 320
+   }, 
    "juice_shucaizhi": {
     "category": "juice", 
     "product": {
@@ -6056,6 +6830,165 @@
     "need_level": 4, 
     "need_gold": 800
    }, 
+   "crops_xiangkaoyangpai": {
+    "category": "crops", 
+    "product": {
+     "xiangkaoyangpai": {
+      "category": "seeds", 
+      "name": "羊の焼肉", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "kaoquanyang": {
+      "category": "seeds", 
+      "name": "羊の丸焼き", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "羊の焼肉", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "semifineWool", 
+      16
+     ]
+    ], 
+    "need_energy": 38, 
+    "intro": "牛肉と違った風味を楽しみましょう。", 
+    "exp": 190, 
+    "need_level": 9, 
+    "need_gold": 420
+   }, 
+   "crops_juxianghuacha": {
+    "category": "crops", 
+    "product": {
+     "shijinshuiguocha": {
+      "category": "seeds", 
+      "name": "フルーツティー", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "juxianghuacha": {
+      "category": "seeds", 
+      "name": "オレンジティー", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "オレンジティー", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "marigold", 
+      7
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "orange", 
+      13
+     ]
+    ], 
+    "need_energy": 15, 
+    "intro": "オレンジでビタミンCを補充しましょう。", 
+    "exp": 89, 
+    "need_level": 3, 
+    "need_gold": 150
+   }, 
+   "crops_jingjiangrousi": {
+    "category": "crops", 
+    "product": {
+     "jingjiangrousi": {
+      "category": "seeds", 
+      "name": "豚肉甘味噌炒め", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "yuxiangrousi": {
+      "category": "seeds", 
+      "name": "細切り肉のからし炒め", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "豚肉甘味噌炒め", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "maodou", 
+      10
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "cong", 
+      5
+     ]
+    ], 
+    "need_energy": 24, 
+    "intro": "中華料理の定番のひとつ押し豆腐で包んで食べましょう。", 
+    "exp": 220, 
+    "need_level": 5, 
+    "need_gold": 200
+   }, 
    "crops_qingtongshu": {
     "category": "crops", 
     "product": {
@@ -6162,6 +7095,59 @@
     "need_level": 5, 
     "need_gold": 900
    }, 
+   "crops_qiukuishala": {
+    "category": "crops", 
+    "product": {
+     "qiukuibiandang": {
+      "category": "seeds", 
+      "name": "オクラ弁当", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "qiukuishala": {
+      "category": "seeds", 
+      "name": "オクラサラダ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "オクラサラダ", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "qiukui", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "zisu", 
+      10
+     ]
+    ], 
+    "need_energy": 14, 
+    "intro": "オクラのサラダ、ダイエットにいいみたいですよ。", 
+    "exp": 30, 
+    "need_level": 2, 
+    "need_gold": 70
+   }, 
    "crops_guoguangpingguo": {
     "category": "crops", 
     "product": {
@@ -6222,6 +7208,112 @@
     "need_level": 2, 
     "need_gold": 300
    }, 
+   "crops_fanqieroujiangmian": {
+    "category": "crops", 
+    "product": {
+     "fanqieroujiangmian": {
+      "category": "seeds", 
+      "name": "ミートソースパスタ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "fanqieniurouyimian": {
+      "category": "seeds", 
+      "name": "ナポリタン", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "ミートソースパスタ", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "damai", 
+      8
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "fanqiejiang", 
+      2
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "friesian", 
+      22
+     ]
+    ], 
+    "need_energy": 24, 
+    "intro": "パスタの定番です。", 
+    "exp": 220, 
+    "need_level": 4, 
+    "need_gold": 78
+   }, 
+   "crops_naiyou": {
+    "category": "crops", 
+    "product": {
+     "huangyou": {
+      "category": "harvest", 
+      "name": "バター", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "naiyou": {
+      "category": "harvest", 
+      "name": "クリーム", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "クリーム", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "juanshanniu", 
+      6
+     ]
+    ], 
+    "need_energy": 8, 
+    "intro": "他のアイテムの材料に使えます。", 
+    "exp": 39, 
+    "need_level": 1, 
+    "need_gold": 60
+   }, 
    "crops_tianyuanji": {
     "category": "crops", 
     "product": {
@@ -6281,6 +7373,218 @@
     "exp": 70, 
     "need_level": 4, 
     "need_gold": 650
+   }, 
+   "crops_lanmeibingjiling": {
+    "category": "crops", 
+    "product": {
+     "lanmeibingjiling": {
+      "category": "seeds", 
+      "name": "ブルーベリーアイス", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "lanmeixiangjiaochuan": {
+      "category": "seeds", 
+      "name": "ブルーベリーパフェ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "ブルーベリーアイス", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "lanmeixin", 
+      13
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "naiyou", 
+      1
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "shuiguojiang", 
+      1
+     ]
+    ], 
+    "need_energy": 17, 
+    "intro": "ブルーベルーを使ったアイスです。", 
+    "exp": 120, 
+    "need_level": 3, 
+    "need_gold": 140
+   }, 
+   "crops_shishutianfuluo": {
+    "category": "crops", 
+    "product": {
+     "tianfuluopinpan": {
+      "category": "seeds", 
+      "name": "天ぷら盛り合わせ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "shishutianfuluo": {
+      "category": "seeds", 
+      "name": "野菜天ぷら", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "野菜天ぷら", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "eggplant", 
+      17
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "qiukui", 
+      10
+     ]
+    ], 
+    "need_energy": 14, 
+    "intro": "", 
+    "exp": 40, 
+    "need_level": 3, 
+    "need_gold": 85
+   }, 
+   "crops_yingtaodangao": {
+    "category": "crops", 
+    "product": {
+     "yingtaodangao": {
+      "category": "seeds", 
+      "name": "サクランボケーキ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "yingtaozhishidangao": {
+      "category": "seeds", 
+      "name": "フルーツケーキ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "サクランボケーキ", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "cherry", 
+      12
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "naiyou", 
+      2
+     ]
+    ], 
+    "need_energy": 26, 
+    "intro": "サクランボを使ったケーキです。", 
+    "exp": 270, 
+    "need_level": 6, 
+    "need_gold": 260
+   }, 
+   "crops_ganlanyou": {
+    "category": "crops", 
+    "product": {
+     "ganlanyou": {
+      "category": "harvest", 
+      "name": "オリーブオイル", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "jingzhiganlanyou": {
+      "category": "harvest", 
+      "name": "高級オリーブオイル", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "オリーブオイル", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "ganlan", 
+      6
+     ]
+    ], 
+    "need_energy": 12, 
+    "intro": "他のアイテムの材料に使えます。", 
+    "exp": 40, 
+    "need_level": 8, 
+    "need_gold": 30
    }, 
    "juice_guosuanjinghua": {
     "category": "juice", 
@@ -6388,6 +7692,52 @@
     "need_level": 1, 
     "need_gold": 30
    }, 
+   "crops_youlicishen": {
+    "category": "crops", 
+    "product": {
+     "youlisanwenyucishen": {
+      "category": "seeds", 
+      "name": "アボカドと赤身の刺身", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "youlicishen": {
+      "category": "seeds", 
+      "name": "アボカドの刺身", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "アボカドの刺身", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "youli", 
+      42
+     ]
+    ], 
+    "need_energy": 10, 
+    "intro": "森のバターアボカドのお刺身。", 
+    "exp": 43, 
+    "need_level": 2, 
+    "need_gold": 62
+   }, 
    "crops_zhuanjiyindanji": {
     "category": "crops", 
     "product": {
@@ -6493,6 +7843,158 @@
     "exp": 50, 
     "need_level": 6, 
     "need_gold": 1500
+   }, 
+   "crops_zhishijumogu": {
+    "category": "crops", 
+    "product": {
+     "zhishijumogu": {
+      "category": "seeds", 
+      "name": "きのこのチーズ焼き", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "zhishimogutang": {
+      "category": "seeds", 
+      "name": "きのこチーズスープ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "きのこのチーズ焼き", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "naiyou", 
+      1
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "mogu", 
+      16
+     ]
+    ], 
+    "need_energy": 30, 
+    "intro": "チーズで焼いたきのこ、チーズの香りときのこの香りのバランスが絶妙です。", 
+    "exp": 175, 
+    "need_level": 7, 
+    "need_gold": 280
+   }, 
+   "crops_lajiaoyou": {
+    "category": "crops", 
+    "product": {
+     "lajiaojiang": {
+      "category": "harvest", 
+      "name": "ピリ辛ソース", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }, 
+     "lajiaoyou": {
+      "category": "harvest", 
+      "name": "ラー油", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "ラー油", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "honglajiao", 
+      15
+     ]
+    ], 
+    "need_energy": 12, 
+    "intro": "他のアイテムの材料に使えます。", 
+    "exp": 40, 
+    "need_level": 2, 
+    "need_gold": 60
+   }, 
+   "crops_boluogulaorou": {
+    "category": "crops", 
+    "product": {
+     "boluogulaorou": {
+      "category": "seeds", 
+      "name": "酢豚", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "guobaorou": {
+      "category": "seeds", 
+      "name": "甘酢豚天", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "酢豚", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "pineapple", 
+      10
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      10
+     ]
+    ], 
+    "need_energy": 26, 
+    "intro": "パイナップルも美味しいですよ！", 
+    "exp": 180, 
+    "need_level": 5, 
+    "need_gold": 120
    }, 
    "crops_chaiquan": {
     "category": "crops", 
