@@ -4818,25 +4818,6 @@
     "goods_description": "\u5897\u7523\u80a5\u6599\u306e\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u7248\u3001\u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb0\u201435\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
-   "songrong": {
-    "original_price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u30de\u30c4\u30bf\u30b1", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "\u30de\u30c4\u30bf\u30b1", 
-    "activity_type": "discount"
-   }, 
    "boheshu": {
     "specific_type": "xin", 
     "product_type": {
@@ -4888,23 +4869,24 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "qinglvmogu": {
+   "songrong": {
+    "original_price": {
+     "num": 38, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "\u30c9\u30ad\u30c9\u30ad", 
-    "start_time": 1280901600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "2\u65e5", 
-    "end_time": 1281074400.0, 
-    "goods_description": "\u3084\u3063\u3068\u4f1a\u3048\u305f\u304d\u306e\u3053\u306e\u306e\u305f\u3061", 
+    "name": "\u30de\u30c4\u30bf\u30b1", 
     "price": {
      "num": 30, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "\u30de\u30c4\u30bf\u30b1", 
+    "activity_type": "discount"
    }, 
    "chashu": {
     "specific_type": "xin", 
@@ -4926,7 +4908,6 @@
      "num": 2, 
      "type": "F_coin"
     }, 
-    "specific_type": "zhe", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
@@ -4937,9 +4918,13 @@
      "num": 1, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "\u30de\u30b8\u30c3\u30af\u80a5\u6599", 
-    "activity_type": "discount"
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3\u65e5", 
+    "end_time": 1281333600.0, 
+    "goods_description": "\u534a\u984d\u671f\u9593\u307e\u3082\u306a\u304f\u7d42\u4e86\u30018\u67089\u65e5\u304b\u3089\u306f\u901a\u5e38\u306e2K\u30b3\u30a4\u30f3\u306b\u623b\u308a\u307e\u3059\u306e\u3067\u3001\u3054\u6ce8\u610f\u304f\u3060\u3055\u3044\u3002", 
+    "start_time": 1281074400.0, 
+    "activity_type": "hot_sale"
    }, 
    "wurong": {
     "original_price": {
