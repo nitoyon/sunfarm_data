@@ -6,32 +6,38 @@
  }, 
  "data": {
   "gift_bags": {
-   "hb_5": {
+   "guoqibaosiqiang": {
     "data": {
      "farm": {
       "seeds": {
-       "mango": 1, 
-       "lavender": 4
-      }, 
-      "properties": {
-       "fertilizer": {
-        "common": 10, 
-        "gaosu": 10
-       }
-      }, 
-      "decorations": {
-       "butterfly": {}, 
-       "huaqiang": {}
+       "xibanyaguoqishu": [
+        1, 
+        1.0
+       ], 
+       "deguoguoqishu": [
+        1, 
+        1.0
+       ], 
+       "wulaguiguoqishu": [
+        1, 
+        1.0
+       ], 
+       "helanguoqishu": [
+        1, 
+        1.0
+       ]
       }
      }
     }, 
     "config": {
-     "price": {
-      "F_coin": 85
-     }, 
      "used": false, 
-     "goods_str": "高速化肥10个、普通化肥10个、薰衣草4个、芒果1个", 
-     "name": "恋の香りギフトセット"
+     "name": "四强国旗包", 
+     "price": {
+      "F_coin": 50
+     }, 
+     "introduce": "四强国旗包", 
+     "state": "xin", 
+     "goods_str": "四强国旗包"
     }
    }, 
    "hb_4": {
@@ -129,6 +135,34 @@
      "goods_str": "ゼブラ一匹、キリン一匹、カンガルー一匹、ハト一匹、ダチョウ一匹、ヤギ一匹が入っています。", 
      "name": "ノベルティ動物セット", 
      "introduce": "ゼブラ一匹、キリン一匹、カンガルー一匹、ハト一匹、ダチョウ一匹、ヤギ一匹が入っています。"
+    }
+   }, 
+   "hb_5": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "mango": 1, 
+       "lavender": 4
+      }, 
+      "properties": {
+       "fertilizer": {
+        "common": 10, 
+        "gaosu": 10
+       }
+      }, 
+      "decorations": {
+       "butterfly": {}, 
+       "huaqiang": {}
+      }
+     }
+    }, 
+    "config": {
+     "price": {
+      "F_coin": 85
+     }, 
+     "used": false, 
+     "goods_str": "高速化肥10个、普通化肥10个、薰衣草4个、芒果1个", 
+     "name": "恋の香りギフトセット"
     }
    }, 
    "siliaobao1": {
