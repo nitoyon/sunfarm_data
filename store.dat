@@ -4833,40 +4833,44 @@
     "goods_description": "\u30df\u30f3\u30c8", 
     "activity_type": "discount"
    }, 
-   "bingyerizhonghua": {
+   "zuinv": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "ranch", 
+     "goods_type": "baby"
     }, 
-    "name": "\u30a2\u30a4\u30b9\u30d7\u30e9\u30f3\u30c8", 
-    "start_time": 1280988000.0, 
-    "modify": false, 
+    "name": "\u30e8\u30c3\u30d1\u30e9\u30a6\u30ab\u30ce\u30b8\u30e7", 
+    "start_time": 1281074400.0, 
+    "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "1\u65e5", 
-    "end_time": 1281074400.0, 
-    "goods_description": "\u30a2\u30a4\u30b9\u30d7\u30e9\u30f3\u30c8", 
+    "limit_time": "3\u65e5", 
+    "end_time": 1281333600.0, 
+    "goods_description": "\u4eba\u6c17\u306e\u30e8\u30c3\u30d1\u30e9\u30a4\u30ab\u30ce\u30b8\u30e7\u304c\u3082\u3069\u3063\u3066\u304d\u307e\u3057\u305f\u3002", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
    }, 
-   "shenqinigerseed": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u9b54\u6cd5\u306e\u9ed2\u30b4\u30de", 
-    "start_time": 1280988000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "1\u65e5", 
-    "end_time": 1281074400.0, 
-    "goods_description": "\u9b54\u6cd5\u306e\u7a2e\u3001\u53ce\u7a6b\u3059\u308b\u3068\u3044\u308d\u3044\u308d\u306a\u30d7\u30ec\u30bc\u30f3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\uff01", 
-    "price": {
-     "num": 25, 
+   "lavender": {
+    "original_price": {
+     "num": 4, 
      "type": "F_coin"
     }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "\u30e9\u30d9\u30f3\u30c0\u30fc", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3\u65e5", 
+    "end_time": 1281333600.0, 
+    "goods_description": "\u8a18\u5ff5\u30a4\u30d9\u30f3\u30c8\u306b\u5fc5\u8981\u306a\u30a2\u30a4\u30c6\u30e0\u3001\u4eca\u3059\u3050\u96c6\u3081\u3088\u3046\uff01", 
+    "start_time": 1281074400.0, 
     "activity_type": "hot_sale"
    }, 
    "songrong": {
