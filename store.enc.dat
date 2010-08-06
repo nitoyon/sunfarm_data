@@ -4818,25 +4818,6 @@
     "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0—35の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "songrong": {
-    "original_price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "マツタケ", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "マツタケ", 
-    "activity_type": "discount"
-   }, 
    "boheshu": {
     "specific_type": "xin", 
     "product_type": {
@@ -4888,23 +4869,24 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "qinglvmogu": {
+   "songrong": {
+    "original_price": {
+     "num": 38, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "ドキドキ", 
-    "start_time": 1280901600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "2日", 
-    "end_time": 1281074400.0, 
-    "goods_description": "やっと会えたきのこののたち", 
+    "name": "マツタケ", 
     "price": {
      "num": 30, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "マツタケ", 
+    "activity_type": "discount"
    }, 
    "chashu": {
     "specific_type": "xin", 
@@ -4926,7 +4908,6 @@
      "num": 2, 
      "type": "F_coin"
     }, 
-    "specific_type": "zhe", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
@@ -4937,9 +4918,13 @@
      "num": 1, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "マジック肥料", 
-    "activity_type": "discount"
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日", 
+    "end_time": 1281333600.0, 
+    "goods_description": "半額期間まもなく終了、8月9日からは通常の2Kコインに戻りますので、ご注意ください。", 
+    "start_time": 1281074400.0, 
+    "activity_type": "hot_sale"
    }, 
    "wurong": {
     "original_price": {
