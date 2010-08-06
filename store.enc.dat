@@ -4873,6 +4873,26 @@
     "start_time": 1281074400.0, 
     "activity_type": "hot_sale"
    }, 
+   "gaosu": {
+    "original_price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
+    }, 
+    "name": "中級飼料", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "使うと動物の生産時間を2時間短縮できます.マイミクに盗まれる前に収穫しちゃいましょう.", 
+    "activity_type": "discount"
+   }, 
    "songrong": {
     "original_price": {
      "num": 38, 
@@ -9701,7 +9721,7 @@
      "fruit_time": 744, 
      "sprout_time": 37, 
      "experience": 4.215, 
-     "used": true, 
+     "used": false, 
      "bloom_time": 568, 
      "sale_price": 16, 
      "seasons": 2, 
@@ -10894,7 +10914,7 @@
     "qinglvmogu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": true, 
+     "used": false, 
      "name": "ドキドキ", 
      "base_fruit": 25, 
      "level_need": 1, 
@@ -13940,7 +13960,7 @@
     "bingyerizhonghua": {
      "total_time": 1410, 
      "leaflet_time": 330, 
-     "used": true, 
+     "used": false, 
      "name": "アイスプラント", 
      "base_fruit": 25, 
      "level_need": 0, 
