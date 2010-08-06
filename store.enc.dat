@@ -4833,40 +4833,44 @@
     "goods_description": "ミント", 
     "activity_type": "discount"
    }, 
-   "bingyerizhonghua": {
+   "zuinv": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "ranch", 
+     "goods_type": "baby"
     }, 
-    "name": "アイスプラント", 
-    "start_time": 1280988000.0, 
-    "modify": false, 
+    "name": "ヨッパラウカノジョ", 
+    "start_time": 1281074400.0, 
+    "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1281074400.0, 
-    "goods_description": "アイスプラント", 
+    "limit_time": "3日", 
+    "end_time": 1281333600.0, 
+    "goods_description": "人気のヨッパライカノジョがもどってきました。", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
    }, 
-   "shenqinigerseed": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "魔法の黒ゴマ", 
-    "start_time": 1280988000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1281074400.0, 
-    "goods_description": "魔法の種、収穫するといろいろなプレゼントがもらえます！", 
-    "price": {
-     "num": 25, 
+   "lavender": {
+    "original_price": {
+     "num": 4, 
      "type": "F_coin"
     }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "ラベンダー", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日", 
+    "end_time": 1281333600.0, 
+    "goods_description": "記念イベントに必要なアイテム、今すぐ集めよう！", 
+    "start_time": 1281074400.0, 
     "activity_type": "hot_sale"
    }, 
    "songrong": {
