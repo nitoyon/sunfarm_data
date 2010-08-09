@@ -4896,13 +4896,13 @@
     }, 
     "name": "\u5927\u592a\u9f13", 
     "start_time": 1281333600.0, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "2\u65e5", 
     "end_time": 1281506400.0, 
     "goods_description": "\u5927\u592a\u9f13", 
     "price": {
-     "num": 100, 
+     "num": 80, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
@@ -4914,13 +4914,13 @@
     }, 
     "name": "\u7de0\u592a\u9f13", 
     "start_time": 1281333600.0, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "2\u65e5", 
     "end_time": 1281506400.0, 
     "goods_description": "\u7de0\u592a\u9f13", 
     "price": {
-     "num": 80, 
+     "num": 100, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
@@ -4980,6 +4980,21 @@
     }, 
     "modify": true, 
     "goods_description": "\u6691\u3044\u65e5\u306b\u306f\u71b1\u3044\u304a\u8336\u3092\u98f2\u3082\u3046", 
+    "activity_type": "discount"
+   }, 
+   "lanqingting": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u9752\u3068\u3093\u307c", 
+    "price": {
+     "num": 8, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "\u9752\u3068\u3093\u307c", 
     "activity_type": "discount"
    }, 
    "wurong": {
