@@ -4858,23 +4858,21 @@
    }
   }, 
   "hot_sale": {
-   "zuinv": {
+   "zengshou1": {
+    "specific_type": "xin", 
     "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "ヨッパラウカノジョ", 
-    "start_time": 1281074400.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1281333600.0, 
-    "goods_description": "人気のヨッパライカノジョがもどってきました。", 
+    "name": "中級増産肥料", 
     "price": {
-     "num": 10, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0—35の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
+    "activity_type": "discount"
    }, 
    "boheshu": {
     "specific_type": "xin", 
@@ -4891,21 +4889,41 @@
     "goods_description": "ミント", 
     "activity_type": "discount"
    }, 
-   "zengshou1": {
-    "specific_type": "xin", 
+   "nirentaigu": {
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "goods_type": "seed"
     }, 
-    "name": "中級増産肥料", 
+    "name": "大太鼓", 
+    "start_time": 1281333600.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "2日", 
+    "end_time": 1281506400.0, 
+    "goods_description": "拟人太鼓", 
     "price": {
-     "num": 15, 
+     "num": 100, 
      "type": "F_coin"
     }, 
+    "activity_type": "hot_sale"
+   }, 
+   "taigu": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "締太鼓", 
+    "start_time": 1281333600.0, 
     "modify": false, 
-    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0—35の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "2日", 
+    "end_time": 1281506400.0, 
+    "goods_description": "太鼓", 
+    "price": {
+     "num": 80, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "gaosu": {
     "original_price": {
@@ -9282,8 +9300,8 @@
     "taigu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "太鼓", 
+     "used": true, 
+     "name": "締太鼓", 
      "base_fruit": 25, 
      "level_need": 1, 
      "fruit_time": 360, 
@@ -14387,8 +14405,8 @@
     "nirentaigu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "拟人太鼓", 
+     "used": true, 
+     "name": "大太鼓", 
      "base_fruit": 25, 
      "level_need": 1, 
      "fruit_time": 360, 
