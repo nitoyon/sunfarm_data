@@ -4858,23 +4858,21 @@
    }
   }, 
   "hot_sale": {
-   "zuinv": {
+   "zengshou1": {
+    "specific_type": "xin", 
     "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "\u30e8\u30c3\u30d1\u30e9\u30a6\u30ab\u30ce\u30b8\u30e7", 
-    "start_time": 1281074400.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3\u65e5", 
-    "end_time": 1281333600.0, 
-    "goods_description": "\u4eba\u6c17\u306e\u30e8\u30c3\u30d1\u30e9\u30a4\u30ab\u30ce\u30b8\u30e7\u304c\u3082\u3069\u3063\u3066\u304d\u307e\u3057\u305f\u3002", 
+    "name": "\u4e2d\u7d1a\u5897\u7523\u80a5\u6599", 
     "price": {
-     "num": 10, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "\u5897\u7523\u80a5\u6599\u306e\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u7248\u3001\u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb0\u201435\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
+    "activity_type": "discount"
    }, 
    "boheshu": {
     "specific_type": "xin", 
@@ -4891,21 +4889,41 @@
     "goods_description": "\u30df\u30f3\u30c8", 
     "activity_type": "discount"
    }, 
-   "zengshou1": {
-    "specific_type": "xin", 
+   "nirentaigu": {
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "goods_type": "seed"
     }, 
-    "name": "\u4e2d\u7d1a\u5897\u7523\u80a5\u6599", 
+    "name": "\u5927\u592a\u9f13", 
+    "start_time": 1281333600.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "2\u65e5", 
+    "end_time": 1281506400.0, 
+    "goods_description": "\u62df\u4eba\u592a\u9f13", 
     "price": {
-     "num": 15, 
+     "num": 100, 
      "type": "F_coin"
     }, 
+    "activity_type": "hot_sale"
+   }, 
+   "taigu": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u7de0\u592a\u9f13", 
+    "start_time": 1281333600.0, 
     "modify": false, 
-    "goods_description": "\u5897\u7523\u80a5\u6599\u306e\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u7248\u3001\u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb0\u201435\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "2\u65e5", 
+    "end_time": 1281506400.0, 
+    "goods_description": "\u592a\u9f13", 
+    "price": {
+     "num": 80, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "gaosu": {
     "original_price": {
@@ -9282,8 +9300,8 @@
     "taigu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "\u592a\u9f13", 
+     "used": true, 
+     "name": "\u7de0\u592a\u9f13", 
      "base_fruit": 25, 
      "level_need": 1, 
      "fruit_time": 360, 
@@ -14387,8 +14405,8 @@
     "nirentaigu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "\u62df\u4eba\u592a\u9f13", 
+     "used": true, 
+     "name": "\u5927\u592a\u9f13", 
      "base_fruit": 25, 
      "level_need": 1, 
      "fruit_time": 360, 
