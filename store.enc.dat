@@ -2600,10 +2600,10 @@
       "used": true, 
       "name": "マジック飼料", 
       "price": {
-       "F_coin": 1
+       "F_coin": 2
       }, 
       "effect": 0.5, 
-      "introduce": "使うと動物の生産時間を0.5時間短縮できます。同じ段階で何個でも使えます。テスト期間、半額で提供させていただきます。", 
+      "introduce": "使うと動物の生産時間を0.5時間短縮できます。同じ段階で何個でも使えます。", 
       "state": "re"
      }, 
      "gaoji": {
@@ -4963,29 +4963,6 @@
     "modify": true, 
     "goods_description": "暑い日には熱いお茶を飲もう", 
     "activity_type": "discount"
-   }, 
-   "xunjie": {
-    "original_price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック肥料", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1281333600.0, 
-    "goods_description": "半額期間まもなく終了、8月9日からは通常の2Kコインに戻りますので、ご注意ください。", 
-    "start_time": 1281074400.0, 
-    "activity_type": "hot_sale"
    }, 
    "wurong": {
     "original_price": {
@@ -15242,10 +15219,10 @@
       "used": true, 
       "name": "マジック肥料", 
       "price": {
-       "F_coin": 1
+       "F_coin": 2
       }, 
       "effect": 0.5, 
-      "introduce": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。テスト期間、半額で提供させていただきます。", 
+      "introduce": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。", 
       "state": "re"
      }, 
      "gaoji": {
