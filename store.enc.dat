@@ -1099,6 +1099,28 @@
      "name": "飼料ギフトセット"
     }
    }, 
+   "putaobao": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "shuijingputao": [
+        10, 
+        1.0
+       ]
+      }
+     }
+    }, 
+    "config": {
+     "used": false, 
+     "name": "紫水晶葡萄种子包", 
+     "price": {
+      "F_coin": 10
+     }, 
+     "introduce": "紫水晶葡萄10个", 
+     "state": "xin", 
+     "goods_str": "紫水晶葡萄10个"
+    }
+   }, 
    "dongwu_1": {
     "data": {
      "ranch": {
