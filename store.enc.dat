@@ -4858,37 +4858,6 @@
    }
   }, 
   "hot_sale": {
-   "zengshou1": {
-    "specific_type": "xin", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "中級増産肥料", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0—35の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-    "activity_type": "discount"
-   }, 
-   "boheshu": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "ミント", 
-    "price": {
-     "num": 475, 
-     "type": "gold"
-    }, 
-    "modify": true, 
-    "goods_description": "ミント", 
-    "activity_type": "discount"
-   }, 
    "zuinv": {
     "product_type": {
      "scene_type": "ranch", 
@@ -4907,34 +4876,42 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "lavender": {
-    "original_price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
+   "boheshu": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
-     "goods_type": "flower"
+     "goods_type": "seed"
     }, 
-    "name": "ラベンダー", 
+    "name": "ミント", 
     "price": {
-     "num": 3, 
-     "type": "F_coin"
+     "num": 475, 
+     "type": "gold"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1281333600.0, 
-    "goods_description": "記念イベントに必要なアイテム、今すぐ集めよう！", 
-    "start_time": 1281074400.0, 
-    "activity_type": "hot_sale"
+    "goods_description": "ミント", 
+    "activity_type": "discount"
+   }, 
+   "zengshou1": {
+    "specific_type": "xin", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "中級増産肥料", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0—35の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
+    "activity_type": "discount"
    }, 
    "gaosu": {
     "original_price": {
      "num": 3, 
      "type": "F_coin"
     }, 
-    "specific_type": "zhe", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "ranch", 
@@ -4946,8 +4923,12 @@
      "type": "F_coin"
     }, 
     "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1281420000.0, 
     "goods_description": "使うと動物の生産時間を2時間短縮できます.マイミクに盗まれる前に収穫しちゃいましょう.", 
-    "activity_type": "discount"
+    "start_time": 1281333600.0, 
+    "activity_type": "hot_sale"
    }, 
    "songrong": {
     "original_price": {
