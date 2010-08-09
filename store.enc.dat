@@ -4896,13 +4896,13 @@
     }, 
     "name": "大太鼓", 
     "start_time": 1281333600.0, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "2日", 
     "end_time": 1281506400.0, 
     "goods_description": "大太鼓", 
     "price": {
-     "num": 100, 
+     "num": 80, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
@@ -4914,13 +4914,13 @@
     }, 
     "name": "締太鼓", 
     "start_time": 1281333600.0, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "2日", 
     "end_time": 1281506400.0, 
     "goods_description": "締太鼓", 
     "price": {
-     "num": 80, 
+     "num": 100, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
@@ -4980,6 +4980,21 @@
     }, 
     "modify": true, 
     "goods_description": "暑い日には熱いお茶を飲もう", 
+    "activity_type": "discount"
+   }, 
+   "lanqingting": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "青とんぼ", 
+    "price": {
+     "num": 8, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "青とんぼ", 
     "activity_type": "discount"
    }, 
    "wurong": {
