@@ -3497,7 +3497,7 @@
     "shuidi": {
      "total_time": 600, 
      "harvest_type": 3, 
-     "used": false, 
+     "used": true, 
      "name": "シズク", 
      "base_fruit": 25, 
      "fruit_time": 300, 
@@ -4947,27 +4947,22 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "gaosu": {
-    "original_price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
+   "shuidi": {
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
+     "goods_type": "baby"
     }, 
-    "name": "中級飼料", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
+    "name": "シズク", 
+    "start_time": 1281420000.0, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1281420000.0, 
-    "goods_description": "使うと動物の生産時間を2時間短縮できます.マイミクに盗まれる前に収穫しちゃいましょう.", 
-    "start_time": 1281333600.0, 
+    "limit_time": "2日", 
+    "end_time": 1281592800.0, 
+    "goods_description": "シズク.", 
+    "price": {
+     "num": 5, 
+     "type": "F_coin"
+    }, 
     "activity_type": "hot_sale"
    }, 
    "songrong": {
