@@ -5304,51 +5304,43 @@
     "need_level": 5, 
     "need_gold": 1500
    }, 
-   "crops_hongtang": {
+   "crops_starsalad": {
     "category": "crops", 
     "product": {
-     "hongtang": {
+     "starsalad": {
       "category": "harvest", 
-      "name": "黒砂糖", 
+      "name": "スターサラダ", 
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
        100
       ], 
       "goods_type": ""
-     }, 
-     "baitang": {
-      "category": "harvest", 
-      "name": "砂糖", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       0, 
-       5, 
-       10, 
-       15, 
-       20, 
-       25
-      ], 
-      "goods_type": ""
      }
     }, 
-    "name": "黒砂糖", 
+    "name": "スターサラダ", 
     "skilled": 1, 
     "materials": [
      [
       "farm", 
       "harvest", 
       "", 
-      "gan_zhe", 
-      10
+      "yangtao", 
+      4
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "hongmaodanxin", 
+      3
      ]
     ], 
-    "need_energy": 15, 
-    "intro": "他のアイテムの材料に使えます", 
-    "exp": 80, 
+    "need_energy": 4, 
+    "intro": "高級産物がありません、直接倉庫に入ります", 
+    "exp": 22, 
     "need_level": 4, 
-    "need_gold": 45
+    "need_gold": 7
    }, 
    "crops_danhuangjiang": {
     "category": "crops", 
@@ -5455,6 +5447,59 @@
     "exp": 70, 
     "need_level": 4, 
     "need_gold": 650
+   }, 
+   "crops_boluogulaorou": {
+    "category": "crops", 
+    "product": {
+     "boluogulaorou": {
+      "category": "seeds", 
+      "name": "酢豚", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "guobaorou": {
+      "category": "seeds", 
+      "name": "甘酢豚天", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "酢豚", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "pineapple", 
+      10
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      10
+     ]
+    ], 
+    "need_energy": 26, 
+    "intro": "パイナップルも美味しいですよ", 
+    "exp": 180, 
+    "need_level": 5, 
+    "need_gold": 120
    }, 
    "crops_suanrulao": {
     "category": "crops", 
@@ -5714,6 +5759,37 @@
     "need_level": 8, 
     "need_gold": 370
    }, 
+   "crops_shanzhusalad": {
+    "category": "crops", 
+    "product": {
+     "shanzhusalad": {
+      "category": "harvest", 
+      "name": "マンゴスチンサラダ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "マンゴスチンサラダ", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "shanzhu", 
+      7
+     ]
+    ], 
+    "need_energy": 4, 
+    "intro": "高級産物がありません、直接倉庫に入ります", 
+    "exp": 18, 
+    "need_level": 5, 
+    "need_gold": 7
+   }, 
    "crops_jiangbaojiding": {
     "category": "crops", 
     "product": {
@@ -5932,6 +6008,37 @@
     "exp": 120, 
     "need_level": 9, 
     "need_gold": 400
+   }, 
+   "crops_kaosongrong": {
+    "category": "crops", 
+    "product": {
+     "kaosongrong": {
+      "category": "harvest", 
+      "name": "焼き松茸", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "焼き松茸", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "songrong", 
+      2
+     ]
+    ], 
+    "need_energy": 3, 
+    "intro": "高級産物がありません、直接倉庫に入ります", 
+    "exp": 19, 
+    "need_level": 0, 
+    "need_gold": 7
    }, 
    "juice_mangguozhi": {
     "category": "juice", 
@@ -6152,14 +6259,24 @@
     "need_level": 3, 
     "need_gold": 120
    }, 
-   "items_shiyanfeiliao": {
-    "category": "items", 
+   "juice_guosuanjinghua": {
+    "category": "juice", 
     "product": {
-     "zengshou8": {
-      "category": "properties", 
-      "name": "合成肥料(中)", 
+     "guosuanjinghua": {
+      "category": "juice", 
+      "name": "フルーツ酸", 
       "seedtype": "", 
-      "scene_type": "farm", 
+      "scene_type": "factory", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "boluozhi": {
+      "category": "juice", 
+      "name": "パイナップルジュース", 
+      "seedtype": "", 
+      "scene_type": "factory", 
       "appear_rate": [
        0, 
        5, 
@@ -6168,49 +6285,25 @@
        20, 
        25
       ], 
-      "goods_type": "fertilizer"
-     }, 
-     "zengshou7": {
-      "category": "properties", 
-      "name": "合成肥料(低)", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       100
-      ], 
-      "goods_type": "fertilizer"
+      "goods_type": ""
      }
     }, 
-    "name": "合成肥料(低)", 
+    "name": "フルーツ酸", 
     "skilled": 1, 
     "materials": [
-     [
-      "ranch", 
-      "harvest", 
-      "", 
-      "goose", 
-      15
-     ], 
      [
       "farm", 
       "harvest", 
       "", 
-      "goldenmelon", 
-      10
-     ], 
-     [
-      "ranch", 
-      "harvest", 
-      "", 
-      "beijingDuck", 
-      15
+      "pineapple", 
+      7
      ]
     ], 
-    "need_energy": 18, 
-    "intro": "LV1～9の作物の増産量を一回だけ10%アップさせます（花には使えません）", 
+    "need_energy": 0, 
+    "intro": "使用するとスタミナが55ポイント回復します", 
     "exp": 30, 
-    "need_level": 2, 
-    "need_gold": 300
+    "need_level": 4, 
+    "need_gold": 600
    }, 
    "crops_hongfushi": {
     "category": "crops", 
@@ -6614,6 +6707,97 @@
     "need_level": 7, 
     "need_gold": 320
    }, 
+   "crops_fanqieroujiangmian": {
+    "category": "crops", 
+    "product": {
+     "fanqieroujiangmian": {
+      "category": "seeds", 
+      "name": "ミートソースパスタ", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "fanqieniurouyimian": {
+      "category": "seeds", 
+      "name": "ナポリタン", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "ミートソースパスタ", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "damai", 
+      8
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "fanqiejiang", 
+      2
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "friesian", 
+      22
+     ]
+    ], 
+    "need_energy": 24, 
+    "intro": "パスタの定番です", 
+    "exp": 220, 
+    "need_level": 4, 
+    "need_gold": 78
+   }, 
+   "crops_kaoyumi": {
+    "category": "crops", 
+    "product": {
+     "kaoyumi": {
+      "category": "harvest", 
+      "name": "焼きとうもろこし", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "焼きとうもろこし", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "corn", 
+      11
+     ]
+    ], 
+    "need_energy": 2, 
+    "intro": "高級産物がありません、直接倉庫に入ります。", 
+    "exp": 9, 
+    "need_level": 0, 
+    "need_gold": 7
+   }, 
    "crops_moguniurouchaofan": {
     "category": "crops", 
     "product": {
@@ -6885,6 +7069,37 @@
     "exp": 90, 
     "need_level": 4, 
     "need_gold": 800
+   }, 
+   "crops_meigan": {
+    "category": "crops", 
+    "product": {
+     "meigan": {
+      "category": "harvest", 
+      "name": "梅干", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "梅干", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "meizi", 
+      4
+     ]
+    ], 
+    "need_energy": 3, 
+    "intro": "高級産物がありません、直接倉庫に入ります", 
+    "exp": 20, 
+    "need_level": 3, 
+    "need_gold": 7
    }, 
    "crops_xiangkaoyangpai": {
     "category": "crops", 
@@ -7264,65 +7479,36 @@
     "need_level": 2, 
     "need_gold": 300
    }, 
-   "crops_fanqieroujiangmian": {
+   "crops_caomeituan": {
     "category": "crops", 
     "product": {
-     "fanqieroujiangmian": {
-      "category": "seeds", 
-      "name": "ミートソースパスタ", 
+     "caomeituan": {
+      "category": "harvest", 
+      "name": "いちご大福", 
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
        100
       ], 
       "goods_type": ""
-     }, 
-     "fanqieniurouyimian": {
-      "category": "seeds", 
-      "name": "ナポリタン", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       0, 
-       5, 
-       10, 
-       15, 
-       20, 
-       25
-      ], 
-      "goods_type": ""
      }
     }, 
-    "name": "ミートソースパスタ", 
+    "name": "いちご大福", 
     "skilled": 1, 
     "materials": [
      [
       "farm", 
       "harvest", 
       "", 
-      "damai", 
-      8
-     ], 
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "fanqiejiang", 
-      2
-     ], 
-     [
-      "ranch", 
-      "harvest", 
-      "", 
-      "friesian", 
-      22
+      "strawberry", 
+      6
      ]
     ], 
-    "need_energy": 24, 
-    "intro": "パスタの定番です", 
-    "exp": 220, 
-    "need_level": 4, 
-    "need_gold": 78
+    "need_energy": 2, 
+    "intro": "高級産物がありません、直接倉庫に入ります", 
+    "exp": 15, 
+    "need_level": 1, 
+    "need_gold": 7
    }, 
    "crops_naiyou": {
     "category": "crops", 
@@ -7642,24 +7828,14 @@
     "need_level": 8, 
     "need_gold": 30
    }, 
-   "juice_guosuanjinghua": {
-    "category": "juice", 
+   "items_shiyanfeiliao": {
+    "category": "items", 
     "product": {
-     "guosuanjinghua": {
-      "category": "juice", 
-      "name": "フルーツ酸", 
+     "zengshou8": {
+      "category": "properties", 
+      "name": "合成肥料(中)", 
       "seedtype": "", 
-      "scene_type": "factory", 
-      "appear_rate": [
-       100
-      ], 
-      "goods_type": ""
-     }, 
-     "boluozhi": {
-      "category": "juice", 
-      "name": "パイナップルジュース", 
-      "seedtype": "", 
-      "scene_type": "factory", 
+      "scene_type": "farm", 
       "appear_rate": [
        0, 
        5, 
@@ -7668,25 +7844,49 @@
        20, 
        25
       ], 
-      "goods_type": ""
+      "goods_type": "fertilizer"
+     }, 
+     "zengshou7": {
+      "category": "properties", 
+      "name": "合成肥料(低)", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": "fertilizer"
      }
     }, 
-    "name": "フルーツ酸", 
+    "name": "合成肥料(低)", 
     "skilled": 1, 
     "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "goose", 
+      15
+     ], 
      [
       "farm", 
       "harvest", 
       "", 
-      "pineapple", 
-      7
+      "goldenmelon", 
+      10
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "beijingDuck", 
+      15
      ]
     ], 
-    "need_energy": 0, 
-    "intro": "使用するとスタミナが55ポイント回復します", 
+    "need_energy": 18, 
+    "intro": "LV1～9の作物の増産量を一回だけ10%アップさせます（花には使えません）", 
     "exp": 30, 
-    "need_level": 4, 
-    "need_gold": 600
+    "need_level": 2, 
+    "need_gold": 300
    }, 
    "crops_jiajiepingguo": {
     "category": "crops", 
@@ -7999,12 +8199,12 @@
     "need_level": 2, 
     "need_gold": 60
    }, 
-   "crops_boluogulaorou": {
+   "crops_hongtang": {
     "category": "crops", 
     "product": {
-     "boluogulaorou": {
-      "category": "seeds", 
-      "name": "酢豚", 
+     "hongtang": {
+      "category": "harvest", 
+      "name": "黒砂糖", 
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
@@ -8012,9 +8212,9 @@
       ], 
       "goods_type": ""
      }, 
-     "guobaorou": {
-      "category": "seeds", 
-      "name": "甘酢豚天", 
+     "baitang": {
+      "category": "harvest", 
+      "name": "砂糖", 
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
@@ -8028,29 +8228,113 @@
       "goods_type": ""
      }
     }, 
-    "name": "酢豚", 
+    "name": "黒砂糖", 
     "skilled": 1, 
     "materials": [
      [
       "farm", 
       "harvest", 
       "", 
-      "pineapple", 
+      "gan_zhe", 
       10
+     ]
+    ], 
+    "need_energy": 15, 
+    "intro": "他のアイテムの材料に使えます", 
+    "exp": 80, 
+    "need_level": 4, 
+    "need_gold": 45
+   }, 
+   "crops_moshubang": {
+    "category": "crops", 
+    "product": {
+     "moshubang": {
+      "category": "harvest", 
+      "name": "マジックスティック", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "mofabang": {
+      "category": "harvest", 
+      "name": "マジックスティックEX", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "マジックスティック", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "mexicocactus", 
+      4
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "flycatcher", 
+      5
      ], 
      [
       "ranch", 
       "harvest", 
       "", 
-      "huazhu", 
-      10
+      "sheep", 
+      4
      ]
     ], 
-    "need_energy": 26, 
-    "intro": "パイナップルも美味しいですよ", 
-    "exp": 180, 
-    "need_level": 5, 
-    "need_gold": 120
+    "need_energy": 35, 
+    "intro": "不思議な魔力を持つマジックスティック", 
+    "exp": 60, 
+    "need_level": 4, 
+    "need_gold": 700
+   }, 
+   "crops_yingtaojiang": {
+    "category": "crops", 
+    "product": {
+     "yingtaojiang": {
+      "category": "harvest", 
+      "name": "さくらんぼジャム", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "さくらんぼジャム", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "cherry", 
+      3
+     ]
+    ], 
+    "need_energy": 3, 
+    "intro": "高級産物がありません、直接倉庫に入ります", 
+    "exp": 17, 
+    "need_level": 2, 
+    "need_gold": 7
    }, 
    "crops_chaiquan": {
     "category": "crops", 
@@ -8112,65 +8396,36 @@
     "need_level": 5, 
     "need_gold": 1200
    }, 
-   "crops_moshubang": {
+   "crops_lavendertea": {
     "category": "crops", 
     "product": {
-     "moshubang": {
+     "lavendertea": {
       "category": "harvest", 
-      "name": "マジックスティック", 
+      "name": "ラベンダーティー", 
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
        100
       ], 
       "goods_type": ""
-     }, 
-     "mofabang": {
-      "category": "harvest", 
-      "name": "マジックスティックEX", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       0, 
-       5, 
-       10, 
-       15, 
-       20, 
-       25
-      ], 
-      "goods_type": ""
      }
     }, 
-    "name": "マジックスティック", 
+    "name": "ラベンダーティー", 
     "skilled": 1, 
     "materials": [
      [
       "farm", 
       "harvest", 
       "", 
-      "mexicocactus", 
-      4
-     ], 
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "flycatcher", 
-      5
-     ], 
-     [
-      "ranch", 
-      "harvest", 
-      "", 
-      "sheep", 
+      "lavender", 
       4
      ]
     ], 
-    "need_energy": 35, 
-    "intro": "不思議な魔力を持つマジックスティック", 
-    "exp": 60, 
-    "need_level": 4, 
-    "need_gold": 700
+    "need_energy": 3, 
+    "intro": "高級産物がありません、直接倉庫に入ります", 
+    "exp": 10, 
+    "need_level": 0, 
+    "need_gold": 7
    }
   }, 
   "farm": {
@@ -12475,7 +12730,7 @@
      "total_time": 1920, 
      "leaflet_time": 150, 
      "used": false, 
-     "name": "いちごジャム", 
+     "name": "さくらんぼジャム", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 900, 
@@ -13022,7 +13277,7 @@
      "total_time": 1920, 
      "leaflet_time": 150, 
      "used": false, 
-     "name": "いちこ大福", 
+     "name": "いちご大福", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 900, 
