@@ -5304,51 +5304,43 @@
     "need_level": 5, 
     "need_gold": 1500
    }, 
-   "crops_hongtang": {
+   "crops_starsalad": {
     "category": "crops", 
     "product": {
-     "hongtang": {
+     "starsalad": {
       "category": "harvest", 
-      "name": "\u9ed2\u7802\u7cd6", 
+      "name": "\u30b9\u30bf\u30fc\u30b5\u30e9\u30c0", 
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
        100
       ], 
       "goods_type": ""
-     }, 
-     "baitang": {
-      "category": "harvest", 
-      "name": "\u7802\u7cd6", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       0, 
-       5, 
-       10, 
-       15, 
-       20, 
-       25
-      ], 
-      "goods_type": ""
      }
     }, 
-    "name": "\u9ed2\u7802\u7cd6", 
+    "name": "\u30b9\u30bf\u30fc\u30b5\u30e9\u30c0", 
     "skilled": 1, 
     "materials": [
      [
       "farm", 
       "harvest", 
       "", 
-      "gan_zhe", 
-      10
+      "yangtao", 
+      4
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "hongmaodanxin", 
+      3
      ]
     ], 
-    "need_energy": 15, 
-    "intro": "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u6750\u6599\u306b\u4f7f\u3048\u307e\u3059", 
-    "exp": 80, 
+    "need_energy": 4, 
+    "intro": "\u9ad8\u7d1a\u7523\u7269\u304c\u3042\u308a\u307e\u305b\u3093\u3001\u76f4\u63a5\u5009\u5eab\u306b\u5165\u308a\u307e\u3059", 
+    "exp": 22, 
     "need_level": 4, 
-    "need_gold": 45
+    "need_gold": 7
    }, 
    "crops_danhuangjiang": {
     "category": "crops", 
@@ -5455,6 +5447,59 @@
     "exp": 70, 
     "need_level": 4, 
     "need_gold": 650
+   }, 
+   "crops_boluogulaorou": {
+    "category": "crops", 
+    "product": {
+     "boluogulaorou": {
+      "category": "seeds", 
+      "name": "\u9162\u8c5a", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "guobaorou": {
+      "category": "seeds", 
+      "name": "\u7518\u9162\u8c5a\u5929", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "\u9162\u8c5a", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "pineapple", 
+      10
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "huazhu", 
+      10
+     ]
+    ], 
+    "need_energy": 26, 
+    "intro": "\u30d1\u30a4\u30ca\u30c3\u30d7\u30eb\u3082\u7f8e\u5473\u3057\u3044\u3067\u3059\u3088", 
+    "exp": 180, 
+    "need_level": 5, 
+    "need_gold": 120
    }, 
    "crops_suanrulao": {
     "category": "crops", 
@@ -5714,6 +5759,37 @@
     "need_level": 8, 
     "need_gold": 370
    }, 
+   "crops_shanzhusalad": {
+    "category": "crops", 
+    "product": {
+     "shanzhusalad": {
+      "category": "harvest", 
+      "name": "\u30de\u30f3\u30b4\u30b9\u30c1\u30f3\u30b5\u30e9\u30c0", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "\u30de\u30f3\u30b4\u30b9\u30c1\u30f3\u30b5\u30e9\u30c0", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "shanzhu", 
+      7
+     ]
+    ], 
+    "need_energy": 4, 
+    "intro": "\u9ad8\u7d1a\u7523\u7269\u304c\u3042\u308a\u307e\u305b\u3093\u3001\u76f4\u63a5\u5009\u5eab\u306b\u5165\u308a\u307e\u3059", 
+    "exp": 18, 
+    "need_level": 5, 
+    "need_gold": 7
+   }, 
    "crops_jiangbaojiding": {
     "category": "crops", 
     "product": {
@@ -5932,6 +6008,37 @@
     "exp": 120, 
     "need_level": 9, 
     "need_gold": 400
+   }, 
+   "crops_kaosongrong": {
+    "category": "crops", 
+    "product": {
+     "kaosongrong": {
+      "category": "harvest", 
+      "name": "\u713c\u304d\u677e\u8338", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "\u713c\u304d\u677e\u8338", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "songrong", 
+      2
+     ]
+    ], 
+    "need_energy": 3, 
+    "intro": "\u9ad8\u7d1a\u7523\u7269\u304c\u3042\u308a\u307e\u305b\u3093\u3001\u76f4\u63a5\u5009\u5eab\u306b\u5165\u308a\u307e\u3059", 
+    "exp": 19, 
+    "need_level": 0, 
+    "need_gold": 7
    }, 
    "juice_mangguozhi": {
     "category": "juice", 
@@ -6152,14 +6259,24 @@
     "need_level": 3, 
     "need_gold": 120
    }, 
-   "items_shiyanfeiliao": {
-    "category": "items", 
+   "juice_guosuanjinghua": {
+    "category": "juice", 
     "product": {
-     "zengshou8": {
-      "category": "properties", 
-      "name": "\u5408\u6210\u80a5\u6599(\u4e2d)", 
+     "guosuanjinghua": {
+      "category": "juice", 
+      "name": "\u30d5\u30eb\u30fc\u30c4\u9178", 
       "seedtype": "", 
-      "scene_type": "farm", 
+      "scene_type": "factory", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "boluozhi": {
+      "category": "juice", 
+      "name": "\u30d1\u30a4\u30ca\u30c3\u30d7\u30eb\u30b8\u30e5\u30fc\u30b9", 
+      "seedtype": "", 
+      "scene_type": "factory", 
       "appear_rate": [
        0, 
        5, 
@@ -6168,49 +6285,25 @@
        20, 
        25
       ], 
-      "goods_type": "fertilizer"
-     }, 
-     "zengshou7": {
-      "category": "properties", 
-      "name": "\u5408\u6210\u80a5\u6599(\u4f4e)", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       100
-      ], 
-      "goods_type": "fertilizer"
+      "goods_type": ""
      }
     }, 
-    "name": "\u5408\u6210\u80a5\u6599(\u4f4e)", 
+    "name": "\u30d5\u30eb\u30fc\u30c4\u9178", 
     "skilled": 1, 
     "materials": [
-     [
-      "ranch", 
-      "harvest", 
-      "", 
-      "goose", 
-      15
-     ], 
      [
       "farm", 
       "harvest", 
       "", 
-      "goldenmelon", 
-      10
-     ], 
-     [
-      "ranch", 
-      "harvest", 
-      "", 
-      "beijingDuck", 
-      15
+      "pineapple", 
+      7
      ]
     ], 
-    "need_energy": 18, 
-    "intro": "LV1\uff5e9\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u3092\u4e00\u56de\u3060\u305110%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09", 
+    "need_energy": 0, 
+    "intro": "\u4f7f\u7528\u3059\u308b\u3068\u30b9\u30bf\u30df\u30ca\u304c55\u30dd\u30a4\u30f3\u30c8\u56de\u5fa9\u3057\u307e\u3059", 
     "exp": 30, 
-    "need_level": 2, 
-    "need_gold": 300
+    "need_level": 4, 
+    "need_gold": 600
    }, 
    "crops_hongfushi": {
     "category": "crops", 
@@ -6614,6 +6707,97 @@
     "need_level": 7, 
     "need_gold": 320
    }, 
+   "crops_fanqieroujiangmian": {
+    "category": "crops", 
+    "product": {
+     "fanqieroujiangmian": {
+      "category": "seeds", 
+      "name": "\u30df\u30fc\u30c8\u30bd\u30fc\u30b9\u30d1\u30b9\u30bf", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "fanqieniurouyimian": {
+      "category": "seeds", 
+      "name": "\u30ca\u30dd\u30ea\u30bf\u30f3", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "\u30df\u30fc\u30c8\u30bd\u30fc\u30b9\u30d1\u30b9\u30bf", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "damai", 
+      8
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "fanqiejiang", 
+      2
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "friesian", 
+      22
+     ]
+    ], 
+    "need_energy": 24, 
+    "intro": "\u30d1\u30b9\u30bf\u306e\u5b9a\u756a\u3067\u3059", 
+    "exp": 220, 
+    "need_level": 4, 
+    "need_gold": 78
+   }, 
+   "crops_kaoyumi": {
+    "category": "crops", 
+    "product": {
+     "kaoyumi": {
+      "category": "harvest", 
+      "name": "\u713c\u304d\u3068\u3046\u3082\u308d\u3053\u3057", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "\u713c\u304d\u3068\u3046\u3082\u308d\u3053\u3057", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "corn", 
+      11
+     ]
+    ], 
+    "need_energy": 2, 
+    "intro": "\u9ad8\u7d1a\u7523\u7269\u304c\u3042\u308a\u307e\u305b\u3093\u3001\u76f4\u63a5\u5009\u5eab\u306b\u5165\u308a\u307e\u3059\u3002", 
+    "exp": 9, 
+    "need_level": 0, 
+    "need_gold": 7
+   }, 
    "crops_moguniurouchaofan": {
     "category": "crops", 
     "product": {
@@ -6885,6 +7069,37 @@
     "exp": 90, 
     "need_level": 4, 
     "need_gold": 800
+   }, 
+   "crops_meigan": {
+    "category": "crops", 
+    "product": {
+     "meigan": {
+      "category": "harvest", 
+      "name": "\u6885\u5e72", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "\u6885\u5e72", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "meizi", 
+      4
+     ]
+    ], 
+    "need_energy": 3, 
+    "intro": "\u9ad8\u7d1a\u7523\u7269\u304c\u3042\u308a\u307e\u305b\u3093\u3001\u76f4\u63a5\u5009\u5eab\u306b\u5165\u308a\u307e\u3059", 
+    "exp": 20, 
+    "need_level": 3, 
+    "need_gold": 7
    }, 
    "crops_xiangkaoyangpai": {
     "category": "crops", 
@@ -7264,65 +7479,36 @@
     "need_level": 2, 
     "need_gold": 300
    }, 
-   "crops_fanqieroujiangmian": {
+   "crops_caomeituan": {
     "category": "crops", 
     "product": {
-     "fanqieroujiangmian": {
-      "category": "seeds", 
-      "name": "\u30df\u30fc\u30c8\u30bd\u30fc\u30b9\u30d1\u30b9\u30bf", 
+     "caomeituan": {
+      "category": "harvest", 
+      "name": "\u3044\u3061\u3054\u5927\u798f", 
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
        100
       ], 
       "goods_type": ""
-     }, 
-     "fanqieniurouyimian": {
-      "category": "seeds", 
-      "name": "\u30ca\u30dd\u30ea\u30bf\u30f3", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       0, 
-       5, 
-       10, 
-       15, 
-       20, 
-       25
-      ], 
-      "goods_type": ""
      }
     }, 
-    "name": "\u30df\u30fc\u30c8\u30bd\u30fc\u30b9\u30d1\u30b9\u30bf", 
+    "name": "\u3044\u3061\u3054\u5927\u798f", 
     "skilled": 1, 
     "materials": [
      [
       "farm", 
       "harvest", 
       "", 
-      "damai", 
-      8
-     ], 
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "fanqiejiang", 
-      2
-     ], 
-     [
-      "ranch", 
-      "harvest", 
-      "", 
-      "friesian", 
-      22
+      "strawberry", 
+      6
      ]
     ], 
-    "need_energy": 24, 
-    "intro": "\u30d1\u30b9\u30bf\u306e\u5b9a\u756a\u3067\u3059", 
-    "exp": 220, 
-    "need_level": 4, 
-    "need_gold": 78
+    "need_energy": 2, 
+    "intro": "\u9ad8\u7d1a\u7523\u7269\u304c\u3042\u308a\u307e\u305b\u3093\u3001\u76f4\u63a5\u5009\u5eab\u306b\u5165\u308a\u307e\u3059", 
+    "exp": 15, 
+    "need_level": 1, 
+    "need_gold": 7
    }, 
    "crops_naiyou": {
     "category": "crops", 
@@ -7642,24 +7828,14 @@
     "need_level": 8, 
     "need_gold": 30
    }, 
-   "juice_guosuanjinghua": {
-    "category": "juice", 
+   "items_shiyanfeiliao": {
+    "category": "items", 
     "product": {
-     "guosuanjinghua": {
-      "category": "juice", 
-      "name": "\u30d5\u30eb\u30fc\u30c4\u9178", 
+     "zengshou8": {
+      "category": "properties", 
+      "name": "\u5408\u6210\u80a5\u6599(\u4e2d)", 
       "seedtype": "", 
-      "scene_type": "factory", 
-      "appear_rate": [
-       100
-      ], 
-      "goods_type": ""
-     }, 
-     "boluozhi": {
-      "category": "juice", 
-      "name": "\u30d1\u30a4\u30ca\u30c3\u30d7\u30eb\u30b8\u30e5\u30fc\u30b9", 
-      "seedtype": "", 
-      "scene_type": "factory", 
+      "scene_type": "farm", 
       "appear_rate": [
        0, 
        5, 
@@ -7668,25 +7844,49 @@
        20, 
        25
       ], 
-      "goods_type": ""
+      "goods_type": "fertilizer"
+     }, 
+     "zengshou7": {
+      "category": "properties", 
+      "name": "\u5408\u6210\u80a5\u6599(\u4f4e)", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": "fertilizer"
      }
     }, 
-    "name": "\u30d5\u30eb\u30fc\u30c4\u9178", 
+    "name": "\u5408\u6210\u80a5\u6599(\u4f4e)", 
     "skilled": 1, 
     "materials": [
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "goose", 
+      15
+     ], 
      [
       "farm", 
       "harvest", 
       "", 
-      "pineapple", 
-      7
+      "goldenmelon", 
+      10
+     ], 
+     [
+      "ranch", 
+      "harvest", 
+      "", 
+      "beijingDuck", 
+      15
      ]
     ], 
-    "need_energy": 0, 
-    "intro": "\u4f7f\u7528\u3059\u308b\u3068\u30b9\u30bf\u30df\u30ca\u304c55\u30dd\u30a4\u30f3\u30c8\u56de\u5fa9\u3057\u307e\u3059", 
+    "need_energy": 18, 
+    "intro": "LV1\uff5e9\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u3092\u4e00\u56de\u3060\u305110%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09", 
     "exp": 30, 
-    "need_level": 4, 
-    "need_gold": 600
+    "need_level": 2, 
+    "need_gold": 300
    }, 
    "crops_jiajiepingguo": {
     "category": "crops", 
@@ -7999,12 +8199,12 @@
     "need_level": 2, 
     "need_gold": 60
    }, 
-   "crops_boluogulaorou": {
+   "crops_hongtang": {
     "category": "crops", 
     "product": {
-     "boluogulaorou": {
-      "category": "seeds", 
-      "name": "\u9162\u8c5a", 
+     "hongtang": {
+      "category": "harvest", 
+      "name": "\u9ed2\u7802\u7cd6", 
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
@@ -8012,9 +8212,9 @@
       ], 
       "goods_type": ""
      }, 
-     "guobaorou": {
-      "category": "seeds", 
-      "name": "\u7518\u9162\u8c5a\u5929", 
+     "baitang": {
+      "category": "harvest", 
+      "name": "\u7802\u7cd6", 
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
@@ -8028,29 +8228,113 @@
       "goods_type": ""
      }
     }, 
-    "name": "\u9162\u8c5a", 
+    "name": "\u9ed2\u7802\u7cd6", 
     "skilled": 1, 
     "materials": [
      [
       "farm", 
       "harvest", 
       "", 
-      "pineapple", 
+      "gan_zhe", 
       10
+     ]
+    ], 
+    "need_energy": 15, 
+    "intro": "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u6750\u6599\u306b\u4f7f\u3048\u307e\u3059", 
+    "exp": 80, 
+    "need_level": 4, 
+    "need_gold": 45
+   }, 
+   "crops_moshubang": {
+    "category": "crops", 
+    "product": {
+     "moshubang": {
+      "category": "harvest", 
+      "name": "\u30de\u30b8\u30c3\u30af\u30b9\u30c6\u30a3\u30c3\u30af", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "mofabang": {
+      "category": "harvest", 
+      "name": "\u30de\u30b8\u30c3\u30af\u30b9\u30c6\u30a3\u30c3\u30afEX", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "\u30de\u30b8\u30c3\u30af\u30b9\u30c6\u30a3\u30c3\u30af", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "mexicocactus", 
+      4
+     ], 
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "flycatcher", 
+      5
      ], 
      [
       "ranch", 
       "harvest", 
       "", 
-      "huazhu", 
-      10
+      "sheep", 
+      4
      ]
     ], 
-    "need_energy": 26, 
-    "intro": "\u30d1\u30a4\u30ca\u30c3\u30d7\u30eb\u3082\u7f8e\u5473\u3057\u3044\u3067\u3059\u3088", 
-    "exp": 180, 
-    "need_level": 5, 
-    "need_gold": 120
+    "need_energy": 35, 
+    "intro": "\u4e0d\u601d\u8b70\u306a\u9b54\u529b\u3092\u6301\u3064\u30de\u30b8\u30c3\u30af\u30b9\u30c6\u30a3\u30c3\u30af", 
+    "exp": 60, 
+    "need_level": 4, 
+    "need_gold": 700
+   }, 
+   "crops_yingtaojiang": {
+    "category": "crops", 
+    "product": {
+     "yingtaojiang": {
+      "category": "harvest", 
+      "name": "\u3055\u304f\u3089\u3093\u307c\u30b8\u30e3\u30e0", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "\u3055\u304f\u3089\u3093\u307c\u30b8\u30e3\u30e0", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "cherry", 
+      3
+     ]
+    ], 
+    "need_energy": 3, 
+    "intro": "\u9ad8\u7d1a\u7523\u7269\u304c\u3042\u308a\u307e\u305b\u3093\u3001\u76f4\u63a5\u5009\u5eab\u306b\u5165\u308a\u307e\u3059", 
+    "exp": 17, 
+    "need_level": 2, 
+    "need_gold": 7
    }, 
    "crops_chaiquan": {
     "category": "crops", 
@@ -8112,65 +8396,36 @@
     "need_level": 5, 
     "need_gold": 1200
    }, 
-   "crops_moshubang": {
+   "crops_lavendertea": {
     "category": "crops", 
     "product": {
-     "moshubang": {
+     "lavendertea": {
       "category": "harvest", 
-      "name": "\u30de\u30b8\u30c3\u30af\u30b9\u30c6\u30a3\u30c3\u30af", 
+      "name": "\u30e9\u30d9\u30f3\u30c0\u30fc\u30c6\u30a3\u30fc", 
       "seedtype": "", 
       "scene_type": "farm", 
       "appear_rate": [
        100
       ], 
       "goods_type": ""
-     }, 
-     "mofabang": {
-      "category": "harvest", 
-      "name": "\u30de\u30b8\u30c3\u30af\u30b9\u30c6\u30a3\u30c3\u30afEX", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       0, 
-       5, 
-       10, 
-       15, 
-       20, 
-       25
-      ], 
-      "goods_type": ""
      }
     }, 
-    "name": "\u30de\u30b8\u30c3\u30af\u30b9\u30c6\u30a3\u30c3\u30af", 
+    "name": "\u30e9\u30d9\u30f3\u30c0\u30fc\u30c6\u30a3\u30fc", 
     "skilled": 1, 
     "materials": [
      [
       "farm", 
       "harvest", 
       "", 
-      "mexicocactus", 
-      4
-     ], 
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "flycatcher", 
-      5
-     ], 
-     [
-      "ranch", 
-      "harvest", 
-      "", 
-      "sheep", 
+      "lavender", 
       4
      ]
     ], 
-    "need_energy": 35, 
-    "intro": "\u4e0d\u601d\u8b70\u306a\u9b54\u529b\u3092\u6301\u3064\u30de\u30b8\u30c3\u30af\u30b9\u30c6\u30a3\u30c3\u30af", 
-    "exp": 60, 
-    "need_level": 4, 
-    "need_gold": 700
+    "need_energy": 3, 
+    "intro": "\u9ad8\u7d1a\u7523\u7269\u304c\u3042\u308a\u307e\u305b\u3093\u3001\u76f4\u63a5\u5009\u5eab\u306b\u5165\u308a\u307e\u3059", 
+    "exp": 10, 
+    "need_level": 0, 
+    "need_gold": 7
    }
   }, 
   "farm": {
@@ -12475,7 +12730,7 @@
      "total_time": 1920, 
      "leaflet_time": 150, 
      "used": false, 
-     "name": "\u3044\u3061\u3054\u30b8\u30e3\u30e0", 
+     "name": "\u3055\u304f\u3089\u3093\u307c\u30b8\u30e3\u30e0", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 900, 
@@ -13022,7 +13277,7 @@
      "total_time": 1920, 
      "leaflet_time": 150, 
      "used": false, 
-     "name": "\u3044\u3061\u3053\u5927\u798f", 
+     "name": "\u3044\u3061\u3054\u5927\u798f", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 900, 
