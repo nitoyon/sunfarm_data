@@ -9482,6 +9482,25 @@
       "gold": 188
      }
     }, 
+    "xingandengjie": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "新竿灯节", 
+     "base_fruit": 25, 
+     "level_need": 0, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "experience": 10, 
+     "bloom_time": 330, 
+     "sale_price": 15, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 30
+     }
+    }, 
     "sweetviolet": {
      "total_time": 1020, 
      "leaflet_time": 153, 
@@ -10510,6 +10529,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 1
+     }
+    }, 
+    "zhangyufengzheng": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "章鱼风筝", 
+     "base_fruit": 25, 
+     "level_need": 0, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "experience": 10, 
+     "bloom_time": 330, 
+     "sale_price": 15, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 30
      }
     }, 
     "zongzi": {
@@ -15756,7 +15794,7 @@
       "name": "増産肥料", 
       "max_level": 10, 
       "price": {
-       "F_coin": 8
+       "F_coin": 6
       }, 
       "effect": 0, 
       "introduce": "増産肥料はレベル1 - 9の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
@@ -16632,6 +16670,7 @@
     "lingxiao", 
     "dayantonghuashu", 
     "songrong", 
+    "xingandengjie", 
     "sweetviolet", 
     "jiaosong", 
     "shenqihuo_long_guo", 
@@ -16653,6 +16692,7 @@
     "shengdanshu", 
     "shenqibian", 
     "shenqizijin", 
+    "zhangyufengzheng", 
     "friednoodles", 
     "zhizi", 
     "fenmeigui", 
