@@ -9482,6 +9482,25 @@
       "gold": 188
      }
     }, 
+    "xingandengjie": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "\u65b0\u7aff\u706f\u8282", 
+     "base_fruit": 25, 
+     "level_need": 0, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "experience": 10, 
+     "bloom_time": 330, 
+     "sale_price": 15, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 30
+     }
+    }, 
     "sweetviolet": {
      "total_time": 1020, 
      "leaflet_time": 153, 
@@ -10510,6 +10529,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 1
+     }
+    }, 
+    "zhangyufengzheng": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "\u7ae0\u9c7c\u98ce\u7b5d", 
+     "base_fruit": 25, 
+     "level_need": 0, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "experience": 10, 
+     "bloom_time": 330, 
+     "sale_price": 15, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 30
      }
     }, 
     "zongzi": {
@@ -15756,7 +15794,7 @@
       "name": "\u5897\u7523\u80a5\u6599", 
       "max_level": 10, 
       "price": {
-       "F_coin": 8
+       "F_coin": 6
       }, 
       "effect": 0, 
       "introduce": "\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb1 - 9\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
@@ -16632,6 +16670,7 @@
     "lingxiao", 
     "dayantonghuashu", 
     "songrong", 
+    "xingandengjie", 
     "sweetviolet", 
     "jiaosong", 
     "shenqihuo_long_guo", 
@@ -16653,6 +16692,7 @@
     "shengdanshu", 
     "shenqibian", 
     "shenqizijin", 
+    "zhangyufengzheng", 
     "friednoodles", 
     "zhizi", 
     "fenmeigui", 
