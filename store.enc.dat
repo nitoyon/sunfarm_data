@@ -3497,7 +3497,7 @@
     "shuidi": {
      "total_time": 600, 
      "harvest_type": 3, 
-     "used": true, 
+     "used": false, 
      "name": "シズク", 
      "base_fruit": 25, 
      "fruit_time": 300, 
@@ -4911,41 +4911,20 @@
     "goods_description": "ミント", 
     "activity_type": "discount"
    }, 
-   "nirentaigu": {
+   "chashu": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "大太鼓", 
-    "start_time": 1281333600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1281592800.0, 
-    "goods_description": "収益がとても高いです", 
+    "name": "チャノキ", 
     "price": {
-     "num": 80, 
+     "num": 5, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
-   }, 
-   "taigu": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "締太鼓", 
-    "start_time": 1281333600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1281592800.0, 
-    "goods_description": "収益がとても高いです", 
-    "price": {
-     "num": 100, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "暑い日には熱いお茶を飲もう", 
+    "activity_type": "discount"
    }, 
    "songrong": {
     "original_price": {
@@ -4966,20 +4945,23 @@
     "goods_description": "マツタケ", 
     "activity_type": "discount"
    }, 
-   "chashu": {
-    "specific_type": "xin", 
+   "xingandengjie": {
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "チャノキ", 
+    "name": "竿燈", 
+    "start_time": 1281592800.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1281938400.0, 
+    "goods_description": "竿燈", 
     "price": {
-     "num": 5, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "暑い日には熱いお茶を飲もう", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "lanqingting": {
     "specific_type": "re", 
@@ -5017,6 +4999,24 @@
     "end_time": 1281765600.0, 
     "goods_description": "増産肥料はレベル1 - 9の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
     "start_time": 1281592800.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "zhangyufengzheng": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "タコ凧", 
+    "start_time": 1281592800.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1281938400.0, 
+    "goods_description": "タコ凧", 
+    "price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
     "activity_type": "hot_sale"
    }, 
    "wurong": {
@@ -9669,7 +9669,7 @@
     "taigu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": true, 
+     "used": false, 
      "name": "締太鼓", 
      "base_fruit": 25, 
      "level_need": 1, 
@@ -15000,7 +15000,7 @@
     "nirentaigu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": true, 
+     "used": false, 
      "name": "大太鼓", 
      "base_fruit": 25, 
      "level_need": 1, 
