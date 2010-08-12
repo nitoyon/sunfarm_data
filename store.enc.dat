@@ -4947,24 +4947,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "shuidi": {
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "シズク", 
-    "start_time": 1281420000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "2日", 
-    "end_time": 1281592800.0, 
-    "goods_description": "シズク.", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "songrong": {
     "original_price": {
      "num": 38, 
@@ -5013,6 +4995,29 @@
     "modify": true, 
     "goods_description": "青とんぼ", 
     "activity_type": "discount"
+   }, 
+   "zengshou": {
+    "original_price": {
+     "num": 8, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "増産肥料", 
+    "price": {
+     "num": 5, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2日", 
+    "end_time": 1281765600.0, 
+    "goods_description": "増産肥料はレベル1 - 9の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
+    "start_time": 1281592800.0, 
+    "activity_type": "hot_sale"
    }, 
    "wurong": {
     "original_price": {
@@ -15794,7 +15799,7 @@
       "name": "増産肥料", 
       "max_level": 10, 
       "price": {
-       "F_coin": 6
+       "F_coin": 5
       }, 
       "effect": 0, 
       "introduce": "増産肥料はレベル1 - 9の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
