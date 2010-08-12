@@ -4947,24 +4947,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "shuidi": {
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "\u30b7\u30ba\u30af", 
-    "start_time": 1281420000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "2\u65e5", 
-    "end_time": 1281592800.0, 
-    "goods_description": "\u30b7\u30ba\u30af.", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "songrong": {
     "original_price": {
      "num": 38, 
@@ -5013,6 +4995,29 @@
     "modify": true, 
     "goods_description": "\u9752\u3068\u3093\u307c", 
     "activity_type": "discount"
+   }, 
+   "zengshou": {
+    "original_price": {
+     "num": 8, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "\u5897\u7523\u80a5\u6599", 
+    "price": {
+     "num": 5, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2\u65e5", 
+    "end_time": 1281765600.0, 
+    "goods_description": "\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb1 - 9\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
+    "start_time": 1281592800.0, 
+    "activity_type": "hot_sale"
    }, 
    "wurong": {
     "original_price": {
@@ -15794,7 +15799,7 @@
       "name": "\u5897\u7523\u80a5\u6599", 
       "max_level": 10, 
       "price": {
-       "F_coin": 6
+       "F_coin": 5
       }, 
       "effect": 0, 
       "introduce": "\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb1 - 9\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
