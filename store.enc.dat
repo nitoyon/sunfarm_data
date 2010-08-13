@@ -4926,6 +4926,25 @@
     "goods_description": "暑い日には熱いお茶を飲もう", 
     "activity_type": "discount"
    }, 
+   "lavender": {
+    "original_price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "ラベンダー", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "ラベンダー", 
+    "activity_type": "discount"
+   }, 
    "songrong": {
     "original_price": {
      "num": 38, 
@@ -4962,21 +4981,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "lanqingting": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "青とんぼ", 
-    "price": {
-     "num": 8, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "青とんぼ", 
-    "activity_type": "discount"
    }, 
    "zengshou": {
     "original_price": {
