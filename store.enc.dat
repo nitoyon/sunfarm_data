@@ -9628,6 +9628,25 @@
       "F_coin": 25
      }
     }, 
+    "xinshoutomato": {
+     "total_time": 180, 
+     "leaflet_time": 30, 
+     "used": false, 
+     "name": "初心者トマト", 
+     "base_fruit": 25, 
+     "level_need": 0, 
+     "fruit_time": 60, 
+     "sprout_time": 30, 
+     "experience": 22, 
+     "bloom_time": 30, 
+     "sale_price": 16, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "leaf_time": 30, 
+     "seed_price": {
+      "gold": 1
+     }
+    }, 
     "hanguoguoqishua": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -11605,6 +11624,27 @@
      "seed_price": {
       "gold": 316
      }
+    }, 
+    "xinshoutulip": {
+     "total_time": 180, 
+     "leaflet_time": 30, 
+     "seed_price": {
+      "gold": 1
+     }, 
+     "name": "初心者チューリップ", 
+     "base_fruit": 25, 
+     "level_need": 0, 
+     "fruit_time": 60, 
+     "introduce": "花言葉：愛の告白", 
+     "experience": 22, 
+     "bloom_time": 30, 
+     "used": false, 
+     "sprout_time": 30, 
+     "sale_price": 35, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "leaf_time": 30, 
+     "goodstype": "flower"
     }, 
     "mofabang": {
      "total_time": 25, 
@@ -16722,6 +16762,7 @@
     "sweetviolet", 
     "jiaosong", 
     "shenqihuo_long_guo", 
+    "xinshoutomato", 
     "shenqisweetviolet", 
     "carrot", 
     "xiuqiuhua", 
@@ -16758,6 +16799,7 @@
     "meihua", 
     "lily", 
     "laohecaohuashu", 
+    "xinshoutulip", 
     "lvdoutang", 
     "yrjjz", 
     "huanxianghua", 
