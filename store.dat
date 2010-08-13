@@ -4971,11 +4971,11 @@
     }, 
     "name": "\u7aff\u71c8", 
     "start_time": 1281592800.0, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "4\u65e5", 
     "end_time": 1281938400.0, 
-    "goods_description": "\u7aff\u71c8", 
+    "goods_description": "\u5168\u4f53\u3092\u7a32\u306b\u898b\u7acb\u3066\u8c4a\u4f5c\u3092\u7948\u308b\u7269", 
     "price": {
      "num": 15, 
      "type": "F_coin"
@@ -5012,11 +5012,11 @@
     }, 
     "name": "\u30bf\u30b3\u51e7", 
     "start_time": 1281592800.0, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "4\u65e5", 
     "end_time": 1281938400.0, 
-    "goods_description": "\u30bf\u30b3\u51e7", 
+    "goods_description": "\u30bf\u30b3\u6a21\u3057\u305f\u51e7", 
     "price": {
      "num": 50, 
      "type": "F_coin"
@@ -13767,7 +13767,7 @@
     "yangcong": {
      "total_time": 360, 
      "leaflet_time": 55, 
-     "used": false, 
+     "used": true, 
      "name": "\u305f\u307e\u306d\u304e", 
      "base_fruit": 25, 
      "level_need": 18, 
@@ -15699,7 +15699,7 @@
     "tudoudunzhurou": {
      "total_time": 1244, 
      "leaflet_time": 264, 
-     "used": false, 
+     "used": true, 
      "name": "\u8089\u3058\u3083\u304c", 
      "base_fruit": 25, 
      "level_need": 1, 
