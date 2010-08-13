@@ -4911,6 +4911,21 @@
     "goods_description": "ミント", 
     "activity_type": "discount"
    }, 
+   "yingtao": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "海棠", 
+    "price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "海棠", 
+    "activity_type": "discount"
+   }, 
    "chashu": {
     "specific_type": "xin", 
     "product_type": {
@@ -5022,25 +5037,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "wurong": {
-    "original_price": {
-     "num": 28, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "マイタケ", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "マイタケ", 
-    "activity_type": "discount"
    }
   }, 
   "factory": {
@@ -8896,22 +8892,22 @@
      }
     }, 
     "yingtao": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "樱桃", 
+     "total_time": 630, 
+     "leaflet_time": 150, 
+     "used": true, 
+     "name": "海棠", 
      "base_fruit": 25, 
      "level_need": 0, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "experience": 10, 
-     "bloom_time": 330, 
-     "sale_price": 15, 
+     "fruit_time": 150, 
+     "sprout_time": 30, 
+     "experience": 3.5, 
+     "bloom_time": 150, 
+     "sale_price": 7, 
      "seasons": 1, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 4
      }
     }, 
     "meizi": {
@@ -13770,7 +13766,7 @@
      "used": true, 
      "name": "たまねぎ", 
      "base_fruit": 25, 
-     "level_need": 18, 
+     "level_need": 17, 
      "fruit_time": 205, 
      "sprout_time": 30, 
      "experience": 1.6, 
@@ -17099,9 +17095,9 @@
     "pineapple", 
     "xiacheng", 
     "jin_yu_cao", 
+    "yangcong", 
     "persimmon", 
     "flycatcher", 
-    "yangcong", 
     "qiukui", 
     "yamahua", 
     "peach", 
