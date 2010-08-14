@@ -4926,6 +4926,24 @@
     "goods_description": "海棠", 
     "activity_type": "discount"
    }, 
+   "zhangyufengzheng": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "タコ凧", 
+    "start_time": 1281592800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1281938400.0, 
+    "goods_description": "タコ模した凧", 
+    "price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "chashu": {
     "specific_type": "xin", 
     "product_type": {
@@ -4997,43 +5015,20 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "zengshou": {
-    "original_price": {
-     "num": 8, 
-     "type": "F_coin"
-    }, 
+   "shenqiparadiseflower": {
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "goods_type": "flower"
     }, 
-    "name": "増産肥料", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
+    "name": "魔法のストレリチア", 
+    "start_time": 1281765600.0, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "2日", 
-    "end_time": 1281765600.0, 
-    "goods_description": "増産肥料はレベル1 - 9の作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-    "start_time": 1281592800.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "zhangyufengzheng": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "タコ凧", 
-    "start_time": 1281592800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1281938400.0, 
-    "goods_description": "タコ模した凧", 
+    "limit_time": "3日", 
+    "end_time": 1282024800.0, 
+    "goods_description": "魔法の種、収穫するといろいろなプレゼントがもらえます！", 
     "price": {
-     "num": 50, 
+     "num": 25, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
@@ -10391,7 +10386,7 @@
      "total_time": 2916, 
      "leaflet_time": 216, 
      "seed_price": {
-      "F_coin": 999
+      "F_coin": 25
      }, 
      "name": "魔法のストレリチア", 
      "base_fruit": 25, 
@@ -10401,7 +10396,7 @@
      "experience": 2.6, 
      "bloom_time": 576, 
      "magicseed": 1, 
-     "used": false, 
+     "used": true, 
      "sprout_time": 36, 
      "sale_price": 43, 
      "seasons": 1, 
