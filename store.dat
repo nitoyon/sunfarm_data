@@ -4926,6 +4926,24 @@
     "goods_description": "\u6d77\u68e0", 
     "activity_type": "discount"
    }, 
+   "zhangyufengzheng": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u30bf\u30b3\u51e7", 
+    "start_time": 1281592800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4\u65e5", 
+    "end_time": 1281938400.0, 
+    "goods_description": "\u30bf\u30b3\u6a21\u3057\u305f\u51e7", 
+    "price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "chashu": {
     "specific_type": "xin", 
     "product_type": {
@@ -4997,43 +5015,20 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "zengshou": {
-    "original_price": {
-     "num": 8, 
-     "type": "F_coin"
-    }, 
+   "shenqiparadiseflower": {
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "goods_type": "flower"
     }, 
-    "name": "\u5897\u7523\u80a5\u6599", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
+    "name": "\u9b54\u6cd5\u306e\u30b9\u30c8\u30ec\u30ea\u30c1\u30a2", 
+    "start_time": 1281765600.0, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "2\u65e5", 
-    "end_time": 1281765600.0, 
-    "goods_description": "\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb1 - 9\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
-    "start_time": 1281592800.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "zhangyufengzheng": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u30bf\u30b3\u51e7", 
-    "start_time": 1281592800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4\u65e5", 
-    "end_time": 1281938400.0, 
-    "goods_description": "\u30bf\u30b3\u6a21\u3057\u305f\u51e7", 
+    "limit_time": "3\u65e5", 
+    "end_time": 1282024800.0, 
+    "goods_description": "\u9b54\u6cd5\u306e\u7a2e\u3001\u53ce\u7a6b\u3059\u308b\u3068\u3044\u308d\u3044\u308d\u306a\u30d7\u30ec\u30bc\u30f3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\uff01", 
     "price": {
-     "num": 50, 
+     "num": 25, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
@@ -10391,7 +10386,7 @@
      "total_time": 2916, 
      "leaflet_time": 216, 
      "seed_price": {
-      "F_coin": 999
+      "F_coin": 25
      }, 
      "name": "\u9b54\u6cd5\u306e\u30b9\u30c8\u30ec\u30ea\u30c1\u30a2", 
      "base_fruit": 25, 
@@ -10401,7 +10396,7 @@
      "experience": 2.6, 
      "bloom_time": 576, 
      "magicseed": 1, 
-     "used": false, 
+     "used": true, 
      "sprout_time": 36, 
      "sale_price": 43, 
      "seasons": 1, 
