@@ -4933,21 +4933,6 @@
     "start_time": 1281938400.0, 
     "activity_type": "hot_sale"
    }, 
-   "chashu": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u30c1\u30e3\u30ce\u30ad", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "\u6691\u3044\u65e5\u306b\u306f\u71b1\u3044\u304a\u8336\u3092\u98f2\u3082\u3046", 
-    "activity_type": "discount"
-   }, 
    "lavender": {
     "original_price": {
      "num": 4, 
@@ -5005,23 +4990,20 @@
     "goods_description": "\u30de\u30c4\u30bf\u30b1", 
     "activity_type": "discount"
    }, 
-   "xingandengjie": {
+   "chashu": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "\u7aff\u71c8", 
-    "start_time": 1281592800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4\u65e5", 
-    "end_time": 1281938400.0, 
-    "goods_description": "\u5168\u4f53\u3092\u7a32\u306b\u898b\u7acb\u3066\u8c4a\u4f5c\u3092\u7948\u308b\u7269", 
+    "name": "\u30c1\u30e3\u30ce\u30ad", 
     "price": {
-     "num": 15, 
+     "num": 5, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "\u6691\u3044\u65e5\u306b\u306f\u71b1\u3044\u304a\u8336\u3092\u98f2\u3082\u3046", 
+    "activity_type": "discount"
    }, 
    "shenqiparadiseflower": {
     "product_type": {
@@ -5037,6 +5019,24 @@
     "goods_description": "\u9b54\u6cd5\u306e\u7a2e\u3001\u53ce\u7a6b\u3059\u308b\u3068\u3044\u308d\u3044\u308d\u306a\u30d7\u30ec\u30bc\u30f3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\uff01", 
     "price": {
      "num": 25, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "yuanxigua": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u30d3\u30c3\u30b0\u30b9\u30a4\u30ab", 
+    "start_time": 1281938400.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2\u65e5", 
+    "end_time": 1282111200.0, 
+    "goods_description": "\u30d3\u30c3\u30b0\u30b9\u30a4\u30ab", 
+    "price": {
+     "num": 100, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
@@ -8878,8 +8878,8 @@
     "yuanxigua": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "\u56ed\u897f\u74dc", 
+     "used": true, 
+     "name": "\u30d3\u30c3\u30b0\u30b9\u30a4\u30ab", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 360, 
@@ -9531,7 +9531,7 @@
     "xingandengjie": {
      "total_time": 720, 
      "leaflet_time": 90, 
-     "used": true, 
+     "used": false, 
      "name": "\u7aff\u71c8", 
      "base_fruit": 25, 
      "level_need": 0, 
@@ -10599,7 +10599,7 @@
     "zhangyufengzheng": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": true, 
+     "used": false, 
      "name": "\u30bf\u30b3\u51e7", 
      "base_fruit": 25, 
      "level_need": 0, 
