@@ -4967,6 +4967,25 @@
     "goods_description": "\u30e9\u30d9\u30f3\u30c0\u30fc", 
     "activity_type": "discount"
    }, 
+   "tulip": {
+    "original_price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7", 
+    "activity_type": "discount"
+   }, 
    "songrong": {
     "original_price": {
      "num": 38, 
@@ -10058,7 +10077,7 @@
      "total_time": 1620, 
      "leaflet_time": 243, 
      "seed_price": {
-      "F_coin": 18
+      "F_coin": 15
      }, 
      "name": "\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7", 
      "base_fruit": 25, 
