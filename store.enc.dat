@@ -4933,21 +4933,6 @@
     "start_time": 1281938400.0, 
     "activity_type": "hot_sale"
    }, 
-   "chashu": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "チャノキ", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "暑い日には熱いお茶を飲もう", 
-    "activity_type": "discount"
-   }, 
    "lavender": {
     "original_price": {
      "num": 4, 
@@ -5005,23 +4990,20 @@
     "goods_description": "マツタケ", 
     "activity_type": "discount"
    }, 
-   "xingandengjie": {
+   "chashu": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "竿燈", 
-    "start_time": 1281592800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1281938400.0, 
-    "goods_description": "全体を稲に見立て豊作を祈る物", 
+    "name": "チャノキ", 
     "price": {
-     "num": 15, 
+     "num": 5, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "暑い日には熱いお茶を飲もう", 
+    "activity_type": "discount"
    }, 
    "shenqiparadiseflower": {
     "product_type": {
@@ -5037,6 +5019,24 @@
     "goods_description": "魔法の種、収穫するといろいろなプレゼントがもらえます！", 
     "price": {
      "num": 25, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "yuanxigua": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ビッグスイカ", 
+    "start_time": 1281938400.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2日", 
+    "end_time": 1282111200.0, 
+    "goods_description": "ビッグスイカ", 
+    "price": {
+     "num": 100, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
@@ -8878,8 +8878,8 @@
     "yuanxigua": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "园西瓜", 
+     "used": true, 
+     "name": "ビッグスイカ", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 360, 
@@ -9531,7 +9531,7 @@
     "xingandengjie": {
      "total_time": 720, 
      "leaflet_time": 90, 
-     "used": true, 
+     "used": false, 
      "name": "竿燈", 
      "base_fruit": 25, 
      "level_need": 0, 
@@ -10599,7 +10599,7 @@
     "zhangyufengzheng": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": true, 
+     "used": false, 
      "name": "タコ凧", 
      "base_fruit": 25, 
      "level_need": 0, 
