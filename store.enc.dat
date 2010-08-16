@@ -4912,36 +4912,25 @@
     "activity_type": "discount"
    }, 
    "yingtao": {
-    "specific_type": "xin", 
+    "original_price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
     "name": "海棠", 
     "price": {
-     "num": 4, 
+     "num": 3, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "海棠", 
-    "activity_type": "discount"
-   }, 
-   "zhangyufengzheng": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "タコ凧", 
-    "start_time": 1281592800.0, 
-    "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1281938400.0, 
-    "goods_description": "タコ模した凧", 
-    "price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
+    "limit_time": "2日", 
+    "end_time": 1282111200.0, 
+    "goods_description": "海棠", 
+    "start_time": 1281938400.0, 
     "activity_type": "hot_sale"
    }, 
    "chashu": {
@@ -8902,7 +8891,7 @@
      "increment_fruit": 25, 
      "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 4
+      "F_coin": 3
      }
     }, 
     "meizi": {
