@@ -4952,6 +4952,24 @@
     "goods_description": "\u30e9\u30d9\u30f3\u30c0\u30fc", 
     "activity_type": "discount"
    }, 
+   "yanhua": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u82b1\u706b", 
+    "start_time": 1282024800.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "10\u65e5", 
+    "end_time": 1282888800.0, 
+    "goods_description": "\u30b5\u30f3\u7267\u7279\u88fd\u306e\u82b1\u706b\u3002\u6c34\u3001\u866b\u5bfe\u7b56\u306f\u30d0\u30c3\u30c1\u30ea\uff018\u670827\u307e\u3067\u306b\u8cfc\u5165\u3057\u3066\u3044\u305f\u3060\u304f\u3068\u3001\u592a\u9f13\u306e\u30c7\u30b3\u30ec\u30fc\u30b7\u30e7\u30f3\u3092\u30ef\u30f3\u30bb\u30c3\u30c8\u30d7\u30ec\u30bc\u30f3\u30c8\u3092\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u3002\u30d7\u30ec\u30bc\u30f3\u30c8\u306f\u8cfc\u5165\u5f8c3\u65e5\u4ee5\u5185\u306b\u914d\u5e03\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u3002\u307e\u305f\u30d7\u30ec\u30bc\u30f3\u30c8\u306f\u4e00\u56de\u3057\u304b\u53d7\u3051\u53d6\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3001\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002", 
+    "price": {
+     "num": 200, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "tulip": {
     "original_price": {
      "num": 18, 
@@ -5004,24 +5022,6 @@
     "modify": true, 
     "goods_description": "\u6691\u3044\u65e5\u306b\u306f\u71b1\u3044\u304a\u8336\u3092\u98f2\u3082\u3046", 
     "activity_type": "discount"
-   }, 
-   "shenqiparadiseflower": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "\u9b54\u6cd5\u306e\u30b9\u30c8\u30ec\u30ea\u30c1\u30a2", 
-    "start_time": 1281765600.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3\u65e5", 
-    "end_time": 1282024800.0, 
-    "goods_description": "\u9b54\u6cd5\u306e\u7a2e\u3001\u53ce\u7a6b\u3059\u308b\u3068\u3044\u308d\u3044\u308d\u306a\u30d7\u30ec\u30bc\u30f3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\uff01", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "yuanxigua": {
     "product_type": {
@@ -14302,21 +14302,22 @@
     "yanhua": {
      "total_time": 1920, 
      "leaflet_time": 150, 
-     "used": false, 
-     "name": "\u70df\u82b1", 
+     "seed_price": {
+      "F_coin": 200
+     }, 
+     "name": "\u82b1\u706b", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 900, 
-     "sprout_time": 30, 
+     "introduce": "\u30b5\u30f3\u7267\u7279\u88fd\u306e\u82b1\u706b\u3002\u6c34\u3001\u866b\u5bfe\u7b56\u306f\u30d0\u30c3\u30c1\u30ea\uff018\u670827\u307e\u3067\u306b\u8cfc\u5165\u3057\u3066\u3044\u305f\u3060\u304f\u3068\u3001\u592a\u9f13\u306e\u30c7\u30b3\u30ec\u30fc\u30b7\u30e7\u30f3\u3092\u30ef\u30f3\u30bb\u30c3\u30c8\u30d7\u30ec\u30bc\u30f3\u30c8\u3092\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u3002\u30d7\u30ec\u30bc\u30f3\u30c8\u306f\u8cfc\u5165\u5f8c3\u65e5\u4ee5\u5185\u306b\u914d\u5e03\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u3002\u307e\u305f\u30d7\u30ec\u30bc\u30f3\u30c8\u306f\u4e00\u56de\u3057\u304b\u53d7\u3051\u53d6\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3001\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002", 
      "experience": 40, 
-     "bloom_time": 510, 
+     "used": true, 
+     "sprout_time": 30, 
      "sale_price": 25, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 200
-     }
+     "bloom_time": 510
     }, 
     "mayinghuashu": {
      "total_time": 360, 
