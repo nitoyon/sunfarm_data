@@ -4952,6 +4952,24 @@
     "goods_description": "ラベンダー", 
     "activity_type": "discount"
    }, 
+   "yanhua": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "花火", 
+    "start_time": 1282024800.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日", 
+    "end_time": 1282888800.0, 
+    "goods_description": "サン牧特製の花火。水、虫対策はバッチリ！8月27までに購入していただくと、太鼓のデコレーションをワンセットプレゼントをさせていただきます。プレゼントは購入後3日以内に配布させていただきます。またプレゼントは一回しか受け取ることができません、ご了承ください。", 
+    "price": {
+     "num": 200, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "tulip": {
     "original_price": {
      "num": 18, 
@@ -5004,24 +5022,6 @@
     "modify": true, 
     "goods_description": "暑い日には熱いお茶を飲もう", 
     "activity_type": "discount"
-   }, 
-   "shenqiparadiseflower": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "魔法のストレリチア", 
-    "start_time": 1281765600.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1282024800.0, 
-    "goods_description": "魔法の種、収穫するといろいろなプレゼントがもらえます！", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "yuanxigua": {
     "product_type": {
@@ -14302,21 +14302,22 @@
     "yanhua": {
      "total_time": 1920, 
      "leaflet_time": 150, 
-     "used": false, 
-     "name": "烟花", 
+     "seed_price": {
+      "F_coin": 200
+     }, 
+     "name": "花火", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 900, 
-     "sprout_time": 30, 
+     "introduce": "サン牧特製の花火。水、虫対策はバッチリ！8月27までに購入していただくと、太鼓のデコレーションをワンセットプレゼントをさせていただきます。プレゼントは購入後3日以内に配布させていただきます。またプレゼントは一回しか受け取ることができません、ご了承ください。", 
      "experience": 40, 
-     "bloom_time": 510, 
+     "used": true, 
+     "sprout_time": 30, 
      "sale_price": 25, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 200
-     }
+     "bloom_time": 510
     }, 
     "mayinghuashu": {
      "total_time": 360, 
