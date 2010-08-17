@@ -16235,16 +16235,16 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "yh": {
-       "used": true, 
-       "name": "\u685c\u306e\u5730\u9762", 
+      "taigu": {
+       "used": false, 
+       "name": "\u592a\u9f13\u5927\u5730", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 9
+        "F_coin": 15
        }, 
-       "experience": 28, 
+       "experience": 260, 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 15
       }, 
       "shizizuo": {
        "used": true, 
@@ -16331,6 +16331,17 @@
         "F_coin": 28
        }, 
        "experience": 25, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "yh": {
+       "used": true, 
+       "name": "\u685c\u306e\u5730\u9762", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 9
+       }, 
+       "experience": 28, 
        "multi_buy": false, 
        "deadline": 30
       }, 
@@ -16461,6 +16472,17 @@
        "experience": 10, 
        "multi_buy": false, 
        "deadline": 30
+      }, 
+      "taigu": {
+       "used": false, 
+       "name": "\u592a\u9f13\u623f\u5b50", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 2
+       }, 
+       "experience": 26, 
+       "multi_buy": false, 
+       "deadline": 15
       }, 
       "shizizuo": {
        "used": false, 
@@ -16613,6 +16635,17 @@
        "experience": 20, 
        "multi_buy": false, 
        "deadline": 30
+      }, 
+      "taigu": {
+       "used": false, 
+       "name": "\u592a\u9f13\u5929\u7a7a", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 2
+       }, 
+       "experience": 260, 
+       "multi_buy": false, 
+       "deadline": 15
       }, 
       "shizizuo": {
        "used": true, 
