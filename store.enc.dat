@@ -4911,28 +4911,6 @@
     "goods_description": "ミント", 
     "activity_type": "discount"
    }, 
-   "yingtao": {
-    "original_price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "海棠", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "2日", 
-    "end_time": 1282111200.0, 
-    "goods_description": "海棠", 
-    "start_time": 1281938400.0, 
-    "activity_type": "hot_sale"
-   }, 
    "huafeibao3": {
     "original_price": {
      "num": 50, 
@@ -5043,6 +5021,28 @@
      "num": 100, 
      "type": "F_coin"
     }, 
+    "activity_type": "hot_sale"
+   }, 
+   "wurong": {
+    "original_price": {
+     "num": 28, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "マイタケ", 
+    "price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2日", 
+    "end_time": 1282284000.0, 
+    "goods_description": "工場の素材に使えます", 
+    "start_time": 1282111200.0, 
     "activity_type": "hot_sale"
    }
   }, 
