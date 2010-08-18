@@ -4911,28 +4911,6 @@
     "goods_description": "\u30df\u30f3\u30c8", 
     "activity_type": "discount"
    }, 
-   "yingtao": {
-    "original_price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u6d77\u68e0", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "2\u65e5", 
-    "end_time": 1282111200.0, 
-    "goods_description": "\u6d77\u68e0", 
-    "start_time": 1281938400.0, 
-    "activity_type": "hot_sale"
-   }, 
    "huafeibao3": {
     "original_price": {
      "num": 50, 
@@ -5043,6 +5021,28 @@
      "num": 100, 
      "type": "F_coin"
     }, 
+    "activity_type": "hot_sale"
+   }, 
+   "wurong": {
+    "original_price": {
+     "num": 28, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u30de\u30a4\u30bf\u30b1", 
+    "price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2\u65e5", 
+    "end_time": 1282284000.0, 
+    "goods_description": "\u5de5\u5834\u306e\u7d20\u6750\u306b\u4f7f\u3048\u307e\u3059", 
+    "start_time": 1282111200.0, 
     "activity_type": "hot_sale"
    }
   }, 
