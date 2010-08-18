@@ -4930,6 +4930,28 @@
     "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
     "activity_type": "discount"
    }, 
+   "cangbaotu2": {
+    "original_price": {
+     "num": 48, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "宝の地図2", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1282197600.0, 
+    "goods_description": "宝の地図2が更新しました。宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
+    "start_time": 1282111200.0, 
+    "activity_type": "hot_sale"
+   }, 
    "lavender": {
     "original_price": {
      "num": 4, 
@@ -5004,24 +5026,6 @@
     "modify": false, 
     "goods_description": "マツタケ", 
     "activity_type": "discount"
-   }, 
-   "yuanxigua": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "ビッグスイカ", 
-    "start_time": 1281938400.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "2日", 
-    "end_time": 1282111200.0, 
-    "goods_description": "ビッグスイカ", 
-    "price": {
-     "num": 100, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "wurong": {
     "original_price": {
