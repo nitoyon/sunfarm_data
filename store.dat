@@ -5111,6 +5111,52 @@
     "need_level": 3, 
     "need_gold": 350
    }, 
+   "crops_qingchaowurong": {
+    "category": "crops", 
+    "product": {
+     "qingchaowurong": {
+      "category": "harvest", 
+      "name": "\u821e\u8338\u7092\u3081", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       100
+      ], 
+      "goods_type": ""
+     }, 
+     "wurongtianfuluo": {
+      "category": "harvest", 
+      "name": "\u821e\u8338\u5929\u3077\u3089", 
+      "seedtype": "", 
+      "scene_type": "farm", 
+      "appear_rate": [
+       0, 
+       5, 
+       10, 
+       15, 
+       20, 
+       25
+      ], 
+      "goods_type": ""
+     }
+    }, 
+    "name": "\u821e\u8338\u7092\u3081", 
+    "skilled": 1, 
+    "materials": [
+     [
+      "farm", 
+      "harvest", 
+      "", 
+      "wurong", 
+      6
+     ]
+    ], 
+    "need_energy": 10, 
+    "intro": "", 
+    "exp": 49, 
+    "need_level": 3, 
+    "need_gold": 50
+   }, 
    "crops_qianlima": {
     "category": "crops", 
     "product": {
@@ -8664,6 +8710,25 @@
      "increment_fruit": 25, 
      "leaf_time": 150, 
      "goodstype": "flower"
+    }, 
+    "wurongtianfuluo": {
+     "total_time": 685, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "\u821e\u8338\u5929\u3077\u3089", 
+     "base_fruit": 25, 
+     "level_need": 1, 
+     "fruit_time": 220, 
+     "sprout_time": 105, 
+     "experience": 117, 
+     "bloom_time": 120, 
+     "sale_price": 150, 
+     "seasons": 2, 
+     "increment_fruit": 25, 
+     "leaf_time": 120, 
+     "seed_price": {
+      "gold": 1
+     }
     }, 
     "shuihulu": {
      "total_time": 720, 
@@ -14849,6 +14914,25 @@
       "F_coin": 150
      }
     }, 
+    "qingchaowurong": {
+     "total_time": 685, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "\u821e\u8338\u7092\u3081", 
+     "base_fruit": 25, 
+     "level_need": 1, 
+     "fruit_time": 220, 
+     "sprout_time": 105, 
+     "experience": 92, 
+     "bloom_time": 120, 
+     "sale_price": 120, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "leaf_time": 120, 
+     "seed_price": {
+      "gold": 1
+     }
+    }, 
     "yaoguo": {
      "total_time": 1050, 
      "leaflet_time": 150, 
@@ -16984,6 +17068,7 @@
     "dongguadunpaigu", 
     "yusan", 
     "shaluo", 
+    "wurongtianfuluo", 
     "jingzhiganlanyou", 
     "yinggelanguoqishua", 
     "jianaguoqishua", 
@@ -17115,6 +17200,7 @@
     "hongshan", 
     "feizhouju", 
     "ribenguoqishu", 
+    "qingchaowurong", 
     "yinxing", 
     "rulao", 
     "fkzs", 
