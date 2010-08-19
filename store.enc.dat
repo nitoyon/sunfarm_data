@@ -1719,7 +1719,7 @@
     }, 
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 48
      }, 
      "used": true, 
      "goods_str": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
@@ -4911,28 +4911,6 @@
     "goods_description": "ミント", 
     "activity_type": "discount"
    }, 
-   "cangbaotu2": {
-    "original_price": {
-     "num": 48, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "宝の地図2", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1282197600.0, 
-    "goods_description": "宝の地図2が更新しました。宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
-    "start_time": 1282111200.0, 
-    "activity_type": "hot_sale"
-   }, 
    "lavender": {
     "original_price": {
      "num": 4, 
@@ -4970,6 +4948,28 @@
     "modify": true, 
     "goods_description": "魔法の種への行き方が書かれていて、魔法の種を見つけられるかもしれない。", 
     "activity_type": "discount"
+   }, 
+   "cangbaotu1": {
+    "original_price": {
+     "num": 48, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "宝の地図1", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1282284000.0, 
+    "goods_description": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
+    "start_time": 1282197600.0, 
+    "activity_type": "hot_sale"
    }, 
    "yanhua": {
     "product_type": {
