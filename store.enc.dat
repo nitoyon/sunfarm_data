@@ -1199,6 +1199,282 @@
    }
   }, 
   "mystic_bags": {
+   "qingrenyushou1": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "huangmeigui": [
+        1, 
+        0.05
+       ], 
+       "heimeigui": [
+        1, 
+        0.05
+       ], 
+       "hongmeigui": [
+        1, 
+        0.05
+       ], 
+       "fenmeigui": [
+        1, 
+        0.05
+       ], 
+       "lanmeigui": [
+        1, 
+        0.05
+       ], 
+       "baimeigui": [
+        1, 
+        0.05
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.5
+        ], 
+        "common": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }, 
+    "config": {
+     "price": {
+      "F_coin": 5
+     }, 
+     "goods_str": "恋愛成就祈願", 
+     "used": false, 
+     "name": "縁結びの御守り", 
+     "introduce": "恋愛成就祈願"
+    }
+   }, 
+   "qingrenyushou3": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "huangmeigui": [
+        1, 
+        0.15
+       ], 
+       "heimeigui": [
+        1, 
+        0.15
+       ], 
+       "hongmeigui": [
+        1, 
+        0.15
+       ], 
+       "qingrenhuasu": [
+        1, 
+        0.15
+       ], 
+       "fenmeigui": [
+        1, 
+        0.15
+       ], 
+       "lanmeigui": [
+        1, 
+        0.15
+       ], 
+       "baimeigui": [
+        1, 
+        0.15
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.5
+        ], 
+        "common": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }, 
+    "config": {
+     "price": {
+      "F_coin": 25
+     }, 
+     "goods_str": "どんなときでも一緒に", 
+     "used": false, 
+     "name": "心は共に", 
+     "introduce": "どんなときでも一緒に"
+    }
+   }, 
+   "jingangcuo": {
+    "config": {
+     "price": {
+      "F_coin": 48
+     }, 
+     "used": false, 
+     "goods_str": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。", 
+     "name": "金鋼ヤスリ", 
+     "introduce": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。"
+    }
+   }, 
+   "xinbaoxiang": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirentaigu": [
+        1, 
+        0.01
+       ], 
+       "taigu": [
+        1, 
+        0.02
+       ], 
+       "nanmogu": [
+        1, 
+        0.02
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "chashu": [
+        1, 
+        1
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.5
+       ]
+      }
+     }
+    }, 
+    "config": {
+     "price": {
+      "F_coin": 12
+     }, 
+     "used": false, 
+     "goods_str": "已经下架的限量商品可能在这里出现，大太鼓、タコ凧、キキ、ドド……个个价值不菲，就看你的运气了！", 
+     "name": "潮流宝箱", 
+     "introduce": "已经下架的限量商品可能在这里出现，大太鼓、タコ凧、キキ、ドド……个个价值不菲，就看你的运气了！"
+    }
+   }, 
+   "mb_10": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "gan_zhe": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "langshanChook": [
+        2, 
+        1.0
+       ]
+      }
+     }
+    }, 
+    "config": {
+     "goods_str": "大地のカギを使って開けられます。ランダムで各種のアイテム、作物、動物、食糧が貰えます。１回に幾つかを開く場合、ステキな景品を手に入れやすくなります。でも、運にも左右されますので、空箱の可能性もあります。宝箱とカギのどちらかを使えば、二つとも消えます。", 
+     "name": "大地の宝箱", 
+     "lock": true, 
+     "price": {
+      "F_coin": 3
+     }, 
+     "introduce": "大地のカギを使って開けられます。ランダムで各種のアイテム、作物、動物、食糧が貰えます。１回に幾つかを開く場合、ステキな景品を手に入れやすくなります。でも、運にも左右されますので、空箱の可能性もあります。宝箱とカギのどちらかを使えば、二つとも消えます。", 
+     "state": "xin", 
+     "used": false, 
+     "key": "mb_10_key"
+    }
+   }, 
+   "love_stone": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "ginseng": [
+        1, 
+        1.0
+       ], 
+       "sunflower": [
+        1, 
+        1.0
+       ], 
+       "huo_long_guo": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         1.0
+        ], 
+        "common": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "sheep": [
+        2, 
+        1.0
+       ], 
+       "beijingDuck": [
+        1, 
+        1.0
+       ], 
+       "friesian": [
+        1, 
+        1.0
+       ], 
+       "wuzongGoose": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }, 
+    "config": {
+     "goods_str": "开启可获得丰厚的奖励哦", 
+     "name": "ラブストーン", 
+     "lock": false, 
+     "price": {
+      "F_coin": 65
+     }, 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "mb_4": {
     "data": {
      "farm": {
@@ -1303,15 +1579,68 @@
      "used": false
     }
    }, 
-   "jingangcuo": {
-    "config": {
-     "price": {
-      "F_coin": 48
+   "mb_7": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "hyacinth": [
+        1, 
+        1.0
+       ], 
+       "chinesecrabapple": [
+        1, 
+        1.0
+       ], 
+       "peach": [
+        2, 
+        1.0
+       ], 
+       "cherry": [
+        2, 
+        1.0
+       ], 
+       "zhizi": [
+        1, 
+        1.0
+       ], 
+       "lily": [
+        1, 
+        1.0
+       ], 
+       "banana": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         20, 
+         1.0
+        ]
+       }
+      }
      }, 
-     "used": false, 
-     "goods_str": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。", 
-     "name": "金鋼ヤスリ", 
-     "introduce": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。"
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }, 
+    "config": {
+     "goods_str": "使用橙宝石可获得急速化肥20个,急速饲料5个,水蜜桃,香蕉,樱桃,风信子,海棠,百合", 
+     "name": "ヴェルメーユ", 
+     "price": {
+      "F_coin": 119
+     }, 
+     "introduce": "使用橙宝石可获得急速化肥20个,急速饲料5个,水蜜桃,香蕉,樱桃,风信子,海棠,百合", 
+     "state": "xin", 
+     "used": false
     }
    }, 
    "mb_1": {
@@ -1408,6 +1737,320 @@
      "used": false
     }
    }, 
+   "mb_8": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "man_tuo_luo": [
+        1, 
+        1.0
+       ], 
+       "chinesecrabapple": [
+        1, 
+        1.0
+       ], 
+       "lavender": [
+        1, 
+        1.0
+       ], 
+       "jin_yu_cao": [
+        1, 
+        1.0
+       ], 
+       "violet": [
+        1, 
+        1.0
+       ], 
+       "sweetviolet": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         20, 
+         1.0
+        ], 
+        "gaosu": [
+         40, 
+         1.0
+        ]
+       }
+      }
+     }
+    }, 
+    "config": {
+     "goods_str": "固定获得高速化肥40个,急速化肥20个,金鱼草,曼陀罗,紫罗兰,薰衣草,海棠,香堇", 
+     "name": "サファイア", 
+     "price": {
+      "F_coin": 159
+     }, 
+     "introduce": "固定获得高速化肥40个,急速化肥20个,金鱼草,曼陀罗,紫罗兰,薰衣草,海棠,香堇", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
+   "mb_10_key": {
+    "config": {
+     "used": false, 
+     "name": "大地のカギ", 
+     "mb": "mb_10", 
+     "price": {
+      "F_coin": 47
+     }, 
+     "introduce": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。", 
+     "goods_str": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。"
+    }
+   }, 
+   "zong_zi": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "hyacinth": [
+        1, 
+        1.0
+       ], 
+       "gan_zhe": [
+        1, 
+        0.1
+       ], 
+       "hong_zao": [
+        1, 
+        0.15
+       ], 
+       "huo_long_guo": [
+        1, 
+        0.04
+       ], 
+       "ginseng": [
+        1, 
+        0.04
+       ], 
+       "man_tuo_luo": [
+        1, 
+        0.02
+       ], 
+       "paradiseflower": [
+        1, 
+        0.03
+       ], 
+       "nigerseed": [
+        1, 
+        0.04
+       ], 
+       "ma_ti_lian": [
+        1, 
+        0.05
+       ], 
+       "sweetviolet": [
+        1, 
+        0.03
+       ], 
+       "chinesecrabapple": [
+        1, 
+        0.06
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "gaosu": [
+         5, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "common": [
+         2, 
+         1.0
+        ], 
+        "gaosu": [
+         5, 
+         0.05
+        ]
+       }
+      }, 
+      "babies": {
+       "guangxiMaDuck": [
+        1, 
+        0.06
+       ], 
+       "langshanChook": [
+        1, 
+        0.06
+       ]
+      }
+     }
+    }, 
+    "config": {
+     "goods_str": "打开粽子固定可得5个急速化肥和一朵风信子，还有几率获得各种珍稀作物花卉和动物宝宝，能开出什么看人品哦", 
+     "name": "スーパー手巻き寿司", 
+     "lock": false, 
+     "price": {
+      "F_coin": 25
+     }, 
+     "state": "xin", 
+     "used": false, 
+     "key": "mb_6_key"
+    }
+   }, 
+   "qingrenyushou2": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "huangmeigui": [
+        1, 
+        0.1
+       ], 
+       "heimeigui": [
+        1, 
+        0.1
+       ], 
+       "hongmeigui": [
+        1, 
+        0.1
+       ], 
+       "fenmeigui": [
+        1, 
+        0.1
+       ], 
+       "lanmeigui": [
+        1, 
+        0.1
+       ], 
+       "baimeigui": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.5
+        ], 
+        "common": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }, 
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "goods_str": "時が流れても変わらぬ愛", 
+     "used": false, 
+     "name": "七夕の誓い", 
+     "introduce": "時が流れても変わらぬ愛"
+    }
+   }, 
+   "hongshuijing": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "ginseng": [
+        2, 
+        1.0
+       ], 
+       "cherry": [
+        1, 
+        1.0
+       ], 
+       "longan": [
+        1, 
+        1.0
+       ], 
+       "bian": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }, 
+    "config": {
+     "goods_str": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开.", 
+     "name": "レッドダイヤモンド", 
+     "lock": true, 
+     "price": {
+      "gold": 135
+     }, 
+     "introduce": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开!", 
+     "state": "xin", 
+     "used": false, 
+     "key": "jingangcuo"
+    }
+   }, 
+   "chengshuijing": {
+    "data": {
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         1.0
+        ], 
+        "gaosu": [
+         5, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "sheep": [
+        1, 
+        1.0
+       ], 
+       "quail": [
+        1, 
+        1.0
+       ], 
+       "friesian": [
+        1, 
+        1.0
+       ], 
+       "langshanChook": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }, 
+    "config": {
+     "goods_str": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
+     "name": "オレンジダイヤモンド", 
+     "lock": true, 
+     "price": {
+      "gold": 135
+     }, 
+     "introduce": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
+     "state": "xin", 
+     "used": false, 
+     "key": "jingangcuo"
+    }
+   }, 
    "hushenfu": {
     "data": {
      "farm": {
@@ -1469,113 +2112,6 @@
      "introduce": "ランダムで新年のスペシャル商品を沢山ゲットできます。試して見ましょう！"
     }
    }, 
-   "qingrenyushou1": {
-    "data": {
-     "farm": {
-      "seeds": {
-       "huangmeigui": [
-        1, 
-        0.05
-       ], 
-       "heimeigui": [
-        1, 
-        0.05
-       ], 
-       "hongmeigui": [
-        1, 
-        0.05
-       ], 
-       "fenmeigui": [
-        1, 
-        0.05
-       ], 
-       "lanmeigui": [
-        1, 
-        0.05
-       ], 
-       "baimeigui": [
-        1, 
-        0.05
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.5
-        ], 
-        "common": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }, 
-    "config": {
-     "price": {
-      "F_coin": 5
-     }, 
-     "goods_str": "恋愛成就祈願", 
-     "used": false, 
-     "name": "縁結びの御守り", 
-     "introduce": "恋愛成就祈願"
-    }
-   }, 
-   "mb_8": {
-    "data": {
-     "farm": {
-      "seeds": {
-       "man_tuo_luo": [
-        1, 
-        1.0
-       ], 
-       "chinesecrabapple": [
-        1, 
-        1.0
-       ], 
-       "lavender": [
-        1, 
-        1.0
-       ], 
-       "jin_yu_cao": [
-        1, 
-        1.0
-       ], 
-       "violet": [
-        1, 
-        1.0
-       ], 
-       "sweetviolet": [
-        1, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         20, 
-         1.0
-        ], 
-        "gaosu": [
-         40, 
-         1.0
-        ]
-       }
-      }
-     }
-    }, 
-    "config": {
-     "goods_str": "固定获得高速化肥40个,急速化肥20个,金鱼草,曼陀罗,紫罗兰,薰衣草,海棠,香堇", 
-     "name": "サファイア", 
-     "price": {
-      "F_coin": 159
-     }, 
-     "introduce": "固定获得高速化肥40个,急速化肥20个,金鱼草,曼陀罗,紫罗兰,薰衣草,海棠,香堇", 
-     "state": "xin", 
-     "used": false
-    }
-   }, 
    "cangbaotu4": {
     "data": {
      "ranch": {
@@ -1603,59 +2139,6 @@
      "goods_str": "记录着一处神秘的藏宝地,可寻找到各种神秘动物及道具,直接打开使用.", 
      "name": "藏宝图卷四", 
      "introduce": "记录着一处神秘的藏宝地,可寻找到各种神秘动物及道具,直接打开使用."
-    }
-   }, 
-   "qingrenyushou2": {
-    "data": {
-     "farm": {
-      "seeds": {
-       "huangmeigui": [
-        1, 
-        0.1
-       ], 
-       "heimeigui": [
-        1, 
-        0.1
-       ], 
-       "hongmeigui": [
-        1, 
-        0.1
-       ], 
-       "fenmeigui": [
-        1, 
-        0.1
-       ], 
-       "lanmeigui": [
-        1, 
-        0.1
-       ], 
-       "baimeigui": [
-        1, 
-        0.1
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.5
-        ], 
-        "common": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }, 
-    "config": {
-     "price": {
-      "F_coin": 10
-     }, 
-     "goods_str": "時が流れても変わらぬ愛", 
-     "used": false, 
-     "name": "七夕の誓い", 
-     "introduce": "時が流れても変わらぬ愛"
     }
    }, 
    "cangbaotu2": {
@@ -1908,444 +2391,6 @@
      "goods_str": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
      "name": "宝の地図1", 
      "introduce": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。"
-    }
-   }, 
-   "zong_zi": {
-    "data": {
-     "farm": {
-      "seeds": {
-       "hyacinth": [
-        1, 
-        1.0
-       ], 
-       "gan_zhe": [
-        1, 
-        0.1
-       ], 
-       "hong_zao": [
-        1, 
-        0.15
-       ], 
-       "huo_long_guo": [
-        1, 
-        0.04
-       ], 
-       "ginseng": [
-        1, 
-        0.04
-       ], 
-       "man_tuo_luo": [
-        1, 
-        0.02
-       ], 
-       "paradiseflower": [
-        1, 
-        0.03
-       ], 
-       "nigerseed": [
-        1, 
-        0.04
-       ], 
-       "ma_ti_lian": [
-        1, 
-        0.05
-       ], 
-       "sweetviolet": [
-        1, 
-        0.03
-       ], 
-       "chinesecrabapple": [
-        1, 
-        0.06
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         5, 
-         1.0
-        ], 
-        "gaosu": [
-         5, 
-         0.05
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "common": [
-         2, 
-         1.0
-        ], 
-        "gaosu": [
-         5, 
-         0.05
-        ]
-       }
-      }, 
-      "babies": {
-       "guangxiMaDuck": [
-        1, 
-        0.06
-       ], 
-       "langshanChook": [
-        1, 
-        0.06
-       ]
-      }
-     }
-    }, 
-    "config": {
-     "goods_str": "打开粽子固定可得5个急速化肥和一朵风信子，还有几率获得各种珍稀作物花卉和动物宝宝，能开出什么看人品哦", 
-     "name": "スーパー手巻き寿司", 
-     "lock": false, 
-     "price": {
-      "F_coin": 25
-     }, 
-     "state": "xin", 
-     "used": false, 
-     "key": "mb_6_key"
-    }
-   }, 
-   "mb_7": {
-    "data": {
-     "farm": {
-      "seeds": {
-       "hyacinth": [
-        1, 
-        1.0
-       ], 
-       "chinesecrabapple": [
-        1, 
-        1.0
-       ], 
-       "peach": [
-        2, 
-        1.0
-       ], 
-       "cherry": [
-        2, 
-        1.0
-       ], 
-       "zhizi": [
-        1, 
-        1.0
-       ], 
-       "lily": [
-        1, 
-        1.0
-       ], 
-       "banana": [
-        2, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         20, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }
-    }, 
-    "config": {
-     "goods_str": "使用橙宝石可获得急速化肥20个,急速饲料5个,水蜜桃,香蕉,樱桃,风信子,海棠,百合", 
-     "name": "ヴェルメーユ", 
-     "price": {
-      "F_coin": 119
-     }, 
-     "introduce": "使用橙宝石可获得急速化肥20个,急速饲料5个,水蜜桃,香蕉,樱桃,风信子,海棠,百合", 
-     "state": "xin", 
-     "used": false
-    }
-   }, 
-   "mb_10": {
-    "data": {
-     "farm": {
-      "seeds": {
-       "gan_zhe": [
-        1, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         1.0
-        ]
-       }
-      }, 
-      "babies": {
-       "langshanChook": [
-        2, 
-        1.0
-       ]
-      }
-     }
-    }, 
-    "config": {
-     "goods_str": "大地のカギを使って開けられます。ランダムで各種のアイテム、作物、動物、食糧が貰えます。１回に幾つかを開く場合、ステキな景品を手に入れやすくなります。でも、運にも左右されますので、空箱の可能性もあります。宝箱とカギのどちらかを使えば、二つとも消えます。", 
-     "name": "大地の宝箱", 
-     "lock": true, 
-     "price": {
-      "F_coin": 3
-     }, 
-     "introduce": "大地のカギを使って開けられます。ランダムで各種のアイテム、作物、動物、食糧が貰えます。１回に幾つかを開く場合、ステキな景品を手に入れやすくなります。でも、運にも左右されますので、空箱の可能性もあります。宝箱とカギのどちらかを使えば、二つとも消えます。", 
-     "state": "xin", 
-     "used": false, 
-     "key": "mb_10_key"
-    }
-   }, 
-   "mb_10_key": {
-    "config": {
-     "used": false, 
-     "name": "大地のカギ", 
-     "mb": "mb_10", 
-     "price": {
-      "F_coin": 47
-     }, 
-     "introduce": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。", 
-     "goods_str": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。"
-    }
-   }, 
-   "hongshuijing": {
-    "data": {
-     "farm": {
-      "seeds": {
-       "ginseng": [
-        2, 
-        1.0
-       ], 
-       "cherry": [
-        1, 
-        1.0
-       ], 
-       "longan": [
-        1, 
-        1.0
-       ], 
-       "bian": [
-        1, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         5, 
-         1.0
-        ], 
-        "gaoji": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }, 
-    "config": {
-     "goods_str": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开.", 
-     "name": "レッドダイヤモンド", 
-     "lock": true, 
-     "price": {
-      "gold": 135
-     }, 
-     "introduce": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开!", 
-     "state": "xin", 
-     "used": false, 
-     "key": "jingangcuo"
-    }
-   }, 
-   "love_stone": {
-    "data": {
-     "farm": {
-      "seeds": {
-       "ginseng": [
-        1, 
-        1.0
-       ], 
-       "sunflower": [
-        1, 
-        1.0
-       ], 
-       "huo_long_guo": [
-        2, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         1.0
-        ], 
-        "common": [
-         2, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "sheep": [
-        2, 
-        1.0
-       ], 
-       "beijingDuck": [
-        1, 
-        1.0
-       ], 
-       "friesian": [
-        1, 
-        1.0
-       ], 
-       "wuzongGoose": [
-        1, 
-        1.0
-       ]
-      }
-     }
-    }, 
-    "config": {
-     "goods_str": "开启可获得丰厚的奖励哦", 
-     "name": "ラブストーン", 
-     "lock": false, 
-     "price": {
-      "F_coin": 65
-     }, 
-     "state": "xin", 
-     "used": false
-    }
-   }, 
-   "qingrenyushou3": {
-    "data": {
-     "farm": {
-      "seeds": {
-       "huangmeigui": [
-        1, 
-        0.15
-       ], 
-       "heimeigui": [
-        1, 
-        0.15
-       ], 
-       "hongmeigui": [
-        1, 
-        0.15
-       ], 
-       "qingrenhuasu": [
-        1, 
-        0.15
-       ], 
-       "fenmeigui": [
-        1, 
-        0.15
-       ], 
-       "lanmeigui": [
-        1, 
-        0.15
-       ], 
-       "baimeigui": [
-        1, 
-        0.15
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.5
-        ], 
-        "common": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }, 
-    "config": {
-     "price": {
-      "F_coin": 25
-     }, 
-     "goods_str": "どんなときでも一緒に", 
-     "used": false, 
-     "name": "心は共に", 
-     "introduce": "どんなときでも一緒に"
-    }
-   }, 
-   "chengshuijing": {
-    "data": {
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         1.0
-        ], 
-        "gaosu": [
-         5, 
-         1.0
-        ]
-       }
-      }, 
-      "babies": {
-       "sheep": [
-        1, 
-        1.0
-       ], 
-       "quail": [
-        1, 
-        1.0
-       ], 
-       "friesian": [
-        1, 
-        1.0
-       ], 
-       "langshanChook": [
-        1, 
-        1.0
-       ]
-      }
-     }
-    }, 
-    "config": {
-     "goods_str": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
-     "name": "オレンジダイヤモンド", 
-     "lock": true, 
-     "price": {
-      "gold": 135
-     }, 
-     "introduce": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
-     "state": "xin", 
-     "used": false, 
-     "key": "jingangcuo"
     }
    }
   }, 
@@ -10421,6 +10466,25 @@
      "leaf_time": 297, 
      "goodstype": "flower"
     }, 
+    "xuelian": {
+     "total_time": 3120, 
+     "leaflet_time": 624, 
+     "used": false, 
+     "name": "セツレンカ", 
+     "base_fruit": 25, 
+     "level_need": 1, 
+     "fruit_time": 780, 
+     "sprout_time": 468, 
+     "experience": 5.5675, 
+     "bloom_time": 624, 
+     "sale_price": 15, 
+     "seasons": 2, 
+     "increment_fruit": 25, 
+     "leaf_time": 624, 
+     "seed_price": {
+      "gold": 10
+     }
+    }, 
     "yangyulan": {
      "total_time": 360, 
      "leaflet_time": 60, 
@@ -13605,23 +13669,23 @@
       "gold": 380
      }
     }, 
-    "xuelian": {
-     "total_time": 3120, 
-     "leaflet_time": 624, 
+    "xinxingxigua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "セツレンカ", 
+     "name": "心形西瓜", 
      "base_fruit": 25, 
-     "level_need": 1, 
-     "fruit_time": 780, 
-     "sprout_time": 468, 
-     "experience": 5.5675, 
-     "bloom_time": 624, 
-     "sale_price": 15, 
-     "seasons": 2, 
+     "level_need": 0, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "experience": 35, 
+     "bloom_time": 330, 
+     "sale_price": 16, 
+     "seasons": 1, 
      "increment_fruit": 25, 
-     "leaf_time": 624, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 10
+      "F_coin": 80
      }
     }, 
     "carnation": {
@@ -17030,6 +17094,7 @@
     "caomeituan", 
     "man_tuo_luo", 
     "morningglory", 
+    "xinxingxigua", 
     "carnation", 
     "yingsu", 
     "biandang", 
@@ -17099,6 +17164,7 @@
     "fuqinjiehuasu", 
     "baitang", 
     "xilengniupai", 
+    "xuelian", 
     "nvergao", 
     "meiguoguoqishu", 
     "liulian", 
@@ -17165,7 +17231,6 @@
     "longshelan", 
     "cong", 
     "shankui", 
-    "xuelian", 
     "bale", 
     "jianaguoqishu", 
     "naiyoukaoyumi", 
