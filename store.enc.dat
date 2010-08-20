@@ -4925,20 +4925,27 @@
    }
   }, 
   "hot_sale": {
-   "boheshu": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+   "guoqibaosiqiang": {
+    "original_price": {
+     "num": 60, 
+     "type": "F_coin"
     }, 
-    "name": "ミント", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "国旗樹ベスト4セット", 
     "price": {
-     "num": 475, 
-     "type": "gold"
+     "num": 30, 
+     "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "ミント", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "3日", 
+    "end_time": 1282543200.0, 
+    "goods_description": "国旗樹ベスト4の種が1個ずつ入っています。", 
+    "start_time": 1282284000.0, 
+    "activity_type": "hot_sale"
    }, 
    "lavender": {
     "original_price": {
@@ -5050,6 +5057,21 @@
     }, 
     "modify": false, 
     "goods_description": "マツタケ", 
+    "activity_type": "discount"
+   }, 
+   "xinxingxigua": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ラブスイカ", 
+    "price": {
+     "num": 100, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "ラブスイカ", 
     "activity_type": "discount"
    }, 
    "wurong": {
@@ -13648,8 +13670,8 @@
     "xinxingxigua": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "心形西瓜", 
+     "used": true, 
+     "name": "ラブスイカ", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 360, 
@@ -13661,7 +13683,7 @@
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 80
+      "F_coin": 100
      }
     }, 
     "carnation": {
