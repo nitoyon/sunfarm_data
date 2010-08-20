@@ -5098,6 +5098,7 @@
      "num": 28, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -16590,6 +16591,17 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
+      "summer": {
+       "used": true, 
+       "name": "お祭り", 
+       "layer_order": 3, 
+       "price": {
+        "gold": 15
+       }, 
+       "experience": 600, 
+       "multi_buy": false, 
+       "deadline": 7
+      }, 
       "yh": {
        "used": true, 
        "name": "桜の地面", 
@@ -16806,6 +16818,17 @@
        "multi_buy": false, 
        "deadline": 10
       }, 
+      "summer": {
+       "used": true, 
+       "name": "祭りの小屋", 
+       "layer_order": 2, 
+       "price": {
+        "gold": 8
+       }, 
+       "experience": 310, 
+       "multi_buy": false, 
+       "deadline": 7
+      }, 
       "shengdanjie": {
        "used": false, 
        "name": "クリスマス風のスノウハウス", 
@@ -17001,6 +17024,17 @@
        "experience": 20, 
        "multi_buy": false, 
        "deadline": 30
+      }, 
+      "summer": {
+       "used": true, 
+       "name": "真夏の夜", 
+       "layer_order": 3, 
+       "price": {
+        "gold": 8
+       }, 
+       "experience": 310, 
+       "multi_buy": false, 
+       "deadline": 7
       }, 
       "xuanlancaihong": {
        "used": false, 
