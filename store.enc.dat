@@ -1359,10 +1359,10 @@
      "price": {
       "F_coin": 12
      }, 
-     "used": false, 
-     "goods_str": "已经下架的限量商品可能在这里出现，大太鼓、タコ凧、キキ、ドド……个个价值不菲，就看你的运气了！", 
-     "name": "潮流宝箱", 
-     "introduce": "已经下架的限量商品可能在这里出现，大太鼓、タコ凧、キキ、ドド……个个价值不菲，就看你的运气了！"
+     "used": true, 
+     "goods_str": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！", 
+     "name": "大地の宝箱", 
+     "introduce": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！"
     }
    }, 
    "mb_10": {
@@ -4978,26 +4978,22 @@
     "goods_description": "魔法の種への行き方が書かれていて、魔法の種を見つけられるかもしれない。", 
     "activity_type": "discount"
    }, 
-   "cangbaotu1": {
-    "original_price": {
-     "num": 48, 
-     "type": "F_coin"
-    }, 
+   "xinbaoxiang": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "宝の地図1", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
+    "name": "大地の宝箱", 
+    "start_time": 1282284000.0, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1282284000.0, 
-    "goods_description": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
-    "start_time": 1282197600.0, 
+    "limit_time": "5日", 
+    "end_time": 1282716000.0, 
+    "goods_description": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！", 
+    "price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
     "activity_type": "hot_sale"
    }, 
    "yanhua": {
