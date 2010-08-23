@@ -2594,6 +2594,7 @@
     "huoji", 
     "mmkaola", 
     "shizizuo", 
+    "nantanglang", 
     "yinghuochong", 
     "xingxing", 
     "hanxuebaoma", 
@@ -2609,6 +2610,7 @@
     "juxiezuo", 
     "qianlima", 
     "daishu", 
+    "nvtanglang", 
     "lanqingting", 
     "changjinglu", 
     "chan", 
@@ -3041,6 +3043,27 @@
      "seasons": 4, 
      "increment_fruit": 25, 
      "level_need": 21
+    }, 
+    "nantanglang": {
+     "total_time": 600, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "\u7537\u87b3\u8782", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "is_auto_harvest": false, 
+     "adult_time": 150, 
+     "buy_price": {
+      "F_coin": 5
+     }, 
+     "fruit_name": "", 
+     "experience": 3.0, 
+     "young_time": 150, 
+     "sale_price": 20, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "fruit_quantifier": "\u500b", 
+     "level_need": 1
     }, 
     "yinghuochong": {
      "total_time": 720, 
@@ -4258,6 +4281,27 @@
      "increment_fruit": 25, 
      "fruit_quantifier": "\u500b", 
      "level_need": 25
+    }, 
+    "nvtanglang": {
+     "total_time": 600, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "\u5973\u87b3\u8782", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "is_auto_harvest": false, 
+     "adult_time": 150, 
+     "buy_price": {
+      "F_coin": 5
+     }, 
+     "fruit_name": "", 
+     "experience": 3.0, 
+     "young_time": 150, 
+     "sale_price": 20, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "fruit_quantifier": "\u500b", 
+     "level_need": 1
     }, 
     "huafenhou": {
      "total_time": 2700, 
@@ -16766,8 +16810,8 @@
        "deadline": 30
       }, 
       "chunvzuo": {
-       "used": false, 
-       "name": "\u5904\u5973\u5ea7\u306e\u5927\u5730", 
+       "used": true, 
+       "name": "\u304a\u3068\u3081\u5ea7\u306e\u5927\u5730", 
        "layer_order": 3, 
        "price": {
         "F_coin": 15
@@ -16938,11 +16982,11 @@
        "deadline": 7
       }, 
       "shizizuo": {
-       "used": false, 
+       "used": true, 
        "name": "\u8349\u539f\u306e\u77f3\u5c4b", 
        "layer_order": 2, 
        "price": {
-        "gold": 500
+        "F_coin": 15
        }, 
        "experience": 26, 
        "multi_buy": false, 
@@ -17004,11 +17048,11 @@
        "deadline": 10
       }, 
       "chunvzuo": {
-       "used": false, 
-       "name": "\u5904\u5973\u5ea7\u623f\u5b50", 
+       "used": true, 
+       "name": "\u304a\u3068\u3081\u5ea7\u306e\u795e\u6bbf", 
        "layer_order": 2, 
        "price": {
-        "gold": 500
+        "F_coin": 15
        }, 
        "experience": 26, 
        "multi_buy": false, 
@@ -17222,8 +17266,8 @@
        "deadline": 30
       }, 
       "chunvzuo": {
-       "used": false, 
-       "name": "\u5904\u5973\u5ea7\u306e\u7a7a", 
+       "used": true, 
+       "name": "\u304a\u3068\u3081\u5ea7\u306e\u7a7a", 
        "layer_order": 3, 
        "price": {
         "F_coin": 15
