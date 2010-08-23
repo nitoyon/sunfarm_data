@@ -16666,6 +16666,17 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
+      "summer": {
+       "used": false, 
+       "name": "\u304a\u796d\u308a", 
+       "layer_order": 3, 
+       "price": {
+        "gold": 15
+       }, 
+       "experience": 600, 
+       "multi_buy": false, 
+       "deadline": 7
+      }, 
       "shizizuo": {
        "used": true, 
        "name": "\u3057\u3057\u5ea7\u306e\u5927\u5730", 
@@ -16754,16 +16765,16 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "summer": {
+      "chunvzuo": {
        "used": false, 
-       "name": "\u304a\u796d\u308a", 
+       "name": "\u5904\u5973\u5ea7\u306e\u5927\u5730", 
        "layer_order": 3, 
        "price": {
-        "gold": 15
+        "F_coin": 15
        }, 
-       "experience": 600, 
+       "experience": 260, 
        "multi_buy": false, 
-       "deadline": 7
+       "deadline": 15
       }, 
       "yh": {
        "used": true, 
@@ -16915,6 +16926,17 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
+      "summer": {
+       "used": false, 
+       "name": "\u796d\u308a\u306e\u5c0f\u5c4b", 
+       "layer_order": 2, 
+       "price": {
+        "gold": 8
+       }, 
+       "experience": 310, 
+       "multi_buy": false, 
+       "deadline": 7
+      }, 
       "shizizuo": {
        "used": false, 
        "name": "\u8349\u539f\u306e\u77f3\u5c4b", 
@@ -16981,16 +17003,16 @@
        "multi_buy": false, 
        "deadline": 10
       }, 
-      "summer": {
+      "chunvzuo": {
        "used": false, 
-       "name": "\u796d\u308a\u306e\u5c0f\u5c4b", 
+       "name": "\u5904\u5973\u5ea7\u623f\u5b50", 
        "layer_order": 2, 
        "price": {
-        "gold": 8
+        "gold": 500
        }, 
-       "experience": 310, 
+       "experience": 26, 
        "multi_buy": false, 
-       "deadline": 7
+       "deadline": 15
       }, 
       "shengdanjie": {
        "used": false, 
@@ -17088,6 +17110,17 @@
        "experience": 550, 
        "multi_buy": false, 
        "deadline": 15
+      }, 
+      "summer": {
+       "used": false, 
+       "name": "\u771f\u590f\u306e\u591c", 
+       "layer_order": 3, 
+       "price": {
+        "gold": 8
+       }, 
+       "experience": 310, 
+       "multi_buy": false, 
+       "deadline": 7
       }, 
       "shizizuo": {
        "used": true, 
@@ -17188,16 +17221,16 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "summer": {
+      "chunvzuo": {
        "used": false, 
-       "name": "\u771f\u590f\u306e\u591c", 
+       "name": "\u5904\u5973\u5ea7\u306e\u7a7a", 
        "layer_order": 3, 
        "price": {
-        "gold": 8
+        "F_coin": 15
        }, 
-       "experience": 310, 
+       "experience": 260, 
        "multi_buy": false, 
-       "deadline": 7
+       "deadline": 15
       }, 
       "xuanlancaihong": {
        "used": false, 
