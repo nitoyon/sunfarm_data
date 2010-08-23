@@ -16666,6 +16666,17 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
+      "summer": {
+       "used": false, 
+       "name": "お祭り", 
+       "layer_order": 3, 
+       "price": {
+        "gold": 15
+       }, 
+       "experience": 600, 
+       "multi_buy": false, 
+       "deadline": 7
+      }, 
       "shizizuo": {
        "used": true, 
        "name": "しし座の大地", 
@@ -16754,16 +16765,16 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "summer": {
+      "chunvzuo": {
        "used": false, 
-       "name": "お祭り", 
+       "name": "处女座の大地", 
        "layer_order": 3, 
        "price": {
-        "gold": 15
+        "F_coin": 15
        }, 
-       "experience": 600, 
+       "experience": 260, 
        "multi_buy": false, 
-       "deadline": 7
+       "deadline": 15
       }, 
       "yh": {
        "used": true, 
@@ -16915,6 +16926,17 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
+      "summer": {
+       "used": false, 
+       "name": "祭りの小屋", 
+       "layer_order": 2, 
+       "price": {
+        "gold": 8
+       }, 
+       "experience": 310, 
+       "multi_buy": false, 
+       "deadline": 7
+      }, 
       "shizizuo": {
        "used": false, 
        "name": "草原の石屋", 
@@ -16981,16 +17003,16 @@
        "multi_buy": false, 
        "deadline": 10
       }, 
-      "summer": {
+      "chunvzuo": {
        "used": false, 
-       "name": "祭りの小屋", 
+       "name": "处女座房子", 
        "layer_order": 2, 
        "price": {
-        "gold": 8
+        "gold": 500
        }, 
-       "experience": 310, 
+       "experience": 26, 
        "multi_buy": false, 
-       "deadline": 7
+       "deadline": 15
       }, 
       "shengdanjie": {
        "used": false, 
@@ -17088,6 +17110,17 @@
        "experience": 550, 
        "multi_buy": false, 
        "deadline": 15
+      }, 
+      "summer": {
+       "used": false, 
+       "name": "真夏の夜", 
+       "layer_order": 3, 
+       "price": {
+        "gold": 8
+       }, 
+       "experience": 310, 
+       "multi_buy": false, 
+       "deadline": 7
       }, 
       "shizizuo": {
        "used": true, 
@@ -17188,16 +17221,16 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "summer": {
+      "chunvzuo": {
        "used": false, 
-       "name": "真夏の夜", 
+       "name": "处女座の空", 
        "layer_order": 3, 
        "price": {
-        "gold": 8
+        "F_coin": 15
        }, 
-       "experience": 310, 
+       "experience": 260, 
        "multi_buy": false, 
-       "deadline": 7
+       "deadline": 15
       }, 
       "xuanlancaihong": {
        "used": false, 
