@@ -2594,6 +2594,7 @@
     "huoji", 
     "mmkaola", 
     "shizizuo", 
+    "nantanglang", 
     "yinghuochong", 
     "xingxing", 
     "hanxuebaoma", 
@@ -2609,6 +2610,7 @@
     "juxiezuo", 
     "qianlima", 
     "daishu", 
+    "nvtanglang", 
     "lanqingting", 
     "changjinglu", 
     "chan", 
@@ -3041,6 +3043,27 @@
      "seasons": 4, 
      "increment_fruit": 25, 
      "level_need": 21
+    }, 
+    "nantanglang": {
+     "total_time": 600, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "男螳螂", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "is_auto_harvest": false, 
+     "adult_time": 150, 
+     "buy_price": {
+      "F_coin": 5
+     }, 
+     "fruit_name": "", 
+     "experience": 3.0, 
+     "young_time": 150, 
+     "sale_price": 20, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "fruit_quantifier": "個", 
+     "level_need": 1
     }, 
     "yinghuochong": {
      "total_time": 720, 
@@ -4258,6 +4281,27 @@
      "increment_fruit": 25, 
      "fruit_quantifier": "個", 
      "level_need": 25
+    }, 
+    "nvtanglang": {
+     "total_time": 600, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "女螳螂", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "is_auto_harvest": false, 
+     "adult_time": 150, 
+     "buy_price": {
+      "F_coin": 5
+     }, 
+     "fruit_name": "", 
+     "experience": 3.0, 
+     "young_time": 150, 
+     "sale_price": 20, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "fruit_quantifier": "個", 
+     "level_need": 1
     }, 
     "huafenhou": {
      "total_time": 2700, 
@@ -16766,8 +16810,8 @@
        "deadline": 30
       }, 
       "chunvzuo": {
-       "used": false, 
-       "name": "处女座の大地", 
+       "used": true, 
+       "name": "おとめ座の大地", 
        "layer_order": 3, 
        "price": {
         "F_coin": 15
@@ -16938,11 +16982,11 @@
        "deadline": 7
       }, 
       "shizizuo": {
-       "used": false, 
+       "used": true, 
        "name": "草原の石屋", 
        "layer_order": 2, 
        "price": {
-        "gold": 500
+        "F_coin": 15
        }, 
        "experience": 26, 
        "multi_buy": false, 
@@ -17004,11 +17048,11 @@
        "deadline": 10
       }, 
       "chunvzuo": {
-       "used": false, 
-       "name": "处女座房子", 
+       "used": true, 
+       "name": "おとめ座の神殿", 
        "layer_order": 2, 
        "price": {
-        "gold": 500
+        "F_coin": 15
        }, 
        "experience": 26, 
        "multi_buy": false, 
@@ -17222,8 +17266,8 @@
        "deadline": 30
       }, 
       "chunvzuo": {
-       "used": false, 
-       "name": "处女座の空", 
+       "used": true, 
+       "name": "おとめ座の空", 
        "layer_order": 3, 
        "price": {
         "F_coin": 15
