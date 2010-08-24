@@ -1509,7 +1509,7 @@
        ], 
        "bingyerizhonghua": [
         1, 
-        0.5
+        1
        ]
       }
      }
@@ -9790,22 +9790,23 @@
     "songrong": {
      "total_time": 1920, 
      "leaflet_time": 330, 
-     "used": true, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
      "name": "マツタケ", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 420, 
      "recipe": "レシピに使えます：\n焼き松茸", 
-     "sprout_time": 330, 
+     "introduce": "通常価格：38Kコイン，現在価格：30Kコイン。", 
      "experience": 15, 
-     "bloom_time": 420, 
+     "used": true, 
+     "sprout_time": 330, 
      "sale_price": 20, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 420, 
-     "seed_price": {
-      "F_coin": 30
-     }
+     "bloom_time": 420
     }, 
     "mitao": {
      "total_time": 2390, 
@@ -10486,7 +10487,7 @@
      "level_need": 0, 
      "fruit_time": 486, 
      "recipe": "レシピに使えます：\nファンタスティックな旅", 
-     "introduce": "花言葉：愛の告白", 
+     "introduce": "花言葉：愛の告白。通常価格：18Kコイン，現在価格：15Kコイン。", 
      "experience": 5.18, 
      "bloom_time": 324, 
      "used": true, 
@@ -10697,13 +10698,13 @@
      "total_time": 1980, 
      "leaflet_time": 297, 
      "seed_price": {
-      "F_coin": 23
+      "F_coin": 15
      }, 
      "name": "シラサギの花", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 594, 
-     "introduce": "", 
+     "introduce": "通常価格：23Kコイン，現在価格：15Kコイン。", 
      "experience": 6.34, 
      "bloom_time": 396, 
      "used": true, 
@@ -10823,11 +10824,11 @@
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 1512, 
-     "introduce": "花言葉：全てを手に入れる", 
+     "introduce": "花言葉：全てを手に入れる。", 
      "experience": 2.6, 
      "bloom_time": 576, 
      "magicseed": 1, 
-     "used": true, 
+     "used": false, 
      "sprout_time": 36, 
      "sale_price": 43, 
      "seasons": 1, 
@@ -13195,22 +13196,23 @@
     "chashu": {
      "total_time": 360, 
      "leaflet_time": 30, 
-     "used": true, 
+     "seed_price": {
+      "F_coin": 4
+     }, 
      "name": "チャノキ", 
      "base_fruit": 25, 
      "level_need": 1, 
      "fruit_time": 120, 
-     "sprout_time": 30, 
+     "introduce": "通常価格：5Kコイン，現在価格：4Kコイン。", 
      "experience": 3, 
      "state": "xin", 
-     "bloom_time": 90, 
+     "used": true, 
+     "sprout_time": 30, 
      "sale_price": 5, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 90, 
-     "seed_price": {
-      "F_coin": 5
-     }
+     "bloom_time": 90
     }, 
     "putaoyaguoqishua": {
      "total_time": 1650, 
@@ -13234,21 +13236,22 @@
     "baobing": {
      "total_time": 720, 
      "leaflet_time": 90, 
-     "used": true, 
+     "seed_price": {
+      "F_coin": 6
+     }, 
      "name": "カキ氷抹茶", 
      "base_fruit": 25, 
      "level_need": 1, 
      "fruit_time": 330, 
-     "sprout_time": 10, 
+     "introduce": "通常価格：12Kコイン，現在価格：6Kコイン。", 
      "experience": 3.3, 
-     "bloom_time": 145, 
+     "used": true, 
+     "sprout_time": 10, 
      "sale_price": 10, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 145, 
-     "seed_price": {
-      "F_coin": 12
-     }
+     "bloom_time": 145
     }, 
     "moguniurouchaofan": {
      "total_time": 890, 
@@ -13722,13 +13725,13 @@
      "total_time": 720, 
      "leaflet_time": 80, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 4
      }, 
      "name": "青のホテイアオイ", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 330, 
-     "introduce": "", 
+     "introduce": "通常価格：8Kコイン，現在価格：4Kコイン。", 
      "experience": 3.0, 
      "bloom_time": 150, 
      "used": true, 
@@ -15437,13 +15440,13 @@
      "total_time": 1410, 
      "leaflet_time": 330, 
      "seed_price": {
-      "F_coin": 12
+      "F_coin": 6
      }, 
      "name": "金のホテイアオイ", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 330, 
-     "introduce": "", 
+     "introduce": "通常価格：12Kコイン，現在価格：6Kコイン。", 
      "experience": 5.6, 
      "bloom_time": 330, 
      "used": true, 
