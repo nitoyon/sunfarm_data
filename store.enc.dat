@@ -2886,12 +2886,13 @@
      "base_fruit": 25, 
      "fruit_time": 240, 
      "is_auto_harvest": false, 
-     "adult_time": 240, 
+     "introduce": "通常価格：9Kコイン，現在価格：6Kコイン", 
      "buy_price": {
-      "F_coin": 9
+      "F_coin": 6
      }, 
      "fruit_name": "", 
      "experience": 3.7, 
+     "adult_time": 240, 
      "young_time": 240, 
      "sale_price": 5, 
      "seasons": 1, 
@@ -4362,12 +4363,13 @@
      "base_fruit": 25, 
      "fruit_time": 240, 
      "is_auto_harvest": false, 
-     "adult_time": 120, 
+     "introduce": "通常価格：8Kコイン，現在価格：5Kコイン", 
      "buy_price": {
-      "F_coin": 8
+      "F_coin": 5
      }, 
      "fruit_name": "", 
      "experience": 3.0, 
+     "adult_time": 120, 
      "young_time": 120, 
      "sale_price": 4, 
      "seasons": 1, 
@@ -4484,12 +4486,13 @@
      "base_fruit": 25, 
      "fruit_time": 594, 
      "is_auto_harvest": true, 
-     "adult_time": 396, 
+     "introduce": "通常価格：10Kコイン，現在価格：8Kコイン", 
      "buy_price": {
-      "F_coin": 10
+      "F_coin": 8
      }, 
      "fruit_name": "たまご", 
      "experience": 10, 
+     "adult_time": 396, 
      "young_time": 330, 
      "sale_price": 40, 
      "seasons": 1, 
@@ -16618,9 +16621,9 @@
        "name": "コムラサキ", 
        "layer_order": 5, 
        "price": {
-        "F_coin": 18
+        "F_coin": 4
        }, 
-       "introduce": "飾ると550経験値を獲得します、有効期限は15日です.", 
+       "introduce": "飾ると550経験値を獲得します、有効期限は15日です.通常価格：18Kコイン，現在価格：4Kコイン", 
        "multi_buy": false, 
        "deadline": 15, 
        "experience": 550
@@ -16651,9 +16654,9 @@
        "name": "ヒメアカタテハ", 
        "layer_order": 5, 
        "price": {
-        "F_coin": 5
+        "F_coin": 2
        }, 
-       "introduce": "飾ると400経験値を獲得します、有効期限は15日です.", 
+       "introduce": "飾ると400経験値を獲得します、有効期限は15日です．通常価格：5Kコイン，現在価格：2Kコイン", 
        "multi_buy": false, 
        "deadline": 15, 
        "experience": 400
