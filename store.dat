@@ -16707,11 +16707,12 @@
        "name": "\u592a\u9f13\u3001\u796d\u308a", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 35
+        "F_coin": 20
        }, 
-       "experience": 720, 
+       "introduce": "\u901a\u5e38\u4fa1\u683c\uff1a35K\u30b3\u30a4\u30f3\uff0c\u73fe\u5728\u4fa1\u683c\uff1a20K\u30b3\u30a4\u30f3.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 720
       }, 
       "summer": {
        "used": false, 
@@ -16751,11 +16752,12 @@
        "name": "\u9bc9\u306e\u307c\u308a\u306e\u5b63\u7bc0", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 4
+        "F_coin": 2
        }, 
-       "experience": 250, 
+       "introduce": "\u901a\u5e38\u4fa1\u683c\uff1a4K\u30b3\u30a4\u30f3\uff0c\u73fe\u5728\u4fa1\u683c\uff1a2K\u30b3\u30a4\u30f3.", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 250
       }, 
       "snow": {
        "used": false, 
@@ -16795,11 +16797,12 @@
        "name": "\u771f\u590f\u306e\u5927\u5730", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 28
+        "F_coin": 6
        }, 
-       "experience": 600, 
+       "introduce": "\u901a\u5e38\u4fa1\u683c\uff1a28K\u30b3\u30a4\u30f3\uff0c\u73fe\u5728\u4fa1\u683c\uff1a6K\u30b3\u30a4\u30f3.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 600
       }, 
       "neutral": {
        "used": true, 
@@ -16817,11 +16820,12 @@
        "name": "\u304a\u3068\u3081\u5ea7\u306e\u5927\u5730", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 15
+        "F_coin": 12
        }, 
-       "experience": 260, 
+       "introduce": "\u901a\u5e38\u4fa1\u683c\uff1a15K\u30b3\u30a4\u30f3\uff0c\u73fe\u5728\u4fa1\u683c\uff1a12K\u30b3\u30a4\u30f3.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 260
       }, 
       "yh": {
        "used": true, 
@@ -16945,22 +16949,24 @@
        "name": "\u685c\u306e\u5bb6", 
        "layer_order": 2, 
        "price": {
-        "F_coin": 5
+        "F_coin": 1
        }, 
-       "experience": 43, 
+       "introduce": "\u901a\u5e38\u4fa1\u683c\uff1a5K\u30b3\u30a4\u30f3\uff0c\u73fe\u5728\u4fa1\u683c\uff1a1K\u30b3\u30a4\u30f3.", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 43
       }, 
       "wanshengjie": {
        "used": true, 
        "name": "\u60aa\u9b54\u306e\u57ce", 
        "layer_order": 2, 
        "price": {
-        "F_coin": 3
+        "F_coin": 1
        }, 
-       "experience": 10, 
+       "introduce": "\u901a\u5e38\u4fa1\u683c\uff1a3K\u30b3\u30a4\u30f3\uff0c\u73fe\u5728\u4fa1\u683c\uff1a1K\u30b3\u30a4\u30f3", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 10
       }, 
       "taigu": {
        "used": true, 
@@ -17055,11 +17061,12 @@
        "name": "\u304a\u3068\u3081\u5ea7\u306e\u795e\u6bbf", 
        "layer_order": 2, 
        "price": {
-        "F_coin": 15
+        "F_coin": 12
        }, 
-       "experience": 26, 
+       "introduce": "\u901a\u5e38\u4fa1\u683c\uff1a15K\u30b3\u30a4\u30f3\uff0c\u73fe\u5728\u4fa1\u683c\uff1a12K\u30b3\u30a4\u30f3.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 26
       }, 
       "shengdanjie": {
        "used": false, 
@@ -17152,11 +17159,12 @@
        "name": "\u82b1\u706b\u306e\u591c\u7a7a", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 30
+        "F_coin": 15
        }, 
-       "experience": 550, 
+       "introduce": "\u901a\u5e38\u4fa1\u683c\uff1a30K\u30b3\u30a4\u30f3\uff0c\u73fe\u5728\u4fa1\u683c\uff1a15K\u30b3\u30a4\u30f3.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 550
       }, 
       "summer": {
        "used": false, 
@@ -17273,11 +17281,12 @@
        "name": "\u304a\u3068\u3081\u5ea7\u306e\u7a7a", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 15
+        "F_coin": 12
        }, 
-       "experience": 260, 
+       "introduce": "\u901a\u5e38\u4fa1\u683c\uff1a15K\u30b3\u30a4\u30f3\uff0c\u73fe\u5728\u4fa1\u683c\uff1a12K\u30b3\u30a4\u30f3.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 260
       }, 
       "xuanlancaihong": {
        "used": false, 
