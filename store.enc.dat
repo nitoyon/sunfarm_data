@@ -11359,24 +11359,26 @@
       "gold": 10
      }
     }, 
-    "deguoguoqishu": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "ドイツ国旗樹", 
-     "base_fruit": 25, 
-     "level_need": 1, 
-     "fruit_time": 330, 
-     "sprout_time": 330, 
-     "experience": 16.2, 
-     "bloom_time": 330, 
-     "sale_price": 20, 
-     "seasons": 1, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
+    "juandan": {
+     "total_time": 960, 
+     "leaflet_time": 90, 
      "seed_price": {
-      "F_coin": 1
-     }
+      "gold": 260
+     }, 
+     "name": "オニユリ", 
+     "base_fruit": 25, 
+     "level_need": 27, 
+     "fruit_time": 330, 
+     "introduce": "花言葉：荘厳", 
+     "experience": 1.36, 
+     "bloom_time": 330, 
+     "used": true, 
+     "sprout_time": 90, 
+     "sale_price": 10, 
+     "seasons": 2, 
+     "increment_fruit": 25, 
+     "leaf_time": 120, 
+     "goodstype": "flower"
     }, 
     "maymanyu": {
      "total_time": 600, 
@@ -14354,6 +14356,25 @@
       "gold": 1330
      }
     }, 
+    "jiariyecan": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "假日野餐", 
+     "base_fruit": 25, 
+     "level_need": 0, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "experience": 10, 
+     "bloom_time": 330, 
+     "sale_price": 15, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 5
+     }
+    }, 
     "zhishimianbaogan": {
      "total_time": 460, 
      "leaflet_time": 80, 
@@ -15482,26 +15503,24 @@
      "leaf_time": 330, 
      "goodstype": "flower"
     }, 
-    "juandan": {
-     "total_time": 960, 
-     "leaflet_time": 90, 
-     "seed_price": {
-      "gold": 260
-     }, 
-     "name": "オニユリ", 
+    "deguoguoqishu": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ドイツ国旗樹", 
      "base_fruit": 25, 
-     "level_need": 27, 
+     "level_need": 1, 
      "fruit_time": 330, 
-     "introduce": "花言葉：荘厳", 
-     "experience": 1.36, 
+     "sprout_time": 330, 
+     "experience": 16.2, 
      "bloom_time": 330, 
-     "used": true, 
-     "sprout_time": 90, 
-     "sale_price": 10, 
-     "seasons": 2, 
+     "sale_price": 20, 
+     "seasons": 1, 
      "increment_fruit": 25, 
-     "leaf_time": 120, 
-     "goodstype": "flower"
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 1
+     }
     }, 
     "gongbaojiding": {
      "total_time": 710, 
@@ -17495,6 +17514,7 @@
     "carnation", 
     "yingsu", 
     "biandang", 
+    "jiariyecan", 
     "shuangse", 
     "yumeiren", 
     "azalea", 
@@ -17572,7 +17592,6 @@
     "hulu", 
     "suanrulao", 
     "yinggelanguoqishu", 
-    "deguoguoqishu", 
     "lingzhi", 
     "shishutianfuluo", 
     "qianqucai", 
@@ -17666,6 +17685,7 @@
     "yinxing", 
     "rulao", 
     "fkzs", 
+    "deguoguoqishu", 
     "gongbaojiding", 
     "juxianghuacha", 
     "siluofakeguoqishu", 
