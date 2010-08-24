@@ -129,12 +129,12 @@
     }, 
     "config": {
      "price": {
-      "F_coin": 48
+      "F_coin": 24
      }, 
      "used": true, 
-     "goods_str": "ゼブラ一匹、キリン一匹、カンガルー一匹、ハト一匹、ダチョウ一匹、ヤギ一匹が入っています。", 
+     "goods_str": "ゼブラ一匹、キリン一匹、カンガルー一匹、ハト一匹、ダチョウ一匹、ヤギ一匹が入っています。通常価格：48Kコイン，現在価格：24Kコイン。", 
      "name": "ノベルティ動物セット", 
-     "introduce": "ゼブラ一匹、キリン一匹、カンガルー一匹、ハト一匹、ダチョウ一匹、ヤギ一匹が入っています。"
+     "introduce": "ゼブラ一匹、キリン一匹、カンガルー一匹、ハト一匹、ダチョウ一匹、ヤギ一匹が入っています。通常価格：48Kコイン，現在価格：24Kコイン。"
     }
    }, 
    "hb_5": {
@@ -474,12 +474,12 @@
     }, 
     "config": {
      "price": {
-      "F_coin": 15
+      "F_coin": 14
      }, 
      "used": true, 
-     "goods_str": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
+     "goods_str": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。通常価格：15Kコイン，現在価格：14Kコイン。", 
      "name": "中級肥料セット", 
-     "introduce": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。"
+     "introduce": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。通常価格：15Kコイン，現在価格：14Kコイン。"
     }
    }, 
    "zhounianbao2": {
@@ -17126,11 +17126,12 @@
        "name": "桜の空", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 4
+        "F_coin": 2
        }, 
-       "experience": 20, 
+       "introduce": "通常価格：4Kコイン，現在価格：2Kコイン.", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 20
       }, 
       "juxiezuo": {
        "used": true, 
@@ -17148,11 +17149,12 @@
        "name": "ハロウィンの夜", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 12
+        "F_coin": 6
        }, 
-       "experience": 20, 
+       "introduce": "通常価格：12Kコイン，現在価格：6Kコイン.", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 20
       }, 
       "taigu": {
        "used": true, 
@@ -17237,11 +17239,12 @@
        "name": "真夏の空", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 18
+        "F_coin": 6
        }, 
-       "experience": 400, 
+       "introduce": "通常価格：18Kコイン，現在価格：6Kコイン.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 400
       }, 
       "xiyangcaiyun": {
        "used": true, 
