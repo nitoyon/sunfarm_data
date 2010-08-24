@@ -16707,11 +16707,12 @@
        "name": "太鼓、祭り", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 35
+        "F_coin": 20
        }, 
-       "experience": 720, 
+       "introduce": "通常価格：35Kコイン，現在価格：20Kコイン.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 720
       }, 
       "summer": {
        "used": false, 
@@ -16751,11 +16752,12 @@
        "name": "鯉のぼりの季節", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 4
+        "F_coin": 2
        }, 
-       "experience": 250, 
+       "introduce": "通常価格：4Kコイン，現在価格：2Kコイン.", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 250
       }, 
       "snow": {
        "used": false, 
@@ -16795,11 +16797,12 @@
        "name": "真夏の大地", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 28
+        "F_coin": 6
        }, 
-       "experience": 600, 
+       "introduce": "通常価格：28Kコイン，現在価格：6Kコイン.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 600
       }, 
       "neutral": {
        "used": true, 
@@ -16817,11 +16820,12 @@
        "name": "おとめ座の大地", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 15
+        "F_coin": 12
        }, 
-       "experience": 260, 
+       "introduce": "通常価格：15Kコイン，現在価格：12Kコイン.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 260
       }, 
       "yh": {
        "used": true, 
@@ -16945,22 +16949,24 @@
        "name": "桜の家", 
        "layer_order": 2, 
        "price": {
-        "F_coin": 5
+        "F_coin": 1
        }, 
-       "experience": 43, 
+       "introduce": "通常価格：5Kコイン，現在価格：1Kコイン.", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 43
       }, 
       "wanshengjie": {
        "used": true, 
        "name": "悪魔の城", 
        "layer_order": 2, 
        "price": {
-        "F_coin": 3
+        "F_coin": 1
        }, 
-       "experience": 10, 
+       "introduce": "通常価格：3Kコイン，現在価格：1Kコイン", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 10
       }, 
       "taigu": {
        "used": true, 
@@ -17055,11 +17061,12 @@
        "name": "おとめ座の神殿", 
        "layer_order": 2, 
        "price": {
-        "F_coin": 15
+        "F_coin": 12
        }, 
-       "experience": 26, 
+       "introduce": "通常価格：15Kコイン，現在価格：12Kコイン.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 26
       }, 
       "shengdanjie": {
        "used": false, 
@@ -17152,11 +17159,12 @@
        "name": "花火の夜空", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 30
+        "F_coin": 15
        }, 
-       "experience": 550, 
+       "introduce": "通常価格：30Kコイン，現在価格：15Kコイン.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 550
       }, 
       "summer": {
        "used": false, 
@@ -17273,11 +17281,12 @@
        "name": "おとめ座の空", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 15
+        "F_coin": 12
        }, 
-       "experience": 260, 
+       "introduce": "通常価格：15Kコイン，現在価格：12Kコイン.", 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 15, 
+       "experience": 260
       }, 
       "xuanlancaihong": {
        "used": false, 
