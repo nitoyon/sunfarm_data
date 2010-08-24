@@ -2594,6 +2594,7 @@
     "huoji", 
     "mmkaola", 
     "shizizuo", 
+    "dakonglong", 
     "nantanglang", 
     "yinghuochong", 
     "xingxing", 
@@ -3018,6 +3019,28 @@
      "seasons": 4, 
      "increment_fruit": 25, 
      "level_need": 11
+    }, 
+    "dakonglong": {
+     "total_time": 720, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "\u30c6\u30a3\u30e9\u30ce\u30b5\u30a6\u30eb\u30b9", 
+     "base_fruit": 25, 
+     "fruit_time": 240, 
+     "is_auto_harvest": false, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 9
+     }, 
+     "fruit_name": "", 
+     "state": "xin", 
+     "experience": 3.7, 
+     "young_time": 240, 
+     "sale_price": 5, 
+     "seasons": 1, 
+     "increment_fruit": 25, 
+     "fruit_quantifier": "\u500b", 
+     "level_need": 1
     }, 
     "friesian": {
      "total_time": 3060, 
