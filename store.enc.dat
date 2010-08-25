@@ -5188,25 +5188,40 @@
     "goods_description": "ティラノサウルス", 
     "activity_type": "discount"
    }, 
-   "zhounianbao1": {
+   "jiariyecan": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ピックニックセット", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "ピックニックセット", 
+    "activity_type": "discount"
+   }, 
+   "zhounianbao2": {
     "original_price": {
-     "num": 103, 
+     "num": 220, 
      "type": "F_coin"
     }, 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
     }, 
-    "name": "一周年セット赤", 
+    "name": "一周年セット青", 
     "price": {
-     "num": 70, 
+     "num": 150, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_time", 
     "limit_time": "8日", 
     "end_time": 1283234400.0, 
-    "goods_description": "サンシャイン牧場一緒年を記念して、いままでのイベント作物をまとめたセットです。以下のアイテムが入っています：豪華な鯉のぼり，花見酒，アルバカ，花粉症サル，ちまき，竿燈，恋人の花束，桜，鏡餅各1個；原価：103Kコイン，セット価格：70Kコイン，8月23日から8月31日の間の期間限定販売です。", 
+    "goods_description": "サンシャイン牧場一緒年を記念して、いままでのイベント作物をまとめたセットです。以下のアイテムが入っています：大太鼓，タコ凧，ドキドキ，キキ，ドド，アイスプラント各1個；原価：220Kコイン，セット価格：150Kコイン，8月23日から8月31日の間の期間限定販売です。", 
     "start_time": 1282543200.0, 
     "activity_type": "hot_sale"
    }, 
@@ -5232,20 +5247,27 @@
     "start_time": 1282543200.0, 
     "activity_type": "hot_sale"
    }, 
-   "jiariyecan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "ピックニックセット", 
-    "price": {
-     "num": 10, 
+   "zhounianbao1": {
+    "original_price": {
+     "num": 103, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "ピックニックセット", 
-    "activity_type": "discount"
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "一周年セット赤", 
+    "price": {
+     "num": 70, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "8日", 
+    "end_time": 1283234400.0, 
+    "goods_description": "サンシャイン牧場一緒年を記念して、いままでのイベント作物をまとめたセットです。以下のアイテムが入っています：豪華な鯉のぼり，花見酒，アルバカ，花粉症サル，ちまき，竿燈，恋人の花束，桜，鏡餅各1個；原価：103Kコイン，セット価格：70Kコイン，8月23日から8月31日の間の期間限定販売です。", 
+    "start_time": 1282543200.0, 
+    "activity_type": "hot_sale"
    }, 
    "lavender": {
     "original_price": {
@@ -5265,24 +5287,6 @@
     "modify": false, 
     "goods_description": "ラベンダー", 
     "activity_type": "discount"
-   }, 
-   "xinbaoxiang": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "大地の宝箱", 
-    "start_time": 1282284000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1282716000.0, 
-    "goods_description": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "tulip": {
     "original_price": {
