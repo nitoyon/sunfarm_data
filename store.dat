@@ -5173,24 +5173,42 @@
    }
   }, 
   "hot_sale": {
-   "zhounianbao2": {
-    "original_price": {
-     "num": 220, 
+   "dakonglong": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u30c6\u30a3\u30e9\u30ce\u30b5\u30a6\u30eb\u30b9", 
+    "price": {
+     "num": 20, 
      "type": "F_coin"
     }, 
-    "specific_type": "xin", 
+    "modify": true, 
+    "goods_description": "\u30c6\u30a3\u30e9\u30ce\u30b5\u30a6\u30eb\u30b9", 
+    "activity_type": "discount"
+   }, 
+   "zhounianbao1": {
+    "original_price": {
+     "num": 103, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
     }, 
-    "name": "\u4e00\u5468\u5e74\u30bb\u30c3\u30c8\u9752", 
+    "name": "\u4e00\u5468\u5e74\u30bb\u30c3\u30c8\u8d64", 
     "price": {
-     "num": 150, 
+     "num": 70, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "\u30b5\u30f3\u30b7\u30e3\u30a4\u30f3\u7267\u5834\u4e00\u7dd2\u5e74\u3092\u8a18\u5ff5\u3057\u3066\u3001\u3044\u307e\u307e\u3067\u306e\u30a4\u30d9\u30f3\u30c8\u4f5c\u7269\u3092\u307e\u3068\u3081\u305f\u30bb\u30c3\u30c8\u3067\u3059\u3002\u4ee5\u4e0b\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u5165\u3063\u3066\u3044\u307e\u3059\uff1a\u5927\u592a\u9f13\uff0c\u30bf\u30b3\u51e7\uff0c\u30c9\u30ad\u30c9\u30ad\uff0c\u30ad\u30ad\uff0c\u30c9\u30c9\uff0c\u30a2\u30a4\u30b9\u30d7\u30e9\u30f3\u30c8\u54041\u500b\uff1b\u539f\u4fa1\uff1a220K\u30b3\u30a4\u30f3\uff0c\u30bb\u30c3\u30c8\u4fa1\u683c\uff1a150K\u30b3\u30a4\u30f3\uff0c8\u670823\u65e5\u304b\u30898\u670831\u65e5\u306e\u9593\u306e\u671f\u9593\u9650\u5b9a\u8ca9\u58f2\u3067\u3059\u3002", 
-    "activity_type": "discount"
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "8\u65e5", 
+    "end_time": 1283234400.0, 
+    "goods_description": "\u30b5\u30f3\u30b7\u30e3\u30a4\u30f3\u7267\u5834\u4e00\u7dd2\u5e74\u3092\u8a18\u5ff5\u3057\u3066\u3001\u3044\u307e\u307e\u3067\u306e\u30a4\u30d9\u30f3\u30c8\u4f5c\u7269\u3092\u307e\u3068\u3081\u305f\u30bb\u30c3\u30c8\u3067\u3059\u3002\u4ee5\u4e0b\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u5165\u3063\u3066\u3044\u307e\u3059\uff1a\u8c6a\u83ef\u306a\u9bc9\u306e\u307c\u308a\uff0c\u82b1\u898b\u9152\uff0c\u30a2\u30eb\u30d0\u30ab\uff0c\u82b1\u7c89\u75c7\u30b5\u30eb\uff0c\u3061\u307e\u304d\uff0c\u7aff\u71c8\uff0c\u604b\u4eba\u306e\u82b1\u675f\uff0c\u685c\uff0c\u93e1\u9905\u54041\u500b\uff1b\u539f\u4fa1\uff1a103K\u30b3\u30a4\u30f3\uff0c\u30bb\u30c3\u30c8\u4fa1\u683c\uff1a70K\u30b3\u30a4\u30f3\uff0c8\u670823\u65e5\u304b\u30898\u670831\u65e5\u306e\u9593\u306e\u671f\u9593\u9650\u5b9a\u8ca9\u58f2\u3067\u3059\u3002", 
+    "start_time": 1282543200.0, 
+    "activity_type": "hot_sale"
    }, 
    "zhounianbao3": {
     "original_price": {
@@ -5214,27 +5232,20 @@
     "start_time": 1282543200.0, 
     "activity_type": "hot_sale"
    }, 
-   "zhounianbao1": {
-    "original_price": {
-     "num": 103, 
-     "type": "F_coin"
-    }, 
+   "jiariyecan": {
+    "specific_type": "xin", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "\u4e00\u5468\u5e74\u30bb\u30c3\u30c8\u8d64", 
+    "name": "\u30d4\u30c3\u30af\u30cb\u30c3\u30af\u30bb\u30c3\u30c8", 
     "price": {
-     "num": 70, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "10\u65e5", 
-    "end_time": 1282888800.0, 
-    "goods_description": "\u30b5\u30f3\u30b7\u30e3\u30a4\u30f3\u7267\u5834\u4e00\u7dd2\u5e74\u3092\u8a18\u5ff5\u3057\u3066\u3001\u3044\u307e\u307e\u3067\u306e\u30a4\u30d9\u30f3\u30c8\u4f5c\u7269\u3092\u307e\u3068\u3081\u305f\u30bb\u30c3\u30c8\u3067\u3059\u3002\u4ee5\u4e0b\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u5165\u3063\u3066\u3044\u307e\u3059\uff1a\u8c6a\u83ef\u306a\u9bc9\u306e\u307c\u308a\uff0c\u82b1\u898b\u9152\uff0c\u30a2\u30eb\u30d0\u30ab\uff0c\u82b1\u7c89\u75c7\u30b5\u30eb\uff0c\u3061\u307e\u304d\uff0c\u7aff\u71c8\uff0c\u604b\u4eba\u306e\u82b1\u675f\uff0c\u685c\uff0c\u93e1\u9905\u54041\u500b\uff1b\u539f\u4fa1\uff1a103K\u30b3\u30a4\u30f3\uff0c\u30bb\u30c3\u30c8\u4fa1\u683c\uff1a70K\u30b3\u30a4\u30f3\uff0c8\u670823\u65e5\u304b\u30898\u670831\u65e5\u306e\u9593\u306e\u671f\u9593\u9650\u5b9a\u8ca9\u58f2\u3067\u3059\u3002", 
-    "start_time": 1282024800.0, 
-    "activity_type": "hot_sale"
+    "goods_description": "\u30d4\u30c3\u30af\u30cb\u30c3\u30af\u30bb\u30c3\u30c8", 
+    "activity_type": "discount"
    }, 
    "lavender": {
     "original_price": {
@@ -5272,21 +5283,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "yanhua": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u82b1\u706b", 
-    "price": {
-     "num": 200, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "\u30b5\u30f3\u7267\u7279\u88fd\u306e\u82b1\u706b\u3002\u6c34\u3001\u866b\u5bfe\u7b56\u306f\u30d0\u30c3\u30c1\u30ea\uff018\u670827\u307e\u3067\u306b\u8cfc\u5165\u3057\u3066\u3044\u305f\u3060\u304f\u3068\u3001\u592a\u9f13\u306e\u30c7\u30b3\u30ec\u30fc\u30b7\u30e7\u30f3\u3092\u30ef\u30f3\u30bb\u30c3\u30c8\u30d7\u30ec\u30bc\u30f3\u30c8\u3092\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u3002\u30d7\u30ec\u30bc\u30f3\u30c8\u306f\u8cfc\u5165\u5f8c3\u65e5\u4ee5\u5185\u306b\u914d\u5e03\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u3002\u307e\u305f\u30d7\u30ec\u30bc\u30f3\u30c8\u306f\u4e00\u56de\u3057\u304b\u53d7\u3051\u53d6\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3001\u3054\u4e86\u627f\u304f\u3060\u3055\u3044\u3002", 
-    "activity_type": "discount"
    }, 
    "tulip": {
     "original_price": {
