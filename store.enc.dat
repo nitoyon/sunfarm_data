@@ -5173,24 +5173,42 @@
    }
   }, 
   "hot_sale": {
-   "zhounianbao2": {
-    "original_price": {
-     "num": 220, 
+   "dakonglong": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "ティラノサウルス", 
+    "price": {
+     "num": 20, 
      "type": "F_coin"
     }, 
-    "specific_type": "xin", 
+    "modify": true, 
+    "goods_description": "ティラノサウルス", 
+    "activity_type": "discount"
+   }, 
+   "zhounianbao1": {
+    "original_price": {
+     "num": 103, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
     }, 
-    "name": "一周年セット青", 
+    "name": "一周年セット赤", 
     "price": {
-     "num": 150, 
+     "num": 70, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "サンシャイン牧場一緒年を記念して、いままでのイベント作物をまとめたセットです。以下のアイテムが入っています：大太鼓，タコ凧，ドキドキ，キキ，ドド，アイスプラント各1個；原価：220Kコイン，セット価格：150Kコイン，8月23日から8月31日の間の期間限定販売です。", 
-    "activity_type": "discount"
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "8日", 
+    "end_time": 1283234400.0, 
+    "goods_description": "サンシャイン牧場一緒年を記念して、いままでのイベント作物をまとめたセットです。以下のアイテムが入っています：豪華な鯉のぼり，花見酒，アルバカ，花粉症サル，ちまき，竿燈，恋人の花束，桜，鏡餅各1個；原価：103Kコイン，セット価格：70Kコイン，8月23日から8月31日の間の期間限定販売です。", 
+    "start_time": 1282543200.0, 
+    "activity_type": "hot_sale"
    }, 
    "zhounianbao3": {
     "original_price": {
@@ -5214,27 +5232,20 @@
     "start_time": 1282543200.0, 
     "activity_type": "hot_sale"
    }, 
-   "zhounianbao1": {
-    "original_price": {
-     "num": 103, 
-     "type": "F_coin"
-    }, 
+   "jiariyecan": {
+    "specific_type": "xin", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "一周年セット赤", 
+    "name": "ピックニックセット", 
     "price": {
-     "num": 70, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "10日", 
-    "end_time": 1282888800.0, 
-    "goods_description": "サンシャイン牧場一緒年を記念して、いままでのイベント作物をまとめたセットです。以下のアイテムが入っています：豪華な鯉のぼり，花見酒，アルバカ，花粉症サル，ちまき，竿燈，恋人の花束，桜，鏡餅各1個；原価：103Kコイン，セット価格：70Kコイン，8月23日から8月31日の間の期間限定販売です。", 
-    "start_time": 1282024800.0, 
-    "activity_type": "hot_sale"
+    "goods_description": "ピックニックセット", 
+    "activity_type": "discount"
    }, 
    "lavender": {
     "original_price": {
@@ -5272,21 +5283,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "yanhua": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "花火", 
-    "price": {
-     "num": 200, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "サン牧特製の花火。水、虫対策はバッチリ！8月27までに購入していただくと、太鼓のデコレーションをワンセットプレゼントをさせていただきます。プレゼントは購入後3日以内に配布させていただきます。またプレゼントは一回しか受け取ることができません、ご了承ください。", 
-    "activity_type": "discount"
    }, 
    "tulip": {
     "original_price": {
