@@ -9187,7 +9187,7 @@
      "total_time": 960, 
      "leaflet_time": 160, 
      "used": true, 
-     "name": "シソ", 
+     "name": "紫蘇", 
      "base_fruit": 25, 
      "level_need": 14, 
      "fruit_time": 305, 
@@ -12499,7 +12499,7 @@
      "total_time": 960, 
      "leaflet_time": 160, 
      "used": true, 
-     "name": "紫いも", 
+     "name": "紫薯", 
      "base_fruit": 25, 
      "level_need": 24, 
      "fruit_time": 305, 
@@ -14009,6 +14009,25 @@
      "increment_fruit": 25, 
      "leaf_time": 243, 
      "goodstype": "flower"
+    }, 
+    "bocai": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ほうれん草", 
+     "base_fruit": 25, 
+     "level_need": 49, 
+     "fruit_time": 390, 
+     "sprout_time": 150, 
+     "experience": 4.35, 
+     "bloom_time": 390, 
+     "sale_price": 13, 
+     "seasons": 3, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "gold": 468
+     }
     }, 
     "yingsu": {
      "total_time": 3000, 
@@ -17801,7 +17820,8 @@
     "shanzhu", 
     "caiji", 
     "boheshu", 
-    "luohuasheng"
+    "luohuasheng", 
+    "bocai"
    ]
   }
  }, 
