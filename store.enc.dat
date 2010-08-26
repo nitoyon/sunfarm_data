@@ -2887,13 +2887,12 @@
      "base_fruit": 25, 
      "fruit_time": 240, 
      "is_auto_harvest": false, 
-     "introduce": "通常価格：9Kコイン，現在価格：6Kコイン", 
+     "adult_time": 240, 
      "buy_price": {
       "F_coin": 6
      }, 
      "fruit_name": "", 
      "experience": 3.7, 
-     "adult_time": 240, 
      "young_time": 240, 
      "sale_price": 5, 
      "seasons": 1, 
@@ -4386,13 +4385,12 @@
      "base_fruit": 25, 
      "fruit_time": 240, 
      "is_auto_harvest": false, 
-     "introduce": "通常価格：8Kコイン，現在価格：5Kコイン", 
+     "adult_time": 120, 
      "buy_price": {
       "F_coin": 5
      }, 
      "fruit_name": "", 
      "experience": 3.0, 
-     "adult_time": 120, 
      "young_time": 120, 
      "sale_price": 4, 
      "seasons": 1, 
@@ -4509,13 +4507,12 @@
      "base_fruit": 25, 
      "fruit_time": 594, 
      "is_auto_harvest": true, 
-     "introduce": "通常価格：10Kコイン，現在価格：8Kコイン", 
+     "adult_time": 396, 
      "buy_price": {
       "F_coin": 8
      }, 
      "fruit_name": "たまご", 
      "experience": 10, 
-     "adult_time": 396, 
      "young_time": 330, 
      "sale_price": 40, 
      "seasons": 1, 
@@ -9885,23 +9882,22 @@
     "songrong": {
      "total_time": 1920, 
      "leaflet_time": 330, 
-     "seed_price": {
-      "F_coin": 30
-     }, 
+     "used": true, 
      "name": "マツタケ", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 420, 
      "recipe": "レシピに使えます：\n焼き松茸", 
-     "introduce": "通常価格：38Kコイン，現在価格：30Kコイン。", 
-     "experience": 15, 
-     "used": true, 
      "sprout_time": 330, 
+     "experience": 15, 
+     "bloom_time": 420, 
      "sale_price": 20, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 420, 
-     "bloom_time": 420
+     "seed_price": {
+      "F_coin": 30
+     }
     }, 
     "mitao": {
      "total_time": 2390, 
@@ -10582,7 +10578,7 @@
      "level_need": 0, 
      "fruit_time": 486, 
      "recipe": "レシピに使えます：\nファンタスティックな旅", 
-     "introduce": "花言葉：愛の告白。通常価格：18Kコイン，現在価格：15Kコイン。", 
+     "introduce": "花言葉：愛の告白。", 
      "experience": 5.18, 
      "bloom_time": 324, 
      "used": true, 
@@ -10799,11 +10795,10 @@
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 594, 
-     "introduce": "通常価格：23Kコイン，現在価格：15Kコイン。", 
-     "experience": 6.34, 
-     "bloom_time": 396, 
-     "used": true, 
      "sprout_time": 396, 
+     "experience": 6.34, 
+     "used": true, 
+     "bloom_time": 396, 
      "sale_price": 45, 
      "seasons": 1, 
      "increment_fruit": 25, 
@@ -11244,7 +11239,7 @@
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 252, 
-     "introduce": "花言葉：喜びを運ぶ。通常価格：8Kコイン，現在価格：4Kコイン。", 
+     "introduce": "花言葉：喜びを運ぶ。", 
      "experience": 2.69, 
      "bloom_time": 168, 
      "used": true, 
@@ -13005,7 +13000,7 @@
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 306, 
-     "introduce": "花言葉：永遠の美しさ。通常価格：12Kコイン，現在価格：6Kコイン。 ", 
+     "introduce": "花言葉：永遠の美しさ。", 
      "experience": 3.26, 
      "bloom_time": 204, 
      "used": true, 
@@ -13019,23 +13014,22 @@
     "wurong": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "seed_price": {
-      "F_coin": 20
-     }, 
+     "used": true, 
      "name": "マイタケ", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 360, 
      "recipe": "レシピに使えます：\n舞茸炒め", 
-     "introduce": "通常価格：28Kコイン，現在価格：20Kコイン。", 
-     "experience": 10, 
-     "used": true, 
      "sprout_time": 90, 
+     "experience": 10, 
+     "bloom_time": 330, 
      "sale_price": 15, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
-     "bloom_time": 330
+     "seed_price": {
+      "F_coin": 20
+     }
     }, 
     "starsalad": {
      "total_time": 1920, 
@@ -13294,23 +13288,22 @@
     "chashu": {
      "total_time": 360, 
      "leaflet_time": 30, 
-     "seed_price": {
-      "F_coin": 4
-     }, 
+     "used": true, 
      "name": "チャノキ", 
      "base_fruit": 25, 
      "level_need": 1, 
      "fruit_time": 120, 
-     "introduce": "通常価格：5Kコイン，現在価格：4Kコイン。", 
+     "sprout_time": 30, 
      "experience": 3, 
      "state": "xin", 
-     "used": true, 
-     "sprout_time": 30, 
+     "bloom_time": 90, 
      "sale_price": 5, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 90, 
-     "bloom_time": 90
+     "seed_price": {
+      "F_coin": 4
+     }
     }, 
     "putaoyaguoqishua": {
      "total_time": 1650, 
@@ -13334,22 +13327,21 @@
     "baobing": {
      "total_time": 720, 
      "leaflet_time": 90, 
-     "seed_price": {
-      "F_coin": 6
-     }, 
+     "used": true, 
      "name": "カキ氷抹茶", 
      "base_fruit": 25, 
      "level_need": 1, 
      "fruit_time": 330, 
-     "introduce": "通常価格：12Kコイン，現在価格：6Kコイン。", 
-     "experience": 3.3, 
-     "used": true, 
      "sprout_time": 10, 
+     "experience": 3.3, 
+     "bloom_time": 145, 
      "sale_price": 10, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 145, 
-     "bloom_time": 145
+     "seed_price": {
+      "F_coin": 6
+     }
     }, 
     "moguniurouchaofan": {
      "total_time": 890, 
@@ -13829,11 +13821,10 @@
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 330, 
-     "introduce": "通常価格：8Kコイン，現在価格：4Kコイン。", 
-     "experience": 3.0, 
-     "bloom_time": 150, 
-     "used": true, 
      "sprout_time": 20, 
+     "experience": 3.0, 
+     "used": true, 
+     "bloom_time": 150, 
      "sale_price": 10, 
      "seasons": 1, 
      "increment_fruit": 25, 
@@ -14044,22 +14035,21 @@
     "xinxingxigua": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "seed_price": {
-      "F_coin": 80
-     }, 
+     "used": true, 
      "name": "ラブスイカ", 
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 360, 
-     "introduce": "通常価格：100Kコイン，現在価格：80Kコイン。", 
-     "experience": 35, 
-     "used": true, 
      "sprout_time": 90, 
+     "experience": 35, 
+     "bloom_time": 330, 
      "sale_price": 16, 
      "seasons": 1, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
-     "bloom_time": 330
+     "seed_price": {
+      "F_coin": 80
+     }
     }, 
     "carnation": {
      "total_time": 1620, 
@@ -15583,11 +15573,10 @@
      "base_fruit": 25, 
      "level_need": 0, 
      "fruit_time": 330, 
-     "introduce": "通常価格：12Kコイン，現在価格：6Kコイン。", 
-     "experience": 5.6, 
-     "bloom_time": 330, 
-     "used": true, 
      "sprout_time": 90, 
+     "experience": 5.6, 
+     "used": true, 
+     "bloom_time": 330, 
      "sale_price": 16, 
      "seasons": 1, 
      "increment_fruit": 25, 
