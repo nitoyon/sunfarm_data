@@ -5185,6 +5185,21 @@
     "goods_description": "ティラノサウルス", 
     "activity_type": "discount"
    }, 
+   "jiariyecan": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ピックニックセット", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "ピックニックセット", 
+    "activity_type": "discount"
+   }, 
    "zhounianbao2": {
     "original_price": {
      "num": 220, 
@@ -5234,7 +5249,6 @@
      "num": 103, 
      "type": "F_coin"
     }, 
-    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
@@ -5245,8 +5259,12 @@
      "type": "F_coin"
     }, 
     "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "8日", 
+    "end_time": 1283234400.0, 
     "goods_description": "サンシャイン牧場一緒年を記念して、いままでのイベント作物をまとめたセットです。以下のアイテムが入っています：豪華な鯉のぼり，花見酒，アルバカ，花粉症サル，ちまき，竿燈，恋人の花束，桜，鏡餅各1個；原価：103Kコイン，セット価格：70Kコイン，8月23日から8月31日の間の期間限定販売です。", 
-    "activity_type": "discount"
+    "start_time": 1282543200.0, 
+    "activity_type": "hot_sale"
    }, 
    "lavender": {
     "original_price": {
@@ -5304,29 +5322,6 @@
     "modify": false, 
     "goods_description": "マツタケ", 
     "activity_type": "discount"
-   }, 
-   "xunjie": {
-    "original_price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック肥料", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1282888800.0, 
-    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。", 
-    "start_time": 1282629600.0, 
-    "activity_type": "hot_sale"
    }, 
    "wurong": {
     "original_price": {
