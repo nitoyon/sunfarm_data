@@ -1896,6 +1896,83 @@
      "used": false
     }
    }, 
+   "huangniudan": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.05
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ], 
+       "huangkapian": [
+        1, 
+        0.0001
+       ], 
+       "nvmogu": [
+        1, 
+        0.01
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }, 
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "goods_str": "100%几率开出酷币道具，运气好可得多种高价道具,只赚不赔。同时有一定几率可开出黄色卡片。集齐黄色、红色和蓝色卡片的玩家将会额外获得200酷币奖励，奖品将于活动结束后3日内发放。黄色扭蛋仅会在8月27日到9月7日周年庆活动时间出售。", 
+     "used": false, 
+     "name": "黄色扭蛋", 
+     "introduce": "100%几率开出酷币道具，运气好可得多种高价道具,只赚不赔。同时有一定几率可开出黄色卡片。集齐黄色、红色和蓝色卡片的玩家将会额外获得200酷币奖励，奖品将于活动结束后3日内发放。黄色扭蛋仅会在8月27日到9月7日周年庆活动时间出售。"
+    }
+   }, 
    "mb_8": {
     "data": {
      "farm": {
@@ -2160,6 +2237,87 @@
      "state": "xin", 
      "used": false, 
      "key": "jingangcuo"
+    }
+   }, 
+   "lanniudan": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirentaigu": [
+        1, 
+        0.01
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        0.01
+       ], 
+       "baimeigui": [
+        1, 
+        0.01
+       ], 
+       "xingandengjie": [
+        1, 
+        0.03
+       ], 
+       "lankapian": [
+        1, 
+        0.01
+       ], 
+       "shuijingputao": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         0.1
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
+       ], 
+       "huangsewoniu": [
+        1, 
+        0.08
+       ]
+      }
+     }
+    }, 
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "goods_str": "100%几率开出酷币道具，运气好可得多种高价道具,只赚不赔。同时有一定几率可开出蓝色卡片。集齐黄色、红色和蓝色卡片的玩家将会额外获得200酷币奖励，奖品将于活动结束后3日内发放。蓝色扭蛋仅会在8月27日到9月7日周年庆活动时间出售。", 
+     "used": false, 
+     "name": "蓝色扭蛋", 
+     "introduce": "100%几率开出酷币道具，运气好可得多种高价道具,只赚不赔。同时有一定几率可开出蓝色卡片。集齐黄色、红色和蓝色卡片的玩家将会额外获得200酷币奖励，奖品将于活动结束后3日内发放。蓝色扭蛋仅会在8月27日到9月7日周年庆活动时间出售。"
     }
    }, 
    "chengshuijing": {
@@ -2551,6 +2709,87 @@
      "name": "宝の地図1", 
      "introduce": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。"
     }
+   }, 
+   "hongniudan": {
+    "data": {
+     "farm": {
+      "seeds": {
+       "dongqing": [
+        1, 
+        0.06
+       ], 
+       "niangao": [
+        1, 
+        0.1
+       ], 
+       "taigu": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.01
+       ], 
+       "shenqima_ti_lian": [
+        1, 
+        0.01
+       ], 
+       "carnation": [
+        1, 
+        0.01
+       ], 
+       "hongkapian": [
+        1, 
+        0.2
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "wushi": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }, 
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "goods_str": "100%几率开出酷币道具，运气好可得多种高价道具,只赚不赔。同时有一定几率可开出红色卡片。集齐黄色、红色和蓝色卡片的玩家将会额外获得200酷币奖励，奖品将于活动结束后3日内发放。红色扭蛋仅会在8月27日到9月7日周年庆活动时间出售。", 
+     "used": false, 
+     "name": "红色扭蛋", 
+     "introduce": "100%几率开出酷币道具，运气好可得多种高价道具,只赚不赔。同时有一定几率可开出红色卡片。集齐黄色、红色和蓝色卡片的玩家将会额外获得200酷币奖励，奖品将于活动结束后3日内发放。红色扭蛋仅会在8月27日到9月7日周年庆活动时间出售。"
+    }
    }
   }, 
   "ranch": {
@@ -2757,6 +2996,16 @@
       "name": "自製飼料", 
       "introduce": "自製飼料を購入して使うと、動物の生産時間を0.5時間短縮できます。", 
       "effect": 0.5
+     }, 
+     "xunjie1": {
+      "used": false, 
+      "name": "マジック飼料0.25", 
+      "price": {
+       "F_coin": 1
+      }, 
+      "effect": 0.25, 
+      "introduce": "使うと動物の生産時間を0.25時間短縮できます。何度でも使えます。", 
+      "state": "re"
      }, 
      "kuaisu": {
       "price": {
@@ -16405,24 +16654,15 @@
       "introduce": "使うと作物の成熟時間を2時間短縮できます。マイミクに盗まれる前に収穫しちゃいましょう。", 
       "effect": 2
      }, 
-     "zengshou7": {
-      "crops_level": [
-       1, 
-       9
-      ], 
+     "xunjie1": {
       "used": false, 
-      "name": "合成肥料(低)", 
-      "max_level": 10, 
+      "name": "マジック肥料0.25", 
       "price": {
-       "F_coin": 999
+       "F_coin": 1
       }, 
-      "effect": 0, 
-      "introduce": "合成肥料(低)はレベル1 - 9の作物の増産量を10%アップします（花には使えません）。同じ作物に2回まで使えます。殺虫や水遣りをして増産量を200%までアップできます。多期作の場合、次の収穫は普通に戻ります。", 
-      "use_area": [
-       "friuit"
-      ], 
-      "increment_percent": 0.1, 
-      "increment_percent_max": 1
+      "effect": 0.25, 
+      "introduce": "(イベントの期間)使うと作物の成熟時間を0.25時間短縮できます。何度でも使えます。", 
+      "state": "re"
      }, 
      "zengshou8": {
       "crops_level": [
@@ -16460,6 +16700,25 @@
        "friuit"
       ], 
       "increment_percent": 0.2, 
+      "increment_percent_max": 1
+     }, 
+     "zengshou7": {
+      "crops_level": [
+       1, 
+       9
+      ], 
+      "used": false, 
+      "name": "合成肥料(低)", 
+      "max_level": 10, 
+      "price": {
+       "F_coin": 999
+      }, 
+      "effect": 0, 
+      "introduce": "合成肥料(低)はレベル1 - 9の作物の増産量を10%アップします（花には使えません）。同じ作物に2回まで使えます。殺虫や水遣りをして増産量を200%までアップできます。多期作の場合、次の収穫は普通に戻ります。", 
+      "use_area": [
+       "friuit"
+      ], 
+      "increment_percent": 0.1, 
       "increment_percent_max": 1
      }, 
      "gaosu": {
