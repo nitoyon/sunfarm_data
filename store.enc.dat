@@ -129,7 +129,7 @@
     }, 
     "config": {
      "price": {
-      "F_coin": 24
+      "F_coin": 48
      }, 
      "used": true, 
      "goods_str": "ゼブラ一匹、キリン一匹、カンガルー一匹、ハト一匹、ダチョウ一匹、ヤギ一匹が入っています。", 
@@ -180,7 +180,7 @@
     }, 
     "config": {
      "price": {
-      "F_coin": 14
+      "F_coin": 15
      }, 
      "used": true, 
      "goods_str": "中には中級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
@@ -205,7 +205,7 @@
      "used": true, 
      "name": "高級飼料セット", 
      "price": {
-      "F_coin": 28
+      "F_coin": 30
      }, 
      "introduce": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -419,7 +419,7 @@
      "used": true, 
      "name": "高級肥料セット", 
      "price": {
-      "F_coin": 28
+      "F_coin": 30
      }, 
      "introduce": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -474,7 +474,7 @@
     }, 
     "config": {
      "price": {
-      "F_coin": 14
+      "F_coin": 15
      }, 
      "used": true, 
      "goods_str": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
@@ -782,7 +782,7 @@
     }, 
     "config": {
      "price": {
-      "F_coin": 24
+      "F_coin": 48
      }, 
      "used": true, 
      "goods_str": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。", 
@@ -2361,7 +2361,7 @@
     }, 
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 48
      }, 
      "used": true, 
      "goods_str": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
@@ -2475,7 +2475,7 @@
     }, 
     "config": {
      "price": {
-      "F_coin": 55
+      "F_coin": 60
      }, 
      "used": true, 
      "goods_str": "魔法の種への行き方が書かれていて、魔法の種を見つけられるかもしれない。", 
@@ -2544,7 +2544,7 @@
     }, 
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 48
      }, 
      "used": true, 
      "goods_str": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
@@ -2659,7 +2659,7 @@
       "used": true, 
       "name": "食べ物（畜産広場）", 
       "price": {
-       "F_coin": 1
+       "F_coin": 2
       }, 
       "introduce": "一日分の食べ物、ガーディアンは食べ物を食べてから働き始めます。摘み取りに来るマイミクを捕まります。食べ物は購入すると自動に追加されますので、アイテム袋に入ってきません。", 
       "multi_buy": false, 
@@ -2669,7 +2669,7 @@
       "used": true, 
       "name": "食べ物セット（畜産広場）", 
       "price": {
-       "F_coin": 5
+       "F_coin": 10
       }, 
       "introduce": "五日分の食べ物、それに二日分をサービスします。ガーディアンは食べ物を食べてから働き始めます。摘み取りに来るマイミクを捕まります。食べ物は購入すると自動に追加されます。", 
       "multi_buy": false, 
@@ -2691,7 +2691,7 @@
       "used": true, 
       "name": "シュナウザー", 
       "price": {
-       "F_coin": 12
+       "F_coin": 16
       }, 
       "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物がないと働けません。", 
       "multi_buy": false, 
@@ -2721,7 +2721,7 @@
       "used": true, 
       "name": "プードル", 
       "price": {
-       "F_coin": 12
+       "F_coin": 16
       }, 
       "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落すコイン20-80（ランダム）とシステムからの同じ金額のコインをゲットします。但し、食べ物がないと働けません。", 
       "multi_buy": false, 
@@ -2778,7 +2778,7 @@
      }, 
      "gaosu": {
       "price": {
-       "F_coin": 2
+       "F_coin": 3
       }, 
       "used": true, 
       "name": "中級飼料", 
@@ -2789,7 +2789,7 @@
       "used": true, 
       "name": "高級飼料", 
       "price": {
-       "F_coin": 5
+       "F_coin": 6
       }, 
       "effect": 4, 
       "introduce": "使うと動物の生産時間を4時間短縮できます。", 
@@ -2808,7 +2808,7 @@
       "used": true, 
       "name": "マジック飼料", 
       "price": {
-       "F_coin": 1
+       "F_coin": 2
       }, 
       "effect": 0.5, 
       "introduce": "使うと動物の生産時間を0.5時間短縮できます。同じ段階で何個でも使えます。", 
@@ -10741,7 +10741,7 @@
      "total_time": 1980, 
      "leaflet_time": 297, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 23
      }, 
      "name": "シラサギの花", 
      "base_fruit": 25, 
@@ -11204,7 +11204,7 @@
      "total_time": 840, 
      "leaflet_time": 126, 
      "seed_price": {
-      "F_coin": 4
+      "F_coin": 8
      }, 
      "name": "ガーデニア", 
      "base_fruit": 25, 
@@ -12945,7 +12945,7 @@
      "total_time": 1020, 
      "leaflet_time": 153, 
      "seed_price": {
-      "F_coin": 6
+      "F_coin": 12
      }, 
      "name": "ストック", 
      "base_fruit": 25, 
@@ -13272,7 +13272,7 @@
      "increment_fruit": 25, 
      "leaf_time": 90, 
      "seed_price": {
-      "F_coin": 4
+      "F_coin": 5
      }
     }, 
     "putaoyaguoqishua": {
@@ -13310,7 +13310,7 @@
      "increment_fruit": 25, 
      "leaf_time": 145, 
      "seed_price": {
-      "F_coin": 6
+      "F_coin": 12
      }
     }, 
     "moguniurouchaofan": {
@@ -13785,7 +13785,7 @@
      "total_time": 720, 
      "leaflet_time": 80, 
      "seed_price": {
-      "F_coin": 4
+      "F_coin": 8
      }, 
      "name": "青のホテイアオイ", 
      "base_fruit": 25, 
@@ -14018,7 +14018,7 @@
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 80
+      "F_coin": 100
      }
     }, 
     "carnation": {
@@ -15538,7 +15538,7 @@
      "total_time": 1410, 
      "leaflet_time": 330, 
      "seed_price": {
-      "F_coin": 6
+      "F_coin": 12
      }, 
      "name": "金のホテイアオイ", 
      "base_fruit": 25, 
@@ -16390,7 +16390,7 @@
       "name": "中級増産肥料", 
       "max_level": 35, 
       "price": {
-       "F_coin": 12
+       "F_coin": 15
       }, 
       "effect": 0, 
       "introduce": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
@@ -16487,7 +16487,7 @@
      }, 
      "jisu": {
       "price": {
-       "F_coin": 2
+       "F_coin": 3
       }, 
       "used": true, 
       "name": "中級肥料", 
@@ -16521,7 +16521,7 @@
       "name": "増産肥料", 
       "max_level": 10, 
       "price": {
-       "F_coin": 5
+       "F_coin": 8
       }, 
       "effect": 0, 
       "introduce": "増産肥料はレベル1から9までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
@@ -16555,7 +16555,7 @@
       "used": true, 
       "name": "マジック肥料", 
       "price": {
-       "F_coin": 1
+       "F_coin": 2
       }, 
       "effect": 0.5, 
       "introduce": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。", 
@@ -16565,7 +16565,7 @@
       "used": true, 
       "name": "高級肥料", 
       "price": {
-       "F_coin": 5
+       "F_coin": 6
       }, 
       "effect": 5.5, 
       "introduce": "使うと作物の成熟時間を5.5時間短縮できます。", 
@@ -16589,7 +16589,7 @@
       "used": true, 
       "name": "シュナウザー", 
       "price": {
-       "F_coin": 12
+       "F_coin": 16
       }, 
       "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物がないと働けません。", 
       "multi_buy": false, 
@@ -16639,7 +16639,7 @@
       "used": true, 
       "name": "プードル", 
       "price": {
-       "F_coin": 12
+       "F_coin": 16
       }, 
       "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落すコイン20-80（ランダム）とシステムからの同じ金額のコインをゲットします。但し、食べ物がないと働けません。", 
       "multi_buy": false, 
@@ -16661,7 +16661,7 @@
       "used": true, 
       "name": "食べ物（畑）", 
       "price": {
-       "F_coin": 1
+       "F_coin": 2
       }, 
       "introduce": "一日分の食べ物、ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
       "multi_buy": false, 
@@ -16691,7 +16691,7 @@
       "used": true, 
       "name": "食べ物セット（畑）", 
       "price": {
-       "F_coin": 5
+       "F_coin": 10
       }, 
       "introduce": "五日分の食べ物、それに二日分をサービスします。ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
       "multi_buy": false, 
@@ -17236,7 +17236,7 @@
        "name": "桜の空", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 2
+        "F_coin": 4
        }, 
        "experience": 20, 
        "multi_buy": false, 
@@ -17258,7 +17258,7 @@
        "name": "ハロウィンの夜", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 6
+        "F_coin": 12
        }, 
        "experience": 20, 
        "multi_buy": false, 
@@ -17346,7 +17346,7 @@
        "name": "真夏の空", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 6
+        "F_coin": 18
        }, 
        "experience": 400, 
        "multi_buy": false, 
