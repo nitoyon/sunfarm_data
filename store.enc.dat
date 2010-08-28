@@ -5434,6 +5434,42 @@
     "goods_description": "ティラノサウルス", 
     "activity_type": "discount"
    }, 
+   "hongniudan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "赤カプセル", 
+    "start_time": 1282975200.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1283493600.0, 
+    "goods_description": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "huangniudan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "黄カプセル", 
+    "start_time": 1282975200.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1283493600.0, 
+    "goods_description": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "jiariyecan": {
     "specific_type": "xin", 
     "product_type": {
@@ -5448,72 +5484,6 @@
     "modify": true, 
     "goods_description": "ピックニックセット", 
     "activity_type": "discount"
-   }, 
-   "zhounianbao2": {
-    "original_price": {
-     "num": 220, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "一周年セット青", 
-    "price": {
-     "num": 150, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "8日", 
-    "end_time": 1283234400.0, 
-    "goods_description": "サンシャイン牧場一緒年を記念して、いままでのイベント作物をまとめたセットです。以下のアイテムが入っています：大太鼓，タコ凧，ドキドキ，キキ，ドド，アイスプラント各1個；原価：220Kコイン，セット価格：150Kコイン，8月23日から8月31日の間の期間限定販売です。", 
-    "start_time": 1282543200.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "zhounianbao3": {
-    "original_price": {
-     "num": 169, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "一周年セット紫", 
-    "price": {
-     "num": 118, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "8日", 
-    "end_time": 1283234400.0, 
-    "goods_description": "サンシャイン牧場一緒年を記念して、いままでのイベント作物をまとめたセットです。以下のアイテムが入っています：スリーカラーのバラ，ツツジ，ユリ，カーネーション，門松，桜見弁当，モチノキ，チョコレートケーキ，桜，ヨッパラウカノジョ各1個，原価：169Kコイン，セット価格：118Kコイン，8月23日から8月31日の間の期間限定販売です。", 
-    "start_time": 1282543200.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "zhounianbao1": {
-    "original_price": {
-     "num": 103, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "一周年セット赤", 
-    "price": {
-     "num": 70, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "8日", 
-    "end_time": 1283234400.0, 
-    "goods_description": "サンシャイン牧場一緒年を記念して、いままでのイベント作物をまとめたセットです。以下のアイテムが入っています：豪華な鯉のぼり，花見酒，アルバカ，花粉症サル，ちまき，竿燈，恋人の花束，桜，鏡餅各1個；原価：103Kコイン，セット価格：70Kコイン，8月23日から8月31日の間の期間限定販売です。", 
-    "start_time": 1282543200.0, 
-    "activity_type": "hot_sale"
    }, 
    "lavender": {
     "original_price": {
@@ -5571,6 +5541,24 @@
     "modify": false, 
     "goods_description": "マツタケ", 
     "activity_type": "discount"
+   }, 
+   "lanniudan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "青カプセル", 
+    "start_time": 1282975200.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1283493600.0, 
+    "goods_description": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "wurong": {
     "original_price": {
