@@ -9256,21 +9256,22 @@
     "lankapian": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "\u84dd\u5361\u7247", 
+     "seed_price": {
+      "F_coin": 5
+     }, 
+     "name": "\u30d6\u30eb\u30fc\u30ab\u30fc\u30c9", 
      "base_fruit": 1, 
      "level_need": 0, 
      "fruit_time": 360, 
-     "sprout_time": 90, 
+     "introduce": "\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u30d6\u30eb\u30fc\u30ab\u30fc\u30c9\u3092\u624b\u306b\u5165\u308c\u307e\u3057\u305f\u30023\u7a2e\u306e\u30ab\u30fc\u30c9\u3092\u96c6\u3081\u308c\u3070\u3001\u4e00\u5468\u5e74\u30bb\u30c3\u30c8\u306e\u4e09\u7a2e\u3092\u30b2\u30c3\u30c8\u3067\u304d\u307e\u3059\u3002\u30d7\u30ec\u30bc\u30f3\u30c8\u304c\u30a4\u30d9\u30f3\u30c8\u7d42\u4e86\u3057\u3066\u304b\u30893\u65e5\u4ee5\u5185\u306b\u914d\u5e03\u3055\u308c\u307e\u3059\u306e\u3067\u3054\u6ce8\u610f\u304f\u3060\u3055\u3044\u3002", 
      "experience": 10, 
-     "bloom_time": 330, 
+     "used": false, 
+     "sprout_time": 90, 
      "sale_price": 15, 
      "seasons": 1, 
      "increment_fruit": 0, 
      "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 5
-     }
+     "bloom_time": 330
     }, 
     "wurongtianfuluo": {
      "total_time": 685, 
@@ -11290,21 +11291,22 @@
     "hongkapian": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "\u7ea2\u5361\u7247", 
+     "seed_price": {
+      "F_coin": 5
+     }, 
+     "name": "\u30ec\u30c3\u30c8\u30ab\u30fc\u30c9", 
      "base_fruit": 1, 
      "level_need": 0, 
      "fruit_time": 360, 
-     "sprout_time": 90, 
+     "introduce": "\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u30ec\u30c3\u30c8\u30ab\u30fc\u30c9\u3092\u624b\u306b\u5165\u308c\u307e\u3057\u305f\u30023\u7a2e\u306e\u30ab\u30fc\u30c9\u3092\u96c6\u3081\u308c\u3070\u3001\u4e00\u5468\u5e74\u30bb\u30c3\u30c8\u306e\u4e09\u7a2e\u3092\u30b2\u30c3\u30c8\u3067\u304d\u307e\u3059\u3002\u30d7\u30ec\u30bc\u30f3\u30c8\u304c\u30a4\u30d9\u30f3\u30c8\u7d42\u4e86\u3057\u3066\u304b\u30893\u65e5\u4ee5\u5185\u306b\u914d\u5e03\u3055\u308c\u307e\u3059\u306e\u3067\u3054\u6ce8\u610f\u304f\u3060\u3055\u3044\u3002", 
      "experience": 10, 
-     "bloom_time": 330, 
+     "used": false, 
+     "sprout_time": 90, 
      "sale_price": 15, 
      "seasons": 1, 
      "increment_fruit": 0, 
      "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 5
-     }
+     "bloom_time": 330
     }, 
     "zongzi": {
      "total_time": 3120, 
@@ -11328,21 +11330,22 @@
     "huangkapian": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "\u9ec4\u5361\u7247", 
+     "seed_price": {
+      "F_coin": 5
+     }, 
+     "name": "\u30a4\u30a8\u30ed\u30fc\u30ab\u30fc\u30c9", 
      "base_fruit": 1, 
      "level_need": 0, 
      "fruit_time": 360, 
-     "sprout_time": 90, 
+     "introduce": "\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u30a4\u30a8\u30ed\u30fc\u30ab\u30fc\u30c9\u3092\u624b\u306b\u5165\u308c\u307e\u3057\u305f\u30023\u7a2e\u306e\u30ab\u30fc\u30c9\u3092\u96c6\u3081\u308c\u3070\u3001\u4e00\u5468\u5e74\u30bb\u30c3\u30c8\u306e\u4e09\u7a2e\u3092\u30b2\u30c3\u30c8\u3067\u304d\u307e\u3059\u3002\u30d7\u30ec\u30bc\u30f3\u30c8\u304c\u30a4\u30d9\u30f3\u30c8\u7d42\u4e86\u3057\u3066\u304b\u30893\u65e5\u4ee5\u5185\u306b\u914d\u5e03\u3055\u308c\u307e\u3059\u306e\u3067\u3054\u6ce8\u610f\u304f\u3060\u3055\u3044\u3002", 
      "experience": 10, 
-     "bloom_time": 330, 
+     "used": false, 
+     "sprout_time": 90, 
      "sale_price": 15, 
      "seasons": 1, 
      "increment_fruit": 0, 
      "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 5
-     }
+     "bloom_time": 330
     }, 
     "marigold": {
      "total_time": 1400, 
