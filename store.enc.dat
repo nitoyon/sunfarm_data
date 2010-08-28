@@ -9256,21 +9256,22 @@
     "lankapian": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "蓝卡片", 
+     "seed_price": {
+      "F_coin": 5
+     }, 
+     "name": "ブルーカード", 
      "base_fruit": 1, 
      "level_need": 0, 
      "fruit_time": 360, 
-     "sprout_time": 90, 
+     "introduce": "おめでとうございます。ブルーカードを手に入れました。3種のカードを集めれば、一周年セットの三種をゲットできます。プレゼントがイベント終了してから3日以内に配布されますのでご注意ください。", 
      "experience": 10, 
-     "bloom_time": 330, 
+     "used": false, 
+     "sprout_time": 90, 
      "sale_price": 15, 
      "seasons": 1, 
      "increment_fruit": 0, 
      "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 5
-     }
+     "bloom_time": 330
     }, 
     "wurongtianfuluo": {
      "total_time": 685, 
@@ -11290,21 +11291,22 @@
     "hongkapian": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "红卡片", 
+     "seed_price": {
+      "F_coin": 5
+     }, 
+     "name": "レットカード", 
      "base_fruit": 1, 
      "level_need": 0, 
      "fruit_time": 360, 
-     "sprout_time": 90, 
+     "introduce": "おめでとうございます。レットカードを手に入れました。3種のカードを集めれば、一周年セットの三種をゲットできます。プレゼントがイベント終了してから3日以内に配布されますのでご注意ください。", 
      "experience": 10, 
-     "bloom_time": 330, 
+     "used": false, 
+     "sprout_time": 90, 
      "sale_price": 15, 
      "seasons": 1, 
      "increment_fruit": 0, 
      "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 5
-     }
+     "bloom_time": 330
     }, 
     "zongzi": {
      "total_time": 3120, 
@@ -11328,21 +11330,22 @@
     "huangkapian": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
-     "name": "黄卡片", 
+     "seed_price": {
+      "F_coin": 5
+     }, 
+     "name": "イエローカード", 
      "base_fruit": 1, 
      "level_need": 0, 
      "fruit_time": 360, 
-     "sprout_time": 90, 
+     "introduce": "おめでとうございます。イエローカードを手に入れました。3種のカードを集めれば、一周年セットの三種をゲットできます。プレゼントがイベント終了してから3日以内に配布されますのでご注意ください。", 
      "experience": 10, 
-     "bloom_time": 330, 
+     "used": false, 
+     "sprout_time": 90, 
      "sale_price": 15, 
      "seasons": 1, 
      "increment_fruit": 0, 
      "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 5
-     }
+     "bloom_time": 330
     }, 
     "marigold": {
      "total_time": 1400, 
