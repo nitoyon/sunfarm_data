@@ -5470,19 +5470,20 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "jiariyecan": {
+   "xunjie1": {
     "specific_type": "xin", 
     "product_type": {
+     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_type": "seed"
+     "goods_category": "fertilizer"
     }, 
-    "name": "ピックニックセット", 
+    "name": "ミニマジック肥料", 
     "price": {
-     "num": 10, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "ピックニックセット", 
+    "goods_description": "使うと作物の成熟時間を15分短縮できます。同じ段階で何個でも使えます。", 
     "activity_type": "discount"
    }, 
    "lavender": {
@@ -11282,11 +11283,11 @@
      "seed_price": {
       "F_coin": 5
      }, 
-     "name": "レットカード", 
+     "name": "レッドカード", 
      "base_fruit": 1, 
      "level_need": 0, 
      "fruit_time": 360, 
-     "introduce": "おめでとうございます。レットカードを手に入れました。3種のカードを集めれば、一周年セットの三種をゲットできます。プレゼントがイベント終了してから3日以内に配布されますのでご注意ください。", 
+     "introduce": "おめでとうございます。レッドカードを手に入れました。3種のカードを集めれば、一周年セットの三種をゲットできます。プレゼントがイベント終了してから3日以内に配布されますのでご注意ください。", 
      "experience": 10, 
      "used": false, 
      "sprout_time": 90, 
