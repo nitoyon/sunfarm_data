@@ -1470,23 +1470,27 @@
      }
     }
    }, 
-   "crops_congchuan_gift": {
+   "crops_huanxianghua_gift": {
     "config": {
-     "goods_str": "ネギ\t\t\t\t\t\t\t1個\nアローカナ\t\t\t\t\t1匹", 
-     "name": "ねぎま材料セット", 
-     "needlevel": 4, 
+     "goods_str": "チューリップ\t\t\t\t\t1個\nリュウガン\t\t\t\t\t1個\nクジャク\t\t\t\t\t\t1匹", 
+     "name": "ファンタスティックな旅材料セット", 
+     "needlevel": 6, 
      "price": {
-      "gold": 112
+      "F_coin": 18
      }, 
      "factory": true, 
-     "introduce": "ネギ1個\nアローカナ1個", 
+     "introduce": "チューリップ1個\nリュウガン1個\nクジャク1個", 
      "sale": true, 
-     "used": false
+     "used": true
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "cong": [
+       "tulip": [
+        1, 
+        1.0
+       ], 
+       "longan": [
         1, 
         1.0
        ]
@@ -1494,7 +1498,7 @@
      }, 
      "ranch": {
       "babies": {
-       "langshanChook": [
+       "lukongque": [
         1, 
         1.0
        ]
@@ -1724,42 +1728,6 @@
       "seeds": {
        "youli": [
         5, 
-        1.0
-       ]
-      }
-     }
-    }
-   }, 
-   "crops_huanxianghua_gift": {
-    "config": {
-     "goods_str": "チューリップ\t\t\t\t\t1個\nリュウガン\t\t\t\t\t1個\nクジャク\t\t\t\t\t\t1匹", 
-     "name": "ファンタスティックな旅材料セット", 
-     "needlevel": 6, 
-     "price": {
-      "F_coin": 18
-     }, 
-     "factory": true, 
-     "introduce": "チューリップ1個\nリュウガン1個\nクジャク1個", 
-     "sale": true, 
-     "used": true
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "tulip": [
-        1, 
-        1.0
-       ], 
-       "longan": [
-        1, 
-        1.0
-       ]
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "lukongque": [
-        1, 
         1.0
        ]
       }
@@ -2108,42 +2076,6 @@
       "seeds": {
        "carrot": [
         5, 
-        1.0
-       ]
-      }
-     }
-    }
-   }, 
-   "crops_jingjiangrousi_gift": {
-    "config": {
-     "goods_str": "枝豆\t\t\t\t\t\t\t1個\nネギ\t\t\t\t\t\t\t1個\nブタ\t\t\t\t\t\t\t1匹", 
-     "name": "豚肉甘味噌炒め材料セット", 
-     "needlevel": 5, 
-     "price": {
-      "gold": 1124
-     }, 
-     "factory": true, 
-     "introduce": "枝豆1個\nネギ1個\nブタ1個", 
-     "sale": true, 
-     "used": true
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "maodou": [
-        1, 
-        1.0
-       ], 
-       "cong": [
-        1, 
-        1.0
-       ]
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "huazhu": [
-        1, 
         1.0
        ]
       }
@@ -7246,14 +7178,13 @@
    "crops_qingtongshu_gift", 
    "crops_tilamisu_gift", 
    "crops_zhishimianbaogan_gift", 
-   "crops_huanxianghua_gift", 
    "crops_yingtaodangao_gift", 
+   "crops_huanxianghua_gift", 
    "crops_jiangbaojiding_gift", 
    "crops_chaiquan_gift", 
    "crops_boluogulaorou_gift", 
    "juice_miganzhi_gift", 
    "crops_mitao_gift", 
-   "crops_jingjiangrousi_gift", 
    "crops_emozhixin_gift", 
    "crops_xiwanghua_gift", 
    "crops_moshubang_gift", 
@@ -7262,7 +7193,6 @@
    "crops_fanqieroujiangmian_gift", 
    "crops_hongtang_gift", 
    "crops_ziteng_gift", 
-   "crops_congchuan_gift", 
    "crops_zhuomuniao_gift", 
    "crops_shishutianfuluo_gift", 
    "juice_mangguozhi_gift", 
