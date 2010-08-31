@@ -1470,23 +1470,27 @@
      }
     }
    }, 
-   "crops_congchuan_gift": {
+   "crops_huanxianghua_gift": {
     "config": {
-     "goods_str": "\u30cd\u30ae\t\t\t\t\t\t\t1\u500b\n\u30a2\u30ed\u30fc\u30ab\u30ca\t\t\t\t\t1\u5339", 
-     "name": "\u306d\u304e\u307e\u6750\u6599\u30bb\u30c3\u30c8", 
-     "needlevel": 4, 
+     "goods_str": "\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7\t\t\t\t\t1\u500b\n\u30ea\u30e5\u30a6\u30ac\u30f3\t\t\t\t\t1\u500b\n\u30af\u30b8\u30e3\u30af\t\t\t\t\t\t1\u5339", 
+     "name": "\u30d5\u30a1\u30f3\u30bf\u30b9\u30c6\u30a3\u30c3\u30af\u306a\u65c5\u6750\u6599\u30bb\u30c3\u30c8", 
+     "needlevel": 6, 
      "price": {
-      "gold": 112
+      "F_coin": 18
      }, 
      "factory": true, 
-     "introduce": "\u30cd\u30ae1\u500b\n\u30a2\u30ed\u30fc\u30ab\u30ca1\u500b", 
+     "introduce": "\u30c1\u30e5\u30fc\u30ea\u30c3\u30d71\u500b\n\u30ea\u30e5\u30a6\u30ac\u30f31\u500b\n\u30af\u30b8\u30e3\u30af1\u500b", 
      "sale": true, 
-     "used": false
+     "used": true
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "cong": [
+       "tulip": [
+        1, 
+        1.0
+       ], 
+       "longan": [
         1, 
         1.0
        ]
@@ -1494,7 +1498,7 @@
      }, 
      "ranch": {
       "babies": {
-       "langshanChook": [
+       "lukongque": [
         1, 
         1.0
        ]
@@ -1724,42 +1728,6 @@
       "seeds": {
        "youli": [
         5, 
-        1.0
-       ]
-      }
-     }
-    }
-   }, 
-   "crops_huanxianghua_gift": {
-    "config": {
-     "goods_str": "\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7\t\t\t\t\t1\u500b\n\u30ea\u30e5\u30a6\u30ac\u30f3\t\t\t\t\t1\u500b\n\u30af\u30b8\u30e3\u30af\t\t\t\t\t\t1\u5339", 
-     "name": "\u30d5\u30a1\u30f3\u30bf\u30b9\u30c6\u30a3\u30c3\u30af\u306a\u65c5\u6750\u6599\u30bb\u30c3\u30c8", 
-     "needlevel": 6, 
-     "price": {
-      "F_coin": 18
-     }, 
-     "factory": true, 
-     "introduce": "\u30c1\u30e5\u30fc\u30ea\u30c3\u30d71\u500b\n\u30ea\u30e5\u30a6\u30ac\u30f31\u500b\n\u30af\u30b8\u30e3\u30af1\u500b", 
-     "sale": true, 
-     "used": true
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "tulip": [
-        1, 
-        1.0
-       ], 
-       "longan": [
-        1, 
-        1.0
-       ]
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "lukongque": [
-        1, 
         1.0
        ]
       }
@@ -2108,42 +2076,6 @@
       "seeds": {
        "carrot": [
         5, 
-        1.0
-       ]
-      }
-     }
-    }
-   }, 
-   "crops_jingjiangrousi_gift": {
-    "config": {
-     "goods_str": "\u679d\u8c46\t\t\t\t\t\t\t1\u500b\n\u30cd\u30ae\t\t\t\t\t\t\t1\u500b\n\u30d6\u30bf\t\t\t\t\t\t\t1\u5339", 
-     "name": "\u8c5a\u8089\u7518\u5473\u564c\u7092\u3081\u6750\u6599\u30bb\u30c3\u30c8", 
-     "needlevel": 5, 
-     "price": {
-      "gold": 1124
-     }, 
-     "factory": true, 
-     "introduce": "\u679d\u8c461\u500b\n\u30cd\u30ae1\u500b\n\u30d6\u30bf1\u500b", 
-     "sale": true, 
-     "used": true
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "maodou": [
-        1, 
-        1.0
-       ], 
-       "cong": [
-        1, 
-        1.0
-       ]
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "huazhu": [
-        1, 
         1.0
        ]
       }
@@ -7246,14 +7178,13 @@
    "crops_qingtongshu_gift", 
    "crops_tilamisu_gift", 
    "crops_zhishimianbaogan_gift", 
-   "crops_huanxianghua_gift", 
    "crops_yingtaodangao_gift", 
+   "crops_huanxianghua_gift", 
    "crops_jiangbaojiding_gift", 
    "crops_chaiquan_gift", 
    "crops_boluogulaorou_gift", 
    "juice_miganzhi_gift", 
    "crops_mitao_gift", 
-   "crops_jingjiangrousi_gift", 
    "crops_emozhixin_gift", 
    "crops_xiwanghua_gift", 
    "crops_moshubang_gift", 
@@ -7262,7 +7193,6 @@
    "crops_fanqieroujiangmian_gift", 
    "crops_hongtang_gift", 
    "crops_ziteng_gift", 
-   "crops_congchuan_gift", 
    "crops_zhuomuniao_gift", 
    "crops_shishutianfuluo_gift", 
    "juice_mangguozhi_gift", 
