@@ -2261,7 +2261,7 @@
        ], 
        "lankapian": [
         1, 
-        0.005
+        0.01
        ], 
        "shuijingputao": [
         1, 
@@ -6505,66 +6505,6 @@
     "exp": 50, 
     "need_level": 3, 
     "need_gold": 350
-   }, 
-   "items_qixingpiaochong": {
-    "category": "items", 
-    "product": {
-     "dujiaoxian": {
-      "category": "harvest", 
-      "name": "独角仙", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       0, 
-       5, 
-       10, 
-       15, 
-       20, 
-       25
-      ], 
-      "goods_type": ""
-     }, 
-     "qixingpiaochong": {
-      "category": "harvest", 
-      "name": "七星瓢虫", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       100
-      ], 
-      "goods_type": ""
-     }
-    }, 
-    "name": "七星瓢虫", 
-    "skilled": 1, 
-    "materials": [
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "huanggua", 
-      2000
-     ], 
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "corn", 
-      2500
-     ], 
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "dabaicai", 
-      2500
-     ]
-    ], 
-    "need_energy": 400, 
-    "intro": "在常见的农作物中孵化的虫子，可对好友使用", 
-    "exp": 2, 
-    "need_level": 9, 
-    "need_gold": 150
    }, 
    "crops_dongguapaigutang": {
     "category": "crops", 
