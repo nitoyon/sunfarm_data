@@ -2261,7 +2261,7 @@
        ], 
        "lankapian": [
         1, 
-        0.005
+        0.01
        ], 
        "shuijingputao": [
         1, 
@@ -6505,66 +6505,6 @@
     "exp": 50, 
     "need_level": 3, 
     "need_gold": 350
-   }, 
-   "items_qixingpiaochong": {
-    "category": "items", 
-    "product": {
-     "dujiaoxian": {
-      "category": "harvest", 
-      "name": "\u72ec\u89d2\u4ed9", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       0, 
-       5, 
-       10, 
-       15, 
-       20, 
-       25
-      ], 
-      "goods_type": ""
-     }, 
-     "qixingpiaochong": {
-      "category": "harvest", 
-      "name": "\u4e03\u661f\u74e2\u866b", 
-      "seedtype": "", 
-      "scene_type": "farm", 
-      "appear_rate": [
-       100
-      ], 
-      "goods_type": ""
-     }
-    }, 
-    "name": "\u4e03\u661f\u74e2\u866b", 
-    "skilled": 1, 
-    "materials": [
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "huanggua", 
-      2000
-     ], 
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "corn", 
-      2500
-     ], 
-     [
-      "farm", 
-      "harvest", 
-      "", 
-      "dabaicai", 
-      2500
-     ]
-    ], 
-    "need_energy": 400, 
-    "intro": "\u5728\u5e38\u89c1\u7684\u519c\u4f5c\u7269\u4e2d\u5b75\u5316\u7684\u866b\u5b50\uff0c\u53ef\u5bf9\u597d\u53cb\u4f7f\u7528", 
-    "exp": 2, 
-    "need_level": 9, 
-    "need_gold": 150
    }, 
    "crops_dongguapaigutang": {
     "category": "crops", 
