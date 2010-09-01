@@ -6664,7 +6664,7 @@
     "chunvzuo": {
      "total_time": 720, 
      "harvest_type": 3, 
-     "used": false, 
+     "used": true, 
      "name": "\u304a\u3068\u3081\u5ea7", 
      "base_fruit": 25, 
      "fruit_time": 240, 
@@ -7368,6 +7368,21 @@
     "goods_description": "\u30de\u30c4\u30bf\u30b1", 
     "activity_type": "discount"
    }, 
+   "chunvzuo": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u304a\u3068\u3081\u5ea7", 
+    "price": {
+     "num": 9, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "\u304a\u3068\u3081\u5ea7", 
+    "activity_type": "discount"
+   }, 
    "fenghuangzhiyi": {
     "specific_type": "xin", 
     "product_type": {
@@ -7400,25 +7415,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "wurong": {
-    "original_price": {
-     "num": 28, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u30de\u30a4\u30bf\u30b1", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "\u30de\u30a4\u30bf\u30b1", 
-    "activity_type": "discount"
    }
   }, 
   "farm": {
