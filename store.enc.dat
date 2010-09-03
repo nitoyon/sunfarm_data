@@ -7356,26 +7356,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "jisu": {
-    "original_price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
-    }, 
-    "name": "高級飼料", 
-    "price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "使うと動物の生産時間を4時間短縮できます。", 
-    "activity_type": "discount"
-   }, 
    "changbozi": {
     "product_type": {
      "scene_type": "ranch", 
@@ -7407,6 +7387,21 @@
     }, 
     "modify": false, 
     "goods_description": "ハムスター", 
+    "activity_type": "discount"
+   }, 
+   "nantanglang": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "カマキキ", 
+    "price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "カマキキ", 
     "activity_type": "discount"
    }, 
    "huolongguolibao": {
