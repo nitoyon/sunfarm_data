@@ -7314,6 +7314,24 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "changbozi": {
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "ギリン", 
+    "start_time": 1283504400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日21時間", 
+    "end_time": 1284098400.0, 
+    "goods_description": "ギリン", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "cangshu": {
     "specific_type": "xin", 
     "product_type": {
@@ -7407,6 +7425,42 @@
     "modify": true, 
     "goods_description": "フェニックスの羽", 
     "activity_type": "discount"
+   }, 
+   "dalanmao": {
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "パク猫", 
+    "start_time": 1283504400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日21時間", 
+    "end_time": 1284098400.0, 
+    "goods_description": "パク猫", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "binglinghua": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "魔法のつららの花", 
+    "start_time": 1283504400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日21時間", 
+    "end_time": 1284098400.0, 
+    "goods_description": "★★★魔法の種、収穫するといろいろなプレゼントがもらえます！", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
