@@ -3214,15 +3214,57 @@
      }
     }
    }, 
-   "jingangcuo": {
+   "qingrenyushou2": {
     "config": {
      "price": {
-      "F_coin": 48
+      "F_coin": 10
      }, 
-     "used": false, 
-     "goods_str": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。", 
-     "name": "金鋼ヤスリ", 
-     "introduce": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。"
+     "goods_str": "時が流れても変わらぬ愛", 
+     "introduce": "時が流れても変わらぬ愛", 
+     "name": "七夕の誓い", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "huangmeigui": [
+        1, 
+        0.1
+       ], 
+       "heimeigui": [
+        1, 
+        0.1
+       ], 
+       "hongmeigui": [
+        1, 
+        0.1
+       ], 
+       "fenmeigui": [
+        1, 
+        0.1
+       ], 
+       "lanmeigui": [
+        1, 
+        0.1
+       ], 
+       "baimeigui": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.5
+        ], 
+        "common": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
     }
    }, 
    "xinbaoxiang": {
@@ -3642,6 +3684,87 @@
      }
     }
    }, 
+   "hongniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
+     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+     "name": "赤カプセル", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "dongqing": [
+        1, 
+        0.06
+       ], 
+       "niangao": [
+        1, 
+        0.1
+       ], 
+       "taigu": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.01
+       ], 
+       "shenqima_ti_lian": [
+        1, 
+        0.01
+       ], 
+       "carnation": [
+        1, 
+        0.01
+       ], 
+       "hongkapian": [
+        1, 
+        0.2
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "wushi": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
    "huangniudan": {
     "config": {
      "price": {
@@ -3884,57 +4007,15 @@
      }
     }
    }, 
-   "qingrenyushou2": {
+   "jingangcuo": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 48
      }, 
-     "goods_str": "時が流れても変わらぬ愛", 
-     "introduce": "時が流れても変わらぬ愛", 
-     "name": "七夕の誓い", 
-     "used": false
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "huangmeigui": [
-        1, 
-        0.1
-       ], 
-       "heimeigui": [
-        1, 
-        0.1
-       ], 
-       "hongmeigui": [
-        1, 
-        0.1
-       ], 
-       "fenmeigui": [
-        1, 
-        0.1
-       ], 
-       "lanmeigui": [
-        1, 
-        0.1
-       ], 
-       "baimeigui": [
-        1, 
-        0.1
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.5
-        ], 
-        "common": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
+     "used": false, 
+     "goods_str": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。", 
+     "name": "金鋼ヤスリ", 
+     "introduce": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。"
     }
    }, 
    "hongshuijing": {
@@ -3981,6 +4062,27 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "tudoulibao": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": true, 
+     "goods_str": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。", 
+     "name": "じゃがいもの箱", 
+     "introduce": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "tudou": [
+        5, 
+        1
+       ]
       }
      }
     }
@@ -4273,31 +4375,23 @@
      }
     }
    }, 
-   "cangbaotu3": {
+   "huolongguolibao": {
     "config": {
      "price": {
-      "F_coin": 9999
+      "F_coin": 1
      }, 
-     "used": false, 
-     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
-     "name": "藏宝图卷三", 
-     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
+     "used": true, 
+     "goods_str": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
+     "name": "ピタヤの箱", 
+     "introduce": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "shenqizijin": [
-        1, 
-        1.0
+       "huolongguoxin": [
+        5, 
+        1
        ]
-      }, 
-      "properties": {
-       "feedstuffs": {
-        "gaosu": [
-         1, 
-         1.0
-        ]
-       }
       }
      }
     }
@@ -4456,83 +4550,31 @@
      }
     }
    }, 
-   "hongniudan": {
+   "cangbaotu3": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 9999
      }, 
-     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
-     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-     "name": "赤カプセル", 
-     "used": false
+     "used": false, 
+     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
+     "name": "藏宝图卷三", 
+     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "dongqing": [
+       "shenqizijin": [
         1, 
-        0.06
-       ], 
-       "niangao": [
-        1, 
-        0.1
-       ], 
-       "taigu": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.01
-       ], 
-       "shenqima_ti_lian": [
-        1, 
-        0.01
-       ], 
-       "carnation": [
-        1, 
-        0.01
-       ], 
-       "hongkapian": [
-        1, 
-        0.2
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.03
+        1.0
        ]
       }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ], 
-        "xunjie1": [
-         1, 
-         1
-        ]
-       }
-      }
-     }, 
-     "ranch": {
       "properties": {
        "feedstuffs": {
-        "jisu": [
+        "gaosu": [
          1, 
-         0.08
+         1.0
         ]
        }
-      }, 
-      "babies": {
-       "wushi": [
-        1, 
-        0.1
-       ]
       }
      }
     }
