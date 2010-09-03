@@ -4693,7 +4693,7 @@
       "used": true, 
       "name": "高級飼料", 
       "price": {
-       "F_coin": 6
+       "F_coin": 4
       }, 
       "effect": 4, 
       "introduce": "使うと動物の生産時間を4時間短縮できます。", 
@@ -7314,6 +7314,26 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "jisu": {
+    "original_price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
+    }, 
+    "name": "高级饲料", 
+    "price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "使うと動物の生産時間を4時間短縮できます。", 
+    "activity_type": "discount"
+   }, 
    "changbozi": {
     "product_type": {
      "scene_type": "ranch", 
@@ -7394,21 +7414,6 @@
     }, 
     "modify": false, 
     "goods_description": "マツタケ", 
-    "activity_type": "discount"
-   }, 
-   "chunvzuo": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "おとめ座", 
-    "price": {
-     "num": 9, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "おとめ座", 
     "activity_type": "discount"
    }, 
    "fenghuangzhiyi": {
