@@ -7356,26 +7356,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "jisu": {
-    "original_price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
-    }, 
-    "name": "\u9ad8\u7d1a\u98fc\u6599", 
-    "price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "\u4f7f\u3046\u3068\u52d5\u7269\u306e\u751f\u7523\u6642\u9593\u30924\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002", 
-    "activity_type": "discount"
-   }, 
    "changbozi": {
     "product_type": {
      "scene_type": "ranch", 
@@ -7407,6 +7387,21 @@
     }, 
     "modify": false, 
     "goods_description": "\u30cf\u30e0\u30b9\u30bf\u30fc", 
+    "activity_type": "discount"
+   }, 
+   "nantanglang": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u30ab\u30de\u30ad\u30ad", 
+    "price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "\u30ab\u30de\u30ad\u30ad", 
     "activity_type": "discount"
    }, 
    "huolongguolibao": {
