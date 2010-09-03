@@ -7329,24 +7329,6 @@
     "goods_description": "ハムスター", 
     "activity_type": "discount"
    }, 
-   "huangniudan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "黄カプセル", 
-    "start_time": 1282975200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1283493600.0, 
-    "goods_description": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "nantanglang": {
     "specific_type": "xin", 
     "product_type": {
@@ -7376,24 +7358,6 @@
     "modify": true, 
     "goods_description": "カマリリ", 
     "activity_type": "discount"
-   }, 
-   "hongniudan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "赤カプセル", 
-    "start_time": 1282975200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1283493600.0, 
-    "goods_description": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "songrong": {
     "original_price": {
@@ -7443,24 +7407,6 @@
     "modify": true, 
     "goods_description": "フェニックスの羽", 
     "activity_type": "discount"
-   }, 
-   "lanniudan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "青カプセル", 
-    "start_time": 1282975200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1283493600.0, 
-    "goods_description": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -11181,15 +11127,16 @@
      "base_fruit": 1, 
      "fruit_time": 1440, 
      "sprout_time": 60, 
+     "introduce": "彫像ですので増産できません", 
+     "increment_fruit": 0, 
      "bloom_time": 1440, 
      "experience": 1275, 
      "seasons": 1, 
      "sale_price": 1275, 
-     "increment_fruit": 0, 
-     "leaf_time": 1200, 
      "seed_price": {
       "F_coin": 1
      }, 
+     "leaf_time": 1200, 
      "level_need": 0
     }, 
     "dongguapaigutang": {
