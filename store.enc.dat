@@ -6284,40 +6284,40 @@
      "used": false, 
      "name": "パク猫", 
      "base_fruit": 25, 
-     "fruit_time": 240, 
+     "fruit_time": 360, 
      "adult_time": 240, 
      "buy_price": {
-      "F_coin": 9
+      "F_coin": 15
      }, 
      "state": "xin", 
      "seasons": 1, 
-     "young_time": 240, 
-     "experience": 3.7, 
+     "young_time": 120, 
+     "experience": 5.8, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 5, 
+     "sale_price": 60, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
     "changbozi": {
-     "total_time": 720, 
+     "total_time": 1440, 
      "harvest_type": 3, 
      "used": false, 
      "name": "ギリン", 
      "base_fruit": 25, 
-     "fruit_time": 240, 
-     "adult_time": 240, 
+     "fruit_time": 570, 
+     "adult_time": 570, 
      "buy_price": {
-      "F_coin": 9
+      "F_coin": 25
      }, 
      "state": "xin", 
      "seasons": 1, 
-     "young_time": 240, 
-     "experience": 3.7, 
+     "young_time": 300, 
+     "experience": 9.8, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 5, 
+     "sale_price": 98, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -11173,6 +11173,25 @@
      }, 
      "level_need": 30
     }, 
+    "diaoxiang": {
+     "total_time": 4200, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "あの子の彫刻", 
+     "base_fruit": 1, 
+     "fruit_time": 1440, 
+     "sprout_time": 60, 
+     "bloom_time": 1440, 
+     "experience": 1275, 
+     "seasons": 1, 
+     "sale_price": 1275, 
+     "increment_fruit": 0, 
+     "leaf_time": 1200, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 0
+    }, 
     "dongguapaigutang": {
      "total_time": 1360, 
      "leaflet_time": 220, 
@@ -11935,6 +11954,26 @@
      }, 
      "leaf_time": 600, 
      "level_need": 0
+    }, 
+    "qiukui": {
+     "total_time": 600, 
+     "leaflet_time": 55, 
+     "used": true, 
+     "name": "オクラ", 
+     "base_fruit": 25, 
+     "fruit_time": 205, 
+     "recipe": "レシピに使えます：\nオクラサラダ\n野菜天ぷら", 
+     "sprout_time": 30, 
+     "bloom_time": 155, 
+     "experience": 1.14, 
+     "seasons": 3, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 155, 
+     "seed_price": {
+      "gold": 329
+     }, 
+     "level_need": 18
     }, 
     "chashu": {
      "total_time": 360, 
@@ -14572,25 +14611,24 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
-    "qiukui": {
-     "total_time": 600, 
-     "leaflet_time": 55, 
-     "used": true, 
-     "name": "オクラ", 
+    "jianfeishu": {
+     "total_time": 720, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ヤマイモ", 
      "base_fruit": 25, 
-     "fruit_time": 205, 
-     "recipe": "レシピに使えます：\nオクラサラダ\n野菜天ぷら", 
-     "sprout_time": 30, 
-     "bloom_time": 155, 
-     "experience": 1.14, 
-     "seasons": 3, 
-     "sale_price": 6, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 120, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 155, 
+     "leaf_time": 90, 
      "seed_price": {
-      "gold": 329
+      "F_coin": 10
      }, 
-     "level_need": 18
+     "level_need": 0
     }, 
     "hongdoulianrubaobing": {
      "total_time": 720, 
@@ -16300,6 +16338,7 @@
     "yangganju", 
     "shenqiginseng", 
     "shenqima_ti_lian", 
+    "diaoxiang", 
     "cuiju", 
     "paradiseflower", 
     "shiliu", 
@@ -16312,6 +16351,7 @@
     "lanmeigui", 
     "applecandy", 
     "zhongguoxin", 
+    "jianfeishu", 
     "yingtaojiang", 
     "hyacinth", 
     "cottoncandy", 
