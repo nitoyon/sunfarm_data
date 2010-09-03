@@ -7367,7 +7367,7 @@
      "scene_type": "ranch", 
      "goods_category": "feedstuffs"
     }, 
-    "name": "\u9ad8\u7ea7\u9972\u6599", 
+    "name": "\u9ad8\u7d1a\u98fc\u6599", 
     "price": {
      "num": 4, 
      "type": "F_coin"
@@ -7409,34 +7409,19 @@
     "goods_description": "\u30cf\u30e0\u30b9\u30bf\u30fc", 
     "activity_type": "discount"
    }, 
-   "nantanglang": {
+   "huolongguolibao": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "\u30ab\u30de\u30ad\u30ad", 
+    "name": "\u30d4\u30bf\u30e4\u306e\u7bb1", 
     "price": {
-     "num": 50, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "\u30ab\u30de\u30ad\u30ad", 
-    "activity_type": "discount"
-   }, 
-   "nvtanglang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "\u30ab\u30de\u30ea\u30ea", 
-    "price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "\u30ab\u30de\u30ea\u30ea", 
+    "goods_description": "\u30d4\u30bf\u30e4\u306e\u7a2e\u304c5\u500b\u5165\u3063\u3066\u3044\u307e\u3059\u3002\u7551\u9054\u4eba\u671f\u9593\u5185\u3060\u3051\u306e\u8ca9\u58f2\u3067\u3059\u3002", 
     "activity_type": "discount"
    }, 
    "songrong": {
@@ -7456,6 +7441,21 @@
     }, 
     "modify": false, 
     "goods_description": "\u30de\u30c4\u30bf\u30b1", 
+    "activity_type": "discount"
+   }, 
+   "tudoulibao": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "\u3058\u3083\u304c\u3044\u3082\u306e\u7bb1", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "\u3058\u3083\u304c\u3044\u3082\u306e\u7bb1\u304c5\u500b\u5165\u3063\u3066\u3044\u307e\u3059\u3002\u7551\u9054\u4eba\u671f\u9593\u5185\u3060\u3051\u306e\u8ca9\u58f2\u3067\u3059\u3002", 
     "activity_type": "discount"
    }, 
    "fenghuangzhiyi": {
