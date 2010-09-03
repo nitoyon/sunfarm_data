@@ -10518,6 +10518,28 @@
      }, 
      "level_need": 10
     }, 
+    "binglinghua": {
+     "total_time": 720, 
+     "leaflet_time": 80, 
+     "magicseed": 1, 
+     "name": "binglinghua", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "goodstype": "flower", 
+     "sprout_time": 20, 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 150, 
+     "used": false, 
+     "experience": 3.0, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "leaf_time": 140, 
+     "level_need": 0
+    }, 
     "yhhf": {
      "total_time": 1050, 
      "leaflet_time": 150, 
@@ -12320,6 +12342,25 @@
       "gold": 10
      }, 
      "leaf_time": 150, 
+     "level_need": 0
+    }, 
+    "jinpinshanyao": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "jinpinshanyao", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 5
+     }, 
      "level_need": 0
     }, 
     "lanmeixin": {
@@ -16247,6 +16288,7 @@
     "xiwanghua", 
     "yizhanghong", 
     "shengdanhong", 
+    "binglinghua", 
     "yhhf", 
     "meihua", 
     "lily", 
@@ -16273,6 +16315,7 @@
     "yingtaojiang", 
     "hyacinth", 
     "cottoncandy", 
+    "jinpinshanyao", 
     "heimeigui", 
     "moyu", 
     "lanseshuihulu", 
