@@ -7367,7 +7367,7 @@
      "scene_type": "ranch", 
      "goods_category": "feedstuffs"
     }, 
-    "name": "高级饲料", 
+    "name": "高級飼料", 
     "price": {
      "num": 4, 
      "type": "F_coin"
@@ -7409,34 +7409,19 @@
     "goods_description": "ハムスター", 
     "activity_type": "discount"
    }, 
-   "nantanglang": {
+   "huolongguolibao": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "カマキキ", 
+    "name": "ピタヤの箱", 
     "price": {
-     "num": 50, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "カマキキ", 
-    "activity_type": "discount"
-   }, 
-   "nvtanglang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "カマリリ", 
-    "price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "カマリリ", 
+    "goods_description": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
     "activity_type": "discount"
    }, 
    "songrong": {
@@ -7456,6 +7441,21 @@
     }, 
     "modify": false, 
     "goods_description": "マツタケ", 
+    "activity_type": "discount"
+   }, 
+   "tudoulibao": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "じゃがいもの箱", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。", 
     "activity_type": "discount"
    }, 
    "fenghuangzhiyi": {
