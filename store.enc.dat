@@ -4624,6 +4624,7 @@
     "dakonglong", 
     "nantanglang", 
     "yinghuochong", 
+    "jinsexiaomifeng", 
     "xingxing", 
     "hanxuebaoma", 
     "hepingge", 
@@ -4637,6 +4638,7 @@
     "changjinglong", 
     "qiutianquan", 
     "juxiezuo", 
+    "shudaixiong", 
     "qianlima", 
     "daishu", 
     "changbozi", 
@@ -4647,6 +4649,7 @@
     "chan", 
     "jingangyingwu", 
     "chaiquan", 
+    "nirenji", 
     "dalanmao", 
     "pudong", 
     "shuangfengluotuo", 
@@ -4730,6 +4733,16 @@
       "name": "中級飼料", 
       "introduce": "使うと動物の生産時間を2時間短縮できます。", 
       "effect": 2
+     }, 
+     "jisu1": {
+      "used": false, 
+      "name": "高級飼料11", 
+      "price": {
+       "F_coin": 6
+      }, 
+      "effect": 10, 
+      "introduce": "使うと動物の生産時間を10時間短縮できます.マイミクに盗まれる前に収穫しちゃいましょう.", 
+      "state": "re"
      }, 
      "jisu": {
       "used": true, 
@@ -5173,6 +5186,28 @@
      "sale_price": 20, 
      "increment_fruit": 25, 
      "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "jinsexiaomifeng": {
+     "total_time": 720, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "jinsexiaomifeng", 
+     "base_fruit": 25, 
+     "fruit_time": 240, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 9
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 3.7, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
     "xingxing": {
@@ -6005,27 +6040,23 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
-    "lanhe": {
-     "total_time": 720, 
-     "sound": {
-      "p": "1052,1052,1053,1053,-1,-1", 
-      "enable": true, 
-      "name": "dandinghe"
-     }, 
+    "qingwa": {
+     "total_time": 360, 
+     "harvest_type": 3, 
      "used": false, 
-     "name": "ハゴロモヅル", 
+     "name": "カエル", 
      "base_fruit": 25, 
      "fruit_time": 240, 
-     "adult_time": 240, 
+     "adult_time": 60, 
      "buy_price": {
-      "gold": 1
+      "gold": 50
      }, 
      "seasons": 1, 
-     "young_time": 240, 
-     "experience": 8, 
-     "fruit_name": "たまご", 
-     "is_auto_harvest": true, 
-     "sale_price": 3, 
+     "young_time": 60, 
+     "experience": 3.75, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 2, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -6069,6 +6100,31 @@
      "sale_price": 20, 
      "increment_fruit": 25, 
      "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "shaoxingDuck": {
+     "total_time": 660, 
+     "sound": {
+      "p": "1028,1028,1029,1029,-1,-1", 
+      "enable": true, 
+      "name": "ya"
+     }, 
+     "name": "フランス鴨", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "recipe": "レシピに使えます：\nマヨネーズ", 
+     "adult_time": 264, 
+     "buy_price": {
+      "gold": 49
+     }, 
+     "seasons": 4, 
+     "young_time": 66, 
+     "experience": 0.95, 
+     "fruit_name": "たまご", 
+     "is_auto_harvest": true, 
+     "sale_price": 2, 
+     "increment_fruit": 25, 
+     "level_need": 5, 
      "fruit_quantifier": "個"
     }, 
     "chengseqingwa": {
@@ -6536,23 +6592,27 @@
      "level_need": 31, 
      "fruit_quantifier": "個"
     }, 
-    "qingwa": {
-     "total_time": 360, 
-     "harvest_type": 3, 
+    "lanhe": {
+     "total_time": 720, 
+     "sound": {
+      "p": "1052,1052,1053,1053,-1,-1", 
+      "enable": true, 
+      "name": "dandinghe"
+     }, 
      "used": false, 
-     "name": "カエル", 
+     "name": "ハゴロモヅル", 
      "base_fruit": 25, 
      "fruit_time": 240, 
-     "adult_time": 60, 
+     "adult_time": 240, 
      "buy_price": {
-      "gold": 50
+      "gold": 1
      }, 
      "seasons": 1, 
-     "young_time": 60, 
-     "experience": 3.75, 
-     "fruit_name": "", 
-     "is_auto_harvest": false, 
-     "sale_price": 2, 
+     "young_time": 240, 
+     "experience": 8, 
+     "fruit_name": "たまご", 
+     "is_auto_harvest": true, 
+     "sale_price": 3, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -7099,29 +7159,48 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
-    "shaoxingDuck": {
-     "total_time": 660, 
-     "sound": {
-      "p": "1028,1028,1029,1029,-1,-1", 
-      "enable": true, 
-      "name": "ya"
-     }, 
-     "name": "フランス鴨", 
+    "shudaixiong": {
+     "total_time": 720, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "shudaixiong", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "recipe": "レシピに使えます：\nマヨネーズ", 
-     "adult_time": 264, 
+     "fruit_time": 240, 
+     "adult_time": 240, 
      "buy_price": {
-      "gold": 49
+      "F_coin": 9
      }, 
-     "seasons": 4, 
-     "young_time": 66, 
-     "experience": 0.95, 
-     "fruit_name": "たまご", 
-     "is_auto_harvest": true, 
-     "sale_price": 2, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 3.7, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 5, 
      "increment_fruit": 25, 
-     "level_need": 5, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "nirenji": {
+     "total_time": 720, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "nirenji", 
+     "base_fruit": 25, 
+     "fruit_time": 240, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 9
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 3.7, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
     "woniu": {
