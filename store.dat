@@ -7451,7 +7451,7 @@
     }, 
     "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 182, 
+    "last_number": 181, 
     "goods_description": "\u30e9\u30b9\u30c8300\u500b\u3001\u304a\u65e9\u3081\u306b\uff01", 
     "limit_number": 300, 
     "activity_type": "hot_sale"
@@ -7500,29 +7500,6 @@
     "modify": true, 
     "goods_description": "\u30d4\u30bf\u30e4\u306e\u7a2e\u304c5\u500b\u5165\u3063\u3066\u3044\u307e\u3059\u3002\u7551\u9054\u4eba\u671f\u9593\u5185\u3060\u3051\u306e\u8ca9\u58f2\u3067\u3059\u3002", 
     "activity_type": "discount"
-   }, 
-   "jisu1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
-    }, 
-    "name": "\u30b9\u30fc\u30d1\u30fc\u98fc\u6599", 
-    "price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3\u65e5", 
-    "end_time": 1284195600.0, 
-    "goods_description": "\u4f7f\u3046\u3068\u52d5\u7269\u306e\u751f\u7523\u6642\u9593\u309210\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002", 
-    "start_time": 1283936400.0, 
-    "activity_type": "hot_sale"
    }, 
    "songrong": {
     "original_price": {
@@ -7591,6 +7568,24 @@
     "goods_description": "\u30b9\u30fc\u30d1\u30fc\u30c1\u30ad\u30f3", 
     "price": {
      "num": 10, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "binglinghua": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "\u9b54\u6cd5\u306e\u3064\u3089\u3089\u306e\u82b1", 
+    "start_time": 1283504400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6\u65e521\u6642\u9593", 
+    "end_time": 1284098400.0, 
+    "goods_description": "\u2605\u2605\u2605\u9b54\u6cd5\u306e\u7a2e\u3001\u53ce\u7a6b\u3059\u308b\u3068\u3044\u308d\u3044\u308d\u306a\u30d7\u30ec\u30bc\u30f3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\uff01", 
+    "price": {
+     "num": 30, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
