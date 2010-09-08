@@ -4735,8 +4735,8 @@
       "effect": 2
      }, 
      "jisu1": {
-      "used": false, 
-      "name": "高級飼料11", 
+      "used": true, 
+      "name": "スーパー飼料", 
       "price": {
        "F_coin": 6
       }, 
@@ -7185,7 +7185,7 @@
      "total_time": 720, 
      "harvest_type": 3, 
      "used": false, 
-     "name": "nirenji", 
+     "name": "スーパーチキン", 
      "base_fruit": 25, 
      "fruit_time": 240, 
      "adult_time": 240, 
@@ -7451,7 +7451,7 @@
     }, 
     "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 201, 
+    "last_number": 199, 
     "goods_description": "ラスト300個、お早めに！", 
     "limit_number": 300, 
     "activity_type": "hot_sale"
