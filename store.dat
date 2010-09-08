@@ -7454,6 +7454,10 @@
     "activity_type": "discount"
    }, 
    "fenghuangzhiyi": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
@@ -7461,10 +7465,10 @@
     }, 
     "name": "\u30d5\u30a7\u30cb\u30c3\u30af\u30b9\u306e\u7fbd", 
     "price": {
-     "num": 25, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "goods_description": "\u30d5\u30a7\u30cb\u30c3\u30af\u30b9\u306e\u7fbd", 
     "activity_type": "discount"
    }, 
@@ -13828,7 +13832,7 @@
      "seasons": 1, 
      "sale_price": 16, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 15
      }, 
      "leaf_time": 330, 
      "level_need": 0
