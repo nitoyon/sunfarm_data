@@ -7356,23 +7356,41 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "zuinv": {
+    "original_price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "ヨッパラウカノジョ", 
+    "price": {
+     "num": 9, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_number", 
+    "last_number": 295, 
+    "goods_description": "ラスト300個、お早めに！", 
+    "limit_number": 300, 
+    "activity_type": "hot_sale"
+   }, 
    "changbozi": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "ranch", 
      "goods_type": "baby"
     }, 
     "name": "ギリン", 
-    "start_time": 1283504400.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日21時間", 
-    "end_time": 1284098400.0, 
-    "goods_description": "ギリン", 
     "price": {
      "num": 25, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "ギリン", 
+    "activity_type": "discount"
    }, 
    "cangshu": {
     "specific_type": "xin", 
@@ -7387,21 +7405,6 @@
     }, 
     "modify": false, 
     "goods_description": "ハムスター", 
-    "activity_type": "discount"
-   }, 
-   "nantanglang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "カマキキ", 
-    "price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "カマキキ", 
     "activity_type": "discount"
    }, 
    "huolongguolibao": {
