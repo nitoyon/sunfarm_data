@@ -7356,23 +7356,41 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "zuinv": {
+    "original_price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u30e8\u30c3\u30d1\u30e9\u30a6\u30ab\u30ce\u30b8\u30e7", 
+    "price": {
+     "num": 9, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_number", 
+    "last_number": 295, 
+    "goods_description": "\u30e9\u30b9\u30c8300\u500b\u3001\u304a\u65e9\u3081\u306b\uff01", 
+    "limit_number": 300, 
+    "activity_type": "hot_sale"
+   }, 
    "changbozi": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "ranch", 
      "goods_type": "baby"
     }, 
     "name": "\u30ae\u30ea\u30f3", 
-    "start_time": 1283504400.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6\u65e521\u6642\u9593", 
-    "end_time": 1284098400.0, 
-    "goods_description": "\u30ae\u30ea\u30f3", 
     "price": {
      "num": 25, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "\u30ae\u30ea\u30f3", 
+    "activity_type": "discount"
    }, 
    "cangshu": {
     "specific_type": "xin", 
@@ -7387,21 +7405,6 @@
     }, 
     "modify": false, 
     "goods_description": "\u30cf\u30e0\u30b9\u30bf\u30fc", 
-    "activity_type": "discount"
-   }, 
-   "nantanglang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "\u30ab\u30de\u30ad\u30ad", 
-    "price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "\u30ab\u30de\u30ad\u30ad", 
     "activity_type": "discount"
    }, 
    "huolongguolibao": {
