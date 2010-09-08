@@ -4741,7 +4741,7 @@
        "F_coin": 6
       }, 
       "effect": 10, 
-      "introduce": "使うと動物の生産時間を10時間短縮できます.マイミクに盗まれる前に収穫しちゃいましょう.", 
+      "introduce": "使うと動物の生産時間を10時間短縮できます。", 
       "state": "re"
      }, 
      "jisu": {
@@ -5894,7 +5894,7 @@
      "total_time": 540, 
      "sound": {
       "p": "1070,1070,1071,1071,-1,-1", 
-      "enable": true, 
+      "enable": false, 
       "name": "sfluotuo"
      }, 
      "harvest_type": 3, 
@@ -7451,7 +7451,7 @@
     }, 
     "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 190, 
+    "last_number": 182, 
     "goods_description": "ラスト300個、お早めに！", 
     "limit_number": 300, 
     "activity_type": "hot_sale"
@@ -7516,11 +7516,11 @@
      "num": 6, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "3日", 
     "end_time": 1284195600.0, 
-    "goods_description": "使うと動物の生産時間を10時間短縮できます.マイミクに盗まれる前に収穫しちゃいましょう.", 
+    "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
     "start_time": 1283936400.0, 
     "activity_type": "hot_sale"
    }, 
