@@ -7501,6 +7501,29 @@
     "goods_description": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
     "activity_type": "discount"
    }, 
+   "jisu1": {
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
+    }, 
+    "name": "スーパー飼料", 
+    "price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日", 
+    "end_time": 1284195600.0, 
+    "goods_description": "使うと動物の生産時間を10時間短縮できます.マイミクに盗まれる前に収穫しちゃいましょう.", 
+    "start_time": 1283936400.0, 
+    "activity_type": "hot_sale"
+   }, 
    "songrong": {
     "original_price": {
      "num": 38, 
@@ -7568,24 +7591,6 @@
     "goods_description": "スーパーチキン", 
     "price": {
      "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "binglinghua": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "魔法のつららの花", 
-    "start_time": 1283504400.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日21時間", 
-    "end_time": 1284098400.0, 
-    "goods_description": "★★★魔法の種、収穫するといろいろなプレゼントがもらえます！", 
-    "price": {
-     "num": 30, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
