@@ -7435,25 +7435,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "songrong": {
-    "original_price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "マツタケ", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "マツタケ", 
-    "activity_type": "discount"
-   }, 
    "changbozi": {
     "specific_type": "xin", 
     "product_type": {
@@ -7484,6 +7465,44 @@
     "goods_description": "ハムスター", 
     "activity_type": "discount"
    }, 
+   "tulip": {
+    "original_price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "チューリップ", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "花言葉：愛の告白。", 
+    "activity_type": "discount"
+   }, 
+   "lavender": {
+    "original_price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "ラベンダー", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "花言葉：あなたを待っています", 
+    "activity_type": "discount"
+   }, 
    "jisu1": {
     "original_price": {
      "num": 12, 
@@ -7507,22 +7526,24 @@
     "start_time": 1283936400.0, 
     "activity_type": "hot_sale"
    }, 
-   "putaobao": {
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+   "songrong": {
+    "original_price": {
+     "num": 38, 
+     "type": "F_coin"
     }, 
-    "name": "アメシストのグレープセット", 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "マツタケ", 
     "price": {
-     "num": 10, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_number", 
-    "last_number": 997, 
-    "goods_description": "アメシストのグレープの種が10個入っています", 
-    "limit_number": 1000, 
-    "activity_type": "hot_sale"
+    "goods_description": "マツタケ", 
+    "activity_type": "discount"
    }, 
    "fenghuangzhiyi": {
     "original_price": {
@@ -7542,6 +7563,23 @@
     "modify": false, 
     "goods_description": "フェニックスの羽", 
     "activity_type": "discount"
+   }, 
+   "putaobao": {
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "アメシストのグレープセット", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_number", 
+    "last_number": 994, 
+    "goods_description": "アメシストのグレープの種が10個入っています", 
+    "limit_number": 1000, 
+    "activity_type": "hot_sale"
    }, 
    "nirenji": {
     "product_type": {
