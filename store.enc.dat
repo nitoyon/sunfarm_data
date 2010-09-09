@@ -828,14 +828,14 @@
    }, 
    "putaobao": {
     "config": {
-     "used": false, 
-     "name": "紫水晶葡萄种子包", 
+     "used": true, 
+     "name": "アメシストのグレープセット", 
      "price": {
       "F_coin": 10
      }, 
-     "introduce": "紫水晶葡萄10个", 
+     "introduce": "アメシストのグレープの種が10個入っています", 
      "state": "xin", 
-     "goods_str": "紫水晶葡萄10个"
+     "goods_str": "アメシストのグレープの種が10個入っています"
     }, 
     "data": {
      "farm": {
@@ -4071,7 +4071,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。", 
      "name": "じゃがいもの箱", 
      "introduce": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。"
@@ -4380,7 +4380,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
      "name": "ピタヤの箱", 
      "introduce": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。"
@@ -7435,26 +7435,24 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "zuinv": {
+   "songrong": {
     "original_price": {
-     "num": 10, 
+     "num": 38, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
     "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "ヨッパラウカノジョ", 
+    "name": "マツタケ", 
     "price": {
-     "num": 9, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_number", 
-    "last_number": 0, 
-    "goods_description": "ラスト300個、お早めに！", 
-    "limit_number": 300, 
-    "activity_type": "hot_sale"
+    "goods_description": "マツタケ", 
+    "activity_type": "discount"
    }, 
    "changbozi": {
     "specific_type": "xin", 
@@ -7486,21 +7484,6 @@
     "goods_description": "ハムスター", 
     "activity_type": "discount"
    }, 
-   "huolongguolibao": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ピタヤの箱", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
-    "activity_type": "discount"
-   }, 
    "jisu1": {
     "original_price": {
      "num": 12, 
@@ -7524,39 +7507,22 @@
     "start_time": 1283936400.0, 
     "activity_type": "hot_sale"
    }, 
-   "songrong": {
-    "original_price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
+   "putaobao": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "マツタケ", 
+    "name": "アメシストのグレープセット", 
     "price": {
-     "num": 30, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "マツタケ", 
-    "activity_type": "discount"
-   }, 
-   "tudoulibao": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "じゃがいもの箱", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。", 
-    "activity_type": "discount"
+    "limit_type": "limit_number", 
+    "last_number": 997, 
+    "goods_description": "アメシストのグレープの種が10個入っています", 
+    "limit_number": 1000, 
+    "activity_type": "hot_sale"
    }, 
    "fenghuangzhiyi": {
     "original_price": {
