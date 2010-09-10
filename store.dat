@@ -7627,9 +7627,9 @@
      "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 558, 
+    "last_number": 541, 
     "goods_description": "\u30a2\u30e1\u30b7\u30b9\u30c8\u306e\u30b0\u30ec\u30fc\u30d7\u306e\u7a2e\u304c10\u500b\u5165\u3063\u3066\u3044\u307e\u3059", 
     "limit_number": 1000, 
     "activity_type": "hot_sale"
@@ -11085,24 +11085,25 @@
      }, 
      "level_need": 1
     }, 
-    "lvdoutang": {
-     "total_time": 480, 
-     "leaflet_time": 20, 
-     "used": false, 
-     "name": "\u7dd1\u8c46\u30b9\u30fc\u30d7", 
+    "gan_zhe": {
+     "total_time": 3395, 
+     "leaflet_time": 679, 
+     "used": true, 
+     "name": "\u30b7\u30e5\u30ac\u30fc\u30b1\u30fc\u30f3", 
      "base_fruit": 25, 
-     "fruit_time": 150, 
-     "sprout_time": 10, 
-     "bloom_time": 150, 
-     "experience": 6, 
-     "seasons": 1, 
-     "sale_price": 6, 
+     "fruit_time": 1018, 
+     "recipe": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u9ed2\u7802\u7cd6", 
+     "sprout_time": 339, 
+     "bloom_time": 680, 
+     "experience": 6.28, 
+     "seasons": 2, 
+     "sale_price": 22, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 679, 
      "seed_price": {
-      "F_coin": 999999
+      "gold": 413
      }, 
-     "level_need": 0
+     "level_need": 25
     }, 
     "yrjjz": {
      "total_time": 900, 
@@ -11970,6 +11971,25 @@
       "gold": 390
      }, 
      "level_need": 26
+    }, 
+    "tianshanxuelian": {
+     "total_time": 1920, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "tianshanxuelian", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "sprout_time": 330, 
+     "bloom_time": 420, 
+     "experience": 25, 
+     "seasons": 2, 
+     "sale_price": 40, 
+     "increment_fruit": 25, 
+     "leaf_time": 420, 
+     "seed_price": {
+      "F_coin": 35
+     }, 
+     "level_need": 0
     }, 
     "candou": {
      "total_time": 960, 
@@ -13980,6 +14000,25 @@
      }, 
      "level_need": 1
     }, 
+    "bailian": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "bailian", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 20, 
+     "seasons": 1, 
+     "sale_price": 30, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
+     "level_need": 0
+    }, 
     "fenghuangzhiyi": {
      "total_time": 1410, 
      "leaflet_time": 330, 
@@ -14719,25 +14758,24 @@
      "leaf_time": 410, 
      "level_need": 12
     }, 
-    "gan_zhe": {
-     "total_time": 3395, 
-     "leaflet_time": 679, 
-     "used": true, 
-     "name": "\u30b7\u30e5\u30ac\u30fc\u30b1\u30fc\u30f3", 
+    "lvdoutang": {
+     "total_time": 480, 
+     "leaflet_time": 20, 
+     "used": false, 
+     "name": "\u7dd1\u8c46\u30b9\u30fc\u30d7", 
      "base_fruit": 25, 
-     "fruit_time": 1018, 
-     "recipe": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u9ed2\u7802\u7cd6", 
-     "sprout_time": 339, 
-     "bloom_time": 680, 
-     "experience": 6.28, 
-     "seasons": 2, 
-     "sale_price": 22, 
+     "fruit_time": 150, 
+     "sprout_time": 10, 
+     "bloom_time": 150, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 679, 
+     "leaf_time": 150, 
      "seed_price": {
-      "gold": 413
+      "F_coin": 999999
      }, 
-     "level_need": 25
+     "level_need": 0
     }, 
     "yinyuehe": {
      "total_time": 1050, 
@@ -16564,7 +16602,6 @@
     "lily", 
     "laohecaohuashu", 
     "xinshoutulip", 
-    "lvdoutang", 
     "yrjjz", 
     "huanxianghua", 
     "yangganju", 
@@ -16578,6 +16615,7 @@
     "violet", 
     "wurong", 
     "starsalad", 
+    "tianshanxuelian", 
     "rensheng", 
     "lavendertea", 
     "lanmeigui", 
@@ -16611,6 +16649,7 @@
     "nvmogu", 
     "wubaiwanshu", 
     "zhangyushao", 
+    "bailian", 
     "fenghuangzhiyi", 
     "hunheshuiguo", 
     "kaoyumi", 
@@ -16622,6 +16661,7 @@
     "jinseshuihulu", 
     "duancezhuzi", 
     "diwanghua", 
+    "lvdoutang", 
     "yinyuehe", 
     "gaojishengdanhong", 
     "baiqiangwei", 
@@ -16852,8 +16892,8 @@
     "xifanlian", 
     "hong_zao", 
     "zishu", 
-    "jinyinhua", 
     "gan_zhe", 
+    "jinyinhua", 
     "honglajiao", 
     "youli", 
     "mogu", 
