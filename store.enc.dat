@@ -5250,7 +5250,7 @@
      "fruit_time": 660, 
      "adult_time": 600, 
      "buy_price": {
-      "F_coin": 35
+      "F_coin": 30
      }, 
      "state": "xin", 
      "seasons": 1, 
@@ -7488,6 +7488,28 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "jinsexiaomifeng": {
+    "original_price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "ミツバチ", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2日", 
+    "end_time": 1284534000.0, 
+    "goods_description": "ミツバチ", 
+    "start_time": 1284361200.0, 
+    "activity_type": "hot_sale"
+   }, 
    "changbozi": {
     "specific_type": "xin", 
     "product_type": {
@@ -7616,23 +7638,6 @@
     "modify": false, 
     "goods_description": "フェニックスの羽", 
     "activity_type": "discount"
-   }, 
-   "putaobao": {
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "アメシストのグレープセット", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_number", 
-    "last_number": 113, 
-    "goods_description": "アメシストのグレープの種が10個入っています", 
-    "limit_number": 1000, 
-    "activity_type": "hot_sale"
    }, 
    "nirenji": {
     "product_type": {
