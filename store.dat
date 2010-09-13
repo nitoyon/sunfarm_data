@@ -5250,7 +5250,7 @@
      "fruit_time": 660, 
      "adult_time": 600, 
      "buy_price": {
-      "F_coin": 35
+      "F_coin": 30
      }, 
      "state": "xin", 
      "seasons": 1, 
@@ -7488,6 +7488,28 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "jinsexiaomifeng": {
+    "original_price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u30df\u30c4\u30d0\u30c1", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2\u65e5", 
+    "end_time": 1284534000.0, 
+    "goods_description": "\u30df\u30c4\u30d0\u30c1", 
+    "start_time": 1284361200.0, 
+    "activity_type": "hot_sale"
+   }, 
    "changbozi": {
     "specific_type": "xin", 
     "product_type": {
@@ -7616,23 +7638,6 @@
     "modify": false, 
     "goods_description": "\u30d5\u30a7\u30cb\u30c3\u30af\u30b9\u306e\u7fbd", 
     "activity_type": "discount"
-   }, 
-   "putaobao": {
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "\u30a2\u30e1\u30b7\u30b9\u30c8\u306e\u30b0\u30ec\u30fc\u30d7\u30bb\u30c3\u30c8", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_number", 
-    "last_number": 113, 
-    "goods_description": "\u30a2\u30e1\u30b7\u30b9\u30c8\u306e\u30b0\u30ec\u30fc\u30d7\u306e\u7a2e\u304c10\u500b\u5165\u3063\u3066\u3044\u307e\u3059", 
-    "limit_number": 1000, 
-    "activity_type": "hot_sale"
    }, 
    "nirenji": {
     "product_type": {
