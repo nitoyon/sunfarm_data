@@ -4791,7 +4791,7 @@
       "used": true, 
       "name": "スーパー飼料", 
       "price": {
-       "F_coin": 6
+       "F_coin": 10
       }, 
       "effect": 10, 
       "introduce": "使うと動物の生産時間を10時間短縮できます。", 
@@ -7525,23 +7525,24 @@
     "goods_description": "ハムスター", 
     "activity_type": "discount"
    }, 
-   "tulip": {
+   "jisu1": {
     "original_price": {
-     "num": 18, 
+     "num": 12, 
      "type": "F_coin"
     }, 
-    "specific_type": "xin", 
+    "specific_type": "zhe", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
     }, 
-    "name": "チューリップ", 
+    "name": "スーパー飼料", 
     "price": {
-     "num": 15, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "花言葉：愛の告白。", 
+    "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
     "activity_type": "discount"
    }, 
    "lavender": {
@@ -7563,28 +7564,24 @@
     "goods_description": "花言葉：あなたを待っています", 
     "activity_type": "discount"
    }, 
-   "jisu1": {
+   "tulip": {
     "original_price": {
-     "num": 12, 
+     "num": 18, 
      "type": "F_coin"
     }, 
+    "specific_type": "xin", 
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
+     "scene_type": "farm", 
+     "goods_type": "flower"
     }, 
-    "name": "スーパー飼料", 
+    "name": "チューリップ", 
     "price": {
-     "num": 6, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1284368400.0, 
-    "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
-    "start_time": 1283936400.0, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "花言葉：愛の告白。", 
+    "activity_type": "discount"
    }, 
    "shudaixiong": {
     "specific_type": "xin", 
@@ -7606,19 +7603,22 @@
      "num": 38, 
      "type": "F_coin"
     }, 
-    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
     "name": "マツタケ", 
     "price": {
-     "num": 30, 
+     "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日23時間", 
+    "end_time": 1284534000.0, 
     "goods_description": "マツタケ", 
-    "activity_type": "discount"
+    "start_time": 1284364800.0, 
+    "activity_type": "hot_sale"
    }, 
    "fenghuangzhiyi": {
     "original_price": {
@@ -9168,7 +9168,7 @@
      "increment_fruit": 25, 
      "leaf_time": 420, 
      "seed_price": {
-      "F_coin": 30
+      "F_coin": 25
      }, 
      "level_need": 0
     }, 
