@@ -4537,7 +4537,7 @@
    "cangbaotu1": {
     "config": {
      "price": {
-      "F_coin": 48
+      "F_coin": 30
      }, 
      "used": true, 
      "goods_str": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
@@ -7510,21 +7510,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "cangshu": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "ハムスター", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "ハムスター", 
-    "activity_type": "discount"
-   }, 
    "tulip": {
     "original_price": {
      "num": 18, 
@@ -7577,12 +7562,31 @@
      "num": 500, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 100, 
+    "last_number": 97, 
     "goods_description": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
     "limit_number": 100, 
     "activity_type": "hot_sale"
+   }, 
+   "cangbaotu1": {
+    "original_price": {
+     "num": 48, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "宝の地図1", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
+    "activity_type": "discount"
    }, 
    "jisu1": {
     "original_price": {
@@ -7633,9 +7637,9 @@
      "num": 50, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 162, 
+    "last_number": 170, 
     "goods_description": "ビッグスイカ", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
@@ -7673,9 +7677,9 @@
      "num": 30, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 477, 
+    "last_number": 472, 
     "goods_description": "タコ凧", 
     "limit_number": 500, 
     "activity_type": "hot_sale"
