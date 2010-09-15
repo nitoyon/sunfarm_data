@@ -7259,7 +7259,7 @@
     "nirenji": {
      "total_time": 1320, 
      "harvest_type": 3, 
-     "used": true, 
+     "used": false, 
      "name": "スーパーチキン", 
      "base_fruit": 25, 
      "fruit_time": 600, 
@@ -7563,6 +7563,27 @@
     "goods_description": "花言葉：あなたを待っています", 
     "activity_type": "discount"
    }, 
+   "zhounianbao4": {
+    "original_price": {
+     "num": 643, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "限定種セット", 
+    "price": {
+     "num": 500, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_number", 
+    "last_number": 100, 
+    "goods_description": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
+    "limit_number": 100, 
+    "activity_type": "hot_sale"
+   }, 
    "jisu1": {
     "original_price": {
      "num": 12, 
@@ -7614,7 +7635,7 @@
     }, 
     "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 173, 
+    "last_number": 162, 
     "goods_description": "ビッグスイカ", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
@@ -7638,24 +7659,6 @@
     "goods_description": "フェニックスの羽", 
     "activity_type": "discount"
    }, 
-   "nirenji": {
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "スーパーチキン", 
-    "start_time": 1283936400.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1284541200.0, 
-    "goods_description": "スーパーチキン", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "zhangyufengzheng": {
     "original_price": {
      "num": 50, 
@@ -7672,7 +7675,7 @@
     }, 
     "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 479, 
+    "last_number": 477, 
     "goods_description": "タコ凧", 
     "limit_number": 500, 
     "activity_type": "hot_sale"
