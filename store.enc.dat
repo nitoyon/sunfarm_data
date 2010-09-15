@@ -7510,28 +7510,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "jinsexiaomifeng": {
-    "original_price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "ミツバチ", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "2日", 
-    "end_time": 1284534000.0, 
-    "goods_description": "ミツバチ", 
-    "start_time": 1284361200.0, 
-    "activity_type": "hot_sale"
-   }, 
    "cangshu": {
     "specific_type": "xin", 
     "product_type": {
@@ -7545,6 +7523,44 @@
     }, 
     "modify": false, 
     "goods_description": "ハムスター", 
+    "activity_type": "discount"
+   }, 
+   "tulip": {
+    "original_price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "チューリップ", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "花言葉：愛の告白。", 
+    "activity_type": "discount"
+   }, 
+   "lavender": {
+    "original_price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "ラベンダー", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "花言葉：あなたを待っています", 
     "activity_type": "discount"
    }, 
    "jisu1": {
@@ -7567,44 +7583,6 @@
     "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
     "activity_type": "discount"
    }, 
-   "lavender": {
-    "original_price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "ラベンダー", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "花言葉：あなたを待っています", 
-    "activity_type": "discount"
-   }, 
-   "tulip": {
-    "original_price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "チューリップ", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "花言葉：愛の告白。", 
-    "activity_type": "discount"
-   }, 
    "shudaixiong": {
     "specific_type": "xin", 
     "product_type": {
@@ -7620,26 +7598,25 @@
     "goods_description": "コアラ", 
     "activity_type": "discount"
    }, 
-   "songrong": {
+   "yuanxigua": {
     "original_price": {
-     "num": 38, 
+     "num": 100, 
      "type": "F_coin"
     }, 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "マツタケ", 
+    "name": "ビッグスイカ", 
     "price": {
-     "num": 25, 
+     "num": 50, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "1日23時間", 
-    "end_time": 1284534000.0, 
-    "goods_description": "マツタケ", 
-    "start_time": 1284364800.0, 
+    "limit_type": "limit_number", 
+    "last_number": 199, 
+    "goods_description": "ビッグスイカ", 
+    "limit_number": 200, 
     "activity_type": "hot_sale"
    }, 
    "fenghuangzhiyi": {
@@ -7677,6 +7654,27 @@
      "num": 10, 
      "type": "F_coin"
     }, 
+    "activity_type": "hot_sale"
+   }, 
+   "zhangyufengzheng": {
+    "original_price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "タコ凧", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_number", 
+    "last_number": 499, 
+    "goods_description": "タコ凧", 
+    "limit_number": 500, 
     "activity_type": "hot_sale"
    }
   }, 
@@ -8126,7 +8124,7 @@
     "yuanxigua": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
+     "used": true, 
      "name": "ビッグスイカ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
@@ -8138,7 +8136,7 @@
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 100
+      "F_coin": 50
      }, 
      "level_need": 0
     }, 
@@ -15182,7 +15180,7 @@
     "zhangyufengzheng": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
+     "used": true, 
      "name": "タコ凧", 
      "base_fruit": 25, 
      "fruit_time": 360, 
@@ -15194,7 +15192,7 @@
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 30
      }, 
      "level_need": 0
     }, 
