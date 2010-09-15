@@ -4537,7 +4537,7 @@
    "cangbaotu1": {
     "config": {
      "price": {
-      "F_coin": 48
+      "F_coin": 30
      }, 
      "used": true, 
      "goods_str": "\u5b9d\u7269\u3078\u306e\u884c\u304d\u65b9\u304c\u66f8\u304b\u308c\u3066\u3044\u3066\u3001\u82b1\u3001\u4f5c\u7269\u7b49\u306e\u8272\u3005\u306a\u7551\u30a2\u30a4\u30c6\u30e0\u3092\u63a2\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
@@ -7510,21 +7510,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "cangshu": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "\u30cf\u30e0\u30b9\u30bf\u30fc", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "\u30cf\u30e0\u30b9\u30bf\u30fc", 
-    "activity_type": "discount"
-   }, 
    "tulip": {
     "original_price": {
      "num": 18, 
@@ -7577,12 +7562,31 @@
      "num": 500, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 100, 
+    "last_number": 97, 
     "goods_description": "\u9650\u5b9a\u8ca9\u58f2\u3057\u3066\u3044\u305f\u7a2e\u306e\u30bb\u30c3\u30c8\u3002643K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u5927\u592a\u9f13\u3001\u30bf\u30b3\u51e7\u3001\u30c9\u30ad\u30c9\u30ad\u3001\u30ad\u30ad\u3001\u30c9\u30c9\u3001\u30d3\u30c3\u30b0\u30b9\u30a4\u30ab\u3001\u30e1\u30ac\u30d6\u3001\u30b9\u30ea\u30fc\u30ab\u30e9\u30fc\u306e\u30d0\u30e9\u3001\u30ab\u30fc\u30cd\u30fc\u30b7\u30e7\u30f3\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
     "limit_number": 100, 
     "activity_type": "hot_sale"
+   }, 
+   "cangbaotu1": {
+    "original_price": {
+     "num": 48, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "\u5b9d\u306e\u5730\u56f31", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "\u5b9d\u7269\u3078\u306e\u884c\u304d\u65b9\u304c\u66f8\u304b\u308c\u3066\u3044\u3066\u3001\u82b1\u3001\u4f5c\u7269\u7b49\u306e\u8272\u3005\u306a\u7551\u30a2\u30a4\u30c6\u30e0\u3092\u63a2\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
+    "activity_type": "discount"
    }, 
    "jisu1": {
     "original_price": {
@@ -7633,9 +7637,9 @@
      "num": 50, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 162, 
+    "last_number": 170, 
     "goods_description": "\u30d3\u30c3\u30b0\u30b9\u30a4\u30ab", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
@@ -7673,9 +7677,9 @@
      "num": 30, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 477, 
+    "last_number": 472, 
     "goods_description": "\u30bf\u30b3\u51e7", 
     "limit_number": 500, 
     "activity_type": "hot_sale"
