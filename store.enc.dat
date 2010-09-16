@@ -14973,6 +14973,25 @@
      }, 
      "level_need": 1
     }, 
+    "hujiao": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "山椒", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 150, 
+     "bloom_time": 390, 
+     "experience": 6.2, 
+     "seasons": 2, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "gold": 412
+     }, 
+     "level_need": 52
+    }, 
     "smilingflower": {
      "total_time": 1400, 
      "leaflet_time": 162, 
@@ -16966,7 +16985,8 @@
     "luohuasheng", 
     "bocai", 
     "niupang", 
-    "mihoutao"
+    "mihoutao", 
+    "hujiao"
    ]
   }
  }, 
