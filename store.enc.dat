@@ -7571,26 +7571,20 @@
     "goods_description": "オオシカ", 
     "activity_type": "discount"
    }, 
-   "zhounianbao4": {
-    "original_price": {
-     "num": 643, 
-     "type": "F_coin"
-    }, 
+   "jinseshuihulu": {
+    "specific_type": "xin", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "scene_type": "farm", 
+     "goods_type": "flower"
     }, 
-    "name": "限定種セット", 
+    "name": "金のホテイアオイ", 
     "price": {
-     "num": 500, 
+     "num": 12, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_number", 
-    "last_number": 67, 
-    "goods_description": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
-    "limit_number": 100, 
-    "activity_type": "hot_sale"
+    "goods_description": "レシピに使えます：\n飾り花", 
+    "activity_type": "discount"
    }, 
    "cangbaotu1": {
     "original_price": {
@@ -7631,6 +7625,21 @@
     "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
     "activity_type": "discount"
    }, 
+   "jinpinshanyao": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ヤマイモ", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "レシピに使えます：\n梅と山芋のサラダ", 
+    "activity_type": "discount"
+   }, 
    "xinxingxigua": {
     "original_price": {
      "num": 100, 
@@ -7645,9 +7654,9 @@
      "num": 50, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 133, 
+    "last_number": 131, 
     "goods_description": "ラブスイカ", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
@@ -7668,6 +7677,28 @@
      "num": 3, 
      "type": "F_coin"
     }, 
+    "activity_type": "hot_sale"
+   }, 
+   "bailian": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "白色の蓮", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日20時間", 
+    "end_time": 1285052400.0, 
+    "goods_description": "レシピに使えます：\n金色の蓮", 
+    "start_time": 1284721200.0, 
     "activity_type": "hot_sale"
    }, 
    "beijixiong": {
@@ -14229,7 +14260,7 @@
      "seasons": 1, 
      "sale_price": 30, 
      "seed_price": {
-      "F_coin": 30
+      "F_coin": 25
      }, 
      "leaf_time": 330, 
      "level_need": 0
