@@ -7571,44 +7571,6 @@
     "goods_description": "オオシカ", 
     "activity_type": "discount"
    }, 
-   "tulip": {
-    "original_price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "チューリップ", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "花言葉：愛の告白。", 
-    "activity_type": "discount"
-   }, 
-   "lavender": {
-    "original_price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "ラベンダー", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "花言葉：あなたを待っています", 
-    "activity_type": "discount"
-   }, 
    "zhounianbao4": {
     "original_price": {
      "num": 643, 
@@ -7685,7 +7647,7 @@
     }, 
     "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 139, 
+    "last_number": 133, 
     "goods_description": "ラブスイカ", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
@@ -8141,7 +8103,7 @@
      "seasons": 1, 
      "sale_price": 8, 
      "seed_price": {
-      "F_coin": 3
+      "F_coin": 4
      }, 
      "leaf_time": 90, 
      "level_need": 0
@@ -9253,7 +9215,7 @@
      "increment_fruit": 25, 
      "leaf_time": 420, 
      "seed_price": {
-      "F_coin": 30
+      "F_coin": 38
      }, 
      "level_need": 0
     }, 
@@ -9495,7 +9457,7 @@
      "seasons": 1, 
      "sale_price": 35, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 18
      }, 
      "leaf_time": 243, 
      "level_need": 0
@@ -12117,7 +12079,7 @@
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 28
      }, 
      "level_need": 0
     }, 
