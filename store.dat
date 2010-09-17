@@ -7556,6 +7556,21 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "tuolu": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u30aa\u30aa\u30b7\u30ab", 
+    "price": {
+     "num": 20, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "\u30aa\u30aa\u30b7\u30ab", 
+    "activity_type": "discount"
+   }, 
    "tulip": {
     "original_price": {
      "num": 18, 
@@ -7654,21 +7669,6 @@
     "goods_description": "\u4f7f\u3046\u3068\u52d5\u7269\u306e\u751f\u7523\u6642\u9593\u309210\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
-   "shudaixiong": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "\u30b3\u30a2\u30e9", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "\u30b3\u30a2\u30e9", 
-    "activity_type": "discount"
-   }, 
    "xinxingxigua": {
     "original_price": {
      "num": 100, 
@@ -7685,7 +7685,7 @@
     }, 
     "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 148, 
+    "last_number": 140, 
     "goods_description": "\u30e9\u30d6\u30b9\u30a4\u30ab", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
