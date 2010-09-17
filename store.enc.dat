@@ -7556,6 +7556,21 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "tuolu": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "オオシカ", 
+    "price": {
+     "num": 20, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "オオシカ", 
+    "activity_type": "discount"
+   }, 
    "tulip": {
     "original_price": {
      "num": 18, 
@@ -7654,21 +7669,6 @@
     "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
     "activity_type": "discount"
    }, 
-   "shudaixiong": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "コアラ", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "コアラ", 
-    "activity_type": "discount"
-   }, 
    "xinxingxigua": {
     "original_price": {
      "num": 100, 
@@ -7685,7 +7685,7 @@
     }, 
     "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 148, 
+    "last_number": 140, 
     "goods_description": "ラブスイカ", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
