@@ -7685,30 +7685,27 @@
     }, 
     "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 149, 
+    "last_number": 148, 
     "goods_description": "ラブスイカ", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
    }, 
-   "zhangyufengzheng": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
+   "yutuhua": {
     "product_type": {
      "scene_type": "farm", 
-     "goods_type": "seed"
+     "goods_type": "flower"
     }, 
-    "name": "タコ凧", 
+    "name": "月の花", 
+    "start_time": 1284717600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日21時間", 
+    "end_time": 1285225200.0, 
+    "goods_description": "月見期間に咲く綺麗な花,９月１７日から２３日まで期間限定で販売しております。", 
     "price": {
-     "num": 30, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_number", 
-    "last_number": 361, 
-    "goods_description": "タコ凧", 
-    "limit_number": 500, 
     "activity_type": "hot_sale"
    }, 
    "beijixiong": {
