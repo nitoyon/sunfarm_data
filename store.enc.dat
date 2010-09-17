@@ -5969,8 +5969,8 @@
     "beijixiong": {
      "total_time": 1680, 
      "harvest_type": 3, 
-     "used": false, 
-     "name": "beijixiong", 
+     "used": true, 
+     "name": "白熊", 
      "base_fruit": 25, 
      "fruit_time": 720, 
      "adult_time": 720, 
@@ -7667,25 +7667,6 @@
     "limit_number": 200, 
     "activity_type": "hot_sale"
    }, 
-   "fenghuangzhiyi": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "フェニックスの羽", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "フェニックスの羽", 
-    "activity_type": "discount"
-   }, 
    "zhangyufengzheng": {
     "original_price": {
      "num": 50, 
@@ -7702,10 +7683,25 @@
     }, 
     "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 399, 
+    "last_number": 398, 
     "goods_description": "タコ凧", 
     "limit_number": 500, 
     "activity_type": "hot_sale"
+   }, 
+   "beijixiong": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "白熊", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "白熊", 
+    "activity_type": "discount"
    }
   }, 
   "farm": {
