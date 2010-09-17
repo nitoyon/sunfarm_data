@@ -7685,30 +7685,27 @@
     }, 
     "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 149, 
+    "last_number": 148, 
     "goods_description": "\u30e9\u30d6\u30b9\u30a4\u30ab", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
    }, 
-   "zhangyufengzheng": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
+   "yutuhua": {
     "product_type": {
      "scene_type": "farm", 
-     "goods_type": "seed"
+     "goods_type": "flower"
     }, 
-    "name": "\u30bf\u30b3\u51e7", 
+    "name": "\u6708\u306e\u82b1", 
+    "start_time": 1284717600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "5\u65e521\u6642\u9593", 
+    "end_time": 1285225200.0, 
+    "goods_description": "\u6708\u898b\u671f\u9593\u306b\u54b2\u304f\u7dba\u9e97\u306a\u82b1,\uff19\u6708\uff11\uff17\u65e5\u304b\u3089\uff12\uff13\u65e5\u307e\u3067\u671f\u9593\u9650\u5b9a\u3067\u8ca9\u58f2\u3057\u3066\u304a\u308a\u307e\u3059\u3002", 
     "price": {
-     "num": 30, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_number", 
-    "last_number": 361, 
-    "goods_description": "\u30bf\u30b3\u51e7", 
-    "limit_number": 500, 
     "activity_type": "hot_sale"
    }, 
    "beijixiong": {
