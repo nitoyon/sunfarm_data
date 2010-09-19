@@ -7578,21 +7578,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "tuolu": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "オオシカ", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "オオシカ", 
-    "activity_type": "discount"
-   }, 
    "jinseshuihulu": {
     "specific_type": "xin", 
     "product_type": {
@@ -7678,10 +7663,25 @@
     }, 
     "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 25, 
+    "last_number": 24, 
     "goods_description": "ラブスイカ", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
+   }, 
+   "chashu": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "チャノキ", 
+    "price": {
+     "num": 5, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "レシピに使えます：\n茶葉", 
+    "activity_type": "discount"
    }, 
    "yutuhua": {
     "product_type": {
