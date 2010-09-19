@@ -7578,21 +7578,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "tuolu": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "\u30aa\u30aa\u30b7\u30ab", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "\u30aa\u30aa\u30b7\u30ab", 
-    "activity_type": "discount"
-   }, 
    "jinseshuihulu": {
     "specific_type": "xin", 
     "product_type": {
@@ -7678,10 +7663,25 @@
     }, 
     "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 25, 
+    "last_number": 24, 
     "goods_description": "\u30e9\u30d6\u30b9\u30a4\u30ab", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
+   }, 
+   "chashu": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u30c1\u30e3\u30ce\u30ad", 
+    "price": {
+     "num": 5, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u8336\u8449", 
+    "activity_type": "discount"
    }, 
    "yutuhua": {
     "product_type": {
