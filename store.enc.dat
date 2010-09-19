@@ -4362,7 +4362,7 @@
    "cangbaotu2": {
     "config": {
      "price": {
-      "F_coin": 48
+      "F_coin": 30
      }, 
      "used": true, 
      "goods_str": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
@@ -4537,7 +4537,7 @@
    "cangbaotu1": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 48
      }, 
      "used": true, 
      "goods_str": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
@@ -7593,7 +7593,7 @@
     "goods_description": "レシピに使えます：\n飾り花", 
     "activity_type": "discount"
    }, 
-   "cangbaotu1": {
+   "cangbaotu2": {
     "original_price": {
      "num": 48, 
      "type": "F_coin"
@@ -7603,14 +7603,36 @@
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "宝の地図1", 
+    "name": "宝の地図2", 
     "price": {
      "num": 30, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
+    "modify": true, 
+    "goods_description": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
     "activity_type": "discount"
+   }, 
+   "bailian": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "白色の蓮", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1285066800.0, 
+    "goods_description": "レシピに使えます：金色の蓮", 
+    "start_time": 1284721200.0, 
+    "activity_type": "hot_sale"
    }, 
    "jisu1": {
     "original_price": {
@@ -7663,7 +7685,7 @@
     }, 
     "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 24, 
+    "last_number": 22, 
     "goods_description": "ラブスイカ", 
     "limit_number": 200, 
     "activity_type": "hot_sale"
@@ -7699,28 +7721,6 @@
      "num": 3, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
-   }, 
-   "bailian": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "白色の蓮", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1285066800.0, 
-    "goods_description": "レシピに使えます：金色の蓮", 
-    "start_time": 1284721200.0, 
     "activity_type": "hot_sale"
    }, 
    "beijixiong": {
