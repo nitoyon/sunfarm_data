@@ -7634,6 +7634,27 @@
     "start_time": 1284721200.0, 
     "activity_type": "hot_sale"
    }, 
+   "yanhua": {
+    "original_price": {
+     "num": 200, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u82b1\u706b", 
+    "price": {
+     "num": 100, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_number", 
+    "last_number": 49, 
+    "goods_description": "\u82b1\u706b", 
+    "limit_number": 50, 
+    "activity_type": "hot_sale"
+   }, 
    "jisu1": {
     "original_price": {
      "num": 12, 
@@ -7668,27 +7689,6 @@
     "modify": false, 
     "goods_description": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u6885\u3068\u5c71\u828b\u306e\u30b5\u30e9\u30c0", 
     "activity_type": "discount"
-   }, 
-   "xinxingxigua": {
-    "original_price": {
-     "num": 100, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u30e9\u30d6\u30b9\u30a4\u30ab", 
-    "price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_number", 
-    "last_number": 0, 
-    "goods_description": "\u30e9\u30d6\u30b9\u30a4\u30ab", 
-    "limit_number": 200, 
-    "activity_type": "hot_sale"
    }, 
    "chashu": {
     "specific_type": "xin", 
@@ -14044,7 +14044,7 @@
      "seasons": 1, 
      "sale_price": 25, 
      "seed_price": {
-      "F_coin": 200
+      "F_coin": 100
      }, 
      "leaf_time": 330, 
      "level_need": 0
