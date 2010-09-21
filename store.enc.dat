@@ -7649,28 +7649,6 @@
     "goods_description": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
     "activity_type": "discount"
    }, 
-   "bailian": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "白色の蓮", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1285066800.0, 
-    "goods_description": "レシピに使えます：金色の蓮", 
-    "start_time": 1284721200.0, 
-    "activity_type": "hot_sale"
-   }, 
    "yanhua": {
     "original_price": {
      "num": 200, 
@@ -7685,9 +7663,9 @@
      "num": 100, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 30, 
+    "last_number": 27, 
     "goods_description": "花火", 
     "limit_number": 50, 
     "activity_type": "hot_sale"
@@ -7730,6 +7708,24 @@
     "modify": true, 
     "goods_description": "レシピに使えます：\n梅と山芋のサラダ", 
     "activity_type": "discount"
+   }, 
+   "liumangtu": {
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "鍬うさぎ", 
+    "start_time": 1285056000.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1285488000.0, 
+    "goods_description": "鍬うさぎ", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "chashu": {
     "original_price": {
