@@ -4784,7 +4784,7 @@
      }, 
      "gaosu": {
       "price": {
-       "F_coin": 3
+       "F_coin": 2
       }, 
       "used": true, 
       "name": "中級飼料", 
@@ -4795,7 +4795,7 @@
       "used": true, 
       "name": "スーパー飼料", 
       "price": {
-       "F_coin": 10
+       "F_coin": 7
       }, 
       "effect": 10, 
       "introduce": "使うと動物の生産時間を10時間短縮できます。", 
@@ -4805,7 +4805,7 @@
       "used": true, 
       "name": "高級飼料", 
       "price": {
-       "F_coin": 6
+       "F_coin": 4
       }, 
       "effect": 4, 
       "introduce": "使うと動物の生産時間を4時間短縮できます。", 
@@ -4824,7 +4824,7 @@
       "used": true, 
       "name": "マジック飼料", 
       "price": {
-       "F_coin": 2
+       "F_coin": 1
       }, 
       "effect": 0.5, 
       "introduce": "使うと動物の生産時間を0.5時間短縮できます。同じ段階で何個でも使えます。", 
@@ -7579,6 +7579,10 @@
   ], 
   "hot_sale": {
    "jinseshuihulu": {
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
@@ -7586,10 +7590,10 @@
     }, 
     "name": "金のホテイアオイ", 
     "price": {
-     "num": 12, 
+     "num": 9, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "goods_description": "レシピに使えます：\n飾り花", 
     "activity_type": "discount"
    }, 
@@ -7668,14 +7672,18 @@
     }, 
     "name": "スーパー飼料", 
     "price": {
-     "num": 10, 
+     "num": 7, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
     "activity_type": "discount"
    }, 
    "jinpinshanyao": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
@@ -7683,14 +7691,18 @@
     }, 
     "name": "ヤマイモ", 
     "price": {
-     "num": 25, 
+     "num": 20, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "goods_description": "レシピに使えます：\n梅と山芋のサラダ", 
     "activity_type": "discount"
    }, 
    "chashu": {
+    "original_price": {
+     "num": 5, 
+     "type": "F_coin"
+    }, 
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
@@ -7698,10 +7710,10 @@
     }, 
     "name": "チャノキ", 
     "price": {
-     "num": 5, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "goods_description": "レシピに使えます：\n茶葉", 
     "activity_type": "discount"
    }, 
@@ -7724,6 +7736,10 @@
     "activity_type": "hot_sale"
    }, 
    "beijixiong": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "ranch", 
@@ -7731,7 +7747,7 @@
     }, 
     "name": "白熊", 
     "price": {
-     "num": 25, 
+     "num": 18, 
      "type": "F_coin"
     }, 
     "modify": true, 
