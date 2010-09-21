@@ -7649,28 +7649,6 @@
     "goods_description": "\u5b9d\u7269\u3078\u306e\u884c\u304d\u65b9\u304c\u66f8\u304b\u308c\u3066\u3044\u3066\u3001\u52d5\u7269\u306e\u8d64\u3061\u3083\u3093\u7b49\u306e\u8272\u3005\u306a\u755c\u7523\u30a2\u30a4\u30c6\u30e0\u3092\u63a2\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
-   "bailian": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "\u767d\u8272\u306e\u84ee", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4\u65e5", 
-    "end_time": 1285066800.0, 
-    "goods_description": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\u91d1\u8272\u306e\u84ee", 
-    "start_time": 1284721200.0, 
-    "activity_type": "hot_sale"
-   }, 
    "yanhua": {
     "original_price": {
      "num": 200, 
@@ -7685,9 +7663,9 @@
      "num": 100, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_number", 
-    "last_number": 30, 
+    "last_number": 27, 
     "goods_description": "\u82b1\u706b", 
     "limit_number": 50, 
     "activity_type": "hot_sale"
@@ -7730,6 +7708,24 @@
     "modify": true, 
     "goods_description": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u6885\u3068\u5c71\u828b\u306e\u30b5\u30e9\u30c0", 
     "activity_type": "discount"
+   }, 
+   "liumangtu": {
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u936c\u3046\u3055\u304e", 
+    "start_time": 1285056000.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5\u65e5", 
+    "end_time": 1285488000.0, 
+    "goods_description": "\u936c\u3046\u3055\u304e", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "chashu": {
     "original_price": {
