@@ -9007,6 +9007,26 @@
      }, 
      "level_need": 0
     }, 
+    "hudiehua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "hudiehua", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 5
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "shijinshuiguocha": {
      "total_time": 854, 
      "leaflet_time": 164, 
@@ -9320,25 +9340,25 @@
      "leaf_time": 420, 
      "level_need": 0
     }, 
-    "hong_zao": {
-     "total_time": 2870, 
-     "leaflet_time": 574, 
+    "ganlan": {
+     "total_time": 1814, 
+     "leaflet_time": 363, 
      "used": true, 
-     "name": "紅ナツメ", 
+     "name": "オリーブ", 
      "base_fruit": 25, 
-     "fruit_time": 861, 
-     "recipe": "レシピに使えます：\n蜜桃\n柴犬", 
-     "sprout_time": 287, 
-     "bloom_time": 574, 
-     "experience": 7.09, 
-     "seasons": 1, 
-     "sale_price": 25, 
+     "fruit_time": 544, 
+     "recipe": "レシピに使えます：\nキリ\nオリーブオイル", 
+     "sprout_time": 181, 
+     "bloom_time": 363, 
+     "experience": 2.94, 
+     "seasons": 3, 
+     "sale_price": 11, 
      "increment_fruit": 25, 
-     "leaf_time": 574, 
+     "leaf_time": 363, 
      "seed_price": {
-      "gold": 249
+      "gold": 321
      }, 
-     "level_need": 24
+     "level_need": 28
     }, 
     "fuqinjiehuasu": {
      "total_time": 1875, 
@@ -9463,25 +9483,25 @@
      }, 
      "level_need": 39
     }, 
-    "ganlan": {
-     "total_time": 1814, 
-     "leaflet_time": 363, 
+    "hong_zao": {
+     "total_time": 2870, 
+     "leaflet_time": 574, 
      "used": true, 
-     "name": "オリーブ", 
+     "name": "紅ナツメ", 
      "base_fruit": 25, 
-     "fruit_time": 544, 
-     "recipe": "レシピに使えます：\nキリ\nオリーブオイル", 
-     "sprout_time": 181, 
-     "bloom_time": 363, 
-     "experience": 2.94, 
-     "seasons": 3, 
-     "sale_price": 11, 
+     "fruit_time": 861, 
+     "recipe": "レシピに使えます：\n蜜桃\n柴犬", 
+     "sprout_time": 287, 
+     "bloom_time": 574, 
+     "experience": 7.09, 
+     "seasons": 1, 
+     "sale_price": 25, 
      "increment_fruit": 25, 
-     "leaf_time": 363, 
+     "leaf_time": 574, 
      "seed_price": {
-      "gold": 321
+      "gold": 249
      }, 
-     "level_need": 28
+     "level_need": 24
     }, 
     "tomato": {
      "total_time": 630, 
@@ -16948,6 +16968,7 @@
     "xingandengjie", 
     "sweetviolet", 
     "jiaosong", 
+    "hudiehua", 
     "shenqihuo_long_guo", 
     "xinshoutomato", 
     "shenqisweetviolet", 
