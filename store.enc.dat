@@ -442,6 +442,79 @@
      }
     }
    }, 
+   "chaozhilibao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "お買い得セット：原価770Kコインのアイテム＋500Kコインの種　セット価格500Kコイン", 
+     "name": "お買い得セット", 
+     "introduce": "お買い得セット：原価770Kコインのアイテム＋500Kコインの種　セット価格500Kコイン"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        4, 
+        1.0
+       ], 
+       "tianshanxuelian": [
+        4, 
+        1.0
+       ], 
+       "nirenxianrenzhang": [
+        4, 
+        1.0
+       ], 
+       "hudiehua": [
+        4, 
+        1.0
+       ], 
+       "yutuhua": [
+        10, 
+        1.0
+       ], 
+       "nirenyali": [
+        4, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         10, 
+         1.0
+        ], 
+        "gaosu": [
+         35, 
+         1.0
+        ], 
+        "jisu": [
+         35, 
+         1.0
+        ], 
+        "gaoji": [
+         35, 
+         1.0
+        ], 
+        "test": [
+         5, 
+         1.0
+        ], 
+        "zengshou": [
+         25, 
+         1.0
+        ], 
+        "xunjie": [
+         35, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "hb_5": {
     "config": {
      "price": {
