@@ -442,6 +442,79 @@
      }
     }
    }, 
+   "chaozhilibao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8\uff1a\u539f\u4fa1770K\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\uff0b500K\u30b3\u30a4\u30f3\u306e\u7a2e\u3000\u30bb\u30c3\u30c8\u4fa1\u683c500K\u30b3\u30a4\u30f3", 
+     "name": "\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8", 
+     "introduce": "\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8\uff1a\u539f\u4fa1770K\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\uff0b500K\u30b3\u30a4\u30f3\u306e\u7a2e\u3000\u30bb\u30c3\u30c8\u4fa1\u683c500K\u30b3\u30a4\u30f3"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        4, 
+        1.0
+       ], 
+       "tianshanxuelian": [
+        4, 
+        1.0
+       ], 
+       "nirenxianrenzhang": [
+        4, 
+        1.0
+       ], 
+       "hudiehua": [
+        4, 
+        1.0
+       ], 
+       "yutuhua": [
+        10, 
+        1.0
+       ], 
+       "nirenyali": [
+        4, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         10, 
+         1.0
+        ], 
+        "gaosu": [
+         35, 
+         1.0
+        ], 
+        "jisu": [
+         35, 
+         1.0
+        ], 
+        "gaoji": [
+         35, 
+         1.0
+        ], 
+        "test": [
+         5, 
+         1.0
+        ], 
+        "zengshou": [
+         25, 
+         1.0
+        ], 
+        "xunjie": [
+         35, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "hb_5": {
     "config": {
      "price": {
