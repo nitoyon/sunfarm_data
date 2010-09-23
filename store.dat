@@ -448,9 +448,9 @@
       "F_coin": 500
      }, 
      "used": false, 
-     "goods_str": "\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8\uff1a\u539f\u4fa1770K\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\uff0b500K\u30b3\u30a4\u30f3\u306e\u7a2e\u3000\u30bb\u30c3\u30c8\u4fa1\u683c500K\u30b3\u30a4\u30f3", 
+     "goods_str": "\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8\uff1a\u539f\u4fa1770K\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\uff0b500K\u30b3\u30a4\u30f3\u306e\u7a2e\u3000\u30bb\u30c3\u30c8\u4fa1\u683c500K\u30b3\u30a4\u30f3\n\u30bb\u30c3\u30c8\u5185\u5bb9\uff1a\n\u30a2\u30a4\u30c6\u30e0\uff1a\u521d\u7d1a\u80a5\u6599\u00d735        \u4e2d\u7d1a\u80a5\u6599\u00d735       \u9ad8\u7d1a\u80a5\u6599\u00d735    \u30de\u30b8\u30c3\u30af\u80a5\u6599\u00d735    \u5897\u7523\u80a5\u6599\u00d725    \u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u00d710    \u30a6\u30eb\u30c8\u30e9\u80a5\u6599\u00d75\n\u7a2e\uff1a  \u30af\u30ec\u30a4\u30b8\u30fc\u30ca\u30b7\u00d74    \u30af\u30ec\u30a4\u30b8\u30fc\u30b5\u30dc\u30c6\u30f3\u00d74    \u30c1\u30e7\u30a6\u82b1\u00d74       \u5929\u5c71\u96ea\u84ee\u00d74       \u9b54\u6cd5\u306e\u767d\u30d0\u30e9\u00d74    \u6708\u306e\u82b1\u00d710", 
      "name": "\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8", 
-     "introduce": "\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8\uff1a\u539f\u4fa1770K\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\uff0b500K\u30b3\u30a4\u30f3\u306e\u7a2e\u3000\u30bb\u30c3\u30c8\u4fa1\u683c500K\u30b3\u30a4\u30f3"
+     "introduce": "\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8\uff1a\u539f\u4fa1770K\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\uff0b500K\u30b3\u30a4\u30f3\u306e\u7a2e\u3000\u30bb\u30c3\u30c8\u4fa1\u683c500K\u30b3\u30a4\u30f3\n\u30bb\u30c3\u30c8\u5185\u5bb9\uff1a\n\u30a2\u30a4\u30c6\u30e0\uff1a\u521d\u7d1a\u80a5\u6599\u00d735        \u4e2d\u7d1a\u80a5\u6599\u00d735       \u9ad8\u7d1a\u80a5\u6599\u00d735    \u30de\u30b8\u30c3\u30af\u80a5\u6599\u00d735    \u5897\u7523\u80a5\u6599\u00d725    \u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u00d710    \u30a6\u30eb\u30c8\u30e9\u80a5\u6599\u00d75\n\u7a2e\uff1a  \u30af\u30ec\u30a4\u30b8\u30fc\u30ca\u30b7\u00d74    \u30af\u30ec\u30a4\u30b8\u30fc\u30b5\u30dc\u30c6\u30f3\u00d74    \u30c1\u30e7\u30a6\u82b1\u00d74       \u5929\u5c71\u96ea\u84ee\u00d74       \u9b54\u6cd5\u306e\u767d\u30d0\u30e9\u00d74    \u6708\u306e\u82b1\u00d710"
     }, 
     "data": {
      "farm": {
@@ -4815,7 +4815,8 @@
     "juanshanniu", 
     "yezhu", 
     "maolv", 
-    "xiaoxiongmao"
+    "xiaoxiongmao", 
+    "dayan"
    ], 
    "properties": {
     "feedstuffs": {
@@ -6479,6 +6480,28 @@
      "level_need": 1, 
      "fruit_quantifier": "\u500b"
     }, 
+    "nirenji": {
+     "total_time": 1320, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "\u30b9\u30fc\u30d1\u30fc\u30c1\u30ad\u30f3", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 10
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 10, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 40, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "\u500b"
+    }, 
     "xiongmao": {
      "total_time": 5760, 
      "harvest_type": 3, 
@@ -7430,26 +7453,25 @@
      "level_need": 1, 
      "fruit_quantifier": "\u500b"
     }, 
-    "nirenji": {
-     "total_time": 1320, 
-     "harvest_type": 3, 
+    "dayan": {
+     "total_time": 480, 
+     "harvest_type": 0, 
      "used": false, 
-     "name": "\u30b9\u30fc\u30d1\u30fc\u30c1\u30ad\u30f3", 
+     "name": "\u96c1", 
      "base_fruit": 25, 
-     "fruit_time": 600, 
-     "adult_time": 480, 
+     "fruit_time": 240, 
+     "adult_time": 120, 
      "buy_price": {
-      "F_coin": 10
+      "gold": 138
      }, 
-     "state": "xin", 
-     "seasons": 1, 
-     "young_time": 240, 
-     "experience": 10, 
+     "seasons": 2, 
+     "young_time": 120, 
+     "experience": 1.1, 
      "fruit_name": "", 
-     "is_auto_harvest": false, 
-     "sale_price": 40, 
+     "is_auto_harvest": true, 
+     "sale_price": 5, 
      "increment_fruit": 25, 
-     "level_need": 1, 
+     "level_need": 37, 
      "fruit_quantifier": "\u500b"
     }, 
     "woniu": {
@@ -11728,6 +11750,25 @@
      }, 
      "leaf_time": 592, 
      "level_need": 0
+    }, 
+    "juju": {
+     "total_time": 1800, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "\u30c1\u30b3\u30ea\u30fc", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 330, 
+     "bloom_time": 390, 
+     "experience": 6.45, 
+     "seasons": 3, 
+     "sale_price": 17, 
+     "increment_fruit": 25, 
+     "leaf_time": 360, 
+     "seed_price": {
+      "gold": 685
+     }, 
+     "level_need": 53
     }, 
     "huo_long_guo": {
      "total_time": 2356, 
@@ -17385,8 +17426,8 @@
     "tomato", 
     "mayniunai", 
     "maymanyu", 
-    "mayshucai", 
     "mayxuanmi", 
+    "mayshucai", 
     "eggplant", 
     "apple", 
     "dandelion", 
@@ -17483,7 +17524,8 @@
     "bocai", 
     "niupang", 
     "mihoutao", 
-    "hujiao"
+    "hujiao", 
+    "juju"
    ]
   }
  }, 
