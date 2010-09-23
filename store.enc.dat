@@ -447,10 +447,10 @@
      "price": {
       "F_coin": 500
      }, 
-     "used": false, 
-     "goods_str": "お買い得セット：原価770Kコインのアイテム＋500Kコインの種　セット価格500Kコイン\nセット内容：\nアイテム：初級肥料×35        中級肥料×35       高級肥料×35    マジック肥料×35    増産肥料×25    中級増産肥料×10    ウルトラ肥料×5\n種：  クレイジーナシ×4    クレイジーサボテン×4    チョウ花×4       天山雪蓮×4       魔法の白バラ×4    月の花×10", 
+     "used": true, 
+     "goods_str": "お買い得セット：\n原価770Kコインのアイテム＋500Kコインの種\nアイテム：\n初級肥料×35、中級肥料×35、高級肥料×35、マジック肥料×35、増産肥料×25、中級増産肥料×10、ウルトラ肥料×5\n種：\nクレイジーナシ×4、クレイジーサボテン×4、チョウ花×4、天山雪蓮×4、魔法の白バラ×4、月の花×10", 
      "name": "お買い得セット", 
-     "introduce": "お買い得セット：原価770Kコインのアイテム＋500Kコインの種　セット価格500Kコイン\nセット内容：\nアイテム：初級肥料×35        中級肥料×35       高級肥料×35    マジック肥料×35    増産肥料×25    中級増産肥料×10    ウルトラ肥料×5\n種：  クレイジーナシ×4    クレイジーサボテン×4    チョウ花×4       天山雪蓮×4       魔法の白バラ×4    月の花×10"
+     "introduce": "★770Kコインのアイテム★500Kコインの種   アイテム：        初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5     種：           クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10"
     }, 
     "data": {
      "farm": {
@@ -7706,6 +7706,28 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "chaozhilibao": {
+    "original_price": {
+     "num": 770, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "お買い得セット", 
+    "price": {
+     "num": 500, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1285657200.0, 
+    "goods_description": "★770Kコインのアイテム                                  ★500Kコインの種                                          アイテム：                                                       初級肥料×35  中級肥料×35  高級肥料×35         マジック肥料×35  増産肥料×25                        中級増産肥料×10  ウルトラ肥料×5                          種：                                                                      クレイジーナシ×4  クレイジーサボテン×4                              チョウ花×4  天山雪蓮×4  魔法の白バラ×4                          月の花×10", 
+    "start_time": 1285225200.0, 
+    "activity_type": "hot_sale"
+   }, 
    "jinseshuihulu": {
     "original_price": {
      "num": 12, 
@@ -7820,24 +7842,6 @@
     "goods_description": "レシピに使えます：\n茶葉", 
     "activity_type": "discount"
    }, 
-   "yutuhua": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "月の花", 
-    "start_time": 1284717600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1285236000.0, 
-    "goods_description": "月見期間に咲く綺麗な花,９月１７日から２３日まで期間限定で販売しております。", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "fukeluobo": {
     "product_type": {
      "scene_type": "farm", 
@@ -7849,7 +7853,7 @@
     "limit_type": "limit_time", 
     "limit_time": "4日", 
     "end_time": 1285570800.0, 
-    "goods_description": "復刻版メガブ", 
+    "goods_description": "オリジナルより収益が低いが、デカさは一緒です。", 
     "price": {
      "num": 10, 
      "type": "F_coin"
@@ -9102,7 +9106,7 @@
     "hudiehua": {
      "total_time": 720, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "チョウ花", 
      "base_fruit": 25, 
      "fruit_time": 330, 
@@ -12378,7 +12382,7 @@
     "tianshanxuelian": {
      "total_time": 1920, 
      "leaflet_time": 330, 
-     "used": false, 
+     "used": true, 
      "name": "天山雪蓮", 
      "base_fruit": 25, 
      "fruit_time": 420, 
@@ -12553,7 +12557,7 @@
     "nirenxianrenzhang": {
      "total_time": 1080, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "クレイジーサボテン", 
      "base_fruit": 25, 
      "fruit_time": 360, 
@@ -15886,7 +15890,7 @@
     "nirenyali": {
      "total_time": 1080, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "クレイジーナシ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
