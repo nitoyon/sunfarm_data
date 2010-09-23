@@ -7744,27 +7744,6 @@
     "goods_description": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
     "activity_type": "discount"
    }, 
-   "yanhua": {
-    "original_price": {
-     "num": 200, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "花火", 
-    "price": {
-     "num": 100, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_number", 
-    "last_number": 0, 
-    "goods_description": "花火", 
-    "limit_number": 50, 
-    "activity_type": "hot_sale"
-   }, 
    "jisu1": {
     "original_price": {
      "num": 12, 
@@ -7855,6 +7834,24 @@
     "goods_description": "月見期間に咲く綺麗な花,９月１７日から２３日まで期間限定で販売しております。", 
     "price": {
      "num": 3, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "fukeluobo": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "復刻版メガブ", 
+    "start_time": 1285225200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1285570800.0, 
+    "goods_description": "復刻版メガブ", 
+    "price": {
+     "num": 10, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
