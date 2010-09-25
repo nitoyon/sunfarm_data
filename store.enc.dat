@@ -4759,6 +4759,8 @@
     "buludaoshangfengdie", 
     "huanxiong", 
     "chunvzuo", 
+    "baitu", 
+    "huitu", 
     "ciwei", 
     "shuidi", 
     "hongqingting", 
@@ -4775,9 +4777,12 @@
     "lanqingting", 
     "tuolu", 
     "changjinglu", 
+    "huangtu", 
     "chan", 
     "jingangyingwu", 
     "chaiquan", 
+    "fentu", 
+    "lantu", 
     "nirenji", 
     "dalanmao", 
     "pudong", 
@@ -5594,28 +5599,23 @@
      "level_need": 15, 
      "fruit_quantifier": "Kg"
     }, 
-    "banma": {
-     "total_time": 2460, 
-     "sound": {
-      "p": "1054,1054,1055,1055,-1,-1", 
-      "enable": true, 
-      "name": "banma"
-     }, 
+    "baitu": {
+     "total_time": 1440, 
      "harvest_type": 3, 
      "used": false, 
-     "name": "ゼブラ", 
+     "name": "白兔", 
      "base_fruit": 25, 
-     "fruit_time": 984, 
-     "adult_time": 738, 
+     "fruit_time": 600, 
+     "adult_time": 420, 
      "buy_price": {
-      "F_coin": 9999
+      "F_coin": 30
      }, 
      "seasons": 1, 
-     "young_time": 738, 
-     "experience": 7.25, 
+     "young_time": 420, 
+     "experience": 15, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 53, 
+     "sale_price": 10, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -5880,6 +5880,32 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
+    "banma": {
+     "total_time": 2460, 
+     "sound": {
+      "p": "1054,1054,1055,1055,-1,-1", 
+      "enable": true, 
+      "name": "banma"
+     }, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "ゼブラ", 
+     "base_fruit": 25, 
+     "fruit_time": 984, 
+     "adult_time": 738, 
+     "buy_price": {
+      "F_coin": 9999
+     }, 
+     "seasons": 1, 
+     "young_time": 738, 
+     "experience": 7.25, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 53, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
     "moguizheermao": {
      "total_time": 1320, 
      "sound": {
@@ -5949,6 +5975,27 @@
      "sale_price": 20, 
      "increment_fruit": 25, 
      "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "huitu": {
+     "total_time": 2880, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "灰兔", 
+     "base_fruit": 25, 
+     "fruit_time": 1440, 
+     "adult_time": 720, 
+     "buy_price": {
+      "gold": 1
+     }, 
+     "seasons": 1, 
+     "young_time": 720, 
+     "experience": 8.5, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 39, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
     "huolieniao": {
@@ -6914,6 +6961,27 @@
      "level_need": 9, 
      "fruit_quantifier": "個"
     }, 
+    "huangtu": {
+     "total_time": 2160, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "黄兔", 
+     "base_fruit": 25, 
+     "fruit_time": 1080, 
+     "adult_time": 540, 
+     "buy_price": {
+      "gold": 1
+     }, 
+     "seasons": 1, 
+     "young_time": 540, 
+     "experience": 5.58, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
     "zuinv": {
      "total_time": 1320, 
      "used": false, 
@@ -7277,6 +7345,27 @@
      "level_need": 17, 
      "fruit_quantifier": "Kg"
     }, 
+    "fentu": {
+     "total_time": 1440, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "粉兔", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 480, 
+     "buy_price": {
+      "gold": 1
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 3.9, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
     "beijingDuck": {
      "total_time": 855, 
      "sound": {
@@ -7449,6 +7538,27 @@
      "fruit_name": "", 
      "is_auto_harvest": false, 
      "adult_time": 240, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "lantu": {
+     "total_time": 1440, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "蓝兔", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 480, 
+     "buy_price": {
+      "gold": 1
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 3.74, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
