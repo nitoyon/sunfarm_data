@@ -7922,22 +7922,27 @@
     "goods_description": "レシピに使えます：\n梅と山芋のサラダ", 
     "activity_type": "discount"
    }, 
-   "liumangtu": {
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "鍬うさぎ", 
-    "start_time": 1285056000.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1285488000.0, 
-    "goods_description": "鍬うさぎ", 
-    "price": {
-     "num": 15, 
+   "gaoji": {
+    "original_price": {
+     "num": 6, 
      "type": "F_coin"
     }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "高級肥料", 
+    "price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日22時間", 
+    "end_time": 1285567200.0, 
+    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。★21日から27日まで月見キャンペーン：原価6Kコイン、現在4Kコイン★", 
+    "start_time": 1285056000.0, 
     "activity_type": "hot_sale"
    }, 
    "nirenyali": {
