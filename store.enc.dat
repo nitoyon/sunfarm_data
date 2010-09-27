@@ -4022,6 +4022,92 @@
      }
     }
    }, 
+   "lvseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "有90%的几率开出绿钻卡片，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包.", 
+     "name": "绿钻扭蛋", 
+     "introduce": "有90%的几率开出绿钻卡片，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包."
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "lvzuanshu": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "chengseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "有20%的几率开出橙钻卡片，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包.", 
+     "name": "橙钻扭蛋", 
+     "introduce": "有20%的几率开出橙钻卡片，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包."
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        1
+       ], 
+       "chengzuanshu": [
+        1, 
+        0.2
+       ], 
+       "hhlyq": [
+        1, 
+        1
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "feedstuffs": {
+        "kuaisu": [
+         1, 
+         0.15
+        ], 
+        "jisu": [
+         1, 
+         0.05
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "gaosu": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "mb_10_key": {
     "config": {
      "used": false, 
@@ -4032,6 +4118,482 @@
      }, 
      "introduce": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。", 
      "goods_str": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。"
+    }
+   }, 
+   "lanseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "有10%的几率开出蓝钻卡片，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包.", 
+     "name": "蓝钻扭蛋", 
+     "introduce": "有10%的几率开出蓝钻卡片，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包."
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.05
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.01
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.01
+       ], 
+       "lanzuanshu": [
+        1, 
+        0.1
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "jingangcuo": {
+    "config": {
+     "price": {
+      "F_coin": 48
+     }, 
+     "used": false, 
+     "goods_str": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。", 
+     "name": "金鋼ヤスリ", 
+     "introduce": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。"
+    }
+   }, 
+   "hongshuijing": {
+    "config": {
+     "goods_str": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开.", 
+     "name": "レッドダイヤモンド", 
+     "lock": true, 
+     "price": {
+      "gold": 135
+     }, 
+     "introduce": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开!", 
+     "state": "xin", 
+     "used": false, 
+     "key": "jingangcuo"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "ginseng": [
+        2, 
+        1.0
+       ], 
+       "cherry": [
+        1, 
+        1.0
+       ], 
+       "longan": [
+        1, 
+        1.0
+       ], 
+       "bian": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "tudoulibao": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。", 
+     "name": "じゃがいもの箱", 
+     "introduce": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "tudou": [
+        5, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
+   "huangseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "有1/150的几率开出黄钻卡片，且获得其他道具的种类和几率大幅提升，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包.", 
+     "name": "黄钻扭蛋", 
+     "introduce": "有1/150的几率开出黄钻卡片，且获得其他道具的种类和几率大幅提升，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包."
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.04
+       ], 
+       "huangzuanshu": [
+        1, 
+        0.005
+       ], 
+       "taigu": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.03
+       ], 
+       "yutuhua": [
+        1, 
+        0.15
+       ], 
+       "nvmogu": [
+        1, 
+        0.03
+       ], 
+       "longshelan": [
+        1, 
+        0.03
+       ], 
+       "liulian": [
+        1, 
+        0.05
+       ], 
+       "carnation": [
+        1, 
+        0.03
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.03
+       ], 
+       "youli": [
+        1, 
+        0.05
+       ], 
+       "jianfeishu": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "shudaixiong": [
+        1, 
+        0.05
+       ], 
+       "dalanmao": [
+        1, 
+        0.05
+       ], 
+       "wushi": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
+   "lanniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
+     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+     "name": "青カプセル", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirentaigu": [
+        1, 
+        0.01
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        0.01
+       ], 
+       "baimeigui": [
+        1, 
+        0.01
+       ], 
+       "xingandengjie": [
+        1, 
+        0.03
+       ], 
+       "lankapian": [
+        1, 
+        0.01
+       ], 
+       "shuijingputao": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         0.1
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "huangsewoniu": [
+        1, 
+        0.08
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
+   "ziseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "有3%的几率开出紫钻卡片，且获得其他道具的种类增多，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包.", 
+     "name": "紫钻扭蛋", 
+     "introduce": "有3%的几率开出紫钻卡片，且获得其他道具的种类增多，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包."
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.01
+       ], 
+       "chengzuanshu": [
+        1, 
+        0.03
+       ], 
+       "yecanlan": [
+        1, 
+        0.01
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.03
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         0.1
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "huangsewoniu": [
+        1, 
+        0.08
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
+   "chengshuijing": {
+    "config": {
+     "goods_str": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
+     "name": "オレンジダイヤモンド", 
+     "lock": true, 
+     "price": {
+      "gold": 135
+     }, 
+     "introduce": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
+     "state": "xin", 
+     "used": false, 
+     "key": "jingangcuo"
+    }, 
+    "data": {
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         1.0
+        ], 
+        "gaosu": [
+         5, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "sheep": [
+        1, 
+        1.0
+       ], 
+       "quail": [
+        1, 
+        1.0
+       ], 
+       "friesian": [
+        1, 
+        1.0
+       ], 
+       "langshanChook": [
+        1, 
+        1.0
+       ]
+      }
+     }
     }
    }, 
    "zong_zi": {
@@ -4128,215 +4690,6 @@
        "langshanChook": [
         1, 
         0.06
-       ]
-      }
-     }
-    }
-   }, 
-   "jingangcuo": {
-    "config": {
-     "price": {
-      "F_coin": 48
-     }, 
-     "used": false, 
-     "goods_str": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。", 
-     "name": "金鋼ヤスリ", 
-     "introduce": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。"
-    }
-   }, 
-   "hongshuijing": {
-    "config": {
-     "goods_str": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开.", 
-     "name": "レッドダイヤモンド", 
-     "lock": true, 
-     "price": {
-      "gold": 135
-     }, 
-     "introduce": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开!", 
-     "state": "xin", 
-     "used": false, 
-     "key": "jingangcuo"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "ginseng": [
-        2, 
-        1.0
-       ], 
-       "cherry": [
-        1, 
-        1.0
-       ], 
-       "longan": [
-        1, 
-        1.0
-       ], 
-       "bian": [
-        1, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         5, 
-         1.0
-        ], 
-        "gaoji": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "tudoulibao": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。", 
-     "name": "じゃがいもの箱", 
-     "introduce": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "tudou": [
-        5, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
-   "lanniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
-     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-     "name": "青カプセル", 
-     "used": false
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "nirentaigu": [
-        1, 
-        0.01
-       ], 
-       "shenqiparadiseflower": [
-        1, 
-        0.01
-       ], 
-       "baimeigui": [
-        1, 
-        0.01
-       ], 
-       "xingandengjie": [
-        1, 
-        0.03
-       ], 
-       "lankapian": [
-        1, 
-        0.01
-       ], 
-       "shuijingputao": [
-        1, 
-        0.1
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         1, 
-         0.3
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "gaosu": [
-         1, 
-         0.1
-        ], 
-        "xunjie1": [
-         1, 
-         1
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "huangsewoniu": [
-        1, 
-        0.08
-       ], 
-       "jinseqingwa": [
-        1, 
-        0.1
-       ]
-      }
-     }
-    }
-   }, 
-   "chengshuijing": {
-    "config": {
-     "goods_str": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
-     "name": "オレンジダイヤモンド", 
-     "lock": true, 
-     "price": {
-      "gold": 135
-     }, 
-     "introduce": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
-     "state": "xin", 
-     "used": false, 
-     "key": "jingangcuo"
-    }, 
-    "data": {
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         1.0
-        ], 
-        "gaosu": [
-         5, 
-         1.0
-        ]
-       }
-      }, 
-      "babies": {
-       "sheep": [
-        1, 
-        1.0
-       ], 
-       "quail": [
-        1, 
-        1.0
-       ], 
-       "friesian": [
-        1, 
-        1.0
-       ], 
-       "langshanChook": [
-        1, 
-        1.0
        ]
       }
      }
@@ -4699,6 +5052,59 @@
         "gaosu": [
          1, 
          1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "hongseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "有50%的几率开出红钻卡片，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包.", 
+     "name": "红钻扭蛋", 
+     "introduce": "有50%的几率开出红钻卡片，集齐6种颜色的钻石卡片可以在10月10日活动结束后兑换一个价值500酷币的珍贵植物礼包."
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "hongzuanshu": [
+        1, 
+        0.5
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.15
+       ], 
+       "yingtao": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         5, 
+         1.0
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         0.3
         ]
        }
       }
@@ -8850,6 +9256,26 @@
      }, 
      "level_need": 23
     }, 
+    "zizuanshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "zizuanshu", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。イエローカードを手に入れました。3種のカードを集めれば、一周年セットの三種をゲットできます。プレゼントがイベント終了してから3日以内に配布されますのでご注意ください 。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "daluobo": {
      "total_time": 740, 
      "leaflet_time": 92, 
@@ -9535,25 +9961,25 @@
      "leaf_time": 420, 
      "level_need": 0
     }, 
-    "hong_zao": {
-     "total_time": 2870, 
-     "leaflet_time": 574, 
+    "ganlan": {
+     "total_time": 1814, 
+     "leaflet_time": 363, 
      "used": true, 
-     "name": "紅ナツメ", 
+     "name": "オリーブ", 
      "base_fruit": 25, 
-     "fruit_time": 861, 
-     "recipe": "レシピに使えます：\n蜜桃\n柴犬", 
-     "sprout_time": 287, 
-     "bloom_time": 574, 
-     "experience": 7.09, 
-     "seasons": 1, 
-     "sale_price": 25, 
+     "fruit_time": 544, 
+     "recipe": "レシピに使えます：\nキリ\nオリーブオイル", 
+     "sprout_time": 181, 
+     "bloom_time": 363, 
+     "experience": 2.94, 
+     "seasons": 3, 
+     "sale_price": 11, 
      "increment_fruit": 25, 
-     "leaf_time": 574, 
+     "leaf_time": 363, 
      "seed_price": {
-      "gold": 249
+      "gold": 321
      }, 
-     "level_need": 24
+     "level_need": 28
     }, 
     "fuqinjiehuasu": {
      "total_time": 1875, 
@@ -9659,25 +10085,25 @@
      }, 
      "level_need": 44
     }, 
-    "ganlan": {
-     "total_time": 1814, 
-     "leaflet_time": 363, 
+    "hong_zao": {
+     "total_time": 2870, 
+     "leaflet_time": 574, 
      "used": true, 
-     "name": "オリーブ", 
+     "name": "紅ナツメ", 
      "base_fruit": 25, 
-     "fruit_time": 544, 
-     "recipe": "レシピに使えます：\nキリ\nオリーブオイル", 
-     "sprout_time": 181, 
-     "bloom_time": 363, 
-     "experience": 2.94, 
-     "seasons": 3, 
-     "sale_price": 11, 
+     "fruit_time": 861, 
+     "recipe": "レシピに使えます：\n蜜桃\n柴犬", 
+     "sprout_time": 287, 
+     "bloom_time": 574, 
+     "experience": 7.09, 
+     "seasons": 1, 
+     "sale_price": 25, 
      "increment_fruit": 25, 
-     "leaf_time": 363, 
+     "leaf_time": 574, 
      "seed_price": {
-      "gold": 321
+      "gold": 249
      }, 
-     "level_need": 28
+     "level_need": 24
     }, 
     "tomato": {
      "total_time": 630, 
@@ -11909,6 +12335,26 @@
      }, 
      "level_need": 53
     }, 
+    "chengzuanshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "chengzuanshu", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。イエローカードを手に入れました。3種のカードを集めれば、一周年セットの三種をゲットできます。プレゼントがイベント終了してから3日以内に配布されますのでご注意ください 。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "huo_long_guo": {
      "total_time": 2356, 
      "leaflet_time": 332, 
@@ -12119,6 +12565,26 @@
       "gold": 370
      }, 
      "level_need": 1
+    }, 
+    "lvzuanshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "lvzuanshu", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。イエローカードを手に入れました。3種のカードを集めれば、一周年セットの三種をゲットできます。プレゼントがイベント終了してから3日以内に配布されますのでご注意ください 。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "guobaorou": {
      "total_time": 1330, 
@@ -13321,6 +13787,26 @@
      }, 
      "level_need": 1
     }, 
+    "hongzuanshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "hongzuanshu", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。イエローカードを手に入れました。3種のカードを集めれば、一周年セットの三種をゲットできます。プレゼントがイベント終了してから3日以内に配布されますのでご注意ください 。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "wulaguiguoqishua": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -13660,6 +14146,26 @@
       "F_coin": 1
      }, 
      "level_need": 1
+    }, 
+    "huangzuanshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "huangzuanshu", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。イエローカードを手に入れました。3種のカードを集めれば、一周年セットの三種をゲットできます。プレゼントがイベント終了してから3日以内に配布されますのでご注意ください 。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "eggplant": {
      "total_time": 780, 
@@ -14844,6 +15350,26 @@
       "gold": 10
      }, 
      "level_need": 3
+    }, 
+    "lanzuanshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "lanzuanshu", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。イエローカードを手に入れました。3種のカードを集めれば、一周年セットの三種をゲットできます。プレゼントがイベント終了してから3日以内に配布されますのでご注意ください 。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "shuijingputao": {
      "total_time": 720, 
@@ -17329,6 +17855,7 @@
     "feverfew", 
     "nanmogu", 
     "chobanana", 
+    "zizuanshu", 
     "lingxiao", 
     "dayantonghuashu", 
     "songrong", 
@@ -17390,7 +17917,9 @@
     "yangganju", 
     "shenqiginseng", 
     "shenqima_ti_lian", 
+    "chengzuanshu", 
     "diaoxiang", 
+    "lvzuanshu", 
     "tuxiangrikui", 
     "cuiju", 
     "paradiseflower", 
@@ -17414,6 +17943,7 @@
     "cottoncandy", 
     "jinpinshanyao", 
     "heimeigui", 
+    "hongzuanshu", 
     "moyu", 
     "lanseshuihulu", 
     "bian", 
@@ -17422,6 +17952,7 @@
     "xinxingxigua", 
     "carnation", 
     "yingsu", 
+    "huangzuanshu", 
     "biandang", 
     "jiariyecan", 
     "shuangse", 
@@ -17441,6 +17972,7 @@
     "zhuangshipinghua", 
     "hunheshuiguo", 
     "kaoyumi", 
+    "lanzuanshu", 
     "xigua", 
     "bingyerizhonghua", 
     "yaoguo", 
