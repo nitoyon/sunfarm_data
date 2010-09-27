@@ -8218,36 +8218,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "tianshanxuelian": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "天山雪蓮", 
-    "price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "天山雪蓮", 
-    "activity_type": "discount"
-   }, 
-   "nirenxianrenzhang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "クレイジーサボテン", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "クレイジーサボテン", 
-    "activity_type": "discount"
-   }, 
    "chaozhilibao": {
     "original_price": {
      "num": 1270, 
@@ -8269,6 +8239,21 @@
     "goods_description": "★770Kコインのアイテム                                  ★500Kコインの種                                          アイテム：                                                       初級肥料×35  中級肥料×35  高級肥料×35         マジック肥料×35  増産肥料×25                        中級増産肥料×10  ウルトラ肥料×5                          種：                                                                      クレイジーナシ×4  クレイジーサボテン×4                              チョウ花×4  天山雪蓮×4  魔法の白バラ×4                          月の花×10", 
     "start_time": 1285225200.0, 
     "activity_type": "hot_sale"
+   }, 
+   "hongseniudan": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "赤カプセル", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "50%の確率で赤カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
    }, 
    "baitu": {
     "specific_type": "xin", 
@@ -8305,80 +8290,86 @@
     "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
     "activity_type": "discount"
    }, 
-   "jinpinshanyao": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
+   "lvseniudan": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "ヤマイモ", 
+    "name": "緑カプセル", 
     "price": {
-     "num": 20, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "レシピに使えます：\n梅と山芋のサラダ", 
+    "goods_description": "90%の確率で緑カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }, 
-   "gaoji": {
-    "original_price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "高級肥料", 
-    "price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1285567200.0, 
-    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。★21日から27日まで月見キャンペーン：原価6Kコイン、現在4Kコイン★", 
-    "start_time": 1285048800.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "nirenyali": {
+   "chengseniudan": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "クレイジーナシ", 
+    "name": "橙カプセル", 
     "price": {
-     "num": 20, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "クレイジーナシ", 
+    "goods_description": "20%の確率で橙カードを獲得できます。100％の確率でミニマジック飼料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }, 
-   "fukeluobo": {
+   "ziseniudan": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "復刻版メガブ", 
-    "start_time": 1285225200.0, 
-    "modify": false, 
+    "name": "紫カプセル", 
+    "start_time": 1285570800.0, 
+    "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1285570800.0, 
-    "goods_description": "オリジナルより収益が低いが、デカさは一緒です。", 
+    "limit_time": "13日", 
+    "end_time": 1286694000.0, 
+    "goods_description": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "price": {
-     "num": 10, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "huangseniudan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "黄カプセル", 
+    "start_time": 1285570800.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "13日", 
+    "end_time": 1286694000.0, 
+    "goods_description": "0.7%の確率で黄カードを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "lanseniudan": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "青カプセル", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
    }
   }, 
   "farm": {
