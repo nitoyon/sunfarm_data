@@ -8335,19 +8335,22 @@
     "activity_type": "hot_sale"
    }, 
    "lanseniudan": {
-    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "青カプセル", 
+    "start_time": 1285570800.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "13日", 
+    "end_time": 1286694000.0, 
+    "goods_description": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
