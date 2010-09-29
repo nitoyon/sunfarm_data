@@ -9218,6 +9218,27 @@
      }, 
      "level_need": 0
     }, 
+    "pugongying": {
+     "total_time": 720, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "オキタンポポ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "goodstype": "flower", 
+     "sprout_time": 10, 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 145, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "leaf_time": 145, 
+     "level_need": 53
+    }, 
     "longan": {
      "total_time": 3294, 
      "leaflet_time": 659, 
@@ -11464,6 +11485,27 @@
      }, 
      "level_need": 32
     }, 
+    "fenglingcao": {
+     "total_time": 720, 
+     "leaflet_time": 80, 
+     "used": false, 
+     "name": "カンパニュラ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "goodstype": "flower", 
+     "sprout_time": 20, 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "leaf_time": 140, 
+     "level_need": 53
+    }, 
     "meizishanyaogao": {
      "total_time": 450, 
      "leaflet_time": 90, 
@@ -11737,6 +11779,27 @@
       "F_coin": 999999
      }, 
      "level_need": 1
+    }, 
+    "yumeirenhua": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ヒナゲシ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "leaf_time": 150, 
+     "level_need": 53
     }, 
     "qinglvmogu": {
      "total_time": 1440, 
@@ -12925,6 +12988,27 @@
      }, 
      "level_need": 0
     }, 
+    "yulan": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ハクモクレン", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "leaf_time": 330, 
+     "level_need": 53
+    }, 
     "starsalad": {
      "total_time": 1920, 
      "leaflet_time": 150, 
@@ -13805,6 +13889,27 @@
       "F_coin": 1
      }, 
      "level_need": 1
+    }, 
+    "shanziteng": {
+     "total_time": 1920, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ヤマフジ", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "goodstype": "flower", 
+     "sprout_time": 330, 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 420, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 21, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "leaf_time": 420, 
+     "level_need": 53
     }, 
     "moyu": {
      "total_time": 900, 
@@ -18235,6 +18340,11 @@
     "niupang", 
     "mihoutao", 
     "hujiao", 
+    "pugongying", 
+    "fenglingcao", 
+    "yumeirenhua", 
+    "yulan", 
+    "shanziteng", 
     "juju"
    ]
   }
