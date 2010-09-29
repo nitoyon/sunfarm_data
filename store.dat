@@ -5206,6 +5206,7 @@
     "shizizuo", 
     "dakonglong", 
     "nantanglang", 
+    "tianpingzuo", 
     "yinghuochong", 
     "jinsexiaomifeng", 
     "xingxing", 
@@ -5738,6 +5739,28 @@
      "level_need": 1, 
      "fruit_quantifier": "\u500b"
     }, 
+    "tianpingzuo": {
+     "total_time": 720, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "\u3066\u3093\u3073\u3093\u5ea7", 
+     "base_fruit": 25, 
+     "fruit_time": 240, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 9
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 3.7, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "\u500b"
+    }, 
     "yinghuochong": {
      "total_time": 720, 
      "harvest_type": 3, 
@@ -6054,23 +6077,28 @@
      "level_need": 15, 
      "fruit_quantifier": "Kg"
     }, 
-    "baitu": {
-     "total_time": 1440, 
+    "banma": {
+     "total_time": 2460, 
+     "sound": {
+      "p": "1054,1054,1055,1055,-1,-1", 
+      "enable": true, 
+      "name": "banma"
+     }, 
      "harvest_type": 3, 
-     "used": true, 
-     "name": "\u30db\u30ef\u30a4\u30c8\u3046\u3055\u304e", 
+     "used": false, 
+     "name": "\u30bc\u30d6\u30e9", 
      "base_fruit": 25, 
-     "fruit_time": 600, 
-     "adult_time": 420, 
+     "fruit_time": 984, 
+     "adult_time": 738, 
      "buy_price": {
-      "F_coin": 30
+      "F_coin": 9999
      }, 
      "seasons": 1, 
-     "young_time": 420, 
-     "experience": 15, 
+     "young_time": 738, 
+     "experience": 7.25, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 10, 
+     "sale_price": 53, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "\u500b"
@@ -6334,28 +6362,23 @@
      "level_need": 0, 
      "fruit_quantifier": "\u500b"
     }, 
-    "banma": {
-     "total_time": 2460, 
-     "sound": {
-      "p": "1054,1054,1055,1055,-1,-1", 
-      "enable": true, 
-      "name": "banma"
-     }, 
+    "baitu": {
+     "total_time": 1440, 
      "harvest_type": 3, 
-     "used": false, 
-     "name": "\u30bc\u30d6\u30e9", 
+     "used": true, 
+     "name": "\u30db\u30ef\u30a4\u30c8\u3046\u3055\u304e", 
      "base_fruit": 25, 
-     "fruit_time": 984, 
-     "adult_time": 738, 
+     "fruit_time": 600, 
+     "adult_time": 420, 
      "buy_price": {
-      "F_coin": 9999
+      "F_coin": 30
      }, 
      "seasons": 1, 
-     "young_time": 738, 
-     "experience": 7.25, 
+     "young_time": 420, 
+     "experience": 15, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 53, 
+     "sale_price": 10, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "\u500b"
