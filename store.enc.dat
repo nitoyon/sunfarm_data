@@ -8218,54 +8218,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "hongseniudan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "赤カプセル", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "50%の確率で赤カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
-   }, 
-   "huangseniudan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "黄カプセル", 
-    "start_time": 1285570800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "13日", 
-    "end_time": 1286694000.0, 
-    "goods_description": "0.7%の確率で黄カードを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "baitu": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "ホワイトうさぎ", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "ホワイトうさぎ", 
-    "activity_type": "discount"
-   }, 
    "jisu1": {
     "original_price": {
      "num": 12, 
@@ -8284,6 +8236,51 @@
     }, 
     "modify": true, 
     "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
+    "activity_type": "discount"
+   }, 
+   "hongseniudan": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "赤カプセル", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "50%の確率で赤カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
+   }, 
+   "baitu": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "ホワイトうさぎ", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "ホワイトうさぎ", 
+    "activity_type": "discount"
+   }, 
+   "tulip": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "チューリップ", 
+    "price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "チューリップ", 
     "activity_type": "discount"
    }, 
    "lvseniudan": {
@@ -8328,6 +8325,24 @@
     "limit_time": "13日", 
     "end_time": 1286694000.0, 
     "goods_description": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "huangseniudan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "黄カプセル", 
+    "start_time": 1285570800.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "13日", 
+    "end_time": 1286694000.0, 
+    "goods_description": "0.7%の確率で黄カードを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "price": {
      "num": 1, 
      "type": "F_coin"
