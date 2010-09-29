@@ -5278,7 +5278,9 @@
     "yezhu", 
     "maolv", 
     "xiaoxiongmao", 
-    "dayan"
+    "dayan", 
+    "ribenhou", 
+    "huli"
    ], 
    "properties": {
     "feedstuffs": {
@@ -6716,6 +6718,27 @@
      "level_need": 1, 
      "fruit_quantifier": "\u500b"
     }, 
+    "huli": {
+     "total_time": 1440, 
+     "harvest_type": 1, 
+     "used": false, 
+     "name": "\u30ad\u30c4\u30cd", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 360, 
+     "buy_price": {
+      "gold": 408
+     }, 
+     "seasons": 2, 
+     "young_time": 360, 
+     "experience": 3.3, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "level_need": 39, 
+     "fruit_quantifier": "\u500b"
+    }, 
     "qingwa": {
      "total_time": 360, 
      "harvest_type": 3, 
@@ -7888,6 +7911,27 @@
      "sale_price": 25, 
      "increment_fruit": 25, 
      "level_need": 29, 
+     "fruit_quantifier": "\u500b"
+    }, 
+    "ribenhou": {
+     "total_time": 2880, 
+     "harvest_type": 1, 
+     "used": false, 
+     "name": "\u30cb\u30db\u30f3\u30b6\u30eb", 
+     "base_fruit": 25, 
+     "fruit_time": 1440, 
+     "adult_time": 720, 
+     "buy_price": {
+      "gold": 527
+     }, 
+     "seasons": 1, 
+     "young_time": 720, 
+     "experience": 8.5, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 39, 
+     "increment_fruit": 25, 
+     "level_need": 38, 
      "fruit_quantifier": "\u500b"
     }, 
     "zhuanjiyindanji": {
@@ -9279,7 +9323,7 @@
      "seasons": 1, 
      "sale_price": 8, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 15
      }, 
      "leaf_time": 145, 
      "level_need": 53
@@ -11565,7 +11609,7 @@
      "seasons": 1, 
      "sale_price": 8, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 8
      }, 
      "leaf_time": 140, 
      "level_need": 53
@@ -11860,7 +11904,7 @@
      "seasons": 1, 
      "sale_price": 12, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 20
      }, 
      "leaf_time": 150, 
      "level_need": 53
@@ -13087,7 +13131,7 @@
      "seasons": 1, 
      "sale_price": 15, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 25
      }, 
      "leaf_time": 330, 
      "level_need": 53
@@ -13989,7 +14033,7 @@
      "seasons": 1, 
      "sale_price": 21, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 38
      }, 
      "leaf_time": 420, 
      "level_need": 53
