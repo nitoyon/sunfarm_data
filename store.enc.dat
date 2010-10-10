@@ -4027,7 +4027,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "90%の確率で緑カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "緑カプセル", 
      "introduce": "90%の確率で緑カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -4060,7 +4060,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "20%の確率で橙カードを獲得できます。100％の確率でミニマジック飼料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "橙カプセル", 
      "introduce": "20%の確率で橙カードを獲得できます。100％の確率でミニマジック飼料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -4131,7 +4131,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "青カプセル", 
      "introduce": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -4292,7 +4292,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "0.7%の確率で黄カードを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "黄カプセル", 
      "introduce": "0.7%の確率で黄カードを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -4731,7 +4731,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "紫カプセル", 
      "introduce": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -5114,7 +5114,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "50%の確率で赤カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "赤カプセル", 
      "introduce": "50%の確率で赤カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -8330,39 +8330,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "ziseniudan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "紫カプセル", 
-    "start_time": 1285570800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "13日", 
-    "end_time": 1286694000.0, 
-    "goods_description": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "hongseniudan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "赤カプセル", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "50%の確率で赤カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
-   }, 
    "baitu": {
     "specific_type": "xin", 
     "product_type": {
@@ -8393,36 +8360,6 @@
     "goods_description": "チューリップ", 
     "activity_type": "discount"
    }, 
-   "lvseniudan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "緑カプセル", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "90%の確率で緑カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
-   }, 
-   "chengseniudan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "橙カプセル", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "20%の確率で橙カードを獲得できます。100％の確率でミニマジック飼料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
-   }, 
    "tujianbaoxiang": {
     "specific_type": "xin", 
     "product_type": {
@@ -8437,42 +8374,6 @@
     "modify": true, 
     "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
     "activity_type": "discount"
-   }, 
-   "huangseniudan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "黄カプセル", 
-    "start_time": 1285570800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "13日", 
-    "end_time": 1286694000.0, 
-    "goods_description": "0.7%の確率で黄カードを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "lanseniudan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "青カプセル", 
-    "start_time": 1285570800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "13日", 
-    "end_time": 1286694000.0, 
-    "goods_description": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
