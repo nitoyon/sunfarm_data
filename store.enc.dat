@@ -401,43 +401,95 @@
      }
     }
    }, 
-   "zhongzibao": {
+   "guoqinglibao": {
     "config": {
      "price": {
-      "F_coin": 48
+      "F_coin": 500
      }, 
-     "used": true, 
-     "goods_str": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。", 
-     "name": "ノベルティ種セット", 
-     "introduce": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。"
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、さっそく開けてみよう！", 
+     "name": "コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、さっそく開けてみよう！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "luhui": [
+       "baiqiangwei": [
         1, 
         1.0
        ], 
-       "lingzhi": [
+       "tianshanxuelian": [
         1, 
         1.0
        ], 
-       "hulu": [
+       "nirenxianrenzhang": [
         1, 
         1.0
        ], 
-       "longshelan": [
+       "nirentaigu": [
         1, 
         1.0
        ], 
-       "liulian": [
+       "hudiehua": [
         1, 
         1.0
        ], 
-       "youli": [
+       "nanmogu": [
+        1, 
+        1.0
+       ], 
+       "nirenyali": [
+        1, 
+        1.0
+       ], 
+       "nvmogu": [
+        1, 
+        1.0
+       ], 
+       "qinglvmogu": [
+        1, 
+        1.0
+       ], 
+       "yutuhua": [
+        5, 
+        1.0
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        1.0
+       ], 
+       "hongbailanmeigui": [
         1, 
         1.0
        ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "test": [
+         5, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -1037,6 +1089,47 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "zhongzibao": {
+    "config": {
+     "price": {
+      "F_coin": 48
+     }, 
+     "used": true, 
+     "goods_str": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。", 
+     "name": "ノベルティ種セット", 
+     "introduce": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        1.0
+       ], 
+       "lingzhi": [
+        1, 
+        1.0
+       ], 
+       "hulu": [
+        1, 
+        1.0
+       ], 
+       "longshelan": [
+        1, 
+        1.0
+       ], 
+       "liulian": [
+        1, 
+        1.0
+       ], 
+       "youli": [
+        1, 
+        1.0
+       ]
       }
      }
     }
