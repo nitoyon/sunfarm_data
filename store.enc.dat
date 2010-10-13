@@ -8461,42 +8461,6 @@
     "goods_description": "ヒアシンス", 
     "activity_type": "discount"
    }, 
-   "huolieniaoxin": {
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "オオフラミンゴ", 
-    "start_time": 1286956800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1287561600.0, 
-    "goods_description": "オオフラミンゴ", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "nirenmangguo": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "クレイジーマンゴー", 
-    "start_time": 1286956800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1287561600.0, 
-    "goods_description": "クレイジーマンゴー", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "bailian": {
     "specific_type": "re", 
     "product_type": {
@@ -8527,28 +8491,6 @@
     "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
    }, 
-   "tulip": {
-    "original_price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "チューリップ", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1287388800.0, 
-    "goods_description": "チューリップ", 
-    "start_time": 1286956800.0, 
-    "activity_type": "hot_sale"
-   }, 
    "tianpingzuo": {
     "specific_type": "xin", 
     "product_type": {
@@ -8562,6 +8504,21 @@
     }, 
     "modify": false, 
     "goods_description": "てんびん座", 
+    "activity_type": "discount"
+   }, 
+   "nirenboluo": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "クレイジーパイナップル", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "クレイジーパイナップル", 
     "activity_type": "discount"
    }, 
    "tujianbaoxiang": {
