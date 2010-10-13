@@ -8461,21 +8461,6 @@
     "goods_description": "ヒアシンス", 
     "activity_type": "discount"
    }, 
-   "tianshanxuelian": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "天山雪蓮", 
-    "price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "天山雪蓮", 
-    "activity_type": "discount"
-   }, 
    "bailian": {
     "specific_type": "re", 
     "product_type": {
@@ -8586,6 +8571,21 @@
     "goods_description": "レシピに使えます：\n碎茶叶", 
     "start_time": 1286697600.0, 
     "activity_type": "hot_sale"
+   }, 
+   "tianpingzuo": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "てんびん座", 
+    "price": {
+     "num": 9, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "てんびん座", 
+    "activity_type": "discount"
    }, 
    "tujianbaoxiang": {
     "specific_type": "xin", 
