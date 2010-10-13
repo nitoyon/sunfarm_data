@@ -8461,6 +8461,42 @@
     "goods_description": "ヒアシンス", 
     "activity_type": "discount"
    }, 
+   "huolieniaoxin": {
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "オオフラミンゴ", 
+    "start_time": 1286956800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1287561600.0, 
+    "goods_description": "オオフラミンゴ", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "nirenmangguo": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "クレイジーマンゴー", 
+    "start_time": 1286956800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1287561600.0, 
+    "goods_description": "クレイジーマンゴー", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "bailian": {
     "specific_type": "re", 
     "product_type": {
@@ -8492,19 +8528,26 @@
     "activity_type": "discount"
    }, 
    "tulip": {
-    "specific_type": "re", 
+    "original_price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "flower"
     }, 
     "name": "チューリップ", 
     "price": {
-     "num": 18, 
+     "num": 12, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1287388800.0, 
     "goods_description": "チューリップ", 
-    "activity_type": "discount"
+    "start_time": 1286956800.0, 
+    "activity_type": "hot_sale"
    }, 
    "tianpingzuo": {
     "specific_type": "xin", 
