@@ -8461,21 +8461,6 @@
     "goods_description": "\u30d2\u30a2\u30b7\u30f3\u30b9", 
     "activity_type": "discount"
    }, 
-   "tianshanxuelian": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "\u5929\u5c71\u96ea\u84ee", 
-    "price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "\u5929\u5c71\u96ea\u84ee", 
-    "activity_type": "discount"
-   }, 
    "bailian": {
     "specific_type": "re", 
     "product_type": {
@@ -8586,6 +8571,21 @@
     "goods_description": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u788e\u8336\u53f6", 
     "start_time": 1286697600.0, 
     "activity_type": "hot_sale"
+   }, 
+   "tianpingzuo": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u3066\u3093\u3073\u3093\u5ea7", 
+    "price": {
+     "num": 9, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "\u3066\u3093\u3073\u3093\u5ea7", 
+    "activity_type": "discount"
    }, 
    "tujianbaoxiang": {
     "specific_type": "xin", 
