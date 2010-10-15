@@ -8469,6 +8469,21 @@
     "goods_description": "\u30d2\u30a2\u30b7\u30f3\u30b9", 
     "activity_type": "discount"
    }, 
+   "huafeibao2": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "\u9ad8\u7d1a\u80a5\u6599\u30bb\u30c3\u30c8", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "10\u670815\u65e515\u664230\u5206\uff5e10\u670819\u65e515\u6642\u306e\u9593\u306b\u3053\u306e\u30bb\u30c3\u30c8\u3092\u4f7f\u7528\u3059\u308b\u3068\u3001\u901a\u5e38\u306e\u9ad8\u7d1a\u80a5\u65997\u3064\u4ee5\u5916\u306b\u30011\u3064\u306e\u30a6\u30eb\u30c8\u30e9\u80a5\u6599\u304c\u3082\u3089\u3048\u307e\u3059\u3002\u304a\u898b\u9003\u3057\u306a\u304f\uff01", 
+    "activity_type": "discount"
+   }, 
    "jisu1": {
     "original_price": {
      "num": 12, 
@@ -8510,21 +8525,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "bailian": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "\u767d\u8272\u306e\u84ee", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "\u767d\u8272\u306e\u84ee", 
-    "activity_type": "discount"
-   }, 
    "baitu": {
     "specific_type": "xin", 
     "product_type": {
@@ -8562,19 +8562,19 @@
     "start_time": 1286956800.0, 
     "activity_type": "hot_sale"
    }, 
-   "tianpingzuo": {
-    "specific_type": "xin", 
+   "siliaobao2": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "\u3066\u3093\u3073\u3093\u5ea7", 
+    "name": "\u9ad8\u7d1a\u98fc\u6599\u30bb\u30c3\u30c8", 
     "price": {
-     "num": 9, 
+     "num": 30, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "\u3066\u3093\u3073\u3093\u5ea7", 
+    "modify": true, 
+    "goods_description": "10\u670815\u65e515\u664230\u5206\uff5e10\u670819\u65e515\u6642\u306e\u9593\u306b\u3053\u306e\u30bb\u30c3\u30c8\u3092\u4f7f\u7528\u3059\u308b\u3068\u3001\u901a\u5e38\u306e\u9ad8\u7d1a\u98fc\u65997\u3064\u4ee5\u5916\u306b\u30011\u3064\u306e\u30a6\u30eb\u30c8\u30e9\u98fc\u6599\u304c\u3082\u3089\u3048\u307e\u3059\u3002\u304a\u898b\u9003\u3057\u306a\u304f\uff01", 
     "activity_type": "discount"
    }, 
    "nirenboluo": {
