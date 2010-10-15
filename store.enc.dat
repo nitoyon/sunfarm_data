@@ -8461,6 +8461,29 @@
     "goods_description": "ヒアシンス", 
     "activity_type": "discount"
    }, 
+   "jisu1": {
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
+    }, 
+    "name": "スーパー飼料", 
+    "price": {
+     "num": 7, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日3時間", 
+    "end_time": 1287381600.0, 
+    "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
+    "start_time": 1287111600.0, 
+    "activity_type": "hot_sale"
+   }, 
    "huolieniaoxin": {
     "product_type": {
      "scene_type": "ranch", 
@@ -8475,24 +8498,6 @@
     "goods_description": "オオフラミンゴ", 
     "price": {
      "num": 25, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "nirenmangguo": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "クレイジーマンゴー", 
-    "start_time": 1286956800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1287561600.0, 
-    "goods_description": "クレイジーマンゴー", 
-    "price": {
-     "num": 15, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
