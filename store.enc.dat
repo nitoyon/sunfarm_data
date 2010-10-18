@@ -5437,7 +5437,7 @@
       "used": true, 
       "name": "スーパー飼料", 
       "price": {
-       "F_coin": 7
+       "F_coin": 12
       }, 
       "effect": 10, 
       "introduce": "使うと動物の生産時間を10時間短縮できます。", 
@@ -8484,29 +8484,6 @@
     "goods_description": "10月15日15時30分～10月19日15時の間にこのセットを使用すると、通常の高級肥料7つ以外に、1つのウルトラ肥料がもらえます。お見逃しなく！", 
     "activity_type": "discount"
    }, 
-   "jisu1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
-    }, 
-    "name": "スーパー飼料", 
-    "price": {
-     "num": 7, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日3時間", 
-    "end_time": 1287381600.0, 
-    "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
-    "start_time": 1287111600.0, 
-    "activity_type": "hot_sale"
-   }, 
    "huolieniaoxin": {
     "product_type": {
      "scene_type": "ranch", 
@@ -8539,28 +8516,6 @@
     "modify": false, 
     "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
-   }, 
-   "tulip": {
-    "original_price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "チューリップ", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1287388800.0, 
-    "goods_description": "チューリップ", 
-    "start_time": 1286956800.0, 
-    "activity_type": "hot_sale"
    }, 
    "siliaobao2": {
     "specific_type": "re", 
@@ -15614,7 +15569,7 @@
     "fenghuangzhiyi": {
      "total_time": 1410, 
      "leaflet_time": 330, 
-     "used": true, 
+     "used": false, 
      "name": "フェニックスの羽", 
      "base_fruit": 25, 
      "fruit_time": 330, 
