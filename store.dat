@@ -5437,7 +5437,7 @@
       "used": true, 
       "name": "\u30b9\u30fc\u30d1\u30fc\u98fc\u6599", 
       "price": {
-       "F_coin": 7
+       "F_coin": 12
       }, 
       "effect": 10, 
       "introduce": "\u4f7f\u3046\u3068\u52d5\u7269\u306e\u751f\u7523\u6642\u9593\u309210\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002", 
@@ -8484,29 +8484,6 @@
     "goods_description": "10\u670815\u65e515\u664230\u5206\uff5e10\u670819\u65e515\u6642\u306e\u9593\u306b\u3053\u306e\u30bb\u30c3\u30c8\u3092\u4f7f\u7528\u3059\u308b\u3068\u3001\u901a\u5e38\u306e\u9ad8\u7d1a\u80a5\u65997\u3064\u4ee5\u5916\u306b\u30011\u3064\u306e\u30a6\u30eb\u30c8\u30e9\u80a5\u6599\u304c\u3082\u3089\u3048\u307e\u3059\u3002\u304a\u898b\u9003\u3057\u306a\u304f\uff01", 
     "activity_type": "discount"
    }, 
-   "jisu1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
-    }, 
-    "name": "\u30b9\u30fc\u30d1\u30fc\u98fc\u6599", 
-    "price": {
-     "num": 7, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3\u65e53\u6642\u9593", 
-    "end_time": 1287381600.0, 
-    "goods_description": "\u4f7f\u3046\u3068\u52d5\u7269\u306e\u751f\u7523\u6642\u9593\u309210\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002", 
-    "start_time": 1287111600.0, 
-    "activity_type": "hot_sale"
-   }, 
    "huolieniaoxin": {
     "product_type": {
      "scene_type": "ranch", 
@@ -8539,28 +8516,6 @@
     "modify": false, 
     "goods_description": "\u30db\u30ef\u30a4\u30c8\u3046\u3055\u304e", 
     "activity_type": "discount"
-   }, 
-   "tulip": {
-    "original_price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5\u65e5", 
-    "end_time": 1287388800.0, 
-    "goods_description": "\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7", 
-    "start_time": 1286956800.0, 
-    "activity_type": "hot_sale"
    }, 
    "siliaobao2": {
     "specific_type": "re", 
@@ -15614,7 +15569,7 @@
     "fenghuangzhiyi": {
      "total_time": 1410, 
      "leaflet_time": 330, 
-     "used": true, 
+     "used": false, 
      "name": "\u30d5\u30a7\u30cb\u30c3\u30af\u30b9\u306e\u7fbd", 
      "base_fruit": 25, 
      "fruit_time": 330, 
