@@ -88,18 +88,14 @@
      "price": {
       "F_coin": 30
      }, 
-     "introduce": "10月15日15時30分～10月19日15時の間にこのセットを使用すると、通常の高級肥料7つ以外に、1つのウルトラ肥料がもらえます。お見逃しなく！", 
+     "introduce": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
-     "goods_str": "10月15日15時30分～10月19日15時の間にこのセットを使用すると、通常の高級肥料7つ以外に、1つのウルトラ肥料がもらえます。お見逃しなく！"
+     "goods_str": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。"
     }, 
     "data": {
      "farm": {
       "properties": {
        "fertilizer": {
-        "test": [
-         1, 
-         1.0
-        ], 
         "gaoji": [
          7, 
          1.0
@@ -1080,9 +1076,9 @@
      "price": {
       "F_coin": 30
      }, 
-     "introduce": "10月15日15時30分～10月19日15時の間にこのセットを使用すると、通常の高級飼料7つ以外に、1つのウルトラ飼料がもらえます。お見逃しなく！", 
+     "introduce": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
-     "goods_str": "10月15日15時30分～10月19日15時の間にこのセットを使用すると、通常の高級飼料7つ以外に、1つのウルトラ飼料がもらえます。お見逃しなく！"
+     "goods_str": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。"
     }, 
     "data": {
      "ranch": {
@@ -1090,10 +1086,6 @@
        "feedstuffs": {
         "jisu": [
          7, 
-         1.0
-        ], 
-        "ceshi": [
-         1, 
          1.0
         ]
        }
@@ -8469,21 +8461,6 @@
     "goods_description": "ヒアシンス", 
     "activity_type": "discount"
    }, 
-   "huafeibao2": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "高級肥料セット", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "10月15日15時30分～10月19日15時の間にこのセットを使用すると、通常の高級肥料7つ以外に、1つのウルトラ肥料がもらえます。お見逃しなく！", 
-    "activity_type": "discount"
-   }, 
    "huolieniaoxin": {
     "product_type": {
      "scene_type": "ranch", 
@@ -8534,21 +8511,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "siliaobao2": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "高級飼料セット", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "10月15日15時30分～10月19日15時の間にこのセットを使用すると、通常の高級飼料7つ以外に、1つのウルトラ飼料がもらえます。お見逃しなく！", 
-    "activity_type": "discount"
    }, 
    "nirenboluo": {
     "specific_type": "xin", 
