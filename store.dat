@@ -8446,19 +8446,34 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "hyacinth": {
+   "huafeibao2": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "\u30d2\u30a2\u30b7\u30f3\u30b9", 
+    "name": "\u9ad8\u7d1a\u80a5\u6599\u30bb\u30c3\u30c8", 
     "price": {
-     "num": 4, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "\u30d2\u30a2\u30b7\u30f3\u30b9", 
+    "goods_description": "\u4e2d\u306b\u306f\u9ad8\u7d1a\u80a5\u6599\u304c\u4e94\u3064\u542b\u307e\u308c\u3066\u3044\u3066\u3001\u3055\u3089\u306b\u4e8c\u3064\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3057\u307e\u3059\u3002", 
+    "activity_type": "discount"
+   }, 
+   "chaozhilibao": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8", 
+    "price": {
+     "num": 1270, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "\u2605770K\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\u2605500K\u30b3\u30a4\u30f3\u306e\u7a2e   \u30a2\u30a4\u30c6\u30e0\uff1a        \u521d\u7d1a\u80a5\u6599\u00d735      \u4e2d\u7d1a\u80a5\u6599\u00d735      \u9ad8\u7d1a\u80a5\u6599\u00d735      \u30de\u30b8\u30c3\u30af\u80a5\u6599\u00d735    \u5897\u7523\u80a5\u6599\u00d725      \u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u00d710    \u30a6\u30eb\u30c8\u30e9\u80a5\u6599\u00d75     \u7a2e\uff1a           \u30af\u30ec\u30a4\u30b8\u30fc\u30ca\u30b7\u00d74    \u30af\u30ec\u30a4\u30b8\u30fc\u30b5\u30dc\u30c6\u30f3\u00d74  \u30c1\u30e7\u30a6\u82b1\u00d74       \u5929\u5c71\u96ea\u84ee\u00d74       \u9b54\u6cd5\u306e\u767d\u30d0\u30e9\u00d74     \u6708\u306e\u82b1\u00d710", 
     "activity_type": "discount"
    }, 
    "huolieniaoxin": {
@@ -8511,6 +8526,21 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "siliaobao2": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "\u9ad8\u7d1a\u98fc\u6599\u30bb\u30c3\u30c8", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "\u4e2d\u306b\u306f\u9ad8\u7d1a\u98fc\u6599\u304c\u4e94\u3064\u542b\u307e\u308c\u3066\u3044\u3066\u3001\u3055\u3089\u306b\u4e8c\u3064\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3057\u307e\u3059\u3002", 
+    "activity_type": "discount"
    }, 
    "nirenboluo": {
     "specific_type": "xin", 
