@@ -8446,19 +8446,34 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "hyacinth": {
+   "huafeibao2": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "ヒアシンス", 
+    "name": "高級肥料セット", 
     "price": {
-     "num": 4, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "ヒアシンス", 
+    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "activity_type": "discount"
+   }, 
+   "chaozhilibao": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "お買い得セット", 
+    "price": {
+     "num": 1270, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "★770Kコインのアイテム★500Kコインの種   アイテム：        初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5     種：           クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10", 
     "activity_type": "discount"
    }, 
    "huolieniaoxin": {
@@ -8511,6 +8526,21 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "siliaobao2": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "高級飼料セット", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "activity_type": "discount"
    }, 
    "nirenboluo": {
     "specific_type": "xin", 
