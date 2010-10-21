@@ -8546,24 +8546,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "shenqihuo_long_guo": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u9b54\u6cd5\u306e\u30d4\u30bf\u30fc\u30e4", 
-    "start_time": 1287388800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3\u65e5", 
-    "end_time": 1287648000.0, 
-    "goods_description": "\u9b54\u6cd5\u306e\u30d4\u30bf\u30fc\u30e4", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "siliaobao2": {
     "specific_type": "re", 
     "product_type": {
@@ -8608,24 +8590,6 @@
     "modify": true, 
     "goods_description": "\u82b1\u306e\u5b9d\u7bb1\uff08\u30de\u30b8\u30c3\u30af\u80a5\u6599\u3068\u82b1\u304c\u5165\u3063\u3066\u3044\u307e\u3059\uff09\uff0c100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u30925\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u56f3\u9451\u306e\u30d2\u30ca\u30b2\u30b7\u3001\u30aa\u30ad\u30bf\u30f3\u30dd\u30dd\u3001\u30d2\u30ca\u30b2\u30b7\u3001\u30cf\u30af\u30e2\u30af\u30ec\u30f3\u3001\u30e4\u30de\u30d5\u30b8\u306e\u7a2e\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
     "activity_type": "discount"
-   }, 
-   "binglinghua": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "\u9b54\u6cd5\u306e\u3064\u3089\u3089\u306e\u82b1", 
-    "start_time": 1287388800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3\u65e5", 
-    "end_time": 1287648000.0, 
-    "goods_description": "\u9b54\u6cd5\u306e\u3064\u3089\u3089\u306e\u82b1", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -9938,7 +9902,7 @@
      "fruit_time": 775, 
      "sprout_time": 39, 
      "bloom_time": 592, 
-     "used": true, 
+     "used": false, 
      "experience": 4.39625, 
      "seasons": 2, 
      "sale_price": 17, 
@@ -10309,7 +10273,7 @@
     "nirenxiangjiao": {
      "total_time": 1080, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "\u30af\u30ec\u30a4\u30b8\u30fc\u30d0\u30ca\u30ca", 
      "base_fruit": 25, 
      "fruit_time": 360, 
@@ -12046,7 +12010,7 @@
      "introduce": "", 
      "increment_fruit": 25, 
      "bloom_time": 300, 
-     "used": true, 
+     "used": false, 
      "experience": 7, 
      "seasons": 1, 
      "sale_price": 15, 
