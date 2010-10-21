@@ -10306,6 +10306,25 @@
      "leaf_time": 60, 
      "level_need": 0
     }, 
+    "nirenxiangjiao": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "クレイジーバナナ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 6.6, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "level_need": 0
+    }, 
     "yamahua": {
      "total_time": 480, 
      "leaflet_time": 22, 
@@ -12274,25 +12293,24 @@
      "leaf_time": 60, 
      "level_need": 0
     }, 
-    "knx": {
-     "total_time": 1875, 
-     "leaflet_time": 360, 
-     "used": false, 
-     "name": "母の日のカーネーション", 
+    "mihoutao": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
+     "used": true, 
+     "name": "キウイ", 
      "base_fruit": 25, 
-     "fruit_time": 400, 
-     "goodstype": "flower", 
-     "sprout_time": 355, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 4.4, 
+     "seasons": 2, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "bloom_time": 400, 
-     "experience": 7, 
-     "seasons": 1, 
-     "sale_price": 15, 
+     "leaf_time": 180, 
      "seed_price": {
-      "gold": 1
+      "gold": 320
      }, 
-     "leaf_time": 360, 
-     "level_need": 1
+     "level_need": 51
     }, 
     "yanpi": {
      "total_time": 1440, 
@@ -14889,24 +14907,25 @@
      }, 
      "level_need": 1
     }, 
-    "mihoutao": {
-     "total_time": 960, 
-     "leaflet_time": 60, 
-     "used": true, 
-     "name": "キウイ", 
+    "knx": {
+     "total_time": 1875, 
+     "leaflet_time": 360, 
+     "used": false, 
+     "name": "母の日のカーネーション", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 4.4, 
-     "seasons": 2, 
-     "sale_price": 12, 
+     "fruit_time": 400, 
+     "goodstype": "flower", 
+     "sprout_time": 355, 
      "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "bloom_time": 400, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "seed_price": {
-      "gold": 320
+      "gold": 1
      }, 
-     "level_need": 51
+     "leaf_time": 360, 
+     "level_need": 1
     }, 
     "youlisanwenyucishen": {
      "total_time": 245, 
@@ -18310,6 +18329,7 @@
     "carrot", 
     "xiuqiuhua", 
     "shenqinigerseed", 
+    "nirenxiangjiao", 
     "nirenboluo", 
     "tulip", 
     "yutuhua", 
@@ -18475,7 +18495,6 @@
     "piaoliangdepenhua", 
     "qinglvmogu", 
     "baitang", 
-    "zhishimianbaotiao", 
     "xilengniupai", 
     "xuelian", 
     "nvergao", 
@@ -18499,7 +18518,7 @@
     "kaoquanyang", 
     "zhupaiwudongguo", 
     "meiguoguoqishua", 
-    "knx", 
+    "zhishimianbaotiao", 
     "yanpi", 
     "mofabang", 
     "songshu", 
@@ -18552,6 +18571,7 @@
     "xibanyaguoqishua", 
     "bairicao", 
     "jueweishaorou", 
+    "knx", 
     "youlisanwenyucishen", 
     "lanmeixiangjiaochuan", 
     "zhishimianbaogan", 
