@@ -8546,6 +8546,24 @@
     }, 
     "activity_type": "hot_sale"
    }, 
+   "hongbailanmeigui": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "\u30b9\u30ea\u30fc\u30ab\u30e9\u30fc\u306e\u30d0\u30e9", 
+    "start_time": 1287648000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "6\u65e5", 
+    "end_time": 1288166400.0, 
+    "goods_description": "\u30b9\u30ea\u30fc\u30ab\u30e9\u30fc\u306e\u30d0\u30e9", 
+    "price": {
+     "num": 38, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "siliaobao2": {
     "specific_type": "re", 
     "product_type": {
@@ -8560,6 +8578,24 @@
     "modify": true, 
     "goods_description": "\u4e2d\u306b\u306f\u9ad8\u7d1a\u98fc\u6599\u304c\u4e94\u3064\u542b\u307e\u308c\u3066\u3044\u3066\u3001\u3055\u3089\u306b\u4e8c\u3064\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3057\u307e\u3059\u3002", 
     "activity_type": "discount"
+   }, 
+   "nirenxiangjiao": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u30af\u30ec\u30a4\u30b8\u30fc\u30d0\u30ca\u30ca", 
+    "start_time": 1287648000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7\u65e5", 
+    "end_time": 1288252800.0, 
+    "goods_description": "\u30af\u30ec\u30a4\u30b8\u30fc\u30d0\u30ca\u30ca", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "nirenboluo": {
     "specific_type": "xin", 
