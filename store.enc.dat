@@ -8546,24 +8546,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "shenqihuo_long_guo": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "魔法のピターヤ", 
-    "start_time": 1287388800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1287648000.0, 
-    "goods_description": "魔法のピターヤ", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "siliaobao2": {
     "specific_type": "re", 
     "product_type": {
@@ -8608,24 +8590,6 @@
     "modify": true, 
     "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
     "activity_type": "discount"
-   }, 
-   "binglinghua": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "魔法のつららの花", 
-    "start_time": 1287388800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1287648000.0, 
-    "goods_description": "魔法のつららの花", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -9938,7 +9902,7 @@
      "fruit_time": 775, 
      "sprout_time": 39, 
      "bloom_time": 592, 
-     "used": true, 
+     "used": false, 
      "experience": 4.39625, 
      "seasons": 2, 
      "sale_price": 17, 
@@ -10309,7 +10273,7 @@
     "nirenxiangjiao": {
      "total_time": 1080, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "クレイジーバナナ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
@@ -12046,7 +12010,7 @@
      "introduce": "", 
      "increment_fruit": 25, 
      "bloom_time": 300, 
-     "used": true, 
+     "used": false, 
      "experience": 7, 
      "seasons": 1, 
      "sale_price": 15, 
