@@ -8989,23 +8989,24 @@
      "leaf_time": 153, 
      "level_need": 0
     }, 
-    "moxigeguojishu": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "weixiaonangua": {
+     "total_time": 960, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "メキシコ国旗樹", 
+     "name": "ほほえむカボチャ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 7.28, 
-     "seasons": 1, 
-     "sale_price": 15, 
+     "sprout_time": 90, 
+     "introduce": "", 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "bloom_time": 330, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 12, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 20
      }, 
+     "leaf_time": 120, 
      "level_need": 1
     }, 
     "zisu": {
@@ -10500,46 +10501,44 @@
      }, 
      "level_need": 5
     }, 
-    "tulip": {
-     "total_time": 1620, 
-     "leaflet_time": 243, 
+    "shanzhu": {
+     "total_time": 960, 
+     "leaflet_time": 90, 
      "used": true, 
-     "name": "チューリップ", 
+     "name": "マンゴスチン", 
      "base_fruit": 25, 
-     "fruit_time": 486, 
-     "goodstype": "flower", 
-     "sprout_time": 324, 
-     "recipe": "レシピに使えます：\nファンタスティックな旅", 
-     "introduce": "花言葉：愛の告白。", 
+     "fruit_time": 330, 
+     "recipe": "レシピに使えます：\nマンゴスチンサラダ", 
+     "sprout_time": 30, 
+     "bloom_time": 330, 
+     "experience": 2.95, 
+     "seasons": 3, 
+     "sale_price": 10, 
      "increment_fruit": 25, 
-     "bloom_time": 324, 
-     "experience": 5.18, 
-     "seasons": 1, 
-     "sale_price": 35, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 12
+      "gold": 380
      }, 
-     "leaf_time": 243, 
-     "level_need": 0
+     "level_need": 45
     }, 
-    "mango": {
-     "total_time": 1646, 
-     "leaflet_time": 282, 
-     "seed_price": {
-      "gold": 192
-     }, 
-     "name": "マンゴー", 
+    "qinglvmogu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ドキドキ", 
      "base_fruit": 25, 
-     "fruit_time": 329, 
-     "recipe": "レシピに使えます：\nフルーツジャム\nマンゴジュース", 
-     "sprout_time": 181, 
-     "bloom_time": 572, 
-     "experience": 3.1, 
-     "seasons": 2, 
-     "sale_price": 9, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
-     "leaf_time": 282, 
-     "level_need": 11
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
+     "level_need": 1
     }, 
     "yutuhua": {
      "total_time": 570, 
@@ -10698,6 +10697,26 @@
       "F_coin": 25
      }, 
      "level_need": 0
+    }, 
+    "kuqinangua": {
+     "total_time": 960, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "泣きカボチャ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "leaf_time": 120, 
+     "level_need": 1
     }, 
     "tonghao": {
      "total_time": 1180, 
@@ -11590,6 +11609,25 @@
      }, 
      "level_need": 0
     }, 
+    "moxigeguojishu": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "メキシコ国旗樹", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 7.28, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 1
+    }, 
     "lingzhi": {
      "total_time": 3120, 
      "leaflet_time": 624, 
@@ -12115,6 +12153,28 @@
      }, 
      "level_need": 1
     }, 
+    "tulip": {
+     "total_time": 1620, 
+     "leaflet_time": 243, 
+     "used": true, 
+     "name": "チューリップ", 
+     "base_fruit": 25, 
+     "fruit_time": 486, 
+     "goodstype": "flower", 
+     "sprout_time": 324, 
+     "recipe": "レシピに使えます：\nファンタスティックな旅", 
+     "introduce": "花言葉：愛の告白。", 
+     "increment_fruit": 25, 
+     "bloom_time": 324, 
+     "experience": 5.18, 
+     "seasons": 1, 
+     "sale_price": 35, 
+     "seed_price": {
+      "F_coin": 12
+     }, 
+     "leaf_time": 243, 
+     "level_need": 0
+    }, 
     "wutongshu": {
      "total_time": 1970, 
      "leaflet_time": 380, 
@@ -12174,24 +12234,24 @@
      "leaf_time": 150, 
      "level_need": 53
     }, 
-    "qinglvmogu": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "ドキドキ", 
-     "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 11, 
-     "seasons": 1, 
-     "sale_price": 15, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
+    "mango": {
+     "total_time": 1646, 
+     "leaflet_time": 282, 
      "seed_price": {
-      "F_coin": 30
+      "gold": 192
      }, 
-     "level_need": 1
+     "name": "マンゴー", 
+     "base_fruit": 25, 
+     "fruit_time": 329, 
+     "recipe": "レシピに使えます：\nフルーツジャム\nマンゴジュース", 
+     "sprout_time": 181, 
+     "bloom_time": 572, 
+     "experience": 3.1, 
+     "seasons": 2, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 282, 
+     "level_need": 11
     }, 
     "kaoquanyang": {
      "total_time": 3120, 
@@ -14259,6 +14319,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "kuailenangua": {
+     "total_time": 960, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "笑うカボチャ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 120, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "wulaguiguoqishua": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -14501,25 +14580,25 @@
      "leaf_time": 90, 
      "level_need": 0
     }, 
-    "shanzhu": {
+    "guiliannangua": {
      "total_time": 960, 
      "leaflet_time": 90, 
-     "used": true, 
-     "name": "マンゴスチン", 
+     "used": false, 
+     "name": "おかしなカボチャ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "recipe": "レシピに使えます：\nマンゴスチンサラダ", 
-     "sprout_time": 30, 
-     "bloom_time": 330, 
-     "experience": 2.95, 
-     "seasons": 3, 
-     "sale_price": 10, 
+     "sprout_time": 90, 
+     "introduce": "", 
      "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "bloom_time": 330, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 12, 
      "seed_price": {
-      "gold": 380
+      "F_coin": 20
      }, 
-     "level_need": 45
+     "leaf_time": 120, 
+     "level_need": 1
     }, 
     "xinxingxigua": {
      "total_time": 1440, 
@@ -15649,6 +15728,26 @@
      }, 
      "leaf_time": 330, 
      "level_need": 0
+    }, 
+    "fennunangua": {
+     "total_time": 960, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "怒るカボチャ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "leaf_time": 120, 
+     "level_need": 1
     }, 
     "fenghuangzhiyi": {
      "total_time": 1410, 
@@ -18468,7 +18567,7 @@
     "yinggelanguoqishua", 
     "jianaguoqishua", 
     "fanqieniurouyimian", 
-    "moxigeguojishu", 
+    "weixiaonangua", 
     "lanmeibingjiling", 
     "zhuzixin", 
     "fuqinjiehuashu01", 
@@ -18493,9 +18592,9 @@
     "dabaicai", 
     "fuqinjiehuasu", 
     "piaoliangdepenhua", 
-    "qinglvmogu", 
     "baitang", 
     "xilengniupai", 
+    "kuqinangua", 
     "xuelian", 
     "nvergao", 
     "meiguoguoqishu", 
@@ -18507,6 +18606,7 @@
     "hulu", 
     "suanrulao", 
     "yinggelanguoqishu", 
+    "moxigeguojishu", 
     "lingzhi", 
     "shishutianfuluo", 
     "qianqucai", 
@@ -18515,6 +18615,7 @@
     "zhulongcao", 
     "ribenguoqishua", 
     "wutongshu", 
+    "qinglvmogu", 
     "kaoquanyang", 
     "zhupaiwudongguo", 
     "meiguoguoqishua", 
@@ -18525,6 +18626,7 @@
     "lajiaoyou", 
     "ribenguoqishu1", 
     "tilamisu", 
+    "guiliannangua", 
     "dongguapaigutang", 
     "balaguiguoqishu", 
     "pumpkin", 
@@ -18556,6 +18658,7 @@
     "qingtongshu", 
     "qingtianwawa", 
     "balaguiguoqishua", 
+    "kuailenangua", 
     "wulaguiguoqishua", 
     "caoliao", 
     "longshelan", 
@@ -18589,6 +18692,7 @@
     "naiyou", 
     "pingguodangao", 
     "baibing", 
+    "fennunangua", 
     "shuijingputao", 
     "kaojirouchuan", 
     "shuiguopinpan", 
