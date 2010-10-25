@@ -8620,6 +8620,21 @@
     "goods_description": "★770Kコインのアイテム★500Kコインの種   アイテム：        初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5     種：           クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10", 
     "activity_type": "discount"
    }, 
+   "kuailenangua": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "笑うカボチャ", 
+    "price": {
+     "num": 20, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "笑うカボチャ", 
+    "activity_type": "discount"
+   }, 
    "shenqiginseng": {
     "product_type": {
      "scene_type": "farm", 
@@ -8688,21 +8703,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "nirenboluo": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "クレイジーパイナップル", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "クレイジーパイナップル", 
-    "activity_type": "discount"
    }, 
    "tujianbaoxiang": {
     "specific_type": "xin", 
