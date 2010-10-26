@@ -8590,21 +8590,6 @@
     "goods_description": "\u4e2d\u306b\u306f\u9ad8\u7d1a\u80a5\u6599\u304c\u4e94\u3064\u542b\u307e\u308c\u3066\u3044\u3066\u3001\u3055\u3089\u306b\u4e8c\u3064\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3057\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
-   "baitu": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "\u30db\u30ef\u30a4\u30c8\u3046\u3055\u304e", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "\u30db\u30ef\u30a4\u30c8\u3046\u3055\u304e", 
-    "activity_type": "discount"
-   }, 
    "chaozhilibao": {
     "specific_type": "re", 
     "product_type": {
@@ -8635,23 +8620,20 @@
     "goods_description": "\u300c\u30cf\u30ed\u30a6\u30a3\u30f3\u306e\u30ab\u30dc\u30c1\u30e3\u300d\u306e\u30a4\u30d9\u30f3\u30c8\u30a2\u30a4\u30c6\u30e0\u3002\uff11\uff11\u6708\uff15\u65e5\u307e\u3067\u306e\u9650\u5b9a\u8ca9\u58f2\u3002\u304a\u898b\u9003\u3057\u7121\u304f\uff01", 
     "activity_type": "discount"
    }, 
-   "shenqiginseng": {
+   "baitu": {
+    "specific_type": "xin", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "ranch", 
+     "goods_type": "baby"
     }, 
-    "name": "\u9b54\u6cd5\u306e\u671d\u9bae\u4eba\u53c2", 
-    "start_time": 1287630000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5\u65e55\u6642\u9593", 
-    "end_time": 1288080000.0, 
-    "goods_description": "\u9b54\u6cd5\u306e\u671d\u9bae\u4eba\u53c2", 
+    "name": "\u30db\u30ef\u30a4\u30c8\u3046\u3055\u304e", 
     "price": {
      "num": 30, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "\u30db\u30ef\u30a4\u30c8\u3046\u3055\u304e", 
+    "activity_type": "discount"
    }, 
    "hongbailanmeigui": {
     "product_type": {
@@ -12850,7 +12832,7 @@
      "fruit_time": 827, 
      "sprout_time": 42, 
      "bloom_time": 632, 
-     "used": true, 
+     "used": false, 
      "experience": 4.32333333, 
      "seasons": 3, 
      "sale_price": 17, 
