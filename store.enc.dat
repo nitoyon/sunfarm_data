@@ -8605,6 +8605,24 @@
     "goods_description": "★770Kコインのアイテム★500Kコインの種   アイテム：        初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5     種：           クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10", 
     "activity_type": "discount"
    }, 
+   "shenqijasmine": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "魔法のジャスミン", 
+    "start_time": 1288080000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1288684800.0, 
+    "goods_description": "魔法のジャスミン", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "kuailenangua": {
     "specific_type": "xin", 
     "product_type": {
@@ -15696,7 +15714,7 @@
      "introduce": "花言葉：あなたは私のもの", 
      "experience": 1.79, 
      "state": "xin", 
-     "used": false, 
+     "used": true, 
      "bloom_time": 448, 
      "seasons": 1, 
      "sale_price": 34, 
