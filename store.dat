@@ -6895,7 +6895,7 @@
     "xiaoheimao": {
      "total_time": 1440, 
      "harvest_type": 0, 
-     "used": false, 
+     "used": true, 
      "name": "\u30cf\u30ed\u30a6\u30a3\u30f3\u306e\u9ed2\u732b", 
      "base_fruit": 25, 
      "fruit_time": 600, 
@@ -8740,24 +8740,6 @@
     "modify": false, 
     "goods_description": "\u30db\u30ef\u30a4\u30c8\u3046\u3055\u304e", 
     "activity_type": "discount"
-   }, 
-   "hongbailanmeigui": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "\u30b9\u30ea\u30fc\u30ab\u30e9\u30fc\u306e\u30d0\u30e9", 
-    "start_time": 1287648000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "6\u65e5", 
-    "end_time": 1288166400.0, 
-    "goods_description": "\u30b9\u30ea\u30fc\u30ab\u30e9\u30fc\u306e\u30d0\u30e9", 
-    "price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "siliaobao2": {
     "specific_type": "re", 
@@ -17208,7 +17190,7 @@
      "introduce": "\u30b9\u30ea\u30fc\u30ab\u30e9\u30fc\u306e\u30d0\u30e9", 
      "increment_fruit": 25, 
      "bloom_time": 750, 
-     "used": true, 
+     "used": false, 
      "experience": 9.6, 
      "seasons": 1, 
      "sale_price": 77, 
