@@ -8774,24 +8774,6 @@
     "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
-   "nirenxiangjiao": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "クレイジーバナナ", 
-    "start_time": 1287648000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1288252800.0, 
-    "goods_description": "クレイジーバナナ", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "tujianbaoxiang": {
     "specific_type": "xin", 
     "product_type": {
@@ -10490,7 +10472,7 @@
     "nirenxiangjiao": {
      "total_time": 1080, 
      "leaflet_time": 150, 
-     "used": true, 
+     "used": false, 
      "name": "クレイジーバナナ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
