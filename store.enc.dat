@@ -12572,6 +12572,25 @@
      }, 
      "level_need": 51
     }, 
+    "hezuoluobo": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
+     "used": false, 
+     "name": "デカ赤カブ", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 2, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 600, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "yanpi": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -15016,6 +15035,25 @@
       "gold": 422
      }, 
      "level_need": 22
+    }, 
+    "sigua": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ヘチマ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 5.4, 
+     "seasons": 3, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "gold": 475
+     }, 
+     "level_need": 57
     }, 
     "huangdou": {
      "total_time": 930, 
@@ -18823,6 +18861,7 @@
     "zhupaiwudongguo", 
     "meiguoguoqishua", 
     "zhishimianbaotiao", 
+    "hezuoluobo", 
     "yanpi", 
     "mofabang", 
     "songshu", 
@@ -19037,7 +19076,8 @@
     "juju", 
     "lizi", 
     "lvluo", 
-    "caihua"
+    "caihua", 
+    "sigua"
    ]
   }
  }, 
