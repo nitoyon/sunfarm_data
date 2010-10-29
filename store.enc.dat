@@ -11084,24 +11084,24 @@
      }, 
      "level_need": 45
     }, 
-    "qinglvmogu": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "ドキドキ", 
-     "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 11, 
-     "seasons": 1, 
-     "sale_price": 15, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
+    "mango": {
+     "total_time": 1646, 
+     "leaflet_time": 282, 
      "seed_price": {
-      "F_coin": 30
+      "gold": 192
      }, 
-     "level_need": 1
+     "name": "マンゴー", 
+     "base_fruit": 25, 
+     "fruit_time": 329, 
+     "recipe": "レシピに使えます：\nフルーツジャム\nマンゴジュース", 
+     "sprout_time": 181, 
+     "bloom_time": 572, 
+     "experience": 3.1, 
+     "seasons": 2, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 282, 
+     "level_need": 11
     }, 
     "yutuhua": {
      "total_time": 570, 
@@ -11940,24 +11940,26 @@
      }, 
      "level_need": 1
     }, 
-    "moxigeguoqishua": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "fenmeigui": {
+     "total_time": 870, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "復刻版メキシコ国旗樹", 
+     "name": "ピンクのバラ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 6, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "花言葉：", 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "bloom_time": 150, 
+     "experience": 3.0, 
+     "seasons": 1, 
+     "sale_price": 77, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 8
      }, 
-     "level_need": 1
+     "leaf_time": 150, 
+     "level_need": 0
     }, 
     "jingzhichahua": {
      "total_time": 630, 
@@ -12817,24 +12819,24 @@
      "leaf_time": 150, 
      "level_need": 53
     }, 
-    "mango": {
-     "total_time": 1646, 
-     "leaflet_time": 282, 
-     "seed_price": {
-      "gold": 192
-     }, 
-     "name": "マンゴー", 
+    "qinglvmogu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ドキドキ", 
      "base_fruit": 25, 
-     "fruit_time": 329, 
-     "recipe": "レシピに使えます：\nフルーツジャム\nマンゴジュース", 
-     "sprout_time": 181, 
-     "bloom_time": 572, 
-     "experience": 3.1, 
-     "seasons": 2, 
-     "sale_price": 9, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
-     "leaf_time": 282, 
-     "level_need": 11
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
+     "level_need": 1
     }, 
     "kaoquanyang": {
      "total_time": 3120, 
@@ -12914,6 +12916,27 @@
       "F_coin": 1
      }, 
      "level_need": 1
+    }, 
+    "huangzuanhua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "黄カード", 
+     "base_fruit": 1, 
+     "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。黄カードを手に入れました。5種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "扭蛋作物不能种植", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "experience": 100, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "laohecaohuashu": {
      "total_time": 360, 
@@ -13471,6 +13494,27 @@
      }, 
      "level_need": 30
     }, 
+    "hongzuanhua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "赤カード", 
+     "base_fruit": 1, 
+     "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。赤カードを手に入れました。5種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "扭蛋作物不能种植", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "experience": 100, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "diaoxiang": {
      "total_time": 4200, 
      "leaflet_time": 60, 
@@ -13802,26 +13846,45 @@
      "leaf_time": 576, 
      "level_need": 0
     }, 
-    "fenmeigui": {
-     "total_time": 870, 
-     "leaflet_time": 150, 
+    "lvzuanhua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "ピンクのバラ", 
+     "name": "緑カード", 
+     "base_fruit": 1, 
+     "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。緑カードを手に入れました。5種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "扭蛋作物不能种植", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "experience": 100, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
+    "moxigeguoqishua": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "復刻版メキシコ国旗樹", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "goodstype": "flower", 
-     "sprout_time": 90, 
-     "introduce": "花言葉：", 
-     "increment_fruit": 25, 
-     "bloom_time": 150, 
-     "experience": 3.0, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 6, 
      "seasons": 1, 
-     "sale_price": 77, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 1
      }, 
-     "leaf_time": 150, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "qj": {
      "total_time": 1050, 
@@ -14017,6 +14080,27 @@
       "F_coin": 12
      }, 
      "leaf_time": 153, 
+     "level_need": 0
+    }, 
+    "zizuanhua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "紫カード", 
+     "base_fruit": 1, 
+     "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。紫カードを手に入れました。5種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "扭蛋作物不能种植", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "experience": 100, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "wurong": {
@@ -15761,6 +15845,27 @@
       "gold": 10
      }, 
      "leaf_time": 150, 
+     "level_need": 0
+    }, 
+    "lanzuanhua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "青カード", 
+     "base_fruit": 1, 
+     "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。青カードを手に入れました。5種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "扭蛋作物不能种植", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "experience": 100, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "zhishijumogu": {
@@ -19094,6 +19199,7 @@
     "meihua", 
     "nirenmangguo", 
     "lily", 
+    "huangzuanhua", 
     "laohecaohuashu", 
     "xinshoutulip", 
     "yrjjz", 
@@ -19103,14 +19209,17 @@
     "shenqiginseng", 
     "shenqima_ti_lian", 
     "chengzuanshu", 
+    "hongzuanhua", 
     "diaoxiang", 
     "lvzuanshu", 
     "tuxiangrikui", 
     "cuiju", 
     "paradiseflower", 
+    "lvzuanhua", 
     "shiliu", 
     "peony", 
     "violet", 
+    "zizuanhua", 
     "wurong", 
     "starsalad", 
     "tianshanxuelian", 
@@ -19141,6 +19250,7 @@
     "biandang", 
     "jiariyecan", 
     "shuangse", 
+    "lanzuanhua", 
     "yumeiren", 
     "azalea", 
     "shanzhusalad", 
@@ -19215,6 +19325,7 @@
     "dabaicai", 
     "fuqinjiehuasu", 
     "piaoliangdepenhua", 
+    "qinglvmogu", 
     "baitang", 
     "xilengniupai", 
     "kuqinangua", 
@@ -19239,7 +19350,6 @@
     "zhulongcao", 
     "ribenguoqishua", 
     "wutongshu", 
-    "qinglvmogu", 
     "kaoquanyang", 
     "zhupaiwudongguo", 
     "meiguoguoqishua", 
