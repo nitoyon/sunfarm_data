@@ -9065,19 +9065,22 @@
   ], 
   "hot_sale": {
    "hongdan": {
-    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "レッドカプセル", 
+    "start_time": 1288537200.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "9日16時間", 
+    "end_time": 1289372400.0, 
+    "goods_description": "0.7%の確率で赤ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "0.7%の確率で赤ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "huangdan": {
     "specific_type": "xin", 
@@ -9106,24 +9109,6 @@
     "limit_time": "9日", 
     "end_time": 1288944000.0, 
     "goods_description": "ハロウィンパーティーに現れたおばけねこ。「おかしをくれないと驚かせるニャ」", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "shenqijasmine": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "魔法のジャスミン", 
-    "start_time": 1288080000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1288684800.0, 
-    "goods_description": "魔法のジャスミン", 
     "price": {
      "num": 30, 
      "type": "F_coin"
@@ -9176,19 +9161,22 @@
     "activity_type": "discount"
    }, 
    "zidan": {
-    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "パープルカプセル", 
+    "start_time": 1288537200.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "9日16時間", 
+    "end_time": 1289372400.0, 
+    "goods_description": "3%の確率で紫ダイヤを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "3%の確率で紫ダイヤを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
