@@ -4310,6 +4310,51 @@
      }
     }
    }, 
+   "guohuatujian": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
+     "name": "国花の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "chuju": [
+        1, 
+        0.18
+       ], 
+       "xiangshizhu": [
+        1, 
+        0.4
+       ], 
+       "saibohua": [
+        1, 
+        0.25
+       ], 
+       "xiankelai": [
+        1, 
+        0.3
+       ], 
+       "shicheju": [
+        1, 
+        0.5
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "hongdan": {
     "config": {
      "price": {
@@ -4551,98 +4596,38 @@
      }
     }
    }, 
-   "landan": {
+   "xianhuabaoxiang": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 125
      }, 
-     "used": true, 
-     "goods_str": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "ブルーカプセル", 
-     "introduce": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "used": false, 
+     "goods_str": "あの花が入っています。たまに魔法の種も入っているよ！", 
+     "name": "ギフト花の箱", 
+     "introduce": "あの花が入っています。たまに魔法の種も入っているよ！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "luhui": [
+       "mhxy": [
         1, 
-        0.05
+        0.4
        ], 
-       "heimeigui": [
+       "rensheng": [
         1, 
-        0.03
+        1.0
        ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "shenqijasmine": [
-        1, 
-        0.02
-       ], 
-       "shenqibian": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
+       "nrx": [
         1, 
         0.01
        ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "hhlyq": [
-        1, 
-        0.05
-       ], 
-       "lanzuanhua": [
+       "bushe": [
         1, 
         0.1
        ], 
-       "nirenboluo": [
+       "xingfuren": [
         1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }, 
-      "babies": {
-       "chengseqingwa": [
-        1, 
-        0.1
-       ], 
-       "taohuamao": [
-        1, 
-        0.05
+        0.7
        ]
       }
      }
@@ -5604,38 +5589,98 @@
      }
     }
    }, 
-   "xianhuabaoxiang": {
+   "landan": {
     "config": {
      "price": {
-      "F_coin": 125
+      "F_coin": 1
      }, 
-     "used": false, 
-     "goods_str": "あの花が入っています。たまに魔法の種も入っているよ！", 
-     "name": "ギフト花の箱", 
-     "introduce": "あの花が入っています。たまに魔法の種も入っているよ！"
+     "used": true, 
+     "goods_str": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "ブルーカプセル", 
+     "introduce": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "mhxy": [
+       "luhui": [
         1, 
-        0.4
+        0.05
        ], 
-       "rensheng": [
+       "heimeigui": [
         1, 
-        1.0
+        0.03
        ], 
-       "nrx": [
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
         1, 
         0.01
        ], 
-       "bushe": [
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "hhlyq": [
+        1, 
+        0.05
+       ], 
+       "lanzuanhua": [
         1, 
         0.1
        ], 
-       "xingfuren": [
+       "nirenboluo": [
         1, 
-        0.7
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
        ]
       }
      }
@@ -10901,28 +10946,26 @@
      "leaf_time": 360, 
      "level_need": 1
     }, 
-    "xiuqiuhua": {
-     "total_time": 1590, 
-     "leaflet_time": 320, 
-     "used": true, 
-     "name": "アジサイ", 
+    "chuju": {
+     "total_time": 1920, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ヒナギク", 
      "base_fruit": 25, 
-     "increment_fruit": 25, 
-     "fruit_time": 350, 
+     "fruit_time": 420, 
      "goodstype": "flower", 
-     "sprout_time": 320, 
-     "recipe": "レシピに使えます：\n希望の星", 
-     "introduce": "花言葉：希望", 
-     "experience": 5.4, 
-     "state": "re", 
-     "bloom_time": 300, 
+     "sprout_time": 330, 
+     "introduce": "イタリアの国花", 
+     "increment_fruit": 25, 
+     "bloom_time": 420, 
+     "experience": 15, 
      "seasons": 1, 
-     "sale_price": 22, 
+     "sale_price": 21, 
      "seed_price": {
-      "F_coin": 4
+      "F_coin": 38
      }, 
-     "leaf_time": 300, 
-     "level_need": 0
+     "leaf_time": 420, 
+     "level_need": 53
     }, 
     "dawanhua": {
      "total_time": 360, 
@@ -12929,6 +12972,27 @@
      }, 
      "level_need": 1
     }, 
+    "shicheju": {
+     "total_time": 720, 
+     "leaflet_time": 80, 
+     "used": false, 
+     "name": "ヤグルマギク", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "goodstype": "flower", 
+     "sprout_time": 20, 
+     "introduce": "ドイツの国花", 
+     "increment_fruit": 25, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "leaf_time": 140, 
+     "level_need": 53
+    }, 
     "nirenmangguo": {
      "total_time": 1080, 
      "leaflet_time": 150, 
@@ -13818,6 +13882,29 @@
       "gold": 10
      }, 
      "level_need": 13
+    }, 
+    "xiuqiuhua": {
+     "total_time": 1590, 
+     "leaflet_time": 320, 
+     "used": true, 
+     "name": "アジサイ", 
+     "base_fruit": 25, 
+     "increment_fruit": 25, 
+     "fruit_time": 350, 
+     "goodstype": "flower", 
+     "sprout_time": 320, 
+     "recipe": "レシピに使えます：\n希望の星", 
+     "introduce": "花言葉：希望", 
+     "experience": 5.4, 
+     "state": "re", 
+     "bloom_time": 300, 
+     "seasons": 1, 
+     "sale_price": 22, 
+     "seed_price": {
+      "F_coin": 4
+     }, 
+     "leaf_time": 300, 
+     "level_need": 0
     }, 
     "dandelion": {
      "total_time": 480, 
@@ -15100,6 +15187,48 @@
       "gold": 200
      }, 
      "level_need": 33
+    }, 
+    "xiangshizhu": {
+     "total_time": 720, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ナデシコ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "goodstype": "flower", 
+     "sprout_time": 10, 
+     "introduce": "スペインの国花", 
+     "increment_fruit": 25, 
+     "bloom_time": 145, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "leaf_time": 145, 
+     "level_need": 53
+    }, 
+    "xiankelai": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "アキザキシクラメン", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "サンマリノの国花", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "leaf_time": 150, 
+     "level_need": 1
     }, 
     "heimeigui": {
      "total_time": 870, 
@@ -18129,6 +18258,27 @@
      }, 
      "level_need": 0
     }, 
+    "saibohua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "アメリカデイゴ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "アルゼンチンの国花", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "leaf_time": 330, 
+     "level_need": 53
+    }, 
     "qiji": {
      "total_time": 870, 
      "leaflet_time": 150, 
@@ -19379,11 +19529,10 @@
     "xinshoutomato", 
     "shenqisweetviolet", 
     "carrot", 
-    "xiuqiuhua", 
     "shenqinigerseed", 
     "nirenxiangjiao", 
     "nirenboluo", 
-    "tulip", 
+    "xiuqiuhua", 
     "yutuhua", 
     "diyongjinlian", 
     "tuqianniuhua", 
@@ -19422,6 +19571,7 @@
     "binglinghua", 
     "yhhf", 
     "meihua", 
+    "tulip", 
     "nirenmangguo", 
     "lily", 
     "huangzuanhua", 
@@ -19616,6 +19766,7 @@
     "shuiguoshala", 
     "qingtongshu", 
     "qingtianwawa", 
+    "xiankelai", 
     "balaguiguoqishua", 
     "kuailenangua", 
     "wulaguiguoqishua", 
@@ -19787,11 +19938,15 @@
     "mihoutao", 
     "hujiao", 
     "pugongying", 
+    "chuju", 
     "fenglingcao", 
+    "shicheju", 
     "yumeirenhua", 
     "yulan", 
+    "xiangshizhu", 
     "shanziteng", 
     "juju", 
+    "saibohua", 
     "lizi", 
     "lvluo", 
     "caihua", 
