@@ -12118,21 +12118,26 @@
     "mhxy": {
      "total_time": 1050, 
      "leaflet_time": 150, 
-     "used": false, 
-     "name": "\u541b\u306e\u9858\u3044", 
+     "magicseed": [
+      10, 
+      11, 
+      12
+     ], 
+     "name": "\u9b54\u6cd5\u306e\u541b\u306e\u9858\u3044", 
      "base_fruit": 25, 
      "fruit_time": 300, 
      "goodstype": "flower", 
      "sprout_time": 150, 
-     "increment_fruit": 25, 
      "bloom_time": 300, 
+     "used": false, 
      "experience": 2, 
      "seasons": 1, 
      "sale_price": 2, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
      "seed_price": {
       "gold": 10
      }, 
-     "leaf_time": 150, 
      "level_need": 0
     }, 
     "congchuan": {
@@ -15034,21 +15039,26 @@
     "nrx": {
      "total_time": 1050, 
      "leaflet_time": 150, 
-     "used": false, 
-     "name": "\u6696\u304b\u3044\u5fc3", 
+     "magicseed": [
+      10, 
+      11, 
+      12
+     ], 
+     "name": "\u9b54\u6cd5\u306e\u6696\u304b\u3044\u5fc3", 
      "base_fruit": 25, 
      "fruit_time": 300, 
      "goodstype": "flower", 
      "sprout_time": 150, 
-     "increment_fruit": 25, 
      "bloom_time": 300, 
+     "used": false, 
      "experience": 2, 
      "seasons": 1, 
      "sale_price": 2, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
      "seed_price": {
       "gold": 10
      }, 
-     "leaf_time": 150, 
      "level_need": 0
     }, 
     "jinpinshanyao": {
