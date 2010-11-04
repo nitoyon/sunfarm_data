@@ -3936,82 +3936,22 @@
      }
     }
    }, 
-   "hongniudan": {
+   "huolongguolibao": {
     "config": {
      "price": {
       "F_coin": 1
      }, 
-     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
-     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-     "name": "赤カプセル", 
-     "used": false
+     "used": false, 
+     "goods_str": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
+     "name": "ピタヤの箱", 
+     "introduce": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "dongqing": [
-        1, 
-        0.06
-       ], 
-       "niangao": [
-        1, 
-        0.1
-       ], 
-       "taigu": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.01
-       ], 
-       "shenqima_ti_lian": [
-        1, 
-        0.01
-       ], 
-       "carnation": [
-        1, 
-        0.01
-       ], 
-       "hongkapian": [
-        1, 
-        0.2
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ], 
-        "xunjie1": [
-         1, 
-         1
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "wushi": [
-        1, 
-        0.1
+       "huolongguoxin": [
+        5, 
+        1
        ]
       }
      }
@@ -5347,23 +5287,31 @@
      }
     }
    }, 
-   "huolongguolibao": {
+   "cangbaotu3": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 9999
      }, 
      "used": false, 
-     "goods_str": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
-     "name": "ピタヤの箱", 
-     "introduce": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。"
+     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
+     "name": "藏宝图卷三", 
+     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "huolongguoxin": [
-        5, 
-        1
+       "shenqizijin": [
+        1, 
+        1.0
        ]
+      }, 
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -5522,31 +5470,83 @@
      }
     }
    }, 
-   "cangbaotu3": {
+   "hongniudan": {
     "config": {
      "price": {
-      "F_coin": 9999
+      "F_coin": 1
      }, 
-     "used": false, 
-     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
-     "name": "藏宝图卷三", 
-     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
+     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
+     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+     "name": "赤カプセル", 
+     "used": false
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "shenqizijin": [
+       "dongqing": [
         1, 
-        1.0
+        0.06
+       ], 
+       "niangao": [
+        1, 
+        0.1
+       ], 
+       "taigu": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.01
+       ], 
+       "shenqima_ti_lian": [
+        1, 
+        0.01
+       ], 
+       "carnation": [
+        1, 
+        0.01
+       ], 
+       "hongkapian": [
+        1, 
+        0.2
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.03
        ]
       }, 
       "properties": {
-       "feedstuffs": {
-        "gaosu": [
+       "fertilizer": {
+        "jisu": [
          1, 
-         1.0
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "xunjie1": [
+         1, 
+         1
         ]
        }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "wushi": [
+        1, 
+        0.1
+       ]
       }
      }
     }
@@ -5600,6 +5600,43 @@
          0.3
         ]
        }
+      }
+     }
+    }
+   }, 
+   "xianhuabaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 125
+     }, 
+     "used": false, 
+     "goods_str": "あの花が入っています。たまに魔法の種も入っているよ！", 
+     "name": "ギフト花の箱", 
+     "introduce": "あの花が入っています。たまに魔法の種も入っているよ！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "mhxy": [
+        1, 
+        0.4
+       ], 
+       "rensheng": [
+        1, 
+        1.0
+       ], 
+       "nrx": [
+        1, 
+        0.2
+       ], 
+       "bushe": [
+        1, 
+        0.01
+       ], 
+       "xingfuren": [
+        1, 
+        0.7
+       ]
       }
      }
     }
