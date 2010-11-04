@@ -9179,21 +9179,6 @@
     "goods_description": "50%の確率で黄ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }, 
-   "cangshu": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "ハムスター", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "ハムスター", 
-    "activity_type": "discount"
-   }, 
    "xiaoheimao": {
     "product_type": {
      "scene_type": "ranch", 
@@ -9211,6 +9196,21 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "guohuatujian": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "国花の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
+    "activity_type": "discount"
    }, 
    "lvdan": {
     "specific_type": "xin", 
