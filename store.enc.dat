@@ -15390,6 +15390,25 @@
      "leaf_time": 180, 
      "level_need": 0
     }, 
+    "cigu": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "クワイ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 150, 
+     "bloom_time": 390, 
+     "experience": 10.5, 
+     "seasons": 1, 
+     "sale_price": 21, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "gold": 252
+     }, 
+     "level_need": 58
+    }, 
     "yangdihuang": {
      "total_time": 960, 
      "leaflet_time": 90, 
@@ -19950,7 +19969,8 @@
     "lizi", 
     "lvluo", 
     "caihua", 
-    "sigua"
+    "sigua", 
+    "cigu"
    ]
   }
  }, 
