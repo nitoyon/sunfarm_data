@@ -5859,15 +5859,16 @@
     "chaiquan", 
     "guinangua", 
     "daxiang", 
+    "tianxiezuo", 
     "fentu", 
     "huolieniaoxin", 
     "shudaixiong", 
     "lantu", 
     "nirenji", 
     "dalanmao", 
-    "shuangfengluotuo", 
     "yrjyt", 
     "pudong", 
+    "shuangfengluotuo", 
     "duck", 
     "tianyuanji", 
     "shaoxingDuck", 
@@ -5877,8 +5878,8 @@
     "beijingDuck", 
     "zhuomuniao", 
     "wuzongGoose", 
-    "huolieniao", 
     "hongtouzhuomuniao", 
+    "huolieniao", 
     "langshanChook", 
     "guangxiMaDuck", 
     "putianDuck", 
@@ -6765,29 +6766,30 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
-    "hongtouzhuomuniao": {
-     "total_time": 1120, 
+    "shuangfengluotuo": {
+     "total_time": 540, 
      "sound": {
-      "p": "1020,1020,1021,1021,-1,-1", 
-      "enable": true, 
-      "name": "juzuiniao"
+      "p": "1070,1070,1071,1071,-1,-1", 
+      "enable": false, 
+      "name": "sfluotuo"
      }, 
-     "used": false, 
-     "name": "ズアカキツツキ", 
+     "harvest_type": 3, 
+     "used": true, 
+     "name": "ラクダ", 
      "base_fruit": 25, 
-     "fruit_time": 650, 
-     "adult_time": 260, 
+     "fruit_time": 243, 
+     "adult_time": 162, 
      "buy_price": {
-      "gold": 10
+      "gold": 37
      }, 
-     "seasons": 5, 
-     "young_time": 210, 
-     "experience": 4.5, 
-     "fruit_name": "たまご", 
-     "is_auto_harvest": true, 
-     "sale_price": 35, 
+     "seasons": 1, 
+     "young_time": 135, 
+     "experience": 1.25, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 5.5, 
      "increment_fruit": 25, 
-     "level_need": 10, 
+     "level_need": 3, 
      "fruit_quantifier": "個"
     }, 
     "huabao": {
@@ -7276,30 +7278,29 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
-    "shuangfengluotuo": {
-     "total_time": 540, 
+    "hongtouzhuomuniao": {
+     "total_time": 1120, 
      "sound": {
-      "p": "1070,1070,1071,1071,-1,-1", 
-      "enable": false, 
-      "name": "sfluotuo"
+      "p": "1020,1020,1021,1021,-1,-1", 
+      "enable": true, 
+      "name": "juzuiniao"
      }, 
-     "harvest_type": 3, 
-     "used": true, 
-     "name": "ラクダ", 
+     "used": false, 
+     "name": "ズアカキツツキ", 
      "base_fruit": 25, 
-     "fruit_time": 243, 
-     "adult_time": 162, 
+     "fruit_time": 650, 
+     "adult_time": 260, 
      "buy_price": {
-      "gold": 37
+      "gold": 10
      }, 
-     "seasons": 1, 
-     "young_time": 135, 
-     "experience": 1.25, 
-     "fruit_name": "", 
-     "is_auto_harvest": false, 
-     "sale_price": 5.5, 
+     "seasons": 5, 
+     "young_time": 210, 
+     "experience": 4.5, 
+     "fruit_name": "たまご", 
+     "is_auto_harvest": true, 
+     "sale_price": 35, 
      "increment_fruit": 25, 
-     "level_need": 3, 
+     "level_need": 10, 
      "fruit_quantifier": "個"
     }, 
     "yangtuo": {
@@ -8626,6 +8627,27 @@
      "fruit_name": "", 
      "is_auto_harvest": false, 
      "sale_price": 98, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "tianxiezuo": {
+     "total_time": 720, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "さそり座", 
+     "base_fruit": 25, 
+     "fruit_time": 240, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 9
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 3.7, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 5, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
