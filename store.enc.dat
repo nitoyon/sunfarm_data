@@ -8660,20 +8660,21 @@
     "xiaoxiong": {
      "total_time": 1680, 
      "harvest_type": 3, 
-     "used": false, 
+     "used": true, 
      "name": "おもちゃくま", 
      "base_fruit": 25, 
      "fruit_time": 720, 
      "adult_time": 720, 
      "buy_price": {
-      "F_coin": 50
+      "F_coin": 25
      }, 
+     "state": "xin", 
      "seasons": 1, 
      "young_time": 240, 
-     "experience": 18, 
+     "experience": 9.8, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 170, 
+     "sale_price": 100, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -8681,7 +8682,7 @@
     "tianxiezuo": {
      "total_time": 720, 
      "harvest_type": 3, 
-     "used": false, 
+     "used": true, 
      "name": "さそり座", 
      "base_fruit": 25, 
      "fruit_time": 240, 
@@ -9012,7 +9013,7 @@
     "keaihema": {
      "total_time": 1680, 
      "harvest_type": 3, 
-     "used": false, 
+     "used": true, 
      "name": "おもちゃカバ", 
      "base_fruit": 25, 
      "fruit_time": 720, 
@@ -9022,10 +9023,10 @@
      }, 
      "seasons": 1, 
      "young_time": 240, 
-     "experience": 18, 
+     "experience": 20, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 170, 
+     "sale_price": 200, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
