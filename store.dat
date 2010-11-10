@@ -8695,7 +8695,7 @@
      "experience": 3.7, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 5, 
+     "sale_price": 25, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "\u500b"
@@ -9298,6 +9298,21 @@
     }, 
     "modify": true, 
     "goods_description": "100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u56fd\u82b1\u30b7\u30ea\u30fc\u30ba\u306e\u82b1\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
+    "activity_type": "discount"
+   }, 
+   "tianxiezuo": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u3055\u305d\u308a\u5ea7", 
+    "price": {
+     "num": 9, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "\u3055\u305d\u308a\u5ea7", 
     "activity_type": "discount"
    }
   }, 
