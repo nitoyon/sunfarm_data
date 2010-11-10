@@ -9255,6 +9255,21 @@
     }, 
     "activity_type": "hot_sale"
    }, 
+   "cangshu": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "ハムスター", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "ハムスター", 
+    "activity_type": "discount"
+   }, 
    "xiaoxiong": {
     "product_type": {
      "scene_type": "ranch", 
@@ -9334,6 +9349,26 @@
     }, 
     "modify": true, 
     "goods_description": "ホワイトうさぎ", 
+    "activity_type": "discount"
+   }, 
+   "jisu1": {
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
+    }, 
+    "name": "スーパー飼料", 
+    "price": {
+     "num": 9, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "スーパー飼料", 
     "activity_type": "discount"
    }, 
    "guohuatujian": {
