@@ -9237,24 +9237,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "keaihema": {
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "おもちゃカバ", 
-    "start_time": 1289376000.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1289980800.0, 
-    "goods_description": "おもちゃカバ", 
-    "price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "cangshu": {
     "specific_type": "re", 
     "product_type": {
@@ -9270,23 +9252,25 @@
     "goods_description": "ハムスター", 
     "activity_type": "discount"
    }, 
-   "xiaoxiong": {
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "おもちゃくま", 
-    "start_time": 1289376000.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1289980800.0, 
-    "goods_description": "おもちゃくま", 
-    "price": {
-     "num": 25, 
+   "jisu1": {
+    "original_price": {
+     "num": 12, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
+    }, 
+    "name": "スーパー飼料", 
+    "price": {
+     "num": 9, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "スーパー飼料", 
+    "activity_type": "discount"
    }, 
    "xiaoheimao": {
     "product_type": {
@@ -9305,6 +9289,21 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "guohuatujian": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "国花の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
+    "activity_type": "discount"
    }, 
    "tujianbaoxiang": {
     "specific_type": "xin", 
@@ -9351,40 +9350,41 @@
     "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
    }, 
-   "jisu1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
-    }, 
-    "name": "スーパー飼料", 
-    "price": {
-     "num": 9, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "スーパー飼料", 
-    "activity_type": "discount"
-   }, 
-   "guohuatujian": {
-    "specific_type": "xin", 
+   "crystal": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "国花の宝箱", 
+    "name": "クリスタル", 
+    "start_time": 1289433600.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日9時間", 
+    "end_time": 1290070800.0, 
+    "goods_description": "お面アイテムと高級肥料が1つずつ入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "hammer": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "マジックハンマー", 
+    "start_time": 1289433600.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日9時間", 
+    "end_time": 1290070800.0, 
+    "goods_description": "クリスタルを開けることができます。", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
