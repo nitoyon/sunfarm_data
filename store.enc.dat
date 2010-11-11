@@ -4683,9 +4683,9 @@
       "F_coin": 125
      }, 
      "used": false, 
-     "goods_str": "あの花が入っています。たまに魔法の種も入っているよ！", 
-     "name": "ギフト花の箱", 
-     "introduce": "あの花が入っています。たまに魔法の種も入っているよ！"
+     "goods_str": "さまざまなアイテムが入っています！", 
+     "name": "ギフト箱", 
+     "introduce": "さまざまなアイテムが入っています！"
     }, 
     "data": {
      "farm": {
@@ -4696,17 +4696,41 @@
        ], 
        "rensheng": [
         1, 
-        1.0
+        0.5
        ], 
        "nrx": [
         1, 
-        0.01
+        0.2
        ], 
        "bushe": [
         1, 
-        0.1
+        0.02
        ], 
        "xingfuren": [
+        1, 
+        0.5
+       ]
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "moguijiwawa": [
+        1, 
+        0.01
+       ], 
+       "taohuamao": [
+        1, 
+        1.0
+       ], 
+       "moguizheermao": [
+        1, 
+        0.4
+       ], 
+       "tianshijiwawa": [
+        1, 
+        0.2
+       ], 
+       "tianshizheermao": [
         1, 
         0.7
        ]
