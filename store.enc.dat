@@ -5984,7 +5984,7 @@
       "used": true, 
       "name": "スーパー飼料", 
       "price": {
-       "F_coin": 12
+       "F_coin": 9
       }, 
       "effect": 10, 
       "introduce": "使うと動物の生産時間を10時間短縮できます。", 
@@ -9237,39 +9237,34 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "cangshu": {
-    "specific_type": "re", 
+   "keaihema": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "ranch", 
      "goods_type": "baby"
     }, 
-    "name": "ハムスター", 
+    "name": "おもちゃカバ", 
     "price": {
-     "num": 30, 
+     "num": 50, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "ハムスター", 
+    "goods_description": "おもちゃカバ", 
     "activity_type": "discount"
    }, 
-   "jisu1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
+   "xiaoxiong": {
+    "specific_type": "xin", 
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
+     "goods_type": "baby"
     }, 
-    "name": "スーパー飼料", 
+    "name": "おもちゃくま", 
     "price": {
-     "num": 9, 
+     "num": 25, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "スーパー飼料", 
+    "goods_description": "おもちゃくま", 
     "activity_type": "discount"
    }, 
    "xiaoheimao": {
@@ -9320,21 +9315,6 @@
     "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
     "activity_type": "discount"
    }, 
-   "tianxiezuo": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "さそり座", 
-    "price": {
-     "num": 9, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "さそり座", 
-    "activity_type": "discount"
-   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -9350,23 +9330,25 @@
     "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
    }, 
-   "crystal": {
+   "jisu1": {
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
     }, 
-    "name": "クリスタル", 
-    "start_time": 1289433600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日9時間", 
-    "end_time": 1290070800.0, 
-    "goods_description": "お面アイテムと高級肥料が1つずつ入っています。", 
+    "name": "スーパー飼料", 
     "price": {
-     "num": 100, 
-     "type": "gold"
+     "num": 9, 
+     "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "スーパー飼料", 
+    "activity_type": "discount"
    }, 
    "hammer": {
     "product_type": {
@@ -9383,6 +9365,24 @@
     "price": {
      "num": 10, 
      "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "クリスタル", 
+    "start_time": 1289433600.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日9時間", 
+    "end_time": 1290070800.0, 
+    "goods_description": "お面アイテムと高級肥料が1つずつ入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
     }, 
     "activity_type": "hot_sale"
    }
