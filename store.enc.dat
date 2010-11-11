@@ -5538,14 +5538,14 @@
    }, 
    "crystal": {
     "config": {
-     "goods_str": "お面アイテムと高級肥料が1つ入っています。", 
+     "goods_str": "お面アイテムと高級肥料が1つずつ入っています。", 
      "name": "クリスタル", 
      "price": {
       "gold": 100
      }, 
-     "introduce": "お面アイテムと高級肥料が1つ入っています。", 
+     "introduce": "お面アイテムと高級肥料が1つずつ入っています。", 
      "state": "xin", 
-     "used": false
+     "used": true
     }
    }, 
    "hammer": {
@@ -5557,7 +5557,7 @@
      }, 
      "introduce": "クリスタルを開けることができます。", 
      "state": "xin", 
-     "used": false
+     "used": true
     }
    }, 
    "hongseniudan": {
