@@ -766,9 +766,9 @@
       "F_coin": 500
      }, 
      "used": false, 
-     "goods_str": "全種コンプリートおめでとう、さっそく開けてみよう！", 
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムだけでなく、畜産のゾウさんが1つと畑の千歳飴の種が5つも入っているよ！さっそく開けてみよう！", 
      "name": "niudanlipinbao", 
-     "introduce": "全種コンプリートおめでとう、さっそく開けてみよう！"
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムだけでなく、畜産のゾウさんが1つと畑の千歳飴の種が5つも入っているよ！さっそく開けてみよう！"
     }, 
     "data": {
      "farm": {
@@ -797,6 +797,10 @@
         1, 
         1.0
        ], 
+       "qinglvmogu": [
+        1, 
+        1.0
+       ], 
        "nirenyali": [
         1, 
         1.0
@@ -805,7 +809,7 @@
         1, 
         1.0
        ], 
-       "qinglvmogu": [
+       "hongbailanmeigui": [
         1, 
         1.0
        ], 
@@ -813,12 +817,8 @@
         5, 
         1.0
        ], 
-       "zhangyufengzheng": [
-        1, 
-        1.0
-       ], 
-       "hongbailanmeigui": [
-        1, 
+       "qiansuitang": [
+        5, 
         1.0
        ]
       }, 
@@ -7369,7 +7369,7 @@
      "total_time": 1440, 
      "harvest_type": 3, 
      "used": false, 
-     "name": "ゾウ", 
+     "name": "ゾウさん", 
      "base_fruit": 25, 
      "fruit_time": 570, 
      "adult_time": 570, 
