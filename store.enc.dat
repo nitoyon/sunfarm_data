@@ -9995,6 +9995,25 @@
      }, 
      "level_need": 0
     }, 
+    "lanqiansuitang": {
+     "total_time": 730, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ブルーベリーの千歳飴", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 150, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "lanmeibingjiling": {
      "total_time": 684, 
      "leaflet_time": 124, 
@@ -10374,6 +10393,25 @@
       "gold": 270
      }, 
      "level_need": 48
+    }, 
+    "zhuangshipinghua": {
+     "total_time": 630, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "瓶花", 
+     "base_fruit": 25, 
+     "fruit_time": 180, 
+     "sprout_time": 90, 
+     "bloom_time": 160, 
+     "experience": 119, 
+     "seasons": 1, 
+     "sale_price": 260, 
+     "increment_fruit": 25, 
+     "leaf_time": 110, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 0
     }, 
     "nanmogu": {
      "total_time": 1080, 
@@ -11558,6 +11596,27 @@
      }, 
      "leaf_time": 150, 
      "level_need": 0
+    }, 
+    "qiansuitang": {
+     "total_time": 730, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "千歳飴", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "introduce": "面白い千歳飴、何味になるかは育ってからのお楽しみ！", 
+     "is_random": true, 
+     "increment_fruit": 25, 
+     "bloom_time": 150, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "leaf_time": 150, 
+     "level_need": 1
     }, 
     "zhuzi": {
      "total_time": 1500, 
@@ -13471,23 +13530,24 @@
      "leaf_time": 60, 
      "level_need": 0
     }, 
-    "zhishimianbaotiao": {
-     "total_time": 460, 
-     "leaflet_time": 80, 
+    "knx": {
+     "total_time": 1875, 
+     "leaflet_time": 360, 
      "used": false, 
-     "name": "チーズフランスパン", 
+     "name": "母の日のカーネーション", 
      "base_fruit": 25, 
-     "fruit_time": 160, 
-     "sprout_time": 60, 
-     "bloom_time": 80, 
-     "experience": 7.59, 
-     "seasons": 2, 
-     "sale_price": 8, 
+     "fruit_time": 400, 
+     "goodstype": "flower", 
+     "sprout_time": 355, 
      "increment_fruit": 25, 
-     "leaf_time": 80, 
+     "bloom_time": 400, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "seed_price": {
-      "gold": 480
+      "gold": 1
      }, 
+     "leaf_time": 360, 
      "level_need": 1
     }, 
     "hezuoluobo": {
@@ -15224,6 +15284,25 @@
      }, 
      "level_need": 1
     }, 
+    "lvqiansuitang": {
+     "total_time": 730, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "りんごの千歳飴", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 150, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "xingzi": {
      "total_time": 1962, 
      "leaflet_time": 332, 
@@ -15261,6 +15340,25 @@
       "F_coin": 1
      }, 
      "level_need": 0
+    }, 
+    "huangqiansuitang": {
+     "total_time": 730, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "みかんの千歳飴", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 150, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
     }, 
     "juanxincai": {
      "total_time": 360, 
@@ -16313,24 +16411,23 @@
      }, 
      "level_need": 1
     }, 
-    "knx": {
-     "total_time": 1875, 
-     "leaflet_time": 360, 
+    "zhishimianbaotiao": {
+     "total_time": 460, 
+     "leaflet_time": 80, 
      "used": false, 
-     "name": "母の日のカーネーション", 
+     "name": "チーズフランスパン", 
      "base_fruit": 25, 
-     "fruit_time": 400, 
-     "goodstype": "flower", 
-     "sprout_time": 355, 
+     "fruit_time": 160, 
+     "sprout_time": 60, 
+     "bloom_time": 80, 
+     "experience": 7.59, 
+     "seasons": 2, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "bloom_time": 400, 
-     "experience": 7, 
-     "seasons": 1, 
-     "sale_price": 15, 
+     "leaf_time": 80, 
      "seed_price": {
-      "gold": 1
+      "gold": 480
      }, 
-     "leaf_time": 360, 
      "level_need": 1
     }, 
     "youlisanwenyucishen": {
@@ -16679,6 +16776,25 @@
      "leaf_time": 210, 
      "seed_price": {
       "gold": 1460
+     }, 
+     "level_need": 1
+    }, 
+    "ziqiansuitang": {
+     "total_time": 730, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ぶどうの千歳飴", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 150, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -17146,24 +17262,24 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "zhuangshipinghua": {
-     "total_time": 630, 
+    "hongqiansuitang": {
+     "total_time": 730, 
      "leaflet_time": 90, 
      "used": false, 
-     "name": "瓶花", 
+     "name": "いちごの千歳飴", 
      "base_fruit": 25, 
-     "fruit_time": 180, 
-     "sprout_time": 90, 
-     "bloom_time": 160, 
-     "experience": 119, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 150, 
+     "experience": 6, 
      "seasons": 1, 
-     "sale_price": 260, 
+     "sale_price": 9, 
      "increment_fruit": 25, 
-     "leaf_time": 110, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 20
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "jianaguoqishua": {
      "total_time": 1650, 
@@ -19854,7 +19970,6 @@
    "seeds_sort": [
     "hhlyq", 
     "chinesecrabapple", 
-    "zijin", 
     "yinghua", 
     "lajin", 
     "lankapian", 
@@ -19895,6 +20010,7 @@
     "xiuqiuhua", 
     "yutuhua", 
     "diyongjinlian", 
+    "zijin", 
     "tuqianniuhua", 
     "dawanhua", 
     "springorchid", 
@@ -20029,12 +20145,14 @@
     "dongguadunpaigu", 
     "yusan", 
     "shaluo", 
+    "hongqiansuitang", 
     "wurongtianfuluo", 
     "jingzhiganlanyou", 
     "yinggelanguoqishua", 
     "jianaguoqishua", 
     "fanqieniurouyimian", 
     "weixiaonangua", 
+    "lanqiansuitang", 
     "lanmeibingjiling", 
     "zhuzixin", 
     "fuqinjiehuashu01", 
@@ -20060,6 +20178,7 @@
     "fuqinjiehuasu", 
     "piaoliangdepenhua", 
     "qinglvmogu", 
+    "qiansuitang", 
     "baitang", 
     "xilengniupai", 
     "kuqinangua", 
@@ -20122,6 +20241,8 @@
     "helanguoqishua", 
     "baxiguoqishu", 
     "shanyao", 
+    "lvqiansuitang", 
+    "huangqiansuitang", 
     "shuiguoshala", 
     "qingtongshu", 
     "qingtianwawa", 
@@ -20155,6 +20276,7 @@
     "youlicishen", 
     "lajiaojiang", 
     "jingjiangrousi", 
+    "ziqiansuitang", 
     "fanqieroujiangmian", 
     "fanqieguopu", 
     "zhiliguoqishua", 
