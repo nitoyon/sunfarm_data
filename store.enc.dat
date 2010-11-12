@@ -760,6 +760,107 @@
      }
     }
    }, 
+   "niudanlipinbao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、さっそく開けてみよう！", 
+     "name": "niudanlipinbao", 
+     "introduce": "全種コンプリートおめでとう、さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        1.0
+       ], 
+       "tianshanxuelian": [
+        1, 
+        1.0
+       ], 
+       "nirenxianrenzhang": [
+        1, 
+        1.0
+       ], 
+       "nirentaigu": [
+        1, 
+        1.0
+       ], 
+       "hudiehua": [
+        1, 
+        1.0
+       ], 
+       "nanmogu": [
+        1, 
+        1.0
+       ], 
+       "nirenyali": [
+        1, 
+        1.0
+       ], 
+       "nvmogu": [
+        1, 
+        1.0
+       ], 
+       "qinglvmogu": [
+        1, 
+        1.0
+       ], 
+       "yutuhua": [
+        5, 
+        1.0
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        1.0
+       ], 
+       "hongbailanmeigui": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "test": [
+         5, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "daxiang": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "gb_10": {
     "config": {
      "price": {
