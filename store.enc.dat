@@ -9367,22 +9367,19 @@
   ], 
   "hot_sale": {
    "keaihema": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "ranch", 
      "goods_type": "baby"
     }, 
     "name": "おもちゃカバ", 
-    "start_time": 1289376000.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1289980800.0, 
-    "goods_description": "おもちゃカバ", 
     "price": {
      "num": 50, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "おもちゃカバ", 
+    "activity_type": "discount"
    }, 
    "xiaoxiong": {
     "specific_type": "xin", 
@@ -9429,20 +9426,23 @@
     "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
     "activity_type": "discount"
    }, 
-   "tianxiezuo": {
-    "specific_type": "xin", 
+   "crystal": {
     "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "さそり座", 
+    "name": "クリスタル", 
+    "start_time": 1289433600.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日9時間", 
+    "end_time": 1290070800.0, 
+    "goods_description": "お面アイテムと高級肥料が1つずつ入っています。", 
     "price": {
-     "num": 9, 
-     "type": "F_coin"
+     "num": 100, 
+     "type": "gold"
     }, 
-    "modify": true, 
-    "goods_description": "さそり座", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "baitu": {
     "specific_type": "re", 
@@ -9497,21 +9497,21 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "crystal": {
+   "qiansuitang": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "クリスタル", 
-    "start_time": 1289433600.0, 
+    "name": "千歳飴", 
+    "start_time": 1289617200.0, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "7日9時間", 
-    "end_time": 1290070800.0, 
-    "goods_description": "お面アイテムと高級肥料が1つずつ入っています。", 
+    "limit_time": "5日", 
+    "end_time": 1290049200.0, 
+    "goods_description": "面白い千歳飴、何味になるかは育ってからのお楽しみ。全種揃って図鑑を完成しよう！", 
     "price": {
-     "num": 100, 
-     "type": "gold"
+     "num": 20, 
+     "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
    }
