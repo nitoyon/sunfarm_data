@@ -19343,6 +19343,151 @@
     "cigu"
    ], 
    "properties": {
+    "dog_food": {
+     "dogfood": {
+      "used": true, 
+      "name": "食べ物（畑）", 
+      "price": {
+       "F_coin": 2
+      }, 
+      "introduce": "一日分の食べ物、ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
+      "multi_buy": false, 
+      "time": 24
+     }, 
+     "shouhunengliangbao": {
+      "used": false, 
+      "name": "高級見張り番の餌", 
+      "price": {
+       "F_coin": 10
+      }, 
+      "introduce": "五日分の見張り番の餌、それに二日分をサービスします。見張り番は餌を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。餌の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
+      "multi_buy": false, 
+      "time": 168
+     }, 
+     "shouhunengliang": {
+      "used": false, 
+      "name": "見張り番の餌", 
+      "price": {
+       "F_coin": 2
+      }, 
+      "introduce": "一日分の見張り番の餌、見張り番は餌を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。餌の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
+      "multi_buy": false, 
+      "time": 24
+     }, 
+     "big_food": {
+      "used": true, 
+      "name": "食べ物セット（畑）", 
+      "price": {
+       "F_coin": 10
+      }, 
+      "introduce": "五日分の食べ物、それに二日分をサービスします。ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
+      "multi_buy": false, 
+      "time": 168
+     }
+    }, 
+    "dog": {
+     "xuenarui": {
+      "used": true, 
+      "name": "シュナウザー（畑）", 
+      "price": {
+       "F_coin": 16
+      }, 
+      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物がないと働けません。", 
+      "multi_buy": false, 
+      "pro": 1
+     }, 
+     "stray": {
+      "used": true, 
+      "name": "野良犬", 
+      "price": {
+       "gold": 3500
+      }, 
+      "introduce": "摘み取りに来たマイミクさんを捕まえて、マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物はないと働けません。", 
+      "multi_buy": false, 
+      "pro": 0.2
+     }, 
+     "wupo": {
+      "used": true, 
+      "name": "巫女", 
+      "price": {
+       "gold": 5000
+      }, 
+      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物がないと働けません。", 
+      "multi_buy": false, 
+      "pro": 0.3
+     }, 
+     "shengdanlaoren": {
+      "used": false, 
+      "name": "サンタ", 
+      "price": {
+       "F_coin": 0
+      }, 
+      "introduce": "一般のガーディアンより捕まえる確率が50%高いです（クリスマスの限定商品です）。マイミクさんから落すコイン20-80（ランダム）とシステムからの同じ金額のコインをゲットします。但し、食べ物がないと働けません。", 
+      "multi_buy": false, 
+      "pro": 0.3
+     }, 
+     "tianshinv": {
+      "used": true, 
+      "name": "ラブエンジェル（女の子）", 
+      "price": {
+       "gold": 214
+      }, 
+      "introduce": "伝説の愛の象徴、恋人たちの守護神、サンシャイン牧場では、あなたの守護神になります。", 
+      "multi_buy": false, 
+      "pro": 0.2
+     }, 
+     "taidi": {
+      "used": true, 
+      "name": "プードル（畑）", 
+      "price": {
+       "F_coin": 16
+      }, 
+      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落すコイン20-80（ランダム）とシステムからの同じ金額のコインをゲットします。但し、食べ物がないと働けません。", 
+      "multi_buy": false, 
+      "pro": 1
+     }, 
+     "yhxianzi": {
+      "used": true, 
+      "name": "桜の妖精", 
+      "price": {
+       "gold": 3000
+      }, 
+      "introduce": "春と共に現る桜を見守る妖精、サンシャイン牧場では、あなたの守護神になります。", 
+      "multi_buy": false, 
+      "pro": 0.3
+     }
+    }, 
+    "pest": {
+     "ladybird": {
+      "count": 10, 
+      "used": false, 
+      "name": "テントウムシ", 
+      "price": {
+       "gold": 500
+      }, 
+      "effect": 15, 
+      "introduce": "友達の作物に使えます。相手に退治されると、普通よりもっと多く収穫できます。"
+     }
+    }, 
+    "point_coupons": {
+     "auction_point_coupons_bag": {
+      "price": {
+       "F_coin": 1
+      }, 
+      "used": false, 
+      "name": "チケットセット（５枚入り）", 
+      "introduce": "クローズドオークション参加用のチケットセット、５枚入り。"
+     }, 
+     "auction_point_coupons": {
+      "price": {
+       "F_coin": 0.2
+      }, 
+      "used": false, 
+      "one_buy_num": 5, 
+      "introduce": "クローズドオークション参加用のチケット、入札するには一枚必要です。（クロオクまもなく登場、お楽しみに！）", 
+      "name": "チケット"
+     }
+    }, 
     "fertilizer": {
      "zengshou1": {
       "crops_level": [
@@ -19554,132 +19699,6 @@
       "end_time": 1288105200, 
       "discount_rate": 0.7, 
       "message": "3割引券を使用し、"
-     }
-    }, 
-    "pest": {
-     "ladybird": {
-      "count": 10, 
-      "used": false, 
-      "name": "テントウムシ", 
-      "price": {
-       "gold": 500
-      }, 
-      "effect": 15, 
-      "introduce": "友達の作物に使えます。相手に退治されると、普通よりもっと多く収穫できます。"
-     }
-    }, 
-    "dog": {
-     "xuenarui": {
-      "used": true, 
-      "name": "シュナウザー（畑）", 
-      "price": {
-       "F_coin": 16
-      }, 
-      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物がないと働けません。", 
-      "multi_buy": false, 
-      "pro": 1
-     }, 
-     "stray": {
-      "used": true, 
-      "name": "野良犬", 
-      "price": {
-       "gold": 3500
-      }, 
-      "introduce": "摘み取りに来たマイミクさんを捕まえて、マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物はないと働けません。", 
-      "multi_buy": false, 
-      "pro": 0.2
-     }, 
-     "wupo": {
-      "used": true, 
-      "name": "巫女", 
-      "price": {
-       "gold": 5000
-      }, 
-      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物がないと働けません。", 
-      "multi_buy": false, 
-      "pro": 0.3
-     }, 
-     "shengdanlaoren": {
-      "used": false, 
-      "name": "サンタ", 
-      "price": {
-       "F_coin": 0
-      }, 
-      "introduce": "一般のガーディアンより捕まえる確率が50%高いです（クリスマスの限定商品です）。マイミクさんから落すコイン20-80（ランダム）とシステムからの同じ金額のコインをゲットします。但し、食べ物がないと働けません。", 
-      "multi_buy": false, 
-      "pro": 0.3
-     }, 
-     "tianshinv": {
-      "used": true, 
-      "name": "ラブエンジェル（女の子）", 
-      "price": {
-       "gold": 214
-      }, 
-      "introduce": "伝説の愛の象徴、恋人たちの守護神、サンシャイン牧場では、あなたの守護神になります。", 
-      "multi_buy": false, 
-      "pro": 0.2
-     }, 
-     "taidi": {
-      "used": true, 
-      "name": "プードル（畑）", 
-      "price": {
-       "F_coin": 16
-      }, 
-      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落すコイン20-80（ランダム）とシステムからの同じ金額のコインをゲットします。但し、食べ物がないと働けません。", 
-      "multi_buy": false, 
-      "pro": 1
-     }, 
-     "yhxianzi": {
-      "used": true, 
-      "name": "桜の妖精", 
-      "price": {
-       "gold": 3000
-      }, 
-      "introduce": "春と共に現る桜を見守る妖精、サンシャイン牧場では、あなたの守護神になります。", 
-      "multi_buy": false, 
-      "pro": 0.3
-     }
-    }, 
-    "dog_food": {
-     "dogfood": {
-      "used": true, 
-      "name": "食べ物（畑）", 
-      "price": {
-       "F_coin": 2
-      }, 
-      "introduce": "一日分の食べ物、ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
-      "multi_buy": false, 
-      "time": 24
-     }, 
-     "shouhunengliangbao": {
-      "used": false, 
-      "name": "高級見張り番の餌", 
-      "price": {
-       "F_coin": 10
-      }, 
-      "introduce": "五日分の見張り番の餌、それに二日分をサービスします。見張り番は餌を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。餌の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
-      "multi_buy": false, 
-      "time": 168
-     }, 
-     "shouhunengliang": {
-      "used": false, 
-      "name": "見張り番の餌", 
-      "price": {
-       "F_coin": 2
-      }, 
-      "introduce": "一日分の見張り番の餌、見張り番は餌を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。餌の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
-      "multi_buy": false, 
-      "time": 24
-     }, 
-     "big_food": {
-      "used": true, 
-      "name": "食べ物セット（畑）", 
-      "price": {
-       "F_coin": 10
-      }, 
-      "introduce": "五日分の食べ物、それに二日分をサービスします。ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
-      "multi_buy": false, 
-      "time": 168
      }
     }
    }, 
@@ -20462,6 +20481,28 @@
     }
    }, 
    "properties_sort": {
+    "dog_food": [
+     "shouhunengliang", 
+     "big_food", 
+     "dogfood", 
+     "shouhunengliangbao"
+    ], 
+    "dog": [
+     "shengdanlaoren", 
+     "xuenarui", 
+     "taidi", 
+     "tianshinv", 
+     "wupo", 
+     "yhxianzi", 
+     "stray"
+    ], 
+    "pest": [
+     "ladybird"
+    ], 
+    "point_coupons": [
+     "auction_point_coupons", 
+     "auction_point_coupons_bag"
+    ], 
     "fertilizer": [
      "xunjie", 
      "xunjie1", 
@@ -20481,24 +20522,6 @@
     ], 
     "discount_card": [
      "seven_fold"
-    ], 
-    "pest": [
-     "ladybird"
-    ], 
-    "dog": [
-     "shengdanlaoren", 
-     "xuenarui", 
-     "taidi", 
-     "tianshinv", 
-     "wupo", 
-     "yhxianzi", 
-     "stray"
-    ], 
-    "dog_food": [
-     "shouhunengliang", 
-     "big_food", 
-     "dogfood", 
-     "shouhunengliangbao"
     ]
    }
   }, 
