@@ -140,13 +140,14 @@
    }, 
    "huafeibao1": {
     "config": {
+     "used": true, 
+     "name": "中級肥料セット", 
      "price": {
       "F_coin": 15
      }, 
-     "used": true, 
-     "goods_str": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
-     "name": "中級肥料セット", 
-     "introduce": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。"
+     "introduce": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
+     "state": "re", 
+     "goods_str": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。"
     }, 
     "data": {
      "farm": {
@@ -350,13 +351,14 @@
    }, 
    "zhounianbao4": {
     "config": {
+     "used": true, 
+     "name": "限定種セット", 
      "price": {
       "F_coin": 500
      }, 
-     "used": true, 
-     "goods_str": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
-     "name": "限定種セット", 
-     "introduce": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。"
+     "introduce": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
+     "state": "re", 
+     "goods_str": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。"
     }, 
     "data": {
      "farm": {
@@ -682,13 +684,14 @@
    }, 
    "guoqibao": {
     "config": {
+     "used": true, 
+     "name": "国旗樹オリジナルセット", 
      "price": {
       "F_coin": 500
      }, 
-     "used": true, 
-     "goods_str": "国旗樹オリジナルセット。ステータスは現存する国旗樹と同じです。(国旗樹の種が16種類1個ずつ入ってます。)", 
-     "name": "国旗樹オリジナルセット", 
-     "introduce": "国旗樹オリジナルセット。ステータスは現存する国旗樹と同じです。(国旗樹の種が16種類1個ずつ入ってます。)"
+     "introduce": "国旗樹オリジナルセット。ステータスは現存する国旗樹と同じです。(国旗樹の種が16種類1個ずつ入ってます。)", 
+     "state": "re", 
+     "goods_str": "国旗樹オリジナルセット。ステータスは現存する国旗樹と同じです。(国旗樹の種が16種類1個ずつ入ってます。)"
     }, 
     "data": {
      "farm": {
@@ -1154,13 +1157,14 @@
    }, 
    "siliaobao1": {
     "config": {
+     "used": true, 
+     "name": "中級飼料セット", 
      "price": {
       "F_coin": 15
      }, 
-     "used": true, 
-     "goods_str": "中には中級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
-     "name": "中級飼料セット", 
-     "introduce": "中には中級飼料が五つ含まれていて、さらに二つをプレゼントします。"
+     "introduce": "中には中級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
+     "state": "re", 
+     "goods_str": "中には中級飼料が五つ含まれていて、さらに二つをプレゼントします。"
     }, 
     "data": {
      "ranch": {
@@ -1201,13 +1205,14 @@
    }, 
    "zhongzibao": {
     "config": {
+     "used": true, 
+     "name": "ノベルティ種セット", 
      "price": {
       "F_coin": 48
      }, 
-     "used": true, 
-     "goods_str": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。", 
-     "name": "ノベルティ種セット", 
-     "introduce": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。"
+     "introduce": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。", 
+     "state": "re", 
+     "goods_str": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。"
     }, 
     "data": {
      "farm": {
@@ -1267,13 +1272,14 @@
    }, 
    "guoqibaofuke": {
     "config": {
+     "used": true, 
+     "name": "復刻版国旗樹セット", 
      "price": {
       "F_coin": 100
      }, 
-     "used": true, 
-     "goods_str": "国旗樹復刻版セット。オリジナルよりステータスが低いのでご注意ください。(復刻版国旗樹の種が16種類1個ずつ入ってます。)", 
-     "name": "復刻版国旗樹セット", 
-     "introduce": "国旗樹復刻版セット。オリジナルよりステータスが低いのでご注意ください。(復刻版国旗樹の種が16種類1個ずつ入ってます。)"
+     "introduce": "国旗樹復刻版セット。オリジナルよりステータスが低いのでご注意ください。(復刻版国旗樹の種が16種類1個ずつ入ってます。)", 
+     "state": "re", 
+     "goods_str": "国旗樹復刻版セット。オリジナルよりステータスが低いのでご注意ください。(復刻版国旗樹の種が16種類1個ずつ入ってます。)"
     }, 
     "data": {
      "farm": {
@@ -20535,21 +20541,25 @@
    "gb_17", 
    "putaobao", 
    "huafeibao2", 
+   "huafeibao1", 
+   "zhounianbao4", 
    "chaozhilibao", 
+   "guoqibao", 
    "gb_11", 
    "gb_13", 
+   "siliaobao1", 
    "siliaobao2", 
+   "zhongzibao", 
    "siliao_1", 
+   "guoqibaofuke", 
    "dongwubao", 
    "crops_suanrulao_gift", 
    "crops_huanxianghua_gift", 
    "crops_yingtaodangao_gift", 
-   "huafeibao1", 
    "zhounianbao2", 
    "zhounianbao3", 
    "zhounianbao1", 
    "crops_hongfushi_gift", 
-   "zhounianbao4", 
    "guoqinglibao", 
    "crops_xiangkaoyangpai_gift", 
    "crops_tianyuanji_gift", 
@@ -20564,7 +20574,6 @@
    "hb_3", 
    "hb_2", 
    "crops_youlicishen_gift", 
-   "guoqibao", 
    "crops_naiyou_gift", 
    "crops_juxianghuacha_gift", 
    "crops_tilamisu_gift", 
@@ -20579,14 +20588,12 @@
    "crops_pingguopai_gift", 
    "crops_jiajiepingguo_gift", 
    "crops_guoguangpingguo_gift", 
-   "siliaobao1", 
    "crops_zhishimianbaogan_gift", 
    "crops_moguniurouchaofan_gift", 
    "crops_hongtang_gift", 
    "crops_zhuanjiyindanji_gift", 
    "crops_lajiaoyou_gift", 
    "crops_fanqieguopu_gift", 
-   "zhongzibao", 
    "crops_fanqieroujiangmian_gift", 
    "juice_shucaizhi_gift", 
    "crops_naiyoukaoyumi_gift", 
@@ -20603,7 +20610,6 @@
    "crops_dongguapaigutang_gift", 
    "crops_shuiguojiang_gift", 
    "crops_ganlanyou_gift", 
-   "guoqibaofuke", 
    "items_shiyanfeiliao_gift", 
    "items_dijifeiliao_gift", 
    "qixilibao", 
