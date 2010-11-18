@@ -9400,6 +9400,24 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "fengyeshu": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "楓", 
+    "start_time": 1290070800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1290589200.0, 
+    "goods_description": "この季節と言えば紅葉です。", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "keaihema": {
     "specific_type": "xin", 
     "product_type": {
@@ -9430,19 +9448,19 @@
     "goods_description": "おもちゃくま", 
     "activity_type": "discount"
    }, 
-   "guohuatujian": {
+   "tujianbaoxiang": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "国花の宝箱", 
+    "name": "花の宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
+    "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
     "activity_type": "discount"
    }, 
    "baitu": {
@@ -9483,19 +9501,19 @@
     "start_time": 1290063600.0, 
     "activity_type": "hot_sale"
    }, 
-   "tujianbaoxiang": {
+   "guohuatujian": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "花の宝箱", 
+    "name": "国花の宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
     "activity_type": "discount"
    }
   }, 
