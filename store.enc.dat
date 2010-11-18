@@ -9460,24 +9460,6 @@
     "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
     "activity_type": "discount"
    }, 
-   "crystal": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "クリスタル", 
-    "start_time": 1289433600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日9時間", 
-    "end_time": 1290070800.0, 
-    "goods_description": "お面アイテムと高級肥料が1つずつ入っています。", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -9531,21 +9513,21 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "qiansuitang": {
+   "crystal": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "千歳飴", 
-    "start_time": 1289617200.0, 
+    "name": "クリスタル", 
+    "start_time": 1289433600.0, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1290049200.0, 
-    "goods_description": "面白い千歳飴、何味になるかは育ってからのお楽しみ。全種揃って図鑑を完成しよう！", 
+    "limit_time": "7日9時間", 
+    "end_time": 1290070800.0, 
+    "goods_description": "お面アイテムと高級肥料が1つずつ入っています。", 
     "price": {
-     "num": 20, 
-     "type": "F_coin"
+     "num": 100, 
+     "type": "gold"
     }, 
     "activity_type": "hot_sale"
    }
@@ -11638,7 +11620,7 @@
     "qiansuitang": {
      "total_time": 730, 
      "leaflet_time": 90, 
-     "used": true, 
+     "used": false, 
      "name": "千歳飴", 
      "base_fruit": 25, 
      "fruit_time": 330, 
