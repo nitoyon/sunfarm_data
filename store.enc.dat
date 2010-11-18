@@ -9480,7 +9480,6 @@
      "num": 12, 
      "type": "F_coin"
     }, 
-    "specific_type": "zhe", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "ranch", 
@@ -9491,9 +9490,13 @@
      "num": 9, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "スーパー飼料", 
-    "activity_type": "discount"
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1290495600.0, 
+    "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
+    "start_time": 1290063600.0, 
+    "activity_type": "hot_sale"
    }, 
    "hammer": {
     "product_type": {
