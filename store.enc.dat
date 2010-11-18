@@ -15497,21 +15497,21 @@
      "level_need": 0
     }, 
     "fengyeshu": {
-     "total_time": 1080, 
+     "total_time": 630, 
      "leaflet_time": 150, 
-     "used": false, 
-     "name": "fengyeshu", 
+     "used": true, 
+     "name": "楓", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 7, 
+     "fruit_time": 150, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 3.4, 
      "seasons": 1, 
-     "sale_price": 16, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
      "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 3
      }, 
      "level_need": 0
     }, 
@@ -18944,7 +18944,6 @@
    }, 
    "seeds_sort": [
     "wubaiwanshu", 
-    "fengyeshu", 
     "shengdanliwushu", 
     "xuesongshu", 
     "diaoxiang", 
@@ -19040,6 +19039,7 @@
     "yinghua", 
     "yhhf", 
     "meihua", 
+    "fengyeshu", 
     "chengzuanshu", 
     "yingtao", 
     "friednoodles", 
