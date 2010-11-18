@@ -5681,7 +5681,7 @@
      }, 
      "introduce": "お面アイテムと高級肥料が1つずつ入っています。", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "hammer": {
@@ -5693,7 +5693,7 @@
      }, 
      "introduce": "クリスタルを開けることができます。", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "hongseniudan": {
@@ -9445,21 +9445,6 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
     "activity_type": "discount"
    }, 
-   "tujianbaoxiang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "花の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
-    "activity_type": "discount"
-   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -9498,41 +9483,20 @@
     "start_time": 1290063600.0, 
     "activity_type": "hot_sale"
    }, 
-   "hammer": {
+   "tujianbaoxiang": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "マジックハンマー", 
-    "start_time": 1289433600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日9時間", 
-    "end_time": 1290070800.0, 
-    "goods_description": "クリスタルを開けることができます。", 
+    "name": "花の宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
-   }, 
-   "crystal": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "クリスタル", 
-    "start_time": 1289433600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日9時間", 
-    "end_time": 1290070800.0, 
-    "goods_description": "お面アイテムと高級肥料が1つずつ入っています。", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
+    "activity_type": "discount"
    }
   }, 
   "farm": {
