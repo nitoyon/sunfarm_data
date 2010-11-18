@@ -9406,11 +9406,11 @@
      "goods_type": "seed"
     }, 
     "name": "楓", 
-    "start_time": 1290070800.0, 
-    "modify": false, 
+    "start_time": 1290067200.0, 
+    "modify": true, 
     "limit_type": "limit_time", 
     "limit_time": "6日", 
-    "end_time": 1290589200.0, 
+    "end_time": 1290585600.0, 
     "goods_description": "この季節と言えば紅葉です。", 
     "price": {
      "num": 3, 
@@ -9432,6 +9432,28 @@
     "modify": true, 
     "goods_description": "おもちゃカバ", 
     "activity_type": "discount"
+   }, 
+   "cangshu": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "ハムスター", 
+    "price": {
+     "num": 20, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1290499200.0, 
+    "goods_description": "ハムスター", 
+    "start_time": 1290067200.0, 
+    "activity_type": "hot_sale"
    }, 
    "xiaoxiong": {
     "specific_type": "xin", 
