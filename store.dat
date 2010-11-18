@@ -9480,7 +9480,6 @@
      "num": 12, 
      "type": "F_coin"
     }, 
-    "specific_type": "zhe", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "ranch", 
@@ -9491,9 +9490,13 @@
      "num": 9, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "\u30b9\u30fc\u30d1\u30fc\u98fc\u6599", 
-    "activity_type": "discount"
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5\u65e5", 
+    "end_time": 1290495600.0, 
+    "goods_description": "\u4f7f\u3046\u3068\u52d5\u7269\u306e\u751f\u7523\u6642\u9593\u309210\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002", 
+    "start_time": 1290063600.0, 
+    "activity_type": "hot_sale"
    }, 
    "hammer": {
     "product_type": {
