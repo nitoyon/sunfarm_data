@@ -9497,6 +9497,28 @@
     "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
    }, 
+   "tulip": {
+    "original_price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "チューリップ", 
+    "price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1290844800.0, 
+    "goods_description": "チューリップ", 
+    "start_time": 1290499200.0, 
+    "activity_type": "hot_sale"
+   }, 
    "guohuatujian": {
     "specific_type": "xin", 
     "product_type": {
@@ -13325,7 +13347,7 @@
      "seasons": 1, 
      "sale_price": 35, 
      "seed_price": {
-      "F_coin": 18
+      "F_coin": 12
      }, 
      "leaf_time": 243, 
      "level_need": 0
