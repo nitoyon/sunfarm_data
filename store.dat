@@ -9497,6 +9497,28 @@
     "goods_description": "\u30db\u30ef\u30a4\u30c8\u3046\u3055\u304e", 
     "activity_type": "discount"
    }, 
+   "tulip": {
+    "original_price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7", 
+    "price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4\u65e5", 
+    "end_time": 1290844800.0, 
+    "goods_description": "\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7", 
+    "start_time": 1290499200.0, 
+    "activity_type": "hot_sale"
+   }, 
    "guohuatujian": {
     "specific_type": "xin", 
     "product_type": {
@@ -13325,7 +13347,7 @@
      "seasons": 1, 
      "sale_price": 35, 
      "seed_price": {
-      "F_coin": 18
+      "F_coin": 12
      }, 
      "leaf_time": 243, 
      "level_need": 0
