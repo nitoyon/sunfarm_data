@@ -6147,7 +6147,7 @@
       "used": true, 
       "name": "スーパー飼料", 
       "price": {
-       "F_coin": 9
+       "F_coin": 12
       }, 
       "effect": 10, 
       "introduce": "使うと動物の生産時間を10時間短縮できます。", 
@@ -9433,28 +9433,6 @@
     "goods_description": "おもちゃカバ", 
     "activity_type": "discount"
    }, 
-   "cangshu": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "ハムスター", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1290499200.0, 
-    "goods_description": "ハムスター", 
-    "start_time": 1290067200.0, 
-    "activity_type": "hot_sale"
-   }, 
    "xiaoxiong": {
     "specific_type": "xin", 
     "product_type": {
@@ -9518,29 +9496,6 @@
     "modify": true, 
     "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
-   }, 
-   "jisu1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
-    }, 
-    "name": "スーパー飼料", 
-    "price": {
-     "num": 9, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1290495600.0, 
-    "goods_description": "使うと動物の生産時間を10時間短縮できます。", 
-    "start_time": 1290063600.0, 
-    "activity_type": "hot_sale"
    }, 
    "guohuatujian": {
     "specific_type": "xin", 
