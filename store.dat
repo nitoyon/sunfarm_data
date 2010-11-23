@@ -6147,7 +6147,7 @@
       "used": true, 
       "name": "\u30b9\u30fc\u30d1\u30fc\u98fc\u6599", 
       "price": {
-       "F_coin": 9
+       "F_coin": 12
       }, 
       "effect": 10, 
       "introduce": "\u4f7f\u3046\u3068\u52d5\u7269\u306e\u751f\u7523\u6642\u9593\u309210\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002", 
@@ -9433,28 +9433,6 @@
     "goods_description": "\u304a\u3082\u3061\u3083\u30ab\u30d0", 
     "activity_type": "discount"
    }, 
-   "cangshu": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "\u30cf\u30e0\u30b9\u30bf\u30fc", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5\u65e5", 
-    "end_time": 1290499200.0, 
-    "goods_description": "\u30cf\u30e0\u30b9\u30bf\u30fc", 
-    "start_time": 1290067200.0, 
-    "activity_type": "hot_sale"
-   }, 
    "xiaoxiong": {
     "specific_type": "xin", 
     "product_type": {
@@ -9518,29 +9496,6 @@
     "modify": true, 
     "goods_description": "\u30db\u30ef\u30a4\u30c8\u3046\u3055\u304e", 
     "activity_type": "discount"
-   }, 
-   "jisu1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
-    }, 
-    "name": "\u30b9\u30fc\u30d1\u30fc\u98fc\u6599", 
-    "price": {
-     "num": 9, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5\u65e5", 
-    "end_time": 1290495600.0, 
-    "goods_description": "\u4f7f\u3046\u3068\u52d5\u7269\u306e\u751f\u7523\u6642\u9593\u309210\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002", 
-    "start_time": 1290063600.0, 
-    "activity_type": "hot_sale"
    }, 
    "guohuatujian": {
     "specific_type": "xin", 
