@@ -9482,6 +9482,28 @@
     "goods_description": "魔法の種への行き方が書かれていて、魔法の種を見つけられるかもしれない。", 
     "activity_type": "discount"
    }, 
+   "bailian": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "白色の蓮", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1290844800.0, 
+    "goods_description": "白色の蓮", 
+    "start_time": 1290499200.0, 
+    "activity_type": "hot_sale"
+   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -17292,7 +17314,7 @@
      "seasons": 1, 
      "sale_price": 30, 
      "seed_price": {
-      "F_coin": 30
+      "F_coin": 25
      }, 
      "leaf_time": 330, 
      "level_need": 0
