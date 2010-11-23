@@ -9482,6 +9482,28 @@
     "goods_description": "\u9b54\u6cd5\u306e\u7a2e\u3078\u306e\u884c\u304d\u65b9\u304c\u66f8\u304b\u308c\u3066\u3044\u3066\u3001\u9b54\u6cd5\u306e\u7a2e\u3092\u898b\u3064\u3051\u3089\u308c\u308b\u304b\u3082\u3057\u308c\u306a\u3044\u3002", 
     "activity_type": "discount"
    }, 
+   "bailian": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "\u767d\u8272\u306e\u84ee", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4\u65e5", 
+    "end_time": 1290844800.0, 
+    "goods_description": "\u767d\u8272\u306e\u84ee", 
+    "start_time": 1290499200.0, 
+    "activity_type": "hot_sale"
+   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -17292,7 +17314,7 @@
      "seasons": 1, 
      "sale_price": 30, 
      "seed_price": {
-      "F_coin": 30
+      "F_coin": 25
      }, 
      "leaf_time": 330, 
      "level_need": 0
