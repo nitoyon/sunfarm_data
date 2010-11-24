@@ -9400,24 +9400,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "fengyeshu": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "楓", 
-    "start_time": 1290067200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1290585600.0, 
-    "goods_description": "この季節と言えば紅葉です。", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "keaihema": {
     "specific_type": "xin", 
     "product_type": {
@@ -15521,7 +15503,7 @@
     "fengyeshu": {
      "total_time": 630, 
      "leaflet_time": 150, 
-     "used": true, 
+     "used": false, 
      "name": "楓", 
      "base_fruit": 25, 
      "fruit_time": 150, 
