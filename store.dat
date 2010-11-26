@@ -4318,6 +4318,34 @@
      }
     }
    }, 
+   "dangaoquan": {
+    "config": {
+     "original_F_coin": 20, 
+     "used": false, 
+     "name": "\u30b1\u30fc\u30ad\u306e\u7bb1", 
+     "price": {}, 
+     "introduce": "\u30b1\u30fc\u30ad\u306e\u62bd\u9078\u30ab\u30fc\u30c9\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002\u305f\u307e\u306b\u4f5c\u7269\u306e\u30d6\u30c3\u30b7\u30e5\u30c9\u30ce\u30a8\u30eb\u3082\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
+     "goods_str": "\u30b1\u30fc\u30ad\u306e\u62bd\u9078\u30ab\u30fc\u30c9\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002\u305f\u307e\u306b\u4f5c\u7269\u306e\u30d6\u30c3\u30b7\u30e5\u30c9\u30ce\u30a8\u30eb\u3082\u5165\u3063\u3066\u3044\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shugendangao": [
+        1, 
+        0.08
+       ]
+      }
+     }, 
+     "common": {
+      "cake_ticket": {
+       "big": [
+        1, 
+        0.5
+       ]
+      }
+     }
+    }
+   }, 
    "lvseniudan": {
     "config": {
      "price": {
@@ -20702,6 +20730,7 @@
    "crops_boluogulaorou_gift"
   ], 
   "mystic_bags_sort": [
+   "dangaoquan", 
    "mb_10", 
    "love_stone", 
    "mb_6", 
