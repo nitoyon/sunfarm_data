@@ -4318,6 +4318,34 @@
      }
     }
    }, 
+   "dangaoquan": {
+    "config": {
+     "original_F_coin": 20, 
+     "used": false, 
+     "name": "ケーキの箱", 
+     "price": {}, 
+     "introduce": "ケーキの抽選カードが入っています。たまに作物のブッシュドノエルも入っています。", 
+     "goods_str": "ケーキの抽選カードが入っています。たまに作物のブッシュドノエルも入っています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shugendangao": [
+        1, 
+        0.08
+       ]
+      }
+     }, 
+     "common": {
+      "cake_ticket": {
+       "big": [
+        1, 
+        0.5
+       ]
+      }
+     }
+    }
+   }, 
    "lvseniudan": {
     "config": {
      "price": {
@@ -20702,6 +20730,7 @@
    "crops_boluogulaorou_gift"
   ], 
   "mystic_bags_sort": [
+   "dangaoquan", 
    "mb_10", 
    "love_stone", 
    "mb_6", 
