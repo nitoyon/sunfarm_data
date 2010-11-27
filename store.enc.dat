@@ -9459,19 +9459,19 @@
     "goods_description": "おもちゃくま", 
     "activity_type": "discount"
    }, 
-   "tujianbaoxiang": {
+   "guohuatujian": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "花の宝箱", 
+    "name": "国花の宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
     "activity_type": "discount"
    }, 
    "shenqibaotu": {
@@ -9493,28 +9493,6 @@
     "goods_description": "魔法の種への行き方が書かれていて、魔法の種を見つけられるかもしれない。", 
     "activity_type": "discount"
    }, 
-   "bailian": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "白色の蓮", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1290844800.0, 
-    "goods_description": "白色の蓮", 
-    "start_time": 1290499200.0, 
-    "activity_type": "hot_sale"
-   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -9530,41 +9508,19 @@
     "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
    }, 
-   "tulip": {
-    "original_price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "チューリップ", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1290844800.0, 
-    "goods_description": "チューリップ", 
-    "start_time": 1290499200.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "guohuatujian": {
+   "tujianbaoxiang": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "国花の宝箱", 
+    "name": "花の宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
+    "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
     "activity_type": "discount"
    }
   }, 
