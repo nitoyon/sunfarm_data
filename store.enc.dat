@@ -5993,6 +5993,11 @@
     "qilin", 
     "chengseqingwa", 
     "huangsewoniu", 
+    "baoyashu", 
+    "haixiuzhu", 
+    "keaiciwei", 
+    "liumanggui", 
+    "qiexiansheng", 
     "chunvzuo", 
     "xiaoxiong", 
     "keaihema", 
@@ -6908,6 +6913,28 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
+    "liumanggui": {
+     "total_time": 1680, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "liumanggui", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
+     "buy_price": {
+      "F_coin": 20
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 8, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 80, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
     "pudong": {
      "total_time": 540, 
      "sound": {
@@ -6980,6 +7007,28 @@
      "fruit_name": "", 
      "is_auto_harvest": false, 
      "sale_price": 53, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "keaiciwei": {
+     "total_time": 720, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "keaiciwei", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 15
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 5.8, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 60, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -7284,6 +7333,28 @@
      "fruit_name": "", 
      "is_auto_harvest": false, 
      "sale_price": 10, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "baoyashu": {
+     "total_time": 1680, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "baoyashu", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
+     "buy_price": {
+      "F_coin": 25
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 9.8, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 100, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -7835,30 +7906,46 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
-    "chengsewoniu": {
-     "total_time": 360, 
-     "sound": {
-      "p": "1046,1046,1047,1047,-1,-1", 
-      "enable": true, 
-      "name": "xwywoniu"
-     }, 
+    "mmkaola": {
+     "total_time": 1260, 
      "harvest_type": 3, 
      "used": false, 
-     "name": "カタツムリ", 
+     "name": "母の日のコアラ", 
      "base_fruit": 25, 
-     "fruit_time": 240, 
-     "adult_time": 60, 
+     "fruit_time": 504, 
+     "adult_time": 378, 
      "buy_price": {
-      "gold": 50
+      "gold": 10
      }, 
      "seasons": 1, 
-     "young_time": 60, 
-     "experience": 3.75, 
+     "young_time": 378, 
+     "experience": 3.9, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 2, 
+     "sale_price": 9, 
      "increment_fruit": 25, 
      "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "qiexiansheng": {
+     "total_time": 1680, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "qiexiansheng", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
+     "buy_price": {
+      "F_coin": 50
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 20, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 200, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
     "laohu": {
@@ -9084,6 +9171,28 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
+    "haixiuzhu": {
+     "total_time": 1560, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "haixiuzhu", 
+     "base_fruit": 25, 
+     "fruit_time": 660, 
+     "adult_time": 600, 
+     "buy_price": {
+      "F_coin": 35
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 300, 
+     "experience": 15, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 120, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
     "tianshijiwawa": {
      "total_time": 1320, 
      "sound": {
@@ -9348,23 +9457,28 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
-    "mmkaola": {
-     "total_time": 1260, 
+    "chengsewoniu": {
+     "total_time": 360, 
+     "sound": {
+      "p": "1046,1046,1047,1047,-1,-1", 
+      "enable": true, 
+      "name": "xwywoniu"
+     }, 
      "harvest_type": 3, 
      "used": false, 
-     "name": "母の日のコアラ", 
+     "name": "カタツムリ", 
      "base_fruit": 25, 
-     "fruit_time": 504, 
-     "adult_time": 378, 
+     "fruit_time": 240, 
+     "adult_time": 60, 
      "buy_price": {
-      "gold": 10
+      "gold": 50
      }, 
      "seasons": 1, 
-     "young_time": 378, 
-     "experience": 3.9, 
+     "young_time": 60, 
+     "experience": 3.75, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 9, 
+     "sale_price": 2, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -9599,6 +9713,26 @@
       "gold": 200
      }, 
      "level_need": 33
+    }, 
+    "huangsexingxingshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "huangsexingxingshu", 
+     "base_fruit": 1, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。黄ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 0, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "dongguadunpaigu": {
      "total_time": 1360, 
@@ -10041,26 +10175,23 @@
      }, 
      "level_need": 0
     }, 
-    "lavender": {
-     "total_time": 600, 
-     "leaflet_time": 90, 
-     "used": true, 
-     "name": "ラベンダー", 
+    "friednoodles": {
+     "total_time": 990, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "焼きそば", 
      "base_fruit": 25, 
-     "fruit_time": 180, 
-     "goodstype": "flower", 
-     "sprout_time": 120, 
-     "recipe": "レシピに使えます：\nラベンダーティー", 
-     "introduce": "花言葉：あなたを待っています", 
-     "increment_fruit": 25, 
-     "bloom_time": 120, 
-     "experience": 1.92, 
+     "fruit_time": 230, 
+     "sprout_time": 150, 
+     "bloom_time": 230, 
+     "experience": 14.3, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 39, 
+     "increment_fruit": 25, 
+     "leaf_time": 230, 
      "seed_price": {
-      "F_coin": 4
+      "F_coin": 720
      }, 
-     "leaf_time": 90, 
      "level_need": 0
     }, 
     "guavaflower": {
@@ -10893,23 +11024,25 @@
      "level_need": 39
     }, 
     "shengdanjiezhuangshihuaquan": {
-     "total_time": 960, 
-     "leaflet_time": 60, 
+     "total_time": 720, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "クリスマスリース", 
+     "name": "shengdanjiezhuangshihuaquan", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 6, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "goodstype": "flower", 
+     "sprout_time": 10, 
+     "introduce": "shengdanliwushu", 
      "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "bloom_time": 145, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 8, 
      "seed_price": {
-      "F_coin": 455
+      "F_coin": 15
      }, 
-     "level_need": 1
+     "leaf_time": 145, 
+     "level_need": 53
     }, 
     "xingandengjie": {
      "total_time": 720, 
@@ -12505,24 +12638,26 @@
      }, 
      "level_need": 1
     }, 
-    "friednoodles": {
-     "total_time": 990, 
-     "leaflet_time": 150, 
+    "dianshisong": {
+     "total_time": 720, 
+     "leaflet_time": 80, 
      "used": false, 
-     "name": "焼きそば", 
+     "name": "dianshisong", 
      "base_fruit": 25, 
-     "fruit_time": 230, 
-     "sprout_time": 150, 
-     "bloom_time": 230, 
-     "experience": 14.3, 
-     "seasons": 1, 
-     "sale_price": 39, 
+     "fruit_time": 330, 
+     "goodstype": "flower", 
+     "sprout_time": 20, 
+     "introduce": "dianshisong", 
      "increment_fruit": 25, 
-     "leaf_time": 230, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 8, 
      "seed_price": {
-      "F_coin": 720
+      "F_coin": 8
      }, 
-     "level_need": 0
+     "leaf_time": 140, 
+     "level_need": 53
     }, 
     "bainianziteng": {
      "total_time": 2590, 
@@ -13170,6 +13305,28 @@
      "leaf_time": 140, 
      "level_need": 53
     }, 
+    "lavender": {
+     "total_time": 600, 
+     "leaflet_time": 90, 
+     "used": true, 
+     "name": "ラベンダー", 
+     "base_fruit": 25, 
+     "fruit_time": 180, 
+     "goodstype": "flower", 
+     "sprout_time": 120, 
+     "recipe": "レシピに使えます：\nラベンダーティー", 
+     "introduce": "花言葉：あなたを待っています", 
+     "increment_fruit": 25, 
+     "bloom_time": 120, 
+     "experience": 1.92, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "seed_price": {
+      "F_coin": 4
+     }, 
+     "leaf_time": 90, 
+     "level_need": 0
+    }, 
     "meizishanyaogao": {
      "total_time": 450, 
      "leaflet_time": 90, 
@@ -13612,6 +13769,26 @@
      }, 
      "level_need": 1
     }, 
+    "lvsexingxingshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "lvsexingxingshu", 
+     "base_fruit": 1, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。緑ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 0, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "zhupaiwudongguo": {
      "total_time": 2626, 
      "leaflet_time": 480, 
@@ -13791,6 +13968,27 @@
       "gold": 316
      }, 
      "level_need": 20
+    }, 
+    "shengdanfenyueji": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "shengdanfenyueji", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "アルゼンチンの国花", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "leaf_time": 330, 
+     "level_need": 53
     }, 
     "xinshoutulip": {
      "total_time": 180, 
@@ -14652,6 +14850,26 @@
      "fruit_time": 360, 
      "sprout_time": 90, 
      "introduce": "おめでとうございます。緑ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 0, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
+    "lansexingxingshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "lansexingxingshu", 
+     "base_fruit": 1, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。青ダイヤを手に入れました。5種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 0, 
      "bloom_time": 330, 
      "experience": 100, 
@@ -16610,24 +16828,24 @@
      }, 
      "level_need": 17
     }, 
-    "peach": {
-     "total_time": 2400, 
-     "leaflet_time": 252, 
-     "seed_price": {
-      "gold": 331
-     }, 
-     "name": "桃", 
+    "biandang": {
+     "total_time": 480, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "御節", 
      "base_fruit": 25, 
-     "fruit_time": 744, 
-     "recipe": "レシピに使えます：\n蜜桃\n希望の星", 
-     "sprout_time": 180, 
-     "bloom_time": 732, 
-     "experience": 4.76, 
-     "seasons": 2, 
-     "sale_price": 16, 
+     "fruit_time": 150, 
+     "sprout_time": 60, 
+     "bloom_time": 150, 
+     "experience": 3, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
-     "leaf_time": 492, 
-     "level_need": 19
+     "leaf_time": 60, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 0
     }, 
     "jueweishaorou": {
      "total_time": 1244, 
@@ -17555,6 +17773,25 @@
      }, 
      "level_need": 1
     }, 
+    "bingdiaoshu": {
+     "total_time": 480, 
+     "leaflet_time": 22, 
+     "used": false, 
+     "name": "bingdiaoshu", 
+     "base_fruit": 25, 
+     "fruit_time": 152, 
+     "sprout_time": 20, 
+     "bloom_time": 148, 
+     "experience": 1.08, 
+     "seasons": 2, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 138, 
+     "seed_price": {
+      "gold": 324
+     }, 
+     "level_need": 30
+    }, 
     "hunheshuiguo": {
      "total_time": 7200, 
      "leaflet_time": 1440, 
@@ -18466,24 +18703,24 @@
      "level_need": 0
     }, 
     "dianshihua": {
-     "total_time": 960, 
-     "leaflet_time": 60, 
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "イルミネーションフラワー", 
+     "name": "dianshihua", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
+     "fruit_time": 360, 
      "goodstype": "flower", 
-     "sprout_time": 60, 
-     "introduce": "", 
+     "sprout_time": 90, 
+     "introduce": "サンマリノの国花", 
      "increment_fruit": 25, 
      "bloom_time": 330, 
-     "experience": 6, 
+     "experience": 8, 
      "seasons": 1, 
      "sale_price": 12, 
      "seed_price": {
-      "F_coin": 455
+      "F_coin": 20
      }, 
-     "leaf_time": 180, 
+     "leaf_time": 150, 
      "level_need": 1
     }, 
     "strawberry": {
@@ -18796,24 +19033,24 @@
      "leaf_time": 327, 
      "level_need": 13
     }, 
-    "biandang": {
-     "total_time": 480, 
-     "leaflet_time": 60, 
-     "used": false, 
-     "name": "御節", 
-     "base_fruit": 25, 
-     "fruit_time": 150, 
-     "sprout_time": 60, 
-     "bloom_time": 150, 
-     "experience": 3, 
-     "seasons": 1, 
-     "sale_price": 15, 
-     "increment_fruit": 25, 
-     "leaf_time": 60, 
+    "peach": {
+     "total_time": 2400, 
+     "leaflet_time": 252, 
      "seed_price": {
-      "F_coin": 8
+      "gold": 331
      }, 
-     "level_need": 0
+     "name": "桃", 
+     "base_fruit": 25, 
+     "fruit_time": 744, 
+     "recipe": "レシピに使えます：\n蜜桃\n希望の星", 
+     "sprout_time": 180, 
+     "bloom_time": 732, 
+     "experience": 4.76, 
+     "seasons": 2, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 492, 
+     "level_need": 19
     }, 
     "boluogulaorou": {
      "total_time": 1330, 
@@ -19084,6 +19321,46 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
+    "hongsexingxingshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "hongsexingxingshu", 
+     "base_fruit": 1, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。赤ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 0, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
+    "zisexingxingshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "zisexingxingshu", 
+     "base_fruit": 1, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。紫ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 0, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "tudoudunzhurou": {
      "total_time": 1244, 
      "leaflet_time": 264, 
@@ -19164,8 +19441,13 @@
    }, 
    "seeds_sort": [
     "wubaiwanshu", 
+    "hongsexingxingshu", 
+    "huangsexingxingshu", 
+    "lansexingxingshu", 
+    "lvsexingxingshu", 
     "shengdanliwushu", 
     "xuesongshu", 
+    "zisexingxingshu", 
     "diaoxiang", 
     "moyu", 
     "zhangyushao", 
@@ -19306,6 +19588,7 @@
     "huangzuanhua", 
     "huangmeigui", 
     "shengdanhongxin", 
+    "dianshihua", 
     "hongqiansuitang", 
     "guiliannangua", 
     "nvergao", 
@@ -19319,7 +19602,6 @@
     "shuijingputao", 
     "meiguoguoqishu", 
     "agentingguoqishu", 
-    "dianshihua", 
     "yinggelanguoqishu", 
     "wulaguiguoqishu", 
     "helanguoqishu", 
@@ -19331,7 +19613,6 @@
     "shengdanjiexiangbin", 
     "shengdanwancan", 
     "shengdandongqinghua", 
-    "shengdanjiezhuangshihuaquan", 
     "shengdanmeigui", 
     "naiyou", 
     "bale", 
@@ -19397,6 +19678,9 @@
     "shuiyangqiehua", 
     "jingzhiganlanyou", 
     "hongtang", 
+    "dianshisong", 
+    "shengdanfenyueji", 
+    "shengdanjiezhuangshihuaquan", 
     "saibohua", 
     "pugongying", 
     "fenglingcao", 
@@ -19603,6 +19887,7 @@
     "youmaicai", 
     "nigerseed", 
     "yezi", 
+    "bingdiaoshu", 
     "huolongguoxin", 
     "huo_long_guo", 
     "dongguaxin", 
