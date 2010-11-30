@@ -3435,6 +3435,51 @@
    }
   }, 
   "mystic_bags": {
+   "tujiandongwubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 20
+     }, 
+     "used": false, 
+     "goods_str": "tujiandongwubaoxiang", 
+     "name": "tujiandongwubaoxiang", 
+     "introduce": "tujiandongwubaoxiang"
+    }, 
+    "data": {
+     "ranch": {
+      "baby": {
+       "haixiuzhu": [
+        1, 
+        0.3
+       ], 
+       "qiexiansheng": [
+        1, 
+        0.25
+       ], 
+       "liumanggui": [
+        1, 
+        0.4
+       ], 
+       "keaiciwei": [
+        1, 
+        0.5
+       ], 
+       "baoyashu": [
+        1, 
+        0.3
+       ]
+      }, 
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "shengdanziniudan": {
     "config": {
      "price": {
@@ -21655,6 +21700,7 @@
    "hammer", 
    "mb_4", 
    "mb_1", 
+   "tujiandongwubaoxiang", 
    "shengdanziniudan", 
    "qingrenyushou1", 
    "qingrenyushou3", 
