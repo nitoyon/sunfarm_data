@@ -3468,11 +3468,11 @@
       "babies": {
        "haixiuzhu": [
         1, 
-        0.3
+        0.2
        ], 
        "qiexiansheng": [
         1, 
-        0.2
+        0.08
        ], 
        "liumanggui": [
         1, 
@@ -3480,7 +3480,7 @@
        ], 
        "keaiciwei": [
         1, 
-        0.95
+        0.6
        ], 
        "baoyashu": [
         1, 
@@ -10123,24 +10123,6 @@
     "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
    }, 
-   "hongbailanmeigui": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "スリーカラーのバラ", 
-    "start_time": 1290844800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1291104000.0, 
-    "goods_description": "スリーカラーのバラ", 
-    "price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "guohuatujian": {
     "specific_type": "xin", 
     "product_type": {
@@ -10155,24 +10137,6 @@
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
     "activity_type": "discount"
-   }, 
-   "binglinghua": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "魔法のつららの花", 
-    "start_time": 1290844800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1291104000.0, 
-    "goods_description": "魔法のつららの花", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -14023,7 +13987,7 @@
      "introduce": "", 
      "increment_fruit": 25, 
      "bloom_time": 300, 
-     "used": true, 
+     "used": false, 
      "experience": 7, 
      "seasons": 1, 
      "sale_price": 15, 
@@ -19176,7 +19140,7 @@
      "introduce": "", 
      "increment_fruit": 25, 
      "bloom_time": 300, 
-     "used": true, 
+     "used": false, 
      "experience": 4.2, 
      "seasons": 1, 
      "sale_price": 15, 
@@ -19596,7 +19560,7 @@
      "introduce": "スリーカラーのバラ", 
      "increment_fruit": 25, 
      "bloom_time": 750, 
-     "used": true, 
+     "used": false, 
      "experience": 9.6, 
      "seasons": 1, 
      "sale_price": 77, 
