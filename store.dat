@@ -3441,9 +3441,9 @@
       "F_coin": 15
      }, 
      "used": false, 
-     "goods_str": "tujiandongwubaoxiang", 
-     "name": "tujiandongwubaoxiang", 
-     "introduce": "tujiandongwubaoxiang"
+     "goods_str": "\u3064\u3044\u306b\u52d5\u7269\u306e\u5b9d\u7bb1\u304c\u767b\u5834\uff01\u53ef\u611b\u3044\u30a2\u30cb\u30de\u30eb\uff1f\u9054\u304c\u5165\u3063\u3066\u3044\u307e\u3059\uff01\u3059\u3079\u3066\u3092\u767a\u898b\u3057\u3066\u56f3\u9451\u3092\u5b8c\u6210\u3057\u3088\u3046\uff01", 
+     "name": "\u30a2\u30cb\u30de\u30eb\u5b9d\u7bb1", 
+     "introduce": "\u3064\u3044\u306b\u52d5\u7269\u306e\u5b9d\u7bb1\u304c\u767b\u5834\uff01\u53ef\u611b\u3044\u30a2\u30cb\u30de\u30eb\uff1f\u9054\u304c\u5165\u3063\u3066\u3044\u307e\u3059\uff01\u3059\u3079\u3066\u3092\u767a\u898b\u3057\u3066\u56f3\u9451\u3092\u5b8c\u6210\u3057\u3088\u3046\uff01 "
     }, 
     "data": {
      "farm": {
@@ -18258,23 +18258,23 @@
      "level_need": 1
     }, 
     "bingdiaoshu": {
-     "total_time": 480, 
-     "leaflet_time": 22, 
+     "total_time": 1410, 
+     "leaflet_time": 330, 
      "used": false, 
      "name": "\u30a2\u30a4\u30b9\u30af\u30ea\u30b9\u30bf\u30eb\u30c4\u30ea\u30fc", 
      "base_fruit": 25, 
-     "fruit_time": 152, 
-     "sprout_time": 20, 
-     "bloom_time": 148, 
-     "experience": 1.08, 
-     "seasons": 2, 
-     "sale_price": 8, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
      "increment_fruit": 25, 
-     "leaf_time": 138, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 324
+      "F_coin": 25
      }, 
-     "level_need": 30
+     "level_need": 0
     }, 
     "hunheshuiguo": {
      "total_time": 7200, 
@@ -19933,6 +19933,7 @@
     "moyu", 
     "zhangyushao", 
     "cottoncandy", 
+    "bingdiaoshu", 
     "bingyerizhonghua", 
     "morningglory", 
     "xiuqiuhua", 
@@ -20373,7 +20374,6 @@
     "youmaicai", 
     "nigerseed", 
     "yezi", 
-    "bingdiaoshu", 
     "huolongguoxin", 
     "huo_long_guo", 
     "dongguaxin", 
