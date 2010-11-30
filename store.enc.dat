@@ -3440,7 +3440,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "ついに動物の宝箱が登場！可愛いアニマル？達が入っています！すべてを発見して図鑑を完成しよう！", 
      "name": "アニマル宝箱", 
      "introduce": "ついに動物の宝箱が登場！可愛いアニマル？達が入っています！すべてを発見して図鑑を完成しよう！ "
@@ -3495,7 +3495,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "3%の確率で紫の星を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
      "name": "紫のクリスマスカプセル", 
      "introduce": "3%の確率で紫の星を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
@@ -4016,7 +4016,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "50%の確率で黄の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
      "name": "黄のクリスマスカプセル", 
      "introduce": "50%の確率で黄の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
@@ -4992,7 +4992,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "10%の確率で青の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
      "name": "青のクリスマスカプセル", 
      "introduce": "10%の確率で青の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
@@ -5190,7 +5190,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
      "name": "赤のクリスマスカプセル", 
      "introduce": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
@@ -6129,7 +6129,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "90%の確率で緑の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
      "name": "緑のクリスマスカプセル", 
      "introduce": "90%の確率で緑の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
@@ -10022,42 +10022,41 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "chaozhilibao": {
-    "original_price": {
-     "num": 1270, 
-     "type": "F_coin"
-    }, 
+   "shengdanziniudan": {
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "お買い得セット", 
-    "price": {
-     "num": 500, 
-     "type": "F_coin"
-    }, 
+    "name": "紫のクリスマスカプセル", 
+    "start_time": 1291129200.0, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "1日7時間59分", 
-    "end_time": 1291129140.0, 
-    "goods_description": "500Kコイン分の種が入っています。さらに770Kコイン相当のアイテムおまけつき！11月30日24時までの期間限定販売です。種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
-    "start_time": 1291014000.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "keaihema": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "おもちゃカバ", 
+    "limit_time": "9日16時間", 
+    "end_time": 1291964400.0, 
+    "goods_description": "3%の確率で紫の星を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
     "price": {
-     "num": 50, 
+     "num": 1, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "おもちゃカバ", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
+   }, 
+   "shengdanlanniudan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "青のクリスマスカプセル", 
+    "start_time": 1291129200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "9日16時間", 
+    "end_time": 1291964400.0, 
+    "goods_description": "10%の確率で青の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "xiaoxiong": {
     "specific_type": "xin", 
@@ -10136,6 +10135,39 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
+    "activity_type": "discount"
+   }, 
+   "shengdanhongniudan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "赤のクリスマスカプセル", 
+    "start_time": 1291129200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "9日16時間", 
+    "end_time": 1291964400.0, 
+    "goods_description": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "keaihema": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "おもちゃカバ", 
+    "price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "おもちゃカバ", 
     "activity_type": "discount"
    }
   }, 
