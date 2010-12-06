@@ -3949,6 +3949,27 @@
      }
     }
    }, 
+   "bingdiaoshulanlibao": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "つららの木の種が5個入っています。つららの木収集イベント期間中の限定販売。レベル30に達していない方はこちらをどうぞ。", 
+     "name": "つららの木の箱", 
+     "introduce": "つららの木の種が5個入っています。つららの木収集イベント期間中の限定販売。レベル30に達していない方はこちらをどうぞ。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "bingdiaoshulan": [
+        5, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "love_stone": {
     "config": {
      "goods_str": "开启可获得丰厚的奖励哦", 
@@ -21729,6 +21750,7 @@
    "cangbaotu3", 
    "lvdan", 
    "xinbaoxiang", 
+   "bingdiaoshulanlibao", 
    "cangbaotu1", 
    "shengdanhuangniudan", 
    "tujianbaoxiang", 
