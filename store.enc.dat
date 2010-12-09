@@ -3954,7 +3954,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "つららの木の種が5個入っています。つららの木収集イベント期間中の限定販売。レベル30に達していない方はこちらをどうぞ。", 
      "name": "つららの木の箱", 
      "introduce": "つららの木の種が5個入っています。つららの木収集イベント期間中の限定販売。レベル30に達していない方はこちらをどうぞ。"
@@ -10112,21 +10112,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "bingdiaoshulan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "つららの木", 
-    "price": {
-     "num": 324, 
-     "type": "gold"
-    }, 
-    "modify": true, 
-    "goods_description": "サン牧クエストテスト用作物、つららの木収集クエスト期間中だけの限定販売です。レベルの足りない方の為に「つららの木の箱」を用意しました。詳しくはショップの宝箱をご確認ください。", 
-    "activity_type": "discount"
-   }, 
    "shengdanlvniudan": {
     "specific_type": "xin", 
     "product_type": {
@@ -10140,21 +10125,6 @@
     }, 
     "modify": true, 
     "goods_description": "90%の確率で緑の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-    "activity_type": "discount"
-   }, 
-   "bingdiaoshulanlibao": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "つららの木の箱", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "つららの木の種が5個入っています。つららの木収集イベント期間中の限定販売。レベル30に達していない方はこちらをどうぞ。", 
     "activity_type": "discount"
    }, 
    "guohuatujian": {
@@ -16353,7 +16323,7 @@
     "bingdiaoshulan": {
      "total_time": 480, 
      "leaflet_time": 22, 
-     "used": true, 
+     "used": false, 
      "name": "つららの木", 
      "base_fruit": 25, 
      "fruit_time": 152, 
