@@ -10522,6 +10522,25 @@
      "leaf_time": 334, 
      "level_need": 10
     }, 
+    "chabeimao": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ネコカップ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "fanqieniurouyimian": {
      "total_time": 1646, 
      "leaflet_time": 320, 
@@ -11373,6 +11392,25 @@
      }, 
      "leaf_time": 60, 
      "level_need": 0
+    }, 
+    "chabeihouzi": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "サルカップ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
     }, 
     "lanseshuihulu": {
      "total_time": 720, 
@@ -12283,25 +12321,27 @@
      }, 
      "level_need": 5
     }, 
-    "shanzhu": {
-     "total_time": 960, 
-     "leaflet_time": 90, 
+    "tulip": {
+     "total_time": 1620, 
+     "leaflet_time": 243, 
      "used": true, 
-     "name": "マンゴスチン", 
+     "name": "チューリップ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "recipe": "レシピに使えます：\nマンゴスチンサラダ", 
-     "sprout_time": 30, 
-     "bloom_time": 330, 
-     "experience": 2.95, 
-     "seasons": 3, 
-     "sale_price": 10, 
+     "fruit_time": 486, 
+     "goodstype": "flower", 
+     "sprout_time": 324, 
+     "recipe": "レシピに使えます：\nファンタスティックな旅", 
+     "introduce": "花言葉：愛の告白。", 
      "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "bloom_time": 324, 
+     "experience": 5.18, 
+     "seasons": 1, 
+     "sale_price": 35, 
      "seed_price": {
-      "gold": 380
+      "F_coin": 12
      }, 
-     "level_need": 45
+     "leaf_time": 243, 
+     "level_need": 0
     }, 
     "mango": {
      "total_time": 1646, 
@@ -12630,24 +12670,24 @@
      }, 
      "level_need": 22
     }, 
-    "xuelian": {
-     "total_time": 3120, 
-     "leaflet_time": 624, 
+    "xinxingxigua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "セツレンカ", 
+     "name": "ラブスイカ", 
      "base_fruit": 25, 
-     "fruit_time": 780, 
-     "sprout_time": 468, 
-     "bloom_time": 624, 
-     "experience": 5.5675, 
-     "seasons": 2, 
-     "sale_price": 15, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 35, 
+     "seasons": 1, 
+     "sale_price": 16, 
      "increment_fruit": 25, 
-     "leaf_time": 624, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 10
+      "F_coin": 100
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "yangyulan": {
      "total_time": 360, 
@@ -12914,24 +12954,24 @@
      "leaf_time": 480, 
      "level_need": 0
     }, 
-    "suichaye": {
-     "total_time": 930, 
-     "leaflet_time": 120, 
-     "used": false, 
-     "name": "茶葉", 
-     "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 120, 
-     "bloom_time": 210, 
-     "experience": 56, 
-     "seasons": 1, 
-     "sale_price": 48, 
-     "increment_fruit": 25, 
-     "leaf_time": 120, 
+    "flycatcher": {
+     "total_time": 2197, 
+     "leaflet_time": 309, 
      "seed_price": {
-      "F_coin": 1
+      "gold": 190
      }, 
-     "level_need": 0
+     "name": "ハエトリ草", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "recipe": "レシピに使えます：\nマジックスティック", 
+     "sprout_time": 152, 
+     "bloom_time": 692, 
+     "experience": 5.4, 
+     "seasons": 1, 
+     "sale_price": 18, 
+     "increment_fruit": 25, 
+     "leaf_time": 324, 
+     "level_need": 18
     }, 
     "shenqizijin": {
      "total_time": 2592, 
@@ -13556,24 +13596,24 @@
      }, 
      "level_need": 1
     }, 
-    "flycatcher": {
-     "total_time": 2197, 
-     "leaflet_time": 309, 
-     "seed_price": {
-      "gold": 190
-     }, 
-     "name": "ハエトリ草", 
+    "suichaye": {
+     "total_time": 930, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "茶葉", 
      "base_fruit": 25, 
-     "fruit_time": 720, 
-     "recipe": "レシピに使えます：\nマジックスティック", 
-     "sprout_time": 152, 
-     "bloom_time": 692, 
-     "experience": 5.4, 
+     "fruit_time": 360, 
+     "sprout_time": 120, 
+     "bloom_time": 210, 
+     "experience": 56, 
      "seasons": 1, 
-     "sale_price": 18, 
+     "sale_price": 48, 
      "increment_fruit": 25, 
-     "leaf_time": 324, 
-     "level_need": 18
+     "leaf_time": 120, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 0
     }, 
     "hongmaodan": {
      "total_time": 2022, 
@@ -14094,6 +14134,27 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
+    "chabei": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "謎のカップ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "introduce": "いろいろなカップ、何が出るのかな？", 
+     "is_random": true, 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "leaf_time": 240, 
+     "level_need": 1
+    }, 
     "ribenguoqishua": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -14112,28 +14173,6 @@
       "F_coin": 1
      }, 
      "level_need": 1
-    }, 
-    "tulip": {
-     "total_time": 1620, 
-     "leaflet_time": 243, 
-     "used": true, 
-     "name": "チューリップ", 
-     "base_fruit": 25, 
-     "fruit_time": 486, 
-     "goodstype": "flower", 
-     "sprout_time": 324, 
-     "recipe": "レシピに使えます：\nファンタスティックな旅", 
-     "introduce": "花言葉：愛の告白。", 
-     "increment_fruit": 25, 
-     "bloom_time": 324, 
-     "experience": 5.18, 
-     "seasons": 1, 
-     "sale_price": 35, 
-     "seed_price": {
-      "F_coin": 12
-     }, 
-     "leaf_time": 243, 
-     "level_need": 0
     }, 
     "wutongshu": {
      "total_time": 1970, 
@@ -14932,6 +14971,27 @@
      }, 
      "leaf_time": 330, 
      "level_need": 0
+    }, 
+    "guiliannangua": {
+     "total_time": 960, 
+     "leaflet_time": 90, 
+     "used": true, 
+     "name": "おかしなカボチャ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "recipe": "レシピに使えます：\nジャックオランタン", 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "leaf_time": 120, 
+     "level_need": 1
     }, 
     "huo_long_guo": {
      "total_time": 2356, 
@@ -15955,25 +16015,24 @@
      "leaf_time": 600, 
      "level_need": 0
     }, 
-    "qiukui": {
-     "total_time": 600, 
-     "leaflet_time": 55, 
+    "jianfeishu": {
+     "total_time": 720, 
+     "leaflet_time": 90, 
      "used": true, 
-     "name": "オクラ", 
+     "name": "痩せる木", 
      "base_fruit": 25, 
-     "fruit_time": 205, 
-     "recipe": "レシピに使えます：\nオクラサラダ\n野菜天ぷら", 
-     "sprout_time": 30, 
-     "bloom_time": 155, 
-     "experience": 1.14, 
-     "seasons": 3, 
-     "sale_price": 6, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 120, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 155, 
+     "leaf_time": 90, 
      "seed_price": {
-      "gold": 329
+      "F_coin": 10
      }, 
-     "level_need": 18
+     "level_need": 0
     }, 
     "chashu": {
      "total_time": 360, 
@@ -16525,6 +16584,25 @@
      }, 
      "level_need": 0
     }, 
+    "chabeixiongmao": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "パンダカップ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "qingrenhuasu": {
      "total_time": 1050, 
      "leaflet_time": 150, 
@@ -16946,45 +17024,44 @@
      "leaf_time": 90, 
      "level_need": 0
     }, 
-    "guiliannangua": {
+    "shanzhu": {
      "total_time": 960, 
      "leaflet_time": 90, 
      "used": true, 
-     "name": "おかしなカボチャ", 
+     "name": "マンゴスチン", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 90, 
-     "recipe": "レシピに使えます：\nジャックオランタン", 
-     "introduce": "", 
-     "increment_fruit": 25, 
+     "recipe": "レシピに使えます：\nマンゴスチンサラダ", 
+     "sprout_time": 30, 
      "bloom_time": 330, 
-     "experience": 7, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "experience": 2.95, 
+     "seasons": 3, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 20
+      "gold": 380
      }, 
-     "leaf_time": 120, 
-     "level_need": 1
+     "level_need": 45
     }, 
-    "xinxingxigua": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "xuelian": {
+     "total_time": 3120, 
+     "leaflet_time": 624, 
      "used": false, 
-     "name": "ラブスイカ", 
+     "name": "セツレンカ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 35, 
-     "seasons": 1, 
-     "sale_price": 16, 
+     "fruit_time": 780, 
+     "sprout_time": 468, 
+     "bloom_time": 624, 
+     "experience": 5.5675, 
+     "seasons": 2, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 624, 
      "seed_price": {
-      "F_coin": 100
+      "gold": 10
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "carnation": {
      "total_time": 1620, 
@@ -17796,6 +17873,25 @@
      }, 
      "leaf_time": 150, 
      "level_need": 0
+    }, 
+    "chabeituzi": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ウサギカップ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
     }, 
     "hongmaodanxin": {
      "total_time": 960, 
@@ -19269,24 +19365,25 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
-    "jianfeishu": {
-     "total_time": 720, 
-     "leaflet_time": 90, 
+    "qiukui": {
+     "total_time": 600, 
+     "leaflet_time": 55, 
      "used": true, 
-     "name": "痩せる木", 
+     "name": "オクラ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 60, 
-     "bloom_time": 120, 
-     "experience": 6, 
-     "seasons": 1, 
-     "sale_price": 7, 
+     "fruit_time": 205, 
+     "recipe": "レシピに使えます：\nオクラサラダ\n野菜天ぷら", 
+     "sprout_time": 30, 
+     "bloom_time": 155, 
+     "experience": 1.14, 
+     "seasons": 3, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 90, 
+     "leaf_time": 155, 
      "seed_price": {
-      "F_coin": 10
+      "gold": 329
      }, 
-     "level_need": 0
+     "level_need": 18
     }, 
     "hongdoulianrubaobing": {
      "total_time": 720, 
@@ -19806,6 +19903,25 @@
      "leaf_time": 330, 
      "level_need": 53
     }, 
+    "chabeimaotouying": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "フクロウカップ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "qiji": {
      "total_time": 870, 
      "leaflet_time": 150, 
@@ -20112,6 +20228,7 @@
     "agentingguoqishu", 
     "dianshihua", 
     "yinggelanguoqishu", 
+    "chabeituzi", 
     "wulaguiguoqishu", 
     "helanguoqishu", 
     "ganlanyou", 
@@ -20126,6 +20243,7 @@
     "naiyou", 
     "bale", 
     "fanqiejiang", 
+    "chabeihouzi", 
     "xibanyaguoqishu", 
     "siluofakeguoqishu", 
     "chashu", 
@@ -20135,10 +20253,13 @@
     "hezuoluobo", 
     "deguoguoqishu", 
     "qinglvmogu", 
+    "chabeimao", 
     "huangyou", 
     "balaguiguoqishu", 
+    "chabeixiongmao", 
     "lajiaojiang", 
     "ribenguoqishu", 
+    "chabeimaotouying", 
     "shugendangao", 
     "baxiguoqishu", 
     "lanqiansuitang", 
@@ -20181,6 +20302,7 @@
     "taigu", 
     "mitao", 
     "pantao", 
+    "chabei", 
     "jinpaishu", 
     "yanpi", 
     "hanguoguoqishu", 
