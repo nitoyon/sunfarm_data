@@ -10109,24 +10109,6 @@
     "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
     "activity_type": "discount"
    }, 
-   "shengdanhongniudan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "赤のクリスマスカプセル", 
-    "start_time": 1291129200.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "9日16時間", 
-    "end_time": 1291964400.0, 
-    "goods_description": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -10140,21 +10122,6 @@
     }, 
     "modify": true, 
     "goods_description": "ホワイトうさぎ", 
-    "activity_type": "discount"
-   }, 
-   "shengdanlvniudan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "緑のクリスマスカプセル", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "90%の確率で緑の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
     "activity_type": "discount"
    }, 
    "guohuatujian": {
@@ -10172,20 +10139,23 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
     "activity_type": "discount"
    }, 
-   "shengdanhuangniudan": {
-    "specific_type": "xin", 
+   "shengdanhongniudan": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "黄のクリスマスカプセル", 
+    "name": "赤のクリスマスカプセル", 
+    "start_time": 1291129200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "9日16時間", 
+    "end_time": 1291964400.0, 
+    "goods_description": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "50%の確率で黄の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
