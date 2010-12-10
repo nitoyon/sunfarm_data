@@ -10058,19 +10058,37 @@
     "goods_description": "ついに動物の宝箱が登場！可愛いアニマル？達が入っています！すべてを発見して図鑑を完成しよう！ ", 
     "activity_type": "discount"
    }, 
-   "baitu": {
-    "specific_type": "re", 
+   "chabei": {
     "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "ホワイトうさぎ", 
+    "name": "謎のカップ", 
+    "start_time": 1291968000.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日", 
+    "end_time": 1292918400.0, 
+    "goods_description": "いろいろなカップ、何が出るのかな？", 
     "price": {
-     "num": 30, 
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "guohuatujian": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "国花の宝箱", 
+    "price": {
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "ホワイトうさぎ", 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
     "activity_type": "discount"
    }, 
    "tujianbaoxiang": {
@@ -10088,19 +10106,19 @@
     "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
     "activity_type": "discount"
    }, 
-   "guohuatujian": {
-    "specific_type": "xin", 
+   "baitu": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "ranch", 
+     "goods_type": "baby"
     }, 
-    "name": "国花の宝箱", 
+    "name": "ホワイトうさぎ", 
     "price": {
-     "num": 10, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
+    "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
    }
   }, 
@@ -14083,7 +14101,7 @@
     "chabei": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "謎のカップ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
