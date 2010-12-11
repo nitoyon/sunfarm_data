@@ -20614,6 +20614,16 @@
       "time": 168
      }
     }, 
+    "rate_rune": {
+     "El": {
+      "rate_raise": 75, 
+      "price": {
+       "F_coin": 10
+      }, 
+      "used": true, 
+      "name": "艾尔"
+     }
+    }, 
     "dog": {
      "xuenarui": {
       "used": true, 
@@ -20686,16 +20696,22 @@
       "pro": 0.3
      }
     }, 
-    "pest": {
-     "ladybird": {
-      "count": 10, 
-      "used": false, 
-      "name": "テントウムシ", 
+    "reindeer_food": {
+     "xunlubiandang": {
       "price": {
-       "gold": 500
+       "F_coin": 1
       }, 
-      "effect": 15, 
-      "introduce": "友達の作物に使えます。相手に退治されると、普通よりもっと多く収穫できます。"
+      "used": false, 
+      "name": "普通のお弁当", 
+      "introduce": "美味しいお弁当、食べるとすこし満腹度が上がります。"
+     }, 
+     "dabiandang": {
+      "price": {
+       "F_coin": 10
+      }, 
+      "used": false, 
+      "name": "豪華なお弁当", 
+      "introduce": "豪華なお弁当、食べると満腹度がかなり上がります。"
      }
     }, 
     "point_coupons": {
@@ -20917,6 +20933,18 @@
       "effect": 5.5, 
       "introduce": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
       "state": "re"
+     }
+    }, 
+    "pest": {
+     "ladybird": {
+      "count": 10, 
+      "used": false, 
+      "name": "テントウムシ", 
+      "price": {
+       "gold": 500
+      }, 
+      "effect": 15, 
+      "introduce": "友達の作物に使えます。相手に退治されると、普通よりもっと多く収穫できます。"
      }
     }, 
     "discount_card": {
@@ -21716,6 +21744,9 @@
      "dogfood", 
      "shouhunengliangbao"
     ], 
+    "rate_rune": [
+     "El"
+    ], 
     "dog": [
      "shengdanlaoren", 
      "xuenarui", 
@@ -21725,8 +21756,9 @@
      "yhxianzi", 
      "stray"
     ], 
-    "pest": [
-     "ladybird"
+    "reindeer_food": [
+     "xunlubiandang", 
+     "dabiandang"
     ], 
     "point_coupons": [
      "auction_point_coupons", 
@@ -21748,6 +21780,9 @@
      "huaxue", 
      "jiyin", 
      "common"
+    ], 
+    "pest": [
+     "ladybird"
     ], 
     "discount_card": [
      "seven_fold"
