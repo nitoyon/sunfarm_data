@@ -20614,6 +20614,16 @@
       "time": 168
      }
     }, 
+    "rate_rune": {
+     "El": {
+      "rate_raise": 75, 
+      "price": {
+       "F_coin": 10
+      }, 
+      "used": true, 
+      "name": "\u827e\u5c14"
+     }
+    }, 
     "dog": {
      "xuenarui": {
       "used": true, 
@@ -20686,16 +20696,22 @@
       "pro": 0.3
      }
     }, 
-    "pest": {
-     "ladybird": {
-      "count": 10, 
-      "used": false, 
-      "name": "\u30c6\u30f3\u30c8\u30a6\u30e0\u30b7", 
+    "reindeer_food": {
+     "xunlubiandang": {
       "price": {
-       "gold": 500
+       "F_coin": 1
       }, 
-      "effect": 15, 
-      "introduce": "\u53cb\u9054\u306e\u4f5c\u7269\u306b\u4f7f\u3048\u307e\u3059\u3002\u76f8\u624b\u306b\u9000\u6cbb\u3055\u308c\u308b\u3068\u3001\u666e\u901a\u3088\u308a\u3082\u3063\u3068\u591a\u304f\u53ce\u7a6b\u3067\u304d\u307e\u3059\u3002"
+      "used": false, 
+      "name": "\u666e\u901a\u306e\u304a\u5f01\u5f53", 
+      "introduce": "\u7f8e\u5473\u3057\u3044\u304a\u5f01\u5f53\u3001\u98df\u3079\u308b\u3068\u3059\u3053\u3057\u6e80\u8179\u5ea6\u304c\u4e0a\u304c\u308a\u307e\u3059\u3002"
+     }, 
+     "dabiandang": {
+      "price": {
+       "F_coin": 10
+      }, 
+      "used": false, 
+      "name": "\u8c6a\u83ef\u306a\u304a\u5f01\u5f53", 
+      "introduce": "\u8c6a\u83ef\u306a\u304a\u5f01\u5f53\u3001\u98df\u3079\u308b\u3068\u6e80\u8179\u5ea6\u304c\u304b\u306a\u308a\u4e0a\u304c\u308a\u307e\u3059\u3002"
      }
     }, 
     "point_coupons": {
@@ -20917,6 +20933,18 @@
       "effect": 5.5, 
       "introduce": "\u4f7f\u3046\u3068\u4f5c\u7269\u306e\u6210\u719f\u6642\u9593\u30925.5\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002\u80a5\u6599\u306e\u52b9\u679c\u306f\u6b21\u306e\u6bb5\u968e\u3078\u6301\u3061\u8d8a\u3059\u3053\u3068\u306f\u3067\u304d\u307e\u305b\u3093\u3002", 
       "state": "re"
+     }
+    }, 
+    "pest": {
+     "ladybird": {
+      "count": 10, 
+      "used": false, 
+      "name": "\u30c6\u30f3\u30c8\u30a6\u30e0\u30b7", 
+      "price": {
+       "gold": 500
+      }, 
+      "effect": 15, 
+      "introduce": "\u53cb\u9054\u306e\u4f5c\u7269\u306b\u4f7f\u3048\u307e\u3059\u3002\u76f8\u624b\u306b\u9000\u6cbb\u3055\u308c\u308b\u3068\u3001\u666e\u901a\u3088\u308a\u3082\u3063\u3068\u591a\u304f\u53ce\u7a6b\u3067\u304d\u307e\u3059\u3002"
      }
     }, 
     "discount_card": {
@@ -21716,6 +21744,9 @@
      "dogfood", 
      "shouhunengliangbao"
     ], 
+    "rate_rune": [
+     "El"
+    ], 
     "dog": [
      "shengdanlaoren", 
      "xuenarui", 
@@ -21725,8 +21756,9 @@
      "yhxianzi", 
      "stray"
     ], 
-    "pest": [
-     "ladybird"
+    "reindeer_food": [
+     "xunlubiandang", 
+     "dabiandang"
     ], 
     "point_coupons": [
      "auction_point_coupons", 
@@ -21748,6 +21780,9 @@
      "huaxue", 
      "jiyin", 
      "common"
+    ], 
+    "pest": [
+     "ladybird"
     ], 
     "discount_card": [
      "seven_fold"
