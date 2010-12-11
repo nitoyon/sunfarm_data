@@ -6486,9 +6486,13 @@
     "nantanglang", 
     "nvtanglang", 
     "daishu", 
+    "waixingrenshuren", 
+    "waixingmaoguai", 
     "changjinglu", 
     "changbozi", 
     "shudaixiong", 
+    "waixingduyanguai", 
+    "waixingdujiaoshou", 
     "jingang", 
     "shuidi", 
     "guinangua", 
@@ -6517,6 +6521,7 @@
     "hongqingting", 
     "liumangtu", 
     "lanqingting", 
+    "waixingren", 
     "tianshizheermao", 
     "tianshijiwawa", 
     "qingwa", 
@@ -7225,6 +7230,27 @@
      "level_need": 23, 
      "fruit_quantifier": "個"
     }, 
+    "waixingren": {
+     "total_time": 840, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ヤサイドロボン", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 25
+     }, 
+     "seasons": 4, 
+     "young_time": 240, 
+     "experience": 10.0, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 60, 
+     "increment_fruit": 25, 
+     "level_need": 40, 
+     "fruit_quantifier": "個"
+    }, 
     "wushi": {
      "total_time": 1320, 
      "sound": {
@@ -7321,6 +7347,27 @@
      "sale_price": 15, 
      "increment_fruit": 25, 
      "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "waixingduyanguai": {
+     "total_time": 720, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "コウズイン", 
+     "base_fruit": 25, 
+     "fruit_time": 240, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 35
+     }, 
+     "seasons": 4, 
+     "young_time": 240, 
+     "experience": 10.0, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 55, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
     "jingang": {
@@ -8255,23 +8302,69 @@
      "level_need": 39, 
      "fruit_quantifier": "個"
     }, 
-    "qingwa": {
-     "total_time": 360, 
-     "harvest_type": 3, 
+    "waixingdujiaoshou": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
      "used": false, 
-     "name": "カエル", 
+     "name": "コウノウヤクン", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 20
+     }, 
+     "seasons": 4, 
+     "young_time": 240, 
+     "experience": 14.0, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 80, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "waixingrenshuren": {
+     "total_time": 600, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "カンバッツ", 
      "base_fruit": 25, 
      "fruit_time": 240, 
-     "adult_time": 60, 
+     "adult_time": 240, 
      "buy_price": {
-      "gold": 50
+      "F_coin": 15
+     }, 
+     "seasons": 4, 
+     "young_time": 120, 
+     "experience": 6.0, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 30, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "lanhe": {
+     "total_time": 720, 
+     "sound": {
+      "p": "1052,1052,1053,1053,-1,-1", 
+      "enable": true, 
+      "name": "dandinghe"
+     }, 
+     "used": false, 
+     "name": "ハゴロモヅル", 
+     "base_fruit": 25, 
+     "fruit_time": 240, 
+     "adult_time": 240, 
+     "buy_price": {
+      "gold": 1
      }, 
      "seasons": 1, 
-     "young_time": 60, 
-     "experience": 3.75, 
-     "fruit_name": "", 
-     "is_auto_harvest": false, 
-     "sale_price": 2, 
+     "young_time": 240, 
+     "experience": 8, 
+     "fruit_name": "たまご", 
+     "is_auto_harvest": true, 
+     "sale_price": 3, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -8907,27 +9000,23 @@
      "level_need": 31, 
      "fruit_quantifier": "個"
     }, 
-    "lanhe": {
-     "total_time": 720, 
-     "sound": {
-      "p": "1052,1052,1053,1053,-1,-1", 
-      "enable": true, 
-      "name": "dandinghe"
-     }, 
+    "qingwa": {
+     "total_time": 360, 
+     "harvest_type": 3, 
      "used": false, 
-     "name": "ハゴロモヅル", 
+     "name": "カエル", 
      "base_fruit": 25, 
      "fruit_time": 240, 
-     "adult_time": 240, 
+     "adult_time": 60, 
      "buy_price": {
-      "gold": 1
+      "gold": 50
      }, 
      "seasons": 1, 
-     "young_time": 240, 
-     "experience": 8, 
-     "fruit_name": "たまご", 
-     "is_auto_harvest": true, 
-     "sale_price": 3, 
+     "young_time": 60, 
+     "experience": 3.75, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 2, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -9828,6 +9917,27 @@
      "fruit_name": "", 
      "is_auto_harvest": false, 
      "sale_price": 200, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "waixingmaoguai": {
+     "total_time": 360, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ガイチュー", 
+     "base_fruit": 25, 
+     "fruit_time": 240, 
+     "adult_time": 60, 
+     "buy_price": {
+      "F_coin": 10
+     }, 
+     "seasons": 4, 
+     "young_time": 60, 
+     "experience": 3.4, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 20, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
