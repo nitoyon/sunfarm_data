@@ -570,6 +570,111 @@
      }
     }
    }, 
+   "hesuilibao": {
+    "config": {
+     "price": {
+      "F_coin": 600
+     }, 
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムだけでなく、畜産のホワイトタイガーと畑のビッグスイカも入っているよ！さっそく開けてみよう！", 
+     "name": "コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムだけでなく、畜産のホワイトタイガーと畑のビッグスイカも入っているよ！さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        1.0
+       ], 
+       "xuesongshu": [
+        1, 
+        1.0
+       ], 
+       "hongbailanmeigui": [
+        1, 
+        1.0
+       ], 
+       "hudiehua": [
+        1, 
+        1.0
+       ], 
+       "nirenmangguo": [
+        1, 
+        1.0
+       ], 
+       "qinglvmogu": [
+        1, 
+        1.0
+       ], 
+       "yutuhua": [
+        4, 
+        1.0
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        1.0
+       ], 
+       "chabei": [
+        1, 
+        1.0
+       ], 
+       "yuanxigua": [
+        1, 
+        1.0
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        1.0
+       ], 
+       "nirenboluo": [
+        1, 
+        1.0
+       ], 
+       "binglinghua": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         4, 
+         1.0
+        ], 
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "bailaohu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "hb_5": {
     "config": {
      "price": {
@@ -1113,6 +1218,26 @@
      }
     }
    }, 
+   "dongwu_1": {
+    "config": {
+     "price": {
+      "F_coin": 130
+     }, 
+     "used": false, 
+     "goods_str": "清远乌鬃鹅5个、狼山鸡5个、广西小麻鸭5个、莆田黑鸭5个", 
+     "name": "仔動物セット"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "guangxiMaDuck": 5, 
+       "langshanChook": 5, 
+       "putianDuck": 5, 
+       "wuzongGoose": 5
+      }
+     }
+    }
+   }, 
    "putaobao": {
     "config": {
      "used": true, 
@@ -1131,26 +1256,6 @@
         10, 
         1.0
        ]
-      }
-     }
-    }
-   }, 
-   "dongwu_1": {
-    "config": {
-     "price": {
-      "F_coin": 130
-     }, 
-     "used": false, 
-     "goods_str": "清远乌鬃鹅5个、狼山鸡5个、广西小麻鸭5个、莆田黑鸭5个", 
-     "name": "仔動物セット"
-    }, 
-    "data": {
-     "ranch": {
-      "babies": {
-       "guangxiMaDuck": 5, 
-       "langshanChook": 5, 
-       "putianDuck": 5, 
-       "wuzongGoose": 5
       }
      }
     }
@@ -1733,6 +1838,30 @@
      }
     }
    }, 
+   "juice_guosuanjinghua_gift": {
+    "config": {
+     "goods_str": "パラミツ\t\t\t\t\t\t1個", 
+     "name": "フルーツ酸材料セット", 
+     "needlevel": 4, 
+     "price": {
+      "gold": 194
+     }, 
+     "factory": true, 
+     "introduce": "パラミツ1個", 
+     "sale": true, 
+     "used": true
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "pineapple": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "crops_guoguangpingguo_gift": {
     "config": {
      "goods_str": "豌豆\t\t\t\t\t\t\t1個\nアローカナ\t\t\t\t\t1匹\n\nツギキリンゴを製造するための:\n\tりんご\t\t\t\t\t\t2個\n\tトウモロコシ\t\t\t\t2個\n\tトマト\t\t\t\t\t\t2個", 
@@ -2121,27 +2250,59 @@
      }
     }
    }, 
-   "crops_xilengniupai_gift": {
+   "items_shiyanfeiliao_gift": {
     "config": {
-     "goods_str": "極上の牛\t\t\t\t\t1匹\n\nバターを製造するための:\n\tジャージー\t\t\t\t\t3匹", 
-     "name": "サーロインステーキ材料セット", 
-     "needlevel": 8, 
+     "goods_str": "金糸瓜\t\t\t\t\t\t1個\n鵞鳥\t\t\t\t\t\t\t2匹\n紅茶鴨\t\t\t\t\t\t2匹", 
+     "name": "合成肥料(低)材料セット", 
+     "needlevel": 2, 
      "price": {
-      "gold": 2073
+      "gold": 458
      }, 
      "factory": true, 
-     "introduce": "ジャージー3個\n極上の牛1個", 
+     "introduce": "鵞鳥2匹\n紅茶鴨2匹\n金糸瓜1個", 
+     "sale": true, 
+     "used": true
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "goldenmelon": [
+        1, 
+        1.0
+       ]
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "goose": [
+        2, 
+        1.0
+       ], 
+       "beijingDuck": [
+        2, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
+   "crops_tudoudunzhurou_gift": {
+    "config": {
+     "goods_str": "ブタ\t\t\t\t\t\t\t1匹", 
+     "name": "肉じゃが材料セット", 
+     "needlevel": 1, 
+     "price": {
+      "gold": 692
+     }, 
+     "factory": true, 
+     "introduce": "ブタ1個", 
      "sale": true, 
      "used": true
     }, 
     "data": {
      "ranch": {
       "babies": {
-       "juanshanniu": [
-        3, 
-        1.0
-       ], 
-       "shenhuniu": [
+       "huazhu": [
         1, 
         1.0
        ]
@@ -2177,27 +2338,27 @@
      }
     }
    }, 
-   "crops_moguniurouchaofan_gift": {
+   "items_dijifeiliao_gift": {
     "config": {
-     "goods_str": "キノコ\t\t\t\t\t\t1個\n水稲\t\t\t\t\t\t\t1個\n極上の牛\t\t\t\t\t1匹", 
-     "name": "きのこチャーハン材料セット", 
-     "needlevel": 8, 
+     "goods_str": "クワの実\t\t\t\t\t2個\n\n合成肥料(低)を製造するための:\n\t金糸瓜\t\t\t\t\t\t1個\n\t家鵞鳥\t\t\t\t\t\t2匹\n\t紅茶鴨\t\t\t\t\t\t2匹", 
+     "name": "合成肥料(中)材料セット", 
+     "needlevel": 3, 
      "price": {
-      "gold": 922
+      "gold": 752
      }, 
      "factory": true, 
-     "introduce": "キノコ1個\n水稲1個\n極上の牛1個", 
+     "introduce": "金糸瓜1個\n家鵞鳥2個\n紅茶鴨2個\nクワの実2個", 
      "sale": true, 
      "used": true
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "shuidao": [
-        1, 
+       "mulberry": [
+        2, 
         1.0
        ], 
-       "mogu": [
+       "goldenmelon": [
         1, 
         1.0
        ]
@@ -2205,8 +2366,12 @@
      }, 
      "ranch": {
       "babies": {
-       "shenhuniu": [
-        1, 
+       "goose": [
+        2, 
+        1.0
+       ], 
+       "beijingDuck": [
+        2, 
         1.0
        ]
       }
@@ -2266,46 +2431,6 @@
         1.0
        ], 
        "duck": [
-        2, 
-        1.0
-       ]
-      }
-     }
-    }
-   }, 
-   "items_dijifeiliao_gift": {
-    "config": {
-     "goods_str": "クワの実\t\t\t\t\t2個\n\n合成肥料(低)を製造するための:\n\t金糸瓜\t\t\t\t\t\t1個\n\t家鵞鳥\t\t\t\t\t\t2匹\n\t紅茶鴨\t\t\t\t\t\t2匹", 
-     "name": "合成肥料(中)材料セット", 
-     "needlevel": 3, 
-     "price": {
-      "gold": 752
-     }, 
-     "factory": true, 
-     "introduce": "金糸瓜1個\n家鵞鳥2個\n紅茶鴨2個\nクワの実2個", 
-     "sale": true, 
-     "used": true
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "mulberry": [
-        2, 
-        1.0
-       ], 
-       "goldenmelon": [
-        1, 
-        1.0
-       ]
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "goose": [
-        2, 
-        1.0
-       ], 
-       "beijingDuck": [
         2, 
         1.0
        ]
@@ -2697,23 +2822,27 @@
      }
     }
    }, 
-   "items_shiyanfeiliao_gift": {
+   "crops_moguniurouchaofan_gift": {
     "config": {
-     "goods_str": "金糸瓜\t\t\t\t\t\t1個\n鵞鳥\t\t\t\t\t\t\t2匹\n紅茶鴨\t\t\t\t\t\t2匹", 
-     "name": "合成肥料(低)材料セット", 
-     "needlevel": 2, 
+     "goods_str": "キノコ\t\t\t\t\t\t1個\n水稲\t\t\t\t\t\t\t1個\n極上の牛\t\t\t\t\t1匹", 
+     "name": "きのこチャーハン材料セット", 
+     "needlevel": 8, 
      "price": {
-      "gold": 458
+      "gold": 922
      }, 
      "factory": true, 
-     "introduce": "鵞鳥2匹\n紅茶鴨2匹\n金糸瓜1個", 
+     "introduce": "キノコ1個\n水稲1個\n極上の牛1個", 
      "sale": true, 
      "used": true
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "goldenmelon": [
+       "shuidao": [
+        1, 
+        1.0
+       ], 
+       "mogu": [
         1, 
         1.0
        ]
@@ -2721,35 +2850,35 @@
      }, 
      "ranch": {
       "babies": {
-       "goose": [
-        2, 
-        1.0
-       ], 
-       "beijingDuck": [
-        2, 
+       "shenhuniu": [
+        1, 
         1.0
        ]
       }
      }
     }
    }, 
-   "juice_guosuanjinghua_gift": {
+   "crops_juxianghuacha_gift": {
     "config": {
-     "goods_str": "パラミツ\t\t\t\t\t\t1個", 
-     "name": "フルーツ酸材料セット", 
-     "needlevel": 4, 
+     "goods_str": "金盞花\t\t\t\t\t\t1個\n蜜柑\t\t\t\t\t\t\t2個", 
+     "name": "オレンジティー材料セット", 
+     "needlevel": 3, 
      "price": {
-      "gold": 194
+      "gold": 738
      }, 
      "factory": true, 
-     "introduce": "パラミツ1個", 
+     "introduce": "金盞花1個\n蜜柑2個", 
      "sale": true, 
      "used": true
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "pineapple": [
+       "orange": [
+        2, 
+        1.0
+       ], 
+       "marigold": [
         1, 
         1.0
        ]
@@ -2882,34 +3011,6 @@
         1.0
        ], 
        "hong_zao": [
-        1, 
-        1.0
-       ]
-      }
-     }
-    }
-   }, 
-   "crops_juxianghuacha_gift": {
-    "config": {
-     "goods_str": "金盞花\t\t\t\t\t\t1個\n蜜柑\t\t\t\t\t\t\t2個", 
-     "name": "オレンジティー材料セット", 
-     "needlevel": 3, 
-     "price": {
-      "gold": 738
-     }, 
-     "factory": true, 
-     "introduce": "金盞花1個\n蜜柑2個", 
-     "sale": true, 
-     "used": true
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "orange": [
-        2, 
-        1.0
-       ], 
-       "marigold": [
         1, 
         1.0
        ]
@@ -3373,23 +3474,27 @@
      }
     }
    }, 
-   "crops_tudoudunzhurou_gift": {
+   "crops_xilengniupai_gift": {
     "config": {
-     "goods_str": "ブタ\t\t\t\t\t\t\t1匹", 
-     "name": "肉じゃが材料セット", 
-     "needlevel": 1, 
+     "goods_str": "極上の牛\t\t\t\t\t1匹\n\nバターを製造するための:\n\tジャージー\t\t\t\t\t3匹", 
+     "name": "サーロインステーキ材料セット", 
+     "needlevel": 8, 
      "price": {
-      "gold": 692
+      "gold": 2073
      }, 
      "factory": true, 
-     "introduce": "ブタ1個", 
+     "introduce": "ジャージー3個\n極上の牛1個", 
      "sale": true, 
      "used": true
     }, 
     "data": {
      "ranch": {
       "babies": {
-       "huazhu": [
+       "juanshanniu": [
+        3, 
+        1.0
+       ], 
+       "shenhuniu": [
         1, 
         1.0
        ]
@@ -10122,8 +10227,8 @@
    "crops_dongguapaigutang_gift", 
    "crops_xiangkaoyangpai_gift", 
    "crops_naiyoukaoyumi_gift", 
-   "crops_moguniurouchaofan_gift", 
    "crops_xilengniupai_gift", 
+   "crops_moguniurouchaofan_gift", 
    "crops_ganlanyou_gift", 
    "crops_yejunhuoguo_gift", 
    "crops_zhishijumogu_gift", 
@@ -10144,10 +10249,10 @@
    "crops_xiwanghua_gift", 
    "crops_moshubang_gift", 
    "crops_tianyuanji_gift", 
-   "juice_guosuanjinghua_gift", 
    "crops_fanqieroujiangmian_gift", 
    "crops_hongtang_gift", 
    "crops_ziteng_gift", 
+   "juice_guosuanjinghua_gift", 
    "crops_zhuomuniao_gift", 
    "crops_shishutianfuluo_gift", 
    "juice_mangguozhi_gift", 
@@ -10157,19 +10262,19 @@
    "items_dijifeiliao_gift", 
    "crops_shuiguojiang_gift", 
    "crops_lanmeibingjiling_gift", 
-   "items_shiyanfeiliao_gift", 
    "crops_danhuangjiang_gift", 
    "juice_shucaizhi_gift", 
    "crops_qiukuishala_gift", 
    "crops_lajiaoyou_gift", 
    "crops_zhuanjiyindanji_gift", 
+   "items_shiyanfeiliao_gift", 
    "crops_youlicishen_gift", 
    "crops_suanrulao_gift", 
    "crops_guoguangpingguo_gift", 
-   "crops_tudoudunzhurou_gift", 
    "crops_pingguopai_gift", 
    "juice_nanguazhi_gift", 
    "crops_fanqieguopu_gift", 
+   "crops_tudoudunzhurou_gift", 
    "crops_naiyou_gift", 
    "crops_jiajiepingguo_gift", 
    "crops_jidanbing_gift", 
@@ -21951,6 +22056,7 @@
    "zhounianbao1", 
    "crops_hongfushi_gift", 
    "guoqinglibao", 
+   "crops_xilengniupai_gift", 
    "crops_xiangkaoyangpai_gift", 
    "crops_tianyuanji_gift", 
    "crops_shishutianfuluo_gift", 
@@ -21965,13 +22071,13 @@
    "hb_2", 
    "crops_youlicishen_gift", 
    "crops_naiyou_gift", 
-   "crops_juxianghuacha_gift", 
    "crops_tilamisu_gift", 
    "niudanlipinbao", 
    "crops_mitao_gift", 
    "gb_10", 
    "gb_12", 
    "dongwu_1", 
+   "hesuilibao", 
    "crops_zhugunongtangmian_gift", 
    "crops_qianlima_gift", 
    "crops_jidanbing_gift", 
@@ -21988,14 +22094,14 @@
    "juice_shucaizhi_gift", 
    "crops_naiyoukaoyumi_gift", 
    "juice_miganzhi_gift", 
-   "juice_guosuanjinghua_gift", 
+   "crops_juxianghuacha_gift", 
    "crops_qingtongshu_gift", 
    "juice_mangguozhi_gift", 
    "crops_moshubang_gift", 
    "crops_emozhixin_gift", 
    "crops_jiangbaojiding_gift", 
    "crops_zhishijumogu_gift", 
-   "crops_xilengniupai_gift", 
+   "juice_guosuanjinghua_gift", 
    "crops_ziteng_gift", 
    "crops_dongguapaigutang_gift", 
    "crops_shuiguojiang_gift", 
