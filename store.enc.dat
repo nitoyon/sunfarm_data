@@ -21099,6 +21099,14 @@
       "introduce": "使うと作物の成熟時間を15分短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
       "state": "re"
      }, 
+     "gailiangji": {
+      "price": {
+       "F_coin": 99999
+      }, 
+      "used": false, 
+      "name": "???", 
+      "introduce": "こ、これは？！"
+     }, 
      "gaosu": {
       "price": {
        "F_coin": 1
@@ -21126,14 +21134,15 @@
       "introduce": "使うと作物の成熟時間を2.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
       "effect": 2.5
      }, 
-     "common": {
+     "gaoji": {
+      "used": true, 
+      "name": "高級肥料", 
       "price": {
-       "gold": 30
+       "F_coin": 4
       }, 
-      "used": false, 
-      "name": "トライアル肥料", 
-      "introduce": "使うと作物の成熟時間を1時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-      "effect": 1
+      "effect": 5.5, 
+      "introduce": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
+      "state": "re"
      }, 
      "test": {
       "price": {
@@ -21193,15 +21202,14 @@
       "introduce": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
       "state": "re"
      }, 
-     "gaoji": {
-      "used": true, 
-      "name": "高級肥料", 
+     "common": {
       "price": {
-       "F_coin": 4
+       "gold": 30
       }, 
-      "effect": 5.5, 
-      "introduce": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-      "state": "re"
+      "used": false, 
+      "name": "トライアル肥料", 
+      "introduce": "使うと作物の成熟時間を1時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
+      "effect": 1
      }
     }, 
     "pest": {
@@ -22039,6 +22047,7 @@
      "zengshou1", 
      "zengshou", 
      "gaoji", 
+     "gailiangji", 
      "test", 
      "tianran", 
      "jisu", 
