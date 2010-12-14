@@ -10360,6 +10360,10 @@
     "activity_type": "hot_sale"
    }, 
    "gaoji": {
+    "original_price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
@@ -10367,12 +10371,15 @@
     }, 
     "name": "高級肥料", 
     "price": {
-     "num": 6, 
+     "num": 4, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_hot", 
+    "limit_type": "limit_time", 
+    "limit_time": "1日19時間", 
+    "end_time": 1292468400.0, 
     "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "start_time": 1292313600.0, 
     "activity_type": "hot_sale"
    }, 
    "guohuatujian": {
@@ -21156,7 +21163,7 @@
       "used": true, 
       "name": "マジック肥料", 
       "price": {
-       "F_coin": 2
+       "F_coin": 1
       }, 
       "effect": 0.5, 
       "introduce": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
@@ -21166,7 +21173,7 @@
       "used": true, 
       "name": "高級肥料", 
       "price": {
-       "F_coin": 6
+       "F_coin": 4
       }, 
       "effect": 5.5, 
       "introduce": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
