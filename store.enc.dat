@@ -17000,6 +17000,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "yaerqin": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "三つ葉", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 150, 
+     "bloom_time": 390, 
+     "experience": 11.6, 
+     "seasons": 1, 
+     "sale_price": 22, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "gold": 265
+     }, 
+     "level_need": 61
+    }, 
     "kuailenangua": {
      "total_time": 960, 
      "leaflet_time": 90, 
@@ -20895,7 +20914,8 @@
     "sigua", 
     "cigu", 
     "youcai", 
-    "xilanhua"
+    "xilanhua", 
+    "yaerqin"
    ], 
    "properties": {
     "dog_food": {
