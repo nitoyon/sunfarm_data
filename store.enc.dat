@@ -10327,6 +10327,24 @@
     "goods_description": "雪ツリー", 
     "activity_type": "discount"
    }, 
+   "hammer": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "マジックハンマー", 
+    "start_time": 1292482800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日", 
+    "end_time": 1293433200.0, 
+    "goods_description": "クリスタルを開けることができます。", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "tujianbaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -10356,6 +10374,24 @@
     "modify": true, 
     "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
+   }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "クリスタル", 
+    "start_time": 1292482800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日", 
+    "end_time": 1293433200.0, 
+    "goods_description": "雪だるまの植物と高級肥料が1つずつ入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "chabei": {
     "product_type": {
