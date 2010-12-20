@@ -21002,7 +21002,7 @@
       "price": {
        "F_coin": 10
       }, 
-      "used": false, 
+      "used": true, 
       "name": "サンストーン", 
       "introduce": "工場でアイテムを製造するときに使うと高級産物の出現率を上げることができます。"
      }
@@ -21487,6 +21487,17 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
+      "shengdan": {
+       "used": false, 
+       "name": "クリスマスの大地", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 3
+       }, 
+       "experience": 160, 
+       "multi_buy": false, 
+       "deadline": 3
+      }, 
       "shizizuo": {
        "used": true, 
        "name": "しし座の大地", 
@@ -21724,6 +21735,17 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
+      "chunvzuo": {
+       "used": true, 
+       "name": "おとめ座の神殿", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 15
+       }, 
+       "experience": 26, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
       "wanshengjie": {
        "used": true, 
        "name": "悪魔の城", 
@@ -21823,16 +21845,16 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "chunvzuo": {
-       "used": true, 
-       "name": "おとめ座の神殿", 
+      "shengdan": {
+       "used": false, 
+       "name": "クリスマスの小屋", 
        "layer_order": 2, 
        "price": {
-        "F_coin": 15
+        "F_coin": 2
        }, 
-       "experience": 26, 
+       "experience": 20, 
        "multi_buy": false, 
-       "deadline": 15
+       "deadline": 3
       }, 
       "yuandan": {
        "used": false, 
@@ -21887,17 +21909,6 @@
       "multi_use": false
      }, 
      "data": {
-      "shengdanjie": {
-       "used": false, 
-       "name": "クリスマス風の雪空", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 4
-       }, 
-       "experience": 20, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
       "summer": {
        "used": false, 
        "name": "真夏の夜", 
@@ -21908,17 +21919,6 @@
        "experience": 310, 
        "multi_buy": false, 
        "deadline": 7
-      }, 
-      "jiyi": {
-       "used": false, 
-       "name": "記憶の空", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 15
-       }, 
-       "experience": 200, 
-       "multi_buy": false, 
-       "deadline": 20
       }, 
       "juxiezuo": {
        "used": true, 
@@ -21952,6 +21952,17 @@
        "experience": 20, 
        "multi_buy": false, 
        "deadline": 30
+      }, 
+      "shengdan": {
+       "used": false, 
+       "name": "クリスマスの空", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 1
+       }, 
+       "experience": 160, 
+       "multi_buy": false, 
+       "deadline": 3
       }, 
       "shizizuo": {
        "used": true, 
@@ -22041,6 +22052,17 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
+      "yuandan": {
+       "used": false, 
+       "name": "新年の空", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 4
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
       "chunvzuo": {
        "used": true, 
        "name": "おとめ座の空", 
@@ -22063,9 +22085,9 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "yuandan": {
+      "shengdanjie": {
        "used": false, 
-       "name": "新年の空", 
+       "name": "クリスマス風の雪空", 
        "layer_order": 3, 
        "price": {
         "F_coin": 4
@@ -22085,16 +22107,16 @@
        "multi_buy": false, 
        "deadline": 5
       }, 
-      "qingrenjie": {
-       "used": true, 
-       "name": "愛の空", 
+      "jiyi": {
+       "used": false, 
+       "name": "記憶の空", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 4
+        "F_coin": 15
        }, 
-       "experience": 20, 
+       "experience": 200, 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 20
       }, 
       "male": {
        "used": true, 
@@ -22102,6 +22124,17 @@
        "layer_order": 3, 
        "price": {
         "F_coin": 19
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "qingrenjie": {
+       "used": true, 
+       "name": "愛の空", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 4
        }, 
        "experience": 20, 
        "multi_buy": false, 
