@@ -10897,24 +10897,24 @@
      }, 
      "level_need": 1
     }, 
-    "pea": {
-     "total_time": 1414, 
-     "leaflet_time": 180, 
-     "seed_price": {
-      "gold": 75
-     }, 
-     "name": "豌豆", 
+    "jianaguoqishua": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "復刻版ガーナ国旗樹", 
      "base_fruit": 25, 
-     "fruit_time": 335, 
-     "recipe": "レシピに使えます：\n東北高級りんご", 
-     "sprout_time": 170, 
-     "bloom_time": 395, 
-     "experience": 3.45, 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 6, 
      "seasons": 1, 
-     "sale_price": 9, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "leaf_time": 334, 
-     "level_need": 10
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 1
     }, 
     "chabeimao": {
      "total_time": 1080, 
@@ -11978,6 +11978,25 @@
      "leaf_time": 145, 
      "seed_price": {
       "F_coin": 15
+     }, 
+     "level_need": 0
+    }, 
+    "diaokexiaonvhaishengzhuang": {
+     "total_time": 1320, 
+     "leaflet_time": 180, 
+     "used": false, 
+     "name": "クリスマスの思い出", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "sprout_time": 180, 
+     "bloom_time": 300, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 1
      }, 
      "level_need": 0
     }, 
@@ -18889,24 +18908,24 @@
      }, 
      "level_need": 1
     }, 
-    "jianaguoqishua": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "復刻版ガーナ国旗樹", 
-     "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 6, 
-     "seasons": 1, 
-     "sale_price": 12, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
+    "pea": {
+     "total_time": 1414, 
+     "leaflet_time": 180, 
      "seed_price": {
-      "F_coin": 1
+      "gold": 75
      }, 
-     "level_need": 1
+     "name": "豌豆", 
+     "base_fruit": 25, 
+     "fruit_time": 335, 
+     "recipe": "レシピに使えます：\n東北高級りんご", 
+     "sprout_time": 170, 
+     "bloom_time": 395, 
+     "experience": 3.45, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 334, 
+     "level_need": 10
     }, 
     "bingdiaoshu": {
      "total_time": 1410, 
@@ -20656,6 +20675,7 @@
     "zhizi", 
     "nvmogu", 
     "diwanghua", 
+    "diaokexiaonvhaishengzhuang", 
     "shengdanshu", 
     "nirenxianrenzhang", 
     "nirenyali", 
