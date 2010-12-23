@@ -6627,6 +6627,10 @@
     "hongqingting", 
     "liumangtu", 
     "lanqingting", 
+    "shengdanmao", 
+    "shengdangou", 
+    "shengdantaidixiong", 
+    "shengdantuzi", 
     "waixingren", 
     "tianshizheermao", 
     "tianshijiwawa", 
@@ -7477,6 +7481,32 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
+    "yangtuo": {
+     "total_time": 4560, 
+     "sound": {
+      "p": "1032,1032,1033,1033,-1,-1", 
+      "enable": true, 
+      "name": "yang"
+     }, 
+     "harvest_type": 3, 
+     "used": true, 
+     "name": "アルパカ", 
+     "base_fruit": 25, 
+     "fruit_time": 2052, 
+     "adult_time": 1368, 
+     "buy_price": {
+      "gold": 611
+     }, 
+     "seasons": 1, 
+     "young_time": 1140, 
+     "experience": 11, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 90, 
+     "increment_fruit": 25, 
+     "level_need": 27, 
+     "fruit_quantifier": "個"
+    }, 
     "waixingduyanguai": {
      "total_time": 720, 
      "harvest_type": 0, 
@@ -7542,25 +7572,25 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
-    "sangaru": {
-     "total_time": 5400, 
-     "harvest_type": 3, 
+    "shengdantuzi": {
+     "total_time": 1740, 
+     "harvest_type": 0, 
      "used": false, 
-     "name": "サン牧ガール", 
-     "base_fruit": 1, 
-     "fruit_time": 1800, 
-     "adult_time": 1800, 
+     "name": "サンタラビット", 
+     "base_fruit": 25, 
+     "fruit_time": 660, 
+     "adult_time": 540, 
      "buy_price": {
-      "F_coin": 99999
+      "F_coin": 418
      }, 
      "seasons": 1, 
-     "young_time": 1800, 
-     "experience": 3000, 
+     "young_time": 540, 
+     "experience": 50, 
      "fruit_name": "", 
-     "is_auto_harvest": false, 
-     "sale_price": 3000, 
-     "increment_fruit": 0, 
-     "level_need": 0, 
+     "is_auto_harvest": true, 
+     "sale_price": 400, 
+     "increment_fruit": 25, 
+     "level_need": 40, 
      "fruit_quantifier": "個"
     }, 
     "liumanggui": {
@@ -7729,6 +7759,27 @@
      "sale_price": 80, 
      "increment_fruit": 25, 
      "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "sangaru": {
+     "total_time": 5400, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "サン牧ガール", 
+     "base_fruit": 1, 
+     "fruit_time": 1800, 
+     "adult_time": 1800, 
+     "buy_price": {
+      "F_coin": 99999
+     }, 
+     "seasons": 1, 
+     "young_time": 1800, 
+     "experience": 3000, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 3000, 
+     "increment_fruit": 0, 
+     "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
     "yrjyt": {
@@ -8264,30 +8315,25 @@
      "level_need": 10, 
      "fruit_quantifier": "個"
     }, 
-    "yangtuo": {
-     "total_time": 4560, 
-     "sound": {
-      "p": "1032,1032,1033,1033,-1,-1", 
-      "enable": true, 
-      "name": "yang"
-     }, 
-     "harvest_type": 3, 
-     "used": true, 
-     "name": "アルパカ", 
+    "shengdanmao": {
+     "total_time": 1200, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "サンタキャット", 
      "base_fruit": 25, 
-     "fruit_time": 2052, 
-     "adult_time": 1368, 
+     "fruit_time": 480, 
+     "adult_time": 360, 
      "buy_price": {
-      "gold": 611
+      "F_coin": 418
      }, 
      "seasons": 1, 
-     "young_time": 1140, 
-     "experience": 11, 
+     "young_time": 360, 
+     "experience": 10, 
      "fruit_name": "", 
-     "is_auto_harvest": false, 
-     "sale_price": 90, 
+     "is_auto_harvest": true, 
+     "sale_price": 100, 
      "increment_fruit": 25, 
-     "level_need": 27, 
+     "level_need": 40, 
      "fruit_quantifier": "個"
     }, 
     "langshanChook": {
@@ -8720,6 +8766,27 @@
      "sale_price": 40, 
      "increment_fruit": 25, 
      "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "shengdantaidixiong": {
+     "total_time": 1380, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "サンタベア", 
+     "base_fruit": 25, 
+     "fruit_time": 540, 
+     "adult_time": 420, 
+     "buy_price": {
+      "F_coin": 418
+     }, 
+     "seasons": 1, 
+     "young_time": 420, 
+     "experience": 30, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 200, 
+     "increment_fruit": 25, 
+     "level_need": 40, 
      "fruit_quantifier": "個"
     }, 
     "duck": {
@@ -9552,6 +9619,27 @@
      "sale_price": 21, 
      "increment_fruit": 25, 
      "level_need": 26, 
+     "fruit_quantifier": "個"
+    }, 
+    "shengdangou": {
+     "total_time": 1560, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "サンタドッグ", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 418
+     }, 
+     "seasons": 1, 
+     "young_time": 480, 
+     "experience": 40, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 300, 
+     "increment_fruit": 25, 
+     "level_need": 40, 
      "fruit_quantifier": "個"
     }, 
     "huangsewoniu": {
