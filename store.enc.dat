@@ -5695,7 +5695,7 @@
    "tujianbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 8
      }, 
      "used": true, 
      "goods_str": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
@@ -10434,18 +10434,41 @@
     "activity_type": "hot_sale"
    }, 
    "tujianbaoxiang": {
-    "specific_type": "re", 
+    "original_price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "花の宝箱", 
     "price": {
-     "num": 10, 
+     "num": 8, 
      "type": "F_coin"
     }, 
     "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "8日", 
+    "end_time": 1293786000.0, 
     "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
+    "start_time": 1293094800.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "gailiangji": {
+    "specific_type": "xin", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "土地改良機", 
+    "price": {
+     "num": 5, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "土地改良専用アイテム。", 
     "activity_type": "discount"
    }, 
    "baitu": {
@@ -10478,24 +10501,6 @@
     "price": {
      "num": 100, 
      "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "chabei": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "謎のカップ", 
-    "start_time": 1291968000.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "11日", 
-    "end_time": 1292918400.0, 
-    "goods_description": "いろいろなカップ、何が出るのかな？", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
    }, 
