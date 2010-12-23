@@ -10540,15 +10540,16 @@
     "nirenxiangrikui": {
      "total_time": 720, 
      "leaflet_time": 80, 
-     "used": false, 
+     "used": true, 
      "name": "ひまわりん", 
      "base_fruit": 25, 
+     "red_pit_seed": true, 
      "fruit_time": 330, 
      "sprout_time": 20, 
      "bloom_time": 150, 
      "experience": 1.8, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
      "leaf_time": 140, 
      "seed_price": {
@@ -16182,19 +16183,20 @@
     "nirenxihongshi": {
      "total_time": 960, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "とまとん", 
      "base_fruit": 25, 
+     "red_pit_seed": true, 
      "fruit_time": 360, 
      "sprout_time": 150, 
      "bloom_time": 150, 
      "experience": 2.5, 
      "seasons": 1, 
-     "sale_price": 19, 
+     "sale_price": 20, 
      "increment_fruit": 25, 
      "leaf_time": 150, 
      "seed_price": {
-      "gold": 400
+      "gold": 390
      }, 
      "level_need": 14
     }, 
