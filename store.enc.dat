@@ -10385,35 +10385,18 @@
     "goods_description": "ついに動物の宝箱が登場！可愛いアニマル？達が入っています！すべてを発見して図鑑を完成しよう！ ", 
     "activity_type": "discount"
    }, 
-   "zengshou1": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "中級増産肥料", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-    "activity_type": "discount"
-   }, 
-   "xuesongshu": {
+   "nirenxihongshi": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "雪ツリー", 
+    "name": "とまとん", 
     "price": {
-     "num": 6, 
-     "type": "F_coin"
+     "num": 390, 
+     "type": "gold"
     }, 
     "modify": true, 
-    "goods_description": "雪ツリー", 
     "activity_type": "discount"
    }, 
    "hammer": {
@@ -10504,6 +10487,20 @@
      "type": "gold"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "hongtuchengzi": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "DJみかん", 
+    "price": {
+     "num": 470, 
+     "type": "gold"
+    }, 
+    "modify": true, 
+    "activity_type": "discount"
    }, 
    "guohuatujian": {
     "specific_type": "xin", 
@@ -14607,7 +14604,7 @@
     "chabei": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": true, 
+     "used": false, 
      "name": "謎のカップ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
