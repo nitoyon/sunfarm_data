@@ -10385,6 +10385,20 @@
     "goods_description": "ついに動物の宝箱が登場！可愛いアニマル？達が入っています！すべてを発見して図鑑を完成しよう！ ", 
     "activity_type": "discount"
    }, 
+   "jianghuang": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ウコン", 
+    "price": {
+     "num": 60, 
+     "type": "gold"
+    }, 
+    "modify": true, 
+    "activity_type": "discount"
+   }, 
    "nirenxihongshi": {
     "specific_type": "xin", 
     "product_type": {
@@ -10453,21 +10467,6 @@
     }, 
     "modify": true, 
     "goods_description": "土地改良専用アイテム。", 
-    "activity_type": "discount"
-   }, 
-   "baitu": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "ホワイトうさぎ", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
    }, 
    "crystal": {
