@@ -10385,20 +10385,6 @@
     "goods_description": "ついに動物の宝箱が登場！可愛いアニマル？達が入っています！すべてを発見して図鑑を完成しよう！ ", 
     "activity_type": "discount"
    }, 
-   "jianghuang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "ウコン", 
-    "price": {
-     "num": 60, 
-     "type": "gold"
-    }, 
-    "modify": true, 
-    "activity_type": "discount"
-   }, 
    "nirenxihongshi": {
     "specific_type": "xin", 
     "product_type": {
@@ -10465,6 +10451,20 @@
     "limit_type": "limit_hot", 
     "goods_description": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
     "activity_type": "hot_sale"
+   }, 
+   "baitu": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "ホワイトうさぎ", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "activity_type": "discount"
    }, 
    "shenqibaotu": {
     "original_price": {
