@@ -10540,6 +10540,25 @@
      }, 
      "level_need": 33
     }, 
+    "lvshuijingpingguo": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "グリーンダイヤリンゴ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "gold": 9999999
+     }, 
+     "level_need": 1
+    }, 
     "nirenxiangrikui": {
      "total_time": 720, 
      "leaflet_time": 80, 
@@ -11732,24 +11751,24 @@
      "leaf_time": 234, 
      "level_need": 5
     }, 
-    "xingzixin": {
-     "total_time": 1430, 
-     "leaflet_time": 162, 
-     "used": true, 
-     "name": "あんず", 
+    "lanshuijingpingguo": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ブルーダイヤリンゴ", 
      "base_fruit": 25, 
-     "fruit_time": 332, 
-     "sprout_time": 110, 
-     "bloom_time": 408, 
-     "experience": 2.66, 
-     "seasons": 3, 
-     "sale_price": 11, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "leaf_time": 418, 
+     "leaf_time": 180, 
      "seed_price": {
-      "gold": 447
+      "gold": 99999
      }, 
-     "level_need": 32
+     "level_need": 1
     }, 
     "moguniuroujufan": {
      "total_time": 890, 
@@ -13127,6 +13146,25 @@
       "gold": 249
      }, 
      "level_need": 22
+    }, 
+    "fenshuijingpingguo": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ピンクダイヤリンゴ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "gold": 99999
+     }, 
+     "level_need": 1
     }, 
     "xinxingxigua": {
      "total_time": 1440, 
@@ -15830,25 +15868,24 @@
      "leaf_time": 600, 
      "level_need": 0
     }, 
-    "jiajiepingguo": {
-     "total_time": 890, 
-     "leaflet_time": 140, 
+    "zishuijingpingguo": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "ツギキリンゴ", 
+     "name": "パープルダイヤリンゴ", 
      "base_fruit": 25, 
-     "fruit_time": 200, 
-     "recipe": "レシピに使えます：\n東北高級りんご", 
-     "sprout_time": 120, 
-     "bloom_time": 220, 
-     "experience": 1.9, 
-     "seasons": 2, 
-     "sale_price": 5.5, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 180, 
      "seed_price": {
-      "gold": 10
+      "gold": 9999999
      }, 
-     "level_need": 6
+     "level_need": 1
     }, 
     "paradiseflower": {
      "total_time": 2160, 
@@ -18030,6 +18067,26 @@
      }, 
      "level_need": 1
     }, 
+    "jiajiepingguo": {
+     "total_time": 890, 
+     "leaflet_time": 140, 
+     "used": false, 
+     "name": "ツギキリンゴ", 
+     "base_fruit": 25, 
+     "fruit_time": 200, 
+     "recipe": "レシピに使えます：\n東北高級りんご", 
+     "sprout_time": 120, 
+     "bloom_time": 220, 
+     "experience": 1.9, 
+     "seasons": 2, 
+     "sale_price": 5.5, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "gold": 10
+     }, 
+     "level_need": 6
+    }, 
     "youlisanwenyucishen": {
      "total_time": 245, 
      "leaflet_time": 30, 
@@ -18474,6 +18531,25 @@
       "gold": 363
      }, 
      "level_need": 34
+    }, 
+    "xingzixin": {
+     "total_time": 1430, 
+     "leaflet_time": 162, 
+     "used": true, 
+     "name": "あんず", 
+     "base_fruit": 25, 
+     "fruit_time": 332, 
+     "sprout_time": 110, 
+     "bloom_time": 408, 
+     "experience": 2.66, 
+     "seasons": 3, 
+     "sale_price": 11, 
+     "increment_fruit": 25, 
+     "leaf_time": 418, 
+     "seed_price": {
+      "gold": 447
+     }, 
+     "level_need": 32
     }, 
     "xuesongshu": {
      "total_time": 1080, 
@@ -20582,6 +20658,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "huangshuijingpingguo": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "イエローダイヤリンゴ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "gold": 99999
+     }, 
+     "level_need": 1
+    }, 
     "zisexingxingshu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -20998,6 +21093,7 @@
     "pingguopai", 
     "youlisanwenyucishen", 
     "youlicishen", 
+    "huangshuijingpingguo", 
     "fkzs", 
     "yinxing", 
     "zhulongcao", 
@@ -21008,6 +21104,7 @@
     "hongdoulianrubaobing", 
     "caomeilianrubaobing", 
     "fkmg", 
+    "lvshuijingpingguo", 
     "kafeitilamisu", 
     "naiyouyumitang", 
     "yingtaodangao", 
@@ -21024,13 +21121,16 @@
     "liulian", 
     "fanqieniurouyimian", 
     "cong", 
+    "zishuijingpingguo", 
     "hulu", 
     "feiliniupai", 
+    "fenshuijingpingguo", 
     "yingtaozhishidangao", 
     "shuiguoshala", 
     "shuiguojiang", 
     "shijinshuiguocha", 
     "shuiguopinpan", 
+    "lanshuijingpingguo", 
     "lanmeibingjiling", 
     "lanmeixiangjiaochuan", 
     "moshubang", 
