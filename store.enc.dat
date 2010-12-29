@@ -3794,57 +3794,15 @@
      }
     }
    }, 
-   "qingrenyushou2": {
+   "jingangcuo": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 48
      }, 
-     "goods_str": "時が流れても変わらぬ愛", 
-     "introduce": "時が流れても変わらぬ愛", 
-     "name": "七夕の誓い", 
-     "used": false
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "huangmeigui": [
-        1, 
-        0.1
-       ], 
-       "heimeigui": [
-        1, 
-        0.1
-       ], 
-       "hongmeigui": [
-        1, 
-        0.1
-       ], 
-       "fenmeigui": [
-        1, 
-        0.1
-       ], 
-       "lanmeigui": [
-        1, 
-        0.1
-       ], 
-       "baimeigui": [
-        1, 
-        0.1
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.5
-        ], 
-        "common": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
+     "used": false, 
+     "goods_str": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。", 
+     "name": "金鋼ヤスリ", 
+     "introduce": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。"
     }
    }, 
    "lvdan": {
@@ -4489,83 +4447,47 @@
      }
     }
    }, 
-   "ziseniudan": {
+   "tujianbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 8
      }, 
-     "used": false, 
-     "goods_str": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "紫カプセル", 
-     "introduce": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "used": true, 
+     "goods_str": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
+     "name": "花の宝箱", 
+     "introduce": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "baiqiangwei": [
+       "yumeirenhua": [
         1, 
-        0.02
+        0.3
        ], 
-       "jiariyecan": [
+       "yulan": [
         1, 
-        0.01
+        0.3
        ], 
-       "yutuhua": [
+       "pugongying": [
         1, 
-        0.1
+        0.4
        ], 
-       "fenghuangzhiyi": [
+       "fenglingcao": [
         1, 
-        0.03
+        0.5
        ], 
-       "shenqiparadiseflower": [
+       "shanziteng": [
         1, 
-        0.01
-       ], 
-       "zizuanshu": [
-        1, 
-        0.03
+        0.25
        ]
       }, 
       "properties": {
        "fertilizer": {
         "xunjie": [
-         1, 
-         0.3
-        ], 
-        "gaoji": [
-         1, 
-         0.05
+         5, 
+         1.0
         ]
        }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "gaosu": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "huangsewoniu": [
-        1, 
-        0.08
-       ], 
-       "jinseqingwa": [
-        1, 
-        0.1
-       ]
       }
      }
     }
@@ -5033,15 +4955,57 @@
      }
     }
    }, 
-   "jingangcuo": {
+   "qingrenyushou2": {
     "config": {
      "price": {
-      "F_coin": 48
+      "F_coin": 10
      }, 
-     "used": false, 
-     "goods_str": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。", 
-     "name": "金鋼ヤスリ", 
-     "introduce": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。"
+     "goods_str": "時が流れても変わらぬ愛", 
+     "introduce": "時が流れても変わらぬ愛", 
+     "name": "七夕の誓い", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "huangmeigui": [
+        1, 
+        0.1
+       ], 
+       "heimeigui": [
+        1, 
+        0.1
+       ], 
+       "hongmeigui": [
+        1, 
+        0.1
+       ], 
+       "fenmeigui": [
+        1, 
+        0.1
+       ], 
+       "lanmeigui": [
+        1, 
+        0.1
+       ], 
+       "baimeigui": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.5
+        ], 
+        "common": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
     }
    }, 
    "huangdan": {
@@ -5205,6 +5169,193 @@
        "taohuamao": [
         1, 
         0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "fudai3": {
+    "config": {
+     "price": {
+      "F_coin": 8
+     }, 
+     "used": false, 
+     "goods_str": "大特価セール！中には10ｋコインのアイテムを含まれています。また、レアアイテムもランダムで入手できますよ", 
+     "name": "ハッピー福袋", 
+     "introduce": "大特価セール！中には10ｋコインのアイテムを含まれています。また、レアアイテムもランダムで入手できますよ"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "zishuijingpingguo": [
+        1, 
+        0.5
+       ], 
+       "fukeluobo": [
+        1, 
+        0.3
+       ], 
+       "huangshuijingpingguo": [
+        1, 
+        0.3
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "bailaohu": [
+        1, 
+        0.1
+       ], 
+       "pangxie": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
+   "fudai2": {
+    "config": {
+     "price": {
+      "F_coin": 21
+     }, 
+     "used": false, 
+     "goods_str": "大特価セール！中には25ｋコインのアイテムを含まれています。また、レアアイテムもランダムで入手できますよ", 
+     "name": "ラッキー福袋", 
+     "introduce": "大特価セール！中には25kコインのアイテムを含まれています。また、レアアイテムもランダムで入手できますよ"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.2
+       ], 
+       "fukeluobo": [
+        1, 
+        0.3
+       ], 
+       "zishuijingpingguo": [
+        1, 
+        0.3
+       ], 
+       "lanshuijingpingguo": [
+        1, 
+        0.5
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "bailaohu": [
+        1, 
+        0.2
+       ], 
+       "daxiang": [
+        1, 
+        0.5
+       ]
+      }
+     }
+    }
+   }, 
+   "fudai1": {
+    "config": {
+     "price": {
+      "F_coin": 77
+     }, 
+     "used": false, 
+     "goods_str": "大特価セール！中には８５ｋコインのアイテムを含まれています。また、レアアイテムもランダムで入手できますよ", 
+     "name": "大吉福袋", 
+     "introduce": "大特価セール！中には８５ｋコインのアイテムを含まれています。また、レアアイテムもランダムで入手できますよ"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "fenshuijingpingguo": [
+        1, 
+        0.5
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        0.1
+       ], 
+       "lvshuijingpingguo": [
+        1, 
+        0.5
+       ], 
+       "fukeluobo": [
+        1, 
+        0.5
+       ], 
+       "qiansuitang": [
+        1, 
+        0.2
+       ], 
+       "binglinghua": [
+        1, 
+        0.6
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "shuidi": [
+        1, 
+        0.5
+       ], 
+       "bailaohu": [
+        1, 
+        0.5
+       ], 
+       "daxiang": [
+        1, 
+        0.3
+       ], 
+       "tianshijiwawa": [
+        1, 
+        0.2
+       ], 
+       "pangxie": [
+        1, 
+        0.3
        ]
       }
      }
@@ -5692,47 +5843,83 @@
      }
     }
    }, 
-   "tujianbaoxiang": {
+   "ziseniudan": {
     "config": {
      "price": {
-      "F_coin": 8
+      "F_coin": 1
      }, 
-     "used": true, 
-     "goods_str": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
-     "name": "花の宝箱", 
-     "introduce": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。"
+     "used": false, 
+     "goods_str": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "紫カプセル", 
+     "introduce": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "yumeirenhua": [
+       "baiqiangwei": [
         1, 
-        0.3
+        0.02
        ], 
-       "yulan": [
+       "jiariyecan": [
         1, 
-        0.3
+        0.01
        ], 
-       "pugongying": [
+       "yutuhua": [
         1, 
-        0.4
+        0.1
        ], 
-       "fenglingcao": [
+       "fenghuangzhiyi": [
         1, 
-        0.5
+        0.03
        ], 
-       "shanziteng": [
+       "shenqiparadiseflower": [
         1, 
-        0.25
+        0.01
+       ], 
+       "zizuanshu": [
+        1, 
+        0.03
        ]
       }, 
       "properties": {
        "fertilizer": {
         "xunjie": [
-         5, 
-         1.0
+         1, 
+         0.3
+        ], 
+        "gaoji": [
+         1, 
+         0.05
         ]
        }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "huangsewoniu": [
+        1, 
+        0.08
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
+       ]
       }
      }
     }
@@ -22685,9 +22872,10 @@
    "bingdiaoshulanlibao", 
    "cangbaotu1", 
    "shengdanhuangniudan", 
-   "tujianbaoxiang", 
+   "ziseniudan", 
    "huiguilibao", 
    "dangaoquan", 
+   "jingangcuo", 
    "lvseniudan", 
    "chengseniudan", 
    "mb_10_key", 
@@ -22696,12 +22884,14 @@
    "qingrenyushou2", 
    "huangdan", 
    "shengdanlanniudan", 
-   "jingangcuo", 
+   "fudai3", 
+   "fudai2", 
+   "fudai1", 
    "xianhuabaoxiang", 
    "tudoulibao", 
    "huangseniudan", 
    "lanniudan", 
-   "ziseniudan", 
+   "tujianbaoxiang", 
    "lanseniudan", 
    "huangniudan", 
    "hushenfu", 
