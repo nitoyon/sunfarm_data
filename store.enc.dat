@@ -4955,6 +4955,29 @@
      }
     }
    }, 
+   "El_bag": {
+    "config": {
+     "price": {
+      "F_coin": 15
+     }, 
+     "used": true, 
+     "goods_str": "中にはサンストーンが二つ含まれています", 
+     "name": "サンストーン宝箱", 
+     "introduce": "中にはサンストーンが二つ含まれています"
+    }, 
+    "data": {
+     "farm": {
+      "properties": {
+       "rate_rune": {
+        "El": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "qingrenyushou2": {
     "config": {
      "price": {
@@ -22881,6 +22904,7 @@
    "mb_10_key", 
    "guohuatujian", 
    "hongdan", 
+   "El_bag", 
    "qingrenyushou2", 
    "huangdan", 
    "shengdanlanniudan", 
