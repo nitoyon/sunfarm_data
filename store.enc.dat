@@ -11073,26 +11073,24 @@
      }, 
      "level_need": 1
     }, 
-    "shuihulu": {
-     "total_time": 720, 
-     "leaflet_time": 80, 
+    "fenshuijingpingguo": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "紫のホテイアオイ", 
+     "name": "ピンクダイヤリンゴ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "goodstype": "flower", 
-     "sprout_time": 20, 
-     "introduce": "", 
-     "increment_fruit": 25, 
-     "bloom_time": 150, 
-     "experience": 3.0, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 6, 
      "seasons": 1, 
-     "sale_price": 10, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 8
+      "gold": 99999
      }, 
-     "leaf_time": 140, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "jingzhiganlanyou": {
      "total_time": 1650, 
@@ -13358,24 +13356,26 @@
      }, 
      "level_need": 22
     }, 
-    "fenshuijingpingguo": {
-     "total_time": 960, 
-     "leaflet_time": 60, 
+    "shuihulu": {
+     "total_time": 720, 
+     "leaflet_time": 80, 
      "used": false, 
-     "name": "ピンクダイヤリンゴ", 
+     "name": "紫のホテイアオイ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 6, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "goodstype": "flower", 
+     "sprout_time": 20, 
+     "introduce": "", 
      "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "bloom_time": 150, 
+     "experience": 3.0, 
+     "seasons": 1, 
+     "sale_price": 10, 
      "seed_price": {
-      "gold": 99999
+      "F_coin": 8
      }, 
-     "level_need": 1
+     "leaf_time": 140, 
+     "level_need": 0
     }, 
     "xinxingxigua": {
      "total_time": 1440, 
@@ -18896,25 +18896,24 @@
      }, 
      "level_need": 1
     }, 
-    "yanhua": {
-     "total_time": 1920, 
-     "leaflet_time": 150, 
+    "dasuan": {
+     "total_time": 1035, 
+     "leaflet_time": 105, 
      "used": false, 
-     "name": "花火", 
+     "name": "ハッピーガーリック", 
      "base_fruit": 25, 
-     "fruit_time": 900, 
-     "sprout_time": 30, 
-     "introduce": "サン牧特製の花火。水、虫対策はバッチリ！", 
-     "increment_fruit": 25, 
-     "bloom_time": 510, 
-     "experience": 40, 
+     "fruit_time": 345, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 2.76, 
      "seasons": 1, 
-     "sale_price": 25, 
+     "sale_price": 23, 
+     "increment_fruit": 25, 
+     "leaf_time": 165, 
      "seed_price": {
-      "F_coin": 100
+      "gold": 460
      }, 
-     "leaf_time": 330, 
-     "level_need": 0
+     "level_need": 19
     }, 
     "mayinghuashu": {
      "total_time": 360, 
@@ -19103,6 +19102,26 @@
      "seed_price": {
       "F_coin": 999999
      }, 
+     "level_need": 0
+    }, 
+    "yanhua": {
+     "total_time": 1920, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "花火", 
+     "base_fruit": 25, 
+     "fruit_time": 900, 
+     "sprout_time": 30, 
+     "introduce": "サン牧特製の花火。水、虫対策はバッチリ！", 
+     "increment_fruit": 25, 
+     "bloom_time": 510, 
+     "experience": 40, 
+     "seasons": 1, 
+     "sale_price": 25, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "zhangyushao": {
@@ -20888,6 +20907,25 @@
      }, 
      "level_need": 1
     }, 
+    "caomeimao": {
+     "total_time": 1080, 
+     "leaflet_time": 165, 
+     "used": false, 
+     "name": "ねこいちご", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 105, 
+     "bloom_time": 285, 
+     "experience": 4.5, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 165, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 38
+    }, 
     "zisexingxingshu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -21239,6 +21277,7 @@
     "shuiyangqiehua", 
     "jingzhiganlanyou", 
     "hongtang", 
+    "caomeimao", 
     "saibohua", 
     "dianshisong", 
     "pugongying", 
@@ -21434,6 +21473,7 @@
     "qiukui", 
     "flycatcher", 
     "yamahua", 
+    "dasuan", 
     "peach", 
     "xiangchun", 
     "banana", 
