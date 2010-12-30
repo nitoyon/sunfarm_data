@@ -10829,6 +10829,25 @@
      }, 
      "level_need": 1
     }, 
+    "zong": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "魔法の光る", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 22, 
+     "seasons": 1, 
+     "sale_price": 30, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 60
+     }, 
+     "level_need": 0
+    }, 
     "yusan": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -11268,6 +11287,27 @@
       "gold": 265
      }, 
      "level_need": 14
+    }, 
+    "zi": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "紫の光る", 
+     "base_fruit": 1, 
+     "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。紫の光るを手に入れました。5種の光るを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "イベント期間植えることができません", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "experience": 100, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "jianghuang": {
      "total_time": 625, 
@@ -12853,6 +12893,27 @@
      "leaf_time": 138, 
      "level_need": 19
     }, 
+    "lan": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "青の光る", 
+     "base_fruit": 1, 
+     "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。青の光るを手に入れました。5種の光るを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "イベント期間植えることができません", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "experience": 100, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "feidaofumu": {
      "total_time": 1800, 
      "leaflet_time": 330, 
@@ -13298,24 +13359,26 @@
      }, 
      "level_need": 56
     }, 
-    "huoyancai": {
-     "total_time": 960, 
-     "leaflet_time": 90, 
-     "used": true, 
-     "name": "ビーツ", 
-     "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 30, 
+    "lv": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "緑の光る", 
+     "base_fruit": 1, 
+     "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。緑の光るを手に入れました。5種の光るを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "イベント期間植えることができません", 
      "bloom_time": 330, 
-     "experience": 3.5, 
+     "sprout_time": 90, 
      "seasons": 1, 
-     "sale_price": 12, 
-     "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
-      "gold": 140
+      "F_coin": 50
      }, 
-     "level_need": 42
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "shuangjian": {
      "total_time": 1050, 
@@ -13976,26 +14039,24 @@
      }, 
      "level_need": 1
     }, 
-    "fenmeigui": {
-     "total_time": 870, 
-     "leaflet_time": 150, 
+    "moxigeguoqishua": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "ピンクのバラ", 
+     "name": "復刻版メキシコ国旗樹", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "goodstype": "flower", 
-     "sprout_time": 90, 
-     "introduce": "花言葉：", 
-     "increment_fruit": 25, 
-     "bloom_time": 150, 
-     "experience": 3.0, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 6, 
      "seasons": 1, 
-     "sale_price": 77, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 1
      }, 
-     "leaf_time": 150, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "jingzhichahua": {
      "total_time": 630, 
@@ -16159,24 +16220,26 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "moxigeguoqishua": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "fenmeigui": {
+     "total_time": 870, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "復刻版メキシコ国旗樹", 
+     "name": "ピンクのバラ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 6, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "花言葉：", 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "bloom_time": 150, 
+     "experience": 3.0, 
+     "seasons": 1, 
+     "sale_price": 77, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 8
      }, 
-     "level_need": 1
+     "leaf_time": 150, 
+     "level_need": 0
     }, 
     "qj": {
      "total_time": 1050, 
@@ -16611,23 +16674,25 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
-    "lavendertea": {
-     "total_time": 1920, 
-     "leaflet_time": 150, 
+    "huang": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "ラベンダーティー", 
-     "base_fruit": 25, 
-     "fruit_time": 900, 
-     "sprout_time": 30, 
-     "bloom_time": 510, 
-     "experience": 29, 
+     "name": "黄の光る", 
+     "base_fruit": 1, 
+     "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。黄の光るを手に入れました。5種の光るを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "イベント期間植えることができません", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
      "seasons": 1, 
-     "sale_price": 42, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
-      "gold": 1
+      "F_coin": 50
      }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "putaoyaguoqishu": {
@@ -16882,6 +16947,25 @@
       "gold": 410
      }, 
      "level_need": 1
+    }, 
+    "lavendertea": {
+     "total_time": 1920, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ラベンダーティー", 
+     "base_fruit": 25, 
+     "fruit_time": 900, 
+     "sprout_time": 30, 
+     "bloom_time": 510, 
+     "experience": 29, 
+     "seasons": 1, 
+     "sale_price": 42, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "gold": 1
+     }, 
+     "level_need": 0
     }, 
     "jiangbaojiding": {
      "total_time": 710, 
@@ -17772,6 +17856,27 @@
       "F_coin": 1
      }, 
      "level_need": 1
+    }, 
+    "hong": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "赤の光る", 
+     "base_fruit": 1, 
+     "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。赤の光るを手に入れました。5種の光るを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "イベント期間植えることができません", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "experience": 100, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "man_tuo_luo": {
      "total_time": 1020, 
@@ -20250,6 +20355,25 @@
      "leaf_time": 294, 
      "level_need": 7
     }, 
+    "huoyancai": {
+     "total_time": 960, 
+     "leaflet_time": 90, 
+     "used": true, 
+     "name": "ビーツ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 330, 
+     "experience": 3.5, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "gold": 140
+     }, 
+     "level_need": 42
+    }, 
     "baimeigui": {
      "total_time": 870, 
      "leaflet_time": 150, 
@@ -21140,9 +21264,11 @@
     "xingandengjie", 
     "duancezhuzi", 
     "shuihulu", 
+    "zi", 
     "zisexingxingshu", 
     "zizuanshu", 
     "zizuanhua", 
+    "lv", 
     "lvsexingxingshu", 
     "lvzuanshu", 
     "lvzuanhua", 
@@ -21152,6 +21278,7 @@
     "suichaye", 
     "gaojishengdanhong", 
     "hhlyq", 
+    "hong", 
     "hongsexingxingshu", 
     "hongzuanshu", 
     "hongzuanhua", 
@@ -21161,6 +21288,7 @@
     "jiaosong", 
     "xuesongshu", 
     "lanseshuihulu", 
+    "lan", 
     "lansexingxingshu", 
     "lanzuanshu", 
     "lanzuanhua", 
@@ -21173,9 +21301,11 @@
     "shenqichinesecrabapple", 
     "shenqibian", 
     "shenqihuo_long_guo", 
+    "zong", 
     "shenqiginseng", 
     "baiqiangwei", 
     "shenqinigerseed", 
+    "huang", 
     "huangsexingxingshu", 
     "huangzuanshu", 
     "huangzuanhua", 
