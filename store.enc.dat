@@ -21553,23 +21553,23 @@
      "level_need": 0
     }, 
     "liangmian": {
-     "total_time": 480, 
-     "leaflet_time": 60, 
+     "total_time": 225, 
+     "leaflet_time": 30, 
      "used": false, 
      "name": "そば", 
      "base_fruit": 25, 
-     "fruit_time": 150, 
-     "sprout_time": 60, 
-     "bloom_time": 150, 
-     "experience": 2, 
+     "fruit_time": 75, 
+     "sprout_time": 15, 
+     "bloom_time": 60, 
+     "experience": 0.58, 
      "seasons": 1, 
-     "sale_price": 20, 
+     "sale_price": 10, 
      "increment_fruit": 25, 
-     "leaf_time": 60, 
+     "leaf_time": 45, 
      "seed_price": {
       "gold": 300
      }, 
-     "level_need": 0
+     "level_need": 2
     }, 
     "hami": {
      "total_time": 1020, 
@@ -22418,7 +22418,6 @@
     "shanziteng", 
     "caomeituan", 
     "yingtaojiang", 
-    "liangmian", 
     "bolicuihuashu", 
     "yumeiren", 
     "dayantonghuashu", 
@@ -22542,6 +22541,7 @@
     "lyq", 
     "jiangbaojiding", 
     "gongbaojiding", 
+    "liangmian", 
     "corn", 
     "maymanyu", 
     "tomato", 
