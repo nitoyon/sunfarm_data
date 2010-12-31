@@ -3933,7 +3933,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：１２日", 
      "name": "黄の新年カプセル", 
      "introduce": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：１２日"
@@ -4641,7 +4641,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "90%の確率で緑色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：１２日", 
      "name": "緑の新年カプセル", 
      "introduce": "90%の確率で緑色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：１２日"
@@ -5491,7 +5491,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "3%の確率で紫色の夜空を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "紫の新年カプセル", 
      "introduce": "3%の確率で紫色の夜空を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -5685,7 +5685,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "0.7%の確率で赤色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "赤の新年カプセル", 
      "introduce": "0.7%の確率で赤色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -7025,7 +7025,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "青の新年カプセル", 
      "introduce": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -11096,153 +11096,148 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "tujiandongwubaoxiang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "アニマル宝箱", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "ついに動物の宝箱が登場！可愛いアニマル？達が入っています！すべてを発見して図鑑を完成しよう！ ", 
-    "activity_type": "discount"
-   }, 
    "fudai3": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "ハッピー福袋", 
-    "start_time": 1293670800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日2時間", 
-    "end_time": 1294110000.0, 
-    "goods_description": "大特価セール！中には10ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
     "price": {
      "num": 8, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "大特価セール！中には10ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。残り時間：四日 ", 
+    "activity_type": "discount"
    }, 
    "fudai2": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "ラッキー福袋", 
-    "start_time": 1293670800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日2時間", 
-    "end_time": 1294110000.0, 
-    "goods_description": "大特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
     "price": {
      "num": 21, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "大特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。残り時間：四日 ", 
+    "activity_type": "discount"
+   }, 
+   "xinnianziniudan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "紫の新年カプセル", 
+    "start_time": 1293807540.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日12時間1分", 
+    "end_time": 1294801200.0, 
+    "goods_description": "3%の確率で紫色の夜空を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "xinnianhuangniudan": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "黄の新年カプセル", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：１２日 ", 
+    "activity_type": "discount"
+   }, 
+   "xinnianlvniudan": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "緑の新年カプセル", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "90%の確率で緑色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：１２日 ", 
+    "activity_type": "discount"
+   }, 
+   "xinnianhongniudan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "赤の新年カプセル", 
+    "start_time": 1293807540.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日12時間1分", 
+    "end_time": 1294801200.0, 
+    "goods_description": "0.7%の確率で赤色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "niangaolihe": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "鏡もちの箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
+   "xinnianlanniudan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "青の新年カプセル", 
+    "start_time": 1293807540.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日12時間1分", 
+    "end_time": 1294801200.0, 
+    "goods_description": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "price": {
+     "num": 1, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
    }, 
    "fudai1": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "大吉福袋", 
-    "start_time": 1293670800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日2時間", 
-    "end_time": 1294110000.0, 
-    "goods_description": "大特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
     "price": {
      "num": 77, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
-   }, 
-   "tujianbaoxiang": {
-    "original_price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "花の宝箱", 
-    "price": {
-     "num": 8, 
-     "type": "F_coin"
-    }, 
     "modify": true, 
-    "goods_description": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。残り時間：一日", 
-    "activity_type": "discount"
-   }, 
-   "gailiangji": {
-    "specific_type": "xin", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "土地改良機", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "土地改良専用アイテム。", 
-    "activity_type": "discount"
-   }, 
-   "zhounianbao4": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "限定種セット", 
-    "price": {
-     "num": 500, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
-    "activity_type": "discount"
-   }, 
-   "hongtuchengzi": {
-    "specific_type": "youji", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "DJみかん", 
-    "price": {
-     "num": 470, 
-     "type": "gold"
-    }, 
-    "modify": false, 
-    "specific_string_jp": "有機", 
-    "activity_type": "discount"
-   }, 
-   "guohuatujian": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "国花の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
+    "goods_description": "大特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。残り時間：四日 ", 
     "activity_type": "discount"
    }
   }, 
