@@ -3684,67 +3684,6 @@
      }
     }
    }, 
-   "xianhuabaoxiang": {
-    "config": {
-     "price": {
-      "F_coin": 125
-     }, 
-     "used": false, 
-     "goods_str": "さまざまなアイテムが入っています！", 
-     "name": "ギフト箱", 
-     "introduce": "さまざまなアイテムが入っています！"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "mhxy": [
-        1, 
-        0.4
-       ], 
-       "rensheng": [
-        1, 
-        0.5
-       ], 
-       "nrx": [
-        1, 
-        0.2
-       ], 
-       "bushe": [
-        1, 
-        0.02
-       ], 
-       "xingfuren": [
-        1, 
-        0.5
-       ]
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "moguijiwawa": [
-        1, 
-        0.05
-       ], 
-       "taohuamao": [
-        1, 
-        1.0
-       ], 
-       "moguizheermao": [
-        1, 
-        0.4
-       ], 
-       "tianshijiwawa": [
-        1, 
-        0.2
-       ], 
-       "tianshizheermao": [
-        1, 
-        0.7
-       ]
-      }
-     }
-    }
-   }, 
    "qingrenyushou1": {
     "config": {
      "price": {
@@ -3899,45 +3838,21 @@
      }
     }
    }, 
-   "xinbaoxiang": {
+   "huolongguolibao": {
     "config": {
      "price": {
-      "F_coin": 12
+      "F_coin": 1
      }, 
-     "used": true, 
-     "goods_str": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！", 
-     "name": "大地の宝箱", 
-     "introduce": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！"
+     "used": false, 
+     "goods_str": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
+     "name": "ピタヤの箱", 
+     "introduce": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "nirentaigu": [
-        1, 
-        0.01
-       ], 
-       "taigu": [
-        1, 
-        0.02
-       ], 
-       "nanmogu": [
-        1, 
-        0.02
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "chashu": [
-        1, 
-        1
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ], 
-       "bingyerizhonghua": [
-        1, 
+       "huolongguoxin": [
+        5, 
         1
        ]
       }
@@ -4780,6 +4695,51 @@
         ], 
         "xunjie1": [
          1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "niangaolihe": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "鏡もちの箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "niangao5": [
+        1, 
+        1.0
+       ], 
+       "niangao4": [
+        1, 
+        0.08
+       ], 
+       "niangao3": [
+        1, 
+        0.3
+       ], 
+       "niangao2": [
+        1, 
+        0.4
+       ], 
+       "niangao1": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
          1.0
         ]
        }
@@ -6250,6 +6210,51 @@
      }
     }
    }, 
+   "xinbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 12
+     }, 
+     "used": true, 
+     "goods_str": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！", 
+     "name": "大地の宝箱", 
+     "introduce": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirentaigu": [
+        1, 
+        0.01
+       ], 
+       "taigu": [
+        1, 
+        0.02
+       ], 
+       "nanmogu": [
+        1, 
+        0.02
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "chashu": [
+        1, 
+        1
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "ziseniudan": {
     "config": {
      "price": {
@@ -6539,35 +6544,6 @@
      }
     }
    }, 
-   "cangbaotu3": {
-    "config": {
-     "price": {
-      "F_coin": 9999
-     }, 
-     "used": false, 
-     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
-     "name": "藏宝图卷三", 
-     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "shenqizijin": [
-        1, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "feedstuffs": {
-        "gaosu": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
    "cangbaotu4": {
     "config": {
      "price": {
@@ -6666,23 +6642,31 @@
      }
     }
    }, 
-   "huolongguolibao": {
+   "cangbaotu3": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 9999
      }, 
      "used": false, 
-     "goods_str": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
-     "name": "ピタヤの箱", 
-     "introduce": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。"
+     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
+     "name": "藏宝图卷三", 
+     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "huolongguoxin": [
-        5, 
-        1
+       "shenqizijin": [
+        1, 
+        1.0
        ]
+      }, 
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -6970,6 +6954,67 @@
        "taohuamao": [
         1, 
         0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "xianhuabaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 125
+     }, 
+     "used": false, 
+     "goods_str": "さまざまなアイテムが入っています！", 
+     "name": "ギフト箱", 
+     "introduce": "さまざまなアイテムが入っています！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "mhxy": [
+        1, 
+        0.4
+       ], 
+       "rensheng": [
+        1, 
+        0.5
+       ], 
+       "nrx": [
+        1, 
+        0.2
+       ], 
+       "bushe": [
+        1, 
+        0.02
+       ], 
+       "xingfuren": [
+        1, 
+        0.5
+       ]
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "moguijiwawa": [
+        1, 
+        0.05
+       ], 
+       "taohuamao": [
+        1, 
+        1.0
+       ], 
+       "moguizheermao": [
+        1, 
+        0.4
+       ], 
+       "tianshijiwawa": [
+        1, 
+        0.2
+       ], 
+       "tianshizheermao": [
+        1, 
+        0.7
        ]
       }
      }
@@ -8056,7 +8101,7 @@
     "longxia": {
      "total_time": 1960, 
      "harvest_type": 0, 
-     "used": false, 
+     "used": true, 
      "name": "伊勢エビ", 
      "base_fruit": 25, 
      "fruit_time": 1200, 
@@ -8381,7 +8426,7 @@
     "taipingyangfei": {
      "total_time": 1280, 
      "harvest_type": 0, 
-     "used": false, 
+     "used": true, 
      "name": "数の子", 
      "base_fruit": 25, 
      "fruit_time": 800, 
@@ -9547,7 +9592,7 @@
     "shanbei": {
      "total_time": 910, 
      "harvest_type": 3, 
-     "used": false, 
+     "used": true, 
      "name": "ホタテ", 
      "base_fruit": 25, 
      "fruit_time": 550, 
@@ -24216,7 +24261,7 @@
    "shengdanziniudan", 
    "qingrenyushou1", 
    "qingrenyushou3", 
-   "huangseniudan", 
+   "cangbaotu3", 
    "lvdan", 
    "huolongguolibao", 
    "bingdiaoshulanlibao", 
@@ -24226,8 +24271,10 @@
    "huiguilibao", 
    "dangaoquan", 
    "xinnianlvniudan", 
+   "landan", 
    "jingangcuo", 
    "lvseniudan", 
+   "niangaolihe", 
    "chengseniudan", 
    "mb_10_key", 
    "guohuatujian", 
@@ -24241,16 +24288,15 @@
    "fudai2", 
    "fudai1", 
    "xinnianhongniudan", 
-   "landan", 
+   "xianhuabaoxiang", 
    "tudoulibao", 
-   "xinnianlanniudan", 
+   "huangseniudan", 
    "lanniudan", 
    "xinbaoxiang", 
    "tujianbaoxiang", 
    "lanseniudan", 
    "huangniudan", 
    "hushenfu", 
-   "cangbaotu3", 
    "cangbaotu4", 
    "cangbaotu2", 
    "xinnianhuangniudan", 
@@ -24259,7 +24305,7 @@
    "hongniudan", 
    "shengdanlvniudan", 
    "hongseniudan", 
-   "xianhuabaoxiang", 
+   "xinnianlanniudan", 
    "shengdanhongniudan"
   ]
  }, 
