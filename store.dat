@@ -7285,11 +7285,14 @@
     "langshanChook", 
     "hongtouzhuomuniao", 
     "huolieniao", 
+    "shanbei", 
     "guangxiMaDuck", 
+    "taipingyangfei", 
     "putianDuck", 
     "sheep", 
     "meihualu", 
     "goat", 
+    "longxia", 
     "semifineWool", 
     "milkCow", 
     "friesian", 
@@ -8050,6 +8053,27 @@
      "level_need": 1, 
      "fruit_quantifier": "\u500b"
     }, 
+    "longxia": {
+     "total_time": 1960, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "\u4f0a\u52e2\u30a8\u30d3", 
+     "base_fruit": 25, 
+     "fruit_time": 1200, 
+     "adult_time": 380, 
+     "buy_price": {
+      "gold": 369
+     }, 
+     "seasons": 3, 
+     "young_time": 380, 
+     "experience": 3.56, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "level_need": 15, 
+     "fruit_quantifier": "\u500b"
+    }, 
     "hepingge": {
      "total_time": 2460, 
      "sound": {
@@ -8352,6 +8376,27 @@
      "sale_price": 5.5, 
      "increment_fruit": 25, 
      "level_need": 3, 
+     "fruit_quantifier": "\u500b"
+    }, 
+    "taipingyangfei": {
+     "total_time": 1280, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "\u6570\u306e\u5b50", 
+     "base_fruit": 25, 
+     "fruit_time": 800, 
+     "adult_time": 240, 
+     "buy_price": {
+      "gold": 103
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 3.3, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "level_need": 12, 
      "fruit_quantifier": "\u500b"
     }, 
     "huabao": {
@@ -9497,6 +9542,27 @@
      "sale_price": 50, 
      "increment_fruit": 25, 
      "level_need": 0, 
+     "fruit_quantifier": "\u500b"
+    }, 
+    "shanbei": {
+     "total_time": 910, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "\u30db\u30bf\u30c6", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "adult_time": 180, 
+     "buy_price": {
+      "gold": 203
+     }, 
+     "seasons": 1, 
+     "young_time": 180, 
+     "experience": 2.26, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "level_need": 10, 
      "fruit_quantifier": "\u500b"
     }, 
     "sheep": {
@@ -16282,6 +16348,25 @@
      "leaf_time": 304, 
      "level_need": 16
     }, 
+    "xinnianbiandang": {
+     "total_time": 1811, 
+     "leaflet_time": 362, 
+     "used": false, 
+     "name": "\u304a\u305b\u3061", 
+     "base_fruit": 25, 
+     "fruit_time": 544, 
+     "sprout_time": 181, 
+     "bloom_time": 362, 
+     "experience": 3.34, 
+     "seasons": 3, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 362, 
+     "seed_price": {
+      "F_coin": 455
+     }, 
+     "level_need": 1
+    }, 
     "tilamisu": {
      "total_time": 1405, 
      "leaflet_time": 270, 
@@ -21161,6 +21246,25 @@
      }, 
      "level_need": 1
     }, 
+    "mensong": {
+     "total_time": 1811, 
+     "leaflet_time": 362, 
+     "used": false, 
+     "name": "\u9580\u677e", 
+     "base_fruit": 25, 
+     "fruit_time": 544, 
+     "sprout_time": 181, 
+     "bloom_time": 362, 
+     "experience": 3.34, 
+     "seasons": 3, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 362, 
+     "seed_price": {
+      "F_coin": 455
+     }, 
+     "level_need": 1
+    }, 
     "mulberry": {
      "total_time": 1936, 
      "leaflet_time": 383, 
@@ -21302,6 +21406,25 @@
       "F_coin": 20
      }, 
      "leaf_time": 150, 
+     "level_need": 1
+    }, 
+    "heidou": {
+     "total_time": 1550, 
+     "leaflet_time": 310, 
+     "used": false, 
+     "name": "\u9ed2\u8c46", 
+     "base_fruit": 25, 
+     "fruit_time": 465, 
+     "sprout_time": 155, 
+     "bloom_time": 310, 
+     "experience": 3.28, 
+     "seasons": 2, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 310, 
+     "seed_price": {
+      "F_coin": 455
+     }, 
      "level_need": 1
     }, 
     "strawberry": {
@@ -22282,6 +22405,7 @@
     "shengdanhongxin", 
     "hongqiansuitang", 
     "guiliannangua", 
+    "xinnianbiandang", 
     "nvergao", 
     "zongzi", 
     "tongluoshao", 
@@ -22400,12 +22524,14 @@
     "niangao5", 
     "niangao2", 
     "dazhong", 
+    "mensong", 
     "yanpi", 
     "hanguoguoqishu", 
     "shuiyangqiehua", 
     "danbaidadou", 
     "jingzhiganlanyou", 
     "hongtang", 
+    "heidou", 
     "caomeimao", 
     "saibohua", 
     "dianshisong", 
@@ -23178,28 +23304,6 @@
        "multi_buy": false, 
        "deadline": 7
       }, 
-      "juxiezuo": {
-       "used": true, 
-       "name": "\u304b\u306b\u5ea7\u306e\u5927\u5730", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 58
-       }, 
-       "experience": 1000, 
-       "multi_buy": false, 
-       "deadline": 15
-      }, 
-      "wanshengjie": {
-       "used": true, 
-       "name": "\u30cf\u30ed\u30a6\u30a3\u30f3\u306e\u5893\u5730", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 15
-       }, 
-       "experience": 25, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
       "taigu": {
        "used": true, 
        "name": "\u592a\u9f13\u3001\u796d\u308a", 
@@ -23210,17 +23314,6 @@
        "experience": 720, 
        "multi_buy": false, 
        "deadline": 15
-      }, 
-      "shengdan": {
-       "used": true, 
-       "name": "\u30af\u30ea\u30b9\u30de\u30b9\u306e\u5927\u5730", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 3
-       }, 
-       "experience": 160, 
-       "multi_buy": false, 
-       "deadline": 3
       }, 
       "shizizuo": {
        "used": true, 
@@ -23233,9 +23326,41 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
+      "autumn": {
+       "name": "\u91d1\u8272\u306e\u79cb", 
+       "layer_order": 3, 
+       "price": {
+        "gold": 7000
+       }, 
+       "experience": 120, 
+       "multi_buy": false, 
+       "deadline": 7
+      }, 
+      "chunvzuo": {
+       "used": true, 
+       "name": "\u304a\u3068\u3081\u5ea7\u306e\u5927\u5730", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 15
+       }, 
+       "experience": 260, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
       "shengdanjie": {
        "used": false, 
        "name": "\u30af\u30ea\u30b9\u30de\u30b9\u98a8\u306e\u96ea\u91ce\u539f", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 9
+       }, 
+       "experience": 28, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "qingrenjie": {
+       "used": true, 
+       "name": "\u30ed\u30fc\u30ba\u30d3\u30fc\u30c1", 
        "layer_order": 3, 
        "price": {
         "F_coin": 9
@@ -23288,49 +23413,6 @@
        "multi_buy": false, 
        "deadline": 7
       }, 
-      "autumn": {
-       "name": "\u91d1\u8272\u306e\u79cb", 
-       "layer_order": 3, 
-       "price": {
-        "gold": 7000
-       }, 
-       "experience": 120, 
-       "multi_buy": false, 
-       "deadline": 7
-      }, 
-      "yinghua": {
-       "used": true, 
-       "name": "\u685c\u306e\u5712", 
-       "layer_order": 3, 
-       "price": {
-        "gold": 5000
-       }, 
-       "experience": 100, 
-       "multi_buy": false, 
-       "deadline": 6
-      }, 
-      "neutral": {
-       "used": true, 
-       "name": "\u7f8e\u3057\u304d\u5357\u56fd\u30ac\u30fc\u30c7\u30f3", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 28
-       }, 
-       "experience": 25, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "chunvzuo": {
-       "used": true, 
-       "name": "\u304a\u3068\u3081\u5ea7\u306e\u5927\u5730", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 15
-       }, 
-       "experience": 260, 
-       "multi_buy": false, 
-       "deadline": 15
-      }, 
       "yh": {
        "used": true, 
        "name": "\u685c\u306e\u5730\u9762", 
@@ -23342,14 +23424,14 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "yuandan": {
-       "used": false, 
-       "name": "\u65b0\u5e74\u306e\u91ce\u539f", 
+      "wanshengjie": {
+       "used": true, 
+       "name": "\u30cf\u30ed\u30a6\u30a3\u30f3\u306e\u5893\u5730", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 9
+        "F_coin": 15
        }, 
-       "experience": 28, 
+       "experience": 25, 
        "multi_buy": false, 
        "deadline": 30
       }, 
@@ -23364,9 +23446,64 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
-      "qingrenjie": {
+      "neutral": {
        "used": true, 
-       "name": "\u30ed\u30fc\u30ba\u30d3\u30fc\u30c1", 
+       "name": "\u7f8e\u3057\u304d\u5357\u56fd\u30ac\u30fc\u30c7\u30f3", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 28
+       }, 
+       "experience": 25, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "shengdan": {
+       "used": true, 
+       "name": "\u30af\u30ea\u30b9\u30de\u30b9\u306e\u5927\u5730", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 3
+       }, 
+       "experience": 160, 
+       "multi_buy": false, 
+       "deadline": 3
+      }, 
+      "yinghua": {
+       "used": true, 
+       "name": "\u685c\u306e\u5712", 
+       "layer_order": 3, 
+       "price": {
+        "gold": 5000
+       }, 
+       "experience": 100, 
+       "multi_buy": false, 
+       "deadline": 6
+      }, 
+      "juxiezuo": {
+       "used": true, 
+       "name": "\u304b\u306b\u5ea7\u306e\u5927\u5730", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 58
+       }, 
+       "experience": 1000, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
+      "xinnian": {
+       "used": false, 
+       "name": "\u65b0\u5e74\u306e\u5927\u5730", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 18
+       }, 
+       "experience": 310, 
+       "multi_buy": false, 
+       "deadline": 10
+      }, 
+      "yuandan": {
+       "used": false, 
+       "name": "\u65b0\u5e74\u306e\u91ce\u539f", 
        "layer_order": 3, 
        "price": {
         "F_coin": 9
@@ -23459,17 +23596,6 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "chunvzuo": {
-       "used": true, 
-       "name": "\u304a\u3068\u3081\u5ea7\u306e\u795e\u6bbf", 
-       "layer_order": 2, 
-       "price": {
-        "F_coin": 15
-       }, 
-       "experience": 26, 
-       "multi_buy": false, 
-       "deadline": 15
-      }, 
       "wanshengjie": {
        "used": true, 
        "name": "\u60aa\u9b54\u306e\u57ce", 
@@ -23547,17 +23673,6 @@
        "multi_buy": false, 
        "deadline": 7
       }, 
-      "shengdanjie": {
-       "used": false, 
-       "name": "\u30af\u30ea\u30b9\u30de\u30b9\u98a8\u306e\u30b9\u30ce\u30a6\u30cf\u30a6\u30b9", 
-       "layer_order": 2, 
-       "price": {
-        "F_coin": 5
-       }, 
-       "experience": 43, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
       "neutral": {
        "used": true, 
        "name": "\u30d3\u30fc\u30c1\u30cf\u30a6\u30b9", 
@@ -23566,6 +23681,39 @@
         "F_coin": 5
        }, 
        "experience": 15, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "yuandan": {
+       "used": false, 
+       "name": "\u521d\u8a63\u306e\u795e\u793e", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 5
+       }, 
+       "experience": 43, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "chunvzuo": {
+       "used": true, 
+       "name": "\u304a\u3068\u3081\u5ea7\u306e\u795e\u6bbf", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 15
+       }, 
+       "experience": 26, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
+      "shengdanjie": {
+       "used": false, 
+       "name": "\u30af\u30ea\u30b9\u30de\u30b9\u98a8\u306e\u30b9\u30ce\u30a6\u30cf\u30a6\u30b9", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 5
+       }, 
+       "experience": 43, 
        "multi_buy": false, 
        "deadline": 30
       }, 
@@ -23580,14 +23728,14 @@
        "multi_buy": false, 
        "deadline": 3
       }, 
-      "yuandan": {
-       "used": false, 
-       "name": "\u521d\u8a63\u306e\u795e\u793e", 
+      "male": {
+       "used": true, 
+       "name": "\u30a4\u30f3\u30c7\u30a3\u30a2\u30f3\u30c6\u30f3\u30c8", 
        "layer_order": 2, 
        "price": {
         "F_coin": 5
        }, 
-       "experience": 43, 
+       "experience": 15, 
        "multi_buy": false, 
        "deadline": 30
       }, 
@@ -23602,17 +23750,6 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "male": {
-       "used": true, 
-       "name": "\u30a4\u30f3\u30c7\u30a3\u30a2\u30f3\u30c6\u30f3\u30c8", 
-       "layer_order": 2, 
-       "price": {
-        "F_coin": 5
-       }, 
-       "experience": 15, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
       "tingzi": {
        "used": true, 
        "name": "\u685c\u4ead", 
@@ -23623,6 +23760,17 @@
        "experience": 50, 
        "multi_buy": false, 
        "deadline": 5
+      }, 
+      "xinnian": {
+       "used": false, 
+       "name": "\u65b0\u5e74\u306e\u5c0f\u5c4b", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 7
+       }, 
+       "experience": 256, 
+       "multi_buy": false, 
+       "deadline": 10
       }
      }
     }, 
@@ -23644,49 +23792,16 @@
        "multi_buy": false, 
        "deadline": 7
       }, 
-      "juxiezuo": {
+      "taigu": {
        "used": true, 
-       "name": "\u304b\u306b\u5ea7\u306e\u7a7a", 
+       "name": "\u82b1\u706b\u306e\u591c\u7a7a", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 38
+        "F_coin": 15
        }, 
-       "experience": 750, 
+       "experience": 550, 
        "multi_buy": false, 
        "deadline": 15
-      }, 
-      "wanshengjie": {
-       "used": true, 
-       "name": "\u30cf\u30ed\u30a6\u30a3\u30f3\u306e\u591c", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 12
-       }, 
-       "experience": 20, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "yh": {
-       "used": true, 
-       "name": "\u685c\u306e\u7a7a", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 4
-       }, 
-       "experience": 20, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "shengdan": {
-       "used": true, 
-       "name": "\u30af\u30ea\u30b9\u30de\u30b9\u306e\u7a7a", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 1
-       }, 
-       "experience": 160, 
-       "multi_buy": false, 
-       "deadline": 3
       }, 
       "shizizuo": {
        "used": true, 
@@ -23699,16 +23814,38 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
-      "taigu": {
+      "chunvzuo": {
        "used": true, 
-       "name": "\u82b1\u706b\u306e\u591c\u7a7a", 
+       "name": "\u304a\u3068\u3081\u5ea7\u306e\u7a7a", 
        "layer_order": 3, 
        "price": {
         "F_coin": 15
        }, 
-       "experience": 550, 
+       "experience": 260, 
        "multi_buy": false, 
        "deadline": 15
+      }, 
+      "shengdanjie": {
+       "used": false, 
+       "name": "\u30af\u30ea\u30b9\u30de\u30b9\u98a8\u306e\u96ea\u7a7a", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 4
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "qingrenjie": {
+       "used": true, 
+       "name": "\u611b\u306e\u7a7a", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 4
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
       }, 
       "nanhaijie": {
        "used": true, 
@@ -23721,16 +23858,16 @@
        "multi_buy": false, 
        "deadline": 7
       }, 
-      "cloudy": {
+      "xuanlancaihong": {
        "used": false, 
-       "name": "\u7729\u3057\u7a7a\u96f2", 
+       "name": "\u30ab\u30e9\u30d5\u30eb\u306a\u8679", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 1
+        "F_coin": 3
        }, 
-       "experience": 5, 
+       "experience": 8, 
        "multi_buy": false, 
-       "deadline": 3
+       "deadline": 30
       }, 
       "qixi": {
        "used": true, 
@@ -23742,6 +23879,28 @@
        "experience": 310, 
        "multi_buy": false, 
        "deadline": 7
+      }, 
+      "yh": {
+       "used": true, 
+       "name": "\u685c\u306e\u7a7a", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 4
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "wanshengjie": {
+       "used": true, 
+       "name": "\u30cf\u30ed\u30a6\u30a3\u30f3\u306e\u591c", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 12
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
       }, 
       "xiarizhuangyuan": {
        "used": true, 
@@ -23776,49 +23935,16 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "yuandan": {
-       "used": false, 
-       "name": "\u65b0\u5e74\u306e\u7a7a", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 4
-       }, 
-       "experience": 20, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "chunvzuo": {
+      "shengdan": {
        "used": true, 
-       "name": "\u304a\u3068\u3081\u5ea7\u306e\u7a7a", 
+       "name": "\u30af\u30ea\u30b9\u30de\u30b9\u306e\u7a7a", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 15
+        "F_coin": 1
        }, 
-       "experience": 260, 
+       "experience": 160, 
        "multi_buy": false, 
-       "deadline": 15
-      }, 
-      "xuanlancaihong": {
-       "used": false, 
-       "name": "\u30ab\u30e9\u30d5\u30eb\u306a\u8679", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 3
-       }, 
-       "experience": 8, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "shengdanjie": {
-       "used": false, 
-       "name": "\u30af\u30ea\u30b9\u30de\u30b9\u98a8\u306e\u96ea\u7a7a", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 4
-       }, 
-       "experience": 20, 
-       "multi_buy": false, 
-       "deadline": 30
+       "deadline": 3
       }, 
       "yinghua": {
        "used": true, 
@@ -23842,23 +23968,56 @@
        "multi_buy": false, 
        "deadline": 20
       }, 
+      "juxiezuo": {
+       "used": true, 
+       "name": "\u304b\u306b\u5ea7\u306e\u7a7a", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 38
+       }, 
+       "experience": 750, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
+      "xinnian": {
+       "used": false, 
+       "name": "\u65b0\u5e74\u306e\u7a7a", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 5
+       }, 
+       "experience": 120, 
+       "multi_buy": false, 
+       "deadline": 10
+      }, 
+      "cloudy": {
+       "used": false, 
+       "name": "\u7729\u3057\u7a7a\u96f2", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 1
+       }, 
+       "experience": 5, 
+       "multi_buy": false, 
+       "deadline": 3
+      }, 
+      "yuandan": {
+       "used": false, 
+       "name": "\u65b0\u5e74\u306e\u7a7a", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 4
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
       "male": {
        "used": true, 
        "name": "\u5915\u713c\u3051\u306e\u5317\u7c73\u5927\u9678", 
        "layer_order": 3, 
        "price": {
         "F_coin": 19
-       }, 
-       "experience": 20, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "qingrenjie": {
-       "used": true, 
-       "name": "\u611b\u306e\u7a7a", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 4
        }, 
        "experience": 20, 
        "multi_buy": false, 
