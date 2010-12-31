@@ -7285,11 +7285,14 @@
     "langshanChook", 
     "hongtouzhuomuniao", 
     "huolieniao", 
+    "shanbei", 
     "guangxiMaDuck", 
+    "taipingyangfei", 
     "putianDuck", 
     "sheep", 
     "meihualu", 
     "goat", 
+    "longxia", 
     "semifineWool", 
     "milkCow", 
     "friesian", 
@@ -8050,6 +8053,27 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
+    "longxia": {
+     "total_time": 1960, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "伊勢エビ", 
+     "base_fruit": 25, 
+     "fruit_time": 1200, 
+     "adult_time": 380, 
+     "buy_price": {
+      "gold": 369
+     }, 
+     "seasons": 3, 
+     "young_time": 380, 
+     "experience": 3.56, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "level_need": 15, 
+     "fruit_quantifier": "個"
+    }, 
     "hepingge": {
      "total_time": 2460, 
      "sound": {
@@ -8352,6 +8376,27 @@
      "sale_price": 5.5, 
      "increment_fruit": 25, 
      "level_need": 3, 
+     "fruit_quantifier": "個"
+    }, 
+    "taipingyangfei": {
+     "total_time": 1280, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "数の子", 
+     "base_fruit": 25, 
+     "fruit_time": 800, 
+     "adult_time": 240, 
+     "buy_price": {
+      "gold": 103
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 3.3, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "level_need": 12, 
      "fruit_quantifier": "個"
     }, 
     "huabao": {
@@ -9497,6 +9542,27 @@
      "sale_price": 50, 
      "increment_fruit": 25, 
      "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "shanbei": {
+     "total_time": 910, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "ホタテ", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "adult_time": 180, 
+     "buy_price": {
+      "gold": 203
+     }, 
+     "seasons": 1, 
+     "young_time": 180, 
+     "experience": 2.26, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "level_need": 10, 
      "fruit_quantifier": "個"
     }, 
     "sheep": {
@@ -16282,6 +16348,25 @@
      "leaf_time": 304, 
      "level_need": 16
     }, 
+    "xinnianbiandang": {
+     "total_time": 1811, 
+     "leaflet_time": 362, 
+     "used": false, 
+     "name": "おせち", 
+     "base_fruit": 25, 
+     "fruit_time": 544, 
+     "sprout_time": 181, 
+     "bloom_time": 362, 
+     "experience": 3.34, 
+     "seasons": 3, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 362, 
+     "seed_price": {
+      "F_coin": 455
+     }, 
+     "level_need": 1
+    }, 
     "tilamisu": {
      "total_time": 1405, 
      "leaflet_time": 270, 
@@ -21161,6 +21246,25 @@
      }, 
      "level_need": 1
     }, 
+    "mensong": {
+     "total_time": 1811, 
+     "leaflet_time": 362, 
+     "used": false, 
+     "name": "門松", 
+     "base_fruit": 25, 
+     "fruit_time": 544, 
+     "sprout_time": 181, 
+     "bloom_time": 362, 
+     "experience": 3.34, 
+     "seasons": 3, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 362, 
+     "seed_price": {
+      "F_coin": 455
+     }, 
+     "level_need": 1
+    }, 
     "mulberry": {
      "total_time": 1936, 
      "leaflet_time": 383, 
@@ -21302,6 +21406,25 @@
       "F_coin": 20
      }, 
      "leaf_time": 150, 
+     "level_need": 1
+    }, 
+    "heidou": {
+     "total_time": 1550, 
+     "leaflet_time": 310, 
+     "used": false, 
+     "name": "黒豆", 
+     "base_fruit": 25, 
+     "fruit_time": 465, 
+     "sprout_time": 155, 
+     "bloom_time": 310, 
+     "experience": 3.28, 
+     "seasons": 2, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 310, 
+     "seed_price": {
+      "F_coin": 455
+     }, 
      "level_need": 1
     }, 
     "strawberry": {
@@ -22282,6 +22405,7 @@
     "shengdanhongxin", 
     "hongqiansuitang", 
     "guiliannangua", 
+    "xinnianbiandang", 
     "nvergao", 
     "zongzi", 
     "tongluoshao", 
@@ -22400,12 +22524,14 @@
     "niangao5", 
     "niangao2", 
     "dazhong", 
+    "mensong", 
     "yanpi", 
     "hanguoguoqishu", 
     "shuiyangqiehua", 
     "danbaidadou", 
     "jingzhiganlanyou", 
     "hongtang", 
+    "heidou", 
     "caomeimao", 
     "saibohua", 
     "dianshisong", 
@@ -23178,28 +23304,6 @@
        "multi_buy": false, 
        "deadline": 7
       }, 
-      "juxiezuo": {
-       "used": true, 
-       "name": "かに座の大地", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 58
-       }, 
-       "experience": 1000, 
-       "multi_buy": false, 
-       "deadline": 15
-      }, 
-      "wanshengjie": {
-       "used": true, 
-       "name": "ハロウィンの墓地", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 15
-       }, 
-       "experience": 25, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
       "taigu": {
        "used": true, 
        "name": "太鼓、祭り", 
@@ -23210,17 +23314,6 @@
        "experience": 720, 
        "multi_buy": false, 
        "deadline": 15
-      }, 
-      "shengdan": {
-       "used": true, 
-       "name": "クリスマスの大地", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 3
-       }, 
-       "experience": 160, 
-       "multi_buy": false, 
-       "deadline": 3
       }, 
       "shizizuo": {
        "used": true, 
@@ -23233,9 +23326,41 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
+      "autumn": {
+       "name": "金色の秋", 
+       "layer_order": 3, 
+       "price": {
+        "gold": 7000
+       }, 
+       "experience": 120, 
+       "multi_buy": false, 
+       "deadline": 7
+      }, 
+      "chunvzuo": {
+       "used": true, 
+       "name": "おとめ座の大地", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 15
+       }, 
+       "experience": 260, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
       "shengdanjie": {
        "used": false, 
        "name": "クリスマス風の雪野原", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 9
+       }, 
+       "experience": 28, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "qingrenjie": {
+       "used": true, 
+       "name": "ローズビーチ", 
        "layer_order": 3, 
        "price": {
         "F_coin": 9
@@ -23288,49 +23413,6 @@
        "multi_buy": false, 
        "deadline": 7
       }, 
-      "autumn": {
-       "name": "金色の秋", 
-       "layer_order": 3, 
-       "price": {
-        "gold": 7000
-       }, 
-       "experience": 120, 
-       "multi_buy": false, 
-       "deadline": 7
-      }, 
-      "yinghua": {
-       "used": true, 
-       "name": "桜の園", 
-       "layer_order": 3, 
-       "price": {
-        "gold": 5000
-       }, 
-       "experience": 100, 
-       "multi_buy": false, 
-       "deadline": 6
-      }, 
-      "neutral": {
-       "used": true, 
-       "name": "美しき南国ガーデン", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 28
-       }, 
-       "experience": 25, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "chunvzuo": {
-       "used": true, 
-       "name": "おとめ座の大地", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 15
-       }, 
-       "experience": 260, 
-       "multi_buy": false, 
-       "deadline": 15
-      }, 
       "yh": {
        "used": true, 
        "name": "桜の地面", 
@@ -23342,14 +23424,14 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "yuandan": {
-       "used": false, 
-       "name": "新年の野原", 
+      "wanshengjie": {
+       "used": true, 
+       "name": "ハロウィンの墓地", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 9
+        "F_coin": 15
        }, 
-       "experience": 28, 
+       "experience": 25, 
        "multi_buy": false, 
        "deadline": 30
       }, 
@@ -23364,9 +23446,64 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
-      "qingrenjie": {
+      "neutral": {
        "used": true, 
-       "name": "ローズビーチ", 
+       "name": "美しき南国ガーデン", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 28
+       }, 
+       "experience": 25, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "shengdan": {
+       "used": true, 
+       "name": "クリスマスの大地", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 3
+       }, 
+       "experience": 160, 
+       "multi_buy": false, 
+       "deadline": 3
+      }, 
+      "yinghua": {
+       "used": true, 
+       "name": "桜の園", 
+       "layer_order": 3, 
+       "price": {
+        "gold": 5000
+       }, 
+       "experience": 100, 
+       "multi_buy": false, 
+       "deadline": 6
+      }, 
+      "juxiezuo": {
+       "used": true, 
+       "name": "かに座の大地", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 58
+       }, 
+       "experience": 1000, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
+      "xinnian": {
+       "used": false, 
+       "name": "新年の大地", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 18
+       }, 
+       "experience": 310, 
+       "multi_buy": false, 
+       "deadline": 10
+      }, 
+      "yuandan": {
+       "used": false, 
+       "name": "新年の野原", 
        "layer_order": 3, 
        "price": {
         "F_coin": 9
@@ -23459,17 +23596,6 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "chunvzuo": {
-       "used": true, 
-       "name": "おとめ座の神殿", 
-       "layer_order": 2, 
-       "price": {
-        "F_coin": 15
-       }, 
-       "experience": 26, 
-       "multi_buy": false, 
-       "deadline": 15
-      }, 
       "wanshengjie": {
        "used": true, 
        "name": "悪魔の城", 
@@ -23547,17 +23673,6 @@
        "multi_buy": false, 
        "deadline": 7
       }, 
-      "shengdanjie": {
-       "used": false, 
-       "name": "クリスマス風のスノウハウス", 
-       "layer_order": 2, 
-       "price": {
-        "F_coin": 5
-       }, 
-       "experience": 43, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
       "neutral": {
        "used": true, 
        "name": "ビーチハウス", 
@@ -23566,6 +23681,39 @@
         "F_coin": 5
        }, 
        "experience": 15, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "yuandan": {
+       "used": false, 
+       "name": "初詣の神社", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 5
+       }, 
+       "experience": 43, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "chunvzuo": {
+       "used": true, 
+       "name": "おとめ座の神殿", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 15
+       }, 
+       "experience": 26, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
+      "shengdanjie": {
+       "used": false, 
+       "name": "クリスマス風のスノウハウス", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 5
+       }, 
+       "experience": 43, 
        "multi_buy": false, 
        "deadline": 30
       }, 
@@ -23580,14 +23728,14 @@
        "multi_buy": false, 
        "deadline": 3
       }, 
-      "yuandan": {
-       "used": false, 
-       "name": "初詣の神社", 
+      "male": {
+       "used": true, 
+       "name": "インディアンテント", 
        "layer_order": 2, 
        "price": {
         "F_coin": 5
        }, 
-       "experience": 43, 
+       "experience": 15, 
        "multi_buy": false, 
        "deadline": 30
       }, 
@@ -23602,17 +23750,6 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "male": {
-       "used": true, 
-       "name": "インディアンテント", 
-       "layer_order": 2, 
-       "price": {
-        "F_coin": 5
-       }, 
-       "experience": 15, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
       "tingzi": {
        "used": true, 
        "name": "桜亭", 
@@ -23623,6 +23760,17 @@
        "experience": 50, 
        "multi_buy": false, 
        "deadline": 5
+      }, 
+      "xinnian": {
+       "used": false, 
+       "name": "新年の小屋", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 7
+       }, 
+       "experience": 256, 
+       "multi_buy": false, 
+       "deadline": 10
       }
      }
     }, 
@@ -23644,49 +23792,16 @@
        "multi_buy": false, 
        "deadline": 7
       }, 
-      "juxiezuo": {
+      "taigu": {
        "used": true, 
-       "name": "かに座の空", 
+       "name": "花火の夜空", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 38
+        "F_coin": 15
        }, 
-       "experience": 750, 
+       "experience": 550, 
        "multi_buy": false, 
        "deadline": 15
-      }, 
-      "wanshengjie": {
-       "used": true, 
-       "name": "ハロウィンの夜", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 12
-       }, 
-       "experience": 20, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "yh": {
-       "used": true, 
-       "name": "桜の空", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 4
-       }, 
-       "experience": 20, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "shengdan": {
-       "used": true, 
-       "name": "クリスマスの空", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 1
-       }, 
-       "experience": 160, 
-       "multi_buy": false, 
-       "deadline": 3
       }, 
       "shizizuo": {
        "used": true, 
@@ -23699,16 +23814,38 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
-      "taigu": {
+      "chunvzuo": {
        "used": true, 
-       "name": "花火の夜空", 
+       "name": "おとめ座の空", 
        "layer_order": 3, 
        "price": {
         "F_coin": 15
        }, 
-       "experience": 550, 
+       "experience": 260, 
        "multi_buy": false, 
        "deadline": 15
+      }, 
+      "shengdanjie": {
+       "used": false, 
+       "name": "クリスマス風の雪空", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 4
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "qingrenjie": {
+       "used": true, 
+       "name": "愛の空", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 4
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
       }, 
       "nanhaijie": {
        "used": true, 
@@ -23721,16 +23858,16 @@
        "multi_buy": false, 
        "deadline": 7
       }, 
-      "cloudy": {
+      "xuanlancaihong": {
        "used": false, 
-       "name": "眩し空雲", 
+       "name": "カラフルな虹", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 1
+        "F_coin": 3
        }, 
-       "experience": 5, 
+       "experience": 8, 
        "multi_buy": false, 
-       "deadline": 3
+       "deadline": 30
       }, 
       "qixi": {
        "used": true, 
@@ -23742,6 +23879,28 @@
        "experience": 310, 
        "multi_buy": false, 
        "deadline": 7
+      }, 
+      "yh": {
+       "used": true, 
+       "name": "桜の空", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 4
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
+      "wanshengjie": {
+       "used": true, 
+       "name": "ハロウィンの夜", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 12
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
       }, 
       "xiarizhuangyuan": {
        "used": true, 
@@ -23776,49 +23935,16 @@
        "multi_buy": false, 
        "deadline": 30
       }, 
-      "yuandan": {
-       "used": false, 
-       "name": "新年の空", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 4
-       }, 
-       "experience": 20, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "chunvzuo": {
+      "shengdan": {
        "used": true, 
-       "name": "おとめ座の空", 
+       "name": "クリスマスの空", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 15
+        "F_coin": 1
        }, 
-       "experience": 260, 
+       "experience": 160, 
        "multi_buy": false, 
-       "deadline": 15
-      }, 
-      "xuanlancaihong": {
-       "used": false, 
-       "name": "カラフルな虹", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 3
-       }, 
-       "experience": 8, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "shengdanjie": {
-       "used": false, 
-       "name": "クリスマス風の雪空", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 4
-       }, 
-       "experience": 20, 
-       "multi_buy": false, 
-       "deadline": 30
+       "deadline": 3
       }, 
       "yinghua": {
        "used": true, 
@@ -23842,23 +23968,56 @@
        "multi_buy": false, 
        "deadline": 20
       }, 
+      "juxiezuo": {
+       "used": true, 
+       "name": "かに座の空", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 38
+       }, 
+       "experience": 750, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
+      "xinnian": {
+       "used": false, 
+       "name": "新年の空", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 5
+       }, 
+       "experience": 120, 
+       "multi_buy": false, 
+       "deadline": 10
+      }, 
+      "cloudy": {
+       "used": false, 
+       "name": "眩し空雲", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 1
+       }, 
+       "experience": 5, 
+       "multi_buy": false, 
+       "deadline": 3
+      }, 
+      "yuandan": {
+       "used": false, 
+       "name": "新年の空", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 4
+       }, 
+       "experience": 20, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
       "male": {
        "used": true, 
        "name": "夕焼けの北米大陸", 
        "layer_order": 3, 
        "price": {
         "F_coin": 19
-       }, 
-       "experience": 20, 
-       "multi_buy": false, 
-       "deadline": 30
-      }, 
-      "qingrenjie": {
-       "used": true, 
-       "name": "愛の空", 
-       "layer_order": 3, 
-       "price": {
-        "F_coin": 4
        }, 
        "experience": 20, 
        "multi_buy": false, 
