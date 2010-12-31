@@ -11105,7 +11105,7 @@
     "activity_type": "discount"
    }, 
    "hongtuchengzi": {
-    "specific_type": "xin", 
+    "specific_type": "youji", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -11115,7 +11115,8 @@
      "num": 470, 
      "type": "gold"
     }, 
-    "modify": true, 
+    "modify": false, 
+    "specific_string_jp": "有機", 
     "activity_type": "discount"
    }, 
    "guohuatujian": {
@@ -13455,14 +13456,15 @@
      "used": false, 
      "name": "青色の夜空", 
      "base_fruit": 1, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。青色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。青色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "１月１７日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 100, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -14021,14 +14023,15 @@
      "used": false, 
      "name": "緑色の夜空", 
      "base_fruit": 1, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。緑色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。緑色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "１月１７日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 100, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -15169,14 +15172,15 @@
      "used": false, 
      "name": "紫色の夜空", 
      "base_fruit": 1, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。紫色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。紫色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "１月１７日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 100, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -17510,14 +17514,15 @@
      "used": false, 
      "name": "黄色の夜空", 
      "base_fruit": 1, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。黄色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。黄色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "１月１７日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 100, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -18731,14 +18736,15 @@
      "used": false, 
      "name": "赤色の夜空", 
      "base_fruit": 1, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。赤色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。赤色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "１月１７日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 100, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
       "F_coin": 50
      }, 
