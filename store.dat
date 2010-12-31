@@ -16349,19 +16349,19 @@
      "level_need": 16
     }, 
     "xinnianbiandang": {
-     "total_time": 1811, 
-     "leaflet_time": 362, 
+     "total_time": 1362, 
+     "leaflet_time": 204, 
      "used": false, 
      "name": "\u304a\u305b\u3061", 
      "base_fruit": 25, 
-     "fruit_time": 544, 
-     "sprout_time": 181, 
-     "bloom_time": 362, 
-     "experience": 3.34, 
-     "seasons": 3, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 384, 
+     "experience": 6.37, 
+     "seasons": 1, 
      "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 362, 
+     "leaf_time": 324, 
      "seed_price": {
       "F_coin": 455
      }, 
@@ -21247,23 +21247,23 @@
      "level_need": 1
     }, 
     "mensong": {
-     "total_time": 1811, 
-     "leaflet_time": 362, 
-     "used": false, 
+     "total_time": 2075, 
+     "leaflet_time": 305, 
+     "used": true, 
      "name": "\u9580\u677e", 
      "base_fruit": 25, 
-     "fruit_time": 544, 
-     "sprout_time": 181, 
-     "bloom_time": 362, 
-     "experience": 3.34, 
-     "seasons": 3, 
-     "sale_price": 7, 
+     "fruit_time": 720, 
+     "sprout_time": 155, 
+     "bloom_time": 570, 
+     "experience": 5.08, 
+     "seasons": 1, 
+     "sale_price": 16, 
      "increment_fruit": 25, 
-     "leaf_time": 362, 
+     "leaf_time": 325, 
      "seed_price": {
-      "F_coin": 455
+      "gold": 186
      }, 
-     "level_need": 1
+     "level_need": 10
     }, 
     "mulberry": {
      "total_time": 1936, 
@@ -21409,23 +21409,23 @@
      "level_need": 1
     }, 
     "heidou": {
-     "total_time": 1550, 
-     "leaflet_time": 310, 
-     "used": false, 
+     "total_time": 1500, 
+     "leaflet_time": 186, 
+     "used": true, 
      "name": "\u9ed2\u8c46", 
      "base_fruit": 25, 
-     "fruit_time": 465, 
-     "sprout_time": 155, 
-     "bloom_time": 310, 
-     "experience": 3.28, 
+     "fruit_time": 512, 
+     "sprout_time": 110, 
+     "bloom_time": 365, 
+     "experience": 2.91, 
      "seasons": 2, 
-     "sale_price": 7, 
+     "sale_price": 10, 
      "increment_fruit": 25, 
-     "leaf_time": 310, 
+     "leaf_time": 327, 
      "seed_price": {
-      "F_coin": 455
+      "gold": 252
      }, 
-     "level_need": 1
+     "level_need": 12
     }, 
     "strawberry": {
      "total_time": 1470, 
@@ -22524,14 +22524,12 @@
     "niangao5", 
     "niangao2", 
     "dazhong", 
-    "mensong", 
     "yanpi", 
     "hanguoguoqishu", 
     "shuiyangqiehua", 
     "danbaidadou", 
     "jingzhiganlanyou", 
     "hongtang", 
-    "heidou", 
     "caomeimao", 
     "saibohua", 
     "dianshisong", 
@@ -22703,11 +22701,13 @@
     "daluobo", 
     "tonghao", 
     "pea", 
+    "mensong", 
     "guavaflower", 
     "mango", 
     "hongfushi", 
     "mulberry", 
     "yutou", 
+    "heidou", 
     "locust", 
     "lizhixiang", 
     "lemon", 
@@ -23762,14 +23762,14 @@
        "deadline": 5
       }, 
       "xinnian": {
-       "used": false, 
+       "used": true, 
        "name": "\u65b0\u5e74\u306e\u5c0f\u5c4b", 
        "layer_order": 2, 
        "price": {
         "F_coin": 7
        }, 
        "experience": 256, 
-       "multi_buy": true, 
+       "multi_buy": false, 
        "deadline": 10
       }
      }
