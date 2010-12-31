@@ -12537,6 +12537,26 @@
      "leaf_time": 600, 
      "level_need": 0
     }, 
+    "lanzuanshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "青カード", 
+     "base_fruit": 1, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。青カードを手に入れました。6種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 0, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "naiyouyumitang": {
      "total_time": 1080, 
      "leaflet_time": 220, 
@@ -12711,6 +12731,26 @@
       "gold": 188
      }, 
      "level_need": 39
+    }, 
+    "baishanhu": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ゴーストサンゴ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "baishanhu", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "leaf_time": 150, 
+     "level_need": 1
     }, 
     "shengdanjiezhuangshihuaquan": {
      "total_time": 720, 
@@ -13430,24 +13470,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "feidaofumu": {
-     "total_time": 1800, 
-     "leaflet_time": 330, 
-     "used": true, 
-     "name": "フクギ", 
+    "jinshanhu": {
+     "total_time": 720, 
+     "leaflet_time": 80, 
+     "used": false, 
+     "name": "キンピカサンゴ", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "sprout_time": 330, 
-     "bloom_time": 390, 
-     "experience": 6.8, 
-     "seasons": 1, 
-     "sale_price": 24, 
+     "fruit_time": 330, 
+     "sprout_time": 20, 
+     "introduce": "jinshanhu", 
      "increment_fruit": 25, 
-     "leaf_time": 360, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 8, 
      "seed_price": {
-      "gold": 310
+      "F_coin": 8
      }, 
-     "level_need": 44
+     "leaf_time": 140, 
+     "level_need": 53
     }, 
     "xilanhua": {
      "total_time": 960, 
@@ -14159,6 +14200,26 @@
      }, 
      "level_need": 0
     }, 
+    "heishanhu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ツノサンゴ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 90, 
+     "introduce": "heishanhu", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "leaf_time": 330, 
+     "level_need": 53
+    }, 
     "liulian": {
      "total_time": 3120, 
      "leaflet_time": 624, 
@@ -14415,6 +14476,26 @@
      }, 
      "leaf_time": 330, 
      "level_need": 0
+    }, 
+    "hongshanhu": {
+     "total_time": 720, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ファイトサンゴ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "introduce": "hongshanhu", 
+     "increment_fruit": 25, 
+     "bloom_time": 145, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "leaf_time": 145, 
+     "level_need": 53
     }, 
     "xueyuanyinghua": {
      "total_time": 1735, 
@@ -17090,6 +17171,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "dasuan": {
+     "total_time": 1035, 
+     "leaflet_time": 105, 
+     "used": false, 
+     "name": "ハッピーガーリック", 
+     "base_fruit": 25, 
+     "fruit_time": 345, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 2.76, 
+     "seasons": 1, 
+     "sale_price": 23, 
+     "increment_fruit": 25, 
+     "leaf_time": 165, 
+     "seed_price": {
+      "gold": 460
+     }, 
+     "level_need": 19
+    }, 
     "wurong": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -19729,24 +19829,25 @@
      }, 
      "level_need": 1
     }, 
-    "dasuan": {
-     "total_time": 1035, 
-     "leaflet_time": 105, 
+    "yanhua": {
+     "total_time": 1920, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "ハッピーガーリック", 
+     "name": "花火", 
      "base_fruit": 25, 
-     "fruit_time": 345, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 2.76, 
-     "seasons": 1, 
-     "sale_price": 23, 
+     "fruit_time": 900, 
+     "sprout_time": 30, 
+     "introduce": "サン牧特製の花火。水、虫対策はバッチリ！", 
      "increment_fruit": 25, 
-     "leaf_time": 165, 
+     "bloom_time": 510, 
+     "experience": 40, 
+     "seasons": 1, 
+     "sale_price": 25, 
      "seed_price": {
-      "gold": 460
+      "F_coin": 100
      }, 
-     "level_need": 19
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "mayinghuashu": {
      "total_time": 360, 
@@ -19935,26 +20036,6 @@
      "seed_price": {
       "F_coin": 999999
      }, 
-     "level_need": 0
-    }, 
-    "yanhua": {
-     "total_time": 1920, 
-     "leaflet_time": 150, 
-     "used": false, 
-     "name": "花火", 
-     "base_fruit": 25, 
-     "fruit_time": 900, 
-     "sprout_time": 30, 
-     "introduce": "サン牧特製の花火。水、虫対策はバッチリ！", 
-     "increment_fruit": 25, 
-     "bloom_time": 510, 
-     "experience": 40, 
-     "seasons": 1, 
-     "sale_price": 25, 
-     "seed_price": {
-      "F_coin": 100
-     }, 
-     "leaf_time": 330, 
      "level_need": 0
     }, 
     "zhangyushao": {
@@ -20266,24 +20347,24 @@
      }, 
      "level_need": 1
     }, 
-    "lanzuanshu": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "lanshanhu": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "青カード", 
-     "base_fruit": 1, 
+     "name": "バブルサンゴ", 
+     "base_fruit": 25, 
      "fruit_time": 360, 
      "sprout_time": 90, 
-     "introduce": "おめでとうございます。青カードを手に入れました。6種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
-     "increment_fruit": 0, 
+     "introduce": "lanshanhu", 
+     "increment_fruit": 25, 
      "bloom_time": 330, 
-     "experience": 100, 
+     "experience": 7, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 16, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 20
      }, 
-     "leaf_time": 330, 
+     "leaf_time": 150, 
      "level_need": 0
     }, 
     "shuijingputao": {
@@ -20361,6 +20442,25 @@
       "gold": 10
      }, 
      "level_need": 1
+    }, 
+    "feidaofumu": {
+     "total_time": 1800, 
+     "leaflet_time": 330, 
+     "used": true, 
+     "name": "フクギ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 330, 
+     "bloom_time": 390, 
+     "experience": 6.8, 
+     "seasons": 1, 
+     "sale_price": 24, 
+     "increment_fruit": 25, 
+     "leaf_time": 360, 
+     "seed_price": {
+      "gold": 310
+     }, 
+     "level_need": 44
     }, 
     "xigua": {
      "total_time": 5150, 
@@ -21955,6 +22055,7 @@
     "nanmogu", 
     "sweetviolet", 
     "lingxiao", 
+    "lanshanhu", 
     "hyacinth", 
     "bian", 
     "yuanxigua", 
@@ -22094,6 +22195,7 @@
     "bale", 
     "lvshuijingpingguo", 
     "fanqiejiang", 
+    "baishanhu", 
     "chabeihouzi", 
     "xibanyaguoqishu", 
     "siluofakeguoqishu", 
@@ -22182,12 +22284,15 @@
     "dianshisong", 
     "pugongying", 
     "fenglingcao", 
+    "jinshanhu", 
     "shengdanjiezhuangshihuaquan", 
     "shengdanfenyueji", 
+    "heishanhu", 
     "xiangshizhu", 
     "yulan", 
     "chuju", 
     "yumeirenhua", 
+    "hongshanhu", 
     "shicheju", 
     "shanziteng", 
     "caomeituan", 
