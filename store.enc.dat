@@ -11155,6 +11155,25 @@
     "goods_description": "ついに動物の宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いアニマル？達がも入っています！すべてを発見して図鑑を完成しよう！ ", 
     "activity_type": "discount"
    }, 
+   "chaozhilibao": {
+    "original_price": {
+     "num": 1270, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "お買い得セット", 
+    "price": {
+     "num": 500, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5 ", 
+    "activity_type": "discount"
+   }, 
    "xinnianziniudan": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -11233,20 +11252,6 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
-   "hefutunan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "神官うさぎ", 
-    "price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
     "activity_type": "discount"
    }, 
    "xinnianlanniudan": {
