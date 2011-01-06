@@ -22206,23 +22206,24 @@
      "level_need": 1
     }, 
     "caomeimao": {
-     "total_time": 1080, 
-     "leaflet_time": 165, 
-     "used": false, 
+     "total_time": 1430, 
+     "leaflet_time": 162, 
+     "used": true, 
      "name": "\u306d\u3053\u3044\u3061\u3054", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 105, 
-     "bloom_time": 285, 
-     "experience": 4.5, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "red_pit_seed": true, 
+     "fruit_time": 332, 
+     "sprout_time": 110, 
+     "bloom_time": 408, 
+     "experience": 2.66, 
+     "seasons": 3, 
+     "sale_price": 11, 
      "increment_fruit": 25, 
-     "leaf_time": 165, 
+     "leaf_time": 418, 
      "seed_price": {
-      "F_coin": 20
+      "gold": 447
      }, 
-     "level_need": 38
+     "level_need": 32
     }, 
     "zisexingxingshu": {
      "total_time": 1440, 
@@ -22613,7 +22614,6 @@
     "danbaidadou", 
     "jingzhiganlanyou", 
     "hongtang", 
-    "caomeimao", 
     "saibohua", 
     "dianshisong", 
     "pugongying", 
@@ -22840,6 +22840,7 @@
     "dongguaxin", 
     "donggua", 
     "xingzixin", 
+    "caomeimao", 
     "sunflowexinr", 
     "xingzi", 
     "lanmeixin", 
