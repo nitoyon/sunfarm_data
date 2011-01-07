@@ -5579,53 +5579,23 @@
      }
     }
    }, 
-   "hongseniudan": {
+   "test_bag": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 15
      }, 
      "used": false, 
-     "goods_str": "50%の確率で赤カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "赤カプセル", 
-     "introduce": "50%の確率で赤カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "goods_str": "中にはウルトラ肥料が二つ含まれています", 
+     "name": "ウルトラ肥料宝箱", 
+     "introduce": "中にはウルトラ肥料が二つ含まれています"
     }, 
     "data": {
      "farm": {
-      "seeds": {
-       "hongzuanshu": [
-        1, 
-        0.5
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ], 
-       "yingtao": [
-        1, 
-        0.2
-       ]
-      }, 
       "properties": {
        "fertilizer": {
-        "xunjie1": [
-         1, 
+        "test": [
+         2, 
          1.0
-        ], 
-        "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
-        ], 
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie": [
-         1, 
-         0.3
         ]
        }
       }
@@ -6483,6 +6453,83 @@
      }
     }
    }, 
+   "huangniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
+     "introduce": " ★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+     "name": "黄カプセル", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.05
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.01
+       ], 
+       "huangkapian": [
+        1, 
+        0.001
+       ], 
+       "nvmogu": [
+        1, 
+        0.01
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
    "hushenfu": {
     "config": {
      "price": {
@@ -6882,79 +6929,55 @@
      }
     }
    }, 
-   "huangniudan": {
+   "hongseniudan": {
     "config": {
      "price": {
       "F_coin": 1
      }, 
-     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
-     "introduce": " ★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-     "name": "黄カプセル", 
-     "used": false
+     "used": false, 
+     "goods_str": "50%の確率で赤カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "赤カプセル", 
+     "introduce": "50%の確率で赤カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "heimeigui": [
+       "hongzuanshu": [
         1, 
-        0.03
+        0.5
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
        ], 
        "yingtao": [
         1, 
-        0.05
-       ], 
-       "shenqijasmine": [
-        1, 
-        0.01
-       ], 
-       "huangkapian": [
-        1, 
-        0.001
-       ], 
-       "nvmogu": [
-        1, 
-        0.01
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
+        0.2
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "jisu": [
+        "xunjie1": [
          1, 
-         0.1
+         1.0
         ], 
-        "gaoji": [
+        "jisu": [
          1, 
          0.08
         ], 
-        "xunjie1": [
+        "gaoji": [
          1, 
-         1
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
         "xunjie": [
          1, 
          0.3
         ]
        }
-      }, 
-      "babies": {
-       "chengseqingwa": [
-        1, 
-        0.1
-       ], 
-       "taohuamao": [
-        1, 
-        0.05
-       ]
       }
      }
     }
@@ -24331,6 +24354,7 @@
    "fudai3", 
    "fudai2", 
    "fudai1", 
+   "hongseniudan", 
    "xinnianhongniudan", 
    "xianhuabaoxiang", 
    "tudoulibao", 
@@ -24348,7 +24372,7 @@
    "zidan", 
    "hongniudan", 
    "shengdanlvniudan", 
-   "hongseniudan", 
+   "test_bag", 
    "xinnianlanniudan", 
    "shengdanhongniudan"
   ]
