@@ -1308,6 +1308,103 @@
      }
     }
    }, 
+   "yekonglibao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産のホトトも入っているよ！さっそく開けてみよう！", 
+     "name": "コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産のホトトも入っているよ！さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "hudiehua": [
+        1, 
+        1.0
+       ], 
+       "nanmogu": [
+        1, 
+        1.0
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        1.0
+       ], 
+       "nvmogu": [
+        1, 
+        1.0
+       ], 
+       "nirenyali": [
+        1, 
+        1.0
+       ], 
+       "xinxingxigua": [
+        1, 
+        1.0
+       ], 
+       "yutuhua": [
+        5, 
+        1.0
+       ], 
+       "baochunhua": [
+        1, 
+        1.0
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        1.0
+       ], 
+       "jianfeishu": [
+        1, 
+        1.0
+       ], 
+       "qiansuitang": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "xiongmaotu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "zhongzibao": {
     "config": {
      "used": true, 
@@ -24494,6 +24591,7 @@
    "crops_zhishimianbaogan_gift", 
    "crops_moguniurouchaofan_gift", 
    "crops_hongtang_gift", 
+   "yekonglibao", 
    "crops_zhuanjiyindanji_gift", 
    "crops_lajiaoyou_gift", 
    "crops_fanqieguopu_gift", 
