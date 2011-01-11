@@ -11793,24 +11793,26 @@
      }, 
      "level_need": 1
     }, 
-    "fenshuijingpingguo": {
-     "total_time": 960, 
-     "leaflet_time": 60, 
+    "shuihulu": {
+     "total_time": 720, 
+     "leaflet_time": 80, 
      "used": false, 
-     "name": "ピンクダイヤリンゴ", 
+     "name": "紫のホテイアオイ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 6, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "goodstype": "flower", 
+     "sprout_time": 20, 
+     "introduce": "", 
      "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "bloom_time": 150, 
+     "experience": 3.0, 
+     "seasons": 1, 
+     "sale_price": 10, 
      "seed_price": {
-      "F_coin": 99999
+      "F_coin": 8
      }, 
-     "level_need": 1
+     "leaf_time": 140, 
+     "level_need": 0
     }, 
     "jingzhiganlanyou": {
      "total_time": 1650, 
@@ -12105,6 +12107,25 @@
      }, 
      "level_need": 1
     }, 
+    "baochunhua": {
+     "total_time": 1390, 
+     "leaflet_time": 320, 
+     "used": false, 
+     "name": "プリムラ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 320, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "lanmeibingjiling": {
      "total_time": 684, 
      "leaflet_time": 124, 
@@ -12329,25 +12350,24 @@
      "leaf_time": 550, 
      "level_need": 14
     }, 
-    "fuqinjiehuashu01": {
-     "total_time": 1875, 
-     "leaflet_time": 360, 
+    "bingdiaodalianmao": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "父の日の花束", 
+     "name": "氷彫刻のパク猫", 
      "base_fruit": 25, 
-     "fruit_time": 400, 
-     "goodstype": "flower", 
-     "sprout_time": 355, 
-     "increment_fruit": 25, 
-     "bloom_time": 400, 
-     "experience": 7, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 1
+      "F_coin": 25
      }, 
-     "leaf_time": 360, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "jidanbing": {
      "total_time": 25, 
@@ -12405,6 +12425,25 @@
       "F_coin": 1
      }, 
      "level_need": 1
+    }, 
+    "bingdiaohe": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "氷彫刻のハゴロモヅル", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
     }, 
     "jasmine": {
      "total_time": 840, 
@@ -13470,6 +13509,25 @@
      }, 
      "level_need": 1
     }, 
+    "bingdiaotuzi": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "氷彫刻のうさぎ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
+    }, 
     "yangtao": {
      "total_time": 1410, 
      "leaflet_time": 150, 
@@ -14297,26 +14355,24 @@
      }, 
      "level_need": 22
     }, 
-    "shuihulu": {
-     "total_time": 720, 
-     "leaflet_time": 80, 
+    "fenshuijingpingguo": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "紫のホテイアオイ", 
+     "name": "ピンクダイヤリンゴ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "goodstype": "flower", 
-     "sprout_time": 20, 
-     "introduce": "", 
-     "increment_fruit": 25, 
-     "bloom_time": 150, 
-     "experience": 3.0, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 6, 
      "seasons": 1, 
-     "sale_price": 10, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 99999
      }, 
-     "leaf_time": 140, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "xinxingxigua": {
      "total_time": 1440, 
@@ -17235,6 +17291,26 @@
      "leaf_time": 576, 
      "level_need": 0
     }, 
+    "fuqinjiehuashu01": {
+     "total_time": 1875, 
+     "leaflet_time": 360, 
+     "used": false, 
+     "name": "父の日の花束", 
+     "base_fruit": 25, 
+     "fruit_time": 400, 
+     "goodstype": "flower", 
+     "sprout_time": 355, 
+     "increment_fruit": 25, 
+     "bloom_time": 400, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "gold": 1
+     }, 
+     "leaf_time": 360, 
+     "level_need": 1
+    }, 
     "lvzuanhua": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -17748,25 +17824,23 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
-    "huang": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "lavendertea": {
+     "total_time": 1920, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "黄色の夜空", 
-     "base_fruit": 1, 
-     "increment_fruit": 0, 
-     "fruit_time": 360, 
-     "introduce": "おめでとうございます。黄色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
-     "can_not_crop": "１月１７日以降植えることができます。収穫すると、図鑑に入りますよ。", 
-     "bloom_time": 330, 
-     "sprout_time": 90, 
+     "name": "ラベンダーティー", 
+     "base_fruit": 25, 
+     "fruit_time": 900, 
+     "sprout_time": 30, 
+     "bloom_time": 510, 
+     "experience": 29, 
      "seasons": 1, 
-     "sale_price": 15, 
-     "experience": 100, 
-     "seed_price": {
-      "F_coin": 50
-     }, 
+     "sale_price": 42, 
+     "increment_fruit": 25, 
      "leaf_time": 330, 
+     "seed_price": {
+      "gold": 1
+     }, 
      "level_need": 0
     }, 
     "putaoyaguoqishu": {
@@ -18041,23 +18115,25 @@
      }, 
      "level_need": 1
     }, 
-    "lavendertea": {
-     "total_time": 1920, 
-     "leaflet_time": 150, 
+    "huang": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "ラベンダーティー", 
-     "base_fruit": 25, 
-     "fruit_time": 900, 
-     "sprout_time": 30, 
-     "bloom_time": 510, 
-     "experience": 29, 
+     "name": "黄色の夜空", 
+     "base_fruit": 1, 
+     "increment_fruit": 0, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。黄色の夜空を手に入れました。5種の夜空を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "１月１７日以降植えることができます。収穫すると、図鑑に入りますよ。", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
      "seasons": 1, 
-     "sale_price": 42, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
-      "gold": 1
+      "F_coin": 50
      }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "jiangbaojiding": {
@@ -19170,6 +19246,25 @@
       "F_coin": 1
      }, 
      "level_need": 1
+    }, 
+    "bingdiaokonglong": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "氷彫刻のティラノサウルス", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
     }, 
     "huangzuanshu": {
      "total_time": 1440, 
@@ -20308,6 +20403,25 @@
       "F_coin": 1
      }, 
      "level_need": 1
+    }, 
+    "bingdiaodaxiang": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "氷彫刻のゾウ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
     }, 
     "shenqijasmine": {
      "total_time": 2268, 
@@ -21797,6 +21911,25 @@
      "leaf_time": 418, 
      "level_need": 9
     }, 
+    "bingdiaomao": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "氷彫刻の黒猫", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 50, 
+     "seasons": 1, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 150
+     }, 
+     "level_need": 0
+    }, 
     "hongfushi": {
      "total_time": 1380, 
      "leaflet_time": 210, 
@@ -22541,6 +22674,12 @@
     "meihua", 
     "fengyeshu", 
     "chengzuanshu", 
+    "bingdiaotuzi", 
+    "bingdiaodaxiang", 
+    "bingdiaokonglong", 
+    "bingdiaohe", 
+    "bingdiaodalianmao", 
+    "bingdiaomao", 
     "yingtao", 
     "friednoodles", 
     "shuangjian", 
@@ -22660,6 +22799,7 @@
     "baxiguoqishu", 
     "lanshuijingpingguo", 
     "lanqiansuitang", 
+    "baochunhua", 
     "poyusan", 
     "youtong", 
     "putaoyaguoqishu", 
