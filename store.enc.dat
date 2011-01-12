@@ -11382,20 +11382,20 @@
     "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5 ", 
     "activity_type": "discount"
    }, 
-   "xinnianziniudan": {
+   "shenqijianlan": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "紫の新年カプセル", 
-    "start_time": 1293807540.0, 
+    "name": "魔法のグラジオラス", 
+    "start_time": 1294812000.0, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "11日12時間1分", 
-    "end_time": 1294801200.0, 
-    "goods_description": "3%の確率で紫色の夜空を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "limit_time": "9日", 
+    "end_time": 1295589600.0, 
+    "goods_description": "", 
     "price": {
-     "num": 1, 
+     "num": 28, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
@@ -11429,24 +11429,6 @@
     "modify": false, 
     "activity_type": "discount"
    }, 
-   "xinnianhongniudan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "赤の新年カプセル", 
-    "start_time": 1293807540.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "11日12時間1分", 
-    "end_time": 1294801200.0, 
-    "goods_description": "0.7%の確率で赤色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "niangaolihe": {
     "specific_type": "xin", 
     "product_type": {
@@ -11462,22 +11444,19 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "xinnianlanniudan": {
+   "shanxiao": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "ranch", 
+     "goods_type": "baby"
     }, 
-    "name": "青の新年カプセル", 
-    "start_time": 1293807540.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "11日12時間1分", 
-    "end_time": 1294801200.0, 
-    "goods_description": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "name": "マンドリル", 
     "price": {
-     "num": 1, 
+     "num": 18, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "limit_type": "limit_new", 
+    "goods_description": "", 
     "activity_type": "hot_sale"
    }, 
    "xinnianlvniudan": {
@@ -11494,6 +11473,21 @@
     "modify": true, 
     "goods_description": "90%の確率で緑色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日 ", 
     "activity_type": "discount"
+   }, 
+   "facaigui": {
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "招き亀", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_new", 
+    "goods_description": "", 
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
