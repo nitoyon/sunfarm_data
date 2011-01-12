@@ -677,7 +677,7 @@
    }, 
    "gaojizhongzibao": {
     "config": {
-     "used": false, 
+     "used": true, 
      "name": "高級種セット", 
      "price": {
       "F_coin": 25
@@ -1893,7 +1893,7 @@
    }, 
    "zhongjizhongzibao": {
     "config": {
-     "used": false, 
+     "used": true, 
      "name": "中級種セット", 
      "price": {
       "F_coin": 15
@@ -11516,19 +11516,34 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "xinnianhuangniudan": {
+   "zhongjizhongzibao": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "黄の新年カプセル", 
+    "name": "中級種セット", 
     "price": {
-     "num": 1, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日 ", 
+    "modify": false, 
+    "goods_description": "中には20-40レベルの種 小松菜の花、紫いも、黒ゴマ、ピターヤ、杏、ヒマワリ、ソラマメ、オギ、ヒシ、バナナが含まれています", 
+    "activity_type": "discount"
+   }, 
+   "gaojizhongzibao": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "高級種セット", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "中には50-60レベルの種　ブロッコリ、アブラナ、クワイ、ヘチマ、カリフラワー、ポトス、栗、チコリー、山椒、ごぼうが含まれています ", 
     "activity_type": "discount"
    }, 
    "hefutunv": {
@@ -11574,21 +11589,6 @@
     "limit_type": "limit_new", 
     "goods_description": "", 
     "activity_type": "hot_sale"
-   }, 
-   "xinnianlvniudan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "緑の新年カプセル", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "90%の確率で緑色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日 ", 
-    "activity_type": "discount"
    }, 
    "facaigui": {
     "product_type": {
