@@ -7345,6 +7345,7 @@
     "zuinv", 
     "meiguibaobao", 
     "BaxiGui", 
+    "facaigui", 
     "shengzhuangmilu", 
     "wushi", 
     "zhuanjiyindanji", 
@@ -7402,6 +7403,7 @@
     "yinghuochong", 
     "baitu", 
     "bailaohu", 
+    "shanxiao", 
     "jinsexiaomifeng", 
     "liumanggui", 
     "hefutunv", 
@@ -8844,6 +8846,27 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
+    "facaigui": {
+     "total_time": 1280, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "招き亀", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 340, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 340, 
+     "experience": 16, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 28, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
     "baitu": {
      "total_time": 1440, 
      "harvest_type": 3, 
@@ -9301,6 +9324,27 @@
      "sale_price": 15, 
      "increment_fruit": 25, 
      "level_need": 39, 
+     "fruit_quantifier": "個"
+    }, 
+    "shanxiao": {
+     "total_time": 860, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "マンドリル", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "adult_time": 340, 
+     "buy_price": {
+      "F_coin": 18
+     }, 
+     "seasons": 1, 
+     "young_time": 160, 
+     "experience": 8.2, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
     "waixingdujiaoshou": {
@@ -19727,6 +19771,37 @@
      }, 
      "level_need": 1
     }, 
+    "shenqijianlan": {
+     "total_time": 3000, 
+     "leaflet_time": 510, 
+     "magicseed": [
+      1, 
+      2, 
+      3, 
+      4, 
+      5, 
+      6, 
+      7, 
+      8, 
+      9
+     ], 
+     "name": "魔法のグラジオラス", 
+     "base_fruit": 25, 
+     "fruit_time": 1050, 
+     "sprout_time": 90, 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 750, 
+     "used": false, 
+     "experience": 8.6, 
+     "seasons": 1, 
+     "sale_price": 56, 
+     "seed_price": {
+      "F_coin": 28
+     }, 
+     "leaf_time": 600, 
+     "level_need": 1
+    }, 
     "lanmeixiangjiaochuan": {
      "total_time": 684, 
      "leaflet_time": 124, 
@@ -22960,6 +23035,7 @@
     "shuiyangqiehua", 
     "danbaidadou", 
     "jingzhiganlanyou", 
+    "shenqijianlan", 
     "hongtang", 
     "saibohua", 
     "dianshisong", 
