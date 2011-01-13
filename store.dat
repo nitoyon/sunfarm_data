@@ -23467,6 +23467,14 @@
       "time": 168
      }
     }, 
+    "cash_coupon": {
+     "one_thousand": {
+      "par_value": 1000, 
+      "used": false, 
+      "name": "\u30af\u30fc\u30dd\u30f3", 
+      "introduce": "\u4e00\u679a\u958b\u58be\u30af\u30fc\u30dd\u30f3\u306f\uff11\uff10\uff10\uff10\u30b3\u30a4\u30f3\u3068\u3057\u3066\u4f7f\u3048\u307e\u3059\uff01"
+     }
+    }, 
     "rate_rune": {
      "El": {
       "rate_raise": 50, 
@@ -24719,11 +24727,14 @@
      "common", 
      "shengjifeiliao"
     ], 
-    "pest": [
-     "ladybird"
+    "cash_coupon": [
+     "one_thousand"
     ], 
     "discount_card": [
      "seven_fold"
+    ], 
+    "pest": [
+     "ladybird"
     ]
    }
   }, 
