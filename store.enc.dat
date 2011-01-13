@@ -23467,6 +23467,14 @@
       "time": 168
      }
     }, 
+    "cash_coupon": {
+     "one_thousand": {
+      "par_value": 1000, 
+      "used": false, 
+      "name": "クーポン", 
+      "introduce": "一枚開墾クーポンは１０００コインとして使えます！"
+     }
+    }, 
     "rate_rune": {
      "El": {
       "rate_raise": 50, 
@@ -24719,11 +24727,14 @@
      "common", 
      "shengjifeiliao"
     ], 
-    "pest": [
-     "ladybird"
+    "cash_coupon": [
+     "one_thousand"
     ], 
     "discount_card": [
      "seven_fold"
+    ], 
+    "pest": [
+     "ladybird"
     ]
    }
   }, 
