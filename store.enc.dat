@@ -11464,58 +11464,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "tujiandongwubaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "アニマル宝箱", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "ついに動物の宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いアニマル？達がも入っています！すべてを発見して図鑑を完成しよう！ ", 
-    "activity_type": "discount"
-   }, 
-   "chaozhilibao": {
-    "original_price": {
-     "num": 1270, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "お買い得セット", 
-    "price": {
-     "num": 500, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5 ", 
-    "activity_type": "discount"
-   }, 
-   "shenqijianlan": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "魔法のグラジオラス", 
-    "start_time": 1294812000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "9日", 
-    "end_time": 1295589600.0, 
-    "goods_description": "", 
-    "price": {
-     "num": 28, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "zengshou1": {
     "original_price": {
      "num": 15, 
@@ -11536,19 +11484,41 @@
     "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "hefutunv": {
-    "specific_type": "xin", 
+   "shenqijianlan": {
     "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "和服うさぎ", 
+    "name": "魔法のグラジオラス", 
+    "start_time": 1294812000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "9日", 
+    "end_time": 1295589600.0, 
+    "goods_description": "", 
     "price": {
-     "num": 18, 
+     "num": 28, 
      "type": "F_coin"
     }, 
+    "activity_type": "hot_sale"
+   }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "カラフル氷", 
+    "start_time": 1294887600.0, 
     "modify": false, 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "12日4時間", 
+    "end_time": 1295938800.0, 
+    "goods_description": "氷彫刻の植物と高級肥料が入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "jisu1": {
     "original_price": {
@@ -11570,6 +11540,25 @@
     "goods_description": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }, 
+   "chaozhilibao": {
+    "original_price": {
+     "num": 1270, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "お買い得セット", 
+    "price": {
+     "num": 500, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5 ", 
+    "activity_type": "discount"
+   }, 
    "niangaolihe": {
     "specific_type": "xin", 
     "product_type": {
@@ -11586,6 +11575,7 @@
     "activity_type": "discount"
    }, 
    "shanxiao": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "ranch", 
      "goods_type": "baby"
@@ -11596,11 +11586,28 @@
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_new", 
-    "goods_description": "", 
+    "activity_type": "discount"
+   }, 
+   "hammer": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "パワーハンマー", 
+    "start_time": 1294887600.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "12日4時間", 
+    "end_time": 1295938800.0, 
+    "goods_description": "カラフル氷を開けることができます。", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
     "activity_type": "hot_sale"
    }, 
    "facaigui": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "ranch", 
      "goods_type": "baby"
@@ -11611,9 +11618,7 @@
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_new", 
-    "goods_description": "", 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }
   }, 
   "farm": {
