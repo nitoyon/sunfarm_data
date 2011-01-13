@@ -7574,6 +7574,7 @@
     "huolieniao", 
     "shanbei", 
     "guangxiMaDuck", 
+    "zheertu", 
     "taipingyangfei", 
     "putianDuck", 
     "sheep", 
@@ -10293,6 +10294,27 @@
      "sale_price": 5, 
      "increment_fruit": 25, 
      "level_need": 9, 
+     "fruit_quantifier": "個"
+    }, 
+    "zheertu": {
+     "total_time": 1280, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ミニロップ", 
+     "base_fruit": 25, 
+     "fruit_time": 800, 
+     "adult_time": 240, 
+     "buy_price": {
+      "gold": 103
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 3.3, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "level_need": 12, 
      "fruit_quantifier": "個"
     }, 
     "huangtu": {
