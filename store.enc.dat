@@ -7492,12 +7492,14 @@
     "waixingmaoguai", 
     "changjinglu", 
     "changbozi", 
+    "jinhuajiqiren", 
     "shudaixiong", 
     "waixingduyanguai", 
     "waixingdujiaoshou", 
     "jingang", 
     "shuidi", 
     "guinangua", 
+    "caijiaojiqiren", 
     "nirenji", 
     "chan", 
     "banma", 
@@ -8364,6 +8366,27 @@
      "level_need": 15, 
      "fruit_quantifier": "個"
     }, 
+    "jinhuajiqiren": {
+     "total_time": 600, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "グレートピーマンロボ", 
+     "base_fruit": 25, 
+     "fruit_time": 240, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 25
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 9.5, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 46, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
     "hepingge": {
      "total_time": 2460, 
      "sound": {
@@ -8522,24 +8545,23 @@
      "level_need": 40, 
      "fruit_quantifier": "個"
     }, 
-    "liumanggui": {
-     "total_time": 1680, 
-     "harvest_type": 3, 
+    "caijiaojiqiren": {
+     "total_time": 1080, 
+     "harvest_type": 0, 
      "used": false, 
-     "name": "不良タートル", 
+     "name": "ジャンボピーマンロボ", 
      "base_fruit": 25, 
-     "fruit_time": 720, 
-     "adult_time": 720, 
+     "fruit_time": 480, 
+     "adult_time": 360, 
      "buy_price": {
-      "F_coin": 20
+      "F_coin": 18
      }, 
-     "state": "xin", 
      "seasons": 1, 
      "young_time": 240, 
-     "experience": 8, 
+     "experience": 7.5, 
      "fruit_name": "", 
-     "is_auto_harvest": false, 
-     "sale_price": 80, 
+     "is_auto_harvest": true, 
+     "sale_price": 22, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -8811,6 +8833,28 @@
      "fruit_name": "", 
      "is_auto_harvest": true, 
      "sale_price": 10, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "liumanggui": {
+     "total_time": 1680, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "不良タートル", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
+     "buy_price": {
+      "F_coin": 20
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 8, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 80, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
