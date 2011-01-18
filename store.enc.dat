@@ -11551,40 +11551,19 @@
     "activity_type": "discount"
    }, 
    "shenqijianlan": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
     "name": "魔法のグラジオラス", 
-    "start_time": 1294812000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "9日", 
-    "end_time": 1295589600.0, 
-    "goods_description": "", 
     "price": {
      "num": 28, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
-   }, 
-   "crystal": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "カラフル氷", 
-    "start_time": 1294887600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "12日4時間", 
-    "end_time": 1295938800.0, 
-    "goods_description": "氷彫刻の植物と高級肥料が入っています。", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "残り時間：2日19時間", 
+    "activity_type": "discount"
    }, 
    "jisu1": {
     "original_price": {
@@ -11605,6 +11584,38 @@
     "modify": false, 
     "goods_description": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
+   }, 
+   "facaigui": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "招き亀", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "activity_type": "discount"
+   }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "カラフル氷", 
+    "start_time": 1294887600.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "12日4時間", 
+    "end_time": 1295938800.0, 
+    "goods_description": "氷彫刻の植物と高級肥料が入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "chaozhilibao": {
     "original_price": {
@@ -11640,20 +11651,6 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "shanxiao": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "マンドリル", 
-    "price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "activity_type": "discount"
-   }, 
    "hammer": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -11672,19 +11669,24 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "facaigui": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+   "caijiao": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
     }, 
-    "name": "招き亀", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "カラフルなピーマン", 
     "price": {
-     "num": 30, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "activity_type": "discount"
+    "limit_type": "limit_new", 
+    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -12109,7 +12111,7 @@
     "caijiao": {
      "total_time": 805, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "カラフルなピーマン", 
      "base_fruit": 25, 
      "fruit_time": 330, 
