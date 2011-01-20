@@ -7195,6 +7195,43 @@
      }
     }
    }, 
+   "lianxudenglu": {
+    "config": {
+     "price": {
+      "F_coin": 9999
+     }, 
+     "used": false, 
+     "goods_str": "連続ログインした人だけ入手できる宝箱、何が入っているのかは開けてからのお楽しみ！", 
+     "name": "チャンスの宝箱", 
+     "introduce": "連続ログインした人だけ入手できる宝箱、何が入っているのかは開けてからのお楽しみ！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        0.7
+       ], 
+       "hulu": [
+        1, 
+        0.2
+       ], 
+       "longshelan": [
+        1, 
+        0.4
+       ], 
+       "liulian": [
+        1, 
+        0.5
+       ], 
+       "lingzhi": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
    "xianhuabaoxiang": {
     "config": {
      "price": {
@@ -25335,6 +25372,7 @@
    "hongniudan", 
    "shengdanlvniudan", 
    "test_bag", 
+   "lianxudenglu", 
    "xinnianlanniudan", 
    "shengdanhongniudan"
   ]
