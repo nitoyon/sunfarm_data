@@ -24093,24 +24093,49 @@
       "introduce": "使うと作物の成熟時間を2時間短縮できます。マイミクに盗まれる前に収穫しちゃいましょう。", 
       "effect": 2
      }, 
-     "zengshou7": {
+     "zengshou3": {
       "crops_level": [
-       1, 
-       9
+       36, 
+       60
       ], 
       "used": false, 
-      "name": "合成肥料(低)", 
-      "max_level": 10, 
+      "name": "高級増産肥料", 
+      "max_level": 61, 
       "price": {
-       "F_coin": 999
+       "F_coin": 18
       }, 
       "effect": 0, 
-      "introduce": "合成肥料(低)はレベル1 - 9の作物の増産量を10%アップします（花には使えません）。同じ作物に2回まで使えます。殺虫や水遣りをして増産量を200%までアップできます。多期作の場合、次の収穫は普通に戻ります。", 
+      "introduce": "高級増産肥料はレベル36から60までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
       "use_area": [
        "friuit"
       ], 
-      "increment_percent": 0.1, 
+      "state": "re", 
+      "increment_percent": 0.5, 
       "increment_percent_max": 1
+     }, 
+     "magiccardless": {
+      "used": false, 
+      "name": "マジック増産カード", 
+      "price": {
+       "F_coin": 3
+      }, 
+      "introduce": "成熟した（ひまわりんとトマト）の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+      "magic_card": true, 
+      "include": [
+       "nirenxiangrikui", 
+       "tomato"
+      ], 
+      "magic_card_percent": 0.5
+     }, 
+     "xunjie1": {
+      "used": true, 
+      "name": "ミニマジック肥料", 
+      "price": {
+       "F_coin": 1
+      }, 
+      "effect": 0.25, 
+      "introduce": "使うと作物の成熟時間を15分短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
+      "state": "re"
      }, 
      "zengshou8": {
       "crops_level": [
@@ -24150,15 +24175,24 @@
       "increment_percent": 0.2, 
       "increment_percent_max": 1
      }, 
-     "xunjie1": {
-      "used": true, 
-      "name": "ミニマジック肥料", 
+     "zengshou7": {
+      "crops_level": [
+       1, 
+       9
+      ], 
+      "used": false, 
+      "name": "合成肥料(低)", 
+      "max_level": 10, 
       "price": {
-       "F_coin": 1
+       "F_coin": 999
       }, 
-      "effect": 0.25, 
-      "introduce": "使うと作物の成熟時間を15分短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
-      "state": "re"
+      "effect": 0, 
+      "introduce": "合成肥料(低)はレベル1 - 9の作物の増産量を10%アップします（花には使えません）。同じ作物に2回まで使えます。殺虫や水遣りをして増産量を200%までアップできます。多期作の場合、次の収穫は普通に戻ります。", 
+      "use_area": [
+       "friuit"
+      ], 
+      "increment_percent": 0.1, 
+      "increment_percent_max": 1
      }, 
      "gailiangji": {
       "price": {
@@ -24185,6 +24219,26 @@
       "name": "ステキな肥料", 
       "introduce": "使うと作物の成熟時間を5時間短縮できます。マイミクに盗まれる前に収穫しちゃいましょう。", 
       "effect": 5
+     }, 
+     "zengshou": {
+      "crops_level": [
+       1, 
+       9
+      ], 
+      "used": true, 
+      "name": "増産肥料", 
+      "max_level": 10, 
+      "price": {
+       "F_coin": 8
+      }, 
+      "effect": 0, 
+      "introduce": "増産肥料はレベル1から9までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
+      "use_area": [
+       "friuit"
+      ], 
+      "state": "re", 
+      "increment_percent": 0.5, 
+      "increment_percent_max": 1
      }, 
      "jisu": {
       "price": {
@@ -24221,25 +24275,15 @@
       "introduce": "使用すると、作物の成長を一段階UPできます。", 
       "effect": 98
      }, 
-     "zengshou": {
-      "crops_level": [
-       1, 
-       9
-      ], 
-      "used": true, 
-      "name": "増産肥料", 
-      "max_level": 10, 
+     "magiccardmost": {
+      "used": false, 
+      "name": "ミラクル増産カード", 
       "price": {
-       "F_coin": 8
+       "F_coin": 12
       }, 
-      "effect": 0, 
-      "introduce": "増産肥料はレベル1から9までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-      "use_area": [
-       "friuit"
-      ], 
-      "state": "re", 
-      "increment_percent": 0.5, 
-      "increment_percent_max": 1
+      "introduce": "（ひまわりんとトマト）以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+      "magic_card": true, 
+      "magic_card_percent": 0.5
      }, 
      "jiyin": {
       "crops_level": [
@@ -25181,9 +25225,12 @@
      "xunjie1", 
      "zengshou1", 
      "zengshou", 
+     "zengshou3", 
      "gaoji", 
      "test", 
      "tianran", 
+     "magiccardless", 
+     "magiccardmost", 
      "jisu", 
      "gaosu", 
      "zengshou8", 
