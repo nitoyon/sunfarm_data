@@ -11567,25 +11567,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "chaozhilibao": {
-    "original_price": {
-     "num": 1270, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "お買い得セット", 
-    "price": {
-     "num": 500, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5 ", 
-    "activity_type": "discount"
-   }, 
    "zengshou3": {
     "specific_type": "xin", 
     "product_type": {
@@ -11617,6 +11598,25 @@
     "goods_description": "残り時間：１日", 
     "activity_type": "discount"
    }, 
+   "magiccardless": {
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック増産カード", 
+    "start_time": 1295578800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日5時間", 
+    "end_time": 1295942400.0, 
+    "goods_description": "成熟した（ピタヤとじゃがいも）の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "jisu1": {
     "original_price": {
      "num": 12, 
@@ -11637,37 +11637,20 @@
     "goods_description": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }, 
-   "facaigui": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "招き亀", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "activity_type": "discount"
-   }, 
    "crystal": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "カラフル氷", 
-    "start_time": 1294887600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "12日4時間", 
-    "end_time": 1295938800.0, 
-    "goods_description": "氷彫刻の植物と高級肥料が入っています。", 
     "price": {
      "num": 100, 
      "type": "gold"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "氷彫刻の植物と高級肥料が入っています。残り時間：4日", 
+    "activity_type": "discount"
    }, 
    "niangaolihe": {
     "specific_type": "xin", 
@@ -11682,6 +11665,22 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
+   "magiccardmost": {
+    "specific_type": "xin", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "ミラクル増産カード", 
+    "price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "（ピタヤとじゃがいも）以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
    "hammer": {
