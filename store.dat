@@ -11583,21 +11583,6 @@
     "goods_description": "\u9ad8\u7d1a\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb36\u304b\u308960\u307e\u3067\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
-   "shenqijianlan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u9b54\u6cd5\u306e\u30b0\u30e9\u30b8\u30aa\u30e9\u30b9", 
-    "price": {
-     "num": 28, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "\u6b8b\u308a\u6642\u9593\uff1a\uff11\u65e5", 
-    "activity_type": "discount"
-   }, 
    "magiccardless": {
     "product_type": {
      "goods_type": "property", 
@@ -11650,6 +11635,22 @@
     }, 
     "modify": true, 
     "goods_description": "\u6c37\u5f6b\u523b\u306e\u690d\u7269\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002\u6b8b\u308a\u6642\u9593\uff1a4\u65e5", 
+    "activity_type": "discount"
+   }, 
+   "gaoji": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "\u9ad8\u7d1a\u80a5\u6599", 
+    "price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "\u4f7f\u3046\u3068\u4f5c\u7269\u306e\u6210\u719f\u6642\u9593\u30925.5\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002\u80a5\u6599\u306e\u52b9\u679c\u306f\u6b21\u306e\u6bb5\u968e\u3078\u6301\u3061\u8d8a\u3059\u3053\u3068\u306f\u3067\u304d\u307e\u305b\u3093\u3002", 
     "activity_type": "discount"
    }, 
    "niangaolihe": {
@@ -20338,7 +20339,7 @@
      "introduce": "\u6b8b\u308a\u6642\u9593\uff1a\u4e00\u65e5", 
      "increment_fruit": 25, 
      "bloom_time": 750, 
-     "used": true, 
+     "used": false, 
      "experience": 8.6, 
      "seasons": 1, 
      "sale_price": 56, 
