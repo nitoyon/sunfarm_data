@@ -11583,21 +11583,6 @@
     "goods_description": "高級増産肥料はレベル36から60までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "shenqijianlan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "魔法のグラジオラス", 
-    "price": {
-     "num": 28, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "残り時間：１日", 
-    "activity_type": "discount"
-   }, 
    "magiccardless": {
     "product_type": {
      "goods_type": "property", 
@@ -11650,6 +11635,22 @@
     }, 
     "modify": true, 
     "goods_description": "氷彫刻の植物と高級肥料が入っています。残り時間：4日", 
+    "activity_type": "discount"
+   }, 
+   "gaoji": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "高級肥料", 
+    "price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }, 
    "niangaolihe": {
@@ -20338,7 +20339,7 @@
      "introduce": "残り時間：一日", 
      "increment_fruit": 25, 
      "bloom_time": 750, 
-     "used": true, 
+     "used": false, 
      "experience": 8.6, 
      "seasons": 1, 
      "sale_price": 56, 
