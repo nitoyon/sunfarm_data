@@ -3950,6 +3950,75 @@
      }
     }
    }, 
+   "tunianniudanhuang": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "イエロー兎のカプセル", 
+     "introduce": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqijianlan": [
+        1, 
+        0.03
+       ], 
+       "niudantujianer_huang": [
+        1, 
+        0.5
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "nirenxianrenzhang": [
+        1, 
+        0.04
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         1, 
+         1.0
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "qingrenyushou3": {
     "config": {
      "price": {
@@ -4067,6 +4136,103 @@
        "huolongguoxin": [
         5, 
         1
+       ]
+      }
+     }
+    }
+   }, 
+   "tunianniudanlan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "10%の確率でブルーうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "ブルー兎のカプセル", 
+     "introduce": "10%の確率でブルーうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        0.05
+       ], 
+       "shenqijianlan": [
+        1, 
+        0.01
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "niudantujianer_lan": [
+        1, 
+        0.1
+       ], 
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "nanmogu": [
+        1, 
+        0.02
+       ], 
+       "lanshuijingpingguo": [
+        1, 
+        0.03
+       ], 
+       "chabei": [
+        1, 
+        0.03
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.01
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "shuijingputao": [
+        1, 
+        0.05
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "shanxiao": [
+        1, 
+        0.05
+       ], 
+       "xiongmaotu": [
+        1, 
+        0.1
        ]
       }
      }
@@ -4383,64 +4549,35 @@
      }
     }
    }, 
-   "mb_6": {
+   "tunianniudanlv": {
     "config": {
-     "goods_str": "使用绿宝石可获得高速饲料20个，急速饲料5个，急速化肥5个,牡丹,马蹄莲,天堂鸟，小麻鸭,莆田黑鸭", 
-     "name": "エメラルド", 
      "price": {
-      "F_coin": 95
+      "F_coin": 1
      }, 
-     "introduce": "使用绿宝石可获得高速饲料20个，急速饲料5个，急速化肥5个,牡丹,马蹄莲,天堂鸟，小麻鸭,莆田黑鸭", 
-     "state": "xin", 
-     "used": false
+     "used": false, 
+     "goods_str": "90%の確率でグリーンうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "グリーン兎のカプセル", 
+     "introduce": "90%の確率でグリーンうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "ma_ti_lian": [
+       "niudantujianer_lv": [
         1, 
-        1.0
-       ], 
-       "paradiseflower": [
-        1, 
-        1.0
-       ], 
-       "peony": [
-        1, 
-        1.0
+        0.95
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "jisu": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         5, 
-         1.0
-        ], 
         "gaosu": [
-         20, 
+         1, 
+         0.15
+        ], 
+        "xunjie1": [
+         1, 
          1.0
         ]
        }
-      }, 
-      "babies": {
-       "guangxiMaDuck": [
-        2, 
-        1.0
-       ], 
-       "putianDuck": [
-        2, 
-        1.0
-       ]
       }
      }
     }
@@ -4725,6 +4862,103 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "tunianniudanfen": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "3%の確率でピンクうさツリーを獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "ピンク兎のカプセル", 
+     "introduce": "3%の確率でピンクうさツリーを獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "niudantujianer_fen": [
+        1, 
+        0.03
+       ], 
+       "zishuijingpingguo": [
+        1, 
+        0.01
+       ], 
+       "shenqinigerseed": [
+        1, 
+        0.03
+       ], 
+       "qinglvmogu": [
+        1, 
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.03
+       ], 
+       "qiansuitang": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinsewoniu": [
+        1, 
+        0.08
+       ], 
+       "baitu": [
+        1, 
+        0.05
+       ]
       }
      }
     }
@@ -5815,6 +6049,68 @@
      }
     }
    }, 
+   "mb_6": {
+    "config": {
+     "goods_str": "使用绿宝石可获得高速饲料20个，急速饲料5个，急速化肥5个,牡丹,马蹄莲,天堂鸟，小麻鸭,莆田黑鸭", 
+     "name": "エメラルド", 
+     "price": {
+      "F_coin": 95
+     }, 
+     "introduce": "使用绿宝石可获得高速饲料20个，急速饲料5个，急速化肥5个,牡丹,马蹄莲,天堂鸟，小麻鸭,莆田黑鸭", 
+     "state": "xin", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "ma_ti_lian": [
+        1, 
+        1.0
+       ], 
+       "paradiseflower": [
+        1, 
+        1.0
+       ], 
+       "peony": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "gaosu": [
+         20, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "guangxiMaDuck": [
+        2, 
+        1.0
+       ], 
+       "putianDuck": [
+        2, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "hongshuijing": {
     "config": {
      "goods_str": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开.", 
@@ -5859,6 +6155,115 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "tunianniudanhong": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "0.7%の確率でレッドうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "レッド兎のカプセル", 
+     "introduce": "0.7%の確率でレッドうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "shenqijianlan": [
+        1, 
+        0.02
+       ], 
+       "yingtao": [
+        1, 
+        0.1
+       ], 
+       "taigu": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.02
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.03
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "carnation": [
+        1, 
+        0.02
+       ], 
+       "youli": [
+        1, 
+        0.05
+       ], 
+       "nirenboluo": [
+        1, 
+        0.04
+       ], 
+       "niudantujianer_hong": [
+        1, 
+        0.005
+       ], 
+       "jianfeishu": [
+        1, 
+        0.02
+       ], 
+       "binglinghua": [
+        1, 
+        0.04
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "xiongmaotu": [
+        1, 
+        0.03
+       ], 
+       "cangshu": [
+        1, 
+        0.03
+       ], 
+       "wushi": [
+        1, 
+        0.03
+       ]
       }
      }
     }
@@ -25661,11 +26066,11 @@
   "mystic_bags_sort": [
    "mb_10", 
    "love_stone", 
-   "mb_6", 
    "mb_7", 
    "crystal", 
    "mb_8", 
    "chengshuijing", 
+   "mb_6", 
    "hongshuijing", 
    "zong_zi", 
    "hammer", 
@@ -25674,14 +26079,18 @@
    "tujiandongwubaoxiang", 
    "shengdanziniudan", 
    "qingrenyushou1", 
+   "cangbaotu2", 
    "qingrenyushou3", 
    "cangbaotu3", 
    "lvdan", 
    "huolongguolibao", 
+   "tunianniudanlan", 
    "bingdiaoshulanlibao", 
    "cangbaotu1", 
    "shengdanhuangniudan", 
+   "tunianniudanlv", 
    "ziseniudan", 
+   "tunianniudanfen", 
    "huiguilibao", 
    "dangaoquan", 
    "xinnianlvniudan", 
@@ -25702,6 +26111,7 @@
    "fudai2", 
    "fudai1", 
    "hongseniudan", 
+   "tunianniudanhong", 
    "xinnianhongniudan", 
    "xianhuabaoxiang", 
    "tudoulibao", 
@@ -25713,7 +26123,7 @@
    "huangniudan", 
    "hushenfu", 
    "cangbaotu4", 
-   "cangbaotu2", 
+   "tunianniudanhuang", 
    "xinnianhuangniudan", 
    "shenqibaotu", 
    "zidan", 
