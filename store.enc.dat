@@ -501,7 +501,7 @@
      "used": true, 
      "name": "お買い得セット", 
      "price": {
-      "F_coin": 1270
+      "F_coin": 700
      }, 
      "introduce": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
      "state": "re", 
@@ -7552,7 +7552,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
      "name": "オウム宝箱", 
      "introduce": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！"
@@ -12151,6 +12151,43 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "tujiandongwubaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "アニマル宝箱", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "ついに動物の宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いアニマル？達がも入っています！すべてを発見して図鑑を完成しよう！", 
+    "activity_type": "discount"
+   }, 
+   "chaozhilibao": {
+    "original_price": {
+     "num": 1270, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "お買い得セット", 
+    "price": {
+     "num": 700, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日21時間", 
+    "end_time": 1296460800.0, 
+    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
+    "start_time": 1295953200.0, 
+    "activity_type": "hot_sale"
+   }, 
    "zengshou3": {
     "specific_type": "xin", 
     "product_type": {
@@ -12206,21 +12243,6 @@
     "goods_description": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }, 
-   "crystal": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "カラフル氷", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "modify": true, 
-    "goods_description": "氷彫刻の植物と高級肥料が入っています。残り時間：4日", 
-    "activity_type": "discount"
-   }, 
    "gaoji": {
     "specific_type": "re", 
     "product_type": {
@@ -12252,39 +12274,20 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "magiccardmost": {
-    "specific_type": "xin", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "ミラクル増産カード", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "（ピタヤとじゃがいも）以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
-    "activity_type": "discount"
-   }, 
-   "hammer": {
+   "guohuatujian": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "パワーハンマー", 
-    "start_time": 1294887600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "12日4時間", 
-    "end_time": 1295938800.0, 
-    "goods_description": "カラフル氷を開けることができます。", 
+    "name": "国花の宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
+    "activity_type": "discount"
    }, 
    "caijiao": {
     "original_price": {
