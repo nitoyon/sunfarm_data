@@ -7547,6 +7547,61 @@
      }
     }
    }, 
+   "yingwubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 15
+     }, 
+     "used": false, 
+     "goods_str": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
+     "name": "オウム宝箱", 
+     "introduce": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！"
+    }, 
+    "data": {
+     "farm": {
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "jiweiyingwu": [
+        1, 
+        0.6
+       ], 
+       "huitouqinglvyingwu": [
+        1, 
+        0.2
+       ], 
+       "miqieshifengtouyingwu": [
+        1, 
+        0.4
+       ], 
+       "baifengtouyingwu": [
+        1, 
+        0.3
+       ], 
+       "diwenhongchiyingwu": [
+        1, 
+        0.08
+       ]
+      }
+     }
+    }
+   }, 
    "hongseniudan": {
     "config": {
      "price": {
@@ -7921,19 +7976,23 @@
     "tianxiezuo", 
     "shizizuo", 
     "tianpingzuo", 
+    "shenhongmeiguiyingwu", 
     "keaiciwei", 
     "jingangyingwu", 
     "tuolu", 
     "huolieniaoxin", 
+    "jiweiyingwu", 
     "xingxing", 
     "pangxie", 
     "nantanglang", 
     "nvtanglang", 
+    "huitouqinglvyingwu", 
     "daishu", 
     "waixingrenshuren", 
     "waixingmaoguai", 
     "changjinglu", 
     "changbozi", 
+    "miqieshifengtouyingwu", 
     "jinhuajiqiren", 
     "shudaixiong", 
     "waixingduyanguai", 
@@ -7946,11 +8005,13 @@
     "chan", 
     "banma", 
     "daxiang", 
+    "baifengtouyingwu", 
     "changjinglong", 
     "huanxiong", 
     "dakonglong", 
     "hezuozhu", 
     "baoyashu", 
+    "diwenhongchiyingwu", 
     "hepingge", 
     "cangshu", 
     "ciwei", 
@@ -9929,6 +9990,26 @@
      "level_need": 39, 
      "fruit_quantifier": "個"
     }, 
+    "jiweiyingwu": {
+     "total_time": 720, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "オカメインコ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 15
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "experience": 5.8, 
+     "young_time": 120, 
+     "is_auto_harvest": true, 
+     "sale_price": 60, 
+     "increment_fruit": 25, 
+     "level_need": 1
+    }, 
     "shanxiao": {
      "total_time": 860, 
      "harvest_type": 0, 
@@ -10121,6 +10202,26 @@
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
+    }, 
+    "huitouqinglvyingwu": {
+     "total_time": 1560, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "カルカヤインコ", 
+     "base_fruit": 25, 
+     "fruit_time": 660, 
+     "adult_time": 600, 
+     "buy_price": {
+      "F_coin": 35
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "experience": 15, 
+     "young_time": 300, 
+     "is_auto_harvest": true, 
+     "sale_price": 120, 
+     "increment_fruit": 25, 
+     "level_need": 1
     }, 
     "mmkaola": {
      "total_time": 1260, 
@@ -10803,26 +10904,25 @@
      "level_need": 12, 
      "fruit_quantifier": "個"
     }, 
-    "huangtu": {
-     "total_time": 2160, 
-     "harvest_type": 3, 
+    "baifengtouyingwu": {
+     "total_time": 1680, 
+     "harvest_type": 0, 
      "used": false, 
-     "name": "イエローうさぎ", 
+     "name": "タイハクオウムタ", 
      "base_fruit": 25, 
-     "fruit_time": 1080, 
-     "adult_time": 540, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
      "buy_price": {
-      "gold": 1
+      "F_coin": 25
      }, 
+     "state": "xin", 
      "seasons": 1, 
-     "young_time": 540, 
-     "experience": 5.58, 
-     "fruit_name": "", 
-     "is_auto_harvest": false, 
-     "sale_price": 12, 
+     "experience": 9.8, 
+     "young_time": 240, 
+     "is_auto_harvest": true, 
+     "sale_price": 100, 
      "increment_fruit": 25, 
-     "level_need": 1, 
-     "fruit_quantifier": "個"
+     "level_need": 1
     }, 
     "qilin": {
      "total_time": 540, 
@@ -11229,6 +11329,25 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
+    "diwenhongchiyingwu": {
+     "total_time": 1680, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ハゴロモインコ", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
+     "buy_price": {
+      "F_coin": 50
+     }, 
+     "seasons": 1, 
+     "experience": 20, 
+     "young_time": 240, 
+     "is_auto_harvest": true, 
+     "sale_price": 200, 
+     "increment_fruit": 25, 
+     "level_need": 1
+    }, 
     "guinangua": {
      "total_time": 900, 
      "harvest_type": 0, 
@@ -11411,6 +11530,26 @@
      "increment_fruit": 25, 
      "level_need": 32, 
      "fruit_quantifier": "バレル"
+    }, 
+    "miqieshifengtouyingwu": {
+     "total_time": 1680, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "クルマサカオウム", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
+     "buy_price": {
+      "F_coin": 20
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "experience": 8, 
+     "young_time": 240, 
+     "is_auto_harvest": true, 
+     "sale_price": 80, 
+     "increment_fruit": 25, 
+     "level_need": 1
     }, 
     "goat": {
      "total_time": 1279, 
@@ -11740,6 +11879,25 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
+    "shenhongmeiguiyingwu": {
+     "total_time": 1680, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "アカクサインコ", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
+     "buy_price": {
+      "F_coin": 50
+     }, 
+     "seasons": 1, 
+     "experience": 25, 
+     "young_time": 240, 
+     "is_auto_harvest": true, 
+     "sale_price": 220, 
+     "increment_fruit": 25, 
+     "level_need": 1
+    }, 
     "waixingmaoguai": {
      "total_time": 360, 
      "harvest_type": 0, 
@@ -11910,6 +12068,27 @@
      "sale_price": 2, 
      "increment_fruit": 25, 
      "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "huangtu": {
+     "total_time": 2160, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "イエローうさぎ", 
+     "base_fruit": 25, 
+     "fruit_time": 1080, 
+     "adult_time": 540, 
+     "buy_price": {
+      "gold": 1
+     }, 
+     "seasons": 1, 
+     "young_time": 540, 
+     "experience": 5.58, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
      "fruit_quantifier": "個"
     }
    }
@@ -26134,6 +26313,7 @@
    "zidan", 
    "hongniudan", 
    "shengdanlvniudan", 
+   "yingwubaoxiang", 
    "test_bag", 
    "lianxudenglu", 
    "xinnianlanniudan", 
