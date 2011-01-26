@@ -5265,61 +5265,75 @@
      "goods_str": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。"
     }
    }, 
-   "lanseniudan": {
+   "zong_zi": {
     "config": {
+     "goods_str": "打开粽子固定可得5个急速化肥和一朵风信子，还有几率获得各种珍稀作物花卉和动物宝宝，能开出什么看人品哦", 
+     "name": "スーパー手巻き寿司", 
+     "lock": false, 
      "price": {
-      "F_coin": 1
+      "F_coin": 25
      }, 
+     "state": "xin", 
      "used": false, 
-     "goods_str": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "青カプセル", 
-     "introduce": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "key": "mb_6_key"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "heimeigui": [
+       "hyacinth": [
         1, 
-        0.03
+        1.0
        ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "shenqijasmine": [
+       "man_tuo_luo": [
         1, 
         0.02
        ], 
-       "jiariyecan": [
+       "hong_zao": [
         1, 
-        0.01
+        0.15
        ], 
-       "nvmogu": [
+       "huo_long_guo": [
         1, 
-        0.02
+        0.04
        ], 
-       "lanzuanshu": [
+       "ginseng": [
+        1, 
+        0.04
+       ], 
+       "gan_zhe": [
         1, 
         0.1
        ], 
-       "zhangyufengzheng": [
+       "paradiseflower": [
         1, 
-        0.01
+        0.03
+       ], 
+       "nigerseed": [
+        1, 
+        0.04
+       ], 
+       "ma_ti_lian": [
+        1, 
+        0.05
+       ], 
+       "sweetviolet": [
+        1, 
+        0.03
+       ], 
+       "chinesecrabapple": [
+        1, 
+        0.06
        ]
       }, 
       "properties": {
        "fertilizer": {
         "jisu": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
+         5, 
          1.0
+        ], 
+        "gaosu": [
+         5, 
+         0.05
         ]
        }
       }
@@ -5327,20 +5341,24 @@
      "ranch": {
       "properties": {
        "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
+        "common": [
+         2, 
+         1.0
+        ], 
+        "gaosu": [
+         5, 
+         0.05
         ]
        }
       }, 
       "babies": {
-       "chengseqingwa": [
+       "guangxiMaDuck": [
         1, 
-        0.1
+        0.06
        ], 
-       "taohuamao": [
+       "langshanChook": [
         1, 
-        0.05
+        0.06
        ]
       }
      }
@@ -6972,101 +6990,47 @@
      }
     }
    }, 
-   "zong_zi": {
+   "zhiwubaoxiang": {
     "config": {
-     "goods_str": "打开粽子固定可得5个急速化肥和一朵风信子，还有几率获得各种珍稀作物花卉和动物宝宝，能开出什么看人品哦", 
-     "name": "スーパー手巻き寿司", 
-     "lock": false, 
      "price": {
-      "F_coin": 25
+      "F_coin": 10
      }, 
-     "state": "xin", 
      "used": false, 
-     "key": "mb_6_key"
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "2月の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "hyacinth": [
+       "meirenjiao": [
+        1, 
+        0.08
+       ], 
+       "yipinhong": [
+        1, 
+        0.3
+       ], 
+       "guayeju": [
+        1, 
+        0.4
+       ], 
+       "shanchahua": [
         1, 
         1.0
        ], 
-       "man_tuo_luo": [
+       "lamei": [
         1, 
-        0.02
-       ], 
-       "hong_zao": [
-        1, 
-        0.15
-       ], 
-       "huo_long_guo": [
-        1, 
-        0.04
-       ], 
-       "ginseng": [
-        1, 
-        0.04
-       ], 
-       "gan_zhe": [
-        1, 
-        0.1
-       ], 
-       "paradiseflower": [
-        1, 
-        0.03
-       ], 
-       "nigerseed": [
-        1, 
-        0.04
-       ], 
-       "ma_ti_lian": [
-        1, 
-        0.05
-       ], 
-       "sweetviolet": [
-        1, 
-        0.03
-       ], 
-       "chinesecrabapple": [
-        1, 
-        0.06
+        0.2
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "jisu": [
+        "xunjie": [
          5, 
          1.0
-        ], 
-        "gaosu": [
-         5, 
-         0.05
         ]
        }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "common": [
-         2, 
-         1.0
-        ], 
-        "gaosu": [
-         5, 
-         0.05
-        ]
-       }
-      }, 
-      "babies": {
-       "guangxiMaDuck": [
-        1, 
-        0.06
-       ], 
-       "langshanChook": [
-        1, 
-        0.06
-       ]
       }
      }
     }
@@ -7597,6 +7561,87 @@
        "diwenhongchiyingwu": [
         1, 
         0.08
+       ]
+      }
+     }
+    }
+   }, 
+   "lanseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "青カプセル", 
+     "introduce": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "lanzuanshu": [
+        1, 
+        0.1
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
        ]
       }
      }
@@ -13535,6 +13580,25 @@
      }, 
      "level_need": 1
     }, 
+    "sanduohua": {
+     "total_time": 1920, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ぷっくりフラワー", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "sprout_time": 330, 
+     "bloom_time": 420, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 21, 
+     "increment_fruit": 25, 
+     "leaf_time": 420, 
+     "seed_price": {
+      "F_coin": 38
+     }, 
+     "level_need": 1
+    }, 
     "caijiaozhanshizise": {
      "total_time": 1220, 
      "leaflet_time": 120, 
@@ -13728,6 +13792,25 @@
      }, 
      "leaf_time": 145, 
      "level_need": 53
+    }, 
+    "dongguashuaige": {
+     "total_time": 720, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "とうがん兄さん", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 145, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 145, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "level_need": 1
     }, 
     "longan": {
      "total_time": 3294, 
@@ -15109,26 +15192,27 @@
      }, 
      "level_need": 5
     }, 
-    "chuju": {
-     "total_time": 1920, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "ヒナギク", 
+    "tulip": {
+     "total_time": 1620, 
+     "leaflet_time": 243, 
+     "used": true, 
+     "name": "チューリップ", 
      "base_fruit": 25, 
-     "fruit_time": 420, 
+     "fruit_time": 486, 
      "goodstype": "flower", 
-     "sprout_time": 330, 
-     "introduce": "イタリアの国花", 
+     "sprout_time": 324, 
+     "recipe": "レシピに使えます：\nファンタスティックな旅", 
+     "introduce": "花言葉：愛の告白。", 
      "increment_fruit": 25, 
-     "bloom_time": 420, 
-     "experience": 15, 
+     "bloom_time": 324, 
+     "experience": 5.18, 
      "seasons": 1, 
-     "sale_price": 21, 
+     "sale_price": 35, 
      "seed_price": {
-      "F_coin": 38
+      "F_coin": 12
      }, 
-     "leaf_time": 420, 
-     "level_need": 53
+     "leaf_time": 243, 
+     "level_need": 0
     }, 
     "mango": {
      "total_time": 1646, 
@@ -17304,28 +17388,6 @@
       "F_coin": 1
      }, 
      "level_need": 1
-    }, 
-    "tulip": {
-     "total_time": 1620, 
-     "leaflet_time": 243, 
-     "used": true, 
-     "name": "チューリップ", 
-     "base_fruit": 25, 
-     "fruit_time": 486, 
-     "goodstype": "flower", 
-     "sprout_time": 324, 
-     "recipe": "レシピに使えます：\nファンタスティックな旅", 
-     "introduce": "花言葉：愛の告白。", 
-     "increment_fruit": 25, 
-     "bloom_time": 324, 
-     "experience": 5.18, 
-     "seasons": 1, 
-     "sale_price": 35, 
-     "seed_price": {
-      "F_coin": 12
-     }, 
-     "leaf_time": 243, 
-     "level_need": 0
     }, 
     "wutongshu": {
      "total_time": 1970, 
@@ -21194,6 +21256,25 @@
      }, 
      "level_need": 1
     }, 
+    "renshenyeye": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ホウライ人参", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "shenqijianlan": {
      "total_time": 3000, 
      "leaflet_time": 510, 
@@ -21668,6 +21749,25 @@
      }, 
      "leaf_time": 150, 
      "level_need": 0
+    }, 
+    "sansemogu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "にっこり茸", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
     }, 
     "chaguozi": {
      "total_time": 2305, 
@@ -23188,6 +23288,27 @@
      }, 
      "level_need": 12
     }, 
+    "chuju": {
+     "total_time": 1920, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ヒナギク", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "goodstype": "flower", 
+     "sprout_time": 330, 
+     "introduce": "イタリアの国花", 
+     "increment_fruit": 25, 
+     "bloom_time": 420, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 21, 
+     "seed_price": {
+      "F_coin": 38
+     }, 
+     "leaf_time": 420, 
+     "level_need": 53
+    }, 
     "nirentaigu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -23999,6 +24120,25 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
+    "niuyouyumi": {
+     "total_time": 720, 
+     "leaflet_time": 80, 
+     "used": false, 
+     "name": "もろこしさん", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 20, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 140, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "shuijingqiu": {
      "total_time": 750, 
      "leaflet_time": 150, 
@@ -24479,12 +24619,16 @@
     "xinnianbiandang", 
     "nvergao", 
     "zongzi", 
+    "dongguashuaige", 
     "tongluoshao", 
+    "sansemogu", 
     "meirenjiao", 
     "ziqiansuitang", 
+    "sanduohua", 
     "weixiaonangua", 
     "zhaocai", 
     "huangqiansuitang", 
+    "niuyouyumi", 
     "lvqiansuitang", 
     "zhutai", 
     "wutongshu", 
@@ -24545,6 +24689,7 @@
     "lanshuijingpingguo", 
     "lanqiansuitang", 
     "baochunhua", 
+    "renshenyeye", 
     "poyusan", 
     "youtong", 
     "putaoyaguoqishu", 
@@ -26373,9 +26518,9 @@
    "crystal", 
    "mb_8", 
    "chengshuijing", 
+   "zong_zi", 
    "mb_6", 
    "hongshuijing", 
-   "zong_zi", 
    "hammer", 
    "mb_4", 
    "mb_1", 
@@ -26423,6 +26568,7 @@
    "xinbaoxiang", 
    "tujianbaoxiang", 
    "lanseniudan", 
+   "zhiwubaoxiang", 
    "huangniudan", 
    "hushenfu", 
    "cangbaotu4", 
