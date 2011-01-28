@@ -13010,6 +13010,26 @@
      "leaf_time": 120, 
      "level_need": 1
     }, 
+    "niunai": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ミルク", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "can_not_crop": "2月16日以降植えることができます。ショップで種として購入できます。", 
+     "bloom_time": 330, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "experience": 3.9, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 3
+     }, 
+     "level_need": 1
+    }, 
     "zisu": {
      "total_time": 960, 
      "leaflet_time": 160, 
@@ -13108,6 +13128,26 @@
      "leaf_time": 138, 
      "level_need": 11
     }, 
+    "shatang": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "シュガー", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "can_not_crop": "2月16日以降植えることができます。ショップで種として購入できます。", 
+     "bloom_time": 330, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "experience": 3.9, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 3
+     }, 
+     "level_need": 1
+    }, 
     "yuanxigua": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -13203,25 +13243,24 @@
      }, 
      "level_need": 0
     }, 
-    "meizi": {
-     "total_time": 2140, 
-     "leaflet_time": 290, 
-     "used": true, 
-     "name": "梅", 
+    "qiaokelidangaoxin": {
+     "total_time": 930, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "スペシャルチョコ", 
      "base_fruit": 25, 
-     "fruit_time": 600, 
-     "recipe": "レシピに使えます：\n梅干\n梅と山芋のサラダ", 
-     "sprout_time": 170, 
-     "bloom_time": 600, 
-     "experience": 4.63, 
-     "seasons": 2, 
-     "sale_price": 19, 
+     "fruit_time": 390, 
+     "sprout_time": 30, 
+     "bloom_time": 270, 
+     "experience": 7.77, 
+     "seasons": 1, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "leaf_time": 480, 
+     "leaf_time": 150, 
      "seed_price": {
-      "gold": 498
+      "F_coin": 9999
      }, 
-     "level_need": 35
+     "level_need": 1
     }, 
     "xianliangluobo": {
      "total_time": 1920, 
@@ -14623,6 +14662,25 @@
      "leaf_time": 312, 
      "level_need": 0
     }, 
+    "nigerseed": {
+     "total_time": 3090, 
+     "leaflet_time": 618, 
+     "used": true, 
+     "name": "黒ゴマ", 
+     "base_fruit": 25, 
+     "fruit_time": 927, 
+     "sprout_time": 309, 
+     "bloom_time": 618, 
+     "experience": 7.634, 
+     "seasons": 1, 
+     "sale_price": 29, 
+     "increment_fruit": 25, 
+     "leaf_time": 618, 
+     "seed_price": {
+      "gold": 317
+     }, 
+     "level_need": 28
+    }, 
     "helanguoqishu": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -14679,6 +14737,25 @@
       "gold": 1550
      }, 
      "level_need": 1
+    }, 
+    "mango": {
+     "total_time": 1646, 
+     "leaflet_time": 282, 
+     "seed_price": {
+      "gold": 192
+     }, 
+     "name": "マンゴー", 
+     "base_fruit": 25, 
+     "fruit_time": 329, 
+     "recipe": "レシピに使えます：\nフルーツジャム\nマンゴジュース", 
+     "sprout_time": 181, 
+     "bloom_time": 572, 
+     "experience": 3.1, 
+     "seasons": 2, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 282, 
+     "level_need": 11
     }, 
     "agentingguoqishu": {
      "total_time": 1650, 
@@ -14737,24 +14814,24 @@
      "leaf_time": 12, 
      "level_need": 0
     }, 
-    "nigerseed": {
-     "total_time": 3090, 
-     "leaflet_time": 618, 
-     "used": true, 
-     "name": "黒ゴマ", 
+    "duocengqiaokeli": {
+     "total_time": 1170, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ウエディングチョコ", 
      "base_fruit": 25, 
-     "fruit_time": 927, 
-     "sprout_time": 309, 
-     "bloom_time": 618, 
-     "experience": 7.634, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 330, 
+     "experience": 18, 
      "seasons": 1, 
-     "sale_price": 29, 
+     "sale_price": 30, 
      "increment_fruit": 25, 
-     "leaf_time": 618, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 317
+      "F_coin": 9999
      }, 
-     "level_need": 28
+     "level_need": 1
     }, 
     "fengdoucai": {
      "total_time": 960, 
@@ -14936,6 +15013,26 @@
      }, 
      "leaf_time": 300, 
      "level_need": 0
+    }, 
+    "zhenzi": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ナッツ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "can_not_crop": "2月16日以降植えることができます。ショップで種として購入できます。", 
+     "bloom_time": 330, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "experience": 3.9, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 3
+     }, 
+     "level_need": 1
     }, 
     "dawanhua": {
      "total_time": 360, 
@@ -15214,24 +15311,24 @@
      "leaf_time": 243, 
      "level_need": 0
     }, 
-    "mango": {
-     "total_time": 1646, 
-     "leaflet_time": 282, 
-     "seed_price": {
-      "gold": 192
-     }, 
-     "name": "マンゴー", 
+    "qinglvmogu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ドキドキ", 
      "base_fruit": 25, 
-     "fruit_time": 329, 
-     "recipe": "レシピに使えます：\nフルーツジャム\nマンゴジュース", 
-     "sprout_time": 181, 
-     "bloom_time": 572, 
-     "experience": 3.1, 
-     "seasons": 2, 
-     "sale_price": 9, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
-     "leaf_time": 282, 
-     "level_need": 11
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
+     "level_need": 1
     }, 
     "yutuhua": {
      "total_time": 570, 
@@ -16262,18 +16359,19 @@
      }, 
      "level_need": 26
     }, 
-    "rulao": {
+    "fanqiejiang": {
      "total_time": 1650, 
      "leaflet_time": 330, 
      "used": false, 
-     "name": "チーズ", 
+     "name": "ケチャップ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
+     "recipe": "レシピに使えます：\nミートソースパスタ", 
      "sprout_time": 330, 
      "bloom_time": 330, 
-     "experience": 190, 
+     "experience": 29, 
      "seasons": 1, 
-     "sale_price": 730, 
+     "sale_price": 67, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
@@ -16339,6 +16437,25 @@
      }, 
      "leaf_time": 126, 
      "level_need": 0
+    }, 
+    "hezhuangqiaokeli": {
+     "total_time": 1050, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "スウィートチョコ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 30, 
+     "bloom_time": 270, 
+     "experience": 5.67, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 9999
+     }, 
+     "level_need": 1
     }, 
     "hulu": {
      "total_time": 3120, 
@@ -18551,6 +18668,25 @@
      }, 
      "level_need": 1
     }, 
+    "xinxingqiaokeli": {
+     "total_time": 990, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "プチハートチョコ", 
+     "base_fruit": 25, 
+     "fruit_time": 450, 
+     "sprout_time": 30, 
+     "bloom_time": 270, 
+     "experience": 6.66, 
+     "seasons": 1, 
+     "sale_price": 11, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 9999
+     }, 
+     "level_need": 1
+    }, 
     "shenshixueren": {
      "total_time": 1410, 
      "leaflet_time": 330, 
@@ -18684,6 +18820,25 @@
      "leaf_time": 180, 
      "seed_price": {
       "F_coin": 9999999
+     }, 
+     "level_need": 1
+    }, 
+    "huangjinkeke": {
+     "total_time": 750, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "黄金のカカオ", 
+     "base_fruit": 25, 
+     "fruit_time": 270, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 1.67, 
+     "seasons": 2, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 3
      }, 
      "level_need": 1
     }, 
@@ -19742,25 +19897,6 @@
      }, 
      "level_need": 1
     }, 
-    "qinglvmogu": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "ドキドキ", 
-     "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 11, 
-     "seasons": 1, 
-     "sale_price": 15, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 30
-     }, 
-     "level_need": 1
-    }, 
     "damai": {
      "total_time": 1560, 
      "leaflet_time": 180, 
@@ -20070,6 +20206,25 @@
      }, 
      "leaf_time": 90, 
      "level_need": 0
+    }, 
+    "daizhuangqiaokeli": {
+     "total_time": 1110, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ファンシーチョコ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 30, 
+     "bloom_time": 330, 
+     "experience": 3.97, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 9999
+     }, 
+     "level_need": 1
     }, 
     "fengyeshu": {
      "total_time": 630, 
@@ -23059,23 +23214,22 @@
      }, 
      "level_need": 1
     }, 
-    "fanqiejiang": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "jingzhuangqiaokelidangao": {
+     "total_time": 810, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "ケチャップ", 
+     "name": "愛情たっぷりチョコ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "recipe": "レシピに使えます：\nミートソースパスタ", 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 29, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 9.99, 
      "seasons": 1, 
-     "sale_price": 67, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 9999
      }, 
      "level_need": 1
     }, 
@@ -23644,6 +23798,25 @@
       "gold": 329
      }, 
      "level_need": 18
+    }, 
+    "rulao": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "チーズ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 190, 
+     "seasons": 1, 
+     "sale_price": 730, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 1
     }, 
     "qingdaofuxueren": {
      "total_time": 1410, 
@@ -24218,6 +24391,26 @@
      }, 
      "level_need": 0
     }, 
+    "meizi": {
+     "total_time": 2140, 
+     "leaflet_time": 290, 
+     "used": true, 
+     "name": "梅", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "recipe": "レシピに使えます：\n梅干\n梅と山芋のサラダ", 
+     "sprout_time": 170, 
+     "bloom_time": 600, 
+     "experience": 4.63, 
+     "seasons": 2, 
+     "sale_price": 19, 
+     "increment_fruit": 25, 
+     "leaf_time": 480, 
+     "seed_price": {
+      "gold": 498
+     }, 
+     "level_need": 35
+    }, 
     "saibohua": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -24639,6 +24832,7 @@
     "huangshuijingpingguo", 
     "dianshihua", 
     "yinggelanguoqishu", 
+    "duocengqiaokeli", 
     "chabeituzi", 
     "wulaguiguoqishu", 
     "helanguoqishu", 
@@ -24661,8 +24855,11 @@
     "shanchahua", 
     "chabeihouzi", 
     "guayeju", 
+    "shatang", 
     "yipinhong", 
+    "hezhuangqiaokeli", 
     "xibanyaguoqishu", 
+    "qiaokelidangaoxin", 
     "siluofakeguoqishu", 
     "chashu", 
     "qiaokelidangao", 
@@ -24671,6 +24868,7 @@
     "hezuoluobo", 
     "deguoguoqishu", 
     "qinglvmogu", 
+    "zhenzi", 
     "chabeimao", 
     "bagong", 
     "hanbao", 
@@ -24682,17 +24880,20 @@
     "lajiaojiang", 
     "fenshuijingpingguo", 
     "ribenguoqishu", 
+    "daizhuangqiaokeli", 
     "chabeimaotouying", 
     "xiaocanglan", 
     "shugendangao", 
     "baxiguoqishu", 
     "lanshuijingpingguo", 
     "lanqiansuitang", 
+    "xinxingqiaokeli", 
     "baochunhua", 
     "renshenyeye", 
     "poyusan", 
     "youtong", 
     "putaoyaguoqishu", 
+    "niunai", 
     "moxigeguojishu", 
     "heidoucha", 
     "dongqing", 
@@ -24726,6 +24927,7 @@
     "hanguoguoqishua", 
     "fennunangua", 
     "qingrenhuasu", 
+    "jingzhuangqiaokelidangao", 
     "mocha", 
     "ribenguoqishu1", 
     "penzaisong", 
@@ -24766,6 +24968,7 @@
     "jingzhiganlanyou", 
     "shenqijianlan", 
     "caijiao4", 
+    "huangjinkeke", 
     "hongtang", 
     "saibohua", 
     "dianshisong", 
