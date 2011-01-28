@@ -13035,21 +13035,22 @@
     "niunai": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
+     "used": true, 
      "name": "ミルク", 
      "base_fruit": 25, 
+     "increment_fruit": 25, 
      "fruit_time": 360, 
-     "sprout_time": 90, 
+     "introduce": "イベント終了後植えることができます。", 
      "can_not_crop": "イベント終了後植えることができます。ショップで種として購入できます。", 
      "bloom_time": 330, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 10, 
      "experience": 3.9, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
      "seed_price": {
       "F_coin": 3
      }, 
+     "leaf_time": 330, 
      "level_need": 1
     }, 
     "zisu": {
@@ -13153,21 +13154,22 @@
     "shatang": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
+     "used": true, 
      "name": "シュガー", 
      "base_fruit": 25, 
+     "increment_fruit": 25, 
      "fruit_time": 360, 
-     "sprout_time": 90, 
+     "introduce": "イベント終了後植えることができます。", 
      "can_not_crop": "イベント終了後植えることができます。ショップで種として購入できます。", 
      "bloom_time": 330, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 10, 
      "experience": 3.9, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
      "seed_price": {
       "F_coin": 3
      }, 
+     "leaf_time": 330, 
      "level_need": 1
     }, 
     "yuanxigua": {
@@ -15039,21 +15041,22 @@
     "zhenzi": {
      "total_time": 1440, 
      "leaflet_time": 330, 
-     "used": false, 
+     "used": true, 
      "name": "ナッツ", 
      "base_fruit": 25, 
+     "increment_fruit": 25, 
      "fruit_time": 360, 
-     "sprout_time": 90, 
+     "introduce": "イベント終了後植えることができます。", 
      "can_not_crop": "イベント終了後植えることができます。ショップで種として購入できます。", 
      "bloom_time": 330, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 10, 
      "experience": 3.9, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
      "seed_price": {
       "F_coin": 3
      }, 
+     "leaf_time": 330, 
      "level_need": 1
     }, 
     "dawanhua": {
@@ -18848,7 +18851,7 @@
     "huangjinkeke": {
      "total_time": 750, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "黄金のカカオ", 
      "base_fruit": 25, 
      "fruit_time": 270, 
