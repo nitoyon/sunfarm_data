@@ -12216,6 +12216,7 @@
      "num": 1270, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
@@ -12226,28 +12227,27 @@
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5\u65e521\u6642\u9593", 
-    "end_time": 1296460800.0, 
     "goods_description": "\u5927\u7279\u4fa1\u30bb\u30fc\u30eb\uff01\u4e2d\u306b\u306f500K\u30b3\u30a4\u30f3\u5206\u306e\u7a2e\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b770K\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3002\u3000\u7a2e\uff1a\u30af\u30ec\u30a4\u30b8\u30fc\u30ca\u30b7\u00d74    \u30af\u30ec\u30a4\u30b8\u30fc\u30b5\u30dc\u30c6\u30f3\u00d74  \u30c1\u30e7\u30a6\u82b1\u00d74       \u5929\u5c71\u96ea\u84ee\u00d74       \u9b54\u6cd5\u306e\u767d\u30d0\u30e9\u00d74     \u6708\u306e\u82b1\u00d710\u3000\u3000\u30a2\u30a4\u30c6\u30e0\uff1a\u521d\u7d1a\u80a5\u6599\u00d735      \u4e2d\u7d1a\u80a5\u6599\u00d735      \u9ad8\u7d1a\u80a5\u6599\u00d735      \u30de\u30b8\u30c3\u30af\u80a5\u6599\u00d735    \u5897\u7523\u80a5\u6599\u00d725      \u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u00d710    \u30a6\u30eb\u30c8\u30e9\u80a5\u6599\u00d75", 
-    "start_time": 1295953200.0, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
-   "zengshou3": {
-    "specific_type": "xin", 
+   "magiccardless": {
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
      "goods_category": "fertilizer"
     }, 
-    "name": "\u9ad8\u7d1a\u5897\u7523\u80a5\u6599", 
+    "name": "\u30de\u30b8\u30c3\u30af\u5897\u7523\u30ab\u30fc\u30c9", 
+    "start_time": 1296183600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3\u65e52\u6642\u9593", 
+    "end_time": 1296450000.0, 
+    "goods_description": "\u6210\u719f\u3057\u305f\u3058\u3083\u304c\u3044\u3082\u3001\u30d4\u30bf\u30e4\u3001\u30cc\u30de\u30b9\u30ce\u30ad\u3001\u91cc\u828b\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
     "price": {
-     "num": 6, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "\u9ad8\u7d1a\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb36\u304b\u308960\u307e\u3067\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "jisu1": {
     "original_price": {
