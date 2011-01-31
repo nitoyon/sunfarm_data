@@ -3788,21 +3788,21 @@
         1, 
         0.2
        ], 
-       "qiexiansheng": [
-        1, 
-        0.08
-       ], 
        "liumanggui": [
         1, 
         0.4
+       ], 
+       "baoyashu": [
+        1, 
+        0.3
        ], 
        "keaiciwei": [
         1, 
         0.6
        ], 
-       "baoyashu": [
+       "qiexiansheng": [
         1, 
-        0.3
+        0.08
        ]
       }
      }
@@ -4002,17 +4002,17 @@
          1, 
          0.08
         ], 
-        "gaoji": [
+        "xunjie": [
          1, 
-         0.03
+         0.3
         ], 
         "gaosu": [
          1, 
          0.15
         ], 
-        "xunjie": [
+        "gaoji": [
          1, 
-         0.3
+         0.03
         ]
        }
       }
@@ -4120,21 +4120,45 @@
      }
     }
    }, 
-   "huolongguolibao": {
+   "xinbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 12
      }, 
-     "used": false, 
-     "goods_str": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
-     "name": "ピタヤの箱", 
-     "introduce": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。"
+     "used": true, 
+     "goods_str": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！", 
+     "name": "大地の宝箱", 
+     "introduce": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "huolongguoxin": [
-        5, 
+       "nirentaigu": [
+        1, 
+        0.01
+       ], 
+       "taigu": [
+        1, 
+        0.02
+       ], 
+       "nanmogu": [
+        1, 
+        0.02
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "chashu": [
+        1, 
+        1
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ], 
+       "bingyerizhonghua": [
+        1, 
         1
        ]
       }
@@ -4282,6 +4306,87 @@
      }
     }
    }, 
+   "hongniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
+     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+     "name": "赤カプセル", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "dongqing": [
+        1, 
+        0.06
+       ], 
+       "niangao": [
+        1, 
+        0.1
+       ], 
+       "taigu": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.01
+       ], 
+       "shenqima_ti_lian": [
+        1, 
+        0.01
+       ], 
+       "carnation": [
+        1, 
+        0.01
+       ], 
+       "hongkapian": [
+        1, 
+        0.2
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "wushi": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
    "bingdiaoshulanlibao": {
     "config": {
      "price": {
@@ -4299,75 +4404,6 @@
         5, 
         1
        ]
-      }
-     }
-    }
-   }, 
-   "xinnianhuangniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日", 
-     "name": "黄の新年カプセル", 
-     "introduce": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "huang": [
-        1, 
-        0.5
-       ], 
-       "nirenmangguo": [
-        1, 
-        0.04
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ], 
-       "shenqihuo_long_guo": [
-        1, 
-        0.03
-       ], 
-       "chashu": [
-        1, 
-        0.2
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "shuijingputao": [
-        1, 
-        0.2
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie1": [
-         1, 
-         1.0
-        ], 
-        "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
-        ], 
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
       }
      }
     }
@@ -4486,17 +4522,17 @@
          1, 
          0.08
         ], 
-        "gaoji": [
+        "xunjie": [
          1, 
-         0.03
+         0.3
         ], 
         "gaosu": [
          1, 
          0.15
         ], 
-        "xunjie": [
+        "gaoji": [
          1, 
-         0.3
+         0.03
         ]
        }
       }
@@ -4517,12 +4553,12 @@
     "data": {
      "farm": {
       "seeds": {
-       "smilingflower": [
-        1, 
-        1.0
-       ], 
        "nigerseed": [
         2, 
+        1.0
+       ], 
+       "smilingflower": [
+        1, 
         1.0
        ], 
        "peach": [
@@ -4756,82 +4792,22 @@
      }
     }
    }, 
-   "hongniudan": {
+   "huolongguolibao": {
     "config": {
      "price": {
       "F_coin": 1
      }, 
-     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
-     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-     "name": "赤カプセル", 
-     "used": false
+     "used": false, 
+     "goods_str": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
+     "name": "ピタヤの箱", 
+     "introduce": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "dongqing": [
-        1, 
-        0.06
-       ], 
-       "niangao": [
-        1, 
-        0.1
-       ], 
-       "taigu": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.01
-       ], 
-       "shenqima_ti_lian": [
-        1, 
-        0.01
-       ], 
-       "carnation": [
-        1, 
-        0.01
-       ], 
-       "hongkapian": [
-        1, 
-        0.2
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ], 
-        "xunjie1": [
-         1, 
-         1
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "wushi": [
-        1, 
-        0.1
+       "huolongguoxin": [
+        5, 
+        1
        ]
       }
      }
@@ -5747,17 +5723,17 @@
          1, 
          0.08
         ], 
-        "gaoji": [
+        "xunjie": [
          1, 
-         0.03
+         0.3
         ], 
         "gaosu": [
          1, 
          0.15
         ], 
-        "xunjie": [
+        "gaoji": [
          1, 
-         0.3
+         0.03
         ]
        }
       }
@@ -6832,51 +6808,6 @@
      }
     }
    }, 
-   "xinbaoxiang": {
-    "config": {
-     "price": {
-      "F_coin": 12
-     }, 
-     "used": true, 
-     "goods_str": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！", 
-     "name": "大地の宝箱", 
-     "introduce": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "nirentaigu": [
-        1, 
-        0.01
-       ], 
-       "taigu": [
-        1, 
-        0.02
-       ], 
-       "nanmogu": [
-        1, 
-        0.02
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "chashu": [
-        1, 
-        1
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
    "ziseniudan": {
     "config": {
      "price": {
@@ -6902,7 +6833,7 @@
         1, 
         0.1
        ], 
-       "fenghuangzhiyi": [
+       "zizuanshu": [
         1, 
         0.03
        ], 
@@ -6910,7 +6841,7 @@
         1, 
         0.01
        ], 
-       "zizuanshu": [
+       "fenghuangzhiyi": [
         1, 
         0.03
        ]
@@ -7189,6 +7120,35 @@
      }
     }
    }, 
+   "cangbaotu3": {
+    "config": {
+     "price": {
+      "F_coin": 9999
+     }, 
+     "used": false, 
+     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
+     "name": "藏宝图卷三", 
+     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqizijin": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "cangbaotu4": {
     "config": {
      "price": {
@@ -7287,29 +7247,69 @@
      }
     }
    }, 
-   "cangbaotu3": {
+   "xinnianhuangniudan": {
     "config": {
      "price": {
-      "F_coin": 9999
+      "F_coin": 1
      }, 
      "used": false, 
-     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
-     "name": "藏宝图卷三", 
-     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
+     "goods_str": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日", 
+     "name": "黄の新年カプセル", 
+     "introduce": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "shenqizijin": [
+       "huang": [
         1, 
-        1.0
+        0.5
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.04
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        0.03
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
        ]
       }, 
       "properties": {
-       "feedstuffs": {
-        "gaosu": [
+       "fertilizer": {
+        "xunjie1": [
          1, 
          1.0
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "gaoji": [
+         1, 
+         0.03
         ]
        }
       }
@@ -7699,17 +7699,17 @@
          1, 
          0.08
         ], 
-        "gaoji": [
+        "xunjie": [
          1, 
-         0.03
+         0.3
         ], 
         "gaosu": [
          1, 
          0.15
         ], 
-        "xunjie": [
+        "gaoji": [
          1, 
-         0.3
+         0.03
         ]
        }
       }
@@ -7766,13 +7766,13 @@
     "data": {
      "farm": {
       "seeds": {
-       "mhxy": [
-        1, 
-        0.4
-       ], 
        "rensheng": [
         1, 
         0.5
+       ], 
+       "mhxy": [
+        1, 
+        0.4
        ], 
        "nrx": [
         1, 
@@ -7928,6 +7928,10 @@
         1, 
         0.03
        ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
        "jiariyecan": [
         1, 
         0.01
@@ -7936,17 +7940,13 @@
         1, 
         0.03
        ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "nirenxiangjiao": [
-        1, 
-        0.03
-       ], 
        "zizuanhua": [
         1, 
         0.03
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
        ], 
        "shenqiparadiseflower": [
         1, 
@@ -26803,10 +26803,10 @@
    "mb_7", 
    "crystal", 
    "mb_8", 
-   "chengshuijing", 
    "zong_zi", 
    "mb_6", 
    "hongshuijing", 
+   "chengshuijing", 
    "hammer", 
    "mb_4", 
    "mb_1", 
@@ -26815,12 +26815,12 @@
    "qingrenyushou1", 
    "cangbaotu2", 
    "qingrenyushou3", 
-   "cangbaotu3", 
+   "jingangcuo", 
    "lvdan", 
-   "huolongguolibao", 
+   "xinnianhuangniudan", 
    "tunianniudanlan", 
    "bingdiaoshulanlibao", 
-   "cangbaotu1", 
+   "zidan", 
    "shengdanhuangniudan", 
    "tunianniudanlv", 
    "ziseniudan", 
@@ -26828,8 +26828,6 @@
    "huiguilibao", 
    "dangaoquan", 
    "xinnianlvniudan", 
-   "landan", 
-   "jingangcuo", 
    "lvseniudan", 
    "niangaolihe", 
    "chengseniudan", 
@@ -26847,26 +26845,28 @@
    "hongseniudan", 
    "tunianniudanhong", 
    "xinnianhongniudan", 
-   "xianhuabaoxiang", 
+   "landan", 
    "tudoulibao", 
    "huangseniudan", 
    "lanniudan", 
    "xinbaoxiang", 
    "tujianbaoxiang", 
-   "lanseniudan", 
    "zhiwubaoxiang", 
    "huangniudan", 
    "hushenfu", 
+   "cangbaotu3", 
    "cangbaotu4", 
    "tunianniudanhuang", 
-   "xinnianhuangniudan", 
+   "huolongguolibao", 
    "shenqibaotu", 
-   "zidan", 
+   "cangbaotu1", 
    "hongniudan", 
    "shengdanlvniudan", 
    "yingwubaoxiang", 
+   "lanseniudan", 
    "test_bag", 
    "lianxudenglu", 
+   "xianhuabaoxiang", 
    "xinnianlanniudan", 
    "shengdanhongniudan"
   ]
