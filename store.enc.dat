@@ -12234,80 +12234,137 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "tujiandongwubaoxiang": {
-    "specific_type": "re", 
+   "tunianniudanlan": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "アニマル宝箱", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "ついに動物の宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いアニマル？達がも入っています！すべてを発見して図鑑を完成しよう！", 
-    "activity_type": "discount"
-   }, 
-   "chaozhilibao": {
-    "original_price": {
-     "num": 1270, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "お買い得セット", 
-    "price": {
-     "num": 700, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
-    "activity_type": "discount"
-   }, 
-   "magiccardless": {
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック増産カード", 
-    "start_time": 1296183600.0, 
-    "modify": true, 
+    "name": "ブルーうさツリーのカプセル", 
+    "start_time": 1296453600.0, 
+    "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "3日2時間", 
-    "end_time": 1296450000.0, 
-    "goods_description": "成熟したじゃがいも、ピタヤ、ヌマスノキ、里芋の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+    "limit_time": "11日", 
+    "end_time": 1297404000.0, 
+    "goods_description": "10%の確率でブルーうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "price": {
-     "num": 3, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
    }, 
-   "jisu1": {
-    "original_price": {
-     "num": 12, 
+   "tunianniudanlv": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "グリーンうさツリーのカプセル", 
+    "price": {
+     "num": 1, 
      "type": "F_coin"
     }, 
-    "specific_type": "zhe", 
+    "modify": true, 
+    "goods_description": "90%の確率でグリーンうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
+   }, 
+   "zhiwubaoxiang": {
+    "specific_type": "xin", 
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "スーパー飼料", 
+    "name": "2月の宝箱", 
     "price": {
-     "num": 9, 
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
+   "tunianniudanfen": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ピンクうさツリーのカプセル", 
+    "start_time": 1296453600.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日", 
+    "end_time": 1297404000.0, 
+    "goods_description": "3%の確率でピンクうさツリーを獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "tunianniudanhuang": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "イエローうさツリーのカプセル", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
+   }, 
+   "niunai": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ミルク", 
+    "price": {
+     "num": 3, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
+    "goods_description": "イベント終了後植えることができます。", 
+    "activity_type": "discount"
+   }, 
+   "tunianniudanhong": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "レッドうさツリーのカプセル", 
+    "start_time": 1296453600.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日", 
+    "end_time": 1297404000.0, 
+    "goods_description": "0.7%の確率でレッドうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "shatang": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "シュガー", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "イベント終了後植えることができます。", 
     "activity_type": "discount"
    }, 
    "yingwubaoxiang": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -12318,74 +12375,8 @@
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_new", 
     "goods_description": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
-    "activity_type": "hot_sale"
-   }, 
-   "gaoji": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "高級肥料", 
-    "price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
-   }, 
-   "niangaolihe": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "鏡もちの箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
-   "guohuatujian": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "国花の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
-    "activity_type": "discount"
-   }, 
-   "caijiao": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "カラフルなピーマン", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_new", 
-    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
