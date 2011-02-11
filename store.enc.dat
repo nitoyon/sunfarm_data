@@ -12234,19 +12234,19 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "tunianniudanlv": {
+   "niunai": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "グリーンうさツリーのカプセル", 
+    "name": "ミルク", 
     "price": {
-     "num": 1, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "90%の確率でグリーンうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "modify": false, 
+    "goods_description": "イベント終了後植えることができます。", 
     "activity_type": "discount"
    }, 
    "zhiwubaoxiang": {
@@ -12282,36 +12282,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "tunianniudanhuang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "イエローうさツリーのカプセル", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
-   }, 
-   "niunai": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "ミルク", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "イベント終了後植えることができます。", 
-    "activity_type": "discount"
    }, 
    "xunjie": {
     "original_price": {
@@ -12364,6 +12334,34 @@
     }, 
     "modify": true, 
     "goods_description": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
+    "activity_type": "discount"
+   }, 
+   "lanmeiguixin": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ブルーローズ", 
+    "price": {
+     "num": 324, 
+     "type": "gold"
+    }, 
+    "modify": false, 
+    "activity_type": "discount"
+   }, 
+   "hongmeiguixin": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "レッドローズ", 
+    "price": {
+     "num": 274, 
+     "type": "gold"
+    }, 
+    "modify": false, 
     "activity_type": "discount"
    }, 
    "caijiao": {
