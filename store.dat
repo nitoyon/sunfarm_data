@@ -15069,26 +15069,24 @@
      "leaf_time": 300, 
      "level_need": 0
     }, 
-    "zhenzi": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
-     "used": true, 
-     "name": "\u30ca\u30c3\u30c4", 
+    "changchunhua": {
+     "total_time": 2140, 
+     "leaflet_time": 290, 
+     "used": false, 
+     "name": "\u30cb\u30c1\u30cb\u30c1\u30bd\u30a6", 
      "base_fruit": 25, 
+     "fruit_time": 600, 
+     "sprout_time": 170, 
+     "bloom_time": 600, 
+     "experience": 4.63, 
+     "seasons": 2, 
+     "sale_price": 19, 
      "increment_fruit": 25, 
-     "fruit_time": 360, 
-     "introduce": "\u30a4\u30d9\u30f3\u30c8\u7d42\u4e86\u5f8c\u690d\u3048\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
-     "can_not_crop": "\u30a4\u30d9\u30f3\u30c8\u7d42\u4e86\u5f8c\u690d\u3048\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002\u30b7\u30e7\u30c3\u30d7\u3067\u7a2e\u3068\u3057\u3066\u8cfc\u5165\u3067\u304d\u307e\u3059\u3002", 
-     "bloom_time": 330, 
-     "sprout_time": 90, 
-     "seasons": 1, 
-     "sale_price": 10, 
-     "experience": 3.9, 
+     "leaf_time": 480, 
      "seed_price": {
-      "F_coin": 3
+      "F_coin": 25
      }, 
-     "leaf_time": 330, 
-     "level_need": 1
+     "level_need": 35
     }, 
     "dawanhua": {
      "total_time": 360, 
@@ -18588,6 +18586,27 @@
      }, 
      "leaf_time": 330, 
      "level_need": 0
+    }, 
+    "zhenzi": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": true, 
+     "name": "\u30ca\u30c3\u30c4", 
+     "base_fruit": 25, 
+     "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "\u30a4\u30d9\u30f3\u30c8\u7d42\u4e86\u5f8c\u690d\u3048\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
+     "can_not_crop": "\u30a4\u30d9\u30f3\u30c8\u7d42\u4e86\u5f8c\u690d\u3048\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002\u30b7\u30e7\u30c3\u30d7\u3067\u7a2e\u3068\u3057\u3066\u8cfc\u5165\u3067\u304d\u307e\u3059\u3002", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "experience": 3.9, 
+     "seed_price": {
+      "F_coin": 3
+     }, 
+     "leaf_time": 330, 
+     "level_need": 1
     }, 
     "diaoxiang": {
      "total_time": 4200, 
@@ -25083,6 +25102,7 @@
     "caijiao4", 
     "huangjinkeke", 
     "hongtang", 
+    "changchunhua", 
     "saibohua", 
     "dianshisong", 
     "pugongying", 
