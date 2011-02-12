@@ -15069,26 +15069,24 @@
      "leaf_time": 300, 
      "level_need": 0
     }, 
-    "zhenzi": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
-     "used": true, 
-     "name": "ナッツ", 
+    "changchunhua": {
+     "total_time": 2140, 
+     "leaflet_time": 290, 
+     "used": false, 
+     "name": "ニチニチソウ", 
      "base_fruit": 25, 
+     "fruit_time": 600, 
+     "sprout_time": 170, 
+     "bloom_time": 600, 
+     "experience": 4.63, 
+     "seasons": 2, 
+     "sale_price": 19, 
      "increment_fruit": 25, 
-     "fruit_time": 360, 
-     "introduce": "イベント終了後植えることができます。", 
-     "can_not_crop": "イベント終了後植えることができます。ショップで種として購入できます。", 
-     "bloom_time": 330, 
-     "sprout_time": 90, 
-     "seasons": 1, 
-     "sale_price": 10, 
-     "experience": 3.9, 
+     "leaf_time": 480, 
      "seed_price": {
-      "F_coin": 3
+      "F_coin": 25
      }, 
-     "leaf_time": 330, 
-     "level_need": 1
+     "level_need": 35
     }, 
     "dawanhua": {
      "total_time": 360, 
@@ -18588,6 +18586,27 @@
      }, 
      "leaf_time": 330, 
      "level_need": 0
+    }, 
+    "zhenzi": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": true, 
+     "name": "ナッツ", 
+     "base_fruit": 25, 
+     "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "イベント終了後植えることができます。", 
+     "can_not_crop": "イベント終了後植えることができます。ショップで種として購入できます。", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "experience": 3.9, 
+     "seed_price": {
+      "F_coin": 3
+     }, 
+     "leaf_time": 330, 
+     "level_need": 1
     }, 
     "diaoxiang": {
      "total_time": 4200, 
@@ -25083,6 +25102,7 @@
     "caijiao4", 
     "huangjinkeke", 
     "hongtang", 
+    "changchunhua", 
     "saibohua", 
     "dianshisong", 
     "pugongying", 
