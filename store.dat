@@ -12388,29 +12388,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "xunjie": {
-    "original_price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "\u30de\u30b8\u30c3\u30af\u80a5\u6599", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3\u65e5", 
-    "end_time": 1297663200.0, 
-    "goods_description": "\u4f7f\u3046\u3068\u4f5c\u7269\u306e\u6210\u719f\u6642\u9593\u30920.5\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002\u540c\u3058\u6bb5\u968e\u3067\u4f55\u500b\u3067\u3082\u4f7f\u3048\u307e\u3059\u3002\u80a5\u6599\u306e\u52b9\u679c\u306f\u6b21\u306e\u6bb5\u968e\u3078\u6301\u3061\u8d8a\u3059\u3053\u3068\u306f\u3067\u304d\u307e\u305b\u3093\u3002", 
-    "start_time": 1297404000.0, 
-    "activity_type": "hot_sale"
-   }, 
    "shatang": {
     "specific_type": "xin", 
     "product_type": {
@@ -12425,6 +12402,28 @@
     "modify": false, 
     "goods_description": "\u30a4\u30d9\u30f3\u30c8\u7d42\u4e86\u5f8c\u690d\u3048\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
     "activity_type": "discount"
+   }, 
+   "songrong": {
+    "original_price": {
+     "num": 38, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u30de\u30c4\u30bf\u30b1", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3\u65e523\u6642\u9593", 
+    "end_time": 1298019600.0, 
+    "goods_description": "", 
+    "start_time": 1297677600.0, 
+    "activity_type": "hot_sale"
    }, 
    "yingwubaoxiang": {
     "specific_type": "re", 
@@ -15107,7 +15106,7 @@
      "increment_fruit": 25, 
      "leaf_time": 420, 
      "seed_price": {
-      "F_coin": 38
+      "F_coin": 25
      }, 
      "level_need": 0
     }, 
