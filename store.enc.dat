@@ -12606,6 +12606,27 @@
      }, 
      "level_need": 1
     }, 
+    "bailian": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": true, 
+     "name": "白色の蓮", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "goodstype": "flower", 
+     "recipe": "レシピに使えます：\n金色の蓮", 
+     "sprout_time": 90, 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 20, 
+     "seasons": 1, 
+     "sale_price": 30, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "shuangdihua": {
      "total_time": 2140, 
      "leaflet_time": 290, 
@@ -12989,26 +13010,24 @@
      }, 
      "level_need": 1
     }, 
-    "niudantujianer_fen": {
-     "total_time": 1440, 
+    "jingzhiganlanyou": {
+     "total_time": 1650, 
      "leaflet_time": 330, 
      "used": false, 
-     "name": "ピンクうさツリー", 
+     "name": "高級オリーブオイル", 
      "base_fruit": 25, 
-     "increment_fruit": 25, 
-     "fruit_time": 360, 
-     "introduce": "おめでとうございます。ピンクうさツリーをを手に入れました。5種のうさツリーを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
-     "can_not_crop": "2月16日以降植えることができます。収穫すると、図鑑に入りますよ。", 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
      "bloom_time": 330, 
-     "sprout_time": 90, 
+     "experience": 36, 
      "seasons": 1, 
-     "sale_price": 15, 
-     "experience": 8, 
-     "seed_price": {
-      "F_coin": 50
-     }, 
+     "sale_price": 72, 
+     "increment_fruit": 25, 
      "leaf_time": 330, 
-     "level_need": 0
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 1
     }, 
     "yinggelanguoqishua": {
      "total_time": 1650, 
@@ -14916,6 +14935,25 @@
      "leaf_time": 282, 
      "level_need": 11
     }, 
+    "mianyangfangzi": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "メリノコヤ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
+    }, 
     "agentingguoqishu": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -16236,24 +16274,26 @@
      }, 
      "level_need": 30
     }, 
-    "jingzhiganlanyou": {
-     "total_time": 1650, 
+    "niudantujianer_fen": {
+     "total_time": 1440, 
      "leaflet_time": 330, 
      "used": false, 
-     "name": "高級オリーブオイル", 
+     "name": "ピンクうさツリー", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 36, 
-     "seasons": 1, 
-     "sale_price": 72, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。ピンクうさツリーをを手に入れました。5種のうさツリーを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "2月16日以降植えることができます。収穫すると、図鑑に入りますよ。", 
+     "bloom_time": 330, 
+     "sprout_time": 90, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "experience": 8, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 50
      }, 
-     "level_need": 1
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "shenqibian": {
      "total_time": 2430, 
@@ -16691,26 +16731,24 @@
      }, 
      "level_need": 1
     }, 
-    "fenmeigui": {
-     "total_time": 870, 
-     "leaflet_time": 150, 
+    "moxigeguoqishua": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "ピンクのバラ", 
+     "name": "復刻版メキシコ国旗樹", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "goodstype": "flower", 
-     "sprout_time": 90, 
-     "introduce": "花言葉：", 
-     "increment_fruit": 25, 
-     "bloom_time": 150, 
-     "experience": 3.0, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 6, 
      "seasons": 1, 
-     "sale_price": 77, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 1
      }, 
-     "leaf_time": 150, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "jingzhichahua": {
      "total_time": 630, 
@@ -17495,6 +17533,25 @@
      }, 
      "level_need": 39
     }, 
+    "hashiqifangzi": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "イヌコヤ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
+    }, 
     "ganlanyou": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -17570,6 +17627,25 @@
       "gold": 10
      }, 
      "level_need": 1
+    }, 
+    "tuzifangzi": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ウサギコヤ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 50, 
+     "seasons": 1, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 150
+     }, 
+     "level_need": 0
     }, 
     "qincai": {
      "total_time": 1200, 
@@ -18846,6 +18922,25 @@
      }, 
      "level_need": 13
     }, 
+    "bingdiaomao": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "氷彫刻の黒猫", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 50, 
+     "seasons": 1, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 150
+     }, 
+     "level_need": 0
+    }, 
     "dandelion": {
      "total_time": 480, 
      "leaflet_time": 22, 
@@ -19040,6 +19135,25 @@
      "leaf_time": 600, 
      "level_need": 0
     }, 
+    "longmaofangzi": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "クマコヤ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
+    }, 
     "zishuijingpingguo": {
      "total_time": 960, 
      "leaflet_time": 60, 
@@ -19178,24 +19292,26 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "moxigeguoqishua": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "fenmeigui": {
+     "total_time": 870, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "復刻版メキシコ国旗樹", 
+     "name": "ピンクのバラ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 6, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "花言葉：", 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "bloom_time": 150, 
+     "experience": 3.0, 
+     "seasons": 1, 
+     "sale_price": 77, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 8
      }, 
-     "level_need": 1
+     "leaf_time": 150, 
+     "level_need": 0
     }, 
     "qj": {
      "total_time": 1050, 
@@ -22141,25 +22257,6 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
-    "sansemogu": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "にっこり茸", 
-     "base_fruit": 25, 
-     "fruit_time": 390, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 11, 
-     "seasons": 1, 
-     "sale_price": 15, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 25
-     }, 
-     "level_need": 1
-    }, 
     "chaguozi": {
      "total_time": 2305, 
      "leaflet_time": 317, 
@@ -22715,25 +22812,23 @@
      }, 
      "level_need": 1
     }, 
-    "bailian": {
-     "total_time": 1440, 
+    "zhufangzi": {
+     "total_time": 1410, 
      "leaflet_time": 330, 
-     "used": true, 
-     "name": "白色の蓮", 
+     "used": false, 
+     "name": "ブタコヤ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "goodstype": "flower", 
-     "recipe": "レシピに使えます：\n金色の蓮", 
+     "fruit_time": 330, 
      "sprout_time": 90, 
-     "increment_fruit": 25, 
      "bloom_time": 330, 
-     "experience": 20, 
+     "experience": 13, 
      "seasons": 1, 
-     "sale_price": 30, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
      "seed_price": {
       "F_coin": 25
      }, 
-     "leaf_time": 330, 
      "level_need": 0
     }, 
     "qicailianhua": {
@@ -23023,6 +23118,25 @@
       "F_coin": 20
      }, 
      "leaf_time": 150, 
+     "level_need": 0
+    }, 
+    "qiefangzi": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ペンギンコヤ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
      "level_need": 0
     }, 
     "shuijingputao": {
@@ -24152,24 +24266,24 @@
      "leaf_time": 418, 
      "level_need": 9
     }, 
-    "bingdiaomao": {
-     "total_time": 1410, 
+    "sansemogu": {
+     "total_time": 1440, 
      "leaflet_time": 330, 
      "used": false, 
-     "name": "氷彫刻の黒猫", 
+     "name": "にっこり茸", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
+     "fruit_time": 390, 
      "sprout_time": 90, 
      "bloom_time": 330, 
-     "experience": 50, 
+     "experience": 11, 
      "seasons": 1, 
-     "sale_price": 500, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 150
+      "F_coin": 25
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "hongfushi": {
      "total_time": 1380, 
@@ -24879,7 +24993,9 @@
     "niudantujianer_huang", 
     "huangkapian", 
     "kaoyouyu", 
+    "hashiqifangzi", 
     "mianju4", 
+    "tuzifangzi", 
     "cuiju", 
     "mianju5", 
     "tianshizhixin", 
@@ -24891,6 +25007,7 @@
     "zhizi", 
     "nvmogu", 
     "diwanghua", 
+    "longmaofangzi", 
     "diaokexiaonvhaishengzhuang", 
     "shengdanshu", 
     "nirenxianrenzhang", 
@@ -24939,11 +25056,13 @@
     "fenghuangzhiyi", 
     "hunheshuiguo", 
     "mianju3", 
+    "zhufangzi", 
     "heimeigui", 
     "niudantujianer_lan", 
     "lanmeigui", 
     "lankapian", 
     "chinesecrabapple", 
+    "qiefangzi", 
     "baimeigui", 
     "peony", 
     "shengdanhong", 
@@ -24952,6 +25071,7 @@
     "man_tuo_luo", 
     "mianju2", 
     "xianliangluobo", 
+    "mianyangfangzi", 
     "jinpinshanyao", 
     "lily", 
     "niudantujianer_BOSS", 
