@@ -12388,29 +12388,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "xunjie": {
-    "original_price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック肥料", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1297663200.0, 
-    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1297404000.0, 
-    "activity_type": "hot_sale"
-   }, 
    "shatang": {
     "specific_type": "xin", 
     "product_type": {
@@ -12425,6 +12402,28 @@
     "modify": false, 
     "goods_description": "イベント終了後植えることができます。", 
     "activity_type": "discount"
+   }, 
+   "songrong": {
+    "original_price": {
+     "num": 38, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "マツタケ", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日23時間", 
+    "end_time": 1298019600.0, 
+    "goods_description": "", 
+    "start_time": 1297677600.0, 
+    "activity_type": "hot_sale"
    }, 
    "yingwubaoxiang": {
     "specific_type": "re", 
@@ -15107,7 +15106,7 @@
      "increment_fruit": 25, 
      "leaf_time": 420, 
      "seed_price": {
-      "F_coin": 38
+      "F_coin": 25
      }, 
      "level_need": 0
     }, 
