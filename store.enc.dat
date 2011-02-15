@@ -4192,6 +4192,51 @@
      "introduce": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。"
     }
    }, 
+   "tujianbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": true, 
+     "goods_str": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
+     "name": "花の宝箱", 
+     "introduce": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yumeirenhua": [
+        1, 
+        0.3
+       ], 
+       "yulan": [
+        1, 
+        0.3
+       ], 
+       "pugongying": [
+        1, 
+        0.4
+       ], 
+       "fenglingcao": [
+        1, 
+        0.5
+       ], 
+       "shanziteng": [
+        1, 
+        0.25
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "lvdan": {
     "config": {
      "price": {
@@ -4942,49 +4987,16 @@
      }
     }
    }, 
-   "tujianbaoxiang": {
+   "hammer": {
     "config": {
+     "goods_str": "神秘な小屋を開けることができます。", 
+     "name": "魔法のカギ", 
      "price": {
       "F_coin": 10
      }, 
-     "used": true, 
-     "goods_str": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
-     "name": "花の宝箱", 
-     "introduce": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "yumeirenhua": [
-        1, 
-        0.3
-       ], 
-       "yulan": [
-        1, 
-        0.3
-       ], 
-       "pugongying": [
-        1, 
-        0.4
-       ], 
-       "fenglingcao": [
-        1, 
-        0.5
-       ], 
-       "shanziteng": [
-        1, 
-        0.25
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }
+     "introduce": "神秘な小屋を開けることができます。", 
+     "state": "xin", 
+     "used": false
     }
    }, 
    "tunianniudanfen": {
@@ -5374,112 +5386,64 @@
      }
     }
    }, 
-   "mb_10_key": {
+   "mofayaoshi1": {
     "config": {
-     "used": false, 
-     "name": "大地のカギ", 
-     "mb": "mb_10", 
      "price": {
-      "F_coin": 47
+      "F_coin": 95
      }, 
-     "introduce": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。", 
-     "goods_str": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。"
-    }
-   }, 
-   "zong_zi": {
-    "config": {
-     "goods_str": "打开粽子固定可得5个急速化肥和一朵风信子，还有几率获得各种珍稀作物花卉和动物宝宝，能开出什么看人品哦", 
-     "name": "スーパー手巻き寿司", 
-     "lock": false, 
-     "price": {
-      "F_coin": 25
-     }, 
-     "state": "xin", 
      "used": false, 
-     "key": "mb_6_key"
+     "goods_str": "中には魔法のカギが10個含まれています。", 
+     "name": "初級のカギ箱", 
+     "introduce": "中には魔法のカギが10個含まれています。"
     }, 
     "data": {
-     "farm": {
-      "seeds": {
-       "hyacinth": [
-        1, 
-        1.0
-       ], 
-       "man_tuo_luo": [
-        1, 
-        0.02
-       ], 
-       "hong_zao": [
-        1, 
-        0.15
-       ], 
-       "huo_long_guo": [
-        1, 
-        0.04
-       ], 
-       "ginseng": [
-        1, 
-        0.04
-       ], 
-       "gan_zhe": [
-        1, 
-        0.1
-       ], 
-       "paradiseflower": [
-        1, 
-        0.03
-       ], 
-       "nigerseed": [
-        1, 
-        0.04
-       ], 
-       "ma_ti_lian": [
-        1, 
-        0.05
-       ], 
-       "sweetviolet": [
-        1, 
-        0.03
-       ], 
-       "chinesecrabapple": [
-        1, 
-        0.06
+     "common": {
+      "mystic_bags": {
+       "hammer": [
+        10, 
+        1
        ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         5, 
-         1.0
-        ], 
-        "gaosu": [
-         5, 
-         0.05
-        ]
-       }
       }
+     }
+    }
+   }, 
+   "mofayaoshi3": {
+    "config": {
+     "price": {
+      "F_coin": 180
      }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "common": [
-         2, 
-         1.0
-        ], 
-        "gaosu": [
-         5, 
-         0.05
-        ]
-       }
-      }, 
-      "babies": {
-       "guangxiMaDuck": [
-        1, 
-        0.06
-       ], 
-       "langshanChook": [
-        1, 
-        0.06
+     "used": false, 
+     "goods_str": "中には魔法のカギが20個含まれています。", 
+     "name": "高級のカギ箱", 
+     "introduce": "中には魔法のカギが20個含まれています。"
+    }, 
+    "data": {
+     "common": {
+      "mystic_bags": {
+       "hammer": [
+        20, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
+   "mofayaoshi2": {
+    "config": {
+     "price": {
+      "F_coin": 140
+     }, 
+     "used": false, 
+     "goods_str": "中には魔法のカギが15個含まれています。", 
+     "name": "中級のカギ箱", 
+     "introduce": "中には魔法のカギが15個含まれています。"
+    }, 
+    "data": {
+     "common": {
+      "mystic_bags": {
+       "hammer": [
+        15, 
+        1
        ]
       }
      }
@@ -5635,6 +5599,119 @@
        "hongzuanhua": [
         1, 
         0.005
+       ], 
+       "jiariyecan": [
+        1, 
+        0.02
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.03
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "longshelan": [
+        1, 
+        0.02
+       ], 
+       "liulian": [
+        1, 
+        0.02
+       ], 
+       "carnation": [
+        1, 
+        0.02
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.02
+       ], 
+       "youli": [
+        1, 
+        0.05
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        0.04
+       ], 
+       "binglinghua": [
+        1, 
+        0.04
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "shudaixiong": [
+        1, 
+        0.03
+       ], 
+       "dalanmao": [
+        1, 
+        0.03
+       ], 
+       "wushi": [
+        1, 
+        0.03
+       ]
+      }
+     }
+    }
+   }, 
+   "shengdanhongniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
+     "name": "赤のクリスマスカプセル", 
+     "introduce": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "jianfeishu": [
+        1, 
+        0.02
+       ], 
+       "hongsexingxingshu": [
+        1, 
+        0.005
+       ], 
+       "taigu": [
+        1, 
+        0.02
        ], 
        "jiariyecan": [
         1, 
@@ -6520,115 +6597,47 @@
      }
     }
    }, 
-   "shengdanhongniudan": {
+   "zhiwubaoxiang": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 10
      }, 
-     "used": false, 
-     "goods_str": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-     "name": "赤のクリスマスカプセル", 
-     "introduce": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+     "used": true, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "2月の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "jianfeishu": [
+       "meirenjiao": [
         1, 
-        0.02
+        0.08
        ], 
-       "hongsexingxingshu": [
+       "yipinhong": [
         1, 
-        0.005
+        0.3
        ], 
-       "taigu": [
+       "guayeju": [
         1, 
-        0.02
+        0.4
        ], 
-       "jiariyecan": [
+       "shanchahua": [
         1, 
-        0.02
+        1.0
        ], 
-       "nirenmangguo": [
+       "lamei": [
         1, 
-        0.03
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "longshelan": [
-        1, 
-        0.02
-       ], 
-       "liulian": [
-        1, 
-        0.02
-       ], 
-       "carnation": [
-        1, 
-        0.02
-       ], 
-       "fenghuangzhiyi": [
-        1, 
-        0.02
-       ], 
-       "youli": [
-        1, 
-        0.05
-       ], 
-       "shenqihuo_long_guo": [
-        1, 
-        0.04
-       ], 
-       "binglinghua": [
-        1, 
-        0.04
+        0.2
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
         "xunjie": [
-         1, 
-         0.3
-        ], 
-        "xunjie1": [
-         1, 
+         5, 
          1.0
         ]
        }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "shudaixiong": [
-        1, 
-        0.03
-       ], 
-       "dalanmao": [
-        1, 
-        0.03
-       ], 
-       "wushi": [
-        1, 
-        0.03
-       ]
       }
      }
     }
@@ -7063,95 +7072,194 @@
      }
     }
    }, 
-   "chengshuijing": {
+   "mb_10_key": {
     "config": {
-     "goods_str": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
-     "name": "オレンジダイヤモンド", 
-     "lock": true, 
-     "price": {
-      "gold": 135
-     }, 
-     "introduce": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
-     "state": "xin", 
      "used": false, 
-     "key": "jingangcuo"
+     "name": "大地のカギ", 
+     "mb": "mb_10", 
+     "price": {
+      "F_coin": 47
+     }, 
+     "introduce": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。", 
+     "goods_str": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。"
+    }
+   }, 
+   "lanseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "青カプセル", 
+     "introduce": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
+     "farm": {
+      "seeds": {
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "lanzuanshu": [
+        1, 
+        0.1
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
      "ranch": {
       "properties": {
        "feedstuffs": {
-        "jisu": [
+        "xunjie": [
          1, 
-         1.0
-        ], 
-        "gaosu": [
-         5, 
-         1.0
+         0.3
         ]
        }
       }, 
       "babies": {
-       "sheep": [
+       "chengseqingwa": [
         1, 
-        1.0
+        0.1
        ], 
-       "quail": [
+       "taohuamao": [
         1, 
-        1.0
-       ], 
-       "friesian": [
-        1, 
-        1.0
-       ], 
-       "langshanChook": [
-        1, 
-        1.0
+        0.05
        ]
       }
      }
     }
    }, 
-   "zhiwubaoxiang": {
+   "zong_zi": {
     "config": {
+     "goods_str": "打开粽子固定可得5个急速化肥和一朵风信子，还有几率获得各种珍稀作物花卉和动物宝宝，能开出什么看人品哦", 
+     "name": "スーパー手巻き寿司", 
+     "lock": false, 
      "price": {
-      "F_coin": 10
+      "F_coin": 25
      }, 
-     "used": true, 
-     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-     "name": "2月の宝箱", 
-     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+     "state": "xin", 
+     "used": false, 
+     "key": "mb_6_key"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "meirenjiao": [
-        1, 
-        0.08
-       ], 
-       "yipinhong": [
-        1, 
-        0.3
-       ], 
-       "guayeju": [
-        1, 
-        0.4
-       ], 
-       "shanchahua": [
+       "hyacinth": [
         1, 
         1.0
        ], 
-       "lamei": [
+       "man_tuo_luo": [
         1, 
-        0.2
+        0.02
+       ], 
+       "hong_zao": [
+        1, 
+        0.15
+       ], 
+       "huo_long_guo": [
+        1, 
+        0.04
+       ], 
+       "ginseng": [
+        1, 
+        0.04
+       ], 
+       "gan_zhe": [
+        1, 
+        0.1
+       ], 
+       "paradiseflower": [
+        1, 
+        0.03
+       ], 
+       "nigerseed": [
+        1, 
+        0.04
+       ], 
+       "ma_ti_lian": [
+        1, 
+        0.05
+       ], 
+       "sweetviolet": [
+        1, 
+        0.03
+       ], 
+       "chinesecrabapple": [
+        1, 
+        0.06
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "xunjie": [
+        "jisu": [
          5, 
          1.0
+        ], 
+        "gaosu": [
+         5, 
+         0.05
         ]
        }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "common": [
+         2, 
+         1.0
+        ], 
+        "gaosu": [
+         5, 
+         0.05
+        ]
+       }
+      }, 
+      "babies": {
+       "guangxiMaDuck": [
+        1, 
+        0.06
+       ], 
+       "langshanChook": [
+        1, 
+        0.06
+       ]
       }
      }
     }
@@ -7587,16 +7695,52 @@
      "used": false
     }
    }, 
-   "hammer": {
+   "chengshuijing": {
     "config": {
-     "goods_str": "神秘な小屋を開けることができます。", 
-     "name": "魔法のカギ", 
+     "goods_str": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
+     "name": "オレンジダイヤモンド", 
+     "lock": true, 
      "price": {
-      "F_coin": 10
+      "gold": 135
      }, 
-     "introduce": "神秘な小屋を開けることができます。", 
+     "introduce": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
      "state": "xin", 
-     "used": false
+     "used": false, 
+     "key": "jingangcuo"
+    }, 
+    "data": {
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         1.0
+        ], 
+        "gaosu": [
+         5, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "sheep": [
+        1, 
+        1.0
+       ], 
+       "quail": [
+        1, 
+        1.0
+       ], 
+       "friesian": [
+        1, 
+        1.0
+       ], 
+       "langshanChook": [
+        1, 
+        1.0
+       ]
+      }
+     }
     }
    }, 
    "shengdanlvniudan": {
@@ -7682,87 +7826,6 @@
        "diwenhongchiyingwu": [
         1, 
         0.08
-       ]
-      }
-     }
-    }
-   }, 
-   "lanseniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "青カプセル", 
-     "introduce": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "heimeigui": [
-        1, 
-        0.03
-       ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "shenqijasmine": [
-        1, 
-        0.02
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "lanzuanshu": [
-        1, 
-        0.1
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }, 
-      "babies": {
-       "chengseqingwa": [
-        1, 
-        0.1
-       ], 
-       "taohuamao": [
-        1, 
-        0.05
        ]
       }
      }
@@ -27082,11 +27145,11 @@
    "mb_7", 
    "crystal", 
    "mb_8", 
-   "chengshuijing", 
    "zong_zi", 
    "mb_6", 
    "hongshuijing", 
    "hammer", 
+   "chengshuijing", 
    "mb_4", 
    "mb_1", 
    "tujiandongwubaoxiang", 
@@ -27112,7 +27175,9 @@
    "lvseniudan", 
    "niangaolihe", 
    "chengseniudan", 
-   "mb_10_key", 
+   "mofayaoshi1", 
+   "mofayaoshi3", 
+   "mofayaoshi2", 
    "guohuatujian", 
    "xinnianziniudan", 
    "hongdan", 
@@ -27132,6 +27197,7 @@
    "lanniudan", 
    "xinbaoxiang", 
    "tujianbaoxiang", 
+   "mb_10_key", 
    "lanseniudan", 
    "zhiwubaoxiang", 
    "huangniudan", 
