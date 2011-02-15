@@ -12432,25 +12432,6 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "magiccardless": {
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック増産カード", 
-    "start_time": 1297404000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1297749600.0, 
-    "goods_description": "", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "shatang": {
     "specific_type": "xin", 
     "product_type": {
@@ -12465,6 +12446,24 @@
     "modify": false, 
     "goods_description": "イベント終了後植えることができます。", 
     "activity_type": "discount"
+   }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "神秘な小屋", 
+    "start_time": 1297735200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日6時間", 
+    "end_time": 1298620800.0, 
+    "goods_description": "動物の小屋の種と高級肥料が入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "songrong": {
     "original_price": {
@@ -12531,23 +12530,22 @@
     "modify": false, 
     "activity_type": "discount"
    }, 
-   "caijiao": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
+   "hammer": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "カラフルなピーマン", 
+    "name": "魔法のカギ", 
+    "start_time": 1297735200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日6時間", 
+    "end_time": 1298620800.0, 
+    "goods_description": "神秘な小屋を開けることができます。", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_new", 
-    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
     "activity_type": "hot_sale"
    }
   }, 
