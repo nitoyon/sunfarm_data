@@ -8172,6 +8172,7 @@
   "ranch": {
    "babies_sort": [
     "None", 
+    "hongcaiximiyingwu", 
     "sangaru", 
     "laohu", 
     "huoji", 
@@ -8285,6 +8286,7 @@
     "kaijiawushi", 
     "chook", 
     "huangtu", 
+    "yalishandayingwu", 
     "huitu", 
     "fentu", 
     "lantu", 
@@ -9736,6 +9738,27 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
+    "yalishandayingwu": {
+     "total_time": 720, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "オオホンセイインコ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "adult_time": 240, 
+     "buy_price": {
+      "gold": 23
+     }, 
+     "seasons": 2, 
+     "young_time": 120, 
+     "experience": 1.31, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 3, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
     "baiyanniao": {
      "total_time": 2340, 
      "sound": {
@@ -9989,6 +10012,27 @@
      "sale_price": 98, 
      "increment_fruit": 25, 
      "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "hongcaiximiyingwu": {
+     "total_time": 720, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ゴシキセイガイインコ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 15
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 5.8, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 60, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
     "shuidi": {
@@ -22218,6 +22262,25 @@
      }, 
      "level_need": 1
     }, 
+    "mianzhihua": {
+     "total_time": 960, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "プルメリアルブラ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 300, 
+     "experience": 2.72, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 238
+     }, 
+     "level_need": 40
+    }, 
     "guayeju": {
      "total_time": 720, 
      "leaflet_time": 90, 
@@ -25644,6 +25707,7 @@
     "dihua", 
     "shuicai", 
     "fengdoucai", 
+    "mianzhihua", 
     "tiancai", 
     "huoyancai", 
     "yangtao", 
