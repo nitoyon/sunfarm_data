@@ -12446,21 +12446,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "niunai": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "ミルク", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "イベント終了後植えることができます。", 
-    "activity_type": "discount"
-   }, 
    "zhiwubaoxiang": {
     "specific_type": "xin", 
     "product_type": {
@@ -12489,8 +12474,26 @@
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "成熟したプルメリアルブラの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+    "goods_description": "成熟したプルメリアの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。販売期間：2月21日14時まで", 
     "activity_type": "discount"
+   }, 
+   "qisehua": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "謎のファイブカラーの花", 
+    "start_time": 1297998000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日5時間", 
+    "end_time": 1298620800.0, 
+    "goods_description": "ファイブカラーの花、あなたが植えているのは何色かな？", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "crystal": {
     "product_type": {
@@ -12530,6 +12533,7 @@
      "num": 38, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -12539,13 +12543,9 @@
      "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日23時間", 
-    "end_time": 1298019600.0, 
-    "goods_description": "", 
-    "start_time": 1297677600.0, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "マツタケ", 
+    "activity_type": "discount"
    }, 
    "yingwubaoxiang": {
     "specific_type": "re", 
