@@ -1717,6 +1717,27 @@
      }
     }
    }, 
+   "mianzhihuabao": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "中にプルメリアルブラの種5個が含まれています", 
+     "name": "プルメリアルブラセット", 
+     "introduce": "中にプルメリアルブラの種5個が含まれています"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "mianzhihua": [
+        5, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "qixilibao": {
     "config": {
      "used": false, 
@@ -27338,6 +27359,7 @@
    "crops_dongguapaigutang_gift", 
    "crops_shuiguojiang_gift", 
    "crops_ganlanyou_gift", 
+   "mianzhihuabao", 
    "items_shiyanfeiliao_gift", 
    "items_dijifeiliao_gift", 
    "qixilibao", 
