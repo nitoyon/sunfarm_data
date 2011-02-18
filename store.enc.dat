@@ -4658,7 +4658,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にプルメリアルブラの種5個が含まれています", 
      "name": "プルメリアルブラ宝箱", 
      "introduce": "中にプルメリアルブラの種5個が含まれています"
@@ -12568,21 +12568,6 @@
     "goods_description": "マツタケ", 
     "activity_type": "discount"
    }, 
-   "yingwubaoxiang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "オウム宝箱", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
-    "activity_type": "discount"
-   }, 
    "yalishandayingwu": {
     "specific_type": "xin", 
     "product_type": {
@@ -12615,6 +12600,21 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "mianzhihuabao": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "プルメリアルブラ宝箱", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "中にプルメリアルブラの種５個が含まれています", 
+    "activity_type": "discount"
    }
   }, 
   "farm": {
