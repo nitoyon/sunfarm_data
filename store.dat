@@ -12446,21 +12446,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "niunai": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u30df\u30eb\u30af", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "\u30a4\u30d9\u30f3\u30c8\u7d42\u4e86\u5f8c\u690d\u3048\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
-    "activity_type": "discount"
-   }, 
    "zhiwubaoxiang": {
     "specific_type": "xin", 
     "product_type": {
@@ -12489,8 +12474,26 @@
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "\u6210\u719f\u3057\u305f\u30d7\u30eb\u30e1\u30ea\u30a2\u30eb\u30d6\u30e9\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
+    "goods_description": "\u6210\u719f\u3057\u305f\u30d7\u30eb\u30e1\u30ea\u30a2\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002\u8ca9\u58f2\u671f\u9593\uff1a2\u670821\u65e514\u6642\u307e\u3067", 
     "activity_type": "discount"
+   }, 
+   "qisehua": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u8b0e\u306e\u30d5\u30a1\u30a4\u30d6\u30ab\u30e9\u30fc\u306e\u82b1", 
+    "start_time": 1297998000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7\u65e55\u6642\u9593", 
+    "end_time": 1298620800.0, 
+    "goods_description": "\u30d5\u30a1\u30a4\u30d6\u30ab\u30e9\u30fc\u306e\u82b1\u3001\u3042\u306a\u305f\u304c\u690d\u3048\u3066\u3044\u308b\u306e\u306f\u4f55\u8272\u304b\u306a\uff1f", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "crystal": {
     "product_type": {
@@ -12530,6 +12533,7 @@
      "num": 38, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -12539,13 +12543,9 @@
      "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3\u65e523\u6642\u9593", 
-    "end_time": 1298019600.0, 
-    "goods_description": "", 
-    "start_time": 1297677600.0, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "\u30de\u30c4\u30bf\u30b1", 
+    "activity_type": "discount"
    }, 
    "yingwubaoxiang": {
     "specific_type": "re", 
