@@ -1717,27 +1717,6 @@
      }
     }
    }, 
-   "mianzhihuabao": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "中にプルメリアルブラの種5個が含まれています", 
-     "name": "プルメリアルブラセット", 
-     "introduce": "中にプルメリアルブラの種5個が含まれています"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "mianzhihua": [
-        5, 
-        1.0
-       ]
-      }
-     }
-    }
-   }, 
    "qixilibao": {
     "config": {
      "used": false, 
@@ -4670,6 +4649,27 @@
          0.3
         ]
        }
+      }
+     }
+    }
+   }, 
+   "mianzhihuabao": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "中にプルメリアルブラの種5個が含まれています", 
+     "name": "プルメリアルブラ宝箱", 
+     "introduce": "中にプルメリアルブラの種5個が含まれています"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "mianzhihua": [
+        5, 
+        1
+       ]
       }
      }
     }
@@ -12569,7 +12569,7 @@
     "activity_type": "discount"
    }, 
    "yingwubaoxiang": {
-    "specific_type": "re", 
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -27359,7 +27359,6 @@
    "crops_dongguapaigutang_gift", 
    "crops_shuiguojiang_gift", 
    "crops_ganlanyou_gift", 
-   "mianzhihuabao", 
    "items_shiyanfeiliao_gift", 
    "items_dijifeiliao_gift", 
    "qixilibao", 
@@ -27407,6 +27406,7 @@
    "bingdiaoshulanlibao", 
    "cangbaotu1", 
    "shengdanhuangniudan", 
+   "mianzhihuabao", 
    "tunianniudanlv", 
    "ziseniudan", 
    "tunianniudanfen", 
