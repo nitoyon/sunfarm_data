@@ -12492,21 +12492,6 @@
     "goods_description": "成熟したプルメリアルブラの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "shatang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "シュガー", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "イベント終了後植えることができます。", 
-    "activity_type": "discount"
-   }, 
    "crystal": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -12524,6 +12509,21 @@
      "type": "gold"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "mianzhihua": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "プルメリアルブラ", 
+    "price": {
+     "num": 238, 
+     "type": "gold"
+    }, 
+    "modify": false, 
+    "goods_description": "", 
+    "activity_type": "discount"
    }, 
    "songrong": {
     "original_price": {
@@ -12562,18 +12562,19 @@
     "goods_description": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
     "activity_type": "discount"
    }, 
-   "lanmeiguixin": {
+   "yalishandayingwu": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "ranch", 
+     "goods_type": "baby"
     }, 
-    "name": "ブルーローズ", 
+    "name": "オオホンセイインコ", 
     "price": {
-     "num": 324, 
+     "num": 23, 
      "type": "gold"
     }, 
     "modify": false, 
+    "goods_description": "", 
     "activity_type": "discount"
    }, 
    "hammer": {
@@ -19158,7 +19159,7 @@
     "qisehua": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "謎のファイブカラーの花", 
      "base_fruit": 25, 
      "fruit_time": 360, 
