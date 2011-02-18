@@ -9741,7 +9741,7 @@
     "yalishandayingwu": {
      "total_time": 720, 
      "harvest_type": 0, 
-     "used": false, 
+     "used": true, 
      "name": "オオホンセイインコ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
@@ -12476,6 +12476,22 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
+   "magiccardless": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック増産カード", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "成熟したプルメリアルブラの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+    "activity_type": "discount"
+   }, 
    "shatang": {
     "specific_type": "xin", 
     "product_type": {
@@ -12555,20 +12571,6 @@
     "name": "ブルーローズ", 
     "price": {
      "num": 324, 
-     "type": "gold"
-    }, 
-    "modify": false, 
-    "activity_type": "discount"
-   }, 
-   "hongmeiguixin": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "レッドローズ", 
-    "price": {
-     "num": 274, 
      "type": "gold"
     }, 
     "modify": false, 
@@ -22415,7 +22417,7 @@
     "mianzhihua": {
      "total_time": 960, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "プルメリアルブラ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
