@@ -1717,6 +1717,27 @@
      }
     }
    }, 
+   "mianzhihuabao": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "\u4e2d\u306b\u30d7\u30eb\u30e1\u30ea\u30a2\u30eb\u30d6\u30e9\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
+     "name": "\u30d7\u30eb\u30e1\u30ea\u30a2\u30eb\u30d6\u30e9\u30bb\u30c3\u30c8", 
+     "introduce": "\u4e2d\u306b\u30d7\u30eb\u30e1\u30ea\u30a2\u30eb\u30d6\u30e9\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "mianzhihua": [
+        5, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "qixilibao": {
     "config": {
      "used": false, 
@@ -27338,6 +27359,7 @@
    "crops_dongguapaigutang_gift", 
    "crops_shuiguojiang_gift", 
    "crops_ganlanyou_gift", 
+   "mianzhihuabao", 
    "items_shiyanfeiliao_gift", 
    "items_dijifeiliao_gift", 
    "qixilibao", 
