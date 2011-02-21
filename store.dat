@@ -12876,6 +12876,25 @@
      }, 
      "level_need": 1
     }, 
+    "daoguajinzhong": {
+     "total_time": 1920, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "\u30d5\u30af\u30b7\u30a2", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 330, 
+     "bloom_time": 390, 
+     "experience": 16.1, 
+     "seasons": 1, 
+     "sale_price": 30, 
+     "increment_fruit": 25, 
+     "leaf_time": 480, 
+     "seed_price": {
+      "gold": 355
+     }, 
+     "level_need": 62
+    }, 
     "lanseshuihulu": {
      "total_time": 720, 
      "leaflet_time": 80, 
@@ -16698,6 +16717,25 @@
      }, 
      "leaf_time": 330, 
      "level_need": 0
+    }, 
+    "tanhua": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u30b2\u30c3\u30ab\u30d3\u30b8\u30f3", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 6.25, 
+     "seasons": 4, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "gold": 598
+     }, 
+     "level_need": 63
     }, 
     "hongshanhu": {
      "total_time": 720, 
@@ -25936,7 +25974,9 @@
     "cigu", 
     "youcai", 
     "xilanhua", 
-    "yaerqin"
+    "yaerqin", 
+    "daoguajinzhong", 
+    "tanhua"
    ], 
    "properties": {
     "dog_food": {
