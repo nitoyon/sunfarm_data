@@ -81,6 +81,49 @@
      }
     }
    }, 
+   "zonghesiliaobao": {
+    "config": {
+     "price": {
+      "F_coin": 150
+     }, 
+     "used": false, 
+     "goods_str": "中にはスーパー飼料6個、高級飼料6個、中級飼料6個、初級飼料6個、マジック飼料6個、ミニマジック飼料6個が含まれています。", 
+     "name": "スロットマルチ飼料セット", 
+     "introduce": "中にはスーパー飼料6個、高級飼料6個、中級飼料6個、初級飼料6個、マジック飼料6個、ミニマジック飼料6個が含まれています。"
+    }, 
+    "data": {
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie1": [
+         6, 
+         1.0
+        ], 
+        "kuaisu": [
+         6, 
+         1.0
+        ], 
+        "gaosu": [
+         6, 
+         1.0
+        ], 
+        "jisu1": [
+         6, 
+         1.0
+        ], 
+        "jisu": [
+         6, 
+         1.0
+        ], 
+        "xunjie": [
+         6, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "huafeibao2": {
     "config": {
      "used": true, 
@@ -488,6 +531,29 @@
          1.0
         ], 
         "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "gaojisiliaobao": {
+    "config": {
+     "price": {
+      "F_coin": 50
+     }, 
+     "used": false, 
+     "goods_str": "中には高級飼料が10個含まれています。", 
+     "name": "スロット高級飼料セット", 
+     "introduce": "中には高級飼料が10個含まれています。"
+    }, 
+    "data": {
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
          10, 
          1.0
         ]
@@ -1423,6 +1489,29 @@
      }
     }
    }, 
+   "gaojifeiliaobao": {
+    "config": {
+     "price": {
+      "F_coin": 50
+     }, 
+     "used": false, 
+     "goods_str": "中には高級肥料が10個含まれています。", 
+     "name": "スロット高級肥料セット", 
+     "introduce": "中には高級肥料が10個含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "siliaobao1": {
     "config": {
      "used": true, 
@@ -1467,6 +1556,39 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "laohujizhongzibao": {
+    "config": {
+     "price": {
+      "F_coin": 70
+     }, 
+     "used": false, 
+     "goods_str": "中にはとうがん兄さんの種、プリムラの種、青のホテイアオイの種、魔法のグラジオラスの種が含まれています", 
+     "name": "レア種セット", 
+     "introduce": "中にはとうがん兄さんの種、プリムラの種、青のホテイアオイの種、魔法のグラジオラスの種が含まれています"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baochunhua": [
+        1, 
+        1.0
+       ], 
+       "lanseshuihulu": [
+        1, 
+        1.0
+       ], 
+       "shenqijianlan": [
+        1, 
+        1.0
+       ], 
+       "dongguashuaige": [
+        1, 
+        1.0
+       ]
       }
      }
     }
@@ -1561,6 +1683,86 @@
      "ranch": {
       "babies": {
        "xiongmaotu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
+   "zonghefeiliaobao": {
+    "config": {
+     "price": {
+      "F_coin": 150
+     }, 
+     "used": false, 
+     "goods_str": "中には高級肥料7個、中級肥料7個、初級肥料7個、マジック肥料7個、ミニマジック肥料10個、増産肥料2個、中級増産肥料2個、高級増産肥料2個が含まれています。", 
+     "name": "スロットマルチ肥料セット", 
+     "introduce": "中には高級肥料7個、中級肥料7個、初級肥料7個、マジック肥料7個、ミニマジック肥料10個、増産肥料2個、中級増産肥料2個、高級増産肥料2個が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         2, 
+         1.0
+        ], 
+        "zengshou3": [
+         2, 
+         1.0
+        ], 
+        "xunjie1": [
+         10, 
+         1.0
+        ], 
+        "gaosu": [
+         7, 
+         1.0
+        ], 
+        "jisu": [
+         7, 
+         1.0
+        ], 
+        "gaoji": [
+         7, 
+         1.0
+        ], 
+        "zengshou": [
+         2, 
+         1.0
+        ], 
+        "xunjie": [
+         7, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "laohujidongwubao": {
+    "config": {
+     "price": {
+      "F_coin": 70
+     }, 
+     "used": false, 
+     "goods_str": "仔ブタミ一個、仔コウノウヤクン一個、仔オカメインコ一個が入っています。", 
+     "name": "レア動物セット", 
+     "introduce": "仔ブタミ一個、仔コウノウヤクン一個、仔オカメインコ一個が入っています。"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "jiweiyingwu": [
+        1, 
+        1.0
+       ], 
+       "haixiuzhu": [
+        1, 
+        1.0
+       ], 
+       "waixingdujiaoshou": [
         1, 
         1.0
        ]
@@ -27375,11 +27577,13 @@
    "crops_suanrulao_gift", 
    "juice_guosuanjinghua_gift", 
    "crops_yingtaodangao_gift", 
+   "zonghesiliaobao", 
    "zhounianbao2", 
    "zhounianbao3", 
    "zhounianbao1", 
    "crops_hongfushi_gift", 
    "guoqinglibao", 
+   "gaojisiliaobao", 
    "crops_xiangkaoyangpai_gift", 
    "crops_tianyuanji_gift", 
    "crops_shishutianfuluo_gift", 
@@ -27407,15 +27611,19 @@
    "crops_qianlima_gift", 
    "crops_jidanbing_gift", 
    "crops_pingguopai_gift", 
+   "gaojifeiliaobao", 
    "crops_jiajiepingguo_gift", 
    "crops_guoguangpingguo_gift", 
+   "laohujizhongzibao", 
    "crops_zhishimianbaogan_gift", 
    "crops_moguniurouchaofan_gift", 
    "crops_hongtang_gift", 
    "yekonglibao", 
    "crops_zhuanjiyindanji_gift", 
    "crops_lajiaoyou_gift", 
+   "zonghefeiliaobao", 
    "crops_fanqieguopu_gift", 
+   "laohujidongwubao", 
    "crops_fanqieroujiangmian_gift", 
    "juice_shucaizhi_gift", 
    "crops_naiyoukaoyumi_gift", 
