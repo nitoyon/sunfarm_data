@@ -26419,6 +26419,16 @@
       "introduce": "友達の作物に使えます。相手に退治されると、普通よりもっと多く収穫できます。"
      }
     }, 
+    "slots_ticket": {
+     "laohujiquan": {
+      "price": {
+       "F_coin": 1
+      }, 
+      "used": false, 
+      "name": "Free Medal", 
+      "introduce": "スロットで使用してください。"
+     }
+    }, 
     "discount_card": {
      "seven_fold": {
       "used": false, 
@@ -27326,6 +27336,9 @@
     ], 
     "cash_coupon": [
      "one_thousand"
+    ], 
+    "slots_ticket": [
+     "laohujiquan"
     ], 
     "discount_card": [
      "seven_fold"
