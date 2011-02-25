@@ -397,7 +397,7 @@
      "used": true, 
      "name": "\u9650\u5b9a\u7a2e\u30bb\u30c3\u30c8", 
      "price": {
-      "F_coin": 500
+      "F_coin": 400
      }, 
      "introduce": "\u9650\u5b9a\u8ca9\u58f2\u3057\u3066\u3044\u305f\u7a2e\u306e\u30bb\u30c3\u30c8\u3002643K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u5927\u592a\u9f13\u3001\u30bf\u30b3\u51e7\u3001\u30c9\u30ad\u30c9\u30ad\u3001\u30ad\u30ad\u3001\u30c9\u30c9\u3001\u30d3\u30c3\u30b0\u30b9\u30a4\u30ab\u3001\u30e1\u30ac\u30d6\u3001\u30b9\u30ea\u30fc\u30ab\u30e9\u30fc\u306e\u30d0\u30e9\u3001\u30ab\u30fc\u30cd\u30fc\u30b7\u30e7\u30f3\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
      "state": "re", 
@@ -12781,6 +12781,28 @@
     "goods_description": "\u30c0\u30ea\u30a2", 
     "activity_type": "discount"
    }, 
+   "zhounianbao4": {
+    "original_price": {
+     "num": 500, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "\u9650\u5b9a\u7a2e\u30bb\u30c3\u30c8", 
+    "price": {
+     "num": 400, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2\u65e515\u6642\u959320\u5206", 
+    "end_time": 1298858400.0, 
+    "goods_description": "\u9650\u5b9a\u8ca9\u58f2\u3057\u3066\u3044\u305f\u7a2e\u306e\u30bb\u30c3\u30c8\u3002643K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u5927\u592a\u9f13\u3001\u30bf\u30b3\u51e7\u3001\u30c9\u30ad\u30c9\u30ad\u3001\u30ad\u30ad\u3001\u30c9\u30c9\u3001\u30d3\u30c3\u30b0\u30b9\u30a4\u30ab\u3001\u30e1\u30ac\u30d6\u3001\u30b9\u30ea\u30fc\u30ab\u30e9\u30fc\u306e\u30d0\u30e9\u3001\u30ab\u30fc\u30cd\u30fc\u30b7\u30e7\u30f3\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
+    "start_time": 1298630400.0, 
+    "activity_type": "hot_sale"
+   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -12843,24 +12865,6 @@
     "modify": false, 
     "goods_description": "\u30c0\u30ea\u30a2", 
     "activity_type": "discount"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "\u9b54\u6cd5\u306e\u30ab\u30ae", 
-    "start_time": 1297735200.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "10\u65e56\u6642\u9593", 
-    "end_time": 1298620800.0, 
-    "goods_description": "\u795e\u79d8\u306a\u5c0f\u5c4b\u3092\u958b\u3051\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
