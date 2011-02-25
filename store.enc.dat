@@ -567,7 +567,7 @@
      "used": true, 
      "name": "お買い得セット", 
      "price": {
-      "F_coin": 1270
+      "F_coin": 700
      }, 
      "introduce": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
      "state": "re", 
@@ -5241,7 +5241,7 @@
      }, 
      "introduce": "神秘な小屋を開けることができます。", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "tunianniudanfen": {
@@ -7937,7 +7937,7 @@
      }, 
      "introduce": "動物の小屋の種と高級肥料が入っています。", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "chengshuijing": {
@@ -12713,6 +12713,28 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "chaozhilibao": {
+    "original_price": {
+     "num": 1270, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "お買い得セット", 
+    "price": {
+     "num": 700, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日16時間", 
+    "end_time": 1299031200.0, 
+    "goods_description": "", 
+    "start_time": 1298628000.0, 
+    "activity_type": "hot_sale"
+   }, 
    "zhiwubaoxiang": {
     "specific_type": "xin", 
     "product_type": {
@@ -12759,24 +12781,6 @@
     "goods_description": "ダリア", 
     "activity_type": "discount"
    }, 
-   "qisehua": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "謎のファイブカラーの花", 
-    "start_time": 1297998000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日5時間", 
-    "end_time": 1298620800.0, 
-    "goods_description": "ファイブカラーの花、あなたが植えているのは何色かな？", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -12792,24 +12796,6 @@
     "goods_description": "ホワイトうさぎ", 
     "activity_type": "discount"
    }, 
-   "crystal": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "神秘な小屋", 
-    "start_time": 1297735200.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "10日6時間", 
-    "end_time": 1298620800.0, 
-    "goods_description": "動物の小屋の種と高級肥料が入っています。", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "niangaolihe": {
     "specific_type": "re", 
     "product_type": {
@@ -12824,6 +12810,24 @@
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。おもち図鑑に収録されます。", 
     "activity_type": "discount"
+   }, 
+   "taohua": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "桃の花", 
+    "start_time": 1298628000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日22時間", 
+    "end_time": 1299052800.0, 
+    "goods_description": "桃の花", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "hebaohua": {
     "specific_type": "xin", 
@@ -19569,7 +19573,7 @@
     "qisehua": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": true, 
+     "used": false, 
      "name": "謎のファイブカラーの花", 
      "base_fruit": 25, 
      "fruit_time": 360, 
@@ -21864,7 +21868,7 @@
     "taohua": {
      "total_time": 960, 
      "leaflet_time": 60, 
-     "used": false, 
+     "used": true, 
      "name": "桃の花", 
      "base_fruit": 25, 
      "fruit_time": 330, 
