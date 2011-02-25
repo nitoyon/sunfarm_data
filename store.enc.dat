@@ -12713,22 +12713,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "El": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "rate_rune"
-    }, 
-    "name": "サンストーン", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "工場でアイテムを製造するときに使うと高級産物の出現率を上げることができます。", 
-    "activity_type": "discount"
-   }, 
    "zhiwubaoxiang": {
     "specific_type": "xin", 
     "product_type": {
@@ -12742,6 +12726,37 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
+   "magiccardless": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック増産カード", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "成熟したダリアとキンチャクソウの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。販売期間：3月1日1５時まで", 
+    "activity_type": "discount"
+   }, 
+   "dalihua": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ダリア", 
+    "price": {
+     "num": 189, 
+     "type": "gold"
+    }, 
+    "modify": false, 
+    "goods_description": "ダリア", 
     "activity_type": "discount"
    }, 
    "qisehua": {
@@ -12795,21 +12810,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "yingwubaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "オウム宝箱", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
-    "activity_type": "discount"
-   }, 
    "niangaolihe": {
     "specific_type": "re", 
     "product_type": {
@@ -12823,6 +12823,21 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。おもち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
+   "hebaohua": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "キンチャクソウ", 
+    "price": {
+     "num": 324, 
+     "type": "gold"
+    }, 
+    "modify": false, 
+    "goods_description": "ダリア", 
     "activity_type": "discount"
    }, 
    "hammer": {
@@ -12842,25 +12857,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "caijiao": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "カラフルなピーマン", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "discount"
    }
   }, 
   "farm": {
