@@ -397,7 +397,7 @@
      "used": true, 
      "name": "限定種セット", 
      "price": {
-      "F_coin": 500
+      "F_coin": 400
      }, 
      "introduce": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
      "state": "re", 
@@ -12781,6 +12781,28 @@
     "goods_description": "ダリア", 
     "activity_type": "discount"
    }, 
+   "zhounianbao4": {
+    "original_price": {
+     "num": 500, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "限定種セット", 
+    "price": {
+     "num": 400, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2日15時間20分", 
+    "end_time": 1298858400.0, 
+    "goods_description": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
+    "start_time": 1298630400.0, 
+    "activity_type": "hot_sale"
+   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -12843,24 +12865,6 @@
     "modify": false, 
     "goods_description": "ダリア", 
     "activity_type": "discount"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "魔法のカギ", 
-    "start_time": 1297735200.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "10日6時間", 
-    "end_time": 1298620800.0, 
-    "goods_description": "神秘な小屋を開けることができます。", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
