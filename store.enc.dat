@@ -5720,7 +5720,7 @@
      "price": {
       "F_coin": 2
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "90%の確率で赤さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類の赤さくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
      "name": "赤さくら玉のカプセル", 
      "introduce": "90%の確率で赤さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類の赤さくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
@@ -5854,7 +5854,7 @@
      "price": {
       "F_coin": 10
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
      "name": "3月の宝箱", 
      "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
@@ -6125,7 +6125,7 @@
      "price": {
       "F_coin": 2
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
      "name": "青さくら玉のカプセル", 
      "introduce": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
@@ -7344,7 +7344,7 @@
      "price": {
       "F_coin": 2
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
      "name": "紫さくら玉のカプセル", 
      "introduce": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
@@ -8214,7 +8214,7 @@
      "price": {
       "F_coin": 2
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "50%の確率で橙さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
      "name": "橙さくら玉のカプセル", 
      "introduce": "50%の確率で橙さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
@@ -8593,7 +8593,7 @@
      "price": {
       "F_coin": 2
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "0.7%の確率で緑さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
      "name": "緑さくら玉のカプセル", 
      "introduce": "0.7%の確率で緑さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
@@ -13210,6 +13210,7 @@
      "num": 1270, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
@@ -13219,28 +13220,27 @@
      "num": 700, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日16時間", 
-    "end_time": 1299031200.0, 
+    "modify": false, 
     "goods_description": "", 
-    "start_time": 1298628000.0, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
-   "zhiwubaoxiang": {
-    "specific_type": "xin", 
+   "yinghuashulanniudan": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "2月の宝箱", 
+    "name": "青さくら玉のカプセル", 
+    "start_time": 1298905080.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日18時間2分", 
+    "end_time": 1299834000.0, 
+    "goods_description": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
     "price": {
-     "num": 10, 
+     "num": 2, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "magiccardless": {
     "specific_type": "re", 
@@ -13258,104 +13258,100 @@
     "goods_description": "成熟したダリアとキンチャクソウの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。販売期間：3月1日1５時まで", 
     "activity_type": "discount"
    }, 
-   "dalihua": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "ダリア", 
-    "price": {
-     "num": 189, 
-     "type": "gold"
-    }, 
-    "modify": false, 
-    "goods_description": "ダリア", 
-    "activity_type": "discount"
-   }, 
-   "zhounianbao4": {
-    "original_price": {
-     "num": 500, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "限定種セット", 
-    "price": {
-     "num": 400, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "2日15時間20分", 
-    "end_time": 1298858400.0, 
-    "goods_description": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
-    "start_time": 1298630400.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "baitu": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "ホワイトうさぎ", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "ホワイトうさぎ", 
-    "activity_type": "discount"
-   }, 
-   "niangaolihe": {
-    "specific_type": "re", 
+   "yinghuashuziniudan": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "鏡もちの箱", 
+    "name": "紫さくら玉のカプセル", 
+    "start_time": 1298905080.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日18時間2分", 
+    "end_time": 1299834000.0, 
+    "goods_description": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
     "price": {
-     "num": 10, 
+     "num": 2, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "yinghuashuhuangniudan": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "橙さくら玉のカプセル", 
+    "price": {
+     "num": 2, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。おもち図鑑に収録されます。", 
+    "goods_description": "50%の確率で橙さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。販売期間：3月11日まで", 
     "activity_type": "discount"
    }, 
    "taohua": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
     "name": "桃の花", 
-    "start_time": 1298628000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日22時間", 
-    "end_time": 1299052800.0, 
-    "goods_description": "桃の花", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "goods_description": "", 
+    "activity_type": "discount"
+   }, 
+   "yinghuashulvniudan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "緑さくら玉のカプセル", 
+    "start_time": 1298905080.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日18時間2分", 
+    "end_time": 1299834000.0, 
+    "goods_description": "0.7%の確率で緑さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
+    "price": {
+     "num": 2, 
+     "type": "F_coin"
+    }, 
     "activity_type": "hot_sale"
    }, 
-   "hebaohua": {
+   "yinghuashuhongniudan": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "キンチャクソウ", 
+    "name": "赤さくら玉のカプセル", 
     "price": {
-     "num": 324, 
-     "type": "gold"
+     "num": 2, 
+     "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "ダリア", 
+    "modify": true, 
+    "goods_description": "90%の確率で赤さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類の赤さくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。販売期間：3月11日まで", 
+    "activity_type": "discount"
+   }, 
+   "kaichunbaoxiang": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "3月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }
   }, 
