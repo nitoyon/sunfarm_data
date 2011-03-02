@@ -567,7 +567,7 @@
      "used": true, 
      "name": "お買い得セット", 
      "price": {
-      "F_coin": 700
+      "F_coin": 1270
      }, 
      "introduce": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
      "state": "re", 
@@ -13205,25 +13205,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "chaozhilibao": {
-    "original_price": {
-     "num": 1270, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "お買い得セット", 
-    "price": {
-     "num": 700, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
-   }, 
    "yinghuashulanniudan": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -13241,6 +13222,21 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "zhiwubaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "2月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
    }, 
    "moshutuzi": {
     "specific_type": "xin", 
