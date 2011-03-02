@@ -13234,6 +13234,21 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "zidingxiang": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ライラック", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "販売期間：3月10日17時まで", 
+    "activity_type": "discount"
+   }, 
    "yinghuashulanniudan": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -13313,21 +13328,6 @@
     }, 
     "modify": true, 
     "goods_description": "50%の確率で橙さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。販売期間：3月11日まで", 
-    "activity_type": "discount"
-   }, 
-   "taohua": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "桃の花", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "", 
     "activity_type": "discount"
    }, 
    "yinghuashulvniudan": {
@@ -22603,7 +22603,7 @@
     "taohua": {
      "total_time": 960, 
      "leaflet_time": 60, 
-     "used": true, 
+     "used": false, 
      "name": "桃の花", 
      "base_fruit": 25, 
      "fruit_time": 330, 
