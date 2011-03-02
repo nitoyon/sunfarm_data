@@ -5182,6 +5182,51 @@
      }
     }
    }, 
+   "zhiwubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": true, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "2月の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "meirenjiao": [
+        1, 
+        0.08
+       ], 
+       "yipinhong": [
+        1, 
+        0.3
+       ], 
+       "guayeju": [
+        1, 
+        0.4
+       ], 
+       "shanchahua": [
+        1, 
+        1.0
+       ], 
+       "lamei": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "crystal": {
     "config": {
      "goods_str": "動物の小屋の種と高級肥料が入っています。", 
@@ -6990,47 +7035,31 @@
      }
     }
    }, 
-   "zhiwubaoxiang": {
+   "xiongmaobaoxiang": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 9999
      }, 
-     "used": true, 
-     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-     "name": "2月の宝箱", 
-     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+     "used": false, 
+     "goods_str": "竹がたくさん、たまにパンダも入ってるよ！", 
+     "name": "パンダの宝箱", 
+     "introduce": "竹がたくさん、たまにパンダも入ってるよ！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "meirenjiao": [
+       "zhuzi": [
         1, 
-        0.08
-       ], 
-       "yipinhong": [
-        1, 
-        0.3
-       ], 
-       "guayeju": [
-        1, 
-        0.4
-       ], 
-       "shanchahua": [
-        1, 
-        1.0
-       ], 
-       "lamei": [
-        1, 
-        0.2
+        1
        ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "xiongmao": [
+        1, 
+        0.07
+       ]
       }
      }
     }
@@ -29058,6 +29087,7 @@
    "hongseniudan", 
    "tunianniudanhong", 
    "xinnianhongniudan", 
+   "xiongmaobaoxiang", 
    "xianhuabaoxiang", 
    "tudoulibao", 
    "huangseniudan", 
