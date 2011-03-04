@@ -7818,7 +7818,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にヤナギの種5個が含まれています", 
      "name": "ヤナギ宝箱", 
      "introduce": "中にヤナギの種5個が含まれています"
@@ -18705,7 +18705,7 @@
     "liushu": {
      "total_time": 480, 
      "leaflet_time": 22, 
-     "used": false, 
+     "used": true, 
      "name": "ヤナギ", 
      "base_fruit": 25, 
      "fruit_time": 152, 
@@ -24916,7 +24916,7 @@
     "houmianbaoshu": {
      "total_time": 480, 
      "leaflet_time": 20, 
-     "used": false, 
+     "used": true, 
      "name": "アフリカバオバブ", 
      "base_fruit": 25, 
      "fruit_time": 155, 
@@ -28210,16 +28210,16 @@
       "increment_percent_max": 1
      }, 
      "magiccardless": {
-      "used": false, 
+      "used": true, 
       "name": "マジック増産カード", 
       "price": {
        "F_coin": 3
       }, 
-      "introduce": "成熟したダリアとキンチャクソウの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。販売期間：3月1日15時まで", 
+      "introduce": "成熟したアフリカバオバブとヤナギの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。販売期間：3月7日1５時まで", 
       "magic_card": true, 
       "include": [
-       "dalihua", 
-       "hebaohua"
+       "liushu", 
+       "houmianbaoshu"
       ], 
       "magic_card_percent": 0.5
      }, 
@@ -28377,7 +28377,7 @@
       "price": {
        "F_coin": 12
       }, 
-      "introduce": "ダリアとキンチャクソウ以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+      "introduce": "アフリカバオバブとヤナギ以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
       "magic_card_percent": 0.5
      }, 
