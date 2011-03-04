@@ -4226,6 +4226,87 @@
      }
     }
    }, 
+   "fudai1": {
+    "config": {
+     "price": {
+      "F_coin": 77
+     }, 
+     "used": false, 
+     "goods_str": "大特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+     "name": "大吉福袋", 
+     "introduce": "大特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "fenshuijingpingguo": [
+        1, 
+        0.5
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        0.1
+       ], 
+       "lvshuijingpingguo": [
+        1, 
+        0.5
+       ], 
+       "fukeluobo": [
+        1, 
+        0.05
+       ], 
+       "qiansuitang": [
+        1, 
+        0.2
+       ], 
+       "binglinghua": [
+        1, 
+        0.6
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "shuidi": [
+        1, 
+        0.5
+       ], 
+       "bailaohu": [
+        1, 
+        0.05
+       ], 
+       "daxiang": [
+        1, 
+        0.3
+       ], 
+       "tianshijiwawa": [
+        1, 
+        0.2
+       ], 
+       "pangxie": [
+        1, 
+        0.3
+       ]
+      }
+     }
+    }
+   }, 
    "qingrenyushou1": {
     "config": {
      "price": {
@@ -5944,42 +6025,64 @@
      }
     }
    }, 
-   "fudai1": {
+   "zong_zi": {
     "config": {
+     "goods_str": "打开粽子固定可得5个急速化肥和一朵风信子，还有几率获得各种珍稀作物花卉和动物宝宝，能开出什么看人品哦", 
+     "name": "スーパー手巻き寿司", 
+     "lock": false, 
      "price": {
-      "F_coin": 77
+      "F_coin": 25
      }, 
+     "state": "xin", 
      "used": false, 
-     "goods_str": "大特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-     "name": "大吉福袋", 
-     "introduce": "大特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
+     "key": "mb_6_key"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "fenshuijingpingguo": [
+       "hyacinth": [
         1, 
-        0.5
+        1.0
        ], 
-       "shenqihuo_long_guo": [
+       "man_tuo_luo": [
+        1, 
+        0.02
+       ], 
+       "hong_zao": [
+        1, 
+        0.15
+       ], 
+       "huo_long_guo": [
+        1, 
+        0.04
+       ], 
+       "ginseng": [
+        1, 
+        0.04
+       ], 
+       "gan_zhe": [
         1, 
         0.1
        ], 
-       "lvshuijingpingguo": [
+       "paradiseflower": [
         1, 
-        0.5
+        0.03
        ], 
-       "fukeluobo": [
+       "nigerseed": [
+        1, 
+        0.04
+       ], 
+       "ma_ti_lian": [
         1, 
         0.05
        ], 
-       "qiansuitang": [
+       "sweetviolet": [
         1, 
-        0.2
+        0.03
        ], 
-       "binglinghua": [
+       "chinesecrabapple": [
         1, 
-        0.6
+        0.06
        ]
       }, 
       "properties": {
@@ -5988,38 +6091,34 @@
          5, 
          1.0
         ], 
-        "zengshou": [
+        "gaosu": [
          5, 
-         1.0
-        ], 
-        "gaoji": [
-         5, 
-         1.0
+         0.05
         ]
        }
       }
      }, 
      "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "common": [
+         2, 
+         1.0
+        ], 
+        "gaosu": [
+         5, 
+         0.05
+        ]
+       }
+      }, 
       "babies": {
-       "shuidi": [
+       "guangxiMaDuck": [
         1, 
-        0.5
+        0.06
        ], 
-       "bailaohu": [
+       "langshanChook": [
         1, 
-        0.05
-       ], 
-       "daxiang": [
-        1, 
-        0.3
-       ], 
-       "tianshijiwawa": [
-        1, 
-        0.2
-       ], 
-       "pangxie": [
-        1, 
-        0.3
+        0.06
        ]
       }
      }
@@ -7714,100 +7813,22 @@
      }
     }
    }, 
-   "zong_zi": {
+   "liushubaoxiang": {
     "config": {
-     "goods_str": "打开粽子固定可得5个急速化肥和一朵风信子，还有几率获得各种珍稀作物花卉和动物宝宝，能开出什么看人品哦", 
-     "name": "スーパー手巻き寿司", 
-     "lock": false, 
      "price": {
-      "F_coin": 25
+      "F_coin": 1
      }, 
-     "state": "xin", 
      "used": false, 
-     "key": "mb_6_key"
+     "goods_str": "中にヤナギの種5個が含まれています", 
+     "name": "ヤナギ宝箱", 
+     "introduce": "中にヤナギの種5個が含まれています"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "hyacinth": [
-        1, 
-        1.0
-       ], 
-       "man_tuo_luo": [
-        1, 
-        0.02
-       ], 
-       "hong_zao": [
-        1, 
-        0.15
-       ], 
-       "huo_long_guo": [
-        1, 
-        0.04
-       ], 
-       "ginseng": [
-        1, 
-        0.04
-       ], 
-       "gan_zhe": [
-        1, 
-        0.1
-       ], 
-       "paradiseflower": [
-        1, 
-        0.03
-       ], 
-       "nigerseed": [
-        1, 
-        0.04
-       ], 
-       "ma_ti_lian": [
-        1, 
-        0.05
-       ], 
-       "sweetviolet": [
-        1, 
-        0.03
-       ], 
-       "chinesecrabapple": [
-        1, 
-        0.06
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         5, 
-         1.0
-        ], 
-        "gaosu": [
-         5, 
-         0.05
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "common": [
-         2, 
-         1.0
-        ], 
-        "gaosu": [
-         5, 
-         0.05
-        ]
-       }
-      }, 
-      "babies": {
-       "guangxiMaDuck": [
-        1, 
-        0.06
-       ], 
-       "langshanChook": [
-        1, 
-        0.06
+       "liushu": [
+        5, 
+        1
        ]
       }
      }
@@ -29468,6 +29489,7 @@
    "mb_1", 
    "tujiandongwubaoxiang", 
    "shengdanziniudan", 
+   "liushubaoxiang", 
    "qingrenyushou1", 
    "cangbaotu2", 
    "qingrenyushou3", 
