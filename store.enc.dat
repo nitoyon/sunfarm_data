@@ -4087,7 +4087,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "中にヤナギの種5個が含まれています", 
      "name": "ヤナギ宝箱", 
      "introduce": "中にヤナギの種5個が含まれています"
@@ -13419,6 +13419,21 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "zidingxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ライラック", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "販売期間：3月10日16時", 
+    "activity_type": "discount"
+   }, 
    "yinghuashulanniudan": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -13436,21 +13451,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "liushubaoxiang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ヤナギ宝箱", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "中にヤナギの種5個が含まれています", 
-    "activity_type": "discount"
    }, 
    "tejiabaoxiang1": {
     "specific_type": "xin", 
@@ -28617,7 +28617,7 @@
        "deadline": 15
       }, 
       "shizizuo": {
-       "used": true, 
+       "used": false, 
        "name": "しし座の大地", 
        "layer_order": 3, 
        "price": {
@@ -28638,7 +28638,7 @@
        "deadline": 7
       }, 
       "chunvzuo": {
-       "used": true, 
+       "used": false, 
        "name": "おとめ座の大地", 
        "layer_order": 3, 
        "price": {
@@ -28704,7 +28704,7 @@
        "deadline": 20
       }, 
       "qixi": {
-       "used": true, 
+       "used": false, 
        "name": "七夕の大地", 
        "layer_order": 3, 
        "price": {
@@ -28781,7 +28781,7 @@
        "deadline": 6
       }, 
       "juxiezuo": {
-       "used": true, 
+       "used": false, 
        "name": "かに座の大地", 
        "layer_order": 3, 
        "price": {
@@ -28920,7 +28920,7 @@
        "deadline": 7
       }, 
       "shizizuo": {
-       "used": true, 
+       "used": false, 
        "name": "草原の石屋", 
        "layer_order": 2, 
        "price": {
@@ -28964,7 +28964,7 @@
        "deadline": 10
       }, 
       "qixi": {
-       "used": true, 
+       "used": false, 
        "name": "七夕の小屋", 
        "layer_order": 2, 
        "price": {
@@ -28997,7 +28997,7 @@
        "deadline": 30
       }, 
       "chunvzuo": {
-       "used": true, 
+       "used": false, 
        "name": "おとめ座の神殿", 
        "layer_order": 2, 
        "price": {
@@ -29105,7 +29105,7 @@
        "deadline": 15
       }, 
       "shizizuo": {
-       "used": true, 
+       "used": false, 
        "name": "しし座の空", 
        "layer_order": 3, 
        "price": {
@@ -29116,7 +29116,7 @@
        "deadline": 15
       }, 
       "chunvzuo": {
-       "used": true, 
+       "used": false, 
        "name": "おとめ座の空", 
        "layer_order": 3, 
        "price": {
@@ -29171,7 +29171,7 @@
        "deadline": 30
       }, 
       "qixi": {
-       "used": true, 
+       "used": false, 
        "name": "七夕の空", 
        "layer_order": 3, 
        "price": {
@@ -29270,7 +29270,7 @@
        "deadline": 20
       }, 
       "juxiezuo": {
-       "used": true, 
+       "used": false, 
        "name": "かに座の空", 
        "layer_order": 3, 
        "price": {
