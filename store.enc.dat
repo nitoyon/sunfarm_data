@@ -4082,226 +4082,22 @@
    }
   }, 
   "mystic_bags": {
-   "tujiandongwubaoxiang": {
-    "config": {
-     "price": {
-      "F_coin": 15
-     }, 
-     "used": true, 
-     "goods_str": "ついに動物の宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いアニマル？達がも入っています！すべてを発見して図鑑を完成しよう！", 
-     "name": "アニマル宝箱", 
-     "introduce": "ついに動物の宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いアニマル？達がも入っています！すべてを発見して図鑑を完成しよう！"
-    }, 
-    "data": {
-     "farm": {
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
-      }, 
-      "babies": {
-       "haixiuzhu": [
-        1, 
-        0.2
-       ], 
-       "qiexiansheng": [
-        1, 
-        0.08
-       ], 
-       "liumanggui": [
-        1, 
-        0.4
-       ], 
-       "keaiciwei": [
-        1, 
-        0.6
-       ], 
-       "baoyashu": [
-        1, 
-        0.3
-       ]
-      }
-     }
-    }
-   }, 
-   "shengdanziniudan": {
+   "liushubaoxiang": {
     "config": {
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
-     "goods_str": "3%の確率で紫の星を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-     "name": "紫のクリスマスカプセル", 
-     "introduce": "3%の確率で紫の星を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+     "used": true, 
+     "goods_str": "中にヤナギの種5個が含まれています", 
+     "name": "ヤナギ宝箱", 
+     "introduce": "中にヤナギの種5個が含まれています"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.03
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "zisexingxingshu": [
-        1, 
-        0.03
-       ], 
-       "shenqiginseng": [
-        1, 
-        0.03
-       ], 
-       "fenghuangzhiyi": [
-        1, 
-        0.03
-       ], 
-       "nirenxiangjiao": [
-        1, 
-        0.03
-       ], 
-       "shenqiparadiseflower": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         1, 
-         0.3
-        ], 
-        "gaoji": [
-         1, 
-         0.05
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "gaosu": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "huangsewoniu": [
-        1, 
-        0.08
-       ], 
-       "jinseqingwa": [
-        1, 
-        0.1
-       ]
-      }
-     }
-    }
-   }, 
-   "fudai1": {
-    "config": {
-     "price": {
-      "F_coin": 77
-     }, 
-     "used": false, 
-     "goods_str": "大特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-     "name": "大吉福袋", 
-     "introduce": "大特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "fenshuijingpingguo": [
-        1, 
-        0.5
-       ], 
-       "shenqihuo_long_guo": [
-        1, 
-        0.1
-       ], 
-       "lvshuijingpingguo": [
-        1, 
-        0.5
-       ], 
-       "fukeluobo": [
-        1, 
-        0.05
-       ], 
-       "qiansuitang": [
-        1, 
-        0.2
-       ], 
-       "binglinghua": [
-        1, 
-        0.6
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         5, 
-         1.0
-        ], 
-        "zengshou": [
-         5, 
-         1.0
-        ], 
-        "gaoji": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "shuidi": [
-        1, 
-        0.5
-       ], 
-       "bailaohu": [
-        1, 
-        0.05
-       ], 
-       "daxiang": [
-        1, 
-        0.3
-       ], 
-       "tianshijiwawa": [
-        1, 
-        0.2
-       ], 
-       "pangxie": [
-        1, 
-        0.3
+       "liushu": [
+        5, 
+        1
        ]
       }
      }
@@ -4354,75 +4150,6 @@
         "common": [
          1, 
          1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "tunianniudanhuang": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "イエローうさツリーのカプセル", 
-     "introduce": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "shenqijianlan": [
-        1, 
-        0.03
-       ], 
-       "niudantujianer_huang": [
-        1, 
-        0.5
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ], 
-       "chashu": [
-        1, 
-        0.2
-       ], 
-       "nirenxianrenzhang": [
-        1, 
-        0.04
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "shuijingputao": [
-        1, 
-        0.2
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie1": [
-         1, 
-         1.0
-        ], 
-        "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
-        ], 
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie": [
-         1, 
-         0.3
         ]
        }
       }
@@ -4486,206 +4213,99 @@
      }
     }
    }, 
-   "jingangcuo": {
-    "config": {
-     "price": {
-      "F_coin": 48
-     }, 
-     "used": false, 
-     "goods_str": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。", 
-     "name": "金鋼ヤスリ", 
-     "introduce": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。"
-    }
-   }, 
-   "tujianbaoxiang": {
+   "qingrenyushou2": {
     "config": {
      "price": {
       "F_coin": 10
      }, 
-     "used": true, 
-     "goods_str": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
-     "name": "花の宝箱", 
-     "introduce": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。"
+     "goods_str": "時が流れても変わらぬ愛", 
+     "introduce": "時が流れても変わらぬ愛", 
+     "name": "七夕の誓い", 
+     "used": false
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "yumeirenhua": [
-        1, 
-        0.3
-       ], 
-       "yulan": [
-        1, 
-        0.3
-       ], 
-       "pugongying": [
-        1, 
-        0.4
-       ], 
-       "fenglingcao": [
-        1, 
-        0.5
-       ], 
-       "shanziteng": [
-        1, 
-        0.25
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "El_bag": {
-    "config": {
-     "price": {
-      "F_coin": 15
-     }, 
-     "used": false, 
-     "goods_str": "中にはサンストーンが二つ含まれています", 
-     "name": "サンストーン宝箱", 
-     "introduce": "中にはサンストーンが二つ含まれています"
-    }, 
-    "data": {
-     "farm": {
-      "properties": {
-       "rate_rune": {
-        "El": [
-         2, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "lvdan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "グリーンカプセル", 
-     "introduce": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "lvzuanhua": [
-        1, 
-        0.95
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "yinghuashuziniudan": {
-    "config": {
-     "price": {
-      "F_coin": 2
-     }, 
-     "used": true, 
-     "goods_str": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
-     "name": "紫さくら玉のカプセル", 
-     "introduce": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "luhui": [
-        1, 
-        0.05
-       ], 
-       "shenqijianlan": [
-        1, 
-        0.05
-       ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "niudanzhiwuzise": [
+       "huangmeigui": [
         1, 
         0.1
        ], 
-       "shenqibian": [
+       "heimeigui": [
         1, 
-        0.03
+        0.1
+       ], 
+       "hongmeigui": [
+        1, 
+        0.1
+       ], 
+       "fenmeigui": [
+        1, 
+        0.1
+       ], 
+       "lanmeigui": [
+        1, 
+        0.1
+       ], 
+       "baimeigui": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.5
+        ], 
+        "common": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "xinbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 12
+     }, 
+     "used": true, 
+     "goods_str": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！", 
+     "name": "大地の宝箱", 
+     "introduce": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirentaigu": [
+        1, 
+        0.01
+       ], 
+       "taigu": [
+        1, 
+        0.02
+       ], 
+       "nanmogu": [
+        1, 
+        0.02
        ], 
        "nvmogu": [
         1, 
         0.02
        ], 
-       "fenghuangzhiyi": [
+       "chashu": [
+        1, 
+        1
+       ], 
+       "zhangyufengzheng": [
         1, 
         0.01
        ], 
-       "shenqijasmine": [
+       "bingyerizhonghua": [
         1, 
-        0.02
-       ], 
-       "shuijingputao": [
-        1, 
-        0.05
-       ], 
-       "fenshuijingpingguo": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "zengshou": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }, 
-      "babies": {
-       "shanxiao": [
-        1, 
-        0.05
-       ], 
-       "xiongmaotu": [
-        1, 
-        0.05
+        1
        ]
       }
      }
@@ -4782,6 +4402,1552 @@
        ]
       }
      }
+    }
+   }, 
+   "huangniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
+     "introduce": " ★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+     "name": "黄カプセル", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.05
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.01
+       ], 
+       "huangkapian": [
+        1, 
+        0.001
+       ], 
+       "nvmogu": [
+        1, 
+        0.01
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "huiguilibao": {
+    "config": {
+     "price": {
+      "F_coin": 125
+     }, 
+     "used": false, 
+     "goods_str": "", 
+     "name": "友情の宝箱", 
+     "introduce": "友情の宝箱"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqinigerseed": [
+        1, 
+        1.0
+       ], 
+       "shenqibian": [
+        1, 
+        0.3
+       ], 
+       "shenqizijin": [
+        1, 
+        0.3
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        1.0
+       ], 
+       "shenqima_ti_lian": [
+        1, 
+        0.3
+       ]
+      }
+     }
+    }
+   }, 
+   "lvseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "90%の確率で緑カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "緑カプセル", 
+     "introduce": "90%の確率で緑カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "lvzuanshu": [
+        1, 
+        0.95
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "mofayaoshi1": {
+    "config": {
+     "price": {
+      "F_coin": 95
+     }, 
+     "used": false, 
+     "goods_str": "中には魔法のカギが10個含まれています。", 
+     "name": "初級のカギ箱", 
+     "introduce": "中には魔法のカギが10個含まれています。"
+    }, 
+    "data": {
+     "common": {
+      "mystic_bags": {
+       "hammer": [
+        10, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
+   "mofayaoshi3": {
+    "config": {
+     "price": {
+      "F_coin": 180
+     }, 
+     "used": false, 
+     "goods_str": "中には魔法のカギが20個含まれています。", 
+     "name": "高級のカギ箱", 
+     "introduce": "中には魔法のカギが20個含まれています。"
+    }, 
+    "data": {
+     "common": {
+      "mystic_bags": {
+       "hammer": [
+        20, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
+   "mofayaoshi2": {
+    "config": {
+     "price": {
+      "F_coin": 140
+     }, 
+     "used": false, 
+     "goods_str": "中には魔法のカギが15個含まれています。", 
+     "name": "中級のカギ箱", 
+     "introduce": "中には魔法のカギが15個含まれています。"
+    }, 
+    "data": {
+     "common": {
+      "mystic_bags": {
+       "hammer": [
+        15, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
+   "shengdanlanniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "10%の確率で青の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
+     "name": "青のクリスマスカプセル", 
+     "introduce": "10%の確率で青の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        0.05
+       ], 
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "hhlyq": [
+        1, 
+        0.05
+       ], 
+       "lansexingxingshu": [
+        1, 
+        0.1
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "landan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "ブルーカプセル", 
+     "introduce": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        0.05
+       ], 
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "hhlyq": [
+        1, 
+        0.05
+       ], 
+       "lanzuanhua": [
+        1, 
+        0.1
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "tudoulibao": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。", 
+     "name": "じゃがいもの箱", 
+     "introduce": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "tudou": [
+        5, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
+   "hushenfu": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "goods_str": "ランダムで新年のスペシャル商品を沢山ゲットできます。試して見ましょう！", 
+     "introduce": "ランダムで新年のスペシャル商品を沢山ゲットできます。試して見ましょう！", 
+     "name": "お守り", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "jiaosong": [
+        1, 
+        0.1
+       ], 
+       "niangao": [
+        1, 
+        0.2
+       ], 
+       "liangmian": [
+        1, 
+        0.5
+       ], 
+       "biandang": [
+        1, 
+        0.15
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.5
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         0.5
+        ]
+       }
+      }, 
+      "babies": {
+       "laohu": [
+        1, 
+        0.2
+       ], 
+       "wushi": [
+        1, 
+        0.2
+       ]
+      }
+     }
+    }
+   }, 
+   "shengdanhongniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
+     "name": "赤のクリスマスカプセル", 
+     "introduce": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "jianfeishu": [
+        1, 
+        0.02
+       ], 
+       "hongsexingxingshu": [
+        1, 
+        0.005
+       ], 
+       "taigu": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.02
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.03
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "longshelan": [
+        1, 
+        0.02
+       ], 
+       "liulian": [
+        1, 
+        0.02
+       ], 
+       "carnation": [
+        1, 
+        0.02
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.02
+       ], 
+       "youli": [
+        1, 
+        0.05
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        0.04
+       ], 
+       "binglinghua": [
+        1, 
+        0.04
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "shudaixiong": [
+        1, 
+        0.03
+       ], 
+       "dalanmao": [
+        1, 
+        0.03
+       ], 
+       "wushi": [
+        1, 
+        0.03
+       ]
+      }
+     }
+    }
+   }, 
+   "shengdanziniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "3%の確率で紫の星を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
+     "name": "紫のクリスマスカプセル", 
+     "introduce": "3%の確率で紫の星を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.03
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "zisexingxingshu": [
+        1, 
+        0.03
+       ], 
+       "shenqiginseng": [
+        1, 
+        0.03
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "huangsewoniu": [
+        1, 
+        0.08
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
+   "hammer": {
+    "config": {
+     "goods_str": "神秘な小屋を開けることができます。", 
+     "name": "魔法のカギ", 
+     "price": {
+      "F_coin": 10
+     }, 
+     "introduce": "神秘な小屋を開けることができます。", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
+   "shengdanhuangniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "50%の確率で黄の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
+     "name": "黄のクリスマスカプセル", 
+     "introduce": "50%の確率で黄の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirenxianrenzhang": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.2
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "shenqinigerseed": [
+        1, 
+        0.03
+       ], 
+       "huangsexingxingshu": [
+        1, 
+        0.5
+       ], 
+       "nirenyali": [
+        1, 
+        0.04
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         1, 
+         1.0
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "crystal": {
+    "config": {
+     "goods_str": "動物の小屋の種と高級肥料が入っています。", 
+     "name": "神秘な小屋", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "動物の小屋の種と高級肥料が入っています。", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
+   "tunianniudanfen": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "3%の確率でピンクうさツリーを獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "ピンクうさツリーのカプセル", 
+     "introduce": "3%の確率でピンクうさツリーを獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "niudantujianer_fen": [
+        1, 
+        0.03
+       ], 
+       "zishuijingpingguo": [
+        1, 
+        0.01
+       ], 
+       "shenqinigerseed": [
+        1, 
+        0.03
+       ], 
+       "qinglvmogu": [
+        1, 
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.03
+       ], 
+       "qiansuitang": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ], 
+        "xunjie1": [
+         1, 
+         0.1
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinsewoniu": [
+        1, 
+        0.08
+       ], 
+       "baitu": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "tejiabaoxiang1": {
+    "config": {
+     "price": {
+      "F_coin": 77
+     }, 
+     "used": true, 
+     "goods_str": "3月特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+     "name": "3月のラッキー箱", 
+     "introduce": "3月特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqijianlan": [
+        1, 
+        0.1
+       ], 
+       "chabei": [
+        1, 
+        0.1
+       ], 
+       "changshouhua": [
+        1, 
+        0.1
+       ], 
+       "chunshihu": [
+        1, 
+        0.5
+       ], 
+       "qiansuitang": [
+        1, 
+        0.4
+       ], 
+       "shenqichinesecrabapple": [
+        1, 
+        0.05
+       ], 
+       "binglinghua": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "shanxiao": [
+        1, 
+        0.2
+       ], 
+       "dalanmao": [
+        1, 
+        0.1
+       ], 
+       "cangshu": [
+        1, 
+        0.3
+       ], 
+       "pangxie": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "tejiabaoxiang2": {
+    "config": {
+     "price": {
+      "F_coin": 21
+     }, 
+     "used": true, 
+     "goods_str": "3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+     "name": "3月のハッピー箱", 
+     "introduce": "3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqiginseng": [
+        1, 
+        0.1
+       ], 
+       "baiqiangwei": [
+        1, 
+        0.2
+       ], 
+       "chunshihu": [
+        1, 
+        0.2
+       ], 
+       "changshouhua": [
+        1, 
+        0.01
+       ], 
+       "jianfeishu": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "shanxiao": [
+        1, 
+        0.1
+       ], 
+       "daxiang": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "xinnianlvniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "90%の確率で緑色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日", 
+     "name": "緑の新年カプセル", 
+     "introduce": "90%の確率で緑色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "lv": [
+        1, 
+        0.95
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "guohuatujian": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": true, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
+     "name": "国花の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "chuju": [
+        1, 
+        0.18
+       ], 
+       "xiangshizhu": [
+        1, 
+        0.4
+       ], 
+       "saibohua": [
+        1, 
+        0.25
+       ], 
+       "xiankelai": [
+        1, 
+        0.3
+       ], 
+       "shicheju": [
+        1, 
+        0.5
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "xianhuabaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 125
+     }, 
+     "used": false, 
+     "goods_str": "さまざまなアイテムが入っています！", 
+     "name": "ギフト箱", 
+     "introduce": "さまざまなアイテムが入っています！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "mhxy": [
+        1, 
+        0.4
+       ], 
+       "rensheng": [
+        1, 
+        0.5
+       ], 
+       "nrx": [
+        1, 
+        0.2
+       ], 
+       "bushe": [
+        1, 
+        0.02
+       ], 
+       "xingfuren": [
+        1, 
+        0.5
+       ]
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "moguijiwawa": [
+        1, 
+        0.05
+       ], 
+       "taohuamao": [
+        1, 
+        1.0
+       ], 
+       "moguizheermao": [
+        1, 
+        0.4
+       ], 
+       "tianshijiwawa": [
+        1, 
+        0.2
+       ], 
+       "tianshizheermao": [
+        1, 
+        0.7
+       ]
+      }
+     }
+    }
+   }, 
+   "huangseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "0.7%の確率で黄カードを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "黄カプセル", 
+     "introduce": "0.7%の確率で黄カードを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.04
+       ], 
+       "huangzuanshu": [
+        1, 
+        0.005
+       ], 
+       "taigu": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.02
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "longshelan": [
+        1, 
+        0.02
+       ], 
+       "liulian": [
+        1, 
+        0.02
+       ], 
+       "carnation": [
+        1, 
+        0.02
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.02
+       ], 
+       "youli": [
+        1, 
+        0.05
+       ], 
+       "jianfeishu": [
+        1, 
+        0.02
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "shudaixiong": [
+        1, 
+        0.03
+       ], 
+       "dalanmao": [
+        1, 
+        0.03
+       ], 
+       "wushi": [
+        1, 
+        0.03
+       ]
+      }
+     }
+    }
+   }, 
+   "zhiwubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": true, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "2月の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "meirenjiao": [
+        1, 
+        0.08
+       ], 
+       "yipinhong": [
+        1, 
+        0.3
+       ], 
+       "guayeju": [
+        1, 
+        0.4
+       ], 
+       "shanchahua": [
+        1, 
+        1.0
+       ], 
+       "lamei": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "yinghuashuhuangniudan": {
+    "config": {
+     "price": {
+      "F_coin": 2
+     }, 
+     "used": true, 
+     "goods_str": "50%の確率で橙さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
+     "name": "橙さくら玉のカプセル", 
+     "introduce": "50%の確率で橙さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqijianlan": [
+        1, 
+        0.03
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.04
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "niudanzhiwuhuangse": [
+        1, 
+        0.5
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         1, 
+         0.3
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "shengdanlvniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "90%の確率で緑の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
+     "name": "緑のクリスマスカプセル", 
+     "introduce": "90%の確率で緑の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "lvsexingxingshu": [
+        1, 
+        0.95
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "test_bag": {
+    "config": {
+     "price": {
+      "F_coin": 15
+     }, 
+     "used": false, 
+     "goods_str": "中にはウルトラ肥料が二つ含まれています。使用すると、作物の成長を一段階UPできます。", 
+     "name": "ウルトラ肥料宝箱", 
+     "introduce": "中にはウルトラ肥料が二つ含まれています。使用すると、作物の成長を一段階UPできます。"
+    }, 
+    "data": {
+     "farm": {
+      "properties": {
+       "fertilizer": {
+        "test": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "xinnianlanniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "青の新年カプセル", 
+     "introduce": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        0.05
+       ], 
+       "lan": [
+        1, 
+        0.1
+       ], 
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "lanshuijingpingguo": [
+        1, 
+        0.03
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "chabei": [
+        1, 
+        0.05
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "taohuamao": [
+        1, 
+        0.05
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
+   "jingangcuo": {
+    "config": {
+     "price": {
+      "F_coin": 48
+     }, 
+     "used": false, 
+     "goods_str": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。", 
+     "name": "金鋼ヤスリ", 
+     "introduce": "ダイヤモンドを割るツールであり、ダイヤモンドを割ってから各種のアイテムが得られます。"
     }
    }, 
    "mb_10": {
@@ -4984,19 +6150,194 @@
      }
     }
    }, 
-   "shengdanhuangniudan": {
+   "tunianniudanlv": {
     "config": {
      "price": {
       "F_coin": 1
      }, 
      "used": false, 
-     "goods_str": "50%の確率で黄の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-     "name": "黄のクリスマスカプセル", 
-     "introduce": "50%の確率で黄の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+     "goods_str": "90%の確率でグリーンうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "グリーンうさツリーのカプセル", 
+     "introduce": "90%の確率でグリーンうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
+       "niudantujianer_lv": [
+        1, 
+        0.95
+       ], 
+       "shenqijianlan": [
+        1, 
+        0.01
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.01
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "shuijingputao": [
+        1, 
+        0.3
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "dangaoquan": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "ケーキの抽選カードが入っています。たまに作物のブッシュドノエルも入っています。", 
+     "name": "ケーキの箱", 
+     "introduce": "ケーキの抽選カードが入っています。たまに作物のブッシュドノエルも入っています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shugendangao": [
+        1, 
+        0.02
+       ]
+      }
+     }, 
+     "common": {
+      "cake_ticket": {
+       "big": [
+        1, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
+   "niangaolihe": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": true, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。おもち図鑑に収録されます。", 
+     "name": "鏡もちの箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。おもち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "niangao5": [
+        1, 
+        1.0
+       ], 
+       "niangao4": [
+        1, 
+        0.08
+       ], 
+       "niangao3": [
+        1, 
+        0.3
+       ], 
+       "niangao2": [
+        1, 
+        0.4
+       ], 
+       "niangao1": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "dujuanbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "中にシャクナゲの種5個が含まれています", 
+     "name": "シャクナゲ宝箱", 
+     "introduce": "中にシャクナゲの種5個が含まれています"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "xiyangdujuan": [
+        5, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
+   "El_bag": {
+    "config": {
+     "price": {
+      "F_coin": 15
+     }, 
+     "used": false, 
+     "goods_str": "中にはサンストーンが二つ含まれています", 
+     "name": "サンストーン宝箱", 
+     "introduce": "中にはサンストーンが二つ含まれています"
+    }, 
+    "data": {
+     "farm": {
+      "properties": {
+       "rate_rune": {
+        "El": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "huangdan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "50%の確率で黄ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "イエローカプセル", 
+     "introduce": "50%の確率で黄ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "huangzuanhua": [
+        1, 
+        0.5
+       ], 
        "nirenxianrenzhang": [
         1, 
         0.03
@@ -5005,21 +6346,849 @@
         1, 
         0.2
        ], 
-       "bingyerizhonghua": [
+       "shuijingputao": [
         1, 
-        0.08
+        0.2
        ], 
        "shenqinigerseed": [
         1, 
         0.03
        ], 
-       "huangsexingxingshu": [
-        1, 
-        0.5
-       ], 
        "nirenyali": [
         1, 
         0.04
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         1, 
+         1.0
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "fudai3": {
+    "config": {
+     "price": {
+      "F_coin": 8
+     }, 
+     "used": false, 
+     "goods_str": "大特価セール！中には10ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+     "name": "ハッピー福袋", 
+     "introduce": "大特価セール！中には10ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "zishuijingpingguo": [
+        1, 
+        0.5
+       ], 
+       "fukeluobo": [
+        1, 
+        0.01
+       ], 
+       "huangshuijingpingguo": [
+        1, 
+        0.3
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "bailaohu": [
+        1, 
+        0.01
+       ], 
+       "pangxie": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
+   "fudai2": {
+    "config": {
+     "price": {
+      "F_coin": 21
+     }, 
+     "used": false, 
+     "goods_str": "大特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+     "name": "ラッキー福袋", 
+     "introduce": "大特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.2
+       ], 
+       "fukeluobo": [
+        1, 
+        0.02
+       ], 
+       "zishuijingpingguo": [
+        1, 
+        0.3
+       ], 
+       "lanshuijingpingguo": [
+        1, 
+        0.5
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "bailaohu": [
+        1, 
+        0.02
+       ], 
+       "daxiang": [
+        1, 
+        0.5
+       ]
+      }
+     }
+    }
+   }, 
+   "fudai1": {
+    "config": {
+     "price": {
+      "F_coin": 77
+     }, 
+     "used": false, 
+     "goods_str": "大特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+     "name": "大吉福袋", 
+     "introduce": "大特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "fenshuijingpingguo": [
+        1, 
+        0.5
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        0.1
+       ], 
+       "lvshuijingpingguo": [
+        1, 
+        0.5
+       ], 
+       "fukeluobo": [
+        1, 
+        0.05
+       ], 
+       "qiansuitang": [
+        1, 
+        0.2
+       ], 
+       "binglinghua": [
+        1, 
+        0.6
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "shuidi": [
+        1, 
+        0.5
+       ], 
+       "bailaohu": [
+        1, 
+        0.05
+       ], 
+       "daxiang": [
+        1, 
+        0.3
+       ], 
+       "tianshijiwawa": [
+        1, 
+        0.2
+       ], 
+       "pangxie": [
+        1, 
+        0.3
+       ]
+      }
+     }
+    }
+   }, 
+   "hongshuijing": {
+    "config": {
+     "goods_str": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开.", 
+     "name": "レッドダイヤモンド", 
+     "lock": true, 
+     "price": {
+      "gold": 135
+     }, 
+     "introduce": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开!", 
+     "state": "xin", 
+     "used": false, 
+     "key": "jingangcuo"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "ginseng": [
+        2, 
+        1.0
+       ], 
+       "cherry": [
+        1, 
+        1.0
+       ], 
+       "longan": [
+        1, 
+        1.0
+       ], 
+       "bian": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "xiongmaobaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 9999
+     }, 
+     "used": false, 
+     "goods_str": "竹がたくさん、たまにパンダも入ってるよ！", 
+     "name": "パンダの宝箱", 
+     "introduce": "竹がたくさん、たまにパンダも入ってるよ！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "zhuzi": [
+        1, 
+        1
+       ]
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "xiongmao": [
+        1, 
+        0.07
+       ]
+      }
+     }
+    }
+   }, 
+   "ziseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "紫カプセル", 
+     "introduce": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.03
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        0.01
+       ], 
+       "zizuanshu": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "huangsewoniu": [
+        1, 
+        0.08
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
+   "mb_10_key": {
+    "config": {
+     "used": false, 
+     "name": "大地のカギ", 
+     "mb": "mb_10", 
+     "price": {
+      "F_coin": 47
+     }, 
+     "introduce": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。", 
+     "goods_str": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。"
+    }
+   }, 
+   "chengshuijing": {
+    "config": {
+     "goods_str": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
+     "name": "オレンジダイヤモンド", 
+     "lock": true, 
+     "price": {
+      "gold": 135
+     }, 
+     "introduce": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
+     "state": "xin", 
+     "used": false, 
+     "key": "jingangcuo"
+    }, 
+    "data": {
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         1.0
+        ], 
+        "gaosu": [
+         5, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "sheep": [
+        1, 
+        1.0
+       ], 
+       "quail": [
+        1, 
+        1.0
+       ], 
+       "friesian": [
+        1, 
+        1.0
+       ], 
+       "langshanChook": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
+   "huolongguolibao": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
+     "name": "ピタヤの箱", 
+     "introduce": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "huolongguoxin": [
+        5, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
+   "hongniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
+     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+     "name": "赤カプセル", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "dongqing": [
+        1, 
+        0.06
+       ], 
+       "niangao": [
+        1, 
+        0.1
+       ], 
+       "taigu": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.01
+       ], 
+       "shenqima_ti_lian": [
+        1, 
+        0.01
+       ], 
+       "carnation": [
+        1, 
+        0.01
+       ], 
+       "hongkapian": [
+        1, 
+        0.2
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "wushi": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
+   "yingwubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 15
+     }, 
+     "used": true, 
+     "goods_str": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
+     "name": "オウム宝箱", 
+     "introduce": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！"
+    }, 
+    "data": {
+     "farm": {
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "jiweiyingwu": [
+        1, 
+        0.6
+       ], 
+       "huitouqinglvyingwu": [
+        1, 
+        0.2
+       ], 
+       "miqieshifengtouyingwu": [
+        1, 
+        0.4
+       ], 
+       "baifengtouyingwu": [
+        1, 
+        0.3
+       ], 
+       "diwenhongchiyingwu": [
+        1, 
+        0.08
+       ]
+      }
+     }
+    }
+   }, 
+   "lianxudenglu": {
+    "config": {
+     "price": {
+      "F_coin": 9999
+     }, 
+     "used": false, 
+     "goods_str": "連続ログインした人だけ入手できる宝箱、何が入っているのかは開けてからのお楽しみ！", 
+     "name": "チャンスの宝箱", 
+     "introduce": "連続ログインした人だけ入手できる宝箱、何が入っているのかは開けてからのお楽しみ！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        1
+       ], 
+       "hulu": [
+        1, 
+        0.2
+       ], 
+       "longshelan": [
+        1, 
+        0.4
+       ], 
+       "liulian": [
+        1, 
+        0.7
+       ], 
+       "lingzhi": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "yinghuashulvniudan": {
+    "config": {
+     "price": {
+      "F_coin": 2
+     }, 
+     "used": true, 
+     "goods_str": "0.7%の確率で緑さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
+     "name": "緑さくら玉のカプセル", 
+     "introduce": "0.7%の確率で緑さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "shenqijianlan": [
+        1, 
+        0.02
+       ], 
+       "yingtao": [
+        1, 
+        0.1
+       ], 
+       "taigu": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.02
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.03
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "carnation": [
+        1, 
+        0.02
+       ], 
+       "niudanzhiwulvse": [
+        1, 
+        0.005
+       ], 
+       "youli": [
+        1, 
+        0.05
+       ], 
+       "nirenboluo": [
+        1, 
+        0.04
+       ], 
+       "jianfeishu": [
+        1, 
+        0.02
+       ], 
+       "binglinghua": [
+        1, 
+        0.04
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ], 
+        "xunjie1": [
+         1, 
+         0.3
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "shanxiao": [
+        1, 
+        0.03
+       ], 
+       "xiongmaotu": [
+        1, 
+        0.03
+       ], 
+       "cangshu": [
+        1, 
+        0.03
+       ]
+      }
+     }
+    }
+   }, 
+   "tujiandongwubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 15
+     }, 
+     "used": true, 
+     "goods_str": "ついに動物の宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いアニマル？達がも入っています！すべてを発見して図鑑を完成しよう！", 
+     "name": "アニマル宝箱", 
+     "introduce": "ついに動物の宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いアニマル？達がも入っています！すべてを発見して図鑑を完成しよう！"
+    }, 
+    "data": {
+     "farm": {
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "haixiuzhu": [
+        1, 
+        0.2
+       ], 
+       "qiexiansheng": [
+        1, 
+        0.08
+       ], 
+       "liumanggui": [
+        1, 
+        0.4
+       ], 
+       "keaiciwei": [
+        1, 
+        0.6
+       ], 
+       "baoyashu": [
+        1, 
+        0.3
+       ]
+      }
+     }
+    }
+   }, 
+   "tunianniudanhuang": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "イエローうさツリーのカプセル", 
+     "introduce": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqijianlan": [
+        1, 
+        0.03
+       ], 
+       "niudantujianer_huang": [
+        1, 
+        0.5
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "nirenxianrenzhang": [
+        1, 
+        0.04
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
        ], 
        "shuijingputao": [
         1, 
@@ -5049,6 +7218,229 @@
          0.3
         ]
        }
+      }
+     }
+    }
+   }, 
+   "yinghuashulanniudan": {
+    "config": {
+     "price": {
+      "F_coin": 2
+     }, 
+     "used": true, 
+     "goods_str": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
+     "name": "青さくら玉のカプセル", 
+     "introduce": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "niudanzhiwulanse": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "zishuijingpingguo": [
+        1, 
+        0.01
+       ], 
+       "shenqinigerseed": [
+        1, 
+        0.03
+       ], 
+       "qinglvmogu": [
+        1, 
+        0.03
+       ], 
+       "chabei": [
+        1, 
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         1
+        ], 
+        "gaosu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinsewoniu": [
+        1, 
+        0.08
+       ], 
+       "baitu": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "lvdan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "グリーンカプセル", 
+     "introduce": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "lvzuanhua": [
+        1, 
+        0.95
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "yinghuashuziniudan": {
+    "config": {
+     "price": {
+      "F_coin": 2
+     }, 
+     "used": true, 
+     "goods_str": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
+     "name": "紫さくら玉のカプセル", 
+     "introduce": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        0.05
+       ], 
+       "shenqijianlan": [
+        1, 
+        0.05
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "niudanzhiwuzise": [
+        1, 
+        0.1
+       ], 
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.01
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "shuijingputao": [
+        1, 
+        0.05
+       ], 
+       "fenshuijingpingguo": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "shanxiao": [
+        1, 
+        0.05
+       ], 
+       "xiongmaotu": [
+        1, 
+        0.05
+       ]
       }
      }
     }
@@ -5116,55 +7508,64 @@
      }
     }
    }, 
-   "tunianniudanlv": {
+   "mb_6": {
     "config": {
+     "goods_str": "使用绿宝石可获得高速饲料20个，急速饲料5个，急速化肥5个,牡丹,马蹄莲,天堂鸟，小麻鸭,莆田黑鸭", 
+     "name": "エメラルド", 
      "price": {
-      "F_coin": 1
+      "F_coin": 95
      }, 
-     "used": false, 
-     "goods_str": "90%の確率でグリーンうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "グリーンうさツリーのカプセル", 
-     "introduce": "90%の確率でグリーンうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "introduce": "使用绿宝石可获得高速饲料20个，急速饲料5个，急速化肥5个,牡丹,马蹄莲,天堂鸟，小麻鸭,莆田黑鸭", 
+     "state": "xin", 
+     "used": false
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "niudantujianer_lv": [
+       "ma_ti_lian": [
         1, 
-        0.95
+        1.0
        ], 
-       "shenqijianlan": [
+       "paradiseflower": [
         1, 
-        0.01
+        1.0
        ], 
-       "fenghuangzhiyi": [
+       "peony": [
         1, 
-        0.01
-       ], 
-       "chashu": [
-        1, 
-        0.2
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "shuijingputao": [
-        1, 
-        0.3
+        1.0
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie1": [
-         1, 
+        "jisu": [
+         5, 
          1.0
         ]
        }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "gaosu": [
+         20, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "guangxiMaDuck": [
+        2, 
+        1.0
+       ], 
+       "putianDuck": [
+        2, 
+        1.0
+       ]
       }
      }
     }
@@ -5327,222 +7728,6 @@
      }
     }
    }, 
-   "zhiwubaoxiang": {
-    "config": {
-     "price": {
-      "F_coin": 10
-     }, 
-     "used": true, 
-     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-     "name": "2月の宝箱", 
-     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "meirenjiao": [
-        1, 
-        0.08
-       ], 
-       "yipinhong": [
-        1, 
-        0.3
-       ], 
-       "guayeju": [
-        1, 
-        0.4
-       ], 
-       "shanchahua": [
-        1, 
-        1.0
-       ], 
-       "lamei": [
-        1, 
-        0.2
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "huolongguolibao": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。", 
-     "name": "ピタヤの箱", 
-     "introduce": "ピタヤの種が5個入っています。畑達人期間内だけの販売です。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "huolongguoxin": [
-        5, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
-   "hammer": {
-    "config": {
-     "goods_str": "神秘な小屋を開けることができます。", 
-     "name": "魔法のカギ", 
-     "price": {
-      "F_coin": 10
-     }, 
-     "introduce": "神秘な小屋を開けることができます。", 
-     "state": "xin", 
-     "used": false
-    }
-   }, 
-   "tunianniudanfen": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "3%の確率でピンクうさツリーを獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "ピンクうさツリーのカプセル", 
-     "introduce": "3%の確率でピンクうさツリーを獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.02
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "niudantujianer_fen": [
-        1, 
-        0.03
-       ], 
-       "zishuijingpingguo": [
-        1, 
-        0.01
-       ], 
-       "shenqinigerseed": [
-        1, 
-        0.03
-       ], 
-       "qinglvmogu": [
-        1, 
-        0.03
-       ], 
-       "nirenxiangjiao": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.03
-       ], 
-       "qiansuitang": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         1, 
-         0.3
-        ], 
-        "gaoji": [
-         1, 
-         0.05
-        ], 
-        "xunjie1": [
-         1, 
-         0.1
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "gaosu": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "jinsewoniu": [
-        1, 
-        0.08
-       ], 
-       "baitu": [
-        1, 
-        0.05
-       ]
-      }
-     }
-    }
-   }, 
-   "huiguilibao": {
-    "config": {
-     "price": {
-      "F_coin": 125
-     }, 
-     "used": false, 
-     "goods_str": "", 
-     "name": "友情の宝箱", 
-     "introduce": "友情の宝箱"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "shenqinigerseed": [
-        1, 
-        1.0
-       ], 
-       "shenqibian": [
-        1, 
-        0.3
-       ], 
-       "shenqizijin": [
-        1, 
-        0.3
-       ], 
-       "shenqiparadiseflower": [
-        1, 
-        1.0
-       ], 
-       "shenqima_ti_lian": [
-        1, 
-        0.3
-       ]
-      }
-     }
-    }
-   }, 
    "mb_8": {
     "config": {
      "goods_str": "固定获得高速化肥40个,急速化肥20个,金鱼草,曼陀罗,紫罗兰,薰衣草,海棠,香堇", 
@@ -5590,259 +7775,6 @@
         ], 
         "gaosu": [
          40, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "tejiabaoxiang1": {
-    "config": {
-     "price": {
-      "F_coin": 77
-     }, 
-     "used": true, 
-     "goods_str": "3月特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-     "name": "3月のラッキー箱", 
-     "introduce": "3月特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "shenqijianlan": [
-        1, 
-        0.1
-       ], 
-       "chabei": [
-        1, 
-        0.1
-       ], 
-       "changshouhua": [
-        1, 
-        0.1
-       ], 
-       "chunshihu": [
-        1, 
-        0.5
-       ], 
-       "qiansuitang": [
-        1, 
-        0.4
-       ], 
-       "shenqichinesecrabapple": [
-        1, 
-        0.05
-       ], 
-       "binglinghua": [
-        1, 
-        0.2
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "zengshou": [
-         5, 
-         1.0
-        ], 
-        "jisu": [
-         5, 
-         1.0
-        ], 
-        "gaoji": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "shanxiao": [
-        1, 
-        0.2
-       ], 
-       "dalanmao": [
-        1, 
-        0.1
-       ], 
-       "cangshu": [
-        1, 
-        0.3
-       ], 
-       "pangxie": [
-        1, 
-        0.05
-       ]
-      }
-     }
-    }
-   }, 
-   "tejiabaoxiang2": {
-    "config": {
-     "price": {
-      "F_coin": 21
-     }, 
-     "used": true, 
-     "goods_str": "3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-     "name": "3月のハッピー箱", 
-     "introduce": "3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "shenqiginseng": [
-        1, 
-        0.1
-       ], 
-       "baiqiangwei": [
-        1, 
-        0.2
-       ], 
-       "chunshihu": [
-        1, 
-        0.2
-       ], 
-       "changshouhua": [
-        1, 
-        0.01
-       ], 
-       "jianfeishu": [
-        1, 
-        0.2
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         5, 
-         1.0
-        ], 
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "shanxiao": [
-        1, 
-        0.1
-       ], 
-       "daxiang": [
-        1, 
-        0.05
-       ]
-      }
-     }
-    }
-   }, 
-   "xinnianlvniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "90%の確率で緑色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日", 
-     "name": "緑の新年カプセル", 
-     "introduce": "90%の確率で緑色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "lv": [
-        1, 
-        0.95
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "lvseniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "90%の確率で緑カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "緑カプセル", 
-     "introduce": "90%の確率で緑カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "lvzuanshu": [
-        1, 
-        0.95
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "niangaolihe": {
-    "config": {
-     "price": {
-      "F_coin": 10
-     }, 
-     "used": true, 
-     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。おもち図鑑に収録されます。", 
-     "name": "鏡もちの箱", 
-     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。おもち図鑑に収録されます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "niangao5": [
-        1, 
-        1.0
-       ], 
-       "niangao4": [
-        1, 
-        0.08
-       ], 
-       "niangao3": [
-        1, 
-        0.3
-       ], 
-       "niangao2": [
-        1, 
-        0.4
-       ], 
-       "niangao1": [
-        1, 
-        0.2
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
          1.0
         ]
        }
@@ -5903,122 +7835,6 @@
         "xunjie1": [
          1, 
          1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "mofayaoshi1": {
-    "config": {
-     "price": {
-      "F_coin": 95
-     }, 
-     "used": false, 
-     "goods_str": "中には魔法のカギが10個含まれています。", 
-     "name": "初級のカギ箱", 
-     "introduce": "中には魔法のカギが10個含まれています。"
-    }, 
-    "data": {
-     "common": {
-      "mystic_bags": {
-       "hammer": [
-        10, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
-   "mofayaoshi3": {
-    "config": {
-     "price": {
-      "F_coin": 180
-     }, 
-     "used": false, 
-     "goods_str": "中には魔法のカギが20個含まれています。", 
-     "name": "高級のカギ箱", 
-     "introduce": "中には魔法のカギが20個含まれています。"
-    }, 
-    "data": {
-     "common": {
-      "mystic_bags": {
-       "hammer": [
-        20, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
-   "mofayaoshi2": {
-    "config": {
-     "price": {
-      "F_coin": 140
-     }, 
-     "used": false, 
-     "goods_str": "中には魔法のカギが15個含まれています。", 
-     "name": "中級のカギ箱", 
-     "introduce": "中には魔法のカギが15個含まれています。"
-    }, 
-    "data": {
-     "common": {
-      "mystic_bags": {
-       "hammer": [
-        15, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
-   "yinghuashuhongniudan": {
-    "config": {
-     "price": {
-      "F_coin": 2
-     }, 
-     "used": true, 
-     "goods_str": "90%の確率で赤さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類の赤さくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
-     "name": "赤さくら玉のカプセル", 
-     "introduce": "90%の確率で赤さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類の赤さくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.01
-       ], 
-       "yingtao": [
-        1, 
-        0.2
-       ], 
-       "taohua": [
-        1, 
-        0.01
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "niudanzhiwuhongse": [
-        1, 
-        0.95
-       ], 
-       "shuijingputao": [
-        1, 
-        0.3
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         1, 
-         1.0
-        ], 
-        "gaosu": [
-         1, 
-         0.15
         ]
        }
       }
@@ -6120,6 +7936,59 @@
         1, 
         0.06
        ]
+      }
+     }
+    }
+   }, 
+   "yinghuashuhongniudan": {
+    "config": {
+     "price": {
+      "F_coin": 2
+     }, 
+     "used": true, 
+     "goods_str": "90%の確率で赤さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類の赤さくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
+     "name": "赤さくら玉のカプセル", 
+     "introduce": "90%の確率で赤さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類の赤さくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.01
+       ], 
+       "yingtao": [
+        1, 
+        0.2
+       ], 
+       "taohua": [
+        1, 
+        0.01
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "niudanzhiwuhongse": [
+        1, 
+        0.95
+       ], 
+       "shuijingputao": [
+        1, 
+        0.3
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         1.0
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ]
+       }
       }
      }
     }
@@ -6282,473 +8151,6 @@
      }
     }
    }, 
-   "shengdanhongniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-     "name": "赤のクリスマスカプセル", 
-     "introduce": "0.7%の確率で赤の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "jianfeishu": [
-        1, 
-        0.02
-       ], 
-       "hongsexingxingshu": [
-        1, 
-        0.005
-       ], 
-       "taigu": [
-        1, 
-        0.02
-       ], 
-       "jiariyecan": [
-        1, 
-        0.02
-       ], 
-       "nirenmangguo": [
-        1, 
-        0.03
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "longshelan": [
-        1, 
-        0.02
-       ], 
-       "liulian": [
-        1, 
-        0.02
-       ], 
-       "carnation": [
-        1, 
-        0.02
-       ], 
-       "fenghuangzhiyi": [
-        1, 
-        0.02
-       ], 
-       "youli": [
-        1, 
-        0.05
-       ], 
-       "shenqihuo_long_guo": [
-        1, 
-        0.04
-       ], 
-       "binglinghua": [
-        1, 
-        0.04
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "shudaixiong": [
-        1, 
-        0.03
-       ], 
-       "dalanmao": [
-        1, 
-        0.03
-       ], 
-       "wushi": [
-        1, 
-        0.03
-       ]
-      }
-     }
-    }
-   }, 
-   "yinghuashulanniudan": {
-    "config": {
-     "price": {
-      "F_coin": 2
-     }, 
-     "used": true, 
-     "goods_str": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
-     "name": "青さくら玉のカプセル", 
-     "introduce": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.02
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "niudanzhiwulanse": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "zishuijingpingguo": [
-        1, 
-        0.01
-       ], 
-       "shenqinigerseed": [
-        1, 
-        0.03
-       ], 
-       "qinglvmogu": [
-        1, 
-        0.03
-       ], 
-       "chabei": [
-        1, 
-        0.03
-       ], 
-       "nirenxiangjiao": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.05
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         1
-        ], 
-        "gaosu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "jinsewoniu": [
-        1, 
-        0.08
-       ], 
-       "baitu": [
-        1, 
-        0.05
-       ]
-      }
-     }
-    }
-   }, 
-   "qingrenyushou2": {
-    "config": {
-     "price": {
-      "F_coin": 10
-     }, 
-     "goods_str": "時が流れても変わらぬ愛", 
-     "introduce": "時が流れても変わらぬ愛", 
-     "name": "七夕の誓い", 
-     "used": false
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "huangmeigui": [
-        1, 
-        0.1
-       ], 
-       "heimeigui": [
-        1, 
-        0.1
-       ], 
-       "hongmeigui": [
-        1, 
-        0.1
-       ], 
-       "fenmeigui": [
-        1, 
-        0.1
-       ], 
-       "lanmeigui": [
-        1, 
-        0.1
-       ], 
-       "baimeigui": [
-        1, 
-        0.1
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.5
-        ], 
-        "common": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "huangdan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "50%の確率で黄ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "イエローカプセル", 
-     "introduce": "50%の確率で黄ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "huangzuanhua": [
-        1, 
-        0.5
-       ], 
-       "nirenxianrenzhang": [
-        1, 
-        0.03
-       ], 
-       "yingtao": [
-        1, 
-        0.2
-       ], 
-       "shuijingputao": [
-        1, 
-        0.2
-       ], 
-       "shenqinigerseed": [
-        1, 
-        0.03
-       ], 
-       "nirenyali": [
-        1, 
-        0.04
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie1": [
-         1, 
-         1.0
-        ], 
-        "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
-        ], 
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "dangaoquan": {
-    "config": {
-     "price": {
-      "F_coin": 10
-     }, 
-     "used": false, 
-     "goods_str": "ケーキの抽選カードが入っています。たまに作物のブッシュドノエルも入っています。", 
-     "name": "ケーキの箱", 
-     "introduce": "ケーキの抽選カードが入っています。たまに作物のブッシュドノエルも入っています。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "shugendangao": [
-        1, 
-        0.02
-       ]
-      }
-     }, 
-     "common": {
-      "cake_ticket": {
-       "big": [
-        1, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
-   "fudai3": {
-    "config": {
-     "price": {
-      "F_coin": 8
-     }, 
-     "used": false, 
-     "goods_str": "大特価セール！中には10ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-     "name": "ハッピー福袋", 
-     "introduce": "大特価セール！中には10ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "zishuijingpingguo": [
-        1, 
-        0.5
-       ], 
-       "fukeluobo": [
-        1, 
-        0.01
-       ], 
-       "huangshuijingpingguo": [
-        1, 
-        0.3
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "bailaohu": [
-        1, 
-        0.01
-       ], 
-       "pangxie": [
-        1, 
-        0.1
-       ]
-      }
-     }
-    }
-   }, 
-   "fudai2": {
-    "config": {
-     "price": {
-      "F_coin": 21
-     }, 
-     "used": false, 
-     "goods_str": "大特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-     "name": "ラッキー福袋", 
-     "introduce": "大特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.2
-       ], 
-       "fukeluobo": [
-        1, 
-        0.02
-       ], 
-       "zishuijingpingguo": [
-        1, 
-        0.3
-       ], 
-       "lanshuijingpingguo": [
-        1, 
-        0.5
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         5, 
-         1.0
-        ], 
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "bailaohu": [
-        1, 
-        0.02
-       ], 
-       "daxiang": [
-        1, 
-        0.5
-       ]
-      }
-     }
-    }
-   }, 
    "xinnianziniudan": {
     "config": {
      "price": {
@@ -6838,139 +8240,6 @@
         1, 
         0.08
        ]
-      }
-     }
-    }
-   }, 
-   "test_bag": {
-    "config": {
-     "price": {
-      "F_coin": 15
-     }, 
-     "used": false, 
-     "goods_str": "中にはウルトラ肥料が二つ含まれています。使用すると、作物の成長を一段階UPできます。", 
-     "name": "ウルトラ肥料宝箱", 
-     "introduce": "中にはウルトラ肥料が二つ含まれています。使用すると、作物の成長を一段階UPできます。"
-    }, 
-    "data": {
-     "farm": {
-      "properties": {
-       "fertilizer": {
-        "test": [
-         2, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "mb_6": {
-    "config": {
-     "goods_str": "使用绿宝石可获得高速饲料20个，急速饲料5个，急速化肥5个,牡丹,马蹄莲,天堂鸟，小麻鸭,莆田黑鸭", 
-     "name": "エメラルド", 
-     "price": {
-      "F_coin": 95
-     }, 
-     "introduce": "使用绿宝石可获得高速饲料20个，急速饲料5个，急速化肥5个,牡丹,马蹄莲,天堂鸟，小麻鸭,莆田黑鸭", 
-     "state": "xin", 
-     "used": false
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "ma_ti_lian": [
-        1, 
-        1.0
-       ], 
-       "paradiseflower": [
-        1, 
-        1.0
-       ], 
-       "peony": [
-        1, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         5, 
-         1.0
-        ], 
-        "gaosu": [
-         20, 
-         1.0
-        ]
-       }
-      }, 
-      "babies": {
-       "guangxiMaDuck": [
-        2, 
-        1.0
-       ], 
-       "putianDuck": [
-        2, 
-        1.0
-       ]
-      }
-     }
-    }
-   }, 
-   "hongshuijing": {
-    "config": {
-     "goods_str": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开.", 
-     "name": "レッドダイヤモンド", 
-     "lock": true, 
-     "price": {
-      "gold": 135
-     }, 
-     "introduce": "内含彼岸花1朵,人参2个,樱桃1个,桂圆1个,急速化肥5个,7小时化肥1个!包裹存有\"金刚锉\"时才能打开!", 
-     "state": "xin", 
-     "used": false, 
-     "key": "jingangcuo"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "ginseng": [
-        2, 
-        1.0
-       ], 
-       "cherry": [
-        1, 
-        1.0
-       ], 
-       "longan": [
-        1, 
-        1.0
-       ], 
-       "bian": [
-        1, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         5, 
-         1.0
-        ], 
-        "gaoji": [
-         1, 
-         1.0
-        ]
-       }
       }
      }
     }
@@ -7197,250 +8466,6 @@
      }
     }
    }, 
-   "xiongmaobaoxiang": {
-    "config": {
-     "price": {
-      "F_coin": 9999
-     }, 
-     "used": false, 
-     "goods_str": "竹がたくさん、たまにパンダも入ってるよ！", 
-     "name": "パンダの宝箱", 
-     "introduce": "竹がたくさん、たまにパンダも入ってるよ！"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "zhuzi": [
-        1, 
-        1
-       ]
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "xiongmao": [
-        1, 
-        0.07
-       ]
-      }
-     }
-    }
-   }, 
-   "landan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "ブルーカプセル", 
-     "introduce": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "luhui": [
-        1, 
-        0.05
-       ], 
-       "heimeigui": [
-        1, 
-        0.03
-       ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "shenqijasmine": [
-        1, 
-        0.02
-       ], 
-       "shenqibian": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "hhlyq": [
-        1, 
-        0.05
-       ], 
-       "lanzuanhua": [
-        1, 
-        0.1
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }, 
-      "babies": {
-       "chengseqingwa": [
-        1, 
-        0.1
-       ], 
-       "taohuamao": [
-        1, 
-        0.05
-       ]
-      }
-     }
-    }
-   }, 
-   "tudoulibao": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。", 
-     "name": "じゃがいもの箱", 
-     "introduce": "じゃがいもの箱が5個入っています。畑達人期間内だけの販売です。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "tudou": [
-        5, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
-   "shengdanlanniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "10%の確率で青の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-     "name": "青のクリスマスカプセル", 
-     "introduce": "10%の確率で青の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "luhui": [
-        1, 
-        0.05
-       ], 
-       "heimeigui": [
-        1, 
-        0.03
-       ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "shenqijasmine": [
-        1, 
-        0.02
-       ], 
-       "shenqibian": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "hhlyq": [
-        1, 
-        0.05
-       ], 
-       "lansexingxingshu": [
-        1, 
-        0.1
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }, 
-      "babies": {
-       "chengseqingwa": [
-        1, 
-        0.1
-       ], 
-       "taohuamao": [
-        1, 
-        0.05
-       ]
-      }
-     }
-    }
-   }, 
    "lanniudan": {
     "config": {
      "price": {
@@ -7522,327 +8547,60 @@
      }
     }
    }, 
-   "xinbaoxiang": {
+   "tujianbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 12
+      "F_coin": 10
      }, 
      "used": true, 
-     "goods_str": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！", 
-     "name": "大地の宝箱", 
-     "introduce": "太鼓、アイスプラン、キノコ達が入っています。何が出るかは開けてからのお楽しみ！"
+     "goods_str": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
+     "name": "花の宝箱", 
+     "introduce": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "nirentaigu": [
+       "yumeirenhua": [
         1, 
-        0.01
+        0.3
        ], 
-       "taigu": [
+       "yulan": [
         1, 
-        0.02
+        0.3
        ], 
-       "nanmogu": [
+       "pugongying": [
         1, 
-        0.02
+        0.4
        ], 
-       "nvmogu": [
+       "fenglingcao": [
         1, 
-        0.02
+        0.5
        ], 
-       "chashu": [
+       "shanziteng": [
         1, 
-        1
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
-   "ziseniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "紫カプセル", 
-     "introduce": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.02
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "fenghuangzhiyi": [
-        1, 
-        0.03
-       ], 
-       "shenqiparadiseflower": [
-        1, 
-        0.01
-       ], 
-       "zizuanshu": [
-        1, 
-        0.03
+        0.25
        ]
       }, 
       "properties": {
        "fertilizer": {
         "xunjie": [
-         1, 
-         0.3
-        ], 
-        "gaoji": [
-         1, 
-         0.05
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "gaosu": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "huangsewoniu": [
-        1, 
-        0.08
-       ], 
-       "jinseqingwa": [
-        1, 
-        0.1
-       ]
-      }
-     }
-    }
-   }, 
-   "mb_10_key": {
-    "config": {
-     "used": false, 
-     "name": "大地のカギ", 
-     "mb": "mb_10", 
-     "price": {
-      "F_coin": 47
-     }, 
-     "introduce": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。", 
-     "goods_str": "大地の宝箱を開けられるカギです。宝箱とカギのどちらかを使えば、二つとも消えます。"
-    }
-   }, 
-   "huangseniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "0.7%の確率で黄カードを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "黄カプセル", 
-     "introduce": "0.7%の確率で黄カードを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.04
-       ], 
-       "huangzuanshu": [
-        1, 
-        0.005
-       ], 
-       "taigu": [
-        1, 
-        0.02
-       ], 
-       "jiariyecan": [
-        1, 
-        0.02
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "longshelan": [
-        1, 
-        0.02
-       ], 
-       "liulian": [
-        1, 
-        0.02
-       ], 
-       "carnation": [
-        1, 
-        0.02
-       ], 
-       "fenghuangzhiyi": [
-        1, 
-        0.02
-       ], 
-       "youli": [
-        1, 
-        0.05
-       ], 
-       "jianfeishu": [
-        1, 
-        0.02
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "shudaixiong": [
-        1, 
-        0.03
-       ], 
-       "dalanmao": [
-        1, 
-        0.03
-       ], 
-       "wushi": [
-        1, 
-        0.03
-       ]
-      }
-     }
-    }
-   }, 
-   "chengshuijing": {
-    "config": {
-     "goods_str": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
-     "name": "オレンジダイヤモンド", 
-     "lock": true, 
-     "price": {
-      "gold": 135
-     }, 
-     "introduce": "内含鹌鹑1只,黑白花牛1只,绵羊1只,狼山鸡1只, 高速饲料5桶,急速饲料1桶!包裹存有\"金刚锉\"时才能打开!", 
-     "state": "xin", 
-     "used": false, 
-     "key": "jingangcuo"
-    }, 
-    "data": {
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         1.0
-        ], 
-        "gaosu": [
          5, 
          1.0
         ]
        }
-      }, 
-      "babies": {
-       "sheep": [
-        1, 
-        1.0
-       ], 
-       "quail": [
-        1, 
-        1.0
-       ], 
-       "friesian": [
-        1, 
-        1.0
-       ], 
-       "langshanChook": [
-        1, 
-        1.0
-       ]
       }
      }
     }
    }, 
-   "liushubaoxiang": {
+   "lanseniudan": {
     "config": {
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
-     "goods_str": "中にヤナギの種5個が含まれています", 
-     "name": "ヤナギ宝箱", 
-     "introduce": "中にヤナギの種5個が含まれています"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "liushu": [
-        5, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
-   "huangniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
-     "introduce": " ★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-     "name": "黄カプセル", 
-     "used": false
+     "used": false, 
+     "goods_str": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "青カプセル", 
+     "introduce": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
@@ -7853,19 +8611,23 @@
        ], 
        "yingtao": [
         1, 
-        0.05
+        0.08
        ], 
        "shenqijasmine": [
         1, 
-        0.01
+        0.02
        ], 
-       "huangkapian": [
+       "jiariyecan": [
         1, 
-        0.001
+        0.01
        ], 
        "nvmogu": [
         1, 
-        0.01
+        0.02
+       ], 
+       "lanzuanshu": [
+        1, 
+        0.1
        ], 
        "zhangyufengzheng": [
         1, 
@@ -7884,7 +8646,7 @@
         ], 
         "xunjie1": [
          1, 
-         1
+         1.0
         ]
        }
       }
@@ -7907,112 +8669,6 @@
         1, 
         0.05
        ]
-      }
-     }
-    }
-   }, 
-   "hushenfu": {
-    "config": {
-     "price": {
-      "F_coin": 10
-     }, 
-     "goods_str": "ランダムで新年のスペシャル商品を沢山ゲットできます。試して見ましょう！", 
-     "introduce": "ランダムで新年のスペシャル商品を沢山ゲットできます。試して見ましょう！", 
-     "name": "お守り", 
-     "used": false
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "jiaosong": [
-        1, 
-        0.1
-       ], 
-       "niangao": [
-        1, 
-        0.2
-       ], 
-       "liangmian": [
-        1, 
-        0.5
-       ], 
-       "biandang": [
-        1, 
-        0.15
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.5
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "gaosu": [
-         1, 
-         0.5
-        ]
-       }
-      }, 
-      "babies": {
-       "laohu": [
-        1, 
-        0.2
-       ], 
-       "wushi": [
-        1, 
-        0.2
-       ]
-      }
-     }
-    }
-   }, 
-   "guohuatujian": {
-    "config": {
-     "price": {
-      "F_coin": 10
-     }, 
-     "used": true, 
-     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。", 
-     "name": "国花の宝箱", 
-     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで国花シリーズの花のどれかが入手できます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "chuju": [
-        1, 
-        0.18
-       ], 
-       "xiangshizhu": [
-        1, 
-        0.4
-       ], 
-       "saibohua": [
-        1, 
-        0.25
-       ], 
-       "xiankelai": [
-        1, 
-        0.3
-       ], 
-       "shicheju": [
-        1, 
-        0.5
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
       }
      }
     }
@@ -8298,325 +8954,6 @@
      }
     }
    }, 
-   "hongniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
-     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-     "name": "赤カプセル", 
-     "used": false
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "dongqing": [
-        1, 
-        0.06
-       ], 
-       "niangao": [
-        1, 
-        0.1
-       ], 
-       "taigu": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.01
-       ], 
-       "shenqima_ti_lian": [
-        1, 
-        0.01
-       ], 
-       "carnation": [
-        1, 
-        0.01
-       ], 
-       "hongkapian": [
-        1, 
-        0.2
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ], 
-        "xunjie1": [
-         1, 
-         1
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "wushi": [
-        1, 
-        0.1
-       ]
-      }
-     }
-    }
-   }, 
-   "yinghuashuhuangniudan": {
-    "config": {
-     "price": {
-      "F_coin": 2
-     }, 
-     "used": true, 
-     "goods_str": "50%の確率で橙さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
-     "name": "橙さくら玉のカプセル", 
-     "introduce": "50%の確率で橙さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "shenqijianlan": [
-        1, 
-        0.03
-       ], 
-       "nirenmangguo": [
-        1, 
-        0.04
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ], 
-       "niudanzhiwuhuangse": [
-        1, 
-        0.5
-       ], 
-       "chashu": [
-        1, 
-        0.2
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "shuijingputao": [
-        1, 
-        0.2
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie1": [
-         1, 
-         0.3
-        ], 
-        "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
-        ], 
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "shengdanlvniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "90%の確率で緑の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-     "name": "緑のクリスマスカプセル", 
-     "introduce": "90%の確率で緑の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "lvsexingxingshu": [
-        1, 
-        0.95
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
-   "yingwubaoxiang": {
-    "config": {
-     "price": {
-      "F_coin": 15
-     }, 
-     "used": true, 
-     "goods_str": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
-     "name": "オウム宝箱", 
-     "introduce": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！"
-    }, 
-    "data": {
-     "farm": {
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
-      }, 
-      "babies": {
-       "jiweiyingwu": [
-        1, 
-        0.6
-       ], 
-       "huitouqinglvyingwu": [
-        1, 
-        0.2
-       ], 
-       "miqieshifengtouyingwu": [
-        1, 
-        0.4
-       ], 
-       "baifengtouyingwu": [
-        1, 
-        0.3
-       ], 
-       "diwenhongchiyingwu": [
-        1, 
-        0.08
-       ]
-      }
-     }
-    }
-   }, 
-   "lanseniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "青カプセル", 
-     "introduce": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "heimeigui": [
-        1, 
-        0.03
-       ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "shenqijasmine": [
-        1, 
-        0.02
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "lanzuanshu": [
-        1, 
-        0.1
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }, 
-      "babies": {
-       "chengseqingwa": [
-        1, 
-        0.1
-       ], 
-       "taohuamao": [
-        1, 
-        0.05
-       ]
-      }
-     }
-    }
-   }, 
    "hongseniudan": {
     "config": {
      "price": {
@@ -8666,310 +9003,6 @@
          0.3
         ]
        }
-      }
-     }
-    }
-   }, 
-   "lianxudenglu": {
-    "config": {
-     "price": {
-      "F_coin": 9999
-     }, 
-     "used": false, 
-     "goods_str": "連続ログインした人だけ入手できる宝箱、何が入っているのかは開けてからのお楽しみ！", 
-     "name": "チャンスの宝箱", 
-     "introduce": "連続ログインした人だけ入手できる宝箱、何が入っているのかは開けてからのお楽しみ！"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "luhui": [
-        1, 
-        1
-       ], 
-       "hulu": [
-        1, 
-        0.2
-       ], 
-       "longshelan": [
-        1, 
-        0.4
-       ], 
-       "liulian": [
-        1, 
-        0.7
-       ], 
-       "lingzhi": [
-        1, 
-        0.05
-       ]
-      }
-     }
-    }
-   }, 
-   "xianhuabaoxiang": {
-    "config": {
-     "price": {
-      "F_coin": 125
-     }, 
-     "used": false, 
-     "goods_str": "さまざまなアイテムが入っています！", 
-     "name": "ギフト箱", 
-     "introduce": "さまざまなアイテムが入っています！"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "mhxy": [
-        1, 
-        0.4
-       ], 
-       "rensheng": [
-        1, 
-        0.5
-       ], 
-       "nrx": [
-        1, 
-        0.2
-       ], 
-       "bushe": [
-        1, 
-        0.02
-       ], 
-       "xingfuren": [
-        1, 
-        0.5
-       ]
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "moguijiwawa": [
-        1, 
-        0.05
-       ], 
-       "taohuamao": [
-        1, 
-        1.0
-       ], 
-       "moguizheermao": [
-        1, 
-        0.4
-       ], 
-       "tianshijiwawa": [
-        1, 
-        0.2
-       ], 
-       "tianshizheermao": [
-        1, 
-        0.7
-       ]
-      }
-     }
-    }
-   }, 
-   "yinghuashulvniudan": {
-    "config": {
-     "price": {
-      "F_coin": 2
-     }, 
-     "used": true, 
-     "goods_str": "0.7%の確率で緑さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
-     "name": "緑さくら玉のカプセル", 
-     "introduce": "0.7%の確率で緑さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.02
-       ], 
-       "shenqijianlan": [
-        1, 
-        0.02
-       ], 
-       "yingtao": [
-        1, 
-        0.1
-       ], 
-       "taigu": [
-        1, 
-        0.02
-       ], 
-       "jiariyecan": [
-        1, 
-        0.02
-       ], 
-       "nirenmangguo": [
-        1, 
-        0.03
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "carnation": [
-        1, 
-        0.02
-       ], 
-       "niudanzhiwulvse": [
-        1, 
-        0.005
-       ], 
-       "youli": [
-        1, 
-        0.05
-       ], 
-       "nirenboluo": [
-        1, 
-        0.04
-       ], 
-       "jianfeishu": [
-        1, 
-        0.02
-       ], 
-       "binglinghua": [
-        1, 
-        0.04
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "xunjie": [
-         1, 
-         1.0
-        ], 
-        "xunjie1": [
-         1, 
-         0.3
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "shanxiao": [
-        1, 
-        0.03
-       ], 
-       "xiongmaotu": [
-        1, 
-        0.03
-       ], 
-       "cangshu": [
-        1, 
-        0.03
-       ]
-      }
-     }
-    }
-   }, 
-   "xinnianlanniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "青の新年カプセル", 
-     "introduce": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "luhui": [
-        1, 
-        0.05
-       ], 
-       "lan": [
-        1, 
-        0.1
-       ], 
-       "heimeigui": [
-        1, 
-        0.03
-       ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "shenqijasmine": [
-        1, 
-        0.02
-       ], 
-       "shenqibian": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "lanshuijingpingguo": [
-        1, 
-        0.03
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "chabei": [
-        1, 
-        0.05
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }, 
-      "babies": {
-       "taohuamao": [
-        1, 
-        0.05
-       ], 
-       "jinseqingwa": [
-        1, 
-        0.1
-       ]
       }
      }
     }
@@ -9061,18 +9094,6 @@
        ]
       }
      }
-    }
-   }, 
-   "crystal": {
-    "config": {
-     "goods_str": "動物の小屋の種と高級肥料が入っています。", 
-     "name": "神秘な小屋", 
-     "price": {
-      "gold": 100
-     }, 
-     "introduce": "動物の小屋の種と高級肥料が入っています。", 
-     "state": "xin", 
-     "used": false
     }
    }
   }, 
@@ -18820,6 +18841,25 @@
      "leaf_time": 504, 
      "level_need": 20
     }, 
+    "xiyangdujuan": {
+     "total_time": 630, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "シャクナゲ", 
+     "base_fruit": 25, 
+     "fruit_time": 150, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 3.5, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 4
+     }, 
+     "level_need": 0
+    }, 
     "youmaicai": {
      "total_time": 1645, 
      "leaflet_time": 329, 
@@ -27338,6 +27378,7 @@
     "yingsu", 
     "bailuhua", 
     "shiliu", 
+    "xiyangdujuan", 
     "wanshengwushi", 
     "springorchid", 
     "bailu", 
@@ -29480,91 +29521,92 @@
    "crops_boluogulaorou_gift"
   ], 
   "mystic_bags_sort": [
-   "chengshuijing", 
+   "hammer", 
+   "crystal", 
    "mb_10", 
    "love_stone", 
+   "hongshuijing", 
+   "chengshuijing", 
+   "mb_6", 
    "mb_7", 
    "mb_8", 
    "zong_zi", 
-   "mb_6", 
-   "hongshuijing", 
-   "hammer", 
-   "crystal", 
    "mb_4", 
    "mb_1", 
-   "tujiandongwubaoxiang", 
-   "shengdanziniudan", 
-   "liushubaoxiang", 
    "qingrenyushou1", 
-   "cangbaotu2", 
    "qingrenyushou3", 
-   "cangbaotu3", 
-   "yinghuashulanniudan", 
-   "lvdan", 
-   "yinghuashuziniudan", 
+   "qingrenyushou2", 
+   "xinbaoxiang", 
    "tunianniudanlan", 
-   "tejiabaoxiang1", 
-   "bingdiaoshulanlibao", 
-   "cangbaotu1", 
-   "shengdanhuangniudan", 
-   "mianzhihuabao", 
-   "tunianniudanlv", 
-   "huolongguolibao", 
-   "ziseniudan", 
-   "tunianniudanfen", 
+   "huangniudan", 
    "huiguilibao", 
-   "dangaoquan", 
-   "tejiabaoxiang2", 
-   "xinnianlvniudan", 
-   "landan", 
-   "jingangcuo", 
    "lvseniudan", 
-   "niangaolihe", 
-   "chengseniudan", 
    "mofayaoshi1", 
    "mofayaoshi3", 
    "mofayaoshi2", 
-   "yinghuashuhongniudan", 
-   "xinnianziniudan", 
-   "kaichunbaoxiang", 
-   "hongdan", 
-   "El_bag", 
-   "qingrenyushou2", 
-   "huangdan", 
    "shengdanlanniudan", 
+   "landan", 
+   "tudoulibao", 
+   "hushenfu", 
+   "shengdanhongniudan", 
+   "shengdanziniudan", 
+   "shengdanhuangniudan", 
+   "tunianniudanfen", 
+   "tejiabaoxiang1", 
+   "tejiabaoxiang2", 
+   "xinnianlvniudan", 
+   "guohuatujian", 
+   "xianhuabaoxiang", 
+   "huangseniudan", 
+   "liushubaoxiang", 
+   "yinghuashuhuangniudan", 
+   "shengdanlvniudan", 
+   "zhiwubaoxiang", 
+   "xinnianlanniudan", 
+   "jingangcuo", 
+   "bingdiaoshulanlibao", 
+   "xinnianhuangniudan", 
+   "tunianniudanlv", 
+   "dangaoquan", 
+   "niangaolihe", 
+   "dujuanbaoxiang", 
+   "yinghuashulanniudan", 
+   "huangdan", 
    "fudai3", 
    "fudai2", 
    "fudai1", 
-   "hongseniudan", 
+   "xiongmaobaoxiang", 
+   "ziseniudan", 
+   "mb_10_key", 
+   "huolongguolibao", 
+   "hongniudan", 
+   "yingwubaoxiang", 
+   "lianxudenglu", 
+   "yinghuashulvniudan", 
+   "tujiandongwubaoxiang", 
+   "tunianniudanhuang", 
+   "El_bag", 
+   "lvdan", 
+   "yinghuashuziniudan", 
+   "mianzhihuabao", 
+   "chengseniudan", 
+   "yinghuashuhongniudan", 
+   "kaichunbaoxiang", 
+   "hongdan", 
+   "xinnianziniudan", 
+   "test_bag", 
    "tunianniudanhong", 
    "xinnianhongniudan", 
-   "xiongmaobaoxiang", 
-   "xianhuabaoxiang", 
-   "tudoulibao", 
-   "huangseniudan", 
    "lanniudan", 
-   "xinbaoxiang", 
    "tujianbaoxiang", 
-   "mb_10_key", 
    "lanseniudan", 
-   "zhiwubaoxiang", 
-   "huangniudan", 
-   "hushenfu", 
-   "guohuatujian", 
    "cangbaotu4", 
-   "tunianniudanhuang", 
-   "xinnianhuangniudan", 
+   "cangbaotu2", 
+   "cangbaotu3", 
    "shenqibaotu", 
-   "zidan", 
-   "hongniudan", 
-   "yinghuashuhuangniudan", 
-   "shengdanlvniudan", 
-   "yingwubaoxiang", 
-   "test_bag", 
-   "lianxudenglu", 
-   "xinnianlanniudan", 
-   "yinghuashulvniudan", 
-   "shengdanhongniudan"
+   "cangbaotu1", 
+   "hongseniudan", 
+   "zidan"
   ]
  }, 
  "method": "store.get"
