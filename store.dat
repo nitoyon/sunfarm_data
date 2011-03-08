@@ -6795,6 +6795,27 @@
      }
     }
    }, 
+   "shenqijindaihuabaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "\u4e2d\u306b\u9b54\u6cd5\u306e\u30d0\u30ea\u30a8\u30ac\u30fc\u30bf\u306e\u7a2e2\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
+     "name": "\u9b54\u6cd5\u306e\u30d0\u30ea\u30a8\u30ac\u30fc\u30bf\u5b9d\u7bb1", 
+     "introduce": "\u4e2d\u306b\u9b54\u6cd5\u306e\u30d0\u30ea\u30a8\u30ac\u30fc\u30bf\u306e\u7a2e2\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqijindaihua": [
+        2, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "huolongguolibao": {
     "config": {
      "price": {
@@ -29610,6 +29631,7 @@
    "xiongmaobaoxiang", 
    "ziseniudan", 
    "mb_10_key", 
+   "shenqijindaihuabaoxiang", 
    "huolongguolibao", 
    "hongniudan", 
    "yingwubaoxiang", 
