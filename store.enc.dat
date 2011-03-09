@@ -13536,6 +13536,25 @@
     "goods_description": "50%の確率で橙さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。販売期間：3月11日まで", 
     "activity_type": "discount"
    }, 
+   "bosiju": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "コスモス", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "販売期間：3月18日18時", 
+    "activity_type": "discount"
+   }, 
    "yinghuashulvniudan": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -13567,21 +13586,6 @@
     }, 
     "modify": true, 
     "goods_description": "90%の確率で赤さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類の赤さくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。販売期間：3月11日まで", 
-    "activity_type": "discount"
-   }, 
-   "kaichunbaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "3月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }
   }, 
