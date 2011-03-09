@@ -6282,7 +6282,7 @@
      "price": {
       "F_coin": 10
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "中にシャクナゲの種5個が含まれています", 
      "name": "シャクナゲ宝箱", 
      "introduce": "中にシャクナゲの種5個が含まれています"
@@ -28841,6 +28841,7 @@
        "experience": 550
       }, 
       "xiangsi": {
+       "used": false, 
        "name": "オオムラサキ", 
        "layer_order": 5, 
        "price": {
@@ -28947,6 +28948,7 @@
        "deadline": 15
       }, 
       "autumn": {
+       "used": false, 
        "name": "金色の秋", 
        "layer_order": 3, 
        "price": {
