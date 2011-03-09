@@ -14083,6 +14083,25 @@
      "leaf_time": 145, 
      "level_need": 1
     }, 
+    "xiyangdujuan": {
+     "total_time": 630, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "シャクナゲ", 
+     "base_fruit": 25, 
+     "fruit_time": 150, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 3.5, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 4
+     }, 
+     "level_need": 0
+    }, 
     "lankapian": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -14474,6 +14493,25 @@
       "gold": 60
      }, 
      "level_need": 5
+    }, 
+    "xihongshicaomei": {
+     "total_time": 570, 
+     "leaflet_time": 30, 
+     "used": false, 
+     "name": "トマトいちご", 
+     "base_fruit": 25, 
+     "fruit_time": 210, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 90
+     }, 
+     "level_need": 1
     }, 
     "dianshisong": {
      "total_time": 720, 
@@ -16279,6 +16317,25 @@
      }, 
      "leaf_time": 330, 
      "level_need": 0
+    }, 
+    "taoxincaomei": {
+     "total_time": 570, 
+     "leaflet_time": 30, 
+     "used": false, 
+     "name": "ハートいちご", 
+     "base_fruit": 25, 
+     "fruit_time": 210, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 90
+     }, 
+     "level_need": 1
     }, 
     "helanguoqishu": {
      "total_time": 1650, 
@@ -18959,24 +19016,25 @@
      "leaf_time": 504, 
      "level_need": 20
     }, 
-    "xiyangdujuan": {
-     "total_time": 630, 
-     "leaflet_time": 150, 
-     "used": false, 
-     "name": "シャクナゲ", 
+    "gan_zhe": {
+     "total_time": 3395, 
+     "leaflet_time": 679, 
+     "used": true, 
+     "name": "シュガーケーン", 
      "base_fruit": 25, 
-     "fruit_time": 150, 
-     "sprout_time": 30, 
-     "bloom_time": 150, 
-     "experience": 3.5, 
-     "seasons": 1, 
-     "sale_price": 7, 
+     "fruit_time": 1018, 
+     "recipe": "レシピに使えます：\n黒砂糖", 
+     "sprout_time": 339, 
+     "bloom_time": 680, 
+     "experience": 6.28, 
+     "seasons": 2, 
+     "sale_price": 22, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 679, 
      "seed_price": {
-      "F_coin": 4
+      "gold": 413
      }, 
-     "level_need": 0
+     "level_need": 25
     }, 
     "youmaicai": {
      "total_time": 1645, 
@@ -19968,25 +20026,24 @@
      }, 
      "level_need": 1
     }, 
-    "gan_zhe": {
-     "total_time": 3395, 
-     "leaflet_time": 679, 
-     "used": true, 
-     "name": "シュガーケーン", 
+    "caomeita": {
+     "total_time": 520, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "いちごツリー", 
      "base_fruit": 25, 
-     "fruit_time": 1018, 
-     "recipe": "レシピに使えます：\n黒砂糖", 
-     "sprout_time": 339, 
-     "bloom_time": 680, 
-     "experience": 6.28, 
-     "seasons": 2, 
-     "sale_price": 22, 
+     "fruit_time": 180, 
+     "sprout_time": 10, 
+     "bloom_time": 150, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 10, 
      "increment_fruit": 25, 
-     "leaf_time": 679, 
+     "leaf_time": 120, 
      "seed_price": {
-      "gold": 413
+      "F_coin": 9999
      }, 
-     "level_need": 25
+     "level_need": 1
     }, 
     "yrjjz": {
      "total_time": 900, 
@@ -25067,6 +25124,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "lanmeicaomei": {
+     "total_time": 570, 
+     "leaflet_time": 30, 
+     "used": false, 
+     "name": "ベリーいちご", 
+     "base_fruit": 25, 
+     "fruit_time": 210, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 90
+     }, 
+     "level_need": 1
+    }, 
     "zhangyushao": {
      "total_time": 1430, 
      "leaflet_time": 120, 
@@ -26123,6 +26199,25 @@
      }, 
      "level_need": 1
     }, 
+    "chabeimaotouying": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "フクロウカップ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "diwanghua": {
      "total_time": 720, 
      "leaflet_time": 90, 
@@ -26596,6 +26691,25 @@
       "F_coin": 25
      }, 
      "level_need": 0
+    }, 
+    "cuiyucaomei": {
+     "total_time": 570, 
+     "leaflet_time": 30, 
+     "used": false, 
+     "name": "マーブルいちご", 
+     "base_fruit": 25, 
+     "fruit_time": 210, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 90
+     }, 
+     "level_need": 1
     }, 
     "hongdoulianrubaobing": {
      "total_time": 720, 
@@ -27326,22 +27440,22 @@
      "leaf_time": 330, 
      "level_need": 53
     }, 
-    "chabeimaotouying": {
-     "total_time": 1080, 
-     "leaflet_time": 90, 
+    "yingtaocaomei": {
+     "total_time": 570, 
+     "leaflet_time": 30, 
      "used": false, 
-     "name": "フクロウカップ", 
+     "name": "チェリーいちご", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 9, 
+     "fruit_time": 210, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4, 
      "seasons": 1, 
-     "sale_price": 13, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 240, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 90
      }, 
      "level_need": 1
     }, 
@@ -27720,6 +27834,7 @@
     "biglobe", 
     "shengdanhongxin", 
     "hongqiansuitang", 
+    "caomeita", 
     "maoronggou", 
     "maorongtuzi", 
     "nvhaijietu", 
@@ -27799,12 +27914,14 @@
     "xibanyaguoqishu", 
     "qiaokelidangaoxin", 
     "siluofakeguoqishu", 
+    "yingtaocaomei", 
     "chashu", 
     "qiaokelidangao", 
     "zhiliguoqishu", 
     "rulao", 
     "bayinhe3", 
     "hezuoluobo", 
+    "xihongshicaomei", 
     "deguoguoqishu", 
     "qinglvmogu", 
     "daoguahaigui", 
@@ -27813,6 +27930,7 @@
     "maoliu", 
     "bagong", 
     "hanbao", 
+    "taoxincaomei", 
     "maotouying", 
     "huangyou", 
     "balaguiguoqishu", 
@@ -27839,11 +27957,13 @@
     "lanqiansuitang", 
     "xinxingqiaokeli", 
     "baochunhua", 
+    "lanmeicaomei", 
     "renshenyeye", 
     "yimihua", 
     "poyusan", 
     "youtong", 
     "putaoyaguoqishu", 
+    "cuiyucaomei", 
     "niunai", 
     "moxigeguojishu", 
     "heidoucha", 
