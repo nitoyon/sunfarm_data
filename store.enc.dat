@@ -13978,6 +13978,27 @@
      }, 
      "level_need": 1
     }, 
+    "bosiju": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "コスモス", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "introduce": "コスモス、あなたが植えているのは何色かな？", 
+     "is_random": true, 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "leaf_time": 240, 
+     "level_need": 1
+    }, 
     "zijin": {
      "total_time": 1020, 
      "leaflet_time": 153, 
@@ -15236,6 +15257,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "bosijuboss": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "カラフルなコスモス", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "nanmogu": {
      "total_time": 1080, 
      "leaflet_time": 150, 
@@ -15408,6 +15448,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 1
+     }, 
+     "level_need": 1
+    }, 
+    "bosijuhong": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "レッドコスモス", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -16726,24 +16785,24 @@
      }, 
      "level_need": 0
     }, 
-    "youchaixueren": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "スノーポストマン", 
+    "hongmeiguixin": {
+     "total_time": 480, 
+     "leaflet_time": 20, 
+     "used": true, 
+     "name": "レッドローズ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 13, 
-     "seasons": 1, 
-     "sale_price": 16, 
+     "fruit_time": 155, 
+     "sprout_time": 15, 
+     "bloom_time": 145, 
+     "experience": 0.89, 
+     "seasons": 4, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 145, 
      "seed_price": {
-      "F_coin": 25
+      "gold": 274
      }, 
-     "level_need": 0
+     "level_need": 15
     }, 
     "ganlan": {
      "total_time": 1814, 
@@ -17818,6 +17877,25 @@
      }, 
      "level_need": 0
     }, 
+    "bosijulan": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ブルーコスモス", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "shenqizijin": {
      "total_time": 2592, 
      "leaflet_time": 192, 
@@ -18435,6 +18513,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 1
+     }, 
+     "level_need": 1
+    }, 
+    "bosijucheng": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "オレンジコスモス", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -21464,6 +21561,25 @@
       "gold": 1
      }, 
      "level_need": 0
+    }, 
+    "bosijuhuang": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "イエローコスモス", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
     }, 
     "wanshengwushi": {
      "total_time": 1410, 
@@ -25529,24 +25645,24 @@
      }, 
      "level_need": 1
     }, 
-    "hongmeiguixin": {
-     "total_time": 480, 
-     "leaflet_time": 20, 
-     "used": true, 
-     "name": "レッドローズ", 
+    "youchaixueren": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "スノーポストマン", 
      "base_fruit": 25, 
-     "fruit_time": 155, 
-     "sprout_time": 15, 
-     "bloom_time": 145, 
-     "experience": 0.89, 
-     "seasons": 4, 
-     "sale_price": 4, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
      "increment_fruit": 25, 
-     "leaf_time": 145, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 274
+      "F_coin": 25
      }, 
-     "level_need": 15
+     "level_need": 0
     }, 
     "lvluo": {
      "total_time": 1410, 
@@ -25836,6 +25952,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 1
+     }, 
+     "level_need": 1
+    }, 
+    "bosijuzi": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "パープルコスモス", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -27619,6 +27754,7 @@
     "shuijingputao", 
     "meiguoguoqishu", 
     "agentingguoqishu", 
+    "bosijuhuang", 
     "huangshuijingpingguo", 
     "huanglajiao", 
     "qisehuahuang", 
@@ -27630,9 +27766,11 @@
     "guibaihe", 
     "helanguoqishu", 
     "ganlanyou", 
+    "bosijucheng", 
     "milaoshuhua", 
     "fengshuxin", 
     "baobing", 
+    "bosijuboss", 
     "caijiao", 
     "changshouhua", 
     "jianaguoqishu", 
@@ -27650,6 +27788,7 @@
     "qisehualv", 
     "fanqiejiang", 
     "chunshihu", 
+    "bosiju", 
     "baishanhu", 
     "shanchahua", 
     "chabeihouzi", 
@@ -27678,6 +27817,7 @@
     "huangyou", 
     "balaguiguoqishu", 
     "chabeixiongmao", 
+    "bosijuzi", 
     "zishuijingpingguo", 
     "qisehuazi", 
     "daxueren", 
@@ -27693,6 +27833,7 @@
     "jindaihua", 
     "shugendangao", 
     "baxiguoqishu", 
+    "bosijulan", 
     "lanshuijingpingguo", 
     "qisehualan", 
     "lanqiansuitang", 
@@ -27713,6 +27854,7 @@
     "bayinhe1", 
     "lajiaoyou", 
     "jiutouniao", 
+    "bosijuhong", 
     "qisehuahong", 
     "lamei", 
     "ergongjicilang", 
