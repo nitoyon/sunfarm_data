@@ -22279,24 +22279,24 @@
      }, 
      "level_need": 1
     }, 
-    "moguniurouchaofan": {
-     "total_time": 890, 
-     "leaflet_time": 120, 
+    "zhihe": {
+     "total_time": 480, 
+     "leaflet_time": 40, 
      "used": false, 
-     "name": "きのこチャーハン", 
+     "name": "折り鶴", 
      "base_fruit": 25, 
-     "fruit_time": 220, 
-     "sprout_time": 130, 
-     "bloom_time": 210, 
-     "experience": 11.19, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "fruit_time": 152, 
+     "sprout_time": 2, 
+     "bloom_time": 148, 
+     "experience": 1.08, 
+     "seasons": 2, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 138, 
      "seed_price": {
-      "gold": 410
+      "gold": 324
      }, 
-     "level_need": 1
+     "level_need": 30
     }, 
     "yipinhong": {
      "total_time": 1080, 
@@ -24302,6 +24302,25 @@
      }, 
      "leaf_time": 150, 
      "level_need": 0
+    }, 
+    "moguniurouchaofan": {
+     "total_time": 890, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "きのこチャーハン", 
+     "base_fruit": 25, 
+     "fruit_time": 220, 
+     "sprout_time": 130, 
+     "bloom_time": 210, 
+     "experience": 11.19, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "gold": 410
+     }, 
+     "level_need": 1
     }, 
     "lanzuanhua": {
      "total_time": 1440, 
@@ -28512,6 +28531,7 @@
     "huo_long_guo", 
     "lanmeiguixin", 
     "liushu", 
+    "zhihe", 
     "dongguaxin", 
     "donggua", 
     "xingzixin", 
