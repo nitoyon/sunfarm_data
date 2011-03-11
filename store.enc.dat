@@ -4829,6 +4829,27 @@
      }
     }
    }, 
+   "caiyecaobaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "中にコリウスの種5個が含まれています", 
+     "name": "コリウス宝箱", 
+     "introduce": "中にコリウスの種5個が含まれています"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "caiyecao": [
+        5, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "hushenfu": {
     "config": {
      "price": {
@@ -30048,6 +30069,7 @@
    "shengdanlanniudan", 
    "landan", 
    "tudoulibao", 
+   "caiyecaobaoxiang", 
    "hushenfu", 
    "shengdanhongniudan", 
    "shengdanziniudan", 
