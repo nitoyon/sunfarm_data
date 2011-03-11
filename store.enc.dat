@@ -4834,7 +4834,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にコリウスの種5個が含まれています", 
      "name": "コリウス宝箱", 
      "introduce": "中にコリウスの種5個が含まれています"
@@ -13462,37 +13462,38 @@
   ], 
   "hot_sale": {
    "yinghuashulanniudan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "青さくら玉のカプセル", 
-    "start_time": 1298905080.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "10日18時間2分", 
-    "end_time": 1299834000.0, 
-    "goods_description": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
-    "price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "tejiabaoxiang1": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "3月のラッキー箱", 
+    "name": "青さくら玉のカプセル", 
     "price": {
-     "num": 77, 
+     "num": 2, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "3月特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
+    "goods_description": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。販売期間：3月11日まで", 
     "activity_type": "discount"
+   }, 
+   "magiccardless": {
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック増産カード", 
+    "start_time": 1299816000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日4時間", 
+    "end_time": 1300176000.0, 
+    "goods_description": "", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "tejiabaoxiang2": {
     "specific_type": "xin", 
@@ -13594,19 +13595,19 @@
     "goods_description": "90%の確率で赤さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類の赤さくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。販売期間：3月11日まで", 
     "activity_type": "discount"
    }, 
-   "kaichunbaoxiang": {
+   "caiyecaobaoxiang": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "3月の宝箱", 
+    "name": "コリウス宝箱", 
     "price": {
-     "num": 10, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "goods_description": "中にコリウスの種5個が含まれています", 
     "activity_type": "discount"
    }
   }, 
@@ -25477,7 +25478,7 @@
     "caiyecao": {
      "total_time": 480, 
      "leaflet_time": 22, 
-     "used": false, 
+     "used": true, 
      "name": "コリウス", 
      "base_fruit": 25, 
      "fruit_time": 152, 
@@ -25496,7 +25497,7 @@
     "xiaosheju": {
      "total_time": 480, 
      "leaflet_time": 20, 
-     "used": false, 
+     "used": true, 
      "name": "シマイズハハコ", 
      "base_fruit": 25, 
      "fruit_time": 155, 
@@ -28776,16 +28777,16 @@
       "increment_percent_max": 1
      }, 
      "magiccardless": {
-      "used": false, 
+      "used": true, 
       "name": "マジック増産カード", 
       "price": {
        "F_coin": 3
       }, 
-      "introduce": "成熟したアフリカバオバブとヤナギの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+      "introduce": "成熟したシマイズハハコとコリウスの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
       "magic_card": true, 
       "include": [
-       "liushu", 
-       "houmianbaoshu"
+       "xiaosheju", 
+       "caiyecao"
       ], 
       "magic_card_percent": 0.5
      }, 
@@ -28943,7 +28944,7 @@
       "price": {
        "F_coin": 12
       }, 
-      "introduce": "アフリカバオバブとヤナギ以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+      "introduce": "シマイズハハコとコリウス以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
       "magic_card_percent": 0.5
      }, 
