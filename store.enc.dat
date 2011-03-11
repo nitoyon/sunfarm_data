@@ -13461,39 +13461,50 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "yinghuashulanniudan": {
+   "zhiwubaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "2月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
+   "moshutuzi": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "マジシャン兎ちゃん", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "マジシャン兎ちゃん", 
+    "activity_type": "discount"
+   }, 
+   "tejiabaoxiang1": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "青さくら玉のカプセル", 
+    "name": "3月のラッキー箱", 
     "price": {
-     "num": 2, 
+     "num": 77, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。販売期間：3月11日まで", 
+    "goods_description": "3月特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
     "activity_type": "discount"
-   }, 
-   "magiccardless": {
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック増産カード", 
-    "start_time": 1299816000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日4時間", 
-    "end_time": 1300176000.0, 
-    "goods_description": "", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "tejiabaoxiang2": {
     "specific_type": "xin", 
@@ -13508,36 +13519,6 @@
     }, 
     "modify": true, 
     "goods_description": "3月特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
-    "activity_type": "discount"
-   }, 
-   "yinghuashuziniudan": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "紫さくら玉のカプセル", 
-    "price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。販売期間：3月11日まで", 
-    "activity_type": "discount"
-   }, 
-   "yinghuashuhuangniudan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "橙さくら玉のカプセル", 
-    "price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "50%の確率で橙さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。販売期間：3月11日まで", 
     "activity_type": "discount"
    }, 
    "bosiju": {
@@ -13562,39 +13543,6 @@
     "start_time": 1299650400.0, 
     "activity_type": "hot_sale"
    }, 
-   "yinghuashulvniudan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "緑さくら玉のカプセル", 
-    "start_time": 1298905080.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "10日18時間2分", 
-    "end_time": 1299834000.0, 
-    "goods_description": "0.7%の確率で緑さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
-    "price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "yinghuashuhongniudan": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "赤さくら玉のカプセル", 
-    "price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "90%の確率で赤さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類の赤さくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。販売期間：3月11日まで", 
-    "activity_type": "discount"
-   }, 
    "caiyecaobaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -13608,6 +13556,63 @@
     }, 
     "modify": true, 
     "goods_description": "中にコリウスの種5個が含まれています", 
+    "activity_type": "discount"
+   }, 
+   "xunjie": {
+    "original_price": {
+     "num": 2, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック肥料", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1300438800.0, 
+    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "start_time": 1299834000.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "magiccardless": {
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック増産カード", 
+    "start_time": 1299816000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日4時間", 
+    "end_time": 1300176000.0, 
+    "goods_description": "", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "kaichunbaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "3月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }
   }, 
