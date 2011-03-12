@@ -636,6 +636,115 @@
      }
     }
    }, 
+   "yinghuashulibao": {
+    "config": {
+     "price": {
+      "F_coin": 800
+     }, 
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、800Kコイン相当のアイテムだけでなく、畜産のカニも入っているよ！さっそく開けてみよう！", 
+     "name": "コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、800Kコイン相当のアイテムだけでなく、畜産のカニも入っているよ！さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "tianshanxuelian": [
+        1, 
+        1.0
+       ], 
+       "nirenxianrenzhang": [
+        1, 
+        1.0
+       ], 
+       "nirentaigu": [
+        1, 
+        1.0
+       ], 
+       "dongguashuaige": [
+        1, 
+        1.0
+       ], 
+       "changchunhua": [
+        1, 
+        1.0
+       ], 
+       "lanshuijingpingguo": [
+        1, 
+        1.0
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        1.0
+       ], 
+       "hongbailanmeigui": [
+        1, 
+        1.0
+       ], 
+       "chabei": [
+        5, 
+        1.0
+       ], 
+       "yuanxigua": [
+        1, 
+        1.0
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        1.0
+       ], 
+       "xiankelai": [
+        1, 
+        1.0
+       ], 
+       "qiansuitang": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "test": [
+         5, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "pangxie": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "hesuilibao": {
     "config": {
      "price": {
@@ -3344,23 +3453,31 @@
      }
     }
    }, 
-   "juice_miganzhi_gift": {
+   "crops_boluogulaorou_gift": {
     "config": {
-     "goods_str": "蜜柑\t\t\t\t\t\t\t1個", 
-     "name": "蜜柑ジュース材料セット", 
+     "goods_str": "パラミツ\t\t\t\t\t\t1個\nブタ\t\t\t\t\t\t\t1匹", 
+     "name": "酢豚材料セット", 
      "needlevel": 5, 
      "price": {
-      "gold": 249
+      "gold": 886
      }, 
      "factory": true, 
-     "introduce": "蜜柑1個", 
+     "introduce": "パラミツ1個\nブタ1個", 
      "sale": true, 
      "used": true
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "orange": [
+       "pineapple": [
+        1, 
+        1.0
+       ]
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "huazhu": [
         1, 
         1.0
        ]
@@ -3792,31 +3909,23 @@
      }
     }
    }, 
-   "crops_boluogulaorou_gift": {
+   "juice_miganzhi_gift": {
     "config": {
-     "goods_str": "パラミツ\t\t\t\t\t\t1個\nブタ\t\t\t\t\t\t\t1匹", 
-     "name": "酢豚材料セット", 
+     "goods_str": "蜜柑\t\t\t\t\t\t\t1個", 
+     "name": "蜜柑ジュース材料セット", 
      "needlevel": 5, 
      "price": {
-      "gold": 886
+      "gold": 249
      }, 
      "factory": true, 
-     "introduce": "パラミツ1個\nブタ1個", 
+     "introduce": "蜜柑1個", 
      "sale": true, 
      "used": true
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "pineapple": [
-        1, 
-        1.0
-       ]
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "huazhu": [
+       "orange": [
         1, 
         1.0
        ]
@@ -13422,8 +13531,8 @@
    "crops_yingtaodangao_gift", 
    "crops_jiangbaojiding_gift", 
    "crops_chaiquan_gift", 
-   "crops_boluogulaorou_gift", 
    "juice_miganzhi_gift", 
+   "crops_boluogulaorou_gift", 
    "crops_mitao_gift", 
    "crops_emozhixin_gift", 
    "crops_xiwanghua_gift", 
@@ -30037,6 +30146,7 @@
    "gaojisiliaobao", 
    "crops_xiangkaoyangpai_gift", 
    "crops_tianyuanji_gift", 
+   "yinghuashulibao", 
    "crops_shishutianfuluo_gift", 
    "crops_zhuomuniao_gift", 
    "juice_yezizhi_gift", 
