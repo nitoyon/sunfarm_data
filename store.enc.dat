@@ -13630,6 +13630,24 @@
     "goods_description": "3月特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
     "activity_type": "discount"
    }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "美味しいいちご", 
+    "start_time": 1300150800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日8時間", 
+    "end_time": 1301130000.0, 
+    "goods_description": "いちごの種と高級肥料が入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "bosiju": {
     "original_price": {
      "num": 25, 
@@ -13667,44 +13685,20 @@
     "goods_description": "中にコリウスの種5個が含まれています", 
     "activity_type": "discount"
    }, 
-   "xunjie": {
-    "original_price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
+   "hammer": {
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "マジック肥料", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
+    "name": "フルーツハンマー", 
+    "start_time": 1300150800.0, 
+    "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1300438800.0, 
-    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1299834000.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "magiccardless": {
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック増産カード", 
-    "start_time": 1299816000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日4時間", 
-    "end_time": 1300176000.0, 
-    "goods_description": "", 
+    "limit_time": "11日8時間", 
+    "end_time": 1301130000.0, 
+    "goods_description": "美味しいいちごを開けることができます。", 
     "price": {
-     "num": 3, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
