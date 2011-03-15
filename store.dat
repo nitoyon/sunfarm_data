@@ -13630,6 +13630,24 @@
     "goods_description": "3\u6708\u7279\u4fa1\u30bb\u30fc\u30eb\uff01\u4e2d\u306b\u306f25\uff4b\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u307e\u305f\u3001\u30ec\u30a2\u30a2\u30a4\u30c6\u30e0\u3082\u30e9\u30f3\u30c0\u30e0\u3067\u5165\u624b\u3067\u304d\u307e\u3059\u3088\u3002\u8ca9\u58f2\u671f\u9593\uff1a3\u670831\u65e5\u307e\u3067", 
     "activity_type": "discount"
    }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "\u7f8e\u5473\u3057\u3044\u3044\u3061\u3054", 
+    "start_time": 1300150800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "11\u65e58\u6642\u9593", 
+    "end_time": 1301130000.0, 
+    "goods_description": "\u3044\u3061\u3054\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "bosiju": {
     "original_price": {
      "num": 25, 
@@ -13667,44 +13685,20 @@
     "goods_description": "\u4e2d\u306b\u30b3\u30ea\u30a6\u30b9\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
     "activity_type": "discount"
    }, 
-   "xunjie": {
-    "original_price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
+   "hammer": {
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "\u30de\u30b8\u30c3\u30af\u80a5\u6599", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
+    "name": "\u30d5\u30eb\u30fc\u30c4\u30cf\u30f3\u30de\u30fc", 
+    "start_time": 1300150800.0, 
+    "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "7\u65e5", 
-    "end_time": 1300438800.0, 
-    "goods_description": "\u4f7f\u3046\u3068\u4f5c\u7269\u306e\u6210\u719f\u6642\u9593\u30920.5\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002\u540c\u3058\u6bb5\u968e\u3067\u4f55\u500b\u3067\u3082\u4f7f\u3048\u307e\u3059\u3002\u80a5\u6599\u306e\u52b9\u679c\u306f\u6b21\u306e\u6bb5\u968e\u3078\u6301\u3061\u8d8a\u3059\u3053\u3068\u306f\u3067\u304d\u307e\u305b\u3093\u3002", 
-    "start_time": 1299834000.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "magiccardless": {
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "\u30de\u30b8\u30c3\u30af\u5897\u7523\u30ab\u30fc\u30c9", 
-    "start_time": 1299816000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4\u65e54\u6642\u9593", 
-    "end_time": 1300176000.0, 
-    "goods_description": "", 
+    "limit_time": "11\u65e58\u6642\u9593", 
+    "end_time": 1301130000.0, 
+    "goods_description": "\u7f8e\u5473\u3057\u3044\u3044\u3061\u3054\u3092\u958b\u3051\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
     "price": {
-     "num": 3, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
