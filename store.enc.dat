@@ -13592,6 +13592,21 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "huafeibao3": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "マルチ肥料セット", 
+    "price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
+    "activity_type": "discount"
+   }, 
    "zhiwubaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -13691,21 +13706,6 @@
     "goods_description": "", 
     "start_time": 1299650400.0, 
     "activity_type": "hot_sale"
-   }, 
-   "caiyecaobaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "コリウス宝箱", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "中にコリウスの種5個が含まれています", 
-    "activity_type": "discount"
    }, 
    "hammer": {
     "product_type": {
