@@ -5020,6 +5020,27 @@
      }
     }
    }, 
+   "gongdengbaihebaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "中にイエローサンダーソニアの種5個が含まれています", 
+     "name": "イエローサンダーソニア宝箱", 
+     "introduce": "中にイエローサンダーソニアの種5個が含まれています"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "gongdengbaihehuang": [
+        5, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "shengdanhongniudan": {
     "config": {
      "price": {
@@ -30527,6 +30548,7 @@
    "tudoulibao", 
    "caiyecaobaoxiang", 
    "hushenfu", 
+   "gongdengbaihebaoxiang", 
    "shengdanhongniudan", 
    "shengdanziniudan", 
    "shengdanhuangniudan", 
