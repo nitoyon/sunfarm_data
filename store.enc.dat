@@ -5025,7 +5025,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にイエローサンダーソニアの種5個が含まれています", 
      "name": "イエローサンダーソニア宝箱", 
      "introduce": "中にイエローサンダーソニアの種5個が含まれています"
@@ -13650,35 +13650,24 @@
     "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
     "activity_type": "discount"
    }, 
-   "zhiwubaoxiang": {
-    "specific_type": "re", 
+   "magiccardless": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "2月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
+    "name": "マジック増産カード", 
+    "start_time": 1300413600.0, 
     "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
-   "moshutuzi": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "マジシャン兎ちゃん", 
+    "limit_type": "limit_time", 
+    "limit_time": "3日7時間", 
+    "end_time": 1300698000.0, 
+    "goods_description": "", 
     "price": {
-     "num": 25, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "マジシャン兎ちゃん", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "tejiabaoxiang1": {
     "specific_type": "xin", 
@@ -13728,11 +13717,23 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "bosiju": {
-    "original_price": {
-     "num": 25, 
+   "gongdengbaihebaoxiang": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "イエローサンダーソニア宝箱", 
+    "price": {
+     "num": 1, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "goods_description": "中にイエローサンダーソニアの種5個が含まれています", 
+    "activity_type": "discount"
+   }, 
+   "bosiju": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -13742,13 +13743,9 @@
      "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "9日3時間", 
-    "end_time": 1300438800.0, 
-    "goods_description": "", 
-    "start_time": 1299650400.0, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "販売期間：３月１８日１８時まで", 
+    "activity_type": "discount"
    }, 
    "hammer": {
     "product_type": {
@@ -18434,7 +18431,7 @@
     "gongdengbaihe": {
      "total_time": 480, 
      "leaflet_time": 20, 
-     "used": false, 
+     "used": true, 
      "name": "オレンジサンダーソニア", 
      "base_fruit": 25, 
      "fruit_time": 155, 
@@ -18631,7 +18628,7 @@
     "gongdengbaihehuang": {
      "total_time": 480, 
      "leaflet_time": 22, 
-     "used": false, 
+     "used": true, 
      "name": "イエローサンダーソニア", 
      "base_fruit": 25, 
      "fruit_time": 152, 
@@ -29207,16 +29204,16 @@
       "increment_percent_max": 1
      }, 
      "magiccardless": {
-      "used": false, 
+      "used": true, 
       "name": "マジック増産カード", 
       "price": {
        "F_coin": 3
       }, 
-      "introduce": "成熟したシマイズハハコとコリウスの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
-      "magic_card": false, 
+      "introduce": "成熟したオレンジサンダーソニアとイエローサンダーソニアの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+      "magic_card": true, 
       "include": [
-       "xiaosheju", 
-       "caiyecao"
+       "gongdengbaihe", 
+       "gongdengbaihehuang"
       ], 
       "magic_card_percent": 0.5
      }, 
@@ -29374,7 +29371,7 @@
       "price": {
        "F_coin": 12
       }, 
-      "introduce": "シマイズハハコとコリウス以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+      "introduce": "オレンジサンダーソニアとイエローサンダーソニア以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
       "magic_card_percent": 0.5
      }, 
