@@ -5243,6 +5243,27 @@
      }
     }
    }, 
+   "gongfuxiongmao": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "中に超能力パンダの赤ちゃん2匹が含まれています", 
+     "name": "超能力パンダ宝箱", 
+     "introduce": "中に超能力パンダの赤ちゃん2匹が含まれています"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "gongfuxiongmao": [
+        2, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "hammer": {
     "config": {
      "goods_str": "美味しいいちごを開けることができます。", 
@@ -9300,6 +9321,7 @@
     "zhuanjiyindanji", 
     "huafenhou", 
     "CuiQingShe", 
+    "gongfuxiongmao", 
     "jinseqingwa", 
     "jinsewoniu", 
     "qilin", 
@@ -10696,6 +10718,27 @@
      "fruit_name": "たまご", 
      "is_auto_harvest": true, 
      "adult_time": 240, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "gongfuxiongmao": {
+     "total_time": 720, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "超能力パンダ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 25
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 8, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 36, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -12339,28 +12382,24 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
-    "changjinglu": {
-     "total_time": 2460, 
-     "sound": {
-      "p": "1056,1056,1057,1057,-1,-1", 
-      "enable": true, 
-      "name": "changjinglu"
-     }, 
+    "huolieniaoxin": {
+     "total_time": 1680, 
      "harvest_type": 3, 
-     "used": false, 
-     "name": "キリン", 
+     "used": true, 
+     "name": "オオフラミンゴ", 
      "base_fruit": 25, 
-     "fruit_time": 984, 
-     "adult_time": 738, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
      "buy_price": {
-      "F_coin": 9999
+      "F_coin": 25
      }, 
+     "state": "xin", 
      "seasons": 1, 
-     "young_time": 738, 
-     "experience": 7.25, 
+     "young_time": 240, 
+     "experience": 9.8, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 53, 
+     "sale_price": 100, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -13177,24 +13216,28 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
-    "huolieniaoxin": {
-     "total_time": 1680, 
-     "harvest_type": 3, 
-     "used": true, 
-     "name": "オオフラミンゴ", 
-     "base_fruit": 25, 
-     "fruit_time": 720, 
-     "adult_time": 720, 
-     "buy_price": {
-      "F_coin": 25
+    "changjinglu": {
+     "total_time": 2460, 
+     "sound": {
+      "p": "1056,1056,1057,1057,-1,-1", 
+      "enable": true, 
+      "name": "changjinglu"
      }, 
-     "state": "xin", 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "キリン", 
+     "base_fruit": 25, 
+     "fruit_time": 984, 
+     "adult_time": 738, 
+     "buy_price": {
+      "F_coin": 9999
+     }, 
      "seasons": 1, 
-     "young_time": 240, 
-     "experience": 9.8, 
+     "young_time": 738, 
+     "experience": 7.25, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 100, 
+     "sale_price": 53, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -15879,6 +15922,25 @@
      }, 
      "level_need": 1
     }, 
+    "xiangshuitu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ラビット香水", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "moguniuroujufan": {
      "total_time": 890, 
      "leaflet_time": 120, 
@@ -17054,6 +17116,25 @@
      "leaf_time": 347, 
      "seed_price": {
       "F_coin": 999
+     }, 
+     "level_need": 1
+    }, 
+    "xiangshuiyang": {
+     "total_time": 720, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "シープ香水 ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 145, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 145, 
+     "seed_price": {
+      "F_coin": 15
      }, 
      "level_need": 1
     }, 
@@ -18591,25 +18672,6 @@
      }, 
      "level_need": 26
     }, 
-    "jingzhuangqiaokelidangao": {
-     "total_time": 810, 
-     "leaflet_time": 90, 
-     "used": false, 
-     "name": "愛情たっぷりチョコ", 
-     "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 30, 
-     "bloom_time": 210, 
-     "experience": 9.99, 
-     "seasons": 1, 
-     "sale_price": 15, 
-     "increment_fruit": 25, 
-     "leaf_time": 150, 
-     "seed_price": {
-      "F_coin": 9999
-     }, 
-     "level_need": 1
-    }, 
     "fanqiejiang": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -18881,6 +18943,25 @@
      "leaf_time": 150, 
      "seed_price": {
       "F_coin": 90
+     }, 
+     "level_need": 1
+    }, 
+    "xiangshuigou": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ドッグ香水", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -21179,25 +21260,24 @@
      }, 
      "level_need": 0
     }, 
-    "dandelion": {
-     "total_time": 480, 
-     "leaflet_time": 22, 
-     "increment_fruit": 25, 
-     "name": "タンポポ", 
+    "xiangshuixiong": {
+     "total_time": 1920, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ベア香水", 
      "base_fruit": 25, 
-     "fruit_time": 152, 
-     "goodstype": "flower", 
-     "sprout_time": 20, 
-     "introduce": "花言葉：愛の神託", 
-     "bloom_time": 148, 
-     "experience": 0.75, 
+     "fruit_time": 420, 
+     "sprout_time": 330, 
+     "bloom_time": 420, 
+     "experience": 15, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 21, 
+     "increment_fruit": 25, 
+     "leaf_time": 420, 
      "seed_price": {
-      "gold": 153
+      "F_coin": 38
      }, 
-     "leaf_time": 138, 
-     "level_need": 5
+     "level_need": 1
     }, 
     "xiangkaoyangpai": {
      "total_time": 3120, 
@@ -22538,6 +22618,26 @@
      }, 
      "level_need": 1
     }, 
+    "dandelion": {
+     "total_time": 480, 
+     "leaflet_time": 22, 
+     "increment_fruit": 25, 
+     "name": "タンポポ", 
+     "base_fruit": 25, 
+     "fruit_time": 152, 
+     "goodstype": "flower", 
+     "sprout_time": 20, 
+     "introduce": "花言葉：愛の神託", 
+     "bloom_time": 148, 
+     "experience": 0.75, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "seed_price": {
+      "gold": 153
+     }, 
+     "leaf_time": 138, 
+     "level_need": 5
+    }, 
     "baobing": {
      "total_time": 720, 
      "leaflet_time": 90, 
@@ -22573,6 +22673,25 @@
      "leaf_time": 329, 
      "seed_price": {
       "F_coin": 999
+     }, 
+     "level_need": 1
+    }, 
+    "xiangshuikongque": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ピーコック香水", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 35, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 100
      }, 
      "level_need": 1
     }, 
@@ -24755,6 +24874,25 @@
      "leaf_time": 297, 
      "level_need": 0
     }, 
+    "xiangshuimao": {
+     "total_time": 720, 
+     "leaflet_time": 80, 
+     "used": false, 
+     "name": "キャット香水", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 20, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 140, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "youlicishen": {
      "total_time": 245, 
      "leaflet_time": 30, 
@@ -26627,22 +26765,22 @@
      }, 
      "level_need": 1
     }, 
-    "rulao": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "jingzhuangqiaokelidangao": {
+     "total_time": 810, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "チーズ", 
+     "name": "愛情たっぷりチョコ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 190, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 9.99, 
      "seasons": 1, 
-     "sale_price": 730, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 9999
      }, 
      "level_need": 1
     }, 
@@ -27287,6 +27425,25 @@
       "gold": 329
      }, 
      "level_need": 18
+    }, 
+    "rulao": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "チーズ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 190, 
+     "seasons": 1, 
+     "sale_price": 730, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 1
     }, 
     "qingdaofuxueren": {
      "total_time": 1410, 
@@ -28560,6 +28717,7 @@
     "caijiao", 
     "changshouhua", 
     "jianaguoqishu", 
+    "xiangshuimao", 
     "bayinhe6", 
     "qingtongshu", 
     "xiannv", 
@@ -28581,6 +28739,7 @@
     "guayeju", 
     "shatang", 
     "yipinhong", 
+    "xiangshuiyang", 
     "hezhuangqiaokeli", 
     "xibanyaguoqishu", 
     "qiaokelidangaoxin", 
@@ -28595,6 +28754,7 @@
     "xihongshicaomei", 
     "deguoguoqishu", 
     "qinglvmogu", 
+    "xiangshuigou", 
     "daoguahaigui", 
     "zhenzi", 
     "chabeimao", 
@@ -28613,6 +28773,7 @@
     "bayinhe2", 
     "lajiaojiang", 
     "fenshuijingpingguo", 
+    "xiangshuikongque", 
     "ribenguoqishu", 
     "qisehuaboss", 
     "daizhuangqiaokeli", 
@@ -28628,6 +28789,7 @@
     "lanqiansuitang", 
     "xinxingqiaokeli", 
     "baochunhua", 
+    "xiangshuixiong", 
     "lanmeicaomei", 
     "renshenyeye", 
     "yimihua", 
@@ -28643,6 +28805,7 @@
     "shanyao", 
     "zidingxiang", 
     "bayinhe1", 
+    "xiangshuitu", 
     "lajiaoyou", 
     "jiutouniao", 
     "bosijuhong", 
@@ -30591,6 +30754,7 @@
    "gongdengbaihebaoxiang", 
    "shengdanhongniudan", 
    "shengdanziniudan", 
+   "gongfuxiongmao", 
    "shengdanhuangniudan", 
    "tunianniudanfen", 
    "tejiabaoxiang1", 
