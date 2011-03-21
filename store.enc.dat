@@ -9275,6 +9275,7 @@
     "jiayoumianyang", 
     "jiayouyangtuo", 
     "jiayoushuitun", 
+    "jiayoujuanshanniu", 
     "hongcaiximiyingwu", 
     "sangaru", 
     "laohu", 
@@ -10910,6 +10911,26 @@
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
+    }, 
+    "jiayoujuanshanniu": {
+     "total_time": 480, 
+     "used": false, 
+     "name": "prayジャージー", 
+     "base_fruit": 25, 
+     "fruit_time": 240, 
+     "adult_time": 120, 
+     "buy_price": {
+      "F_coin": 25
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 100, 
+     "fruit_name": "乳", 
+     "is_auto_harvest": false, 
+     "sale_price": 50, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "バレル"
     }, 
     "facaigui": {
      "total_time": 1280, 
