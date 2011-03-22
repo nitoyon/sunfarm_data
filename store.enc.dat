@@ -13751,24 +13751,20 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "magiccardless": {
+   "gongfuxiongmao": {
+    "specific_type": "xin", 
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "マジック増産カード", 
-    "start_time": 1300413600.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日7時間", 
-    "end_time": 1300698000.0, 
-    "goods_description": "", 
+    "name": "超能力パンダ宝箱", 
     "price": {
-     "num": 3, 
+     "num": 30, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "中に超能力パンダの赤ちゃん2匹が含まれています", 
+    "activity_type": "discount"
    }, 
    "tejiabaoxiang1": {
     "specific_type": "xin", 
@@ -13818,21 +13814,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "gongdengbaihebaoxiang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "イエローサンダーソニア宝箱", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "中にイエローサンダーソニアの種5個が含まれています", 
-    "activity_type": "discount"
-   }, 
    "hammer": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -13849,6 +13830,21 @@
      "num": 10, 
      "type": "F_coin"
     }, 
+    "activity_type": "hot_sale"
+   }, 
+   "caijiao": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "カラフルなピーマン", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_hot", 
+    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
     "activity_type": "hot_sale"
    }, 
    "kaichunbaoxiang": {
@@ -29416,7 +29412,7 @@
        "F_coin": 3
       }, 
       "introduce": "成熟したオレンジサンダーソニアとイエローサンダーソニアの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
-      "magic_card": true, 
+      "magic_card": false, 
       "include": [
        "gongdengbaihe", 
        "gongdengbaihehuang"
