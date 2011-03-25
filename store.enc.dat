@@ -6116,7 +6116,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にワックスプラントの種5個が含まれています", 
      "name": "ワックスプラント宝箱", 
      "introduce": "中にワックスプラントの種5個が含まれています"
@@ -13799,34 +13799,20 @@
     "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
     "activity_type": "discount"
    }, 
-   "zhiwubaoxiang": {
+   "magiccardless": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "2月の宝箱", 
+    "name": "マジック増産カード", 
     "price": {
-     "num": 10, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
-   "gongfuxiongmao": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "超能力パンダ宝箱", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "中に超能力パンダの赤ちゃん2匹が含まれています", 
+    "modify": false, 
+    "goods_description": "成熟したシラカンバとワックスプラントの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
    "tejiabaoxiang1": {
@@ -13876,6 +13862,21 @@
      "type": "gold"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "qiulanbaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ワックスプラント宝箱", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "中にワックスプラントの種5個が含まれています", 
+    "activity_type": "discount"
    }, 
    "hammer": {
     "product_type": {
@@ -29702,16 +29703,16 @@
       "increment_percent_max": 1
      }, 
      "magiccardless": {
-      "used": false, 
+      "used": true, 
       "name": "マジック増産カード", 
       "price": {
        "F_coin": 3
       }, 
-      "introduce": "成熟したオレンジサンダーソニアとイエローサンダーソニアの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+      "introduce": "成熟したシラカンバとワックスプラントの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
       "magic_card": true, 
       "include": [
-       "gongdengbaihe", 
-       "gongdengbaihehuang"
+       "baihua", 
+       "qiulan"
       ], 
       "magic_card_percent": 0.5
      }, 
@@ -29869,7 +29870,7 @@
       "price": {
        "F_coin": 12
       }, 
-      "introduce": "オレンジサンダーソニアとイエローサンダーソニア以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+      "introduce": "シラカンバとワックスプラント以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
       "magic_card_percent": 0.5
      }, 
