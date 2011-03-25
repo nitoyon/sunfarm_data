@@ -6111,6 +6111,27 @@
      }
     }
    }, 
+   "qiulanbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "中にワックスプラントの種5個が含まれています", 
+     "name": "ワックスプラント宝箱", 
+     "introduce": "中にワックスプラントの種5個が含まれています"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "qiulan": [
+        5, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "jingangcuo": {
     "config": {
      "price": {
@@ -6187,75 +6208,6 @@
         5, 
         1
        ]
-      }
-     }
-    }
-   }, 
-   "xinnianhuangniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日", 
-     "name": "黄の新年カプセル", 
-     "introduce": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "huang": [
-        1, 
-        0.5
-       ], 
-       "nirenmangguo": [
-        1, 
-        0.04
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ], 
-       "shenqihuo_long_guo": [
-        1, 
-        0.03
-       ], 
-       "chashu": [
-        1, 
-        0.2
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "shuijingputao": [
-        1, 
-        0.2
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie1": [
-         1, 
-         1.0
-        ], 
-        "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
-        ], 
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
       }
      }
     }
@@ -8886,6 +8838,35 @@
      }
     }
    }, 
+   "cangbaotu3": {
+    "config": {
+     "price": {
+      "F_coin": 9999
+     }, 
+     "used": false, 
+     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
+     "name": "藏宝图卷三", 
+     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqizijin": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "cangbaotu4": {
     "config": {
      "price": {
@@ -8984,29 +8965,69 @@
      }
     }
    }, 
-   "cangbaotu3": {
+   "xinnianhuangniudan": {
     "config": {
      "price": {
-      "F_coin": 9999
+      "F_coin": 1
      }, 
      "used": false, 
-     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
-     "name": "藏宝图卷三", 
-     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
+     "goods_str": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日", 
+     "name": "黄の新年カプセル", 
+     "introduce": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "shenqizijin": [
+       "huang": [
         1, 
-        1.0
+        0.5
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.04
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        0.03
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
        ]
       }, 
       "properties": {
-       "feedstuffs": {
-        "gaosu": [
+       "fertilizer": {
+        "xunjie1": [
          1, 
          1.0
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         0.3
         ]
        }
       }
@@ -31039,6 +31060,7 @@
    "shengdanlvniudan", 
    "zhiwubaoxiang", 
    "xinnianlanniudan", 
+   "qiulanbaoxiang", 
    "jingangcuo", 
    "bingdiaoshulanlibao", 
    "xinnianhuangniudan", 
