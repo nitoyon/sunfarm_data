@@ -27611,6 +27611,25 @@
      }, 
      "level_need": 12
     }, 
+    "qisezuanshihua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "\u4e03\u8272\u30c0\u30a4\u30e4", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 30, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 60
+     }, 
+     "level_need": 0
+    }, 
     "strawberry": {
      "total_time": 1470, 
      "leaflet_time": 294, 
@@ -28844,6 +28863,7 @@
     "niudantujianer_hong", 
     "hongmeigui", 
     "hongkapian", 
+    "qisezuanshihua", 
     "tuxiangrikui", 
     "tuqianniuhua", 
     "tusanyecao", 
