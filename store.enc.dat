@@ -4825,7 +4825,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "ブルーカプセル", 
      "introduce": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -5273,7 +5273,7 @@
      }, 
      "introduce": "美味しいいちごを開けることができます。", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "shengdanhuangniudan": {
@@ -5354,7 +5354,7 @@
      }, 
      "introduce": "いちごの種と高級肥料が入っています。", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "tunianniudanfen": {
@@ -6450,7 +6450,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "50%の確率で黄ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "イエローカプセル", 
      "introduce": "50%の確率で黄ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -7489,7 +7489,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "グリーンカプセル", 
      "introduce": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -8208,7 +8208,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "0.7%の確率で赤ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "レッドカプセル", 
      "introduce": "0.7%の確率で赤ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -9246,7 +9246,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "3%の確率で紫ダイヤを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "パープルカプセル", 
      "introduce": "3%の確率で紫ダイヤを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -13784,6 +13784,24 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "hongdan": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "レッドカプセル", 
+    "start_time": 1301130000.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日23時間", 
+    "end_time": 1301558400.0, 
+    "goods_description": "0.7%の確率で赤ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "huafeibao3": {
     "specific_type": "re", 
     "product_type": {
@@ -13845,21 +13863,21 @@
     "goods_description": "3月特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
     "activity_type": "discount"
    }, 
-   "crystal": {
+   "zidan": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "美味しいいちご", 
-    "start_time": 1300150800.0, 
+    "name": "パープルカプセル", 
+    "start_time": 1301130000.0, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "11日8時間", 
-    "end_time": 1301130000.0, 
-    "goods_description": "いちごの種と高級肥料が入っています。", 
+    "limit_time": "4日23時間", 
+    "end_time": 1301558400.0, 
+    "goods_description": "3%の確率で紫ダイヤを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "price": {
-     "num": 100, 
-     "type": "gold"
+     "num": 1, 
+     "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
    }, 
@@ -13877,24 +13895,6 @@
     "modify": true, 
     "goods_description": "中にワックスプラントの種5個が含まれています", 
     "activity_type": "discount"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "フルーツハンマー", 
-    "start_time": 1300150800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "11日8時間", 
-    "end_time": 1301130000.0, 
-    "goods_description": "美味しいいちごを開けることができます。", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "caijiao": {
     "product_type": {
@@ -20437,14 +20437,15 @@
      "used": false, 
      "name": "黄ダイヤ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。黄ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。黄ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "4月3日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 100, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -21204,14 +21205,15 @@
      "used": false, 
      "name": "赤ダイヤ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。赤ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。赤ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "4月3日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 100, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -21888,14 +21890,15 @@
      "used": false, 
      "name": "緑ダイヤ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。緑ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。緑ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "4月3日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 100, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -22219,14 +22222,15 @@
      "used": false, 
      "name": "紫ダイヤ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。紫ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。紫ダイヤを手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "4月3日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 100, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -25056,14 +25060,15 @@
      "used": false, 
      "name": "青ダイヤ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。青ダイヤを手に入れました。5種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。青ダイヤを手に入れました。5種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "4月3日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 100, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 100, 
      "seed_price": {
       "F_coin": 50
      }, 
