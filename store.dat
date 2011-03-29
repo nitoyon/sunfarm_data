@@ -14706,6 +14706,25 @@
      }, 
      "level_need": 1
     }, 
+    "yangyinhuo": {
+     "total_time": 1385, 
+     "leaflet_time": 225, 
+     "used": false, 
+     "name": "\u3044\u304b\u308a\u305d\u3046", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "sprout_time": 110, 
+     "bloom_time": 285, 
+     "experience": 2.51, 
+     "seasons": 2, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 285, 
+     "seed_price": {
+      "gold": 107
+     }, 
+     "level_need": 38
+    }, 
     "chabeimao": {
      "total_time": 1080, 
      "leaflet_time": 90, 
@@ -16190,6 +16209,25 @@
       "F_coin": 25
      }, 
      "level_need": 1
+    }, 
+    "dadaixuecao": {
+     "total_time": 782, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "\u30b9\u30ce\u30fc\u30d5\u30ec\u30fc\u30af", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 60, 
+     "bloom_time": 180, 
+     "experience": 1.84, 
+     "seasons": 2, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 122, 
+     "seed_price": {
+      "gold": 220
+     }, 
+     "level_need": 37
     }, 
     "hhlyq": {
      "total_time": 1370, 
@@ -24355,6 +24393,25 @@
      "leaf_time": 600, 
      "level_need": 0
     }, 
+    "jingjiehua": {
+     "total_time": 1065, 
+     "leaflet_time": 190, 
+     "used": false, 
+     "name": "\u304d\u3076\u3057", 
+     "base_fruit": 25, 
+     "fruit_time": 345, 
+     "sprout_time": 90, 
+     "bloom_time": 250, 
+     "experience": 2.41, 
+     "seasons": 2, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 190, 
+     "seed_price": {
+      "gold": 300
+     }, 
+     "level_need": 39
+    }, 
     "shuiyangqiehua": {
      "total_time": 1080, 
      "leaflet_time": 220, 
@@ -25018,6 +25075,25 @@
       "gold": 780
      }, 
      "level_need": 1
+    }, 
+    "lizihua": {
+     "total_time": 1195, 
+     "leaflet_time": 180, 
+     "used": false, 
+     "name": "\u3059\u3082\u3082", 
+     "base_fruit": 25, 
+     "fruit_time": 325, 
+     "sprout_time": 60, 
+     "bloom_time": 315, 
+     "experience": 3.43, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 315, 
+     "seed_price": {
+      "gold": 66
+     }, 
+     "level_need": 36
     }, 
     "fkmg": {
      "total_time": 960, 
@@ -29498,9 +29574,13 @@
     "sunflower", 
     "meizi", 
     "shuangdihua", 
+    "lizihua", 
     "damai", 
+    "dadaixuecao", 
     "candou", 
+    "yangyinhuo", 
     "zuojiangcao", 
+    "jingjiehua", 
     "sdihua", 
     "dihua", 
     "shuicai", 
