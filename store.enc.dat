@@ -567,7 +567,7 @@
      "used": true, 
      "name": "お買い得セット", 
      "price": {
-      "F_coin": 1270
+      "F_coin": 700
      }, 
      "introduce": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
      "state": "re", 
@@ -13806,20 +13806,27 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "huafeibao3": {
-    "specific_type": "re", 
+   "chaozhilibao": {
+    "original_price": {
+     "num": 1270, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
     }, 
-    "name": "マルチ肥料セット", 
+    "name": "お買い得セット", 
     "price": {
-     "num": 35, 
+     "num": 700, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
-    "activity_type": "discount"
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2日", 
+    "end_time": 1301560200.0, 
+    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
+    "start_time": 1301387400.0, 
+    "activity_type": "hot_sale"
    }, 
    "huangdan": {
     "specific_type": "re", 
@@ -13834,6 +13841,21 @@
     }, 
     "modify": true, 
     "goods_description": "50%の確率で黄ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
+   }, 
+   "huafeibao3": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "マルチ肥料セット", 
+    "price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
     "activity_type": "discount"
    }, 
    "tejiabaoxiang1": {
@@ -13866,6 +13888,21 @@
     "goods_description": "3月特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
     "activity_type": "discount"
    }, 
+   "landan": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ブルーカプセル", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
+   }, 
    "zidan": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -13882,36 +13919,6 @@
      "num": 1, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
-   }, 
-   "landan": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ブルーカプセル", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
-   }, 
-   "caijiao": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "カラフルなピーマン", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_hot", 
-    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
     "activity_type": "hot_sale"
    }, 
    "kaichunbaoxiang": {
