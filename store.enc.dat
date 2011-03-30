@@ -7263,6 +7263,18 @@
      }
     }
    }, 
+   "piece": {
+    "config": {
+     "goods_str": "サクラのクリスタルを開ける時クリスタルかけら１個から３個までを入手できます", 
+     "name": "クリスタルかけら", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "サクラのクリスタルを開ける時クリスタルかけら１個から３個までを入手できます", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "tujiandongwubaoxiang": {
     "config": {
      "price": {
@@ -7318,71 +7330,71 @@
      }
     }
    }, 
-   "tunianniudanhuang": {
+   "cangbaotu2": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 30
      }, 
-     "used": false, 
-     "goods_str": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "イエローうさツリーのカプセル", 
-     "introduce": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "used": true, 
+     "goods_str": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
+     "name": "宝の地図2", 
+     "introduce": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。"
     }, 
     "data": {
-     "farm": {
-      "seeds": {
-       "shenqijianlan": [
-        1, 
-        0.03
-       ], 
-       "niudantujianer_huang": [
-        1, 
-        0.5
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ], 
-       "chashu": [
-        1, 
-        0.2
-       ], 
-       "nirenxianrenzhang": [
-        1, 
-        0.04
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "shuijingputao": [
-        1, 
-        0.2
-       ]
-      }, 
+     "ranch": {
       "properties": {
-       "fertilizer": {
-        "xunjie1": [
-         1, 
+       "feedstuffs": {
+        "kuaisu": [
+         5, 
          1.0
         ], 
         "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
+         3, 
+         0.23
         ], 
         "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie": [
-         1, 
-         0.3
+         5, 
+         0.33
         ]
        }
+      }, 
+      "babies": {
+       "zuinv": [
+        1, 
+        0.3
+       ], 
+       "juxiezuo": [
+        1, 
+        0.3
+       ], 
+       "xingxing": [
+        1, 
+        0.3
+       ], 
+       "hongqingting": [
+        1, 
+        0.3
+       ], 
+       "huafenhou": [
+        1, 
+        0.3
+       ], 
+       "eyu": [
+        1, 
+        0.3
+       ], 
+       "lanqingting": [
+        1, 
+        0.3
+       ], 
+       "jingangyingwu": [
+        1, 
+        0.3
+       ], 
+       "NanFeiTuoNiao": [
+        1, 
+        0.3
+       ]
       }
      }
     }
@@ -8896,71 +8908,71 @@
      }
     }
    }, 
-   "cangbaotu2": {
+   "tunianniudanhuang": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 1
      }, 
-     "used": true, 
-     "goods_str": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
-     "name": "宝の地図2", 
-     "introduce": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。"
+     "used": false, 
+     "goods_str": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "イエローうさツリーのカプセル", 
+     "introduce": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
-     "ranch": {
+     "farm": {
+      "seeds": {
+       "shenqijianlan": [
+        1, 
+        0.03
+       ], 
+       "niudantujianer_huang": [
+        1, 
+        0.5
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "nirenxianrenzhang": [
+        1, 
+        0.04
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
+       ]
+      }, 
       "properties": {
-       "feedstuffs": {
-        "kuaisu": [
-         5, 
+       "fertilizer": {
+        "xunjie1": [
+         1, 
          1.0
         ], 
         "jisu": [
-         3, 
-         0.23
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
         ], 
         "gaosu": [
-         5, 
-         0.33
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         0.3
         ]
        }
-      }, 
-      "babies": {
-       "zuinv": [
-        1, 
-        0.3
-       ], 
-       "juxiezuo": [
-        1, 
-        0.3
-       ], 
-       "xingxing": [
-        1, 
-        0.3
-       ], 
-       "hongqingting": [
-        1, 
-        0.3
-       ], 
-       "huafenhou": [
-        1, 
-        0.3
-       ], 
-       "eyu": [
-        1, 
-        0.3
-       ], 
-       "lanqingting": [
-        1, 
-        0.3
-       ], 
-       "jingangyingwu": [
-        1, 
-        0.3
-       ], 
-       "NanFeiTuoNiao": [
-        1, 
-        0.3
-       ]
       }
      }
     }
@@ -13939,26 +13951,6 @@
   }, 
   "farm": {
    "seeds": {
-    "bailu": {
-     "total_time": 1980, 
-     "leaflet_time": 297, 
-     "used": true, 
-     "name": "シラサギの花", 
-     "base_fruit": 25, 
-     "fruit_time": 594, 
-     "goodstype": "flower", 
-     "sprout_time": 396, 
-     "increment_fruit": 25, 
-     "bloom_time": 396, 
-     "experience": 6.34, 
-     "seasons": 1, 
-     "sale_price": 45, 
-     "seed_price": {
-      "F_coin": 23
-     }, 
-     "leaf_time": 297, 
-     "level_need": 0
-    }, 
     "shizhu": {
      "total_time": 1584, 
      "leaflet_time": 269, 
@@ -17573,6 +17565,25 @@
      "leaf_time": 360, 
      "level_need": 1
     }, 
+    "mikuo": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "糸括", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 50, 
+     "seasons": 1, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 150
+     }, 
+     "level_need": 0
+    }, 
     "qiulan": {
      "total_time": 480, 
      "leaflet_time": 22, 
@@ -17591,6 +17602,25 @@
       "gold": 324
      }, 
      "level_need": 30
+    }, 
+    "ziyinghua": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "しだれ桜", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
     }, 
     "tulip": {
      "total_time": 1620, 
@@ -17831,23 +17861,24 @@
      "leaf_time": 330, 
      "level_need": 1
     }, 
-    "xiannv": {
-     "total_time": 1080, 
-     "leaflet_time": 150, 
+    "niangao5": {
+     "total_time": 720, 
+     "leaflet_time": 80, 
      "used": false, 
-     "name": "クラウンフラワー", 
+     "name": "鏡もち福", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 8, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "fruit_time": 330, 
+     "sprout_time": 20, 
+     "introduce": "鏡もち福", 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 8, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 8
      }, 
+     "leaf_time": 140, 
      "level_need": 1
     }, 
     "xilengniupai": {
@@ -18138,25 +18169,25 @@
      }, 
      "level_need": 0
     }, 
-    "pengzaisong": {
-     "total_time": 1505, 
-     "leaflet_time": 150, 
-     "used": false, 
-     "name": "松の盆栽", 
+    "orange": {
+     "total_time": 2793, 
+     "leaflet_time": 557, 
+     "used": true, 
+     "name": "蜜柑", 
      "base_fruit": 25, 
-     "fruit_time": 410, 
-     "tuchan": true, 
-     "sprout_time": 65, 
-     "bloom_time": 550, 
-     "experience": 3.18, 
-     "seasons": 3, 
-     "sale_price": 7, 
+     "fruit_time": 835, 
+     "recipe": "レシピに使えます：\n蜜柑ジュース\nオレンジティー", 
+     "sprout_time": 287, 
+     "bloom_time": 557, 
+     "experience": 6.87, 
+     "seasons": 1, 
+     "sale_price": 24, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 557, 
      "seed_price": {
-      "F_coin": 10
+      "gold": 249
      }, 
-     "level_need": 1
+     "level_need": 22
     }, 
     "shanghuabiandang": {
      "total_time": 1110, 
@@ -18333,24 +18364,24 @@
      "leaf_time": 180, 
      "level_need": 0
     }, 
-    "meiguoguoqishu": {
-     "total_time": 1650, 
+    "baibaiying": {
+     "total_time": 1410, 
      "leaflet_time": 330, 
      "used": false, 
-     "name": "アメリカ国旗樹", 
+     "name": "西洋桜", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 330, 
+     "sprout_time": 90, 
      "bloom_time": 330, 
-     "experience": 7.28, 
+     "experience": 13, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 16, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 25
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "shenqiparadiseflower": {
      "total_time": 2916, 
@@ -18680,6 +18711,25 @@
       "F_coin": 25
      }, 
      "level_need": 1
+    }, 
+    "hanying": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "寒桜", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
     }, 
     "shenqizijin": {
      "total_time": 2592, 
@@ -21908,24 +21958,23 @@
      }, 
      "level_need": 0
     }, 
-    "niangao5": {
-     "total_time": 720, 
-     "leaflet_time": 80, 
+    "xiannv": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "鏡もち福", 
+     "name": "クラウンフラワー", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 20, 
-     "introduce": "鏡もち福", 
-     "increment_fruit": 25, 
-     "bloom_time": 150, 
-     "experience": 4, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 20
      }, 
-     "leaf_time": 140, 
      "level_need": 1
     }, 
     "litchi": {
@@ -23516,6 +23565,25 @@
      }, 
      "level_need": 20
     }, 
+    "guaying": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "掛桜", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
+    }, 
     "bingdiaoshulan": {
      "total_time": 480, 
      "leaflet_time": 22, 
@@ -23753,25 +23821,25 @@
      "leaf_time": 840, 
      "level_need": 17
     }, 
-    "orange": {
-     "total_time": 2793, 
-     "leaflet_time": 557, 
-     "used": true, 
-     "name": "蜜柑", 
+    "pengzaisong": {
+     "total_time": 1505, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "松の盆栽", 
      "base_fruit": 25, 
-     "fruit_time": 835, 
-     "recipe": "レシピに使えます：\n蜜柑ジュース\nオレンジティー", 
-     "sprout_time": 287, 
-     "bloom_time": 557, 
-     "experience": 6.87, 
-     "seasons": 1, 
-     "sale_price": 24, 
+     "fruit_time": 410, 
+     "tuchan": true, 
+     "sprout_time": 65, 
+     "bloom_time": 550, 
+     "experience": 3.18, 
+     "seasons": 3, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 557, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 249
+      "F_coin": 10
      }, 
-     "level_need": 22
+     "level_need": 1
     }, 
     "nrx": {
      "total_time": 1050, 
@@ -24373,25 +24441,24 @@
      }, 
      "level_need": 0
     }, 
-    "morningglory": {
-     "total_time": 600, 
-     "leaflet_time": 90, 
-     "used": false, 
-     "name": "アサガオ", 
+    "bailu": {
+     "total_time": 1980, 
+     "leaflet_time": 297, 
+     "used": true, 
+     "name": "シラサギの花", 
      "base_fruit": 25, 
-     "fruit_time": 180, 
+     "fruit_time": 594, 
      "goodstype": "flower", 
-     "sprout_time": 120, 
-     "introduce": "花言葉：  明日もさわやかに", 
+     "sprout_time": 396, 
      "increment_fruit": 25, 
-     "bloom_time": 120, 
-     "experience": 1.92, 
+     "bloom_time": 396, 
+     "experience": 6.34, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 45, 
      "seed_price": {
-      "F_coin": 4
+      "F_coin": 23
      }, 
-     "leaf_time": 90, 
+     "leaf_time": 297, 
      "level_need": 0
     }, 
     "shanzhu": {
@@ -25106,6 +25173,25 @@
      "leaf_time": 420, 
      "seed_price": {
       "F_coin": 38
+     }, 
+     "level_need": 1
+    }, 
+    "meiguoguoqishu": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "アメリカ国旗樹", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 7.28, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 1
      }, 
      "level_need": 1
     }, 
@@ -27635,6 +27721,27 @@
      "leaf_time": 420, 
      "level_need": 53
     }, 
+    "morningglory": {
+     "total_time": 600, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "アサガオ", 
+     "base_fruit": 25, 
+     "fruit_time": 180, 
+     "goodstype": "flower", 
+     "sprout_time": 120, 
+     "introduce": "花言葉：  明日もさわやかに", 
+     "increment_fruit": 25, 
+     "bloom_time": 120, 
+     "experience": 1.92, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "seed_price": {
+      "F_coin": 4
+     }, 
+     "leaf_time": 90, 
+     "level_need": 0
+    }, 
     "nirentaigu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -28754,6 +28861,25 @@
      "leaf_time": 60, 
      "level_need": 0
     }, 
+    "shanying": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "山桜", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
+    }, 
     "shuidao": {
      "total_time": 450, 
      "leaflet_time": 92, 
@@ -29096,6 +29222,7 @@
     "chonglaoda", 
     "xiangrikuichong", 
     "moyu", 
+    "ziyinghua", 
     "zhangyushao", 
     "penjingyinghua", 
     "penjingjuhua", 
@@ -29210,12 +29337,15 @@
     "tudongqing", 
     "tianshanxuelian", 
     "qiji", 
+    "hanying", 
+    "shanying", 
     "xingyunfeizhouju", 
     "xiwangfeizhouju", 
     "xiwanghua", 
     "biandang", 
     "fukeluobo", 
     "jingzhichahua", 
+    "guaying", 
     "zhongguoxin", 
     "yutuhua", 
     "hongsehuacaomei", 
@@ -29242,6 +29372,7 @@
     "feverfew", 
     "xingandengjie", 
     "duancezhuzi", 
+    "mikuo", 
     "honghuajimu", 
     "niudanzhiwuzise", 
     "shuihulu", 
@@ -29261,6 +29392,7 @@
     "suichaye", 
     "gaojishengdanhong", 
     "niudanzhiwuzhongji", 
+    "baibaiying", 
     "hhlyq", 
     "niudanzhiwuhongse", 
     "hongsexingxingshu", 
@@ -31398,6 +31530,7 @@
    "love_stone", 
    "hongshuijing", 
    "chengshuijing", 
+   "piece", 
    "mb_6", 
    "mb_7", 
    "mb_8", 
