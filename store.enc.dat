@@ -14415,6 +14415,25 @@
      "leaf_time": 150, 
      "level_need": 1
     }, 
+    "shansewanzi": {
+     "total_time": 1110, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "団子桜", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 30, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "zijin": {
      "total_time": 1020, 
      "leaflet_time": 153, 
@@ -15279,35 +15298,24 @@
      }, 
      "level_need": 0
     }, 
-    "shenqihuo_long_guo": {
-     "total_time": 2220, 
-     "leaflet_time": 222, 
-     "magicseed": [
-      1, 
-      2, 
-      3, 
-      4, 
-      5, 
-      6, 
-      7, 
-      8, 
-      9
-     ], 
-     "name": "魔法のピターヤ", 
-     "base_fruit": 25, 
-     "fruit_time": 775, 
-     "sprout_time": 39, 
-     "bloom_time": 592, 
+    "shanghuapijiu": {
+     "total_time": 1110, 
+     "leaflet_time": 90, 
      "used": false, 
-     "experience": 4.39625, 
-     "seasons": 2, 
-     "sale_price": 17, 
+     "name": "ビール桜", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 30, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 10, 
      "increment_fruit": 25, 
-     "leaf_time": 592, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 20
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "donggua": {
      "total_time": 1932, 
@@ -16200,6 +16208,25 @@
      }, 
      "level_need": 1
     }, 
+    "taigu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "締太鼓", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 35, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 1
+    }, 
     "chabeihouzi": {
      "total_time": 1080, 
      "leaflet_time": 90, 
@@ -16666,20 +16693,31 @@
      }, 
      "level_need": 0
     }, 
-    "mianju4": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "インディアンお面", 
+    "shenqihuo_long_guo": {
+     "total_time": 2220, 
+     "leaflet_time": 222, 
+     "magicseed": [
+      1, 
+      2, 
+      3, 
+      4, 
+      5, 
+      6, 
+      7, 
+      8, 
+      9
+     ], 
+     "name": "魔法のピターヤ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 13, 
-     "seasons": 1, 
-     "sale_price": 16, 
+     "fruit_time": 775, 
+     "sprout_time": 39, 
+     "bloom_time": 592, 
+     "used": false, 
+     "experience": 4.39625, 
+     "seasons": 2, 
+     "sale_price": 17, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 592, 
      "seed_price": {
       "F_coin": 25
      }, 
@@ -16871,22 +16909,22 @@
      }, 
      "level_need": 1
     }, 
-    "taigu": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "shanghuamao": {
+     "total_time": 820, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "締太鼓", 
+     "name": "猫桜", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 35, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 270, 
+     "experience": 15, 
      "seasons": 1, 
-     "sale_price": 16, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 120, 
      "seed_price": {
-      "F_coin": 100
+      "F_coin": 50
      }, 
      "level_need": 1
     }, 
@@ -18117,6 +18155,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 10
+     }, 
+     "level_need": 1
+    }, 
+    "shanghuabiandang": {
+     "total_time": 1110, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "弁当桜", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 30, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -20222,6 +20279,25 @@
       "F_coin": 999
      }, 
      "leaf_time": 150, 
+     "level_need": 0
+    }, 
+    "mianju4": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "インディアンお面", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
      "level_need": 0
     }, 
     "chabei": {
@@ -22530,6 +22606,25 @@
       "gold": 390
      }, 
      "level_need": 26
+    }, 
+    "shanghuajiu": {
+     "total_time": 1110, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "酒桜", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 30, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
     }, 
     "nvhaijiemao": {
      "total_time": 1110, 
@@ -25233,6 +25328,25 @@
      "leaf_time": 210, 
      "seed_price": {
       "gold": 410
+     }, 
+     "level_need": 1
+    }, 
+    "shanghuasan": {
+     "total_time": 1110, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "傘桜", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 30, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -29308,6 +29422,7 @@
     "zishuijingpingguo", 
     "qisehuazi", 
     "daxueren", 
+    "shanghuapijiu", 
     "bayinhe2", 
     "lajiaojiang", 
     "fenshuijingpingguo", 
@@ -29353,14 +29468,17 @@
     "ergongjincilang", 
     "renliche", 
     "yusan", 
+    "shanghuasan", 
     "qiansuitang", 
     "shizhu", 
     "penquan", 
+    "shansewanzi", 
     "yangzidafo", 
     "nirentaigu", 
     "hujisheng", 
     "danangua", 
     "fanqieguopu", 
+    "shanghuabiandang", 
     "meiguoguoqishua", 
     "agentingguoqishua", 
     "yinggelanguoqishua", 
@@ -29388,6 +29506,7 @@
     "taohua", 
     "xueyuanyinghua", 
     "kuqinangua", 
+    "shanghuamao", 
     "suanrulao", 
     "piaoliangdepenhua", 
     "zhenzhubei", 
@@ -29403,6 +29522,7 @@
     "chabei", 
     "qisehua", 
     "caijiao1", 
+    "shanghuajiu", 
     "jinpaishu", 
     "niangao6", 
     "niangao4", 
