@@ -14335,19 +14335,37 @@
     "goods_description": "3月特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
     "activity_type": "discount"
    }, 
-   "zhounianbao4": {
+   "tejiabaoxiang2": {
+    "specific_type": "xin", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "限定種セット", 
+    "name": "3月のハッピー箱", 
     "price": {
-     "num": 500, 
+     "num": 21, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "goods_description": "3月特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
+    "activity_type": "discount"
+   }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "桜クリスタル", 
+    "start_time": 1301533200.0, 
     "modify": false, 
-    "limit_type": "limit_hot", 
-    "goods_description": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
+    "limit_type": "limit_time", 
+    "limit_time": "12日8時間", 
+    "end_time": 1302598800.0, 
+    "goods_description": "桜の種と高級肥料が入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
     "activity_type": "hot_sale"
    }, 
    "landan": {
@@ -14365,34 +14383,22 @@
     "goods_description": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }, 
-   "tejiabaoxiang2": {
-    "specific_type": "xin", 
+   "hammer": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "3月のハッピー箱", 
+    "name": "桜ハンマー", 
+    "start_time": 1301533200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "12日8時間", 
+    "end_time": 1302598800.0, 
+    "goods_description": "桜クリスタルを開けることができます。", 
     "price": {
-     "num": 21, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "3月特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
-    "activity_type": "discount"
-   }, 
-   "shanxiao": {
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "マンドリル", 
-    "price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_hot", 
-    "goods_description": "", 
     "activity_type": "hot_sale"
    }, 
    "caijiao": {
