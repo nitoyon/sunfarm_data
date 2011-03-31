@@ -4804,7 +4804,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "ブルーカプセル", 
      "introduce": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -5633,7 +5633,7 @@
      "price": {
       "F_coin": 77
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "3月特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
      "name": "3月のラッキー箱", 
      "introduce": "3月特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
@@ -5714,7 +5714,7 @@
      "price": {
       "F_coin": 21
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
      "name": "3月のハッピー箱", 
      "introduce": "3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
@@ -6729,7 +6729,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "50%の確率で黄ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "イエローカプセル", 
      "introduce": "50%の確率で黄ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -7772,7 +7772,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "グリーンカプセル", 
      "introduce": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -8515,7 +8515,7 @@
      "price": {
       "F_coin": 10
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
      "name": "3月の宝箱", 
      "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
@@ -8560,7 +8560,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "0.7%の確率で赤ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "レッドカプセル", 
      "introduce": "0.7%の確率で赤ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -9724,7 +9724,7 @@
      "price": {
       "F_coin": 1
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "3%の確率で紫ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
      "name": "パープルカプセル", 
      "introduce": "3%の確率で紫ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
@@ -14305,49 +14305,52 @@
     "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
     "activity_type": "discount"
    }, 
-   "huangdan": {
-    "specific_type": "re", 
+   "tdyslan": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "イエローカプセル", 
+    "name": "青の提灯桜のカプセル", 
+    "start_time": 1301583601.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日18時間", 
+    "end_time": 1302598801.0, 
+    "goods_description": "10%の確率で青の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "tdysfen": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "桃の提灯桜のカプセル", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "50%の確率で黄ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "goods_description": "0.7%の確率で桃の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }, 
-   "tejiabaoxiang1": {
+   "tdyshong": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "3月のラッキー箱", 
+    "name": "赤の提灯桜のカプセル", 
     "price": {
-     "num": 77, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "3月特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
-    "activity_type": "discount"
-   }, 
-   "tejiabaoxiang2": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "3月のハッピー箱", 
-    "price": {
-     "num": 21, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "3月特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
+    "goods_description": "90%の確率で赤の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }, 
    "crystal": {
@@ -14368,19 +14371,49 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "landan": {
-    "specific_type": "re", 
+   "tdyslv": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "ブルーカプセル", 
+    "name": "緑の提灯桜のカプセル", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "goods_description": "3%の確率で緑の提灯桜を獲得できます。100％の確率でマジック飼料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
+   }, 
+   "tdyshuang": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "黄の提灯桜のカプセル", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "50%の確率で黄の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
+   }, 
+   "siyuebaoxiang": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "4月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
    "hammer": {
@@ -14400,40 +14433,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "caijiao": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "カラフルなピーマン", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_new", 
-    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "hot_sale"
-   }, 
-   "kaichunbaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "3月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
    }
   }, 
   "farm": {
