@@ -4191,27 +4191,6 @@
    }
   }, 
   "mystic_bags": {
-   "liushubaoxiang": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "中にヤナギの種5個が含まれています", 
-     "name": "ヤナギ宝箱", 
-     "introduce": "中にヤナギの種5個が含まれています"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "liushu": [
-        5, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
    "qingrenyushou1": {
     "config": {
      "price": {
@@ -5020,6 +4999,59 @@
      }
     }
    }, 
+   "tdyshong": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "90%の確率で赤の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "赤の提灯桜のカプセル", 
+     "introduce": "90%の確率で赤の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.01
+       ], 
+       "yingtao": [
+        1, 
+        0.2
+       ], 
+       "tdyshong": [
+        1, 
+        0.9
+       ], 
+       "taohua": [
+        1, 
+        0.01
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "shuijingputao": [
+        1, 
+        0.3
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         1.0
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "gongdengbaihebaoxiang": {
     "config": {
      "price": {
@@ -5260,6 +5292,144 @@
         2, 
         1
        ]
+      }
+     }
+    }
+   }, 
+   "tdyslan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "10%の確率で青の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "青の提灯桜のカプセル", 
+     "introduce": "10%の確率で青の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        0.05
+       ], 
+       "shenqijianlan": [
+        1, 
+        0.05
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "tdyslan": [
+        1, 
+        0.1
+       ], 
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.01
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "shuijingputao": [
+        1, 
+        0.05
+       ], 
+       "fenshuijingpingguo": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "shanxiao": [
+        1, 
+        0.05
+       ], 
+       "xiongmaotu": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "siyuebaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "4月の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirenzhiwu5": [
+        1, 
+        0.2
+       ], 
+       "nirenzhiwu6": [
+        1, 
+        0.08
+       ], 
+       "nirenzhiwu1": [
+        1, 
+        0.8
+       ], 
+       "nirenzhiwu2": [
+        1, 
+        0.4
+       ], 
+       "nirenzhiwu3": [
+        1, 
+        0.3
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -5885,6 +6055,115 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "tdysfen": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "0.7%の確率で桃の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "桃の提灯桜のカプセル", 
+     "introduce": "0.7%の確率で桃の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "shenqijianlan": [
+        1, 
+        0.02
+       ], 
+       "yingtao": [
+        1, 
+        0.1
+       ], 
+       "taigu": [
+        1, 
+        0.02
+       ], 
+       "tdysfen": [
+        1, 
+        0.007
+       ], 
+       "jiariyecan": [
+        1, 
+        0.02
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.03
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "carnation": [
+        1, 
+        0.02
+       ], 
+       "youli": [
+        1, 
+        0.05
+       ], 
+       "nirenboluo": [
+        1, 
+        0.04
+       ], 
+       "jianfeishu": [
+        1, 
+        0.02
+       ], 
+       "binglinghua": [
+        1, 
+        0.04
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ], 
+        "xunjie1": [
+         1, 
+         0.3
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "shanxiao": [
+        1, 
+        0.03
+       ], 
+       "xiongmaotu": [
+        1, 
+        0.03
+       ], 
+       "cangshu": [
+        1, 
+        0.03
+       ]
       }
      }
     }
@@ -6749,30 +7028,22 @@
      }
     }
    }, 
-   "xiongmaobaoxiang": {
+   "liushubaoxiang": {
     "config": {
      "price": {
-      "F_coin": 9999
+      "F_coin": 1
      }, 
      "used": false, 
-     "goods_str": "竹がたくさん、たまにパンダも入ってるよ！", 
-     "name": "パンダの宝箱", 
-     "introduce": "竹がたくさん、たまにパンダも入ってるよ！"
+     "goods_str": "中にヤナギの種5個が含まれています", 
+     "name": "ヤナギ宝箱", 
+     "introduce": "中にヤナギの種5個が含まれています"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "zhuzi": [
-        1, 
+       "liushu": [
+        5, 
         1
-       ]
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "xiongmao": [
-        1, 
-        0.07
        ]
       }
      }
@@ -7330,71 +7601,71 @@
      }
     }
    }, 
-   "cangbaotu2": {
+   "tunianniudanhuang": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 1
      }, 
-     "used": true, 
-     "goods_str": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
-     "name": "宝の地図2", 
-     "introduce": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。"
+     "used": false, 
+     "goods_str": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "イエローうさツリーのカプセル", 
+     "introduce": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
-     "ranch": {
+     "farm": {
+      "seeds": {
+       "shenqijianlan": [
+        1, 
+        0.03
+       ], 
+       "niudantujianer_huang": [
+        1, 
+        0.5
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "nirenxianrenzhang": [
+        1, 
+        0.04
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
+       ]
+      }, 
       "properties": {
-       "feedstuffs": {
-        "kuaisu": [
-         5, 
+       "fertilizer": {
+        "xunjie1": [
+         1, 
          1.0
         ], 
         "jisu": [
-         3, 
-         0.23
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
         ], 
         "gaosu": [
-         5, 
-         0.33
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         0.3
         ]
        }
-      }, 
-      "babies": {
-       "zuinv": [
-        1, 
-        0.3
-       ], 
-       "juxiezuo": [
-        1, 
-        0.3
-       ], 
-       "xingxing": [
-        1, 
-        0.3
-       ], 
-       "hongqingting": [
-        1, 
-        0.3
-       ], 
-       "huafenhou": [
-        1, 
-        0.3
-       ], 
-       "eyu": [
-        1, 
-        0.3
-       ], 
-       "lanqingting": [
-        1, 
-        0.3
-       ], 
-       "jingangyingwu": [
-        1, 
-        0.3
-       ], 
-       "NanFeiTuoNiao": [
-        1, 
-        0.3
-       ]
       }
      }
     }
@@ -7618,6 +7889,75 @@
         1, 
         0.05
        ]
+      }
+     }
+    }
+   }, 
+   "tdyshuang": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "50%の確率で黄の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "黄の提灯桜のカプセル", 
+     "introduce": "50%の確率で黄の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqijianlan": [
+        1, 
+        0.03
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.04
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "tdyshuang": [
+        1, 
+        0.5
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         1, 
+         0.3
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -8908,71 +9248,71 @@
      }
     }
    }, 
-   "tunianniudanhuang": {
+   "cangbaotu2": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 30
      }, 
-     "used": false, 
-     "goods_str": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "イエローうさツリーのカプセル", 
-     "introduce": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "used": true, 
+     "goods_str": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
+     "name": "宝の地図2", 
+     "introduce": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。"
     }, 
     "data": {
-     "farm": {
-      "seeds": {
-       "shenqijianlan": [
-        1, 
-        0.03
-       ], 
-       "niudantujianer_huang": [
-        1, 
-        0.5
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ], 
-       "chashu": [
-        1, 
-        0.2
-       ], 
-       "nirenxianrenzhang": [
-        1, 
-        0.04
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "shuijingputao": [
-        1, 
-        0.2
-       ]
-      }, 
+     "ranch": {
       "properties": {
-       "fertilizer": {
-        "xunjie1": [
-         1, 
+       "feedstuffs": {
+        "kuaisu": [
+         5, 
          1.0
         ], 
         "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
+         3, 
+         0.23
         ], 
         "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie": [
-         1, 
-         0.3
+         5, 
+         0.33
         ]
        }
+      }, 
+      "babies": {
+       "zuinv": [
+        1, 
+        0.3
+       ], 
+       "juxiezuo": [
+        1, 
+        0.3
+       ], 
+       "xingxing": [
+        1, 
+        0.3
+       ], 
+       "hongqingting": [
+        1, 
+        0.3
+       ], 
+       "huafenhou": [
+        1, 
+        0.3
+       ], 
+       "eyu": [
+        1, 
+        0.3
+       ], 
+       "lanqingting": [
+        1, 
+        0.3
+       ], 
+       "jingangyingwu": [
+        1, 
+        0.3
+       ], 
+       "NanFeiTuoNiao": [
+        1, 
+        0.3
+       ]
       }
      }
     }
@@ -9196,6 +9536,132 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "xiongmaobaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 9999
+     }, 
+     "used": false, 
+     "goods_str": "竹がたくさん、たまにパンダも入ってるよ！", 
+     "name": "パンダの宝箱", 
+     "introduce": "竹がたくさん、たまにパンダも入ってるよ！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "zhuzi": [
+        1, 
+        1
+       ]
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "xiongmao": [
+        1, 
+        0.07
+       ]
+      }
+     }
+    }
+   }, 
+   "tdyslv": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "3%の確率で緑の提灯桜を獲得できます。100％の確率でマジック飼料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "緑の提灯桜のカプセル", 
+     "introduce": "3%の確率で緑の提灯桜を獲得できます。100％の確率でマジック飼料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "zishuijingpingguo": [
+        1, 
+        0.01
+       ], 
+       "shenqinigerseed": [
+        1, 
+        0.03
+       ], 
+       "qinglvmogu": [
+        1, 
+        0.03
+       ], 
+       "tdyslv": [
+        1, 
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "chabei": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         1
+        ], 
+        "gaosu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinsewoniu": [
+        1, 
+        0.08
+       ], 
+       "baitu": [
+        1, 
+        0.05
+       ]
       }
      }
     }
@@ -31864,10 +32330,13 @@
    "tudoulibao", 
    "caiyecaobaoxiang", 
    "hushenfu", 
+   "tdyshong", 
    "gongdengbaihebaoxiang", 
    "shengdanhongniudan", 
    "shengdanziniudan", 
    "gongfuxiongmao", 
+   "tdyslan", 
+   "siyuebaoxiang", 
    "shengdanhuangniudan", 
    "tunianniudanfen", 
    "tejiabaoxiang1", 
@@ -31877,6 +32346,7 @@
    "xianhuabaoxiang", 
    "huangseniudan", 
    "liushubaoxiang", 
+   "tdysfen", 
    "yinghuashuhuangniudan", 
    "shengdanlvniudan", 
    "zhiwubaoxiang", 
@@ -31904,10 +32374,11 @@
    "lianxudenglu", 
    "yinghuashulvniudan", 
    "tujiandongwubaoxiang", 
-   "tunianniudanhuang", 
+   "cangbaotu2", 
    "El_bag", 
    "lvdan", 
    "yinghuashuziniudan", 
+   "tdyshuang", 
    "mianzhihuabao", 
    "chengseniudan", 
    "yinghuashuhongniudan", 
@@ -31921,10 +32392,11 @@
    "tujianbaoxiang", 
    "lanseniudan", 
    "cangbaotu4", 
-   "cangbaotu2", 
+   "tunianniudanhuang", 
    "cangbaotu3", 
    "shenqibaotu", 
    "cangbaotu1", 
+   "tdyslv", 
    "hongseniudan", 
    "zidan"
   ]
