@@ -13869,37 +13869,19 @@
     "goods_description": "3月特価セール！中には85ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
     "activity_type": "discount"
    }, 
-   "tejiabaoxiang2": {
-    "specific_type": "xin", 
+   "zhounianbao4": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "3月のハッピー箱", 
+    "name": "限定種セット", 
     "price": {
-     "num": 21, 
+     "num": 500, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "3月特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
-    "activity_type": "discount"
-   }, 
-   "zidan": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "パープルカプセル", 
-    "start_time": 1301130000.0, 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日23時間", 
-    "end_time": 1301558400.0, 
-    "goods_description": "3%の確率で紫ダイヤを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
+    "limit_type": "limit_hot", 
+    "goods_description": "限定販売していた種のセット。643Kコイン相当の大太鼓、タコ凧、ドキドキ、キキ、ドド、ビッグスイカ、メガブ、スリーカラーのバラ、カーネーションが入っています。", 
     "activity_type": "hot_sale"
    }, 
    "landan": {
@@ -13915,6 +13897,21 @@
     }, 
     "modify": true, 
     "goods_description": "10%の確率で青ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
+   }, 
+   "tejiabaoxiang2": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "3月のハッピー箱", 
+    "price": {
+     "num": 21, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "3月特価セール！中には25ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。販売期間：3月31日まで", 
     "activity_type": "discount"
    }, 
    "shanxiao": {
