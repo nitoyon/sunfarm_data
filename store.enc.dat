@@ -1312,6 +1312,107 @@
      }
     }
    }, 
+   "huaijiuniudanbao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産の超能力パンダも入っているよ！さっそく開けてみよう！", 
+     "name": "コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産の超能力パンダも入っているよ！さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "changchunhua": [
+        1, 
+        1.0
+       ], 
+       "jinseshuihulu": [
+        1, 
+        1.0
+       ], 
+       "jiariyecan": [
+        1, 
+        1.0
+       ], 
+       "bailian": [
+        1, 
+        1.0
+       ], 
+       "yutuhua": [
+        5, 
+        1.0
+       ], 
+       "songrong": [
+        2, 
+        1.0
+       ], 
+       "wurong": [
+        1, 
+        1.0
+       ], 
+       "bosiju": [
+        1, 
+        1.0
+       ], 
+       "baochunhua": [
+        1, 
+        1.0
+       ], 
+       "nirenboluo": [
+        1, 
+        1.0
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        1.0
+       ], 
+       "binglinghua": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "gongfuxiongmao": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "gb_10": {
     "config": {
      "price": {
@@ -5844,6 +5945,27 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "huajianjiubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "中にほろよい酒の種5個が含まれています", 
+     "name": "ほろよい酒宝箱", 
+     "introduce": "中にほろよい酒の種5個が含まれています"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "huajianjiu": [
+        5, 
+        1
+       ]
       }
      }
     }
@@ -32271,6 +32393,7 @@
    "niudanlipinbao", 
    "crops_huanxianghua_gift", 
    "crops_mitao_gift", 
+   "huaijiuniudanbao", 
    "gb_10", 
    "gb_12", 
    "dongwu_1", 
@@ -32373,6 +32496,7 @@
    "tejiabaoxiang2", 
    "xinnianlvniudan", 
    "guohuatujian", 
+   "huajianjiubaoxiang", 
    "xianhuabaoxiang", 
    "huangseniudan", 
    "liushubaoxiang", 
