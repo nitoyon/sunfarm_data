@@ -14427,25 +14427,6 @@
     "goods_description": "\u4e2d\u306b\u306f\u9ad8\u7d1a\u80a5\u65995\u500b\u3001\u5897\u7523\u80a5\u65991\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u659910\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
-   "magiccardless": {
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "\u30de\u30b8\u30c3\u30af\u5897\u7523\u30ab\u30fc\u30c9", 
-    "start_time": 1301630700.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "2\u65e51\u6642\u9593", 
-    "end_time": 1301807100.0, 
-    "goods_description": "", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "tdyslan": {
     "specific_type": "xin", 
     "product_type": {
@@ -14493,6 +14474,24 @@
     "modify": true, 
     "goods_description": "90%\u306e\u78ba\u7387\u3067\u8d64\u306e\u63d0\u706f\u685c\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u30025\u7a2e\u985e\u306e\u63d0\u706f\u685c\u3092\u5168\u90e8\u63c3\u3046\u3068500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002", 
     "activity_type": "discount"
+   }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "\u685c\u30af\u30ea\u30b9\u30bf\u30eb", 
+    "start_time": 1301533200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "12\u65e58\u6642\u9593", 
+    "end_time": 1302598800.0, 
+    "goods_description": "\u685c\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "tdyslv": {
     "specific_type": "xin", 
@@ -31136,7 +31135,7 @@
       "increment_percent_max": 1
      }, 
      "magiccardless": {
-      "used": true, 
+      "used": false, 
       "name": "\u30de\u30b8\u30c3\u30af\u5897\u7523\u30ab\u30fc\u30c9", 
       "price": {
        "F_coin": 3
