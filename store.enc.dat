@@ -14412,21 +14412,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "huafeibao3": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "マルチ肥料セット", 
-    "price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
-    "activity_type": "discount"
-   }, 
    "tdyslan": {
     "specific_type": "xin", 
     "product_type": {
@@ -14440,6 +14425,21 @@
     }, 
     "modify": true, 
     "goods_description": "10%の確率で青の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
+   }, 
+   "jiazhutao": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "キョウチクトウ", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
     "activity_type": "discount"
    }, 
    "tdysfen": {
