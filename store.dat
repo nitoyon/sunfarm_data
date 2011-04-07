@@ -5495,7 +5495,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "\u4e2d\u306b\u30b9\u30dd\u30fc\u30c4\u30d1\u30f3\u30c0\u306e\u8d64\u3061\u3083\u30931\u5339\u3068\u9ad8\u7d1a\u98fc\u65991\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
      "name": "\u30b9\u30dd\u30fc\u30c4\u30d1\u30f3\u30c0\u5b9d\u7bb1", 
      "introduce": "\u4e2d\u306b\u30b9\u30dd\u30fc\u30c4\u30d1\u30f3\u30c0\u306e\u8d64\u3061\u3083\u30931\u5339\u3068\u9ad8\u7d1a\u98fc\u65991\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
@@ -14932,13 +14932,13 @@
      "fruit_time": 300, 
      "sprout_time": 90, 
      "bloom_time": 150, 
-     "experience": 2.6, 
+     "experience": 2.52, 
      "seasons": 1, 
-     "sale_price": 5, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
      "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 20
+      "gold": 230
      }, 
      "level_need": 0
     }, 
@@ -30444,7 +30444,6 @@
     "hongqumai", 
     "sweetviolet", 
     "lingxiao", 
-    "baojunlajiao", 
     "lanshanhu", 
     "hyacinth", 
     "bian", 
@@ -30882,6 +30881,7 @@
     "yizhanghong", 
     "carrot", 
     "mayinghuashu", 
+    "baojunlajiao", 
     "dawanhua", 
     "laohecaohuashu", 
     "yrjjz", 
