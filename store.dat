@@ -14484,25 +14484,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "magiccardless": {
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "\u30de\u30b8\u30c3\u30af\u5897\u7523\u30ab\u30fc\u30c9", 
-    "start_time": 1302238800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3\u65e5", 
-    "end_time": 1302498000.0, 
-    "goods_description": "", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "tdyslan": {
     "specific_type": "xin", 
     "product_type": {
@@ -14565,6 +14546,24 @@
     "modify": true, 
     "goods_description": "\u4e2d\u306b\u30cf\u30d0\u30cd\u30ed\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
     "activity_type": "discount"
+   }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "\u685c\u30af\u30ea\u30b9\u30bf\u30eb", 
+    "start_time": 1301536800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "12\u65e57\u6642\u9593", 
+    "end_time": 1302598800.0, 
+    "goods_description": "\u685c\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "tdyslv": {
     "specific_type": "xin", 
@@ -31410,7 +31409,7 @@
       "increment_percent_max": 1
      }, 
      "magiccardless": {
-      "used": true, 
+      "used": false, 
       "name": "\u30de\u30b8\u30c3\u30af\u5897\u7523\u30ab\u30fc\u30c9", 
       "price": {
        "F_coin": 3
