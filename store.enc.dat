@@ -14484,25 +14484,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "magiccardless": {
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック増産カード", 
-    "start_time": 1302238800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1302498000.0, 
-    "goods_description": "", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "tdyslan": {
     "specific_type": "xin", 
     "product_type": {
@@ -14565,6 +14546,24 @@
     "modify": true, 
     "goods_description": "中にハバネロの種5個が含まれています", 
     "activity_type": "discount"
+   }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "桜クリスタル", 
+    "start_time": 1301536800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "12日7時間", 
+    "end_time": 1302598800.0, 
+    "goods_description": "桜の種と高級肥料が入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "tdyslv": {
     "specific_type": "xin", 
@@ -31410,7 +31409,7 @@
       "increment_percent_max": 1
      }, 
      "magiccardless": {
-      "used": true, 
+      "used": false, 
       "name": "マジック増産カード", 
       "price": {
        "F_coin": 3
