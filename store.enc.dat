@@ -7694,7 +7694,7 @@
      "price": {
       "F_coin": 85
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
      "name": "4月のラッキー箱", 
      "introduce": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
@@ -7779,7 +7779,7 @@
      "price": {
       "F_coin": 42
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
      "name": "4月のハッピー箱", 
      "introduce": "4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ"
@@ -14630,67 +14630,67 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "tdyslan": {
+   "huafeibao1": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "青の提灯桜のカプセル", 
+    "name": "中級肥料セット", 
     "price": {
-     "num": 1, 
+     "num": 15, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "10%の確率で青の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
-   "jiazhutao": {
+   "gongfuxiongmao": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "ranch", 
+     "goods_type": "baby"
     }, 
-    "name": "キョウチクトウ", 
+    "name": "超能力パンダ", 
     "price": {
      "num": 25, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
+    "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "tdysfen": {
+   "jiazhutao": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "桃の提灯桜のカプセル", 
-    "start_time": 1301583601.0, 
-    "modify": false, 
+    "name": "キョウチクトウ", 
+    "start_time": 1302087600.0, 
+    "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "11日18時間", 
-    "end_time": 1302598801.0, 
-    "goods_description": "0.7%の確率で桃の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "limit_time": "9日", 
+    "end_time": 1302865200.0, 
+    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
     "price": {
-     "num": 1, 
+     "num": 25, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
    }, 
-   "lajiaobaoxiang": {
+   "tejiabaoxiang2": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "ハバネロ宝箱", 
+    "name": "3月のハッピー箱", 
     "price": {
-     "num": 1, 
+     "num": 21, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "中にハバネロの種5個が含まれています", 
+    "goods_description": "3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
     "activity_type": "discount"
    }, 
    "crystal": {
@@ -14700,7 +14700,7 @@
     }, 
     "name": "桜クリスタル", 
     "start_time": 1301536800.0, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_time", 
     "limit_time": "15日7時間", 
     "end_time": 1302858000.0, 
@@ -14711,49 +14711,20 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "tdyslv": {
-    "specific_type": "xin", 
+   "gaoji": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "緑の提灯桜のカプセル", 
+    "name": "高級肥料", 
     "price": {
-     "num": 1, 
+     "num": 6, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "3%の確率で緑の提灯桜を獲得できます。100％の確率でマジック飼料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
-   }, 
-   "tdyshuang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "黄の提灯桜のカプセル", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "50%の確率で黄の提灯桜を獲得できます。100％の確率でマジック肥料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
-   }, 
-   "siyuebaoxiang": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "4月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "modify": false, 
+    "goods_description": "(イベントの期間)使うと作物の成熟時間を7時間短縮できます。マイミクに盗まれる前に収穫しちゃいましょう。", 
     "activity_type": "discount"
    }, 
    "hammer": {
@@ -14763,7 +14734,7 @@
     }, 
     "name": "桜ハンマー", 
     "start_time": 1301533200.0, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_time", 
     "limit_time": "15日8時間", 
     "end_time": 1302858000.0, 
@@ -14773,6 +14744,36 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "siyuebaoxiang1": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "4月のラッキー箱", 
+    "price": {
+     "num": 85, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+    "activity_type": "discount"
+   }, 
+   "siyuebaoxiang2": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "4月のハッピー箱", 
+    "price": {
+     "num": 42, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+    "activity_type": "discount"
    }
   }, 
   "farm": {
