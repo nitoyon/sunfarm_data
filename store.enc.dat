@@ -1699,6 +1699,107 @@
      }
     }
    }, 
+   "tdysniudanbao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産のスポーツパンダも入っているよ！さっそく開けてみよう！", 
+     "name": "コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産のスポーツパンダも入っているよ！さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirenxiangjiao": [
+        1, 
+        1.0
+       ], 
+       "changchunhua": [
+        1, 
+        1.0
+       ], 
+       "bailian": [
+        1, 
+        1.0
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        1.0
+       ], 
+       "songrong": [
+        2, 
+        1.0
+       ], 
+       "bosiju": [
+        1, 
+        1.0
+       ], 
+       "chashu": [
+        2, 
+        1.0
+       ], 
+       "yutuhua": [
+        4, 
+        1.0
+       ], 
+       "baochunhua": [
+        1, 
+        1.0
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        1.0
+       ], 
+       "wurong": [
+        1, 
+        1.0
+       ], 
+       "binglinghua": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "yundongxiongmao": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "gaojifeiliaobao": {
     "config": {
      "price": {
@@ -32957,6 +33058,7 @@
    "crops_qianlima_gift", 
    "crops_jidanbing_gift", 
    "crops_pingguopai_gift", 
+   "tdysniudanbao", 
    "gaojifeiliaobao", 
    "crops_jiajiepingguo_gift", 
    "crops_guoguangpingguo_gift", 
