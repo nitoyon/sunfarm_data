@@ -14794,22 +14794,26 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "crystal": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+   "tulip": {
+    "original_price": {
+     "num": 18, 
+     "type": "F_coin"
     }, 
-    "name": "桜クリスタル", 
-    "start_time": 1301536800.0, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "チューリップ", 
+    "price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "15日7時間", 
-    "end_time": 1302858000.0, 
-    "goods_description": "桜の種と高級肥料が入っています。", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
+    "limit_time": "5日", 
+    "end_time": 1303128000.0, 
+    "goods_description": "花言葉：愛の告白。\n13日21時から18日21時までチューリップを収穫するとレア種と肥料が入手できるよ。同時にチューリップは加工場の原料として使用できます。", 
+    "start_time": 1302696000.0, 
     "activity_type": "hot_sale"
    }, 
    "siyuebaoxiang": {
@@ -21605,16 +21609,28 @@
     "tulip": {
      "total_time": 1620, 
      "leaflet_time": 243, 
-     "used": true, 
+     "magicseed": [
+      3, 
+      4, 
+      5, 
+      6, 
+      7, 
+      8, 
+      9, 
+      10, 
+      11, 
+      12
+     ], 
      "name": "チューリップ", 
      "base_fruit": 25, 
      "fruit_time": 486, 
      "goodstype": "flower", 
      "sprout_time": 324, 
-     "recipe": "レシピに使えます：\nファンタスティックな旅", 
+     "recipe": "レシピに使えます：\nファンタスティックな旅\n\n13日21時から18日21時までチューリップを収穫するとレア種と肥料が入手できるよ。同時にチューリップは加工場の原料として使用できます。", 
      "introduce": "花言葉：愛の告白。", 
      "increment_fruit": 25, 
      "bloom_time": 324, 
+     "used": true, 
      "experience": 5.18, 
      "seasons": 1, 
      "sale_price": 35, 
