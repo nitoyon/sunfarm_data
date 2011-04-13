@@ -14630,36 +14630,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "huafeibao1": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "中級肥料セット", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "activity_type": "discount"
-   }, 
-   "gongfuxiongmao": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "超能力パンダ", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
-   }, 
    "jiazhutao": {
     "product_type": {
      "scene_type": "farm", 
@@ -14679,7 +14649,7 @@
     "activity_type": "hot_sale"
    }, 
    "tejiabaoxiang2": {
-    "specific_type": "xin", 
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -14691,6 +14661,36 @@
     }, 
     "modify": true, 
     "goods_description": "3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+    "activity_type": "discount"
+   }, 
+   "caijiao": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "カラフルなピーマン", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
+    "activity_type": "discount"
+   }, 
+   "baitu": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "ホワイトうさぎ", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "", 
     "activity_type": "discount"
    }, 
    "crystal": {
@@ -14711,20 +14711,19 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "gaoji": {
+   "siyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "高級肥料", 
+    "name": "4月の宝箱", 
     "price": {
-     "num": 6, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "(イベントの期間)使うと作物の成熟時間を7時間短縮できます。マイミクに盗まれる前に収穫しちゃいましょう。", 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます", 
     "activity_type": "discount"
    }, 
    "hammer": {
