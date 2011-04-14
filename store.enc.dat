@@ -5001,6 +5001,99 @@
      }
     }
    }, 
+   "niudanlan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "10%の確率でブルーイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "ブルーイースターカプセル", 
+     "introduce": "10%の確率でブルーイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqijianlan": [
+        1, 
+        0.05
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "dafeiyancao": [
+        1, 
+        0.05
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "niudanlan": [
+        1, 
+        0.1
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.01
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "shuijingputao": [
+        1, 
+        0.05
+       ], 
+       "fenshuijingpingguo": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "shanxiao": [
+        1, 
+        0.05
+       ], 
+       "xiongmaotu": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
    "landan": {
     "config": {
      "price": {
@@ -5591,47 +5684,31 @@
      }
     }
    }, 
-   "siyuebaoxiang": {
+   "yundongxiongmao": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 15
      }, 
      "used": true, 
-     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-     "name": "4月の宝箱", 
-     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+     "goods_str": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています", 
+     "name": "スポーツパンダ宝箱", 
+     "introduce": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています"
     }, 
     "data": {
-     "farm": {
-      "seeds": {
-       "nirenzhiwu5": [
-        1, 
-        0.2
-       ], 
-       "nirenzhiwu6": [
-        1, 
-        0.08
-       ], 
-       "nirenzhiwu1": [
-        1, 
-        0.8
-       ], 
-       "nirenzhiwu2": [
-        1, 
-        0.4
-       ], 
-       "nirenzhiwu3": [
-        1, 
-        0.3
-       ]
-      }, 
+     "ranch": {
       "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         1
         ]
        }
+      }, 
+      "babies": {
+       "yundongxiongmao": [
+        1, 
+        1
+       ]
       }
      }
     }
@@ -6735,6 +6812,75 @@
      }
     }
    }, 
+   "xinnianhuangniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日", 
+     "name": "黄の新年カプセル", 
+     "introduce": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "huang": [
+        1, 
+        0.5
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.04
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        0.03
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         1, 
+         1.0
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "love_stone": {
     "config": {
      "goods_str": "开启可获得丰厚的奖励哦", 
@@ -6844,6 +6990,59 @@
         "xunjie1": [
          1, 
          1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "niudanfen": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "90%の確率でレッドイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "レッドイースターカプセル", 
+     "introduce": "90%の確率でレッドイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.01
+       ], 
+       "niudanfen": [
+        1, 
+        0.9
+       ], 
+       "yingtao": [
+        1, 
+        0.2
+       ], 
+       "dafeiyancao": [
+        1, 
+        0.01
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "shuijingputao": [
+        1, 
+        0.3
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         1.0
+        ], 
+        "gaosu": [
+         1, 
+         0.15
         ]
        }
       }
@@ -6961,6 +7160,75 @@
        "rate_rune": {
         "El": [
          2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "niudanhuang": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "50%の確率でイエローイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "イエローイースターカプセル", 
+     "introduce": "50%の確率でイエローイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "niudanhuang": [
+        1, 
+        0.5
+       ], 
+       "shenqijianlan": [
+        1, 
+        0.03
+       ], 
+       "dafeiyancao": [
+        1, 
+        0.2
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.04
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         1, 
+         0.3
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
          1.0
         ]
        }
@@ -7991,6 +8259,115 @@
      }
     }
    }, 
+   "niudanzi": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "0.7%の確率でパープルイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "パープルイースターカプセル", 
+     "introduce": "0.7%の確率でパープルイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.02
+       ], 
+       "shenqijianlan": [
+        1, 
+        0.02
+       ], 
+       "yingtao": [
+        1, 
+        0.1
+       ], 
+       "niudanzi": [
+        1, 
+        0.007
+       ], 
+       "taigu": [
+        1, 
+        0.02
+       ], 
+       "dafeiyancao": [
+        1, 
+        0.02
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.03
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "youli": [
+        1, 
+        0.05
+       ], 
+       "nirenboluo": [
+        1, 
+        0.04
+       ], 
+       "jianfeishu": [
+        1, 
+        0.02
+       ], 
+       "binglinghua": [
+        1, 
+        0.04
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ], 
+        "xunjie1": [
+         1, 
+         0.3
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "shanxiao": [
+        1, 
+        0.03
+       ], 
+       "xiongmaotu": [
+        1, 
+        0.03
+       ], 
+       "cangshu": [
+        1, 
+        0.03
+       ]
+      }
+     }
+    }
+   }, 
    "tunianniudanhuang": {
     "config": {
      "price": {
@@ -8352,6 +8729,75 @@
      }
     }
    }, 
+   "cangbaotu1": {
+    "config": {
+     "price": {
+      "F_coin": 48
+     }, 
+     "used": true, 
+     "goods_str": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
+     "name": "宝の地図1", 
+     "introduce": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "hyacinth": [
+        1, 
+        0.33
+       ], 
+       "xiuqiuhua": [
+        1, 
+        0.33
+       ], 
+       "duancezhuzi": [
+        1, 
+        0.33
+       ], 
+       "lavender": [
+        1, 
+        0.33
+       ], 
+       "qiaokelidangao": [
+        1, 
+        0.33
+       ], 
+       "qingrenhuasu": [
+        1, 
+        0.33
+       ], 
+       "yinyuehe": [
+        1, 
+        0.33
+       ], 
+       "baobing": [
+        1, 
+        0.33
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         5, 
+         0.33
+        ], 
+        "zengshou": [
+         3, 
+         0.33
+        ], 
+        "gaoji": [
+         3, 
+         0.23
+        ], 
+        "gaosu": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "mianzhihuabao": {
     "config": {
      "price": {
@@ -8477,31 +8923,47 @@
      }
     }
    }, 
-   "yundongxiongmao": {
+   "siyuebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 15
+      "F_coin": 10
      }, 
      "used": true, 
-     "goods_str": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています", 
-     "name": "スポーツパンダ宝箱", 
-     "introduce": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています"
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "4月の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
     }, 
     "data": {
-     "ranch": {
+     "farm": {
+      "seeds": {
+       "nirenzhiwu5": [
+        1, 
+        0.2
+       ], 
+       "nirenzhiwu6": [
+        1, 
+        0.08
+       ], 
+       "nirenzhiwu1": [
+        1, 
+        0.8
+       ], 
+       "nirenzhiwu2": [
+        1, 
+        0.4
+       ], 
+       "nirenzhiwu3": [
+        1, 
+        0.3
+       ]
+      }, 
       "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         1
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
         ]
        }
-      }, 
-      "babies": {
-       "yundongxiongmao": [
-        1, 
-        1
-       ]
       }
      }
     }
@@ -9609,35 +10071,6 @@
      }
     }
    }, 
-   "cangbaotu3": {
-    "config": {
-     "price": {
-      "F_coin": 9999
-     }, 
-     "used": false, 
-     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
-     "name": "藏宝图卷三", 
-     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "shenqizijin": [
-        1, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "feedstuffs": {
-        "gaosu": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
    "cangbaotu4": {
     "config": {
      "price": {
@@ -9736,69 +10169,29 @@
      }
     }
    }, 
-   "xinnianhuangniudan": {
+   "cangbaotu3": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 9999
      }, 
      "used": false, 
-     "goods_str": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日", 
-     "name": "黄の新年カプセル", 
-     "introduce": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日"
+     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
+     "name": "藏宝图卷三", 
+     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "huang": [
+       "shenqizijin": [
         1, 
-        0.5
-       ], 
-       "nirenmangguo": [
-        1, 
-        0.04
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ], 
-       "shenqihuo_long_guo": [
-        1, 
-        0.03
-       ], 
-       "chashu": [
-        1, 
-        0.2
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "shuijingputao": [
-        1, 
-        0.2
+        1.0
        ]
       }, 
       "properties": {
-       "fertilizer": {
-        "xunjie1": [
-         1, 
-         1.0
-        ], 
-        "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
-        ], 
+       "feedstuffs": {
         "gaosu": [
          1, 
-         0.15
-        ], 
-        "xunjie": [
-         1, 
-         0.3
+         1.0
         ]
        }
       }
@@ -9890,71 +10283,99 @@
      }
     }
    }, 
-   "cangbaotu1": {
+   "niudanlv": {
     "config": {
      "price": {
-      "F_coin": 48
+      "F_coin": 1
      }, 
-     "used": true, 
-     "goods_str": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
-     "name": "宝の地図1", 
-     "introduce": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。"
+     "used": false, 
+     "goods_str": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "グリーンイースターカプセル", 
+     "introduce": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "hyacinth": [
+       "baiqiangwei": [
         1, 
-        0.33
+        0.02
        ], 
-       "xiuqiuhua": [
+       "yutuhua": [
         1, 
-        0.33
+        0.1
        ], 
-       "duancezhuzi": [
+       "dafeiyancao": [
         1, 
-        0.33
+        0.01
        ], 
-       "lavender": [
+       "niudanlv": [
         1, 
-        0.33
+        0.03
        ], 
-       "qiaokelidangao": [
+       "zishuijingpingguo": [
         1, 
-        0.33
+        0.01
        ], 
-       "qingrenhuasu": [
+       "shenqinigerseed": [
         1, 
-        0.33
+        0.03
        ], 
-       "yinyuehe": [
+       "qinglvmogu": [
         1, 
-        0.33
+        0.03
        ], 
-       "baobing": [
+       "chabei": [
         1, 
-        0.33
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.03
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "jisu": [
-         5, 
-         0.33
-        ], 
-        "zengshou": [
-         3, 
-         0.33
+        "xunjie": [
+         1, 
+         0.1
         ], 
         "gaoji": [
-         3, 
-         0.23
-        ], 
-        "gaosu": [
-         5, 
-         1.0
+         1, 
+         0.05
         ]
        }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         1
+        ], 
+        "gaosu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinsewoniu": [
+        1, 
+        0.08
+       ], 
+       "baitu": [
+        1, 
+        0.05
+       ]
       }
      }
     }
@@ -19237,14 +19658,15 @@
      "used": false, 
      "name": "ブルーイースターチューリップ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。ブルーイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。ブルーイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "4月27日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 8, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 8, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -20488,14 +20910,15 @@
      "used": false, 
      "name": "レッドイースターチューリップ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。レッドイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。レッドイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "4月27日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 8, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 8, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -21190,14 +21613,15 @@
      "used": false, 
      "name": "イエローイースターチューリップ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。イエローイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。イエローイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "4月27日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 8, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 8, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -21647,14 +22071,15 @@
      "used": false, 
      "name": "パープルイースターチューリップ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。パープルイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。パープルイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "4月27日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 8, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 8, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -22426,14 +22851,15 @@
      "used": false, 
      "name": "グリーンイースターチューリップ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。グリーンイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 25, 
+     "fruit_time": 360, 
+     "introduce": "おめでとうございます。グリーンイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "can_not_crop": "4月27日以降植えることができます。収穫すると、図鑑に入りますよ。", 
      "bloom_time": 330, 
-     "experience": 8, 
+     "sprout_time": 90, 
      "seasons": 1, 
      "sale_price": 15, 
+     "experience": 8, 
      "seed_price": {
       "F_coin": 50
      }, 
@@ -33456,7 +33882,9 @@
    "mofayaoshi1", 
    "mofayaoshi3", 
    "mofayaoshi2", 
+   "jingangcuo", 
    "shengdanlanniudan", 
+   "chengseniudan", 
    "landan", 
    "tudoulibao", 
    "caiyecaobaoxiang", 
@@ -33484,15 +33912,16 @@
    "zhiwubaoxiang", 
    "xinnianlanniudan", 
    "qiulanbaoxiang", 
-   "jingangcuo", 
+   "cangbaotu3", 
    "lajiaobaoxiang", 
    "bingdiaoshulanlibao", 
-   "xinnianhuangniudan", 
    "tunianniudanlv", 
+   "niudanfen", 
    "dangaoquan", 
    "niangaolihe", 
    "dujuanbaoxiang", 
    "yinghuashulanniudan", 
+   "niudanhuang", 
    "huangdan", 
    "fudai3", 
    "fudai2", 
@@ -33509,14 +33938,16 @@
    "siyuebaoxiang1", 
    "siyuebaoxiang2", 
    "tujiandongwubaoxiang", 
+   "niudanzi", 
    "cangbaotu2", 
    "El_bag", 
    "lvdan", 
    "yinghuashuziniudan", 
    "tdyshuang", 
+   "niudanlv", 
    "mianzhihuabao", 
    "siyuebaoxiang", 
-   "chengseniudan", 
+   "niudanlan", 
    "yinghuashuhongniudan", 
    "kaichunbaoxiang", 
    "hongdan", 
@@ -33529,7 +33960,7 @@
    "lanseniudan", 
    "cangbaotu4", 
    "tunianniudanhuang", 
-   "cangbaotu3", 
+   "xinnianhuangniudan", 
    "shenqibaotu", 
    "cangbaotu1", 
    "tdyslv", 
