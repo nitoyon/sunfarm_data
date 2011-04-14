@@ -15152,74 +15152,89 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "jiazhutao": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "キョウチクトウ", 
-    "start_time": 1302087600.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "9日", 
-    "end_time": 1302865200.0, 
-    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "tejiabaoxiang2": {
-    "specific_type": "re", 
+   "niudanhuang": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "3月のハッピー箱", 
+    "name": "イエローイースターカプセル", 
     "price": {
-     "num": 21, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+    "goods_description": "50%の確率でイエローイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }, 
-   "caijiao": {
-    "specific_type": "re", 
+   "niudanfen": {
+    "specific_type": "xin", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "カラフルなピーマン", 
+    "name": "レッドイースターカプセル", 
     "price": {
-     "num": 10, 
+     "num": 1, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
+    "modify": true, 
+    "goods_description": "90%の確率でレッドイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }, 
-   "baitu": {
-    "specific_type": "re", 
+   "niudanzi": {
     "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "ホワイトうさぎ", 
+    "name": "パープルイースターカプセル", 
+    "start_time": 1302775200.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日", 
+    "end_time": 1303725600.0, 
+    "goods_description": "0.7%の確率でパープルイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "price": {
-     "num": 30, 
+     "num": 1, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "", 
+    "activity_type": "hot_sale"
+   }, 
+   "crystal": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "桜クリスタル", 
+    "start_time": 1301533200.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "15日8時間", 
+    "end_time": 1302858000.0, 
+    "goods_description": "桜の種と高級肥料が入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "niudanlv": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "グリーンイースターカプセル", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }, 
    "tulip": {
-    "original_price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "flower"
@@ -15230,26 +15245,22 @@
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1303128000.0, 
     "goods_description": "花言葉：愛の告白。\n13日21時から18日21時までチューリップを収穫するとレア種と肥料が入手できるよ。同時にチューリップは加工場の原料として使用できます。", 
-    "start_time": 1302696000.0, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
-   "siyuebaoxiang": {
-    "specific_type": "re", 
+   "niudanlan": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "4月の宝箱", 
+    "name": "ブルーイースターカプセル", 
     "price": {
-     "num": 10, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます", 
+    "goods_description": "10%の確率でブルーイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }, 
    "hammer": {
@@ -15283,21 +15294,6 @@
     }, 
     "modify": true, 
     "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-    "activity_type": "discount"
-   }, 
-   "siyuebaoxiang2": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "4月のハッピー箱", 
-    "price": {
-     "num": 42, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
     "activity_type": "discount"
    }
   }, 
