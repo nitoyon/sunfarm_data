@@ -10071,6 +10071,67 @@
      }
     }
    }, 
+   "caomeierqibaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 50
+     }, 
+     "used": false, 
+     "goods_str": "いちごの動物たちが入っている、何が出るかは開けてからのお楽しみ！", 
+     "name": "いちごの宝箱", 
+     "introduce": "いちごの動物たちが入っている、何が出るかは開けてからのお楽しみ！"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "caomeimaotouying": [
+        1, 
+        0.2
+       ], 
+       "jinglingdongwu": [
+        1, 
+        0.005
+       ], 
+       "caomeixiniu": [
+        1, 
+        0.05
+       ], 
+       "caomeibiansexiang": [
+        1, 
+        0.2
+       ], 
+       "caomeixiang": [
+        1, 
+        0.5
+       ], 
+       "caomeiji": [
+        1, 
+        1
+       ], 
+       "caomeixiongmao": [
+        1, 
+        0.08
+       ], 
+       "caomeimaotouyingbianse": [
+        1, 
+        0.03
+       ], 
+       "caomeixiongmaobianse": [
+        1, 
+        0.08
+       ], 
+       "caomeijibianse": [
+        1, 
+        0.15
+       ], 
+       "caomeixiniubianse": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
    "cangbaotu4": {
     "config": {
      "price": {
@@ -34240,6 +34301,7 @@
    "lanniudan", 
    "tujianbaoxiang", 
    "lanseniudan", 
+   "caomeierqibaoxiang", 
    "cangbaotu4", 
    "tunianniudanhuang", 
    "xinnianhuangniudan", 
