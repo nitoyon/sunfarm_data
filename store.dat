@@ -16917,6 +16917,25 @@
      }, 
      "level_need": 10
     }, 
+    "tudoudunzhurou": {
+     "total_time": 1244, 
+     "leaflet_time": 264, 
+     "used": false, 
+     "name": "\u8089\u3058\u3083\u304c", 
+     "base_fruit": 25, 
+     "fruit_time": 320, 
+     "sprout_time": 132, 
+     "bloom_time": 264, 
+     "experience": 8.22, 
+     "seasons": 1, 
+     "sale_price": 18, 
+     "increment_fruit": 25, 
+     "leaf_time": 264, 
+     "seed_price": {
+      "gold": 1330
+     }, 
+     "level_need": 1
+    }, 
     "hanguoguoqishu": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -17166,6 +17185,25 @@
       "gold": 270
      }, 
      "level_need": 1
+    }, 
+    "taozibuoumao": {
+     "total_time": 480, 
+     "leaflet_time": 12, 
+     "used": false, 
+     "name": "\u6843\u30e9\u30b0\u30c9\u30fc\u30eb", 
+     "base_fruit": 25, 
+     "fruit_time": 222, 
+     "sprout_time": 10, 
+     "bloom_time": 148, 
+     "experience": 1.49, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 88, 
+     "seed_price": {
+      "gold": 80
+     }, 
+     "level_need": 0
     }, 
     "dayantonghuashu": {
      "total_time": 360, 
@@ -28118,6 +28156,25 @@
      "leaf_time": 120, 
      "level_need": 0
     }, 
+    "taozixianluomao": {
+     "total_time": 480, 
+     "leaflet_time": 12, 
+     "used": false, 
+     "name": "\u6843\u30b7\u30e3\u30e0", 
+     "base_fruit": 25, 
+     "fruit_time": 222, 
+     "sprout_time": 10, 
+     "bloom_time": 148, 
+     "experience": 1.49, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 88, 
+     "seed_price": {
+      "gold": 80
+     }, 
+     "level_need": 0
+    }, 
     "fenghuangzhiyi": {
      "total_time": 1410, 
      "leaflet_time": 330, 
@@ -29683,6 +29740,25 @@
      }, 
      "level_need": 1
     }, 
+    "taozijiafeimao": {
+     "total_time": 480, 
+     "leaflet_time": 12, 
+     "used": false, 
+     "name": "\u6843\u30ac\u30fc\u30d5\u30a3\u30fc\u30eb\u30c9", 
+     "base_fruit": 25, 
+     "fruit_time": 222, 
+     "sprout_time": 10, 
+     "bloom_time": 148, 
+     "experience": 1.49, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 88, 
+     "seed_price": {
+      "gold": 80
+     }, 
+     "level_need": 0
+    }, 
     "huoyancai": {
      "total_time": 960, 
      "leaflet_time": 90, 
@@ -30686,24 +30762,24 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "tudoudunzhurou": {
-     "total_time": 1244, 
-     "leaflet_time": 264, 
+    "taozizheermao": {
+     "total_time": 480, 
+     "leaflet_time": 12, 
      "used": false, 
-     "name": "\u8089\u3058\u3083\u304c", 
+     "name": "\u6843\u30b9\u30b3\u30c6\u30a3\u30c3\u30b7\u30e5\u30fb\u30d5\u30a9\u30fc\u30eb\u30c9", 
      "base_fruit": 25, 
-     "fruit_time": 320, 
-     "sprout_time": 132, 
-     "bloom_time": 264, 
-     "experience": 8.22, 
+     "fruit_time": 222, 
+     "sprout_time": 10, 
+     "bloom_time": 148, 
+     "experience": 1.49, 
      "seasons": 1, 
-     "sale_price": 18, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 264, 
+     "leaf_time": 88, 
      "seed_price": {
-      "gold": 1330
+      "gold": 80
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "cottoncandy": {
      "total_time": 840, 
@@ -30780,6 +30856,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 25
+     }, 
+     "level_need": 0
+    }, 
+    "taozizhaocaimao": {
+     "total_time": 480, 
+     "leaflet_time": 12, 
+     "used": false, 
+     "name": "\u6843\u30de\u30cd\u30ad\u30cd\u30b3", 
+     "base_fruit": 25, 
+     "fruit_time": 222, 
+     "sprout_time": 10, 
+     "bloom_time": 148, 
+     "experience": 1.49, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 88, 
+     "seed_price": {
+      "gold": 80
      }, 
      "level_need": 0
     }
@@ -31322,6 +31417,11 @@
     "lajin", 
     "bushe", 
     "ganjue", 
+    "taozijiafeimao", 
+    "taozixianluomao", 
+    "taozizheermao", 
+    "taozizhaocaimao", 
+    "taozibuoumao", 
     "meizishanyaogao", 
     "meizishanyaoshala", 
     "meigan", 
