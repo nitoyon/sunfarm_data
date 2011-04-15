@@ -15552,25 +15552,25 @@
     "activity_type": "hot_sale"
    }, 
    "niudanlv": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "グリーンイースターカプセル", 
-    "start_time": 1302775200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "11日", 
-    "end_time": 1303725600.0, 
-    "goods_description": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
    }, 
    "tulip": {
-    "specific_type": "xin", 
+    "original_price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "flower"
@@ -15580,9 +15580,13 @@
      "num": 12, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1303128000.0, 
     "goods_description": "花言葉：愛の告白。\n13日21時から18日21時までチューリップを収穫するとレア種と肥料が入手できるよ。同時にチューリップは加工場の原料として使用できます。", 
-    "activity_type": "discount"
+    "start_time": 1302696000.0, 
+    "activity_type": "hot_sale"
    }, 
    "niudanlan": {
     "specific_type": "xin", 
@@ -21468,7 +21472,7 @@
     "icecreamsmile": {
      "total_time": 810, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "ニコアイスの実", 
      "base_fruit": 25, 
      "fruit_time": 330, 
@@ -21873,7 +21877,7 @@
     "icecreamtower": {
      "total_time": 810, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "東京アイスの実", 
      "base_fruit": 25, 
      "fruit_time": 330, 
@@ -23721,7 +23725,7 @@
     "icecreamball": {
      "total_time": 810, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "アイスの木の実", 
      "base_fruit": 25, 
      "fruit_time": 330, 
@@ -28419,7 +28423,7 @@
     "icecreampetard": {
      "total_time": 810, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "浪速のアイスの実", 
      "base_fruit": 25, 
      "fruit_time": 330, 
@@ -29427,7 +29431,7 @@
     "icecreamstar": {
      "total_time": 810, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "星のアイスの実", 
      "base_fruit": 25, 
      "fruit_time": 330, 
