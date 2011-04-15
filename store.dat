@@ -15552,25 +15552,25 @@
     "activity_type": "hot_sale"
    }, 
    "niudanlv": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "\u30b0\u30ea\u30fc\u30f3\u30a4\u30fc\u30b9\u30bf\u30fc\u30ab\u30d7\u30bb\u30eb", 
-    "start_time": 1302775200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "11\u65e5", 
-    "end_time": 1303725600.0, 
-    "goods_description": "3%\u306e\u78ba\u7387\u3067\u30b0\u30ea\u30fc\u30f3\u30a4\u30fc\u30b9\u30bf\u30fc\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u98fc\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u30025\u7a2e\u985e\u306e\u30a4\u30fc\u30b9\u30bf\u30fc\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7\u3092\u5168\u90e8\u63c3\u3046\u3068500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "3%\u306e\u78ba\u7387\u3067\u30b0\u30ea\u30fc\u30f3\u30a4\u30fc\u30b9\u30bf\u30fc\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u98fc\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u30025\u7a2e\u985e\u306e\u30a4\u30fc\u30b9\u30bf\u30fc\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7\u3092\u5168\u90e8\u63c3\u3046\u3068500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002", 
+    "activity_type": "discount"
    }, 
    "tulip": {
-    "specific_type": "xin", 
+    "original_price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "flower"
@@ -15580,9 +15580,13 @@
      "num": 12, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5\u65e5", 
+    "end_time": 1303128000.0, 
     "goods_description": "\u82b1\u8a00\u8449\uff1a\u611b\u306e\u544a\u767d\u3002\n13\u65e521\u6642\u304b\u308918\u65e521\u6642\u307e\u3067\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7\u3092\u53ce\u7a6b\u3059\u308b\u3068\u30ec\u30a2\u7a2e\u3068\u80a5\u6599\u304c\u5165\u624b\u3067\u304d\u308b\u3088\u3002\u540c\u6642\u306b\u30c1\u30e5\u30fc\u30ea\u30c3\u30d7\u306f\u52a0\u5de5\u5834\u306e\u539f\u6599\u3068\u3057\u3066\u4f7f\u7528\u3067\u304d\u307e\u3059\u3002", 
-    "activity_type": "discount"
+    "start_time": 1302696000.0, 
+    "activity_type": "hot_sale"
    }, 
    "niudanlan": {
     "specific_type": "xin", 
@@ -21468,7 +21472,7 @@
     "icecreamsmile": {
      "total_time": 810, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "\u30cb\u30b3\u30a2\u30a4\u30b9\u306e\u5b9f", 
      "base_fruit": 25, 
      "fruit_time": 330, 
@@ -21873,7 +21877,7 @@
     "icecreamtower": {
      "total_time": 810, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "\u6771\u4eac\u30a2\u30a4\u30b9\u306e\u5b9f", 
      "base_fruit": 25, 
      "fruit_time": 330, 
@@ -23721,7 +23725,7 @@
     "icecreamball": {
      "total_time": 810, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "\u30a2\u30a4\u30b9\u306e\u6728\u306e\u5b9f", 
      "base_fruit": 25, 
      "fruit_time": 330, 
@@ -28419,7 +28423,7 @@
     "icecreampetard": {
      "total_time": 810, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "\u6d6a\u901f\u306e\u30a2\u30a4\u30b9\u306e\u5b9f", 
      "base_fruit": 25, 
      "fruit_time": 330, 
@@ -29427,7 +29431,7 @@
     "icecreamstar": {
      "total_time": 810, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "\u661f\u306e\u30a2\u30a4\u30b9\u306e\u5b9f", 
      "base_fruit": 25, 
      "fruit_time": 330, 
