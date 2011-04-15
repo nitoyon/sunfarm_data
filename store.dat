@@ -18025,6 +18025,26 @@
      "leaf_time": 60, 
      "level_need": 0
     }, 
+    "icecreamcake": {
+     "total_time": 750, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "\u6625\u306e\u304a\u83d3\u5b50\u306e\u5b9f", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 50, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 200
+     }, 
+     "level_need": 0
+    }, 
     "guibaihe": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -21444,6 +21464,26 @@
      }, 
      "level_need": 3
     }, 
+    "icecreamsmile": {
+     "total_time": 810, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u30cb\u30b3\u30a2\u30a4\u30b9\u306e\u5b9f", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 5.5, 
+     "seasons": 1, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 10
+     }, 
+     "level_need": 0
+    }, 
     "deguoguoqishu": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -21826,6 +21866,26 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 1800
+     }, 
+     "level_need": 0
+    }, 
+    "icecreamtower": {
+     "total_time": 810, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u6771\u4eac\u30a2\u30a4\u30b9\u306e\u5b9f", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 5.5, 
+     "seasons": 1, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 10
      }, 
      "level_need": 0
     }, 
@@ -23656,6 +23716,26 @@
      }, 
      "leaf_time": 120, 
      "level_need": 1
+    }, 
+    "icecreamball": {
+     "total_time": 810, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u30a2\u30a4\u30b9\u306e\u6728\u306e\u5b9f", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 5.5, 
+     "seasons": 1, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 10
+     }, 
+     "level_need": 0
     }, 
     "huo_long_guo": {
      "total_time": 2356, 
@@ -28335,6 +28415,26 @@
      "leaf_time": 708, 
      "level_need": 17
     }, 
+    "icecreampetard": {
+     "total_time": 810, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u6d6a\u901f\u306e\u30a2\u30a4\u30b9\u306e\u5b9f", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 5.5, 
+     "seasons": 1, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 10
+     }, 
+     "level_need": 0
+    }, 
     "bushe": {
      "total_time": 1050, 
      "leaflet_time": 150, 
@@ -29320,6 +29420,26 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 25
+     }, 
+     "level_need": 0
+    }, 
+    "icecreamstar": {
+     "total_time": 810, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u661f\u306e\u30a2\u30a4\u30b9\u306e\u5b9f", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 5.5, 
+     "seasons": 1, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 10
      }, 
      "level_need": 0
     }, 
@@ -31967,6 +32087,7 @@
     "penjingjuhua", 
     "huajianbiandang", 
     "cottoncandy", 
+    "icecreamball", 
     "bingdiaoshu", 
     "bingjilingdangao", 
     "bingyerizhonghua", 
@@ -32035,6 +32156,7 @@
     "tuerqijiegeng", 
     "nanmogu", 
     "sweetviolet", 
+    "icecreamsmile", 
     "lingxiao", 
     "lanshanhu", 
     "niudanzi", 
@@ -32097,8 +32219,11 @@
     "jingzhichahua", 
     "guaying", 
     "zhongguoxin", 
+    "icecreamstar", 
+    "icecreamcake", 
     "yutuhua", 
     "hongsehuacaomei", 
+    "icecreamtower", 
     "tdysfen", 
     "fenbaisehuacaomei", 
     "jiegeng", 
@@ -32114,6 +32239,7 @@
     "bingdiaohe", 
     "bingdiaodalianmao", 
     "bingdiaomao", 
+    "icecreampetard", 
     "yingtao", 
     "friednoodles", 
     "shuangjian", 
