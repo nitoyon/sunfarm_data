@@ -16059,25 +16059,23 @@
      }, 
      "level_need": 1
     }, 
-    "yangganju": {
-     "total_time": 360, 
-     "leaflet_time": 60, 
+    "huangsehuacaomei": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "マトリカリアの花束", 
-     "base_fruit": 1, 
-     "fruit_time": 90, 
-     "goodstype": "flower", 
-     "sprout_time": 60, 
-     "introduce": "花言葉：集う喜び （増産できません）", 
-     "increment_fruit": 0, 
-     "bloom_time": 90, 
-     "experience": 5.0, 
+     "name": "黄花いちご", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 10
+      "F_coin": 25
      }, 
-     "leaf_time": 60, 
      "level_need": 0
     }, 
     "bosiju": {
@@ -17562,6 +17560,25 @@
      }, 
      "level_need": 0
     }, 
+    "dianhuating": {
+     "total_time": 900, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "電話ボックス", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "chobanana": {
      "total_time": 920, 
      "leaflet_time": 150, 
@@ -19037,6 +19054,25 @@
      }, 
      "level_need": 1
     }, 
+    "zhong": {
+     "total_time": 510, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ホールクロック", 
+     "base_fruit": 25, 
+     "fruit_time": 180, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4.5, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 38
+     }, 
+     "level_need": 1
+    }, 
     "renshenyeye": {
      "total_time": 1080, 
      "leaflet_time": 150, 
@@ -19074,25 +19110,6 @@
       "F_coin": 25
      }, 
      "level_need": 35
-    }, 
-    "huangsehuacaomei": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "黄花いちご", 
-     "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 13, 
-     "seasons": 1, 
-     "sale_price": 16, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 25
-     }, 
-     "level_need": 0
     }, 
     "dawanhua": {
      "total_time": 360, 
@@ -22088,6 +22105,25 @@
      }, 
      "level_need": 1
     }, 
+    "gangqin1": {
+     "total_time": 810, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "アップライトピアノ", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "level_need": 1
+    }, 
     "ziyuanbaicai": {
      "total_time": 480, 
      "leaflet_time": 22, 
@@ -22107,24 +22143,24 @@
      }, 
      "level_need": 30
     }, 
-    "meizishanyaogao": {
-     "total_time": 450, 
+    "gangqin2": {
+     "total_time": 660, 
      "leaflet_time": 90, 
      "used": false, 
-     "name": "梅と山芋のケーキ", 
+     "name": "グランドピアノ", 
      "base_fruit": 25, 
-     "fruit_time": 120, 
-     "sprout_time": 60, 
-     "bloom_time": 90, 
-     "experience": 20, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 5, 
      "seasons": 1, 
-     "sale_price": 26, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
      "leaf_time": 90, 
      "seed_price": {
-      "gold": 360
+      "F_coin": 20
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "ziteng": {
      "total_time": 2410, 
@@ -23207,6 +23243,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "meizishanyaogao": {
+     "total_time": 450, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "梅と山芋のケーキ", 
+     "base_fruit": 25, 
+     "fruit_time": 120, 
+     "sprout_time": 60, 
+     "bloom_time": 90, 
+     "experience": 20, 
+     "seasons": 1, 
+     "sale_price": 26, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "gold": 360
+     }, 
+     "level_need": 0
+    }, 
     "tdyslv": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -23971,6 +24026,25 @@
      "leaf_time": 90, 
      "seed_price": {
       "F_coin": 500
+     }, 
+     "level_need": 1
+    }, 
+    "liushengji": {
+     "total_time": 1200, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "レコードプレイヤー", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -27498,22 +27572,22 @@
      }, 
      "level_need": 1
     }, 
-    "boluogulaorou": {
-     "total_time": 1330, 
-     "leaflet_time": 260, 
+    "bayinhe4": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "酢豚", 
+     "name": "フェリスオルゴール", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 140, 
-     "bloom_time": 310, 
-     "experience": 17.61, 
+     "fruit_time": 390, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 11, 
      "seasons": 1, 
-     "sale_price": 23, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
-     "leaf_time": 260, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 1220
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -27721,6 +27795,25 @@
      }, 
      "level_need": 1
     }, 
+    "moguniurouchaofan": {
+     "total_time": 890, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "きのこチャーハン", 
+     "base_fruit": 25, 
+     "fruit_time": 220, 
+     "sprout_time": 130, 
+     "bloom_time": 210, 
+     "experience": 11.19, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "gold": 410
+     }, 
+     "level_need": 1
+    }, 
     "mihoutao": {
      "total_time": 960, 
      "leaflet_time": 60, 
@@ -27855,22 +27948,22 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
-    "moguniurouchaofan": {
-     "total_time": 890, 
-     "leaflet_time": 120, 
+    "xuanzhuanmuma": {
+     "total_time": 1350, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "きのこチャーハン", 
+     "name": "メリーゴーラウンド", 
      "base_fruit": 25, 
-     "fruit_time": 220, 
-     "sprout_time": 130, 
-     "bloom_time": 210, 
-     "experience": 11.19, 
+     "fruit_time": 480, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 35, 
      "seasons": 1, 
-     "sale_price": 12, 
+     "sale_price": 20, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 410
+      "F_coin": 100
      }, 
      "level_need": 1
     }, 
@@ -30874,6 +30967,26 @@
      }, 
      "level_need": 52
     }, 
+    "zisexingxingshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "紫の星", 
+     "base_fruit": 1, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。紫の星を手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 0, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "smilingflower": {
      "total_time": 1400, 
      "leaflet_time": 162, 
@@ -31124,22 +31237,22 @@
      "leaf_time": 492, 
      "level_need": 19
     }, 
-    "bayinhe4": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "boluogulaorou": {
+     "total_time": 1330, 
+     "leaflet_time": 260, 
      "used": false, 
-     "name": "フェリスオルゴール", 
+     "name": "酢豚", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 11, 
+     "fruit_time": 360, 
+     "sprout_time": 140, 
+     "bloom_time": 310, 
+     "experience": 17.61, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 23, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 260, 
      "seed_price": {
-      "F_coin": 25
+      "gold": 1220
      }, 
      "level_need": 1
     }, 
@@ -31701,24 +31814,25 @@
      }, 
      "level_need": 32
     }, 
-    "zisexingxingshu": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "yangganju": {
+     "total_time": 360, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "紫の星", 
+     "name": "マトリカリアの花束", 
      "base_fruit": 1, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。紫の星を手に入れました。5種のダイヤを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "fruit_time": 90, 
+     "goodstype": "flower", 
+     "sprout_time": 60, 
+     "introduce": "花言葉：集う喜び （増産できません）", 
      "increment_fruit": 0, 
-     "bloom_time": 330, 
-     "experience": 100, 
+     "bloom_time": 90, 
+     "experience": 5.0, 
      "seasons": 1, 
      "sale_price": 15, 
      "seed_price": {
-      "F_coin": 50
+      "gold": 10
      }, 
-     "leaf_time": 330, 
+     "leaf_time": 60, 
      "level_need": 0
     }, 
     "taozizheermao": {
@@ -32110,6 +32224,7 @@
     "zhutai", 
     "wutongshu", 
     "xiankelai", 
+    "gangqin1", 
     "dongbeijincai", 
     "shuijingputao", 
     "meiguoguoqishu", 
@@ -32154,6 +32269,7 @@
     "shengdanmeigui", 
     "naiyou", 
     "bale", 
+    "gangqin2", 
     "lvshuijingpingguo", 
     "qisehualv", 
     "fanqiejiang", 
@@ -32231,6 +32347,7 @@
     "renshenyeye", 
     "jiazhutaobai", 
     "yimihua", 
+    "zhong", 
     "poyusan", 
     "youtong", 
     "putaoyaguoqishu", 
@@ -32239,6 +32356,7 @@
     "moxigeguojishu", 
     "heidoucha", 
     "bayinhe5", 
+    "xuanzhuanmuma", 
     "dongqing", 
     "shanyao", 
     "zidingxiang", 
@@ -32247,6 +32365,7 @@
     "lajiaoyou", 
     "jiutouniao", 
     "qicaijiazhutao", 
+    "liushengji", 
     "jiazhutaohong", 
     "bosijuhong", 
     "qisehuahong", 
@@ -32332,6 +32451,7 @@
     "xuediaodaxingxing", 
     "xuediaohuabao", 
     "leimendenglong", 
+    "dianhuating", 
     "caijiao2", 
     "hanguoguoqishu", 
     "shuiyangqiehua", 
