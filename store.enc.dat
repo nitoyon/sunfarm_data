@@ -15522,7 +15522,7 @@
     }, 
     "name": "マジック増産カード", 
     "start_time": 1302843600.0, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_time", 
     "limit_time": "4日", 
     "end_time": 1303189200.0, 
@@ -15552,40 +15552,21 @@
     "activity_type": "hot_sale"
    }, 
    "niudanlv": {
-    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "グリーンイースターカプセル", 
+    "start_time": 1302775200.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日", 
+    "end_time": 1303725600.0, 
+    "goods_description": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "price": {
      "num": 1, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
-   }, 
-   "tulip": {
-    "original_price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "チューリップ", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1303128000.0, 
-    "goods_description": "花言葉：愛の告白。\n13日21時から18日21時までチューリップを収穫するとレア種と肥料が入手できるよ。同時にチューリップは加工場の原料として使用できます。", 
-    "start_time": 1302696000.0, 
     "activity_type": "hot_sale"
    }, 
    "niudanlan": {
@@ -15601,6 +15582,21 @@
     }, 
     "modify": true, 
     "goods_description": "10%の確率でブルーイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "activity_type": "discount"
+   }, 
+   "siyuebaoxiang": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "4月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
    "siyuebaoxiang1": {
@@ -15626,11 +15622,11 @@
     }, 
     "name": "4月のハッピー箱", 
     "price": {
-     "num": 42, 
+     "num": 20, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+    "goods_description": "4月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
     "activity_type": "discount"
    }, 
    "niudanfen": {
@@ -22632,28 +22628,16 @@
     "tulip": {
      "total_time": 1620, 
      "leaflet_time": 243, 
-     "magicseed": [
-      3, 
-      4, 
-      5, 
-      6, 
-      7, 
-      8, 
-      9, 
-      10, 
-      11, 
-      12
-     ], 
+     "used": true, 
      "name": "チューリップ", 
      "base_fruit": 25, 
      "fruit_time": 486, 
      "goodstype": "flower", 
      "sprout_time": 324, 
-     "recipe": "レシピに使えます：\nファンタスティックな旅\n\n13日21時から18日21時までチューリップを収穫するとレア種と肥料が入手できるよ。同時にチューリップは加工場の原料として使用できます。", 
+     "recipe": "レシピに使えます：\nファンタスティックな旅", 
      "introduce": "花言葉：愛の告白。", 
      "increment_fruit": 25, 
      "bloom_time": 324, 
-     "used": true, 
      "experience": 5.18, 
      "seasons": 1, 
      "sale_price": 35, 
