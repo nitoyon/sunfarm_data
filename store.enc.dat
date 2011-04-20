@@ -8061,7 +8061,7 @@
    "siyuebaoxiang1": {
     "config": {
      "price": {
-      "F_coin": 85
+      "F_coin": 70
      }, 
      "used": true, 
      "goods_str": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
@@ -15596,6 +15596,7 @@
     "activity_type": "discount"
    }, 
    "jiazhutao": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -15606,24 +15607,30 @@
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_new", 
     "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "siyuebaoxiang1": {
-    "specific_type": "re", 
+    "original_price": {
+     "num": 85, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "4月のラッキー箱", 
     "price": {
-     "num": 85, 
+     "num": 70, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1303383600.0, 
     "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-    "activity_type": "discount"
+    "start_time": 1303297200.0, 
+    "activity_type": "hot_sale"
    }, 
    "siyuebaoxiang2": {
     "specific_type": "re", 
