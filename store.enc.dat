@@ -8094,7 +8094,7 @@
    "siyuebaoxiang1": {
     "config": {
      "price": {
-      "F_coin": 70
+      "F_coin": 85
      }, 
      "used": true, 
      "goods_str": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
@@ -15715,25 +15715,18 @@
     "activity_type": "discount"
    }, 
    "siyuebaoxiang1": {
-    "original_price": {
-     "num": 85, 
-     "type": "F_coin"
-    }, 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "4月のラッキー箱", 
     "price": {
-     "num": 70, 
+     "num": 85, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1303383600.0, 
+    "modify": true, 
+    "limit_type": "limit_new", 
     "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-    "start_time": 1303297200.0, 
     "activity_type": "hot_sale"
    }, 
    "siyuebaoxiang2": {
