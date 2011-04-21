@@ -7561,6 +7561,39 @@
      }
     }
    }, 
+   "lvdan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "グリーンカプセル", 
+     "introduce": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "lvzuanhua": [
+        1, 
+        0.95
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "ziseniudan": {
     "config": {
      "price": {
@@ -8534,35 +8567,79 @@
      }
     }
    }, 
-   "lvdan": {
+   "bayinhebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 125
      }, 
      "used": false, 
-     "goods_str": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "グリーンカプセル", 
-     "introduce": "90%の確率で緑ダイヤを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "goods_str": "さまざまな図鑑が入っています！", 
+     "name": "オルゴール箱", 
+     "introduce": "さまざまな図鑑が入っています！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "lvzuanhua": [
+       "jingzhuangqiaokelidangao": [
         1, 
-        0.95
+        0.1
+       ], 
+       "daizhuangqiaokeli": [
+        1, 
+        0.1
+       ], 
+       "shengdanwancan": [
+        1, 
+        0.1
+       ], 
+       "xuediaoshudaixiong": [
+        1, 
+        0.1
+       ], 
+       "xuediaochangjinglu": [
+        1, 
+        0.2
+       ], 
+       "qiaokelidangaoxin": [
+        1, 
+        0.2
+       ], 
+       "xuediaohuabao": [
+        1, 
+        0.2
+       ], 
+       "hezhuangqiaokeli": [
+        1, 
+        0.2
+       ], 
+       "xinxingqiaokeli": [
+        1, 
+        0.1
+       ], 
+       "shengdantaidixiong": [
+        1, 
+        0.2
+       ], 
+       "shengdanmao": [
+        1, 
+        0.2
+       ], 
+       "xuediaodaxingxing": [
+        1, 
+        0.1
+       ], 
+       "shengdangou": [
+        1, 
+        0.1
+       ], 
+       "shengdantuzi": [
+        1, 
+        0.2
+       ], 
+       "xuediaohonghuli": [
+        1, 
+        0.2
        ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
       }
      }
     }
@@ -34503,6 +34580,7 @@
    "fudai2", 
    "fudai1", 
    "xiongmaobaoxiang", 
+   "bayinhebaoxiang", 
    "ziseniudan", 
    "mb_10_key", 
    "shenqijindaihuabaoxiang", 
