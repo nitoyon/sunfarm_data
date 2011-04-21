@@ -19140,24 +19140,24 @@
      }, 
      "level_need": 24
     }, 
-    "dunsigua": {
-     "total_time": 1410, 
+    "xiajilan": {
+     "total_time": 840, 
      "leaflet_time": 150, 
      "used": false, 
-     "name": "\u30d8\u30c1\u30de\u306e\u716e\u7269", 
+     "name": "\u3048\u3073\u306d", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "sprout_time": 150, 
-     "bloom_time": 390, 
-     "experience": 19, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.52, 
      "seasons": 1, 
-     "sale_price": 16, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 150, 
      "seed_price": {
-      "gold": 192
+      "gold": 230
      }, 
-     "level_need": 1
+     "level_need": 30
     }, 
     "zhong": {
      "total_time": 510, 
@@ -19512,24 +19512,23 @@
      }, 
      "level_need": 5
     }, 
-    "fuqinjiehuasu": {
-     "total_time": 1875, 
-     "leaflet_time": 360, 
+    "dunsigua": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "\u611f\u8b1d\u306e\u6c17\u6301\u3061", 
+     "name": "\u30d8\u30c1\u30de\u306e\u716e\u7269", 
      "base_fruit": 25, 
-     "fruit_time": 400, 
-     "goodstype": "flower", 
-     "sprout_time": 355, 
-     "increment_fruit": 25, 
-     "bloom_time": 400, 
-     "experience": 7, 
+     "fruit_time": 390, 
+     "sprout_time": 150, 
+     "bloom_time": 390, 
+     "experience": 19, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 1
+      "gold": 192
      }, 
-     "leaf_time": 360, 
      "level_need": 1
     }, 
     "xinxingqiaokeli": {
@@ -29592,6 +29591,26 @@
      }, 
      "level_need": 1
     }, 
+    "fuqinjiehuasu": {
+     "total_time": 1875, 
+     "leaflet_time": 360, 
+     "used": false, 
+     "name": "\u611f\u8b1d\u306e\u6c17\u6301\u3061", 
+     "base_fruit": 25, 
+     "fruit_time": 400, 
+     "goodstype": "flower", 
+     "sprout_time": 355, 
+     "increment_fruit": 25, 
+     "bloom_time": 400, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "gold": 1
+     }, 
+     "leaf_time": 360, 
+     "level_need": 1
+    }, 
     "nigerseed": {
      "total_time": 3090, 
      "leaflet_time": 618, 
@@ -32915,6 +32934,7 @@
     "nigerseed", 
     "yezi", 
     "hongtuxianrenqiu", 
+    "xiajilan", 
     "bingdiaoshulan", 
     "huajianjiu", 
     "gongdengbaihehuang", 
