@@ -15787,6 +15787,21 @@
     }, 
     "activity_type": "hot_sale"
    }, 
+   "mianhua": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "わた", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "ふわふわ飛び舞う色鮮やかな「わた」、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
+    "activity_type": "discount"
+   }, 
    "niudanlv": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -15833,21 +15848,6 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
-   "jiazhutao": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "キョウチクトウ", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
     "activity_type": "discount"
    }, 
    "siyuebaoxiang2": {
@@ -30343,7 +30343,7 @@
     "mianhua": {
      "total_time": 805, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "わた", 
      "base_fruit": 25, 
      "fruit_time": 330, 
@@ -30357,7 +30357,7 @@
      "seasons": 1, 
      "sale_price": 11, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 25
      }, 
      "leaf_time": 150, 
      "level_need": 1
