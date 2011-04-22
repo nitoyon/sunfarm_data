@@ -22283,6 +22283,25 @@
      }, 
      "level_need": 0
     }, 
+    "kangnaixin": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
+     "used": false, 
+     "name": "\u30ab\u30fc\u30cd\u30fc\u30b7\u30e7\u30f3", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 3, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 600, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "yaoqianshu": {
      "total_time": 900, 
      "leaflet_time": 180, 
@@ -32853,6 +32872,7 @@
     "bosijuboss", 
     "caijiao", 
     "changshouhua", 
+    "kangnaixin", 
     "jianaguoqishu", 
     "xiangshuimao", 
     "bayinhe6", 
