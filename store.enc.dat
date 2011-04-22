@@ -15750,20 +15750,24 @@
     "goods_description": "50%の確率でイエローイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }, 
-   "niudanfen": {
-    "specific_type": "xin", 
+   "magiccardless": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "レッドイースターカプセル", 
+    "name": "マジック増産カード", 
+    "start_time": 1303448400.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日", 
+    "end_time": 1303707600.0, 
+    "goods_description": "", 
     "price": {
-     "num": 1, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "90%の確率でレッドイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "niudanzi": {
     "product_type": {
@@ -15846,21 +15850,6 @@
     "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
     "activity_type": "discount"
    }, 
-   "siyuebaoxiang1": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "4月のラッキー箱", 
-    "price": {
-     "num": 85, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_new", 
-    "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-    "activity_type": "hot_sale"
-   }, 
    "siyuebaoxiang2": {
     "specific_type": "re", 
     "product_type": {
@@ -15874,6 +15863,21 @@
     }, 
     "modify": true, 
     "goods_description": "4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+    "activity_type": "discount"
+   }, 
+   "niudanfen": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "レッドイースターカプセル", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "90%の確率でレッドイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }
   }, 
@@ -19431,7 +19435,7 @@
     "xiajilan": {
      "total_time": 840, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "えびね", 
      "base_fruit": 25, 
      "fruit_time": 300, 
@@ -33597,15 +33601,15 @@
       "increment_percent_max": 1
      }, 
      "magiccardless": {
-      "used": false, 
+      "used": true, 
       "name": "マジック増産カード", 
       "price": {
        "F_coin": 3
       }, 
-      "introduce": "成熟したイチゴミルクの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+      "introduce": "成熟したえびねの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
       "magic_card": true, 
       "include": [
-       "bingjilingjuantong"
+       "xiajilan"
       ], 
       "magic_card_percent": 0.5
      }, 
@@ -33763,7 +33767,7 @@
       "price": {
        "F_coin": 12
       }, 
-      "introduce": "イチゴミルク以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+      "introduce": "えびね以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
       "magic_card_percent": 0.5
      }, 
