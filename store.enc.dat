@@ -567,7 +567,7 @@
      "used": true, 
      "name": "お買い得セット", 
      "price": {
-      "F_coin": 1270
+      "F_coin": 700
      }, 
      "introduce": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
      "state": "re", 
@@ -15761,60 +15761,44 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "niudanhuang": {
-    "specific_type": "xin", 
+   "hyacinth": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "flower"
     }, 
-    "name": "イエローイースターカプセル", 
+    "name": "ヒアシンス", 
     "price": {
-     "num": 1, 
+     "num": 4, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "50%の確率でイエローイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "goods_description": "花言葉：しとやかなかわいらしさ", 
     "activity_type": "discount"
    }, 
-   "magiccardless": {
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック増産カード", 
-    "start_time": 1303448400.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1303707600.0, 
-    "goods_description": "", 
-    "price": {
-     "num": 3, 
+   "chaozhilibao": {
+    "original_price": {
+     "num": 1270, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
-   }, 
-   "niudanzi": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "パープルイースターカプセル", 
-    "start_time": 1302775200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "11日", 
-    "end_time": 1303725600.0, 
-    "goods_description": "0.7%の確率でパープルイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "name": "お買い得セット", 
     "price": {
-     "num": 1, 
+     "num": 700, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1304157600.0, 
+    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
+    "start_time": 1303725600.0, 
     "activity_type": "hot_sale"
    }, 
    "mianhua": {
-    "specific_type": "xin", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -15824,45 +15808,42 @@
      "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
+    "limit_type": "limit_new", 
     "goods_description": "ふわふわ飛び舞う色鮮やかな「わた」、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "discount"
-   }, 
-   "niudanlv": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "グリーンイースターカプセル", 
-    "start_time": 1302775200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "11日", 
-    "end_time": 1303725600.0, 
-    "goods_description": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
     "activity_type": "hot_sale"
    }, 
-   "niudanlan": {
-    "specific_type": "xin", 
+   "caijiao": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "ブルーイースターカプセル", 
+    "name": "カラフルなピーマン", 
     "price": {
-     "num": 1, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "10%の確率でブルーイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
+    "activity_type": "discount"
+   }, 
+   "tulip": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "チューリップ", 
+    "price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "花言葉：愛の告白。", 
     "activity_type": "discount"
    }, 
    "siyuebaoxiang": {
-    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -15872,8 +15853,39 @@
      "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
+    "limit_type": "limit_new", 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "hot_sale"
+   }, 
+   "jiazhutao": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "キョウチクトウ", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
+    "activity_type": "discount"
+   }, 
+   "siyuebaoxiang1": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "4月のラッキー箱", 
+    "price": {
+     "num": 85, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
     "activity_type": "discount"
    }, 
    "siyuebaoxiang2": {
@@ -15889,21 +15901,6 @@
     }, 
     "modify": true, 
     "goods_description": "4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-    "activity_type": "discount"
-   }, 
-   "niudanfen": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "レッドイースターカプセル", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "90%の確率でレッドイースターチューリップを獲得できます。100％の確率でマジック肥料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
     "activity_type": "discount"
    }
   }, 
