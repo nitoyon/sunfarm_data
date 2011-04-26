@@ -15906,6 +15906,25 @@
   }, 
   "farm": {
    "seeds": {
+    "chibangxiong": {
+     "total_time": 1350, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "パラダイススター", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 35, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 1
+    }, 
     "shizhu": {
      "total_time": 1584, 
      "leaflet_time": 269, 
@@ -18975,6 +18994,26 @@
      }, 
      "level_need": 0
     }, 
+    "diaozhonghua": {
+     "total_time": 750, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ホンコンドウダンツツジ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "random_special": 0, 
+     "bloom_time": 210, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 120, 
+     "seed_price": {
+      "F_coin": 0
+     }, 
+     "level_need": 1
+    }, 
     "hanguoguoqishua": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -20922,6 +20961,25 @@
      }, 
      "level_need": 1
     }, 
+    "chibangzhu": {
+     "total_time": 510, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "パラダイスノースポール", 
+     "base_fruit": 25, 
+     "fruit_time": 180, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4.5, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 38
+     }, 
+     "level_need": 1
+    }, 
     "liulian": {
      "total_time": 3120, 
      "leaflet_time": 624, 
@@ -22439,6 +22497,25 @@
      }, 
      "level_need": 0
     }, 
+    "chibangmao": {
+     "total_time": 900, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "パラダイスワスレナグサ", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "jingzhibuoumao": {
      "total_time": 860, 
      "leaflet_time": 90, 
@@ -22849,6 +22926,25 @@
       "F_coin": 25
      }, 
      "level_need": 0
+    }, 
+    "chibanggou": {
+     "total_time": 810, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "パラダイスローズ", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "level_need": 1
     }, 
     "ganlanyou": {
      "total_time": 1650, 
@@ -24533,24 +24629,24 @@
      "leaf_time": 300, 
      "level_need": 0
     }, 
-    "bingdiaomao": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
+    "chibangtu": {
+     "total_time": 1200, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "氷彫刻の黒猫", 
+     "name": "パラダイスエンジェルハート", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
+     "fruit_time": 420, 
      "sprout_time": 90, 
      "bloom_time": 330, 
-     "experience": 50, 
+     "experience": 10, 
      "seasons": 1, 
-     "sale_price": 500, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 150
+      "F_coin": 25
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "xiangshuixiong": {
      "total_time": 1920, 
@@ -26491,6 +26587,25 @@
      }, 
      "level_need": 1
     }, 
+    "chibangyang": {
+     "total_time": 660, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "パラダイスコスモス", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "xingzi": {
      "total_time": 1962, 
      "leaflet_time": 332, 
@@ -28116,6 +28231,25 @@
       "F_coin": 1
      }, 
      "level_need": 1
+    }, 
+    "bingdiaomao": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "氷彫刻の黒猫", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 50, 
+     "seasons": 1, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 150
+     }, 
+     "level_need": 0
     }, 
     "mayshucai": {
      "total_time": 780, 
@@ -33286,6 +33420,12 @@
     "maotouying", 
     "huangyou", 
     "balaguiguoqishu", 
+    "chibangtu", 
+    "chibangyang", 
+    "chibangxiong", 
+    "chibangzhu", 
+    "chibanggou", 
+    "chibangmao", 
     "chabeixiongmao", 
     "jiazhutaozi", 
     "bosijuzi", 
@@ -33318,6 +33458,7 @@
     "lanmeicaomei", 
     "renshenyeye", 
     "jiazhutaobai", 
+    "diaozhonghua", 
     "yimihua", 
     "zhong", 
     "poyusan", 
@@ -34537,6 +34678,17 @@
        "multi_buy": false, 
        "deadline": 6
       }, 
+      "menghuantianguo": {
+       "used": false, 
+       "name": "夢の大地", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 10
+       }, 
+       "experience": 200, 
+       "multi_buy": false, 
+       "deadline": 30
+      }, 
       "juxiezuo": {
        "used": false, 
        "name": "かに座の大地", 
@@ -34643,14 +34795,14 @@
        "multi_buy": false, 
        "deadline": null
       }, 
-      "yh": {
-       "used": true, 
-       "name": "桜の家", 
+      "menghuantianguo": {
+       "used": false, 
+       "name": "夢の小屋", 
        "layer_order": 2, 
        "price": {
-        "F_coin": 5
+        "F_coin": 10
        }, 
-       "experience": 43, 
+       "experience": 200, 
        "multi_buy": false, 
        "deadline": 30
       }, 
@@ -34774,6 +34926,17 @@
        "experience": 26, 
        "multi_buy": false, 
        "deadline": 15
+      }, 
+      "yh": {
+       "used": true, 
+       "name": "桜の家", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 5
+       }, 
+       "experience": 43, 
+       "multi_buy": false, 
+       "deadline": 30
       }, 
       "shengdanjie": {
        "used": false, 
@@ -35047,6 +35210,17 @@
        "experience": 200, 
        "multi_buy": false, 
        "deadline": 20
+      }, 
+      "menghuantianguo": {
+       "used": false, 
+       "name": "夢の空", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 15
+       }, 
+       "experience": 260, 
+       "multi_buy": false, 
+       "deadline": 15
       }, 
       "juxiezuo": {
        "used": false, 
