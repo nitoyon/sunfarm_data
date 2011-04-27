@@ -562,6 +562,107 @@
      }
     }
    }, 
+   "fuhuoniudanbao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "\u5168\u7a2e\u30b3\u30f3\u30d7\u30ea\u30fc\u30c8\u304a\u3081\u3067\u3068\u3046\u3001500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u755c\u7523\u306e\u30cf\u30e0\u30b9\u30bf\u30fc\u3082\u5165\u3063\u3066\u3044\u308b\u3088\uff01\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01", 
+     "name": "\u30b3\u30f3\u30d7\u30d7\u30ec\u30bc\u30f3\u30c8", 
+     "introduce": "\u5168\u7a2e\u30b3\u30f3\u30d7\u30ea\u30fc\u30c8\u304a\u3081\u3067\u3068\u3046\u3001500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u755c\u7523\u306e\u30cf\u30e0\u30b9\u30bf\u30fc\u3082\u5165\u3063\u3066\u3044\u308b\u3088\uff01\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirenxiangjiao": [
+        1, 
+        1.0
+       ], 
+       "mianhua": [
+        1, 
+        1.0
+       ], 
+       "changchunhua": [
+        1, 
+        1.0
+       ], 
+       "tulip": [
+        2, 
+        1.0
+       ], 
+       "songrong": [
+        2, 
+        1.0
+       ], 
+       "chashu": [
+        2, 
+        1.0
+       ], 
+       "yutuhua": [
+        4, 
+        1.0
+       ], 
+       "baochunhua": [
+        1, 
+        1.0
+       ], 
+       "binglinghua": [
+        1, 
+        1.0
+       ], 
+       "jiazhutao": [
+        1, 
+        1.0
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        1.0
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "chaozhilibao": {
     "config": {
      "used": true, 
@@ -35395,6 +35496,7 @@
    "crops_hongfushi_gift", 
    "guoqinglibao", 
    "gaojisiliaobao", 
+   "fuhuoniudanbao", 
    "crops_xiangkaoyangpai_gift", 
    "crops_tianyuanji_gift", 
    "yinghuashulibao", 
