@@ -5816,12 +5816,12 @@
    }, 
    "hammer": {
     "config": {
-     "goods_str": "桜クリスタルを開けることができます。", 
-     "name": "桜ハンマー", 
+     "goods_str": "クリスタルを開けることができます。", 
+     "name": "ハンマー", 
      "price": {
       "F_coin": 10
      }, 
-     "introduce": "桜クリスタルを開けることができます。", 
+     "introduce": "クリスタルを開けることができます。", 
      "state": "xin", 
      "used": false
     }
@@ -5897,12 +5897,12 @@
    }, 
    "crystal": {
     "config": {
-     "goods_str": "桜の種と高級肥料が入っています。", 
-     "name": "桜クリスタル", 
+     "goods_str": "雲の樹の種と高級肥料が入っています。", 
+     "name": "雲のクリスタル", 
      "price": {
       "gold": 100
      }, 
-     "introduce": "桜の種と高級肥料が入っています。", 
+     "introduce": "5月クリスタル", 
      "state": "xin", 
      "used": false
     }
@@ -6892,6 +6892,87 @@
      }
     }
    }, 
+   "lanniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
+     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+     "name": "青カプセル", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirentaigu": [
+        1, 
+        0.01
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        0.01
+       ], 
+       "baimeigui": [
+        1, 
+        0.01
+       ], 
+       "xingandengjie": [
+        1, 
+        0.03
+       ], 
+       "lankapian": [
+        1, 
+        0.01
+       ], 
+       "shuijingputao": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         0.1
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "huangsewoniu": [
+        1, 
+        0.08
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
+       ]
+      }
+     }
+    }
+   }, 
    "bingdiaoshulanlibao": {
     "config": {
      "price": {
@@ -7150,6 +7231,51 @@
      }
     }
    }, 
+   "tujianbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": true, 
+     "goods_str": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
+     "name": "花の宝箱", 
+     "introduce": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yumeirenhua": [
+        1, 
+        0.3
+       ], 
+       "yulan": [
+        1, 
+        0.3
+       ], 
+       "pugongying": [
+        1, 
+        0.4
+       ], 
+       "fenglingcao": [
+        1, 
+        0.5
+       ], 
+       "shanziteng": [
+        1, 
+        0.25
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "dangaoquan": {
     "config": {
      "price": {
@@ -7220,6 +7346,87 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "lanseniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "青カプセル", 
+     "introduce": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "lanzuanshu": [
+        1, 
+        0.1
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
+       ]
       }
      }
     }
@@ -8182,12 +8389,12 @@
    }, 
    "piece": {
     "config": {
-     "goods_str": "サクラのクリスタルを開ける時クリスタルかけら１個から３個までを入手できます", 
+     "goods_str": "クリスタルを開ける時クリスタルかけら１個から３個までを入手できます", 
      "name": "クリスタルかけら", 
      "price": {
       "gold": 100
      }, 
-     "introduce": "サクラのクリスタルを開ける時クリスタルかけら１個から３個までを入手できます", 
+     "introduce": "クリスタルを開ける時クリスタルかけら１個から３個までを入手できます", 
      "state": "xin", 
      "used": false
     }
@@ -10050,211 +10257,76 @@
      }
     }
    }, 
-   "lanniudan": {
+   "crystal2": {
     "config": {
+     "goods_str": "スノー家族の種と高級肥料が入っています。", 
+     "name": "12月クリスタル", 
      "price": {
-      "F_coin": 1
+      "gold": 100
      }, 
-     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
-     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-     "name": "青カプセル", 
+     "introduce": "12月クリスタル", 
+     "state": "xin", 
      "used": false
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "nirentaigu": [
-        1, 
-        0.01
-       ], 
-       "shenqiparadiseflower": [
-        1, 
-        0.01
-       ], 
-       "baimeigui": [
-        1, 
-        0.01
-       ], 
-       "xingandengjie": [
-        1, 
-        0.03
-       ], 
-       "lankapian": [
-        1, 
-        0.01
-       ], 
-       "shuijingputao": [
-        1, 
-        0.1
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         1, 
-         0.3
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "gaosu": [
-         1, 
-         0.1
-        ], 
-        "xunjie1": [
-         1, 
-         1
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "huangsewoniu": [
-        1, 
-        0.08
-       ], 
-       "jinseqingwa": [
-        1, 
-        0.1
-       ]
-      }
-     }
     }
    }, 
-   "tujianbaoxiang": {
+   "crystal3": {
     "config": {
+     "goods_str": "氷彫刻の植物の種と高級肥料が入っています。", 
+     "name": "1月クリスタル", 
      "price": {
-      "F_coin": 10
+      "gold": 100
      }, 
-     "used": true, 
-     "goods_str": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。", 
-     "name": "花の宝箱", 
-     "introduce": "花の宝箱（マジック肥料と花が入っています），100%の確率でマジック肥料を5個入手できます。ランダムで図鑑のヒナゲシ、オキタンポポ、ヒナゲシ、ハクモクレン、ヤマフジの種を入手できます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "yumeirenhua": [
-        1, 
-        0.3
-       ], 
-       "yulan": [
-        1, 
-        0.3
-       ], 
-       "pugongying": [
-        1, 
-        0.4
-       ], 
-       "fenglingcao": [
-        1, 
-        0.5
-       ], 
-       "shanziteng": [
-        1, 
-        0.25
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
-      }
-     }
+     "introduce": "1月クリスタル", 
+     "state": "xin", 
+     "used": false
     }
    }, 
-   "lanseniudan": {
+   "crystal1": {
     "config": {
+     "goods_str": "お面の種と高級肥料が入っています。", 
+     "name": "11月クリスタル", 
      "price": {
-      "F_coin": 1
+      "gold": 100
      }, 
-     "used": false, 
-     "goods_str": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "青カプセル", 
-     "introduce": "10%の確率で青カードを獲得できます。100％の確率でミニマジック肥料を入手できます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "heimeigui": [
-        1, 
-        0.03
-       ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "shenqijasmine": [
-        1, 
-        0.02
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "lanzuanshu": [
-        1, 
-        0.1
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
+     "introduce": "11月クリスタル", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
+   "crystal6": {
+    "config": {
+     "goods_str": "桜の種と高級肥料が入っています。", 
+     "name": "桜クリスタル", 
+     "price": {
+      "gold": 100
      }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }, 
-      "babies": {
-       "chengseqingwa": [
-        1, 
-        0.1
-       ], 
-       "taohuamao": [
-        1, 
-        0.05
-       ]
-      }
-     }
+     "introduce": "4月クリスタル", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
+   "crystal4": {
+    "config": {
+     "goods_str": "動物の小屋の種と高級肥料が入っています。", 
+     "name": "神秘な小屋", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "2月クリスタル", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
+   "crystal5": {
+    "config": {
+     "goods_str": "いちごの種と高級肥料が入っています。", 
+     "name": "美味しいいちご", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "3月クリスタル", 
+     "state": "xin", 
+     "used": false
     }
    }, 
    "caomeierqibaoxiang": {
@@ -35582,7 +35654,10 @@
    "hammer", 
    "crystal", 
    "mb_10", 
+   "crystal3", 
    "love_stone", 
+   "crystal6", 
+   "crystal5", 
    "hongshuijing", 
    "chengshuijing", 
    "piece", 
@@ -35590,6 +35665,9 @@
    "mb_8", 
    "zong_zi", 
    "mb_7", 
+   "crystal2", 
+   "crystal1", 
+   "crystal4", 
    "mb_4", 
    "mb_1", 
    "qingrenyushou1", 
