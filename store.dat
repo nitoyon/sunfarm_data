@@ -18806,6 +18806,25 @@
      }, 
      "level_need": 39
     }, 
+    "zongzixin": {
+     "total_time": 840, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u7aef\u5348\u306e\u3061\u307e\u304d", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.52, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 230
+     }, 
+     "level_need": 30
+    }, 
     "shaluo": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -26466,24 +26485,24 @@
      }, 
      "level_need": 1
     }, 
-    "caijiaozhanshihongse": {
-     "total_time": 1220, 
-     "leaflet_time": 120, 
+    "baibingxin": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "\u30d4\u30fc\u30de\u30f3\u30ec\u30c3\u30c9", 
+     "name": "\u7aef\u5348\u306e\u67cf\u9905", 
      "base_fruit": 25, 
-     "fruit_time": 450, 
+     "fruit_time": 360, 
      "sprout_time": 90, 
-     "bloom_time": 320, 
-     "experience": 6, 
+     "bloom_time": 330, 
+     "experience": 7, 
      "seasons": 1, 
      "sale_price": 12, 
      "increment_fruit": 25, 
-     "leaf_time": 240, 
+     "leaf_time": 150, 
      "seed_price": {
-      "gold": 15
+      "F_coin": 20
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "zhihe": {
      "total_time": 480, 
@@ -28668,6 +28687,25 @@
       "gold": 10
      }, 
      "level_need": 6
+    }, 
+    "caijiaozhanshihongse": {
+     "total_time": 1220, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "\u30d4\u30fc\u30de\u30f3\u30ec\u30c3\u30c9", 
+     "base_fruit": 25, 
+     "fruit_time": 450, 
+     "sprout_time": 90, 
+     "bloom_time": 320, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "gold": 15
+     }, 
+     "level_need": 1
     }, 
     "bayinhe6": {
      "total_time": 1920, 
@@ -33409,6 +33447,7 @@
     "tdyszi", 
     "bailian", 
     "feverfew", 
+    "baibingxin", 
     "xingandengjie", 
     "duancezhuzi", 
     "mikuo", 
@@ -34046,6 +34085,7 @@
     "liushu", 
     "qiulan", 
     "zhihe", 
+    "zongzixin", 
     "dongguaxin", 
     "donggua", 
     "xingzixin", 
