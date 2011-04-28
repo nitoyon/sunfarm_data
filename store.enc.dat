@@ -15972,7 +15972,6 @@
     "activity_type": "hot_sale"
    }, 
    "mianhua": {
-    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -15982,9 +15981,10 @@
      "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
+    "limit_type": "limit_new", 
     "goods_description": "ふわふわ飛び舞う色鮮やかな「わた」、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "caijiao": {
     "specific_type": "re", 
@@ -16002,6 +16002,7 @@
     "activity_type": "discount"
    }, 
    "tulip": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "flower"
@@ -16011,10 +16012,9 @@
      "num": 12, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_new", 
+    "modify": true, 
     "goods_description": "花言葉：愛の告白。", 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "siyuebaoxiang": {
     "product_type": {
