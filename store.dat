@@ -15972,7 +15972,6 @@
     "activity_type": "hot_sale"
    }, 
    "mianhua": {
-    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -15982,9 +15981,10 @@
      "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
+    "limit_type": "limit_new", 
     "goods_description": "\u3075\u308f\u3075\u308f\u98db\u3073\u821e\u3046\u8272\u9bae\u3084\u304b\u306a\u300c\u308f\u305f\u300d\u3001\u4f55\u304c\u51fa\u308b\u306e\u304b\u306a\uff1f\u53ce\u7a6b\u7269\u306f\u5de5\u5834\u3067\u52a0\u5de5\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002\u88fd\u9020\u3057\u305f\u7269\u3092\u53ce\u7a6b\u3059\u308b\u3068\u3001\u56f3\u9451\u306b\u5165\u308a\u307e\u3059\u3002", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "caijiao": {
     "specific_type": "re", 
@@ -16002,6 +16002,7 @@
     "activity_type": "discount"
    }, 
    "tulip": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "flower"
@@ -16011,10 +16012,9 @@
      "num": 12, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_new", 
+    "modify": true, 
     "goods_description": "\u82b1\u8a00\u8449\uff1a\u611b\u306e\u544a\u767d\u3002", 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "siyuebaoxiang": {
     "product_type": {
