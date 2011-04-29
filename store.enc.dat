@@ -5195,6 +5195,51 @@
      }
     }
    }, 
+   "nanhaijiebaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "端午の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "ziseliyuqi": [
+        1, 
+        0.08
+       ], 
+       "chengseliyuqi": [
+        1, 
+        0.8
+       ], 
+       "lanseliyuqi": [
+        1, 
+        0.3
+       ], 
+       "huangseliyuqi": [
+        1, 
+        0.4
+       ], 
+       "lvseliyuqi": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "landan": {
     "config": {
      "price": {
@@ -9122,71 +9167,99 @@
      }
     }
    }, 
-   "cangbaotu1": {
+   "niudanlv": {
     "config": {
      "price": {
-      "F_coin": 48
+      "F_coin": 1
      }, 
-     "used": true, 
-     "goods_str": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
-     "name": "宝の地図1", 
-     "introduce": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。"
+     "used": false, 
+     "goods_str": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "グリーンイースターカプセル", 
+     "introduce": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "hyacinth": [
+       "baiqiangwei": [
         1, 
-        0.33
+        0.02
        ], 
-       "xiuqiuhua": [
+       "yutuhua": [
         1, 
-        0.33
+        0.1
        ], 
-       "duancezhuzi": [
+       "dafeiyancao": [
         1, 
-        0.33
+        0.01
        ], 
-       "lavender": [
+       "niudanlv": [
         1, 
-        0.33
+        0.03
        ], 
-       "qiaokelidangao": [
+       "zishuijingpingguo": [
         1, 
-        0.33
+        0.01
        ], 
-       "qingrenhuasu": [
+       "shenqinigerseed": [
         1, 
-        0.33
+        0.03
        ], 
-       "yinyuehe": [
+       "qinglvmogu": [
         1, 
-        0.33
+        0.03
        ], 
-       "baobing": [
+       "chabei": [
         1, 
-        0.33
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.03
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "jisu": [
-         5, 
-         0.33
-        ], 
-        "zengshou": [
-         3, 
-         0.33
+        "xunjie": [
+         1, 
+         0.1
         ], 
         "gaoji": [
-         3, 
-         0.23
-        ], 
-        "gaosu": [
-         5, 
-         1.0
+         1, 
+         0.05
         ]
        }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         1
+        ], 
+        "gaosu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinsewoniu": [
+        1, 
+        0.08
+       ], 
+       "baitu": [
+        1, 
+        0.05
+       ]
       }
      }
     }
@@ -10602,99 +10675,71 @@
      }
     }
    }, 
-   "niudanlv": {
+   "cangbaotu1": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 48
      }, 
-     "used": false, 
-     "goods_str": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "グリーンイースターカプセル", 
-     "introduce": "3%の確率でグリーンイースターチューリップを獲得できます。100％の確率でマジック飼料を入手できます。5種類のイースターチューリップを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "used": true, 
+     "goods_str": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
+     "name": "宝の地図1", 
+     "introduce": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "baiqiangwei": [
+       "hyacinth": [
         1, 
-        0.02
+        0.33
        ], 
-       "yutuhua": [
+       "xiuqiuhua": [
         1, 
-        0.1
+        0.33
        ], 
-       "dafeiyancao": [
+       "duancezhuzi": [
         1, 
-        0.01
+        0.33
        ], 
-       "niudanlv": [
+       "lavender": [
         1, 
-        0.03
+        0.33
        ], 
-       "zishuijingpingguo": [
+       "qiaokelidangao": [
         1, 
-        0.01
+        0.33
        ], 
-       "shenqinigerseed": [
+       "qingrenhuasu": [
         1, 
-        0.03
+        0.33
        ], 
-       "qinglvmogu": [
+       "yinyuehe": [
         1, 
-        0.03
+        0.33
        ], 
-       "chabei": [
+       "baobing": [
         1, 
-        0.03
-       ], 
-       "nirenxiangjiao": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.03
+        0.33
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "xunjie": [
-         1, 
-         0.1
+        "jisu": [
+         5, 
+         0.33
+        ], 
+        "zengshou": [
+         3, 
+         0.33
         ], 
         "gaoji": [
-         1, 
-         0.05
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         1
+         3, 
+         0.23
         ], 
         "gaosu": [
-         1, 
-         0.08
+         5, 
+         1.0
         ]
        }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "jinsewoniu": [
-        1, 
-        0.08
-       ], 
-       "baitu": [
-        1, 
-        0.05
-       ]
       }
      }
     }
@@ -16118,24 +16163,25 @@
      }, 
      "level_need": 1
     }, 
-    "qingrenhuasu": {
-     "total_time": 1050, 
-     "leaflet_time": 150, 
-     "used": false, 
-     "name": "恋人の花束", 
+    "lanmeixin": {
+     "total_time": 480, 
+     "leaflet_time": 22, 
+     "used": true, 
+     "name": "ヌマスノキ", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 150, 
-     "bloom_time": 300, 
-     "experience": 11, 
-     "seasons": 2, 
-     "sale_price": 22, 
+     "fruit_time": 152, 
+     "recipe": "レシピに使えます：\nブルーベリーアイス", 
+     "sprout_time": 20, 
+     "bloom_time": 148, 
+     "experience": 1.35, 
+     "seasons": 1, 
+     "sale_price": 10, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 138, 
      "seed_price": {
-      "F_coin": 15
+      "gold": 200
      }, 
-     "level_need": 1
+     "level_need": 33
     }, 
     "lvshuijingpingguo": {
      "total_time": 960, 
@@ -23451,6 +23497,25 @@
      "leaf_time": 180, 
      "level_need": 0
     }, 
+    "wenziyi": {
+     "total_time": 900, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "植木(サ)", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "yhhf": {
      "total_time": 1050, 
      "leaflet_time": 150, 
@@ -23592,22 +23657,22 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "ribenguoqishua": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "wenziwu": {
+     "total_time": 510, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "復刻版日本国旗樹復刻版", 
+     "name": "植木(ン)紫", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 6, 
+     "fruit_time": 180, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4.5, 
      "seasons": 1, 
-     "sale_price": 12, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 90, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 38
      }, 
      "level_need": 1
     }, 
@@ -23985,22 +24050,42 @@
      }, 
      "level_need": 1
     }, 
-    "hezuoluobo": {
-     "total_time": 2880, 
-     "leaflet_time": 510, 
-     "used": false, 
-     "name": "デカ赤カブ", 
+    "shucaisela": {
+     "total_time": 1395, 
+     "leaflet_time": 150, 
+     "used": true, 
+     "name": "野菜サラダ", 
      "base_fruit": 25, 
-     "fruit_time": 720, 
-     "sprout_time": 330, 
-     "bloom_time": 720, 
-     "experience": 800, 
-     "seasons": 2, 
-     "sale_price": 500, 
+     "fruit_time": 510, 
+     "tuchan": true, 
+     "sprout_time": 150, 
+     "bloom_time": 390, 
+     "experience": 4.09, 
+     "seasons": 1, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 600, 
+     "leaf_time": 195, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 1
+     }, 
+     "level_need": 0
+    }, 
+    "wenziliu": {
+     "total_time": 1350, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "牧場の植木", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 35, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 100
      }, 
      "level_need": 1
     }, 
@@ -25239,6 +25324,25 @@
      }, 
      "level_need": 1
     }, 
+    "wenzisan": {
+     "total_time": 660, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "植木(シャ)", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "guobaorou": {
      "total_time": 1330, 
      "leaflet_time": 260, 
@@ -25255,6 +25359,25 @@
      "leaf_time": 260, 
      "seed_price": {
       "gold": 1290
+     }, 
+     "level_need": 1
+    }, 
+    "wenzier": {
+     "total_time": 810, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "植木(ン)緑", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 15
      }, 
      "level_need": 1
     }, 
@@ -27038,6 +27161,25 @@
      }, 
      "level_need": 1
     }, 
+    "biandang": {
+     "total_time": 480, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "御節", 
+     "base_fruit": 25, 
+     "fruit_time": 150, 
+     "sprout_time": 60, 
+     "bloom_time": 150, 
+     "experience": 3, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 60, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 0
+    }, 
     "tusanyecao": {
      "total_time": 5, 
      "leaflet_time": 1, 
@@ -27310,6 +27452,25 @@
      }, 
      "level_need": 0
     }, 
+    "wenzisi": {
+     "total_time": 1200, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "植木(イ)", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "shuicai": {
      "total_time": 960, 
      "leaflet_time": 90, 
@@ -27491,25 +27652,24 @@
      }, 
      "level_need": 1
     }, 
-    "lanmeixin": {
-     "total_time": 480, 
-     "leaflet_time": 22, 
-     "used": true, 
-     "name": "ヌマスノキ", 
+    "qingrenhuasu": {
+     "total_time": 1050, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "恋人の花束", 
      "base_fruit": 25, 
-     "fruit_time": 152, 
-     "recipe": "レシピに使えます：\nブルーベリーアイス", 
-     "sprout_time": 20, 
-     "bloom_time": 148, 
-     "experience": 1.35, 
-     "seasons": 1, 
-     "sale_price": 10, 
+     "fruit_time": 300, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 11, 
+     "seasons": 2, 
+     "sale_price": 22, 
      "increment_fruit": 25, 
-     "leaf_time": 138, 
+     "leaf_time": 150, 
      "seed_price": {
-      "gold": 200
+      "F_coin": 15
      }, 
-     "level_need": 33
+     "level_need": 1
     }, 
     "xiangshizhu": {
      "total_time": 720, 
@@ -28684,24 +28844,24 @@
      }, 
      "level_need": 17
     }, 
-    "biandang": {
-     "total_time": 480, 
-     "leaflet_time": 60, 
+    "ribenguoqishua": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "御節", 
+     "name": "復刻版日本国旗樹復刻版", 
      "base_fruit": 25, 
-     "fruit_time": 150, 
-     "sprout_time": 60, 
-     "bloom_time": 150, 
-     "experience": 3, 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 6, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "leaf_time": 60, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 1
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "chonglaoda": {
      "total_time": 810, 
@@ -30451,25 +30611,24 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "shucaisela": {
-     "total_time": 1395, 
-     "leaflet_time": 150, 
-     "used": true, 
-     "name": "野菜サラダ", 
+    "hezuoluobo": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
+     "used": false, 
+     "name": "デカ赤カブ", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
-     "tuchan": true, 
-     "sprout_time": 150, 
-     "bloom_time": 390, 
-     "experience": 4.09, 
-     "seasons": 1, 
-     "sale_price": 8, 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 2, 
+     "sale_price": 500, 
      "increment_fruit": 25, 
-     "leaf_time": 195, 
+     "leaf_time": 600, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 20
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "houmianbaoshu": {
      "total_time": 480, 
@@ -34112,7 +34271,13 @@
     "penzaisong", 
     "taohua", 
     "xueyuanyinghua", 
+    "wenzisi", 
+    "wenziyi", 
+    "wenzisan", 
+    "wenziwu", 
+    "wenzier", 
     "kuqinangua", 
+    "wenziliu", 
     "shanghuamao", 
     "suanrulao", 
     "mianhuabaise", 
@@ -36099,6 +36264,7 @@
    "jingangcuo", 
    "shengdanlanniudan", 
    "chengseniudan", 
+   "lajiaobaoxiang", 
    "landan", 
    "tudoulibao", 
    "caiyecaobaoxiang", 
@@ -36127,7 +36293,7 @@
    "xinnianlanniudan", 
    "qiulanbaoxiang", 
    "cangbaotu3", 
-   "lajiaobaoxiang", 
+   "nanhaijiebaoxiang", 
    "bingdiaoshulanlibao", 
    "tunianniudanlv", 
    "niudanfen", 
@@ -36159,7 +36325,7 @@
    "lvdan", 
    "yinghuashuziniudan", 
    "tdyshuang", 
-   "niudanlv", 
+   "cangbaotu1", 
    "mianzhihuabao", 
    "siyuebaoxiang", 
    "niudanlan", 
@@ -36178,7 +36344,7 @@
    "tunianniudanhuang", 
    "xinnianhuangniudan", 
    "shenqibaotu", 
-   "cangbaotu1", 
+   "niudanlv", 
    "tdyslv", 
    "hongseniudan", 
    "zidan"
