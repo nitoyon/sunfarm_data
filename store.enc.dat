@@ -5200,7 +5200,7 @@
      "price": {
       "F_coin": 10
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
      "name": "端午の宝箱", 
      "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。"
@@ -15979,44 +15979,23 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "hyacinth": {
+   "tulip": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "flower"
     }, 
-    "name": "ヒアシンス", 
+    "name": "チューリップ", 
     "price": {
-     "num": 4, 
+     "num": 12, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "花言葉：しとやかなかわいらしさ", 
+    "goods_description": "花言葉：愛の告白。", 
     "activity_type": "discount"
    }, 
-   "chaozhilibao": {
-    "original_price": {
-     "num": 1270, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "お買い得セット", 
-    "price": {
-     "num": 700, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1304157600.0, 
-    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
-    "start_time": 1303725600.0, 
-    "activity_type": "hot_sale"
-   }, 
    "mianhua": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -16026,9 +16005,38 @@
      "num": 25, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "goods_description": "ふわふわ飛び舞う色鮮やかな「わた」、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
+    "activity_type": "discount"
+   }, 
+   "jiazhutao": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "キョウチクトウ", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
+    "activity_type": "discount"
+   }, 
+   "nanhaijiebaoxiang": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "端午の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
     "modify": false, 
     "limit_type": "limit_new", 
-    "goods_description": "ふわふわ飛び舞う色鮮やかな「わた」、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "hot_sale"
    }, 
    "caijiao": {
@@ -16046,22 +16054,26 @@
     "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
     "activity_type": "discount"
    }, 
-   "tulip": {
-    "specific_type": "re", 
+   "crystal": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "チューリップ", 
+    "name": "雲のクリスタル", 
+    "start_time": 1304060400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "13日", 
+    "end_time": 1305183600.0, 
+    "goods_description": "雲の樹の種と高級肥料が入っています。", 
     "price": {
-     "num": 12, 
-     "type": "F_coin"
+     "num": 100, 
+     "type": "gold"
     }, 
-    "modify": true, 
-    "goods_description": "花言葉：愛の告白。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "siyuebaoxiang": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -16071,25 +16083,27 @@
      "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_new", 
+    "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
-   "jiazhutao": {
-    "specific_type": "re", 
+   "hammer": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "キョウチクトウ", 
+    "name": "ハンマー", 
+    "start_time": 1304060400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "13日", 
+    "end_time": 1305183600.0, 
+    "goods_description": "クリスタルを開けることができます。", 
     "price": {
-     "num": 25, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "siyuebaoxiang1": {
     "specific_type": "re", 
@@ -16104,21 +16118,6 @@
     }, 
     "modify": true, 
     "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
-    "activity_type": "discount"
-   }, 
-   "siyuebaoxiang2": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "4月のハッピー箱", 
-    "price": {
-     "num": 42, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
     "activity_type": "discount"
    }
   }, 
