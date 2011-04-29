@@ -18827,7 +18827,7 @@
     "zongzixin": {
      "total_time": 840, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "端午のちまき", 
      "base_fruit": 25, 
      "fruit_time": 300, 
@@ -19232,7 +19232,7 @@
      "base_fruit": 25, 
      "fruit_time": 330, 
      "sprout_time": 30, 
-     "random_special": 0.2, 
+     "random_special": 0.3, 
      "bloom_time": 210, 
      "experience": 5, 
      "seasons": 1, 
@@ -34598,15 +34598,15 @@
       "increment_percent_max": 1
      }, 
      "magiccardless": {
-      "used": false, 
+      "used": true, 
       "name": "マジック増産カード", 
       "price": {
        "F_coin": 3
       }, 
-      "introduce": "成熟したえびねの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+      "introduce": "成熟した端午のちまきの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
       "magic_card": true, 
       "include": [
-       "xiajilan"
+       "zongzixin"
       ], 
       "magic_card_percent": 0.5
      }, 
@@ -34764,7 +34764,7 @@
       "price": {
        "F_coin": 12
       }, 
-      "introduce": "えびね以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+      "introduce": "端午のちまき以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
       "magic_card_percent": 0.5
      }, 
