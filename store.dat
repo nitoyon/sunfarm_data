@@ -4909,6 +4909,29 @@
      }
     }
    }, 
+   "gaojihuafeitaozhuang": {
+    "config": {
+     "price": {
+      "F_coin": 20
+     }, 
+     "used": true, 
+     "goods_str": "\u4e2d\u306b\u306f\u9ad8\u7d1a\u80a5\u6599\u4e03\u3064\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002", 
+     "name": "\u9ad8\u7d1a\u80a5\u6599\u5b9d\u7bb1", 
+     "introduce": "\u4e2d\u306b\u306f\u9ad8\u7d1a\u80a5\u6599\u4e03\u3064\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         7, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "lvseniudan": {
     "config": {
      "price": {
@@ -36256,6 +36279,7 @@
    "tunianniudanlan", 
    "huangniudan", 
    "huiguilibao", 
+   "gaojihuafeitaozhuang", 
    "lvseniudan", 
    "mofayaoshi1", 
    "mofayaoshi3", 
