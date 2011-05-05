@@ -23577,6 +23577,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "dihuang": {
+     "total_time": 840, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u30b8\u30aa\u30a6", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.52, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 230
+     }, 
+     "level_need": 30
+    }, 
     "meihua": {
      "total_time": 870, 
      "leaflet_time": 150, 
@@ -25460,6 +25479,25 @@
       "F_coin": 999
      }, 
      "leaf_time": 600, 
+     "level_need": 0
+    }, 
+    "zhuyahua": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u30ab\u30bf\u30af\u30ea", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
      "level_need": 0
     }, 
     "longmaofangzi": {
@@ -33829,6 +33867,7 @@
     "tianshizhixin", 
     "yinyuehe", 
     "yaoguo", 
+    "zhuyahua", 
     "zong", 
     "ma_ti_lian", 
     "carnation", 
@@ -34624,6 +34663,7 @@
     "bingjilingjuantong", 
     "hebaohua", 
     "caiyecao", 
+    "dihuang", 
     "ziyuanbaicai", 
     "baojunlajiao", 
     "huolongguoxin", 
