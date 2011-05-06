@@ -16023,6 +16023,21 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "suijihulu": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "謎のヒョウタン", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "ヒョウタン、あなたが植えているのは何色かな？", 
+    "activity_type": "discount"
+   }, 
    "tulip": {
     "specific_type": "re", 
     "product_type": {
@@ -16051,21 +16066,6 @@
     }, 
     "modify": true, 
     "goods_description": "ふわふわ飛び舞う色鮮やかな「わた」、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "discount"
-   }, 
-   "jiazhutao": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "キョウチクトウ", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
     "activity_type": "discount"
    }, 
    "nanhaijiebaoxiang": {
