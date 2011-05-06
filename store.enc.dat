@@ -4657,6 +4657,103 @@
      }
     }
    }, 
+   "yinghuashulanniudan": {
+    "config": {
+     "price": {
+      "F_coin": 2
+     }, 
+     "used": false, 
+     "goods_str": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
+     "name": "青さくら玉のカプセル", 
+     "introduce": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "niudanzhiwulanse": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "zishuijingpingguo": [
+        1, 
+        0.01
+       ], 
+       "shenqinigerseed": [
+        1, 
+        0.03
+       ], 
+       "qinglvmogu": [
+        1, 
+        0.03
+       ], 
+       "chabei": [
+        1, 
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         1
+        ], 
+        "gaosu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinsewoniu": [
+        1, 
+        0.08
+       ], 
+       "baitu": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
    "xinbaoxiang": {
     "config": {
      "price": {
@@ -8846,98 +8943,22 @@
      }
     }
    }, 
-   "yinghuashulanniudan": {
+   "dihuangbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 2
+      "F_coin": 1
      }, 
      "used": false, 
-     "goods_str": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
-     "name": "青さくら玉のカプセル", 
-     "introduce": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
+     "goods_str": "中にジオウの種5個が含まれています", 
+     "name": "ジオウ宝箱", 
+     "introduce": "中にジオウの種5個が含まれています"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.02
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "niudanzhiwulanse": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "zishuijingpingguo": [
-        1, 
-        0.01
-       ], 
-       "shenqinigerseed": [
-        1, 
-        0.03
-       ], 
-       "qinglvmogu": [
-        1, 
-        0.03
-       ], 
-       "chabei": [
-        1, 
-        0.03
-       ], 
-       "nirenxiangjiao": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.05
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         1
-        ], 
-        "gaosu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "jinsewoniu": [
-        1, 
-        0.08
-       ], 
-       "baitu": [
-        1, 
-        0.05
+       "dihuang": [
+        5, 
+        1
        ]
       }
      }
@@ -36332,6 +36353,7 @@
    "tudoulibao", 
    "caiyecaobaoxiang", 
    "hushenfu", 
+   "ziseniudan", 
    "tdyshong", 
    "gongdengbaihebaoxiang", 
    "shengdanhongniudan", 
@@ -36371,7 +36393,7 @@
    "fudai1", 
    "xiongmaobaoxiang", 
    "bayinhebaoxiang", 
-   "ziseniudan", 
+   "El_bag", 
    "mb_10_key", 
    "shenqijindaihuabaoxiang", 
    "huolongguolibao", 
@@ -36384,7 +36406,7 @@
    "tujiandongwubaoxiang", 
    "niudanzi", 
    "cangbaotu2", 
-   "El_bag", 
+   "dihuangbaoxiang", 
    "lvdan", 
    "yinghuashuziniudan", 
    "tdyshuang", 
