@@ -16186,6 +16186,26 @@
      }, 
      "level_need": 1
     }, 
+    "hefengtaocan": {
+     "total_time": 1175, 
+     "leaflet_time": 210, 
+     "used": false, 
+     "name": "上品和定食", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "tuchan": true, 
+     "sprout_time": 95, 
+     "bloom_time": 330, 
+     "experience": 6.68, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 0
+    }, 
     "shizhu": {
      "total_time": 1584, 
      "leaflet_time": 269, 
@@ -18583,24 +18603,24 @@
      "leaf_time": 600, 
      "level_need": 0
     }, 
-    "lanshanhu": {
-     "total_time": 1080, 
-     "leaflet_time": 150, 
+    "jidanfan": {
+     "total_time": 1160, 
+     "leaflet_time": 210, 
      "used": false, 
-     "name": "バブルサンゴ", 
+     "name": "ふわふわオムライス", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "バブルサンゴ", 
-     "increment_fruit": 25, 
-     "bloom_time": 330, 
-     "experience": 7, 
+     "fruit_time": 330, 
+     "tuchan": true, 
+     "sprout_time": 95, 
+     "bloom_time": 315, 
+     "experience": 6.28, 
      "seasons": 1, 
-     "sale_price": 16, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 6
      }, 
-     "leaf_time": 150, 
      "level_need": 0
     }, 
     "kafeibei": {
@@ -24228,6 +24248,25 @@
      }, 
      "level_need": 1
     }, 
+    "xuediaodaxingxing": {
+     "total_time": 1050, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "雪彫刻のゴリラ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 30, 
+     "bloom_time": 270, 
+     "experience": 6.37, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 90
+     }, 
+     "level_need": 1
+    }, 
     "maorongkonglong": {
      "total_time": 930, 
      "leaflet_time": 90, 
@@ -26317,6 +26356,26 @@
      "leaf_time": 330, 
      "seed_price": {
       "gold": 1
+     }, 
+     "level_need": 0
+    }, 
+    "pisa": {
+     "total_time": 1145, 
+     "leaflet_time": 210, 
+     "used": false, 
+     "name": "こんがりピザ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "tuchan": true, 
+     "sprout_time": 95, 
+     "bloom_time": 300, 
+     "experience": 6.98, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 10
      }, 
      "level_need": 0
     }, 
@@ -33227,24 +33286,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "xuediaodaxingxing": {
-     "total_time": 1050, 
-     "leaflet_time": 90, 
+    "lanshanhu": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "雪彫刻のゴリラ", 
+     "name": "バブルサンゴ", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
-     "sprout_time": 30, 
-     "bloom_time": 270, 
-     "experience": 6.37, 
-     "seasons": 1, 
-     "sale_price": 15, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "バブルサンゴ", 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "bloom_time": 330, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 16, 
      "seed_price": {
-      "F_coin": 90
+      "F_coin": 20
      }, 
-     "level_need": 1
+     "leaf_time": 150, 
+     "level_need": 0
     }, 
     "mantianxing": {
      "total_time": 810, 
@@ -33986,6 +34046,7 @@
     "chonglaoda", 
     "dafeiyancao", 
     "xiangrikuichong", 
+    "pisa", 
     "moyu", 
     "ziyinghua", 
     "niurouhuoguo", 
@@ -33997,6 +34058,7 @@
     "caidane", 
     "penjingyinghua", 
     "penjingjuhua", 
+    "jidanfan", 
     "caidanb", 
     "huajianbiandang", 
     "caidand", 
@@ -34119,6 +34181,7 @@
     "niudanfen", 
     "hongkapian", 
     "qisezuanshihua", 
+    "hefengtaocan", 
     "tuxiangrikui", 
     "tuqianniuhua", 
     "tusanyecao", 
