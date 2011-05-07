@@ -16024,7 +16024,6 @@
   ], 
   "hot_sale": {
    "suijihulu": {
-    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -16034,9 +16033,10 @@
      "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
+    "limit_type": "limit_new", 
     "goods_description": "ヒョウタン、あなたが植えているのは何色かな？", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "tulip": {
     "specific_type": "re", 
@@ -16069,6 +16069,7 @@
     "activity_type": "discount"
    }, 
    "nanhaijiebaoxiang": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -16078,10 +16079,9 @@
      "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_new", 
+    "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "caijiao": {
     "specific_type": "re", 
