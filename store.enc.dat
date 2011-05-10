@@ -1800,6 +1800,59 @@
      }
     }
    }, 
+   "huiyuan": {
+    "config": {
+     "price": {
+      "F_coin": 150
+     }, 
+     "used": false, 
+     "goods_str": "会員ギフトセット、150Kコイン相当のアイテムが含まれています。さっそく開けてみよう！", 
+     "name": "会員ギフトセット", 
+     "introduce": "会員ギフトセット、150Kコイン相当のアイテムが含まれています。さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "tulip": [
+        2, 
+        1.0
+       ], 
+       "caijiao": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "tdysniudanbao": {
     "config": {
      "price": {
@@ -35097,12 +35150,24 @@
       "time": 168
      }
     }, 
-    "cash_coupon": {
-     "one_thousand": {
-      "par_value": 1000, 
+    "vip_card": {
+     "month_day": {
+      "price": {
+       "F_coin": 150
+      }, 
       "used": false, 
-      "name": "クーポン", 
-      "introduce": "一枚開墾クーポンは１０００コインとして使えます！"
+      "name": "会員カード", 
+      "introduce": "このカードをご利用頂きますと、30日間有効の会員資格がもらえます。会員になりますと、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
+      "effect": 30
+     }, 
+     "three_day": {
+      "price": {
+       "F_coin": 5
+      }, 
+      "used": false, 
+      "name": "会員カード（3日）", 
+      "introduce": "このカードをご利用頂きますと、3日間有効の会員資格がもらえます。会員になれば、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
+      "effect": 3
      }
     }, 
     "rate_rune": {
@@ -35486,16 +35551,12 @@
       "state": "re"
      }
     }, 
-    "pest": {
-     "ladybird": {
-      "count": 10, 
+    "cash_coupon": {
+     "one_thousand": {
+      "par_value": 1000, 
       "used": false, 
-      "name": "テントウムシ", 
-      "price": {
-       "gold": 500
-      }, 
-      "effect": 15, 
-      "introduce": "友達の作物に使えます。相手に退治されると、普通よりもっと多く収穫できます。"
+      "name": "クーポン", 
+      "introduce": "一枚開墾クーポンは１０００コインとして使えます！"
      }
     }, 
     "slots_ticket": {
@@ -35517,6 +35578,18 @@
       "end_time": 1304089199, 
       "discount_rate": 0.7, 
       "message": "3割引券を使用し、"
+     }
+    }, 
+    "pest": {
+     "ladybird": {
+      "count": 10, 
+      "used": false, 
+      "name": "テントウムシ", 
+      "price": {
+       "gold": 500
+      }, 
+      "effect": 15, 
+      "introduce": "友達の作物に使えます。相手に退治されると、普通よりもっと多く収穫できます。"
      }
     }
    }, 
@@ -36451,6 +36524,10 @@
      "dogfood", 
      "shouhunengliangbao"
     ], 
+    "vip_card": [
+     "month_day", 
+     "three_day"
+    ], 
     "rate_rune": [
      "El"
     ], 
@@ -36569,6 +36646,7 @@
    "hesuilibao", 
    "crops_zhugunongtangmian_gift", 
    "crops_qianlima_gift", 
+   "huiyuan", 
    "crops_jidanbing_gift", 
    "crops_pingguopai_gift", 
    "tdysniudanbao", 
