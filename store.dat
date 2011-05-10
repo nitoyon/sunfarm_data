@@ -1800,6 +1800,59 @@
      }
     }
    }, 
+   "huiyuan": {
+    "config": {
+     "price": {
+      "F_coin": 150
+     }, 
+     "used": false, 
+     "goods_str": "\u4f1a\u54e1\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u3001150K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01", 
+     "name": "\u4f1a\u54e1\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8", 
+     "introduce": "\u4f1a\u54e1\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u3001150K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "tulip": [
+        2, 
+        1.0
+       ], 
+       "caijiao": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "tdysniudanbao": {
     "config": {
      "price": {
@@ -35097,12 +35150,24 @@
       "time": 168
      }
     }, 
-    "cash_coupon": {
-     "one_thousand": {
-      "par_value": 1000, 
+    "vip_card": {
+     "month_day": {
+      "price": {
+       "F_coin": 150
+      }, 
       "used": false, 
-      "name": "\u30af\u30fc\u30dd\u30f3", 
-      "introduce": "\u4e00\u679a\u958b\u58be\u30af\u30fc\u30dd\u30f3\u306f\uff11\uff10\uff10\uff10\u30b3\u30a4\u30f3\u3068\u3057\u3066\u4f7f\u3048\u307e\u3059\uff01"
+      "name": "\u4f1a\u54e1\u30ab\u30fc\u30c9", 
+      "introduce": "\u3053\u306e\u30ab\u30fc\u30c9\u3092\u3054\u5229\u7528\u9802\u304d\u307e\u3059\u3068\u300130\u65e5\u9593\u6709\u52b9\u306e\u4f1a\u54e1\u8cc7\u683c\u304c\u3082\u3089\u3048\u307e\u3059\u3002\u4f1a\u54e1\u306b\u306a\u308a\u307e\u3059\u3068\u3001\u4fbf\u5229\u306a\u6a5f\u80fd\u304c\u4f7f\u3048\u308b\u307b\u304b\u3001\u30de\u30a4\u30df\u30af\u306e\u7267\u5834\u3068\u4e00\u5473\u9055\u3046\u7267\u5834\u3092\u3064\u304f\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
+      "effect": 30
+     }, 
+     "three_day": {
+      "price": {
+       "F_coin": 5
+      }, 
+      "used": false, 
+      "name": "\u4f1a\u54e1\u30ab\u30fc\u30c9\uff083\u65e5\uff09", 
+      "introduce": "\u3053\u306e\u30ab\u30fc\u30c9\u3092\u3054\u5229\u7528\u9802\u304d\u307e\u3059\u3068\u30013\u65e5\u9593\u6709\u52b9\u306e\u4f1a\u54e1\u8cc7\u683c\u304c\u3082\u3089\u3048\u307e\u3059\u3002\u4f1a\u54e1\u306b\u306a\u308c\u3070\u3001\u4fbf\u5229\u306a\u6a5f\u80fd\u304c\u4f7f\u3048\u308b\u307b\u304b\u3001\u30de\u30a4\u30df\u30af\u306e\u7267\u5834\u3068\u4e00\u5473\u9055\u3046\u7267\u5834\u3092\u3064\u304f\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
+      "effect": 3
      }
     }, 
     "rate_rune": {
@@ -35486,16 +35551,12 @@
       "state": "re"
      }
     }, 
-    "pest": {
-     "ladybird": {
-      "count": 10, 
+    "cash_coupon": {
+     "one_thousand": {
+      "par_value": 1000, 
       "used": false, 
-      "name": "\u30c6\u30f3\u30c8\u30a6\u30e0\u30b7", 
-      "price": {
-       "gold": 500
-      }, 
-      "effect": 15, 
-      "introduce": "\u53cb\u9054\u306e\u4f5c\u7269\u306b\u4f7f\u3048\u307e\u3059\u3002\u76f8\u624b\u306b\u9000\u6cbb\u3055\u308c\u308b\u3068\u3001\u666e\u901a\u3088\u308a\u3082\u3063\u3068\u591a\u304f\u53ce\u7a6b\u3067\u304d\u307e\u3059\u3002"
+      "name": "\u30af\u30fc\u30dd\u30f3", 
+      "introduce": "\u4e00\u679a\u958b\u58be\u30af\u30fc\u30dd\u30f3\u306f\uff11\uff10\uff10\uff10\u30b3\u30a4\u30f3\u3068\u3057\u3066\u4f7f\u3048\u307e\u3059\uff01"
      }
     }, 
     "slots_ticket": {
@@ -35517,6 +35578,18 @@
       "end_time": 1304089199, 
       "discount_rate": 0.7, 
       "message": "3\u5272\u5f15\u5238\u3092\u4f7f\u7528\u3057\u3001"
+     }
+    }, 
+    "pest": {
+     "ladybird": {
+      "count": 10, 
+      "used": false, 
+      "name": "\u30c6\u30f3\u30c8\u30a6\u30e0\u30b7", 
+      "price": {
+       "gold": 500
+      }, 
+      "effect": 15, 
+      "introduce": "\u53cb\u9054\u306e\u4f5c\u7269\u306b\u4f7f\u3048\u307e\u3059\u3002\u76f8\u624b\u306b\u9000\u6cbb\u3055\u308c\u308b\u3068\u3001\u666e\u901a\u3088\u308a\u3082\u3063\u3068\u591a\u304f\u53ce\u7a6b\u3067\u304d\u307e\u3059\u3002"
      }
     }
    }, 
@@ -36451,6 +36524,10 @@
      "dogfood", 
      "shouhunengliangbao"
     ], 
+    "vip_card": [
+     "month_day", 
+     "three_day"
+    ], 
     "rate_rune": [
      "El"
     ], 
@@ -36569,6 +36646,7 @@
    "hesuilibao", 
    "crops_zhugunongtangmian_gift", 
    "crops_qianlima_gift", 
+   "huiyuan", 
    "crops_jidanbing_gift", 
    "crops_pingguopai_gift", 
    "tdysniudanbao", 
