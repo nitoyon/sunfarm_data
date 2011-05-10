@@ -16093,6 +16093,21 @@
     "goods_description": "ヒョウタン、あなたが植えているのは何色かな？", 
     "activity_type": "hot_sale"
    }, 
+   "tulip": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "チューリップ", 
+    "price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "花言葉：愛の告白。", 
+    "activity_type": "discount"
+   }, 
    "mianhua": {
     "specific_type": "re", 
     "product_type": {
@@ -16106,22 +16121,6 @@
     }, 
     "modify": true, 
     "goods_description": "ふわふわ飛び舞う色鮮やかな「わた」、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "discount"
-   }, 
-   "month_day": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "vip_card"
-    }, 
-    "name": "会員カード", 
-    "price": {
-     "num": 150, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "このカードをご利用頂きますと、30日間有効の会員資格がもらえます。会員になりますと、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
     "activity_type": "discount"
    }, 
    "nanhaijiebaoxiang": {
@@ -35158,7 +35157,7 @@
       "price": {
        "F_coin": 150
       }, 
-      "used": false, 
+      "used": true, 
       "name": "会員カード", 
       "introduce": "このカードをご利用頂きますと、30日間有効の会員資格がもらえます。会員になりますと、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
       "effect": 30
