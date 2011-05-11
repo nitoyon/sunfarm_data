@@ -9632,7 +9632,7 @@
      "price": {
       "F_coin": 30
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。", 
      "name": "加工場材料宝箱", 
      "introduce": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。"
@@ -16112,6 +16112,7 @@
   ], 
   "hot_sale": {
    "suijihulu": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -16121,24 +16122,8 @@
      "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_new", 
+    "modify": true, 
     "goods_description": "ヒョウタン、あなたが植えているのは何色かな？", 
-    "activity_type": "hot_sale"
-   }, 
-   "tulip": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "flower"
-    }, 
-    "name": "チューリップ", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "花言葉：愛の告白。", 
     "activity_type": "discount"
    }, 
    "mianhua": {
@@ -16155,6 +16140,23 @@
     "modify": true, 
     "goods_description": "ふわふわ飛び舞う色鮮やかな「わた」、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
     "activity_type": "discount"
+   }, 
+   "jiagongchangsucaibao": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "加工場材料宝箱", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_number", 
+    "last_number": 499, 
+    "goods_description": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています", 
+    "limit_number": 500, 
+    "activity_type": "hot_sale"
    }, 
    "nanhaijiebaoxiang": {
     "specific_type": "re", 
