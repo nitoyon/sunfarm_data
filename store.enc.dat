@@ -6005,31 +6005,47 @@
      }
     }
    }, 
-   "yundongxiongmao": {
+   "siyuebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 15
+      "F_coin": 10
      }, 
      "used": true, 
-     "goods_str": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています", 
-     "name": "スポーツパンダ宝箱", 
-     "introduce": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています"
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "4月の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
     }, 
     "data": {
-     "ranch": {
+     "farm": {
+      "seeds": {
+       "nirenzhiwu5": [
+        1, 
+        0.2
+       ], 
+       "nirenzhiwu6": [
+        1, 
+        0.08
+       ], 
+       "nirenzhiwu1": [
+        1, 
+        0.8
+       ], 
+       "nirenzhiwu2": [
+        1, 
+        0.4
+       ], 
+       "nirenzhiwu3": [
+        1, 
+        0.3
+       ]
+      }, 
       "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         1
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
         ]
        }
-      }, 
-      "babies": {
-       "yundongxiongmao": [
-        1, 
-        1
-       ]
       }
      }
     }
@@ -9488,47 +9504,31 @@
      }
     }
    }, 
-   "siyuebaoxiang": {
+   "yundongxiongmao": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 15
      }, 
      "used": true, 
-     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-     "name": "4月の宝箱", 
-     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+     "goods_str": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています", 
+     "name": "スポーツパンダ宝箱", 
+     "introduce": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています"
     }, 
     "data": {
-     "farm": {
-      "seeds": {
-       "nirenzhiwu5": [
-        1, 
-        0.2
-       ], 
-       "nirenzhiwu6": [
-        1, 
-        0.08
-       ], 
-       "nirenzhiwu1": [
-        1, 
-        0.8
-       ], 
-       "nirenzhiwu2": [
-        1, 
-        0.4
-       ], 
-       "nirenzhiwu3": [
-        1, 
-        0.3
-       ]
-      }, 
+     "ranch": {
       "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         1
         ]
        }
+      }, 
+      "babies": {
+       "yundongxiongmao": [
+        1, 
+        1
+       ]
       }
      }
     }
@@ -9623,6 +9623,39 @@
          0.1
         ]
        }
+      }
+     }
+    }
+   }, 
+   "jiagongchangsucaibao": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。", 
+     "name": "加工場材料セット", 
+     "introduce": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "xiuqiuhua": [
+        1, 
+        1
+       ], 
+       "tulip": [
+        1, 
+        1
+       ], 
+       "hyacinth": [
+        1, 
+        1
+       ], 
+       "bailian": [
+        1, 
+        1
+       ]
       }
      }
     }
@@ -36870,7 +36903,7 @@
    "shengdanziniudan", 
    "gongfuxiongmao", 
    "tdyslan", 
-   "yundongxiongmao", 
+   "siyuebaoxiang", 
    "shengdanhuangniudan", 
    "tunianniudanfen", 
    "tejiabaoxiang1", 
@@ -36922,7 +36955,8 @@
    "tdyshuang", 
    "cangbaotu1", 
    "mianzhihuabao", 
-   "siyuebaoxiang", 
+   "yundongxiongmao", 
+   "jiagongchangsucaibao", 
    "niudanlan", 
    "yinghuashuhongniudan", 
    "kaichunbaoxiang", 
