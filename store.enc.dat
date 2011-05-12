@@ -16212,35 +16212,64 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "suijihulu": {
+   "huafeibao2": {
     "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "高級肥料セット", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "activity_type": "discount"
+   }, 
+   "suijihulu": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
     "name": "謎のヒョウタン", 
     "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1305698400.0, 
+    "goods_description": "1ヒョウタン、あなたが植えているのは何色かな？", 
+    "start_time": 1305180000.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "mianhua": {
+    "original_price": {
      "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "ヒョウタン、あなたが植えているのは何色かな？", 
-    "activity_type": "discount"
-   }, 
-   "mianhua": {
-    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
     "name": "わた", 
     "price": {
-     "num": 25, 
+     "num": 15, 
      "type": "F_coin"
     }, 
     "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1305698400.0, 
     "goods_description": "ふわふわ飛び舞う色鮮やかな「わた」、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "discount"
+    "start_time": 1305180000.0, 
+    "activity_type": "hot_sale"
    }, 
    "jiagongchangsucaibao": {
     "product_type": {
@@ -16254,7 +16283,7 @@
     }, 
     "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 271, 
+    "last_number": 265, 
     "goods_description": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています", 
     "limit_number": 500, 
     "activity_type": "hot_sale"
@@ -16274,19 +16303,34 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "siyuebaoxiang1": {
+   "caijiao": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "4月のラッキー箱", 
+    "name": "カラフルなピーマン", 
     "price": {
-     "num": 85, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
+    "activity_type": "discount"
+   }, 
+   "baitu": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "ホワイトうさぎ", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "", 
     "activity_type": "discount"
    }, 
    "siyuebaoxiang": {
@@ -16304,19 +16348,19 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "caijiao": {
+   "siyuebaoxiang1": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "カラフルなピーマン", 
+    "name": "4月のラッキー箱", 
     "price": {
-     "num": 10, 
+     "num": 85, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
+    "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
     "activity_type": "discount"
    }
   }, 
@@ -17558,7 +17602,7 @@
      "seasons": 1, 
      "sale_price": 13, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 15
      }, 
      "leaf_time": 240, 
      "level_need": 1
@@ -32062,7 +32106,7 @@
      "seasons": 1, 
      "sale_price": 11, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 15
      }, 
      "leaf_time": 150, 
      "level_need": 1
