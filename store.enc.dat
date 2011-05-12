@@ -364,34 +364,6 @@
      }
     }
    }, 
-   "gb_8": {
-    "config": {
-     "price": {
-      "F_coin": 160
-     }, 
-     "used": false, 
-     "goods_str": "高速化肥5个、葡萄3个、黄金瓜3个、豌豆3个", 
-     "name": "コインと種セット（サンプル）"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "pea": 3, 
-       "grapes": 3, 
-       "goldenmelon": 3
-      }, 
-      "properties": {
-       "fertilizer": {
-        "gaosu": 5
-       }
-      }, 
-      "decorations": {
-       "butterfly": {}, 
-       "huaqiang": {}
-      }
-     }
-    }
-   }, 
    "zhounianbao4": {
     "config": {
      "used": true, 
@@ -2155,6 +2127,107 @@
      }
     }
    }, 
+   "shuiguoniudanlibao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産のホワイトうさぎも入っているよ！さっそく開けてみよう！", 
+     "name": "コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産のホワイトうさぎも入っているよ！さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirenxiangjiao": [
+        1, 
+        1.0
+       ], 
+       "yutuhua": [
+        4, 
+        1.0
+       ], 
+       "mianhua": [
+        1, 
+        1.0
+       ], 
+       "lanshuijingpingguo": [
+        1, 
+        1.0
+       ], 
+       "tulip": [
+        2, 
+        1.0
+       ], 
+       "songrong": [
+        2, 
+        1.0
+       ], 
+       "chashu": [
+        2, 
+        1.0
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        1.0
+       ], 
+       "baochunhua": [
+        1, 
+        1.0
+       ], 
+       "nirenboluo": [
+        1, 
+        1.0
+       ], 
+       "jiazhutao": [
+        1, 
+        1.0
+       ], 
+       "binglinghua": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "zonghefeiliaobao": {
     "config": {
      "price": {
@@ -2454,6 +2527,34 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "gb_8": {
+    "config": {
+     "price": {
+      "F_coin": 160
+     }, 
+     "used": false, 
+     "goods_str": "高速化肥5个、葡萄3个、黄金瓜3个、豌豆3个", 
+     "name": "コインと種セット（サンプル）"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "pea": 3, 
+       "grapes": 3, 
+       "goldenmelon": 3
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaosu": 5
+       }
+      }, 
+      "decorations": {
+       "butterfly": {}, 
+       "huaqiang": {}
       }
      }
     }
@@ -20204,6 +20305,26 @@
      }, 
      "level_need": 3
     }, 
+    "pingguoxiongmao": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "アップルパンダ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。アップルパンダを手に入れました。5種のフルーツパンダを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "nirenxiangjiao": {
      "total_time": 1080, 
      "leaflet_time": 150, 
@@ -20379,6 +20500,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 99
+     }, 
+     "level_need": 1
+    }, 
+    "shanghuajiu": {
+     "total_time": 1110, 
+     "leaflet_time": 90, 
+     "used": true, 
+     "name": "酒桜", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 30, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 35
      }, 
      "level_need": 1
     }, 
@@ -25123,6 +25263,26 @@
      "leaf_time": 592, 
      "level_need": 0
     }, 
+    "shuimitaoxiongmao": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ジューシーピーチパンダ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。ジューシーピーチパンダを手に入れました。5種のフルーツパンダを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "shuilian": {
      "total_time": 810, 
      "leaflet_time": 90, 
@@ -26716,22 +26876,22 @@
      }, 
      "level_need": 26
     }, 
-    "shanghuajiu": {
-     "total_time": 1110, 
-     "leaflet_time": 90, 
-     "used": true, 
-     "name": "酒桜", 
+    "hongtang": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "黒砂糖", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
-     "sprout_time": 30, 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
      "bloom_time": 330, 
-     "experience": 9, 
+     "experience": 99, 
      "seasons": 1, 
-     "sale_price": 10, 
+     "sale_price": 250, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 35
+      "F_coin": 1
      }, 
      "level_need": 1
     }, 
@@ -26814,24 +26974,25 @@
      "leaf_time": 126, 
      "level_need": 0
     }, 
-    "hongtang": {
-     "total_time": 1650, 
+    "caomeixiongmao1": {
+     "total_time": 1440, 
      "leaflet_time": 330, 
      "used": false, 
-     "name": "黒砂糖", 
+     "name": "ストロベリーパンダ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 99, 
-     "seasons": 1, 
-     "sale_price": 250, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。ストロベリーパンダを手に入れました。5種のフルーツパンダを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 50
      }, 
-     "level_need": 1
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "zhusigua": {
      "total_time": 1410, 
@@ -26947,6 +27108,26 @@
       "F_coin": 1
      }, 
      "level_need": 1
+    }, 
+    "chengzixiongmao": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "オレンジパンダ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。オレンジパンダを手に入れました。5種のフルーツパンダを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "lanmeigui": {
      "total_time": 870, 
@@ -27374,6 +27555,26 @@
      "seed_price": {
       "gold": 1
      }, 
+     "level_need": 0
+    }, 
+    "putaoxiongmao": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "グレープパンダ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。グレープパンダを手に入れました。5種のフルーツパンダを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "groupon": {
@@ -29612,6 +29813,25 @@
      "leaf_time": 60, 
      "seed_price": {
       "gold": 470
+     }, 
+     "level_need": 1
+    }, 
+    "mantianxing": {
+     "total_time": 810, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "カスミソウ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 15
      }, 
      "level_need": 1
     }, 
@@ -33555,24 +33775,24 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
-    "mantianxing": {
-     "total_time": 810, 
-     "leaflet_time": 90, 
+    "ningmengxiongmao": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "カスミソウ", 
+     "name": "レモンパンダ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 30, 
-     "bloom_time": 210, 
-     "experience": 4, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
      "seasons": 1, 
-     "sale_price": 6, 
+     "sale_price": 30, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 60
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "bayinhe1": {
      "total_time": 720, 
@@ -34338,6 +34558,7 @@
     "bingyerizhonghua", 
     "morningglory", 
     "xiuqiuhua", 
+    "pingguoxiongmao", 
     "yelaixiang", 
     "niudantujianer_huang", 
     "niudanhuang", 
@@ -34353,6 +34574,7 @@
     "mianju5", 
     "tianshizhixin", 
     "yinyuehe", 
+    "chengzixiongmao", 
     "yaoguo", 
     "zhuyahua", 
     "zong", 
@@ -34372,6 +34594,7 @@
     "nirenmangguo", 
     "niudantujianer_lv", 
     "niudanlv", 
+    "putaoxiongmao", 
     "yingsu", 
     "kafeibei", 
     "bailuhua", 
@@ -34381,11 +34604,13 @@
     "springorchid", 
     "bailu", 
     "jasmine", 
+    "shuimitaoxiongmao", 
     "xigua", 
     "zijin", 
     "violet", 
     "paradiseflower", 
     "bingjilingshengdai", 
+    "caomeixiongmao1", 
     "shenshixueren", 
     "qingdaofuxueren", 
     "wawaxueren", 
@@ -34453,6 +34678,7 @@
     "hongmeigui", 
     "niudanfen", 
     "hongkapian", 
+    "ningmengxiongmao", 
     "qisezuanshihua", 
     "hefengtaocan", 
     "tuxiangrikui", 
@@ -36736,7 +36962,7 @@
    "zhounianbao2", 
    "zhounianbao3", 
    "zhounianbao1", 
-   "crops_hongfushi_gift", 
+   "gb_8", 
    "guoqinglibao", 
    "gaojisiliaobao", 
    "fuhuoniudanbao", 
@@ -36781,6 +37007,7 @@
    "yekonglibao", 
    "crops_zhuanjiyindanji_gift", 
    "crops_lajiaoyou_gift", 
+   "shuiguoniudanlibao", 
    "zonghefeiliaobao", 
    "crops_fanqieguopu_gift", 
    "laohujidongwubao", 
@@ -36803,7 +37030,7 @@
    "items_shiyanfeiliao_gift", 
    "items_dijifeiliao_gift", 
    "qixilibao", 
-   "gb_8", 
+   "crops_hongfushi_gift", 
    "gb_9", 
    "juice_huluobosu_gift", 
    "gb_2", 
