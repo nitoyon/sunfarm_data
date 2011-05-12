@@ -6059,7 +6059,7 @@
      }, 
      "introduce": "クリスタルを開けることができます。", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "shengdanhuangniudan": {
@@ -6140,7 +6140,7 @@
      }, 
      "introduce": "5月クリスタル", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "tunianniudanfen": {
@@ -10471,7 +10471,7 @@
      }, 
      "introduce": "12月クリスタル", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "crystal3": {
@@ -10483,7 +10483,7 @@
      }, 
      "introduce": "1月クリスタル", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "crystal1": {
@@ -10495,7 +10495,7 @@
      }, 
      "introduce": "11月クリスタル", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "crystal6": {
@@ -10507,7 +10507,7 @@
      }, 
      "introduce": "4月クリスタル", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "crystal4": {
@@ -10519,7 +10519,7 @@
      }, 
      "introduce": "2月クリスタル", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "crystal5": {
@@ -10531,7 +10531,7 @@
      }, 
      "introduce": "3月クリスタル", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "caomeierqibaoxiang": {
@@ -16153,7 +16153,7 @@
     }, 
     "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 327, 
+    "last_number": 320, 
     "goods_description": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています", 
     "limit_number": 500, 
     "activity_type": "hot_sale"
@@ -16173,38 +16173,20 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "caijiao": {
+   "siyuebaoxiang1": {
     "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "カラフルなピーマン", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "discount"
-   }, 
-   "crystal": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "雲のクリスタル", 
-    "start_time": 1304060400.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "13日", 
-    "end_time": 1305183600.0, 
-    "goods_description": "雲の樹の種と高級肥料が入っています。", 
+    "name": "4月のラッキー箱", 
     "price": {
-     "num": 100, 
-     "type": "gold"
+     "num": 85, 
+     "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+    "activity_type": "discount"
    }, 
    "siyuebaoxiang": {
     "specific_type": "re", 
@@ -16221,37 +16203,19 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "hammer": {
+   "caijiao": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "ハンマー", 
-    "start_time": 1304060400.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "13日", 
-    "end_time": 1305183600.0, 
-    "goods_description": "クリスタルを開けることができます。", 
+    "name": "カラフルなピーマン", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
-   }, 
-   "siyuebaoxiang1": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "4月のラッキー箱", 
-    "price": {
-     "num": 85, 
-     "type": "F_coin"
-    }, 
     "modify": true, 
-    "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
     "activity_type": "discount"
    }
   }, 
