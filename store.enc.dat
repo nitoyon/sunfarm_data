@@ -16283,7 +16283,7 @@
     }, 
     "modify": false, 
     "limit_type": "limit_number", 
-    "last_number": 168, 
+    "last_number": 166, 
     "goods_description": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています", 
     "limit_number": 500, 
     "activity_type": "hot_sale"
@@ -31863,7 +31863,7 @@
     "rouguishu": {
      "total_time": 840, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "シナモン", 
      "base_fruit": 25, 
      "fruit_time": 300, 
@@ -35892,15 +35892,15 @@
       "increment_percent_max": 1
      }, 
      "magiccardless": {
-      "used": false, 
+      "used": true, 
       "name": "マジック増産カード", 
       "price": {
        "F_coin": 3
       }, 
-      "introduce": "成熟したジオウの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+      "introduce": "成熟したシナモンの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
       "magic_card": true, 
       "include": [
-       "dihuang"
+       "rouguishu"
       ], 
       "magic_card_percent": 0.5
      }, 
@@ -36058,7 +36058,7 @@
       "price": {
        "F_coin": 12
       }, 
-      "introduce": "ジオウ以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+      "introduce": "シナモン以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
       "magic_card_percent": 0.5
      }, 
