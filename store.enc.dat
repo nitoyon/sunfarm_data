@@ -1978,7 +1978,7 @@
      "used": true, 
      "name": "高級飼料セット", 
      "price": {
-      "F_coin": 30
+      "F_coin": 20
      }, 
      "introduce": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -16271,23 +16271,6 @@
     "start_time": 1305180000.0, 
     "activity_type": "hot_sale"
    }, 
-   "jiagongchangsucaibao": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "加工場材料宝箱", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_number", 
-    "last_number": 0, 
-    "goods_description": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています", 
-    "limit_number": 500, 
-    "activity_type": "hot_sale"
-   }, 
    "nanhaijiebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -16332,6 +16315,28 @@
     "modify": true, 
     "goods_description": "", 
     "activity_type": "discount"
+   }, 
+   "siliaobao2": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "高級飼料セット", 
+    "price": {
+     "num": 20, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1306042200.0, 
+    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします", 
+    "start_time": 1305523800.0, 
+    "activity_type": "hot_sale"
    }, 
    "siyuebaoxiang": {
     "specific_type": "re", 
