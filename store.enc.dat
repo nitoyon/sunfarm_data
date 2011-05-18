@@ -16295,6 +16295,21 @@
     "start_time": 1305698400.0, 
     "activity_type": "hot_sale"
    }, 
+   "partytudou": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "パーティージャガイモ", 
+    "price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "パーティージャガイモ", 
+    "activity_type": "discount"
+   }, 
    "mianhua": {
     "original_price": {
      "num": 25, 
@@ -16316,36 +16331,6 @@
     "goods_description": "ふわふわ飛び舞う色鮮やかな「わた」、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
     "start_time": 1305698400.0, 
     "activity_type": "hot_sale"
-   }, 
-   "nanhaijiebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "端午の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
-   "caijiao": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "カラフルなピーマン", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "discount"
    }, 
    "baitu": {
     "specific_type": "re", 
@@ -16384,34 +16369,49 @@
     "start_time": 1305523800.0, 
     "activity_type": "hot_sale"
    }, 
-   "siyuebaoxiang": {
+   "partybaicai": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "4月の宝箱", 
+    "name": "パーティーハクサイ", 
+    "price": {
+     "num": 40, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "パーティーハクサイ", 
+    "activity_type": "discount"
+   }, 
+   "caijiao": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "カラフルなピーマン", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "goods_description": "いろいろなピーマン、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
     "activity_type": "discount"
    }, 
-   "siyuebaoxiang1": {
+   "partyqiezi": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "4月のラッキー箱", 
+    "name": "パーティーナス", 
     "price": {
-     "num": 85, 
+     "num": 30, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "4月特価セール！中には100ｋコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ", 
+    "modify": false, 
+    "goods_description": "パーティーナス", 
     "activity_type": "discount"
    }
   }, 
