@@ -16384,21 +16384,6 @@
     "goods_description": "\u30d1\u30fc\u30c6\u30a3\u30fc\u30cf\u30af\u30b5\u30a4", 
     "activity_type": "discount"
    }, 
-   "caijiao": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u30ab\u30e9\u30d5\u30eb\u306a\u30d4\u30fc\u30de\u30f3", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "\u3044\u308d\u3044\u308d\u306a\u30d4\u30fc\u30de\u30f3\u3001\u4f55\u304c\u51fa\u308b\u306e\u304b\u306a\uff1f\u53ce\u7a6b\u7269\u306f\u5de5\u5834\u3067\u52a0\u5de5\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002\u88fd\u9020\u3057\u305f\u7269\u3092\u53ce\u7a6b\u3059\u308b\u3068\u3001\u56f3\u9451\u306b\u5165\u308a\u307e\u3059\u3002", 
-    "activity_type": "discount"
-   }, 
    "partyqiezi": {
     "specific_type": "re", 
     "product_type": {
@@ -16412,6 +16397,22 @@
     }, 
     "modify": false, 
     "goods_description": "\u30d1\u30fc\u30c6\u30a3\u30fc\u30ca\u30b9", 
+    "activity_type": "discount"
+   }, 
+   "magiccardless": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "\u30de\u30b8\u30c3\u30af\u5897\u7523\u30ab\u30fc\u30c9", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "\u6210\u719f\u3057\u305f\u30bb\u30cd\u30ad\u30aa\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
     "activity_type": "discount"
    }
   }, 
@@ -36433,15 +36434,15 @@
       "increment_percent_max": 1
      }, 
      "magiccardless": {
-      "used": false, 
+      "used": true, 
       "name": "\u30de\u30b8\u30c3\u30af\u5897\u7523\u30ab\u30fc\u30c9", 
       "price": {
        "F_coin": 3
       }, 
-      "introduce": "\u6210\u719f\u3057\u305f\u30b7\u30ca\u30e2\u30f3\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
+      "introduce": "\u6210\u719f\u3057\u305f\u30bb\u30cd\u30ad\u30aa\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
       "magic_card": true, 
       "include": [
-       "rouguishu"
+       "niqiuzhang"
       ], 
       "magic_card_percent": 0.5
      }, 
@@ -36599,7 +36600,7 @@
       "price": {
        "F_coin": 12
       }, 
-      "introduce": "\u30b7\u30ca\u30e2\u30f3\u4ee5\u5916\u306e\u6210\u719f\u3057\u305f\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002\u30b5\u30f3\u7267\u30af\u30a8\u30b9\u30c8\u306e\u53ce\u96c6\u54c1\u306b\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002", 
+      "introduce": "\u30bb\u30cd\u30ad\u30aa\u4ee5\u5916\u306e\u6210\u719f\u3057\u305f\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002\u30b5\u30f3\u7267\u30af\u30a8\u30b9\u30c8\u306e\u53ce\u96c6\u54c1\u306b\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002", 
       "magic_card": true, 
       "magic_card_percent": 0.5
      }, 
