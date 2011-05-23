@@ -1978,7 +1978,7 @@
      "used": true, 
      "name": "高級飼料セット", 
      "price": {
-      "F_coin": 20
+      "F_coin": 30
      }, 
      "introduce": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -16273,28 +16273,6 @@
     "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
-   "suijihulu": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "謎のヒョウタン", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1306130400.0, 
-    "goods_description": "1ヒョウタン、あなたが植えているのは何色かな？", 
-    "start_time": 1305698400.0, 
-    "activity_type": "hot_sale"
-   }, 
    "partytudou": {
     "specific_type": "re", 
     "product_type": {
@@ -16310,28 +16288,6 @@
     "goods_description": "パーティージャガイモ", 
     "activity_type": "discount"
    }, 
-   "mianhua": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "わた", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1306130400.0, 
-    "goods_description": "ふわふわ飛び舞う色鮮やかな「わた」、何が出るのかな？収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "start_time": 1305698400.0, 
-    "activity_type": "hot_sale"
-   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -16346,28 +16302,6 @@
     "modify": true, 
     "goods_description": "", 
     "activity_type": "discount"
-   }, 
-   "siliaobao2": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "高級飼料セット", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1306128600.0, 
-    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします", 
-    "start_time": 1305523800.0, 
-    "activity_type": "hot_sale"
    }, 
    "partybaicai": {
     "specific_type": "re", 
