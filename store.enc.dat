@@ -17439,26 +17439,24 @@
      }, 
      "level_need": 1
     }, 
-    "ma_ti_lian": {
-     "total_time": 1020, 
-     "leaflet_time": 153, 
+    "shucailanzi": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
      "used": false, 
-     "name": "カラー", 
+     "name": "野菜盛り合わせ", 
      "base_fruit": 25, 
-     "fruit_time": 306, 
-     "goodstype": "flower", 
-     "sprout_time": 204, 
-     "introduce": "花言葉：夢のように美しい", 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 3, 
+     "sale_price": 500, 
      "increment_fruit": 25, 
-     "bloom_time": 204, 
-     "experience": 3.26, 
-     "seasons": 1, 
-     "sale_price": 19, 
+     "leaf_time": 600, 
      "seed_price": {
-      "F_coin": 999
+      "F_coin": 20
      }, 
-     "leaf_time": 153, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "jindaihua": {
      "total_time": 1440, 
@@ -18872,22 +18870,22 @@
      }, 
      "level_need": 1
     }, 
-    "jingzhibuouqie": {
-     "total_time": 860, 
-     "leaflet_time": 90, 
+    "suanrulao": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "ニコペンギン", 
+     "name": "生ヨーグルト", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 30, 
-     "bloom_time": 230, 
-     "experience": 6.3, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 150, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 520, 
      "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 15
+      "F_coin": 1
      }, 
      "level_need": 1
     }, 
@@ -22894,24 +22892,26 @@
      "leaf_time": 295, 
      "level_need": 8
     }, 
-    "suanrulao": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "ma_ti_lian": {
+     "total_time": 1020, 
+     "leaflet_time": 153, 
      "used": false, 
-     "name": "生ヨーグルト", 
+     "name": "カラー", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 150, 
-     "seasons": 1, 
-     "sale_price": 520, 
+     "fruit_time": 306, 
+     "goodstype": "flower", 
+     "sprout_time": 204, 
+     "introduce": "花言葉：夢のように美しい", 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "bloom_time": 204, 
+     "experience": 3.26, 
+     "seasons": 1, 
+     "sale_price": 19, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 999
      }, 
-     "level_need": 1
+     "leaf_time": 153, 
+     "level_need": 0
     }, 
     "hezuoluobo": {
      "total_time": 2880, 
@@ -28144,22 +28144,22 @@
      }, 
      "level_need": 1
     }, 
-    "helanguoqishua": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "jingzhibuouqie": {
+     "total_time": 860, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "復刻版オランダ国旗樹", 
+     "name": "ニコペンギン", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 6, 
+     "sprout_time": 30, 
+     "bloom_time": 230, 
+     "experience": 6.3, 
      "seasons": 1, 
-     "sale_price": 12, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 1
+      "gold": 15
      }, 
      "level_need": 1
     }, 
@@ -31295,6 +31295,25 @@
      "experience": 22, 
      "seasons": 1, 
      "sale_price": 55, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 1
+    }, 
+    "helanguoqishua": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "復刻版オランダ国旗樹", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
@@ -35959,6 +35978,7 @@
     "caijiao1", 
     "shanghuajiu", 
     "partyshengyan", 
+    "shucailanzi", 
     "jinpaishu", 
     "kanyumao", 
     "niangao6", 
