@@ -16258,20 +16258,49 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "huafeibao2": {
-    "specific_type": "re", 
+   "tujiandongwubaoxiang": {
+    "original_price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "アニマル宝箱", 
+    "price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1306742400.0, 
+    "goods_description": "ついに動物の宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いアニマル？達がも入っています！すべてを発見して図鑑を完成しよう！", 
+    "start_time": 1306137600.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "chaozhilibao": {
+    "original_price": {
+     "num": 1270, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
     }, 
-    "name": "高級肥料セット", 
+    "name": "お買い得セット", 
     "price": {
-     "num": 30, 
+     "num": 700, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1306742400.0, 
+    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
+    "start_time": 1306137600.0, 
+    "activity_type": "hot_sale"
    }, 
    "partytudou": {
     "specific_type": "re", 
@@ -16288,6 +16317,28 @@
     "goods_description": "パーティージャガイモ", 
     "activity_type": "discount"
    }, 
+   "shenqibaotu": {
+    "original_price": {
+     "num": 60, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "魔法の種の地図", 
+    "price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1306742400.0, 
+    "goods_description": "魔法の種への行き方が書かれていて、魔法の種を見つけられるかもしれない。", 
+    "start_time": 1306137600.0, 
+    "activity_type": "hot_sale"
+   }, 
    "baitu": {
     "specific_type": "re", 
     "product_type": {
@@ -16301,6 +16352,21 @@
     }, 
     "modify": true, 
     "goods_description": "", 
+    "activity_type": "discount"
+   }, 
+   "huafeibao2": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "高級肥料セット", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
    "partybaicai": {
