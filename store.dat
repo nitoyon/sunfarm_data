@@ -19917,7 +19917,7 @@
      "base_fruit": 25, 
      "fruit_time": 330, 
      "sprout_time": 30, 
-     "random_special": 0.2, 
+     "random_special": 0, 
      "bloom_time": 210, 
      "experience": 5, 
      "seasons": 1, 
@@ -37198,6 +37198,17 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
+      "tangguowu": {
+       "used": false, 
+       "name": "\u304a\u83d3\u5b50\u306e\u7551", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 10
+       }, 
+       "experience": 200, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
       "shengdanjie": {
        "used": false, 
        "name": "\u30af\u30ea\u30b9\u30de\u30b9\u98a8\u306e\u96ea\u91ce\u539f", 
@@ -37546,6 +37557,17 @@
        "multi_buy": false, 
        "deadline": 10
       }, 
+      "tangguowu": {
+       "used": false, 
+       "name": "\u304a\u83d3\u5b50\u306e\u5c4b", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 10
+       }, 
+       "experience": 200, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
       "qixi": {
        "used": false, 
        "name": "\u4e03\u5915\u306e\u5c0f\u5c4b", 
@@ -37712,6 +37734,17 @@
       "chunvzuo": {
        "used": false, 
        "name": "\u304a\u3068\u3081\u5ea7\u306e\u7a7a", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 15
+       }, 
+       "experience": 260, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
+      "tangguowu": {
+       "used": false, 
+       "name": "\u304a\u83d3\u5b50\u306e\u7a7a", 
        "layer_order": 3, 
        "price": {
         "F_coin": 15
