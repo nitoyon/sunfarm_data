@@ -21498,24 +21498,25 @@
      "leaf_time": 120, 
      "level_need": 1
     }, 
-    "tonghao": {
-     "total_time": 1180, 
-     "leaflet_time": 155, 
-     "used": true, 
-     "name": "\u6625\u83ca", 
+    "hongsemotianlunshu": {
+     "total_time": 750, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "\u8d64\u3044\u89b3\u89a7\u8eca\u306e\u6728", 
      "base_fruit": 25, 
-     "fruit_time": 320, 
-     "sprout_time": 95, 
-     "bloom_time": 310, 
-     "experience": 2.2, 
-     "seasons": 2, 
-     "sale_price": 10, 
+     "fruit_time": 330, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 180, 
+     "experience": 3.97, 
+     "seasons": 1, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 300, 
+     "leaf_time": 120, 
      "seed_price": {
-      "gold": 150
+      "F_coin": 8
      }, 
-     "level_need": 10
+     "level_need": 1
     }, 
     "springorchid": {
      "total_time": 1020, 
@@ -28012,6 +28013,25 @@
       "F_coin": 5
      }, 
      "level_need": 1
+    }, 
+    "tonghao": {
+     "total_time": 1180, 
+     "leaflet_time": 155, 
+     "used": true, 
+     "name": "\u6625\u83ca", 
+     "base_fruit": 25, 
+     "fruit_time": 320, 
+     "sprout_time": 95, 
+     "bloom_time": 310, 
+     "experience": 2.2, 
+     "seasons": 2, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 300, 
+     "seed_price": {
+      "gold": 150
+     }, 
+     "level_need": 10
     }, 
     "yejunhuoguo": {
      "total_time": 1140, 
@@ -36180,6 +36200,7 @@
     "chabei", 
     "suijihulu", 
     "qisehua", 
+    "hongsemotianlunshu", 
     "caijiao1", 
     "shanghuajiu", 
     "partyshengyan", 
