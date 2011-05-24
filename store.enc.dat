@@ -19917,7 +19917,7 @@
      "base_fruit": 25, 
      "fruit_time": 330, 
      "sprout_time": 30, 
-     "random_special": 0.2, 
+     "random_special": 0, 
      "bloom_time": 210, 
      "experience": 5, 
      "seasons": 1, 
@@ -37198,6 +37198,17 @@
        "multi_buy": false, 
        "deadline": 15
       }, 
+      "tangguowu": {
+       "used": false, 
+       "name": "お菓子の畑", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 10
+       }, 
+       "experience": 200, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
       "shengdanjie": {
        "used": false, 
        "name": "クリスマス風の雪野原", 
@@ -37546,6 +37557,17 @@
        "multi_buy": false, 
        "deadline": 10
       }, 
+      "tangguowu": {
+       "used": false, 
+       "name": "お菓子の屋", 
+       "layer_order": 2, 
+       "price": {
+        "F_coin": 10
+       }, 
+       "experience": 200, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
       "qixi": {
        "used": false, 
        "name": "七夕の小屋", 
@@ -37712,6 +37734,17 @@
       "chunvzuo": {
        "used": false, 
        "name": "おとめ座の空", 
+       "layer_order": 3, 
+       "price": {
+        "F_coin": 15
+       }, 
+       "experience": 260, 
+       "multi_buy": false, 
+       "deadline": 15
+      }, 
+      "tangguowu": {
+       "used": false, 
+       "name": "お菓子の空", 
        "layer_order": 3, 
        "price": {
         "F_coin": 15
