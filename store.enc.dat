@@ -36741,7 +36741,7 @@
       "price": {
        "F_coin": 1
       }, 
-      "used": true, 
+      "used": false, 
       "name": "チケットセット", 
       "introduce": "クローズドオークション参加用のチケットセット、2枚入り。"
      }, 
@@ -36772,7 +36772,6 @@
       "use_area": [
        "friuit"
       ], 
-      "state": "re", 
       "increment_percent": 0.5, 
       "increment_percent_max": 1
      }, 
@@ -36801,7 +36800,6 @@
       "use_area": [
        "friuit"
       ], 
-      "state": "re", 
       "increment_percent": 0.5, 
       "increment_percent_max": 1
      }, 
@@ -36819,14 +36817,13 @@
       "magic_card_percent": 0.5
      }, 
      "xunjie1": {
-      "used": true, 
-      "name": "ミニマジック肥料", 
       "price": {
        "F_coin": 1
       }, 
-      "effect": 0.25, 
+      "used": true, 
+      "name": "ミニマジック肥料", 
       "introduce": "使うと作物の成熟時間を15分短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
-      "state": "re"
+      "effect": 0.25
      }, 
      "zengshou8": {
       "crops_level": [
@@ -36927,7 +36924,6 @@
       "use_area": [
        "friuit"
       ], 
-      "state": "re", 
       "increment_percent": 0.5, 
       "increment_percent_max": 1
      }, 
@@ -36996,24 +36992,22 @@
       "increment_percent_max": 1
      }, 
      "xunjie": {
-      "used": true, 
-      "name": "マジック肥料", 
       "price": {
        "F_coin": 2
       }, 
-      "effect": 0.5, 
+      "used": true, 
+      "name": "マジック肥料", 
       "introduce": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
-      "state": "re"
+      "effect": 0.5
      }, 
      "gaoji": {
-      "used": true, 
-      "name": "高級肥料", 
       "price": {
        "F_coin": 6
       }, 
-      "effect": 5.5, 
+      "used": true, 
+      "name": "高級肥料", 
       "introduce": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-      "state": "re"
+      "effect": 5.5
      }
     }, 
     "cash_coupon": {
@@ -38047,22 +38041,22 @@
      "auction_point_coupons_bag"
     ], 
     "fertilizer": [
-     "xunjie", 
-     "xunjie1", 
-     "zengshou1", 
-     "zengshou", 
-     "zengshou3", 
-     "gaoji", 
      "test", 
      "tianran", 
      "magiccardless", 
+     "xunjie", 
+     "xunjie1", 
      "magiccardmost", 
+     "zengshou1", 
      "jisu", 
      "gaosu", 
      "zengshou8", 
      "zengshou7", 
      "zengshou9", 
      "gailiangji", 
+     "zengshou", 
+     "zengshou3", 
+     "gaoji", 
      "huaxue", 
      "jiyin", 
      "common", 
