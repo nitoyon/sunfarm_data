@@ -364,6 +364,34 @@
      }
     }
    }, 
+   "gb_8": {
+    "config": {
+     "price": {
+      "F_coin": 160
+     }, 
+     "used": false, 
+     "goods_str": "高速化肥5个、葡萄3个、黄金瓜3个、豌豆3个", 
+     "name": "コインと種セット（サンプル）"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "pea": 3, 
+       "grapes": 3, 
+       "goldenmelon": 3
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaosu": 5
+       }
+      }, 
+      "decorations": {
+       "butterfly": {}, 
+       "huaqiang": {}
+      }
+     }
+    }
+   }, 
    "zhounianbao4": {
     "config": {
      "used": true, 
@@ -631,6 +659,35 @@
         1, 
         1.0
        ]
+      }
+     }
+    }
+   }, 
+   "lanbao1": {
+    "config": {
+     "price": {
+      "F_coin": 29
+     }, 
+     "used": false, 
+     "goods_str": "中にはラビットオルゴール、高級肥料が含まれています。", 
+     "name": "ブルーギフトセット", 
+     "introduce": "中にはラビットオルゴール、高級肥料が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "bayinhe1": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         1, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -1730,6 +1787,43 @@
      }
     }
    }, 
+   "fenbao3": {
+    "config": {
+     "price": {
+      "F_coin": 65
+     }, 
+     "used": false, 
+     "goods_str": "中にはテディオルゴール、ハムスター、ウルトラ肥料が含まれています。", 
+     "name": "ピンクギフトセット", 
+     "introduce": "中にはテディオルゴール、ハムスター、ウルトラ肥料が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "bayinhe3": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "putaobao": {
     "config": {
      "used": true, 
@@ -2375,6 +2469,104 @@
      }
     }
    }, 
+   "chengbao2": {
+    "config": {
+     "price": {
+      "F_coin": 39
+     }, 
+     "used": false, 
+     "goods_str": "中にはピアノオルゴール、高級肥料２個、コアラが含まれています。", 
+     "name": "オレンジギフトセット", 
+     "introduce": "中にはピアノオルゴール、高級肥料２個、コアラが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "bayinhe2": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "shudaixiong": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
+   "gaodanglibao": {
+    "config": {
+     "price": {
+      "F_coin": 318
+     }, 
+     "used": false, 
+     "goods_str": "320Kコイン相当のアイテムが含まれています。", 
+     "name": "高級ギフトセット", 
+     "introduce": "320Kコイン相当のアイテムが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "mianhua": [
+        1, 
+        1.0
+       ], 
+       "bayinhe6": [
+        1, 
+        1.0
+       ], 
+       "binglinghua": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ], 
+       "jinsexiaomifeng": [
+        1, 
+        1.0
+       ], 
+       "changbozi": [
+        1, 
+        1.0
+       ], 
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "guoqibaofuke": {
     "config": {
      "used": true, 
@@ -2527,34 +2719,6 @@
          1.0
         ]
        }
-      }
-     }
-    }
-   }, 
-   "gb_8": {
-    "config": {
-     "price": {
-      "F_coin": 160
-     }, 
-     "used": false, 
-     "goods_str": "高速化肥5个、葡萄3个、黄金瓜3个、豌豆3个", 
-     "name": "コインと種セット（サンプル）"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "pea": 3, 
-       "grapes": 3, 
-       "goldenmelon": 3
-      }, 
-      "properties": {
-       "fertilizer": {
-        "gaosu": 5
-       }
-      }, 
-      "decorations": {
-       "butterfly": {}, 
-       "huaqiang": {}
       }
      }
     }
@@ -2844,6 +3008,47 @@
      }
     }
    }, 
+   "zibao5": {
+    "config": {
+     "price": {
+      "F_coin": 158
+     }, 
+     "used": false, 
+     "goods_str": "中にはキャリッジオルゴール、ホワイトうさぎ、ウルトラ肥料４個、ハムスターが含まれています。", 
+     "name": "パープルギフトセット", 
+     "introduce": "中にはキャリッジオルゴール、ホワイトうさぎ、ウルトラ肥料４個、ハムスターが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "bayinhe6": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         4, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ], 
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "chaojilibao": {
     "config": {
      "used": false, 
@@ -2893,6 +3098,43 @@
       }, 
       "babies": {
        "quail": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
+   "lvbao4": {
+    "config": {
+     "price": {
+      "F_coin": 85
+     }, 
+     "used": false, 
+     "goods_str": "中にはフェリスオルゴール、ホワイトうさぎ、ウルトラ肥料２個が含まれています。", 
+     "name": "グリーンギフトセット", 
+     "introduce": "中にはフェリスオルゴール、ホワイトうさぎ、ウルトラ肥料２個が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "bayinhe4": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
         1, 
         1.0
        ]
@@ -38307,10 +38549,11 @@
    "zhounianbao2", 
    "zhounianbao3", 
    "zhounianbao1", 
-   "gb_8", 
+   "crops_hongfushi_gift", 
    "guoqinglibao", 
    "gaojisiliaobao", 
    "fuhuoniudanbao", 
+   "lanbao1", 
    "crops_xiangkaoyangpai_gift", 
    "crops_tianyuanji_gift", 
    "yinghuashulibao", 
@@ -38334,6 +38577,7 @@
    "huaijiuniudanbao", 
    "gb_10", 
    "gb_12", 
+   "fenbao3", 
    "dongwu_1", 
    "hesuilibao", 
    "crops_zhugunongtangmian_gift", 
@@ -38363,8 +38607,10 @@
    "crops_juxianghuacha_gift", 
    "crops_qingtongshu_gift", 
    "juice_mangguozhi_gift", 
+   "chengbao2", 
    "crops_moshubang_gift", 
    "crops_emozhixin_gift", 
+   "gaodanglibao", 
    "crops_jiangbaojiding_gift", 
    "crops_zhishijumogu_gift", 
    "crops_xilengniupai_gift", 
@@ -38375,7 +38621,7 @@
    "items_shiyanfeiliao_gift", 
    "items_dijifeiliao_gift", 
    "qixilibao", 
-   "crops_hongfushi_gift", 
+   "gb_8", 
    "gb_9", 
    "juice_huluobosu_gift", 
    "gb_2", 
@@ -38388,11 +38634,13 @@
    "gb_5", 
    "crops_mapodoufu_gift", 
    "crops_danhuangjiang_gift", 
+   "zibao5", 
    "juice_nanguazhi_gift", 
    "chaojilibao", 
    "crops_yejunhuoguo_gift", 
    "crops_xiwanghua_gift", 
-   "crops_boluogulaorou_gift"
+   "crops_boluogulaorou_gift", 
+   "lvbao4"
   ], 
   "mystic_bags_sort": [
    "hammer", 
