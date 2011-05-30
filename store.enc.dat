@@ -129,7 +129,7 @@
      "used": true, 
      "name": "高級肥料セット", 
      "price": {
-      "F_coin": 30
+      "F_coin": 25
      }, 
      "introduce": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -8748,7 +8748,7 @@
    "yingwubaoxiang": {
     "config": {
      "price": {
-      "F_coin": 15
+      "F_coin": 12
      }, 
      "used": true, 
      "goods_str": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
@@ -9973,9 +9973,9 @@
    "jiagongchangsucaibao": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 40
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。", 
      "name": "加工場材料宝箱", 
      "introduce": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。"
@@ -16500,49 +16500,42 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "tujiandongwubaoxiang": {
+   "huafeibao2": {
     "original_price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "アニマル宝箱", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1306742400.0, 
-    "goods_description": "ついに動物の宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いアニマル？達がも入っています！すべてを発見して図鑑を完成しよう！", 
-    "start_time": 1306137600.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "chaozhilibao": {
-    "original_price": {
-     "num": 1270, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
     }, 
-    "name": "お買い得セット", 
+    "name": "高級肥料セット", 
     "price": {
-     "num": 700, 
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1306836000.0, 
+    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします！", 
+    "start_time": 1306749600.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "huafeibao1": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "中級肥料セット", 
+    "price": {
+     "num": 15, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1306742400.0, 
-    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
-    "start_time": 1306137600.0, 
-    "activity_type": "hot_sale"
+    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "activity_type": "discount"
    }, 
    "partytudou": {
     "specific_type": "re", 
@@ -16559,26 +16552,26 @@
     "goods_description": "パーティージャガイモ", 
     "activity_type": "discount"
    }, 
-   "shenqibaotu": {
+   "jiagongchangsucaibao": {
     "original_price": {
-     "num": 60, 
+     "num": 45, 
      "type": "F_coin"
     }, 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "魔法の種の地図", 
+    "name": "加工場材料宝箱", 
     "price": {
-     "num": 50, 
+     "num": 40, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1306742400.0, 
-    "goods_description": "魔法の種への行き方が書かれていて、魔法の種を見つけられるかもしれない。", 
-    "start_time": 1306137600.0, 
+    "limit_time": "8日", 
+    "end_time": 1307440800.0, 
+    "goods_description": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。", 
+    "start_time": 1306749600.0, 
     "activity_type": "hot_sale"
    }, 
    "baitu": {
@@ -16596,20 +16589,27 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "huafeibao2": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "高級肥料セット", 
-    "price": {
-     "num": 30, 
+   "yingwubaoxiang": {
+    "original_price": {
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "activity_type": "discount"
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "オウム宝箱", 
+    "price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日1時間", 
+    "end_time": 1306839600.0, 
+    "goods_description": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
+    "start_time": 1306749600.0, 
+    "activity_type": "hot_sale"
    }, 
    "partybaicai": {
     "specific_type": "re", 
