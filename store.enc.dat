@@ -16580,28 +16580,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "huafeibao2": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "高級肥料セット", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1306836000.0, 
-    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします！", 
-    "start_time": 1306749600.0, 
-    "activity_type": "hot_sale"
-   }, 
    "huafeibao1": {
     "specific_type": "re", 
     "product_type": {
@@ -16632,27 +16610,20 @@
     "goods_description": "パーティージャガイモ", 
     "activity_type": "discount"
    }, 
-   "jiagongchangsucaibao": {
-    "original_price": {
-     "num": 45, 
-     "type": "F_coin"
-    }, 
+   "liuyuebaoxiang": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "加工場材料宝箱", 
+    "name": "6月の宝箱", 
     "price": {
-     "num": 40, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "8日", 
-    "end_time": 1307440800.0, 
-    "goods_description": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。", 
-    "start_time": 1306749600.0, 
-    "activity_type": "hot_sale"
+    "goods_description": "", 
+    "activity_type": "discount"
    }, 
    "baitu": {
     "specific_type": "re", 
@@ -16706,20 +16677,41 @@
     "goods_description": "パーティーハクサイ", 
     "activity_type": "discount"
    }, 
-   "partyqiezi": {
-    "specific_type": "re", 
+   "hammer": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "パーティーナス", 
+    "name": "ハンマー", 
+    "start_time": 1306839600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "12日22時間", 
+    "end_time": 1307955600.0, 
+    "goods_description": "クリスタルを開けることができます。", 
     "price": {
-     "num": 30, 
+     "num": 10, 
      "type": "F_coin"
     }, 
+    "activity_type": "hot_sale"
+   }, 
+   "crystal7": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ボタンのクリスタル", 
+    "start_time": 1306839600.0, 
     "modify": false, 
-    "goods_description": "パーティーナス", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "12日22時間", 
+    "end_time": 1307955600.0, 
+    "goods_description": "ダイヤボタンの種と高級肥料が入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "magiccardless": {
     "specific_type": "re", 
