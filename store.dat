@@ -6402,7 +6402,7 @@
      }, 
      "introduce": "\u30af\u30ea\u30b9\u30bf\u30eb\u3092\u958b\u3051\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "shengdanhuangniudan": {
@@ -10907,7 +10907,7 @@
      }, 
      "introduce": "6\u6708\u30af\u30ea\u30b9\u30bf\u30eb", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "crystal4": {
@@ -16676,42 +16676,6 @@
     "modify": false, 
     "goods_description": "\u30d1\u30fc\u30c6\u30a3\u30fc\u30cf\u30af\u30b5\u30a4", 
     "activity_type": "discount"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "\u30cf\u30f3\u30de\u30fc", 
-    "start_time": 1306839600.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "12\u65e522\u6642\u9593", 
-    "end_time": 1307955600.0, 
-    "goods_description": "\u30af\u30ea\u30b9\u30bf\u30eb\u3092\u958b\u3051\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "crystal7": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "\u30dc\u30bf\u30f3\u306e\u30af\u30ea\u30b9\u30bf\u30eb", 
-    "start_time": 1306839600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "12\u65e522\u6642\u9593", 
-    "end_time": 1307955600.0, 
-    "goods_description": "\u30c0\u30a4\u30e4\u30dc\u30bf\u30f3\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "magiccardless": {
     "specific_type": "re", 
