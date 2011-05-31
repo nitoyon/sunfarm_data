@@ -6402,7 +6402,7 @@
      }, 
      "introduce": "クリスタルを開けることができます。", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "shengdanhuangniudan": {
@@ -10907,7 +10907,7 @@
      }, 
      "introduce": "6月クリスタル", 
      "state": "xin", 
-     "used": true
+     "used": false
     }
    }, 
    "crystal4": {
@@ -16676,42 +16676,6 @@
     "modify": false, 
     "goods_description": "パーティーハクサイ", 
     "activity_type": "discount"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ハンマー", 
-    "start_time": 1306839600.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "12日22時間", 
-    "end_time": 1307955600.0, 
-    "goods_description": "クリスタルを開けることができます。", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "crystal7": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ボタンのクリスタル", 
-    "start_time": 1306839600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "12日22時間", 
-    "end_time": 1307955600.0, 
-    "goods_description": "ダイヤボタンの種と高級肥料が入っています。", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "magiccardless": {
     "specific_type": "re", 
