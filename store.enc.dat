@@ -16677,6 +16677,42 @@
     "goods_description": "パーティーハクサイ", 
     "activity_type": "discount"
    }, 
+   "hammer": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ハンマー", 
+    "start_time": 1307062800.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日8時間", 
+    "end_time": 1307955600.0, 
+    "goods_description": "クリスタルを開けることができます。", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "crystal7": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ボタンのクリスタル", 
+    "start_time": 1307062800.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日8時間", 
+    "end_time": 1307955600.0, 
+    "goods_description": "ダイヤボタンの種と高級肥料が入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "magiccardless": {
     "specific_type": "re", 
     "product_type": {
