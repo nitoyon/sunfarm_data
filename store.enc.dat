@@ -16640,28 +16640,6 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "yingwubaoxiang": {
-    "original_price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "オウム宝箱", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "13日23時間", 
-    "end_time": 1307955600.0, 
-    "goods_description": "オウム宝箱が登場！5個のマジック肥料とマジック飼料が入っているほか、たまに可愛いオウムがも入っています！すべてを発見して図鑑を完成しよう！", 
-    "start_time": 1306749600.0, 
-    "activity_type": "hot_sale"
-   }, 
    "partybaicai": {
     "specific_type": "re", 
     "product_type": {
@@ -16728,6 +16706,28 @@
     "modify": true, 
     "goods_description": "成熟したダイアンサスの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
+   }, 
+   "sansejin": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "サンシキスミレ", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日", 
+    "end_time": 1308304800.0, 
+    "goods_description": "サンシキスミレ、あなたが植えているのは何色かな？", 
+    "start_time": 1307440800.0, 
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -21262,7 +21262,7 @@
     "sansejin": {
      "total_time": 720, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "サンシキスミレ", 
      "base_fruit": 25, 
      "fruit_time": 300, 
