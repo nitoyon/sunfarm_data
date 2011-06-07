@@ -16640,28 +16640,6 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "yingwubaoxiang": {
-    "original_price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "\u30aa\u30a6\u30e0\u5b9d\u7bb1", 
-    "price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "13\u65e523\u6642\u9593", 
-    "end_time": 1307955600.0, 
-    "goods_description": "\u30aa\u30a6\u30e0\u5b9d\u7bb1\u304c\u767b\u5834\uff015\u500b\u306e\u30de\u30b8\u30c3\u30af\u80a5\u6599\u3068\u30de\u30b8\u30c3\u30af\u98fc\u6599\u304c\u5165\u3063\u3066\u3044\u308b\u307b\u304b\u3001\u305f\u307e\u306b\u53ef\u611b\u3044\u30aa\u30a6\u30e0\u304c\u3082\u5165\u3063\u3066\u3044\u307e\u3059\uff01\u3059\u3079\u3066\u3092\u767a\u898b\u3057\u3066\u56f3\u9451\u3092\u5b8c\u6210\u3057\u3088\u3046\uff01", 
-    "start_time": 1306749600.0, 
-    "activity_type": "hot_sale"
-   }, 
    "partybaicai": {
     "specific_type": "re", 
     "product_type": {
@@ -16728,6 +16706,28 @@
     "modify": true, 
     "goods_description": "\u6210\u719f\u3057\u305f\u30c0\u30a4\u30a2\u30f3\u30b5\u30b9\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
     "activity_type": "discount"
+   }, 
+   "sansejin": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u30b5\u30f3\u30b7\u30ad\u30b9\u30df\u30ec", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "10\u65e5", 
+    "end_time": 1308304800.0, 
+    "goods_description": "\u30b5\u30f3\u30b7\u30ad\u30b9\u30df\u30ec\u3001\u3042\u306a\u305f\u304c\u690d\u3048\u3066\u3044\u308b\u306e\u306f\u4f55\u8272\u304b\u306a\uff1f", 
+    "start_time": 1307440800.0, 
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -21262,7 +21262,7 @@
     "sansejin": {
      "total_time": 720, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "\u30b5\u30f3\u30b7\u30ad\u30b9\u30df\u30ec", 
      "base_fruit": 25, 
      "fruit_time": 300, 
