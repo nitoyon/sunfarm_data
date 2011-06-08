@@ -6,6 +6,119 @@
  }, 
  "data": {
   "gift_bags": {
+   "caisegesanghualibao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産のホワイトうさぎも入っているよ！さっそく開けてみよう！", 
+     "name": "コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産のホワイトうさぎも入っているよ！さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        1.0
+       ], 
+       "tianshanxuelian": [
+        1, 
+        1.0
+       ], 
+       "xuesongshu": [
+        1, 
+        1.0
+       ], 
+       "yingtao": [
+        4, 
+        1.0
+       ], 
+       "changchunhua": [
+        1, 
+        1.0
+       ], 
+       "shenqiginseng": [
+        1, 
+        1.0
+       ], 
+       "yutuhua": [
+        5, 
+        1.0
+       ], 
+       "qinglvmogu": [
+        1, 
+        1.0
+       ], 
+       "fenmeigui": [
+        1, 
+        1.0
+       ], 
+       "bosiju": [
+        1, 
+        1.0
+       ], 
+       "baochunhua": [
+        1, 
+        1.0
+       ], 
+       "nirenboluo": [
+        1, 
+        1.0
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        1.0
+       ], 
+       "baimeigui": [
+        1, 
+        1.0
+       ], 
+       "huangmeigui": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "guoqibaosiqiang": {
     "config": {
      "used": true, 
@@ -21259,6 +21372,26 @@
      }, 
      "level_need": 0
     }, 
+    "lansegesanghua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ブルーツツジ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。ブルーツツジを手に入れました。5種のツツジを集めれば、500Kコイン相当のギフトセットがもらえます。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "hongmeiguixin": {
      "total_time": 480, 
      "leaflet_time": 20, 
@@ -24201,6 +24334,25 @@
       "F_coin": 1
      }, 
      "level_need": 1
+    }, 
+    "caisegesanghua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "カラフルなツツジ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 30, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 60
+     }, 
+     "level_need": 0
     }, 
     "caijiaozhanshihuangse": {
      "total_time": 1220, 
@@ -27897,6 +28049,26 @@
      }, 
      "level_need": 1
     }, 
+    "huangsegesanghua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "イエローツツジ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。イエローツツジを手に入れました。5種のツツジを集めれば、500Kコイン相当のギフトセットがもらえます。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "goldenmelon": {
      "total_time": 1364, 
      "leaflet_time": 95, 
@@ -29894,24 +30066,25 @@
      }, 
      "level_need": 40
     }, 
-    "bangbangtang": {
-     "total_time": 660, 
-     "leaflet_time": 90, 
+    "hongsegesanghua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "ローリーポップ", 
+     "name": "レッドツツジ", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 30, 
-     "bloom_time": 150, 
-     "experience": 5, 
-     "seasons": 1, 
-     "sale_price": 7, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。レッドツツジを手に入れました。5種のツツジを集めれば、500Kコイン相当のギフトセットがもらえます。", 
      "increment_fruit": 25, 
-     "leaf_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 50
      }, 
-     "level_need": 1
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "jiazhutaozi": {
      "total_time": 1080, 
@@ -31154,6 +31327,25 @@
      }, 
      "level_need": 0
     }, 
+    "bangbangtang": {
+     "total_time": 660, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ローリーポップ", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "yingchunhua": {
      "total_time": 1080, 
      "leaflet_time": 150, 
@@ -31853,6 +32045,26 @@
      "seed_price": {
       "F_coin": 15
      }, 
+     "level_need": 0
+    }, 
+    "fensegesanghua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ピンクツツジ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。ピンクツツジを手に入れました。5種のツツジを集めれば、500Kコイン相当のギフトセットがもらえます。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "jiariyecan": {
@@ -32820,6 +33032,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 25
+     }, 
+     "level_need": 0
+    }, 
+    "qj": {
+     "total_time": 1050, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "花見酒", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 5
      }, 
      "level_need": 0
     }, 
@@ -36690,23 +36921,24 @@
      }, 
      "level_need": 1
     }, 
-    "qj": {
-     "total_time": 1050, 
-     "leaflet_time": 150, 
+    "baisegesanghua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "花見酒", 
+     "name": "ホワイトツツジ", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 150, 
-     "bloom_time": 300, 
-     "experience": 9, 
-     "seasons": 1, 
-     "sale_price": 10, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。ストロベリーパンダを手に入れました。5種のツツジを集めれば、500Kコイン相当のギフトセットがもらえます。", 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "seed_price": {
-      "F_coin": 5
+      "F_coin": 50
      }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "qiji": {
@@ -37073,6 +37305,7 @@
     "niudanhuang", 
     "huangkapian", 
     "huangzuanmudan", 
+    "huangsegesanghua", 
     "kaoyouyu", 
     "yidalimian", 
     "hashiqifangzi", 
@@ -37089,6 +37322,7 @@
     "yaoguo", 
     "zhuyahua", 
     "caizuanmudan", 
+    "caisegesanghua", 
     "zong", 
     "ma_ti_lian", 
     "carnation", 
@@ -37156,6 +37390,7 @@
     "niudantujianer_fen", 
     "fenmeigui", 
     "fenzuanmudan", 
+    "fensegesanghua", 
     "huanxianghua", 
     "fenghuangzhiyi", 
     "chazidaozi", 
@@ -37170,12 +37405,14 @@
     "niudanlan", 
     "lankapian", 
     "lanzuanmudan", 
+    "lansegesanghua", 
     "chinesecrabapple", 
     "qiefangzi", 
     "fenghuanghua", 
     "fengxianhua", 
     "baimeigui", 
     "baizuanmudan", 
+    "baisegesanghua", 
     "peony", 
     "shengdanhong", 
     "wurong", 
@@ -37199,6 +37436,7 @@
     "hongmeigui", 
     "niudanfen", 
     "hongkapian", 
+    "hongsegesanghua", 
     "ningmengxiongmao", 
     "qisezuanshihua", 
     "hefengtaocan", 
@@ -39631,6 +39869,7 @@
    "zhongzibao", 
    "siliao_1", 
    "guoqibaofuke", 
+   "caisegesanghualibao", 
    "dongwubao", 
    "crops_suanrulao_gift", 
    "juice_guosuanjinghua_gift", 
