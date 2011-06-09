@@ -19819,6 +19819,25 @@
      }, 
      "level_need": 1
     }, 
+    "qicaijiazhutao": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30ad\u30e7\u30a6\u30c1\u30af\u30c8\u30a6", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "xibanyaguoqishu": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -20697,24 +20716,24 @@
      }, 
      "level_need": 1
     }, 
-    "qicaijiazhutao": {
+    "huoji1": {
      "total_time": 1080, 
-     "leaflet_time": 90, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30ad\u30e7\u30a6\u30c1\u30af\u30c8\u30a6", 
+     "name": "\u30d4\u30e9\u30ab\u30f3\u30b5", 
      "base_fruit": 25, 
      "fruit_time": 360, 
-     "sprout_time": 60, 
+     "sprout_time": 90, 
      "bloom_time": 330, 
-     "experience": 9, 
+     "experience": 7, 
      "seasons": 1, 
-     "sale_price": 13, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "leaf_time": 240, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 20
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "yuxiangrousi": {
      "total_time": 1140, 
@@ -29307,6 +29326,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "baichezhoucao": {
+     "total_time": 840, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u30b7\u30ed\u30c4\u30e1\u30af\u30b5", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.52, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 230
+     }, 
+     "level_need": 30
+    }, 
     "jiangbaojiding": {
      "total_time": 710, 
      "leaflet_time": 120, 
@@ -37387,6 +37425,7 @@
     "baitouweng", 
     "yuanxigua", 
     "jiariyecan", 
+    "huoji1", 
     "niudantujianer_fen", 
     "fenmeigui", 
     "fenzuanmudan", 
@@ -38247,6 +38286,7 @@
     "hebaohua", 
     "caiyecao", 
     "rouguishu", 
+    "baichezhoucao", 
     "dihuang", 
     "niqiuzhang", 
     "changxiashizhu", 
