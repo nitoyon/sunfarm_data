@@ -25989,22 +25989,22 @@
      }, 
      "level_need": 1
     }, 
-    "xiabaiju": {
-     "total_time": 810, 
-     "leaflet_time": 90, 
-     "used": false, 
-     "name": "\u30de\u30c8\u30ea\u30ab\u30ea\u30a2", 
+    "partymogu": {
+     "total_time": 630, 
+     "leaflet_time": 60, 
+     "used": true, 
+     "name": "\u30d1\u30fc\u30c6\u30a3\u30fc\u30ad\u30ce\u30b3", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
+     "fruit_time": 300, 
      "sprout_time": 30, 
-     "bloom_time": 210, 
-     "experience": 20, 
+     "bloom_time": 120, 
+     "experience": 3.22, 
      "seasons": 1, 
-     "sale_price": 20, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 120, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -28565,22 +28565,22 @@
      }, 
      "level_need": 19
     }, 
-    "partymogu": {
-     "total_time": 630, 
-     "leaflet_time": 60, 
-     "used": true, 
-     "name": "\u30d1\u30fc\u30c6\u30a3\u30fc\u30ad\u30ce\u30b3", 
+    "xiabaiju": {
+     "total_time": 810, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "\u30de\u30c8\u30ea\u30ab\u30ea\u30a2", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
+     "fruit_time": 330, 
      "sprout_time": 30, 
-     "bloom_time": 120, 
-     "experience": 3.22, 
+     "bloom_time": 210, 
+     "experience": 20, 
      "seasons": 1, 
-     "sale_price": 4, 
+     "sale_price": 20, 
      "increment_fruit": 25, 
-     "leaf_time": 120, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 50
      }, 
      "level_need": 1
     }, 
@@ -33280,6 +33280,25 @@
       "gold": 447
      }, 
      "level_need": 32
+    }, 
+    "xiangcai": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
+     "used": false, 
+     "name": "\u3075\u308b\u3055\u3068\u306e\u9752\u83dc", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 3, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 600, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
     }, 
     "wufanzi": {
      "total_time": 2880, 
@@ -38102,6 +38121,7 @@
     "nvhaijiemao", 
     "nvhaijieyang", 
     "meirenjiao", 
+    "xiangcai", 
     "ziqiansuitang", 
     "sanduohua", 
     "weixiaonangua", 
