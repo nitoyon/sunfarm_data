@@ -16745,6 +16745,28 @@
     "goods_description": "エリンギ", 
     "activity_type": "discount"
    }, 
+   "mianhua": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "わた", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日3時間", 
+    "end_time": 1308898800.0, 
+    "goods_description": "収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
+    "start_time": 1308024000.0, 
+    "activity_type": "hot_sale"
+   }, 
    "liuyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -16759,6 +16781,28 @@
     "modify": true, 
     "goods_description": "", 
     "activity_type": "discount"
+   }, 
+   "shenqibaotu": {
+    "original_price": {
+     "num": 60, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "魔法の種の地図", 
+    "price": {
+     "num": 40, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日3時間", 
+    "end_time": 1308898800.0, 
+    "goods_description": "魔法の種への行き方が書かれていて、魔法の種を見つけられるかもしれない。", 
+    "start_time": 1308024000.0, 
+    "activity_type": "hot_sale"
    }, 
    "baitu": {
     "specific_type": "re", 
@@ -16789,42 +16833,6 @@
     "modify": true, 
     "goods_description": "明日葉", 
     "activity_type": "discount"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ハンマー", 
-    "start_time": 1307062800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "10日8時間", 
-    "end_time": 1307955600.0, 
-    "goods_description": "クリスタルを開けることができます。", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "crystal7": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ボタンのクリスタル", 
-    "start_time": 1307062800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "10日8時間", 
-    "end_time": 1307955600.0, 
-    "goods_description": "ダイヤボタンの種と高級肥料が入っています。", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "magiccardless": {
     "specific_type": "re", 
