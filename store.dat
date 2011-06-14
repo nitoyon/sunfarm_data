@@ -16708,19 +16708,41 @@
     "goods_description": "\u4e2d\u306b\u306f\u4e2d\u7d1a\u80a5\u6599\u304c\u4e94\u3064\u542b\u307e\u308c\u3066\u3044\u3066\u3001\u3055\u3089\u306b\u4e8c\u3064\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3057\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
-   "partytudou": {
+   "sansejin": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u30b5\u30f3\u30b7\u30ad\u30b9\u30df\u30ec", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "10\u65e5", 
+    "end_time": 1308304800.0, 
+    "goods_description": "\u30b5\u30f3\u30b7\u30ad\u30b9\u30df\u30ec\u3001\u3042\u306a\u305f\u304c\u690d\u3048\u3066\u3044\u308b\u306e\u306f\u4f55\u8272\u304b\u306a\uff1f", 
+    "start_time": 1307440800.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "xingbaogu": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "\u30d1\u30fc\u30c6\u30a3\u30fc\u30b8\u30e3\u30ac\u30a4\u30e2", 
+    "name": "\u30a8\u30ea\u30f3\u30ae", 
     "price": {
-     "num": 35, 
+     "num": 40, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "\u30d1\u30fc\u30c6\u30a3\u30fc\u30b8\u30e3\u30ac\u30a4\u30e2", 
+    "modify": true, 
+    "goods_description": "\u30a8\u30ea\u30f3\u30ae", 
     "activity_type": "discount"
    }, 
    "liuyuebaoxiang": {
@@ -16753,19 +16775,19 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "partybaicai": {
+   "mingriye": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "\u30d1\u30fc\u30c6\u30a3\u30fc\u30cf\u30af\u30b5\u30a4", 
+    "name": "\u660e\u65e5\u8449", 
     "price": {
-     "num": 40, 
+     "num": 35, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "\u30d1\u30fc\u30c6\u30a3\u30fc\u30cf\u30af\u30b5\u30a4", 
+    "modify": true, 
+    "goods_description": "\u660e\u65e5\u8449", 
     "activity_type": "discount"
    }, 
    "hammer": {
@@ -16819,28 +16841,6 @@
     "modify": true, 
     "goods_description": "\u6210\u719f\u3057\u305f\u30b7\u30ed\u30c4\u30e1\u30af\u30b5\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
     "activity_type": "discount"
-   }, 
-   "sansejin": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u30b5\u30f3\u30b7\u30ad\u30b9\u30df\u30ec", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "10\u65e5", 
-    "end_time": 1308304800.0, 
-    "goods_description": "\u30b5\u30f3\u30b7\u30ad\u30b9\u30df\u30ec\u3001\u3042\u306a\u305f\u304c\u690d\u3048\u3066\u3044\u308b\u306e\u306f\u4f55\u8272\u304b\u306a\uff1f", 
-    "start_time": 1307440800.0, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
