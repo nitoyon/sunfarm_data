@@ -31820,6 +31820,25 @@
      }, 
      "level_need": 1
     }, 
+    "hanxiaohua": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
+     "used": false, 
+     "name": "ガンシュウゲ", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 3, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 600, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "zihulu": {
      "total_time": 1080, 
      "leaflet_time": 90, 
@@ -38224,6 +38243,7 @@
     "changshouhua", 
     "zifengli", 
     "kangnaixin", 
+    "hanxiaohua", 
     "jianaguoqishu", 
     "meihuashuren", 
     "xiangshuimao", 
