@@ -10131,7 +10131,7 @@
    "jiagongchangsucaibao": {
     "config": {
      "price": {
-      "F_coin": 40
+      "F_coin": 35
      }, 
      "used": true, 
      "goods_str": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。", 
@@ -16708,27 +16708,21 @@
     "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
-   "sansejin": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
+   "magiccardless": {
+    "specific_type": "re", 
     "product_type": {
+     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_type": "seed"
+     "goods_category": "fertilizer"
     }, 
-    "name": "サンシキスミレ", 
+    "name": "マジック増産カード", 
     "price": {
-     "num": 15, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "10日", 
-    "end_time": 1308304800.0, 
-    "goods_description": "サンシキスミレ、あなたが植えているのは何色かな？", 
-    "start_time": 1307440800.0, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "成熟したブッソウゲの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+    "activity_type": "discount"
    }, 
    "xingbaogu": {
     "specific_type": "re", 
@@ -16782,6 +16776,28 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
+   "jiagongchangsucaibao": {
+    "original_price": {
+     "num": 45, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "加工場材料宝箱", 
+    "price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1308909600.0, 
+    "goods_description": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。", 
+    "start_time": 1308564000.0, 
+    "activity_type": "hot_sale"
+   }, 
    "shenqibaotu": {
     "original_price": {
      "num": 60, 
@@ -16832,22 +16848,6 @@
     }, 
     "modify": true, 
     "goods_description": "明日葉", 
-    "activity_type": "discount"
-   }, 
-   "magiccardless": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック増産カード", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "成熟したブッソウゲの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }
   }, 
@@ -21610,7 +21610,7 @@
      "seasons": 1, 
      "sale_price": 8, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 25
      }, 
      "leaf_time": 150, 
      "level_need": 1
