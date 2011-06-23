@@ -18397,6 +18397,25 @@
      }, 
      "level_need": 1
     }, 
+    "rouguishu": {
+     "total_time": 840, 
+     "leaflet_time": 150, 
+     "used": true, 
+     "name": "シナモン", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.52, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 230
+     }, 
+     "level_need": 30
+    }, 
     "qisehuahuang": {
      "total_time": 1080, 
      "leaflet_time": 90, 
@@ -20648,6 +20667,25 @@
      "leaf_time": 120, 
      "seed_price": {
       "F_coin": 0
+     }, 
+     "level_need": 1
+    }, 
+    "yousuanru": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
+     "used": false, 
+     "name": "スゴイダイズBeauty", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 3, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 600, 
+     "seed_price": {
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -25119,25 +25157,23 @@
      "leaf_time": 90, 
      "level_need": 0
     }, 
-    "jiazhutao": {
-     "total_time": 1080, 
-     "leaflet_time": 90, 
-     "used": true, 
-     "name": "キョウチクトウ", 
+    "dadouyousuanru": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
+     "used": false, 
+     "name": "スゴイダイズヨーグルト", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 60, 
-     "introduce": "キョウチクトウ、あなたが植えているのは何色かな？", 
-     "is_random": true, 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 3, 
+     "sale_price": 500, 
      "increment_fruit": 25, 
-     "bloom_time": 330, 
-     "experience": 9, 
-     "seasons": 1, 
-     "sale_price": 13, 
+     "leaf_time": 600, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 20
      }, 
-     "leaf_time": 240, 
      "level_need": 1
     }, 
     "banana": {
@@ -25647,23 +25683,25 @@
      "leaf_time": 120, 
      "level_need": 1
     }, 
-    "danangua": {
-     "total_time": 1650, 
-     "leaflet_time": 30, 
-     "used": false, 
-     "name": "巨大カボチャ", 
+    "jiazhutao": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": true, 
+     "name": "キョウチクトウ", 
      "base_fruit": 25, 
-     "fruit_time": 1110, 
-     "sprout_time": 30, 
-     "bloom_time": 330, 
-     "experience": 500, 
-     "seasons": 3, 
-     "sale_price": 500, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "introduce": "キョウチクトウ、あなたが植えているのは何色かな？", 
+     "is_random": true, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 25
      }, 
+     "leaf_time": 240, 
      "level_need": 1
     }, 
     "yejunniuroutang": {
@@ -33007,6 +33045,25 @@
      }, 
      "level_need": 1
     }, 
+    "bayinhe3": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "テディオルゴール", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "yumeiren": {
      "total_time": 1050, 
      "leaflet_time": 150, 
@@ -34981,24 +35038,24 @@
      "leaf_time": 330, 
      "level_need": 1
     }, 
-    "rouguishu": {
-     "total_time": 840, 
-     "leaflet_time": 150, 
-     "used": true, 
-     "name": "シナモン", 
-     "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 90, 
-     "bloom_time": 150, 
-     "experience": 2.52, 
-     "seasons": 1, 
-     "sale_price": 14, 
-     "increment_fruit": 25, 
-     "leaf_time": 150, 
+    "corn": {
+     "total_time": 540, 
+     "leaflet_time": 54, 
      "seed_price": {
-      "gold": 230
+      "gold": 15
      }, 
-     "level_need": 30
+     "name": "トウモロコシ", 
+     "base_fruit": 25, 
+     "fruit_time": 195, 
+     "recipe": "レシピに使えます：\n焼きとうもろこし\nトウモロコシクリーム焼き\nツギキリンゴ\n田舎鶏", 
+     "sprout_time": 3, 
+     "bloom_time": 144, 
+     "experience": 1.25, 
+     "seasons": 1, 
+     "sale_price": 2, 
+     "increment_fruit": 25, 
+     "leaf_time": 144, 
+     "level_need": 2
     }, 
     "naiyou": {
      "total_time": 1650, 
@@ -36137,24 +36194,24 @@
      }, 
      "level_need": 1
     }, 
-    "corn": {
-     "total_time": 540, 
-     "leaflet_time": 54, 
-     "seed_price": {
-      "gold": 15
-     }, 
-     "name": "トウモロコシ", 
+    "dadou": {
+     "total_time": 750, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "スゴイダイズ", 
      "base_fruit": 25, 
-     "fruit_time": 195, 
-     "recipe": "レシピに使えます：\n焼きとうもろこし\nトウモロコシクリーム焼き\nツギキリンゴ\n田舎鶏", 
-     "sprout_time": 3, 
-     "bloom_time": 144, 
-     "experience": 1.25, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 5, 
      "seasons": 1, 
-     "sale_price": 2, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 144, 
-     "level_need": 2
+     "leaf_time": 120, 
+     "seed_price": {
+      "F_coin": 0
+     }, 
+     "level_need": 1
     }, 
     "chuju": {
      "total_time": 1920, 
@@ -37336,18 +37393,18 @@
      }, 
      "level_need": 1
     }, 
-    "bayinhe3": {
-     "total_time": 1080, 
-     "leaflet_time": 150, 
+    "danangua": {
+     "total_time": 1650, 
+     "leaflet_time": 30, 
      "used": false, 
-     "name": "テディオルゴール", 
+     "name": "巨大カボチャ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
+     "fruit_time": 1110, 
+     "sprout_time": 30, 
      "bloom_time": 330, 
-     "experience": 8, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "experience": 500, 
+     "seasons": 3, 
+     "sale_price": 500, 
      "increment_fruit": 25, 
      "leaf_time": 150, 
      "seed_price": {
@@ -38686,6 +38743,9 @@
     "xiangwandou", 
     "shuilian", 
     "hezhuangqiaokeli", 
+    "dadou", 
+    "yousuanru", 
+    "dadouyousuanru", 
     "xibanyaguoqishu", 
     "qiaokelidangaoxin", 
     "siluofakeguoqishu", 
