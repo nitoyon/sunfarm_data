@@ -39640,6 +39640,14 @@
       "pro": 0.3
      }
     }, 
+    "cash_coupon": {
+     "one_thousand": {
+      "par_value": 1000, 
+      "used": false, 
+      "name": "クーポン", 
+      "introduce": "一枚開墾クーポンは１０００コインとして使えます！"
+     }
+    }, 
     "reindeer_food": {
      "xunlubiandang": {
       "price": {
@@ -39932,12 +39940,16 @@
       "effect": 5.5
      }
     }, 
-    "cash_coupon": {
-     "one_thousand": {
-      "par_value": 1000, 
+    "pest": {
+     "ladybird": {
+      "count": 10, 
       "used": false, 
-      "name": "クーポン", 
-      "introduce": "一枚開墾クーポンは１０００コインとして使えます！"
+      "name": "テントウムシ", 
+      "price": {
+       "gold": 500
+      }, 
+      "effect": 15, 
+      "introduce": "友達の作物に使えます。相手に退治されると、普通よりもっと多く収穫できます。"
      }
     }, 
     "slots_ticket": {
@@ -39961,16 +39973,14 @@
       "message": "3割引券を使用し、"
      }
     }, 
-    "pest": {
-     "ladybird": {
-      "count": 10, 
-      "used": false, 
-      "name": "テントウムシ", 
+    "tipup": {
+     "rusuanjun": {
       "price": {
-       "gold": 500
+       "F_coin": 9
       }, 
-      "effect": 15, 
-      "introduce": "友達の作物に使えます。相手に退治されると、普通よりもっと多く収穫できます。"
+      "used": true, 
+      "name": "乳酸菌", 
+      "introduce": "ヨーグルトをつくるのに不可欠！"
      }
     }
    }, 
@@ -41058,6 +41068,9 @@
     ], 
     "discount_card": [
      "seven_fold"
+    ], 
+    "tipup": [
+     "rusuanjun"
     ], 
     "pest": [
      "ladybird"
