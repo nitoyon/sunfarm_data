@@ -16883,6 +16883,7 @@
      "num": 25, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -16892,27 +16893,8 @@
      "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日4時間", 
-    "end_time": 1309503600.0, 
+    "modify": false, 
     "goods_description": "サンシキスミレ、あなたが植えているのは何色かな?", 
-    "start_time": 1309143600.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "xingbaogu": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "エリンギ", 
-    "price": {
-     "num": 40, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "エリンギ", 
     "activity_type": "discount"
    }, 
    "liuyuebaoxiang": {
@@ -16935,6 +16917,7 @@
      "num": 48, 
      "type": "F_coin"
     }, 
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -16945,12 +16928,8 @@
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日4時間", 
-    "end_time": 1309503600.0, 
     "goods_description": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
-    "start_time": 1309143600.0, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "baitu": {
     "specific_type": "re", 
@@ -16967,20 +16946,41 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "mingriye": {
-    "specific_type": "re", 
+   "crystal8": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "明日葉", 
+    "name": "ｱｼﾞｻｲのｸﾘｽﾀﾙ", 
+    "start_time": 1309244400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "13日2時間", 
+    "end_time": 1310374800.0, 
+    "goods_description": "ダイヤアジサイの種と高級肥料が入っています。", 
     "price": {
-     "num": 35, 
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "hammer": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ハンマー", 
+    "start_time": 1309244400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "13日2時間", 
+    "end_time": 1310374800.0, 
+    "goods_description": "クリスタルを開けることができます。", 
+    "price": {
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "明日葉", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "magiccardless": {
     "specific_type": "re", 
