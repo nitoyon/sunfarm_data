@@ -11699,6 +11699,8 @@
     "caomeijibianse", 
     "caomeixiongmaobianse", 
     "caomeimaotouyingbianse", 
+    "huhou", 
+    "jinsihou", 
     "hongcaiximiyingwu", 
     "sangaru", 
     "yundongxiongmao", 
@@ -11706,15 +11708,19 @@
     "huoji", 
     "NanFeiTuoNiao", 
     "qiaokelibaobao", 
+    "changbiyuan", 
     "JiCiWeiXi", 
     "xiaobianfu", 
     "xiaomonv", 
     "xiaoheimao", 
     "fuhuojietuzier", 
     "xiongmao", 
+    "baitouyehou", 
     "fuhuojietuziliu", 
     "fuhuojietuzisi", 
     "zixingchuzuche", 
+    "shuxionghou", 
+    "heyuan", 
     "moshutuzi", 
     "baiyanniao", 
     "eyu", 
@@ -12342,6 +12348,27 @@
      "increment_fruit": 25, 
      "level_need": 21, 
      "fruit_quantifier": "バレル"
+    }, 
+    "changbiyuan": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "テナガザル", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 17, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 35, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
     }, 
     "nantanglang": {
      "total_time": 1680, 
@@ -13151,6 +13178,27 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
+    "heyuan": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ポンゴ", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 50
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 25, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 60, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
     "sangaru": {
      "total_time": 5400, 
      "harvest_type": 3, 
@@ -13350,24 +13398,24 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
-    "None": {
-     "total_time": 299997, 
+    "caomeiyangtuobianse": {
+     "total_time": 840, 
      "harvest_type": 0, 
      "used": false, 
-     "name": "None", 
-     "base_fruit": 1, 
-     "fruit_time": 99999, 
-     "adult_time": 99999, 
+     "name": "キイチゴアルパカ", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "adult_time": 240, 
      "buy_price": {
-      "F_coin": 13
+      "F_coin": 50
      }, 
-     "seasons": 99, 
-     "young_time": 99999, 
-     "experience": 1, 
+     "seasons": 3, 
+     "young_time": 120, 
+     "experience": 20, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 1, 
-     "increment_fruit": 0, 
+     "sale_price": 50, 
+     "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
@@ -14004,24 +14052,24 @@
      "increment_fruit": 25, 
      "level_need": 1
     }, 
-    "caomeiyangtuobianse": {
-     "total_time": 840, 
+    "None": {
+     "total_time": 299997, 
      "harvest_type": 0, 
      "used": false, 
-     "name": "キイチゴアルパカ", 
-     "base_fruit": 25, 
-     "fruit_time": 480, 
-     "adult_time": 240, 
+     "name": "None", 
+     "base_fruit": 1, 
+     "fruit_time": 99999, 
+     "adult_time": 99999, 
      "buy_price": {
-      "F_coin": 50
+      "F_coin": 13
      }, 
-     "seasons": 3, 
-     "young_time": 120, 
-     "experience": 20, 
+     "seasons": 99, 
+     "young_time": 99999, 
+     "experience": 1, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 50, 
-     "increment_fruit": 25, 
+     "sale_price": 1, 
+     "increment_fruit": 0, 
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
@@ -14532,6 +14580,27 @@
      "sale_price": 6, 
      "increment_fruit": 25, 
      "level_need": 12, 
+     "fruit_quantifier": "個"
+    }, 
+    "baitouyehou": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "フランソワルトン", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 14, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
     "qianlima": {
@@ -15267,6 +15336,27 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
+    "shuxionghou": {
+     "total_time": 840, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ポットー", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 5, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
     "shuitun": {
      "total_time": 2189, 
      "sound": {
@@ -15523,6 +15613,27 @@
      "sale_price": 7, 
      "increment_fruit": 25, 
      "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "jinsihou": {
+     "total_time": 840, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "キンシコウ", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 7, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
     "jingangyingwu": {
@@ -15910,6 +16021,27 @@
      "sale_price": 3, 
      "increment_fruit": 25, 
      "level_need": 8, 
+     "fruit_quantifier": "個"
+    }, 
+    "huhou": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "キツネザル", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 21, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 47, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
     "juanshanniu": {
