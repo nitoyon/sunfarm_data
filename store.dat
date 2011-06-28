@@ -16883,6 +16883,7 @@
      "num": 25, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
@@ -16892,27 +16893,8 @@
      "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4\u65e54\u6642\u9593", 
-    "end_time": 1309503600.0, 
+    "modify": false, 
     "goods_description": "\u30b5\u30f3\u30b7\u30ad\u30b9\u30df\u30ec\u3001\u3042\u306a\u305f\u304c\u690d\u3048\u3066\u3044\u308b\u306e\u306f\u4f55\u8272\u304b\u306a?", 
-    "start_time": 1309143600.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "xingbaogu": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u30a8\u30ea\u30f3\u30ae", 
-    "price": {
-     "num": 40, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "\u30a8\u30ea\u30f3\u30ae", 
     "activity_type": "discount"
    }, 
    "liuyuebaoxiang": {
@@ -16935,6 +16917,7 @@
      "num": 48, 
      "type": "F_coin"
     }, 
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -16945,12 +16928,8 @@
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4\u65e54\u6642\u9593", 
-    "end_time": 1309503600.0, 
     "goods_description": "\u5b9d\u7269\u3078\u306e\u884c\u304d\u65b9\u304c\u66f8\u304b\u308c\u3066\u3044\u3066\u3001\u82b1\u3001\u4f5c\u7269\u7b49\u306e\u8272\u3005\u306a\u7551\u30a2\u30a4\u30c6\u30e0\u3092\u63a2\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
-    "start_time": 1309143600.0, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "baitu": {
     "specific_type": "re", 
@@ -16967,20 +16946,41 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "mingriye": {
-    "specific_type": "re", 
+   "crystal8": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "\u660e\u65e5\u8449", 
+    "name": "\uff71\uff7c\uff9e\uff7b\uff72\u306e\uff78\uff98\uff7d\uff80\uff99", 
+    "start_time": 1309244400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "13\u65e52\u6642\u9593", 
+    "end_time": 1310374800.0, 
+    "goods_description": "\u30c0\u30a4\u30e4\u30a2\u30b8\u30b5\u30a4\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
     "price": {
-     "num": 35, 
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "hammer": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "\u30cf\u30f3\u30de\u30fc", 
+    "start_time": 1309244400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "13\u65e52\u6642\u9593", 
+    "end_time": 1310374800.0, 
+    "goods_description": "\u30af\u30ea\u30b9\u30bf\u30eb\u3092\u958b\u3051\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
+    "price": {
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "\u660e\u65e5\u8449", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "magiccardless": {
     "specific_type": "re", 
