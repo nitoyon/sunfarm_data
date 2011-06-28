@@ -10903,6 +10903,18 @@
      }
     }
    }, 
+   "crystal8": {
+    "config": {
+     "goods_str": "ダイヤアジサイの種と高級肥料が入っています。", 
+     "name": "ｱｼﾞｻｲのｸﾘｽﾀﾙ", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "7月クリスタル", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "mb_7": {
     "config": {
      "goods_str": "使用橙宝石可获得急速化肥20个,急速饲料5个,水蜜桃,香蕉,樱桃,风信子,海棠,百合", 
@@ -17169,6 +17181,25 @@
      }, 
      "level_need": 1
     }, 
+    "zisebaxianhua": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "パープルダイヤアジサイ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
+    }, 
     "lychnis": {
      "total_time": 960, 
      "leaflet_time": 90, 
@@ -20696,6 +20727,25 @@
      }, 
      "level_need": 0
     }, 
+    "yuanyitiane": {
+     "total_time": 1350, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "園芸スワン", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 35, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 1
+    }, 
     "diaozhonghua": {
      "total_time": 750, 
      "leaflet_time": 60, 
@@ -21352,31 +21402,20 @@
      }, 
      "level_need": 35
     }, 
-    "shenqinigerseed": {
-     "total_time": 2130, 
-     "leaflet_time": 213, 
-     "magicseed": [
-      1, 
-      2, 
-      3, 
-      4, 
-      5, 
-      6, 
-      7, 
-      8, 
-      9
-     ], 
-     "name": "魔法の黒ゴマ", 
-     "base_fruit": 25, 
-     "fruit_time": 744, 
-     "sprout_time": 37, 
-     "bloom_time": 568, 
+    "baisebaxianhua": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
      "used": false, 
-     "experience": 4.215, 
-     "seasons": 2, 
+     "name": "ホワイトダイヤアジサイ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
      "sale_price": 16, 
      "increment_fruit": 25, 
-     "leaf_time": 568, 
+     "leaf_time": 330, 
      "seed_price": {
       "F_coin": 25
      }, 
@@ -25925,6 +25964,25 @@
      }, 
      "level_need": 0
     }, 
+    "caisebaxianhua": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "カラフルなダイヤアジサイ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 50, 
+     "seasons": 1, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 150
+     }, 
+     "level_need": 0
+    }, 
     "tuzifangzi": {
      "total_time": 1410, 
      "leaflet_time": 330, 
@@ -26850,26 +26908,35 @@
      }, 
      "level_need": 20
     }, 
-    "shengdanfenyueji": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "チャイニーズローズ", 
+    "shenqinigerseed": {
+     "total_time": 2130, 
+     "leaflet_time": 213, 
+     "magicseed": [
+      1, 
+      2, 
+      3, 
+      4, 
+      5, 
+      6, 
+      7, 
+      8, 
+      9
+     ], 
+     "name": "魔法の黒ゴマ", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "goodstype": "flower", 
-     "sprout_time": 90, 
-     "introduce": "", 
+     "fruit_time": 744, 
+     "sprout_time": 37, 
+     "bloom_time": 568, 
+     "used": false, 
+     "experience": 4.215, 
+     "seasons": 2, 
+     "sale_price": 16, 
      "increment_fruit": 25, 
-     "bloom_time": 330, 
-     "experience": 11, 
-     "seasons": 1, 
-     "sale_price": 15, 
+     "leaf_time": 568, 
      "seed_price": {
       "F_coin": 25
      }, 
-     "leaf_time": 330, 
-     "level_need": 53
+     "level_need": 0
     }, 
     "kuju": {
      "total_time": 630, 
@@ -27583,37 +27650,24 @@
      }, 
      "level_need": 9
     }, 
-    "shenqima_ti_lian": {
-     "total_time": 2997, 
-     "leaflet_time": 222, 
-     "magicseed": [
-      1, 
-      2, 
-      3, 
-      4, 
-      5, 
-      6, 
-      7, 
-      8, 
-      9
-     ], 
-     "name": "魔法のカラー", 
-     "base_fruit": 25, 
-     "fruit_time": 1554, 
-     "goodstype": "flower", 
-     "sprout_time": 37, 
-     "introduce": "花言葉：夢のように美しい", 
-     "increment_fruit": 25, 
-     "bloom_time": 592, 
+    "bosijuhuang": {
+     "total_time": 720, 
+     "leaflet_time": 90, 
      "used": false, 
-     "experience": 2.675, 
+     "name": "イエローコスモス", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 6, 
      "seasons": 1, 
-     "sale_price": 44, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 999
+      "F_coin": 25
      }, 
-     "leaf_time": 592, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "shuimitaoxiongmao": {
      "total_time": 1440, 
@@ -28101,6 +28155,25 @@
       "F_coin": 25
      }, 
      "level_need": 1
+    }, 
+    "chengsebaxianhua": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "オレンジダイヤアジサイ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
     }, 
     "dandelion": {
      "total_time": 480, 
@@ -29252,24 +29325,24 @@
      }, 
      "level_need": 0
     }, 
-    "bosijuhuang": {
-     "total_time": 720, 
-     "leaflet_time": 90, 
+    "hongsebaxianhua": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "イエローコスモス", 
+     "name": "レッドダイヤアジサイ", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 30, 
-     "bloom_time": 150, 
-     "experience": 6, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 16, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 330, 
      "seed_price": {
       "F_coin": 25
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "wanshengwushi": {
      "total_time": 1410, 
@@ -35739,24 +35812,26 @@
      }, 
      "level_need": 10
     }, 
-    "yuanyitiane": {
-     "total_time": 1350, 
-     "leaflet_time": 150, 
+    "shengdanfenyueji": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "園芸スワン", 
+     "name": "チャイニーズローズ", 
      "base_fruit": 25, 
-     "fruit_time": 480, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 35, 
-     "seasons": 1, 
-     "sale_price": 20, 
+     "fruit_time": 390, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "", 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "seed_price": {
-      "F_coin": 100
+      "F_coin": 25
      }, 
-     "level_need": 1
+     "leaf_time": 330, 
+     "level_need": 53
     }, 
     "mianhua": {
      "total_time": 805, 
@@ -36490,6 +36565,25 @@
       "gold": 1430
      }, 
      "level_need": 1
+    }, 
+    "fensebaxianhua": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ピンクダイヤアジサイ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
     }, 
     "huangyunshu": {
      "total_time": 1410, 
@@ -37477,6 +37571,38 @@
       "F_coin": 50
      }, 
      "leaf_time": 330, 
+     "level_need": 0
+    }, 
+    "shenqima_ti_lian": {
+     "total_time": 2997, 
+     "leaflet_time": 222, 
+     "magicseed": [
+      1, 
+      2, 
+      3, 
+      4, 
+      5, 
+      6, 
+      7, 
+      8, 
+      9
+     ], 
+     "name": "魔法のカラー", 
+     "base_fruit": 25, 
+     "fruit_time": 1554, 
+     "goodstype": "flower", 
+     "sprout_time": 37, 
+     "introduce": "花言葉：夢のように美しい", 
+     "increment_fruit": 25, 
+     "bloom_time": 592, 
+     "used": false, 
+     "experience": 2.675, 
+     "seasons": 1, 
+     "sale_price": 44, 
+     "seed_price": {
+      "F_coin": 999
+     }, 
+     "leaf_time": 592, 
      "level_need": 0
     }, 
     "smilingflower": {
@@ -38841,10 +38967,12 @@
     "mianju5", 
     "tianshizhixin", 
     "yinyuehe", 
+    "chengsebaxianhua", 
     "chengzixiongmao", 
     "qingwaxinxiang", 
     "yaoguo", 
     "zhuyahua", 
+    "caisebaxianhua", 
     "caizuanmudan", 
     "caisegesanghua", 
     "zong", 
@@ -38906,6 +39034,7 @@
     "lingxiao", 
     "lanshanhu", 
     "niudanzi", 
+    "zisebaxianhua", 
     "zizuanmudan", 
     "hyacinth", 
     "bian", 
@@ -38915,6 +39044,7 @@
     "huoji1", 
     "niudantujianer_fen", 
     "fenmeigui", 
+    "fensebaxianhua", 
     "fenzuanmudan", 
     "fensegesanghua", 
     "huanxianghua", 
@@ -38937,6 +39067,7 @@
     "fenghuanghua", 
     "fengxianhua", 
     "baimeigui", 
+    "baisebaxianhua", 
     "baizuanmudan", 
     "baisegesanghua", 
     "peony", 
@@ -38962,6 +39093,7 @@
     "hongmeigui", 
     "niudanfen", 
     "hongkapian", 
+    "hongsebaxianhua", 
     "hongsegesanghua", 
     "ningmengxiongmao", 
     "qisezuanshihua", 
@@ -41633,6 +41765,7 @@
    "mb_6", 
    "mb_8", 
    "zong_zi", 
+   "crystal8", 
    "mb_7", 
    "crystal2", 
    "crystal1", 
