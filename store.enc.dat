@@ -5009,6 +5009,51 @@
   }, 
   "vip_discount": 0.85, 
   "mystic_bags": {
+   "qiyuebaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": true, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "7月の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "xiandanhua": [
+        1, 
+        0.4
+       ], 
+       "mulianhua": [
+        1, 
+        0.2
+       ], 
+       "meinvying": [
+        1, 
+        0.08
+       ], 
+       "xueronghua": [
+        1, 
+        0.8
+       ], 
+       "nanyangshan": [
+        1, 
+        0.3
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "qingrenyushou1": {
     "config": {
      "price": {
@@ -16863,6 +16908,21 @@
     "start_time": 1309143600.0, 
     "activity_type": "hot_sale"
    }, 
+   "qiyuebaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "7月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "", 
+    "activity_type": "discount"
+   }, 
    "huafeibao1": {
     "specific_type": "re", 
     "product_type": {
@@ -16895,21 +16955,6 @@
     }, 
     "modify": false, 
     "goods_description": "サンシキスミレ、あなたが植えているのは何色かな?", 
-    "activity_type": "discount"
-   }, 
-   "liuyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "6月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "", 
     "activity_type": "discount"
    }, 
    "cangbaotu1": {
@@ -42145,6 +42190,7 @@
    "crystal4", 
    "mb_4", 
    "mb_1", 
+   "qiyuebaoxiang", 
    "qingrenyushou1", 
    "qingrenyushou3", 
    "qingrenyushou2", 
