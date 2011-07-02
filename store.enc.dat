@@ -242,7 +242,7 @@
      "used": true, 
      "name": "高級肥料セット", 
      "price": {
-      "F_coin": 25
+      "F_coin": 30
      }, 
      "introduce": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -11201,7 +11201,7 @@
    "cangbaotu2": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 48
      }, 
      "used": true, 
      "goods_str": "宝物への行き方が書かれていて、動物の赤ちゃん等の色々な畜産アイテムを探すことができます。", 
@@ -11299,7 +11299,7 @@
    "shenqibaotu": {
     "config": {
      "price": {
-      "F_coin": 40
+      "F_coin": 60
      }, 
      "used": true, 
      "goods_str": "魔法の種への行き方が書かれていて、魔法の種を見つけられるかもしれない。", 
@@ -11384,7 +11384,7 @@
    "cangbaotu1": {
     "config": {
      "price": {
-      "F_coin": 35
+      "F_coin": 48
      }, 
      "used": true, 
      "goods_str": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
@@ -16886,28 +16886,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "huafeibao2": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "高級肥料セット", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日4時間", 
-    "end_time": 1309503600.0, 
-    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "start_time": 1309143600.0, 
-    "activity_type": "hot_sale"
-   }, 
    "qiyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -16953,24 +16931,42 @@
     "goods_description": "サンシキスミレ、あなたが植えているのは何色かな?", 
     "activity_type": "discount"
    }, 
-   "cangbaotu1": {
-    "original_price": {
-     "num": 48, 
-     "type": "F_coin"
-    }, 
+   "liuyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "宝の地図1", 
+    "name": "6月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
+   "jiagongchangsucaibao": {
+    "original_price": {
+     "num": 45, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "加工場材料セット", 
     "price": {
      "num": 35, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "宝物への行き方が書かれていて、花、作物等の色々な畑アイテムを探すことができます。", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1309942800.0, 
+    "goods_description": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。", 
+    "start_time": 1309597200.0, 
+    "activity_type": "hot_sale"
    }, 
    "baitu": {
     "specific_type": "re", 
