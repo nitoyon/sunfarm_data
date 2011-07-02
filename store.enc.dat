@@ -16901,34 +16901,35 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "huafeibao1": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "中級肥料セット", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "activity_type": "discount"
-   }, 
-   "sansejin": {
+   "suijihulu": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "サンシキスミレ", 
+    "name": "謎のヒョウタン", 
     "price": {
      "num": 25, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "goods_description": "謎のヒョウタン、あなたが植えているのは何色かな?", 
+    "activity_type": "discount"
+   }, 
+   "magiccardless": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック増産カード", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
     "modify": true, 
-    "goods_description": "サンシキスミレ、あなたが植えているのは何色かな?", 
+    "goods_description": "成熟したブッソウゲの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
    "liuyuebaoxiang": {
@@ -17001,6 +17002,21 @@
     }, 
     "activity_type": "hot_sale"
    }, 
+   "huafeibao1": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "中級肥料セット", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "activity_type": "discount"
+   }, 
    "hammer": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -17018,22 +17034,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "magiccardless": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック増産カード", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "成熟したブッソウゲの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
-    "activity_type": "discount"
    }
   }, 
   "farm": {
