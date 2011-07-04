@@ -35355,6 +35355,25 @@
      }, 
      "level_need": 0
     }, 
+    "huangyunshu": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "\u9ec4\u8272\u96f2\u306e\u6a39", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 0
+    }, 
     "zhengzuomao": {
      "total_time": 480, 
      "leaflet_time": 20, 
@@ -37058,24 +37077,24 @@
      }, 
      "level_need": 0
     }, 
-    "huangyunshu": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
+    "yezishu": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
      "used": false, 
-     "name": "\u9ec4\u8272\u96f2\u306e\u6a39", 
+     "name": "\u30e4\u30b7\u306e\u6728", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 13, 
-     "seasons": 1, 
-     "sale_price": 16, 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 3, 
+     "sale_price": 500, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 600, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 20
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "bingjiling": {
      "total_time": 1200, 
@@ -40045,6 +40064,7 @@
     "mulianhua", 
     "dongqing", 
     "muxianghua", 
+    "yezishu", 
     "shanyao", 
     "xuebingcao", 
     "meitao", 
