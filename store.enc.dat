@@ -18663,22 +18663,22 @@
      }, 
      "level_need": 1
     }, 
-    "lanqiansuitang": {
-     "total_time": 730, 
-     "leaflet_time": 90, 
+    "zhenzhubei": {
+     "total_time": 2262, 
+     "leaflet_time": 504, 
      "used": false, 
-     "name": "ブルーベリーの千歳飴", 
+     "name": "真珠貝", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 10, 
-     "bloom_time": 150, 
-     "experience": 6, 
+     "fruit_time": 360, 
+     "sprout_time": 390, 
+     "bloom_time": 504, 
+     "experience": 6.37, 
      "seasons": 1, 
-     "sale_price": 9, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 504, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 999
      }, 
      "level_need": 1
     }, 
@@ -19782,24 +19782,25 @@
      }, 
      "level_need": 1
     }, 
-    "shanhushu": {
+    "maogen": {
      "total_time": 1080, 
-     "leaflet_time": 150, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "サンゴの池", 
+     "name": "ウマノアシガタ", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "tuchan": true, 
-     "sprout_time": 30, 
-     "bloom_time": 300, 
-     "experience": 6.38, 
-     "seasons": 1, 
-     "sale_price": 6, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "introduce": "ウマノアシガタ、あなたが植えているのは何色かな？", 
+     "is_random": true, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 25
      }, 
+     "leaf_time": 240, 
      "level_need": 1
     }, 
     "zizuanshu": {
@@ -22821,6 +22822,25 @@
      "leaf_time": 90, 
      "level_need": 0
     }, 
+    "maogenhuangse": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "イエローウマノアシガタ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "partyqiezi": {
      "total_time": 630, 
      "leaflet_time": 60, 
@@ -23327,24 +23347,26 @@
      }, 
      "level_need": 0
     }, 
-    "jiayouzhongzi": {
-     "total_time": 2880, 
+    "yingsu": {
+     "total_time": 3000, 
      "leaflet_time": 510, 
      "used": false, 
-     "name": "応援シード", 
+     "name": "ケシの花", 
      "base_fruit": 25, 
-     "fruit_time": 720, 
-     "sprout_time": 330, 
-     "bloom_time": 720, 
-     "experience": 800, 
-     "seasons": 3, 
-     "sale_price": 500, 
+     "fruit_time": 1050, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "花言葉：", 
      "increment_fruit": 25, 
-     "leaf_time": 600, 
+     "bloom_time": 750, 
+     "experience": 9.6, 
+     "seasons": 1, 
+     "sale_price": 77, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 999
      }, 
-     "level_need": 1
+     "leaf_time": 600, 
+     "level_need": 0
     }, 
     "shenqiparadiseflower": {
      "total_time": 2916, 
@@ -23985,6 +24007,25 @@
      }, 
      "level_need": 1
     }, 
+    "maogenhongse": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "レッドウマノアシガタ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "zhangyufengzheng": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -24416,22 +24457,22 @@
      "leaf_time": 120, 
      "level_need": 1
     }, 
-    "zhenzhubei": {
-     "total_time": 2262, 
-     "leaflet_time": 504, 
+    "maogenbaise": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "真珠貝", 
+     "name": "ホワイトウマノアシガタ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
-     "sprout_time": 390, 
-     "bloom_time": 504, 
-     "experience": 6.37, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 13, 
      "increment_fruit": 25, 
-     "leaf_time": 504, 
+     "leaf_time": 240, 
      "seed_price": {
-      "F_coin": 999
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -26821,6 +26862,25 @@
      "leaf_time": 210, 
      "seed_price": {
       "F_coin": 12
+     }, 
+     "level_need": 1
+    }, 
+    "lanqiansuitang": {
+     "total_time": 730, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ブルーベリーの千歳飴", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 150, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -31545,6 +31605,25 @@
      }, 
      "level_need": 1
     }, 
+    "maogenchengse": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "オレンジウマノアシガタ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "daoguahaigui": {
      "total_time": 1920, 
      "leaflet_time": 330, 
@@ -31708,6 +31787,25 @@
      "leaflet_time": 90, 
      "used": false, 
      "name": "パープルキョウチクトウ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
+    "maogencaise": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "カラフルなウマノアシガタ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
      "sprout_time": 60, 
@@ -32884,26 +32982,24 @@
      }, 
      "level_need": 49
     }, 
-    "yingsu": {
-     "total_time": 3000, 
+    "jiayouzhongzi": {
+     "total_time": 2880, 
      "leaflet_time": 510, 
      "used": false, 
-     "name": "ケシの花", 
+     "name": "応援シード", 
      "base_fruit": 25, 
-     "fruit_time": 1050, 
-     "goodstype": "flower", 
-     "sprout_time": 90, 
-     "introduce": "花言葉：", 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 3, 
+     "sale_price": 500, 
      "increment_fruit": 25, 
-     "bloom_time": 750, 
-     "experience": 9.6, 
-     "seasons": 1, 
-     "sale_price": 77, 
-     "seed_price": {
-      "F_coin": 999
-     }, 
      "leaf_time": 600, 
-     "level_need": 0
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
     }, 
     "jingjiehua": {
      "total_time": 1065, 
@@ -33326,24 +33422,24 @@
      }, 
      "level_need": 0
     }, 
-    "bingdiaomao": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
+    "maogenzise": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "氷彫刻の黒猫", 
+     "name": "パープルウマノアシガタ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 90, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
      "bloom_time": 330, 
-     "experience": 50, 
+     "experience": 9, 
      "seasons": 1, 
-     "sale_price": 500, 
+     "sale_price": 13, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 240, 
      "seed_price": {
-      "F_coin": 150
+      "F_coin": 25
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "mayshucai": {
      "total_time": 780, 
@@ -37890,6 +37986,25 @@
      }, 
      "level_need": 0
     }, 
+    "hanguoguoqishu": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "韓国国旗樹", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 7.28, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 1
+    }, 
     "strawberry": {
      "total_time": 1470, 
      "leaflet_time": 294, 
@@ -39342,6 +39457,25 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
+    "bingdiaomao": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "氷彫刻の黒猫", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 50, 
+     "seasons": 1, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 150
+     }, 
+     "level_need": 0
+    }, 
     "hongsexingxingshu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -39481,22 +39615,23 @@
      }, 
      "level_need": 1
     }, 
-    "hanguoguoqishu": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "shanhushu": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "韓国国旗樹", 
+     "name": "サンゴの池", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 7.28, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.38, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 8
      }, 
      "level_need": 1
     }, 
@@ -40070,6 +40205,7 @@
     "agentingguoqishu", 
     "muyoutong", 
     "biantao", 
+    "maogenhuangse", 
     "jiazhutaohuang", 
     "bosijuhuang", 
     "huangheisesansejin", 
@@ -40088,6 +40224,7 @@
     "maozixiong", 
     "duocengqiaokeli", 
     "chabeituzi", 
+    "maogen", 
     "wulaguiguoqishu", 
     "keaihua", 
     "xingbaogu", 
@@ -40102,6 +40239,7 @@
     "helanyangzi", 
     "helanguoqishu", 
     "ganlanyou", 
+    "maogenchengse", 
     "bosijucheng", 
     "czbjl", 
     "milaoshuhua", 
@@ -40112,6 +40250,7 @@
     "lamianshu", 
     "baihuasuantengguo", 
     "shatanyouyongquan", 
+    "maogencaise", 
     "bosijuboss", 
     "caisesansejin", 
     "shizijiao", 
@@ -40238,6 +40377,7 @@
     "partyqiezi", 
     "partyhuluobo", 
     "partybaicai", 
+    "maogenzise", 
     "jiazhutaozi", 
     "bosijuzi", 
     "zibaisesansejin", 
@@ -40288,6 +40428,7 @@
     "yindunangua", 
     "zifangcao", 
     "renshenyeye", 
+    "maogenbaise", 
     "jiazhutaobai", 
     "baiheisesansejin", 
     "diaozhonghua", 
@@ -40332,6 +40473,7 @@
     "wucaizheyangsandehua", 
     "liushengji", 
     "shengcai", 
+    "maogenhongse", 
     "jiazhutaohong", 
     "bosijuhong", 
     "hongheisesansejin", 
