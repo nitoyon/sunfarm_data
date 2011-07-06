@@ -16901,19 +16901,19 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "suijihulu": {
+   "huafeibao1": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "謎のヒョウタン", 
+    "name": "中級肥料セット", 
     "price": {
-     "num": 25, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "謎のヒョウタン、あなたが植えているのは何色かな?", 
+    "modify": true, 
+    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
    "magiccardless": {
@@ -17002,19 +17002,19 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "huafeibao1": {
+   "maogen": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "中級肥料セット", 
+    "name": "ウマノアシガタ", 
     "price": {
-     "num": 15, 
+     "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "modify": false, 
+    "goods_description": "ウマノアシガタ、あなたが植えているのは何色かな?", 
     "activity_type": "discount"
    }, 
    "hammer": {
