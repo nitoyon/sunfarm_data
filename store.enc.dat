@@ -16932,6 +16932,21 @@
     "goods_description": "成熟したブッソウゲの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
+   "mianhua": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "わた", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
+    "activity_type": "discount"
+   }, 
    "liuyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -16946,28 +16961,6 @@
     "modify": true, 
     "goods_description": "%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
-   }, 
-   "jiagongchangsucaibao": {
-    "original_price": {
-     "num": 45, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "加工場材料セット", 
-    "price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1309942800.0, 
-    "goods_description": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています。", 
-    "start_time": 1309597200.0, 
-    "activity_type": "hot_sale"
    }, 
    "baitu": {
     "specific_type": "re", 
@@ -17003,19 +16996,26 @@
     "activity_type": "hot_sale"
    }, 
    "maogen": {
-    "specific_type": "re", 
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
     "name": "ウマノアシガタ", 
     "price": {
-     "num": 25, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日22時間30分", 
+    "end_time": 1310373000.0, 
     "goods_description": "ウマノアシガタ、あなたが植えているのは何色かな?", 
-    "activity_type": "discount"
+    "start_time": 1309946400.0, 
+    "activity_type": "hot_sale"
    }, 
    "hammer": {
     "product_type": {
@@ -19817,7 +19817,7 @@
      "seasons": 1, 
      "sale_price": 13, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 15
      }, 
      "leaf_time": 240, 
      "level_need": 1
@@ -36661,7 +36661,7 @@
      "seasons": 1, 
      "sale_price": 11, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 25
      }, 
      "leaf_time": 150, 
      "level_need": 1
