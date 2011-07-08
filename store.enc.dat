@@ -1310,31 +1310,31 @@
      }
     }
    }, 
-   "gb_5": {
+   "xuyuanlibao2": {
     "config": {
      "price": {
-      "F_coin": 128
+      "F_coin": 30
      }, 
      "used": false, 
-     "goods_str": "柠檬8个、哈密瓜2个、草莓2个、葡萄2个、高速化肥20个", 
-     "name": "レモンセット（サンプル）"
+     "goods_str": "クローバーの種5個、トライアル肥料2個が含まれています。さっそく開けてみよう！", 
+     "name": "賞品b", 
+     "introduce": "クローバーの種5個、トライアル肥料2個が含まれています。さっそく開けてみよう！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "strawberry": 2, 
-       "lemon": 8, 
-       "grapes": 2, 
-       "hami": 2
+       "xingyuncao": [
+        5, 
+        1.0
+       ]
       }, 
       "properties": {
        "fertilizer": {
-        "gaosu": 20
+        "common": [
+         2, 
+         1.0
+        ]
        }
-      }, 
-      "decorations": {
-       "butterfly": {}, 
-       "huaqiang": {}
       }
      }
     }
@@ -2828,6 +2828,119 @@
      }
     }
    }, 
+   "caiseniudanlibao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産のホワイトうさぎも入っているよ！さっそく開けてみよう！", 
+     "name": "7月コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産のホワイトうさぎも入っているよ！さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        1.0
+       ], 
+       "tianshanxuelian": [
+        1, 
+        1.0
+       ], 
+       "xuesongshu": [
+        1, 
+        1.0
+       ], 
+       "yingtao": [
+        4, 
+        1.0
+       ], 
+       "changchunhua": [
+        1, 
+        1.0
+       ], 
+       "shenqiginseng": [
+        1, 
+        1.0
+       ], 
+       "qisehua": [
+        1, 
+        1.0
+       ], 
+       "qinglvmogu": [
+        1, 
+        1.0
+       ], 
+       "fenmeigui": [
+        1, 
+        1.0
+       ], 
+       "yutuhua": [
+        5, 
+        1.0
+       ], 
+       "baochunhua": [
+        1, 
+        1.0
+       ], 
+       "nirenboluo": [
+        1, 
+        1.0
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        1.0
+       ], 
+       "baimeigui": [
+        1, 
+        1.0
+       ], 
+       "huangmeigui": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "chengbao2": {
     "config": {
      "price": {
@@ -3399,31 +3512,31 @@
      }
     }
    }, 
-   "xuyuanlibao2": {
+   "gb_5": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 128
      }, 
      "used": false, 
-     "goods_str": "クローバーの種5個、トライアル肥料2個が含まれています。さっそく開けてみよう！", 
-     "name": "賞品b", 
-     "introduce": "クローバーの種5個、トライアル肥料2個が含まれています。さっそく開けてみよう！"
+     "goods_str": "柠檬8个、哈密瓜2个、草莓2个、葡萄2个、高速化肥20个", 
+     "name": "レモンセット（サンプル）"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "xingyuncao": [
-        5, 
-        1.0
-       ]
+       "strawberry": 2, 
+       "lemon": 8, 
+       "grapes": 2, 
+       "hami": 2
       }, 
       "properties": {
        "fertilizer": {
-        "common": [
-         2, 
-         1.0
-        ]
+        "gaosu": 20
        }
+      }, 
+      "decorations": {
+       "butterfly": {}, 
+       "huaqiang": {}
       }
      }
     }
@@ -43675,7 +43788,7 @@
    "crops_chaiquan_gift", 
    "gb_4", 
    "crops_tudoudunzhurou_gift", 
-   "xuyuanlibao2", 
+   "gb_5", 
    "crops_lanmeibingjiling_gift", 
    "hb_5", 
    "hb_4", 
@@ -43721,6 +43834,7 @@
    "juice_miganzhi_gift", 
    "crops_juxianghuacha_gift", 
    "crops_qingtongshu_gift", 
+   "caiseniudanlibao", 
    "juice_mangguozhi_gift", 
    "chengbao2", 
    "crops_moshubang_gift", 
@@ -43747,7 +43861,7 @@
    "xuyuanlibao1", 
    "gb_7", 
    "xuyuanlibao3", 
-   "gb_5", 
+   "xuyuanlibao2", 
    "crops_mapodoufu_gift", 
    "crops_danhuangjiang_gift", 
    "zibao5", 
