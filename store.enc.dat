@@ -7041,71 +7041,23 @@
      "used": false
     }
    }, 
-   "shengdanhuangniudan": {
+   "jiazhutaobaoxiang": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 50
      }, 
      "used": false, 
-     "goods_str": "50%の確率で黄の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-     "name": "黄のクリスマスカプセル", 
-     "introduce": "50%の確率で黄の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+     "goods_str": "中にキョウチクトウの種2個が含まれています", 
+     "name": "キョウチクトウ宝箱", 
+     "introduce": "中にキョウチクトウの種2個が含まれています"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "nirenxianrenzhang": [
-        1, 
-        0.03
-       ], 
-       "yingtao": [
-        1, 
-        0.2
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ], 
-       "shenqinigerseed": [
-        1, 
-        0.03
-       ], 
-       "huangsexingxingshu": [
-        1, 
-        0.5
-       ], 
-       "nirenyali": [
-        1, 
-        0.04
-       ], 
-       "shuijingputao": [
-        1, 
-        0.2
+       "jiazhutao": [
+        2, 
+        1
        ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie1": [
-         1, 
-         1.0
-        ], 
-        "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
-        ], 
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
       }
      }
     }
@@ -10732,6 +10684,75 @@
         "gaosu": [
          40, 
          1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "shengdanhuangniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "50%の確率で黄の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
+     "name": "黄のクリスマスカプセル", 
+     "introduce": "50%の確率で黄の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirenxianrenzhang": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.2
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "shenqinigerseed": [
+        1, 
+        0.03
+       ], 
+       "huangsexingxingshu": [
+        1, 
+        0.5
+       ], 
+       "nirenyali": [
+        1, 
+        0.04
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         1, 
+         1.0
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         0.3
         ]
        }
       }
@@ -43950,7 +43971,7 @@
    "gongfuxiongmao", 
    "tdyslan", 
    "siyuebaoxiang", 
-   "shengdanhuangniudan", 
+   "jiazhutaobaoxiang", 
    "tunianniudanfen", 
    "tejiabaoxiang1", 
    "tejiabaoxiang2", 
@@ -44005,6 +44026,7 @@
    "mianzhihuabao", 
    "yundongxiongmao", 
    "jiagongchangsucaibao", 
+   "shengdanhuangniudan", 
    "niudanlan", 
    "yinghuashuhongniudan", 
    "kaichunbaoxiang", 
