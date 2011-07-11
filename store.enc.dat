@@ -14488,7 +14488,7 @@
      "fruit_time": 600, 
      "adult_time": 420, 
      "buy_price": {
-      "F_coin": 30
+      "F_coin": 25
      }, 
      "seasons": 1, 
      "young_time": 420, 
@@ -17360,20 +17360,28 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "qiyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "7月の宝箱", 
-    "price": {
-     "num": 10, 
+   "zengshou1": {
+    "original_price": {
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "中級増産肥料", 
+    "price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日22時間30分", 
+    "end_time": 1310805000.0, 
+    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
+    "start_time": 1310378400.0, 
+    "activity_type": "hot_sale"
    }, 
    "huafeibao1": {
     "specific_type": "re", 
@@ -17406,6 +17414,21 @@
     "goods_description": "成熟したキリンソウの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
+   "qiyuebaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "7月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "", 
+    "activity_type": "discount"
+   }, 
    "mianhua": {
     "specific_type": "re", 
     "product_type": {
@@ -17436,77 +17459,63 @@
     "goods_description": "%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "baitu": {
+   "jiucaixin": {
     "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "リーキ", 
+    "price": {
+     "num": 40, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "", 
+    "activity_type": "discount"
+   }, 
+   "baitu": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "ranch", 
      "goods_type": "baby"
     }, 
     "name": "ホワイトうさぎ", 
     "price": {
-     "num": 30, 
+     "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "", 
-    "activity_type": "discount"
-   }, 
-   "crystal8": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ｱｼﾞｻｲのｸﾘｽﾀﾙ", 
-    "start_time": 1309244400.0, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "13日2時間", 
-    "end_time": 1310374800.0, 
-    "goods_description": "ダイヤアジサイの種と高級肥料が入っています。", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
+    "limit_time": "4日22時間30分", 
+    "end_time": 1310805000.0, 
+    "goods_description": "", 
+    "start_time": 1310378400.0, 
     "activity_type": "hot_sale"
    }, 
-   "maogen": {
+   "bailu": {
     "original_price": {
-     "num": 25, 
+     "num": 23, 
      "type": "F_coin"
     }, 
     "product_type": {
      "scene_type": "farm", 
-     "goods_type": "seed"
+     "goods_type": "flower"
     }, 
-    "name": "ウマノアシガタ", 
+    "name": "シラサギの花", 
     "price": {
-     "num": 15, 
+     "num": 18, 
      "type": "F_coin"
     }, 
     "modify": true, 
     "limit_type": "limit_time", 
     "limit_time": "4日22時間30分", 
-    "end_time": 1310373000.0, 
-    "goods_description": "ウマノアシガタ、あなたが植えているのは何色かな?", 
-    "start_time": 1309946400.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ハンマー", 
-    "start_time": 1309244400.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "13日2時間", 
-    "end_time": 1310374800.0, 
-    "goods_description": "クリスタルを開けることができます。", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
+    "end_time": 1310805000.0, 
+    "goods_description": "", 
+    "start_time": 1310378400.0, 
     "activity_type": "hot_sale"
    }
   }, 
@@ -42374,7 +42383,7 @@
       "name": "中級増産肥料", 
       "max_level": 35, 
       "price": {
-       "F_coin": 15
+       "F_coin": 12
       }, 
       "effect": 0, 
       "introduce": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
