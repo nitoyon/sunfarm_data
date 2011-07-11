@@ -32132,22 +32132,23 @@
      "level_need": 1
     }, 
     "huangzhujin": {
-     "total_time": 840, 
-     "leaflet_time": 90, 
+     "total_time": 2250, 
+     "leaflet_time": 330, 
      "used": false, 
      "name": "キイロハイビスカス", 
-     "base_fruit": 1, 
-     "fruit_time": 330, 
-     "sprout_time": 30, 
-     "experience": 5000, 
+     "base_fruit": 25, 
+     "fruit_time": 750, 
+     "sprout_time": 150, 
+     "bloom_time": 570, 
+     "experience": 60, 
      "seasons": 1, 
-     "sale_price": 500, 
-     "level_need": 1, 
-     "leaf_time": 120, 
+     "sale_price": 25, 
+     "increment_fruit": 25, 
+     "leaf_time": 450, 
      "seed_price": {
-      "F_coin": 100
+      "F_coin": 50
      }, 
-     "bloom_time": 270
+     "level_need": 1
     }, 
     "zifangcao": {
      "total_time": 900, 
