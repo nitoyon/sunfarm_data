@@ -5691,103 +5691,6 @@
      }
     }
    }, 
-   "yinghuashulanniudan": {
-    "config": {
-     "price": {
-      "F_coin": 2
-     }, 
-     "used": false, 
-     "goods_str": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
-     "name": "青さくら玉のカプセル", 
-     "introduce": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.02
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "niudanzhiwulanse": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "zishuijingpingguo": [
-        1, 
-        0.01
-       ], 
-       "shenqinigerseed": [
-        1, 
-        0.03
-       ], 
-       "qinglvmogu": [
-        1, 
-        0.03
-       ], 
-       "chabei": [
-        1, 
-        0.03
-       ], 
-       "nirenxiangjiao": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.05
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         1
-        ], 
-        "gaosu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "jinsewoniu": [
-        1, 
-        0.08
-       ], 
-       "baitu": [
-        1, 
-        0.05
-       ]
-      }
-     }
-    }
-   }, 
    "xinbaoxiang": {
     "config": {
      "price": {
@@ -7416,6 +7319,27 @@
      }
     }
    }, 
+   "qiqiuchongzibaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 25
+     }, 
+     "used": false, 
+     "goods_str": "中に気球の虫の赤ちゃん1匹が含まれています", 
+     "name": "気球の虫宝箱", 
+     "introduce": "中に気球の虫の赤ちゃん1匹が含まれています"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "qiqiuchongzi": [
+        1, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "xianhuabaoxiang": {
     "config": {
      "price": {
@@ -8011,6 +7935,27 @@
      }
     }
    }, 
+   "qiqiuniubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 25
+     }, 
+     "used": false, 
+     "goods_str": "中に気球のうしの赤ちゃん1匹が含まれています", 
+     "name": "気球のうし箱", 
+     "introduce": "中に気球のうしの赤ちゃん1匹が含まれています"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "qiqiuniu": [
+        1, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "mb_10": {
     "config": {
      "goods_str": "大地のカギを使って開けられます。ランダムで各種のアイテム、作物、動物、食糧が貰えます。１回に幾つかを開く場合、ステキな景品を手に入れやすくなります。でも、運にも左右されますので、空箱の可能性もあります。宝箱とカギのどちらかを使えば、二つとも消えます。", 
@@ -8472,6 +8417,27 @@
      }
     }
    }, 
+   "qiqiujibaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 25
+     }, 
+     "used": false, 
+     "goods_str": "中に気球の鶏の赤ちゃん1匹が含まれています", 
+     "name": "気球の鶏宝箱", 
+     "introduce": "中に気球の鶏の赤ちゃん1匹が含まれています"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "qiqiuji": [
+        1, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "niangaolihe": {
     "config": {
      "price": {
@@ -8513,6 +8479,27 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "qiqiutuzibaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 25
+     }, 
+     "used": false, 
+     "goods_str": "中に気球の兎の赤ちゃん1匹が含まれています", 
+     "name": "気球の兎箱", 
+     "introduce": "中に気球の兎の赤ちゃん1匹が含まれています"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "qiqiutuzi": [
+        1, 
+        1
+       ]
       }
      }
     }
@@ -9990,22 +9977,98 @@
      }
     }
    }, 
-   "dihuangbaoxiang": {
+   "yinghuashulanniudan": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 2
      }, 
-     "used": true, 
-     "goods_str": "中にジオウの種5個が含まれています", 
-     "name": "ジオウ宝箱", 
-     "introduce": "中にジオウの種5個が含まれています"
+     "used": false, 
+     "goods_str": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
+     "name": "青さくら玉のカプセル", 
+     "introduce": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "dihuang": [
-        5, 
-        1
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "niudanzhiwulanse": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "zishuijingpingguo": [
+        1, 
+        0.01
+       ], 
+       "shenqinigerseed": [
+        1, 
+        0.03
+       ], 
+       "qinglvmogu": [
+        1, 
+        0.03
+       ], 
+       "chabei": [
+        1, 
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         1
+        ], 
+        "gaosu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinsewoniu": [
+        1, 
+        0.08
+       ], 
+       "baitu": [
+        1, 
+        0.05
        ]
       }
      }
@@ -10970,6 +11033,27 @@
      }
     }
    }, 
+   "dihuangbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": true, 
+     "goods_str": "中にジオウの種5個が含まれています", 
+     "name": "ジオウ宝箱", 
+     "introduce": "中にジオウの種5個が含まれています"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "dihuang": [
+        5, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "kaichunbaoxiang": {
     "config": {
      "price": {
@@ -11123,6 +11207,27 @@
        "wushi": [
         1, 
         0.03
+       ]
+      }
+     }
+    }
+   }, 
+   "qiqiuzhubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 25
+     }, 
+     "used": false, 
+     "goods_str": "中に気球の豚の赤ちゃん1匹が含まれています", 
+     "name": "気球の豚宝箱", 
+     "introduce": "中に気球の豚の赤ちゃん1匹が含まれています"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "qiqiuzhu": [
+        1, 
+        1
        ]
       }
      }
@@ -12348,6 +12453,12 @@
     "jinsexiaomifeng", 
     "liumanggui", 
     "hefutunv", 
+    "qiqiuniu", 
+    "qiqiulu", 
+    "qiqiutuzi", 
+    "qiqiuchongzi", 
+    "qiqiuzhu", 
+    "qiqiuji", 
     "beijixiong", 
     "hefutunan", 
     "hongqingting", 
@@ -12769,6 +12880,32 @@
      "level_need": 19, 
      "fruit_quantifier": "バレル"
     }, 
+    "shuangfengluotuo": {
+     "total_time": 540, 
+     "sound": {
+      "p": "1070,1070,1071,1071,-1,-1", 
+      "enable": false, 
+      "name": "sfluotuo"
+     }, 
+     "harvest_type": 3, 
+     "used": true, 
+     "name": "ラクダ", 
+     "base_fruit": 25, 
+     "fruit_time": 243, 
+     "adult_time": 162, 
+     "buy_price": {
+      "gold": 37
+     }, 
+     "seasons": 1, 
+     "young_time": 135, 
+     "experience": 1.25, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 5.5, 
+     "increment_fruit": 25, 
+     "level_need": 3, 
+     "fruit_quantifier": "個"
+    }, 
     "NanFeiTuoNiao": {
      "total_time": 2340, 
      "sound": {
@@ -12952,6 +13089,27 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
+    "qiqiuji": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "気球の鶏", 
+     "base_fruit": 25, 
+     "fruit_time": 960, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 20
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 14, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
     "pangxie": {
      "total_time": 1080, 
      "harvest_type": 3, 
@@ -12970,6 +13128,27 @@
      "fruit_name": "", 
      "is_auto_harvest": false, 
      "sale_price": 55, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "qiqiutuzi": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "気球の兎", 
+     "base_fruit": 25, 
+     "fruit_time": 960, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 20
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 14, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -13492,6 +13671,25 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
+    "diwenhongchiyingwu": {
+     "total_time": 1680, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ハゴロモインコ", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
+     "buy_price": {
+      "F_coin": 50
+     }, 
+     "seasons": 1, 
+     "experience": 20, 
+     "young_time": 240, 
+     "is_auto_harvest": true, 
+     "sale_price": 200, 
+     "increment_fruit": 25, 
+     "level_need": 1
+    }, 
     "shengdantuzi": {
      "total_time": 720, 
      "harvest_type": 0, 
@@ -13649,30 +13847,29 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
-    "shuangfengluotuo": {
-     "total_time": 540, 
+    "hongtouzhuomuniao": {
+     "total_time": 1120, 
      "sound": {
-      "p": "1070,1070,1071,1071,-1,-1", 
-      "enable": false, 
-      "name": "sfluotuo"
+      "p": "1020,1020,1021,1021,-1,-1", 
+      "enable": true, 
+      "name": "juzuiniao"
      }, 
-     "harvest_type": 3, 
-     "used": true, 
-     "name": "ラクダ", 
+     "used": false, 
+     "name": "ズアカキツツキ", 
      "base_fruit": 25, 
-     "fruit_time": 243, 
-     "adult_time": 162, 
+     "fruit_time": 650, 
+     "adult_time": 260, 
      "buy_price": {
-      "gold": 37
+      "gold": 10
      }, 
-     "seasons": 1, 
-     "young_time": 135, 
-     "experience": 1.25, 
-     "fruit_name": "", 
-     "is_auto_harvest": false, 
-     "sale_price": 5.5, 
+     "seasons": 5, 
+     "young_time": 210, 
+     "experience": 4.5, 
+     "fruit_name": "たまご", 
+     "is_auto_harvest": true, 
+     "sale_price": 35, 
      "increment_fruit": 25, 
-     "level_need": 3, 
+     "level_need": 10, 
      "fruit_quantifier": "個"
     }, 
     "taipingyangfei": {
@@ -14573,24 +14770,26 @@
      "level_need": 10, 
      "fruit_quantifier": "個"
     }, 
-    "diwenhongchiyingwu": {
-     "total_time": 1680, 
+    "qiqiuchongzi": {
+     "total_time": 1320, 
      "harvest_type": 0, 
      "used": false, 
-     "name": "ハゴロモインコ", 
+     "name": "気球の虫", 
      "base_fruit": 25, 
-     "fruit_time": 720, 
-     "adult_time": 720, 
+     "fruit_time": 960, 
+     "adult_time": 240, 
      "buy_price": {
-      "F_coin": 50
+      "F_coin": 20
      }, 
      "seasons": 1, 
-     "experience": 20, 
-     "young_time": 240, 
+     "young_time": 120, 
+     "experience": 14, 
+     "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 200, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "level_need": 1
+     "level_need": 1, 
+     "fruit_quantifier": "個"
     }, 
     "None": {
      "total_time": 299997, 
@@ -14752,6 +14951,26 @@
      "increment_fruit": 25, 
      "level_need": 1
     }, 
+    "baifengtouyingwu": {
+     "total_time": 1680, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "タイハクオウムタ", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
+     "buy_price": {
+      "F_coin": 25
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "experience": 9.8, 
+     "young_time": 240, 
+     "is_auto_harvest": true, 
+     "sale_price": 100, 
+     "increment_fruit": 25, 
+     "level_need": 1
+    }, 
     "shanxiao": {
      "total_time": 860, 
      "harvest_type": 0, 
@@ -14902,6 +15121,27 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
+    "qiqiuzhu": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "気球の豚", 
+     "base_fruit": 25, 
+     "fruit_time": 960, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 20
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 14, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
     "shudaixiong": {
      "total_time": 1080, 
      "harvest_type": 3, 
@@ -15007,23 +15247,28 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
-    "mmkaola": {
-     "total_time": 1260, 
+    "chengsewoniu": {
+     "total_time": 360, 
+     "sound": {
+      "p": "1046,1046,1047,1047,-1,-1", 
+      "enable": true, 
+      "name": "xwywoniu"
+     }, 
      "harvest_type": 3, 
      "used": false, 
-     "name": "母の日のコアラ", 
+     "name": "カタツムリ", 
      "base_fruit": 25, 
-     "fruit_time": 504, 
-     "adult_time": 378, 
+     "fruit_time": 240, 
+     "adult_time": 60, 
      "buy_price": {
-      "gold": 10
+      "gold": 50
      }, 
      "seasons": 1, 
-     "young_time": 378, 
-     "experience": 3.9, 
+     "young_time": 60, 
+     "experience": 3.75, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 9, 
+     "sale_price": 2, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -15047,31 +15292,6 @@
      "sale_price": 200, 
      "increment_fruit": 25, 
      "level_need": 1, 
-     "fruit_quantifier": "個"
-    }, 
-    "hongtouzhuomuniao": {
-     "total_time": 1120, 
-     "sound": {
-      "p": "1020,1020,1021,1021,-1,-1", 
-      "enable": true, 
-      "name": "juzuiniao"
-     }, 
-     "used": false, 
-     "name": "ズアカキツツキ", 
-     "base_fruit": 25, 
-     "fruit_time": 650, 
-     "adult_time": 260, 
-     "buy_price": {
-      "gold": 10
-     }, 
-     "seasons": 5, 
-     "young_time": 210, 
-     "experience": 4.5, 
-     "fruit_name": "たまご", 
-     "is_auto_harvest": true, 
-     "sale_price": 35, 
-     "increment_fruit": 25, 
-     "level_need": 10, 
      "fruit_quantifier": "個"
     }, 
     "zixingchuzuche": {
@@ -16584,6 +16804,27 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
+    "qiqiulu": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "気球のシカ", 
+     "base_fruit": 25, 
+     "fruit_time": 960, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 27, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 50, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
     "juanshanniu": {
      "total_time": 4052, 
      "sound": {
@@ -17254,28 +17495,23 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
-    "chengsewoniu": {
-     "total_time": 360, 
-     "sound": {
-      "p": "1046,1046,1047,1047,-1,-1", 
-      "enable": true, 
-      "name": "xwywoniu"
-     }, 
+    "mmkaola": {
+     "total_time": 1260, 
      "harvest_type": 3, 
      "used": false, 
-     "name": "カタツムリ", 
+     "name": "母の日のコアラ", 
      "base_fruit": 25, 
-     "fruit_time": 240, 
-     "adult_time": 60, 
+     "fruit_time": 504, 
+     "adult_time": 378, 
      "buy_price": {
-      "gold": 50
+      "gold": 10
      }, 
      "seasons": 1, 
-     "young_time": 60, 
-     "experience": 3.75, 
+     "young_time": 378, 
+     "experience": 3.9, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 2, 
+     "sale_price": 9, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -17301,25 +17537,26 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
-    "baifengtouyingwu": {
-     "total_time": 1680, 
+    "qiqiuniu": {
+     "total_time": 1320, 
      "harvest_type": 0, 
      "used": false, 
-     "name": "タイハクオウムタ", 
+     "name": "気球のうし", 
      "base_fruit": 25, 
-     "fruit_time": 720, 
-     "adult_time": 720, 
+     "fruit_time": 960, 
+     "adult_time": 240, 
      "buy_price": {
-      "F_coin": 25
+      "F_coin": 20
      }, 
-     "state": "xin", 
      "seasons": 1, 
-     "experience": 9.8, 
-     "young_time": 240, 
+     "young_time": 120, 
+     "experience": 14, 
+     "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 100, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "level_need": 1
+     "level_need": 1, 
+     "fruit_quantifier": "個"
     }
    }
   }, 
@@ -44219,6 +44456,7 @@
    "xinnianlvniudan", 
    "guohuatujian", 
    "huajianjiubaoxiang", 
+   "qiqiuchongzibaoxiang", 
    "xianhuabaoxiang", 
    "huangseniudan", 
    "liushubaoxiang", 
@@ -44230,11 +44468,14 @@
    "qiulanbaoxiang", 
    "cangbaotu3", 
    "nanhaijiebaoxiang", 
+   "qiqiuniubaoxiang", 
    "bingdiaoshulanlibao", 
    "tunianniudanlv", 
    "niudanfen", 
    "dangaoquan", 
+   "qiqiujibaoxiang", 
    "niangaolihe", 
+   "qiqiutuzibaoxiang", 
    "dujuanbaoxiang", 
    "yinghuashulanniudan", 
    "niudanhuang", 
@@ -44272,6 +44513,7 @@
    "yinghuashuhongniudan", 
    "kaichunbaoxiang", 
    "hongdan", 
+   "qiqiuzhubaoxiang", 
    "xinnianziniudan", 
    "test_bag", 
    "tunianniudanhong", 
