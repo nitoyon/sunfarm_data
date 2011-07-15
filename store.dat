@@ -17693,6 +17693,22 @@
     "goods_description": "\u4e2d\u306b\u306f\u4e2d\u7d1a\u80a5\u6599\u304c\u4e94\u3064\u542b\u307e\u308c\u3066\u3044\u3066\u3001\u3055\u3089\u306b\u4e8c\u3064\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3057\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
+   "magiccardless": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "\u30de\u30b8\u30c3\u30af\u5897\u7523\u30ab\u30fc\u30c9", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "\u6210\u719f\u3057\u305f\u30eb\u30b9\u30c6\u30a3\u30d5\u30a3\u30ca\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
+    "activity_type": "discount"
+   }, 
    "qiyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -17721,21 +17737,6 @@
     }, 
     "modify": true, 
     "goods_description": "\u53ce\u7a6b\u7269\u306f\u5de5\u5834\u3067\u52a0\u5de5\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002\u88fd\u9020\u3057\u305f\u7269\u3092\u53ce\u7a6b\u3059\u308b\u3068\u3001\u56f3\u9451\u306b\u5165\u308a\u307e\u3059\u3002", 
-    "activity_type": "discount"
-   }, 
-   "liuyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "6\u6708\u306e\u5b9d\u7bb1", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u690d\u7269\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
    "jiucaixin": {
