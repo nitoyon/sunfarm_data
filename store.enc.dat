@@ -17693,6 +17693,22 @@
     "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
+   "magiccardless": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック増産カード", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "成熟したルスティフィナの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+    "activity_type": "discount"
+   }, 
    "qiyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -17721,21 +17737,6 @@
     }, 
     "modify": true, 
     "goods_description": "収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "discount"
-   }, 
-   "liuyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "6月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
    "jiucaixin": {
