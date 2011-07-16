@@ -17901,28 +17901,20 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "zengshou1": {
-    "original_price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
+   "qiyuebaoxiang": {
+    "specific_type": "re", 
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "中級増産肥料", 
+    "name": "7月の宝箱", 
     "price": {
-     "num": 12, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日22時間30分", 
-    "end_time": 1310805000.0, 
-    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-    "start_time": 1310378400.0, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "", 
+    "activity_type": "discount"
    }, 
    "huafeibao1": {
     "specific_type": "re", 
@@ -17955,21 +17947,6 @@
     "goods_description": "成熟したルスティフィナの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "qiyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "7月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
-   }, 
    "mianhua": {
     "specific_type": "re", 
     "product_type": {
@@ -17984,6 +17961,28 @@
     "modify": true, 
     "goods_description": "収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
     "activity_type": "discount"
+   }, 
+   "jiagongchangsucaibao": {
+    "original_price": {
+     "num": 45, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "加工場材料宝箱", 
+    "price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日22時間", 
+    "end_time": 1311148800.0, 
+    "goods_description": "中にはチューリップ、白色の蓮、アジサイ、ヒアシンス含まれています", 
+    "start_time": 1310810400.0, 
+    "activity_type": "hot_sale"
    }, 
    "jiucaixin": {
     "specific_type": "re", 
@@ -18041,26 +18040,26 @@
     "start_time": 1310644800.0, 
     "activity_type": "hot_sale"
    }, 
-   "bailu": {
+   "maogen": {
     "original_price": {
-     "num": 23, 
+     "num": 25, 
      "type": "F_coin"
     }, 
     "product_type": {
      "scene_type": "farm", 
-     "goods_type": "flower"
+     "goods_type": "seed"
     }, 
-    "name": "シラサギの花", 
+    "name": "ウマノアシガタ", 
     "price": {
-     "num": 18, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "4日22時間30分", 
-    "end_time": 1310805000.0, 
+    "limit_time": "3日22時間", 
+    "end_time": 1311148800.0, 
     "goods_description": "", 
-    "start_time": 1310378400.0, 
+    "start_time": 1310810400.0, 
     "activity_type": "hot_sale"
    }
   }, 
@@ -20994,7 +20993,7 @@
      "seasons": 1, 
      "sale_price": 13, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 15
      }, 
      "leaf_time": 240, 
      "level_need": 1
