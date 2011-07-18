@@ -7193,9 +7193,9 @@
    "jiazhutaobaoxiang": {
     "config": {
      "price": {
-      "F_coin": 50
+      "F_coin": 30
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にキョウチクトウの種2個が含まれています", 
      "name": "キョウチクトウ宝箱", 
      "introduce": "中にキョウチクトウの種2個が含まれています"
@@ -18017,28 +18017,6 @@
     "modify": false, 
     "goods_description": "", 
     "activity_type": "discount"
-   }, 
-   "caomeijieerqibiansebaoxiang": {
-    "original_price": {
-     "num": 150, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "珍しいイチゴ動物の宝箱", 
-    "price": {
-     "num": 95, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日19時間", 
-    "end_time": 1310972400.0, 
-    "goods_description": "珍しいイチゴ動物はご好評につき再販売いたします。100％の確率でキイチゴゾウさん*1，キイチゴサイ*1，キイチゴフクロウ*1，キイチゴトリ*1，キイチゴパンダ*1を入手できます。珍しいイチゴ動物をGETできる最後のチャンスかも！", 
-    "start_time": 1310644800.0, 
-    "activity_type": "hot_sale"
    }, 
    "maogen": {
     "original_price": {
