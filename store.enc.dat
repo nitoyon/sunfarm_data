@@ -8536,6 +8536,18 @@
      }
     }
    }, 
+   "crystal1": {
+    "config": {
+     "goods_str": "お面の種と高級肥料が入っています。", 
+     "name": "11月クリスタル", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "11月クリスタル", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "niudanfen": {
     "config": {
      "price": {
@@ -11931,16 +11943,41 @@
      "used": false
     }
    }, 
-   "crystal1": {
+   "yuanyidongwutujianbaoxiang": {
     "config": {
-     "goods_str": "お面の種と高級肥料が入っています。", 
-     "name": "11月クリスタル", 
      "price": {
-      "gold": 100
+      "F_coin": 95
      }, 
-     "introduce": "11月クリスタル", 
-     "state": "xin", 
-     "used": false
+     "used": false, 
+     "goods_str": "100％の確率で園芸ドッグ*1，園芸カウ*1，園芸モンキー*1，園芸イーグル*1，園芸ホース*1を入手できます。", 
+     "name": "園芸シリーズ宝箱", 
+     "introduce": "100％の確率で園芸ドッグ*1，園芸カウ*1，園芸モンキー*1，園芸イーグル*1，園芸ホース*1を入手できます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yuanyiying": [
+        1, 
+        1
+       ], 
+       "yuanyigou": [
+        1, 
+        1
+       ], 
+       "yuanyiniu": [
+        1, 
+        1
+       ], 
+       "yuanyihou": [
+        1, 
+        1
+       ], 
+       "yuanyima": [
+        1, 
+        1
+       ]
+      }
+     }
     }
    }, 
    "crystal6": {
@@ -45607,6 +45644,7 @@
    "cangbaotu1", 
    "mianzhihuabao", 
    "yundongxiongmao", 
+   "yuanyidongwutujianbaoxiang", 
    "jiagongchangsucaibao", 
    "shengdanhuangniudan", 
    "niudanlan", 
