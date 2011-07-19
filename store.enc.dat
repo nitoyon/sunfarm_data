@@ -18632,24 +18632,23 @@
      }, 
      "level_need": 1
     }, 
-    "lansexingxingshu": {
-     "total_time": 1440, 
+    "qingdaofuxueren": {
+     "total_time": 1410, 
      "leaflet_time": 330, 
      "used": false, 
-     "name": "青の星", 
-     "base_fruit": 1, 
-     "fruit_time": 360, 
+     "name": "スノーダストマン", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
      "sprout_time": 90, 
-     "introduce": "おめでとうございます。青の星を手に入れました。5種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
-     "increment_fruit": 0, 
      "bloom_time": 330, 
-     "experience": 100, 
+     "experience": 13, 
      "seasons": 1, 
-     "sale_price": 15, 
-     "seed_price": {
-      "F_coin": 50
-     }, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
      "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
      "level_need": 0
     }, 
     "niudanzhiwuhongse": {
@@ -21480,6 +21479,27 @@
       "gold": 80
      }, 
      "level_need": 0
+    }, 
+    "jinchahua": {
+     "total_time": 750, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "キンチャカ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "introduce": "収穫する際、ランダムで5つのレア種をご入手いただけます。入手できない場合もあります。", 
+     "random_special": 0.1, 
+     "increment_fruit": 25, 
+     "bloom_time": 210, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "seed_price": {
+      "F_coin": 0
+     }, 
+     "leaf_time": 120, 
+     "level_need": 1
     }, 
     "zhouhua": {
      "total_time": 870, 
@@ -24686,6 +24706,26 @@
       "F_coin": 8
      }, 
      "leaf_time": 140, 
+     "level_need": 0
+    }, 
+    "lansexingxingshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "青の星", 
+     "base_fruit": 1, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。青の星を手に入れました。5種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 0, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "xinxingxigua": {
@@ -30185,6 +30225,25 @@
      }, 
      "level_need": 1
     }, 
+    "moguniurouchaofan": {
+     "total_time": 890, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "きのこチャーハン", 
+     "base_fruit": 25, 
+     "fruit_time": 220, 
+     "sprout_time": 130, 
+     "bloom_time": 210, 
+     "experience": 11.19, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "gold": 410
+     }, 
+     "level_need": 1
+    }, 
     "lizi": {
      "total_time": 960, 
      "leaflet_time": 60, 
@@ -33736,27 +33795,24 @@
      }, 
      "level_need": 1
     }, 
-    "hyacinth": {
-     "total_time": 600, 
-     "leaflet_time": 90, 
-     "used": true, 
-     "name": "ヒアシンス", 
+    "xiaochoua": {
+     "total_time": 900, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ブルーヘアーピエロ", 
      "base_fruit": 25, 
-     "fruit_time": 180, 
-     "goodstype": "flower", 
-     "sprout_time": 120, 
-     "recipe": "レシピに使えます：\nデーモンハート\n瓶花", 
-     "introduce": "花言葉：しとやかなかわいらしさ", 
-     "increment_fruit": 25, 
-     "bloom_time": 120, 
-     "experience": 1.92, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 5, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 4
+      "F_coin": 8
      }, 
-     "leaf_time": 90, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "daizhuangqiaokeli": {
      "total_time": 1110, 
@@ -33777,23 +33833,22 @@
      }, 
      "level_need": 1
     }, 
-    "ergongjincilang": {
-     "total_time": 2245, 
-     "leaflet_time": 317, 
-     "used": true, 
-     "name": "二宮金子", 
+    "xiaochouc": {
+     "total_time": 660, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "イエローヘアーピエロ", 
      "base_fruit": 25, 
-     "fruit_time": 746, 
-     "tuchan": true, 
-     "sprout_time": 308, 
-     "bloom_time": 427, 
-     "experience": 6.53, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 5, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 437, 
+     "leaf_time": 90, 
      "seed_price": {
-      "F_coin": 10
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -33816,6 +33871,44 @@
      }, 
      "level_need": 0
     }, 
+    "xiaochoue": {
+     "total_time": 1350, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "レッドヘアーピエロ", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 35, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 1
+    }, 
+    "xiaochoud": {
+     "total_time": 1200, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ピンクヘアーピエロ", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "caomeilieche": {
      "total_time": 780, 
      "leaflet_time": 90, 
@@ -33833,6 +33926,25 @@
      "leaf_time": 150, 
      "seed_price": {
       "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
+    "xiaochouf": {
+     "total_time": 510, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "パープルヘアーピエロ", 
+     "base_fruit": 25, 
+     "fruit_time": 180, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4.5, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 38
      }, 
      "level_need": 1
     }, 
@@ -36104,22 +36216,23 @@
      }, 
      "level_need": 1
     }, 
-    "moguniurouchaofan": {
-     "total_time": 890, 
-     "leaflet_time": 120, 
-     "used": false, 
-     "name": "きのこチャーハン", 
+    "ergongjincilang": {
+     "total_time": 2245, 
+     "leaflet_time": 317, 
+     "used": true, 
+     "name": "二宮金子", 
      "base_fruit": 25, 
-     "fruit_time": 220, 
-     "sprout_time": 130, 
-     "bloom_time": 210, 
-     "experience": 11.19, 
+     "fruit_time": 746, 
+     "tuchan": true, 
+     "sprout_time": 308, 
+     "bloom_time": 427, 
+     "experience": 6.53, 
      "seasons": 1, 
-     "sale_price": 12, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 437, 
      "seed_price": {
-      "gold": 410
+      "F_coin": 10
      }, 
      "level_need": 1
     }, 
@@ -40672,23 +40785,26 @@
      }, 
      "level_need": 1
     }, 
-    "qingdaofuxueren": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "スノーダストマン", 
+    "hyacinth": {
+     "total_time": 600, 
+     "leaflet_time": 90, 
+     "used": true, 
+     "name": "ヒアシンス", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 13, 
-     "seasons": 1, 
-     "sale_price": 16, 
+     "fruit_time": 180, 
+     "goodstype": "flower", 
+     "sprout_time": 120, 
+     "recipe": "レシピに使えます：\nデーモンハート\n瓶花", 
+     "introduce": "花言葉：しとやかなかわいらしさ", 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "bloom_time": 120, 
+     "experience": 1.92, 
+     "seasons": 1, 
+     "sale_price": 8, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 4
      }, 
+     "leaf_time": 90, 
      "level_need": 0
     }, 
     "cuiyucaomei": {
@@ -40932,6 +41048,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 3
+     }, 
+     "level_need": 1
+    }, 
+    "xiaochoub": {
+     "total_time": 810, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "オレンジヘアーピエロ", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 15
      }, 
      "level_need": 1
     }, 
@@ -42764,6 +42899,7 @@
     "huanglajiao", 
     "huanghulu", 
     "qisehuahuang", 
+    "xiaochouc", 
     "moyushao", 
     "caomeilieche", 
     "wuhuaguo", 
@@ -42798,6 +42934,7 @@
     "maogenchengse", 
     "bosijucheng", 
     "czbjl", 
+    "xiaochoub", 
     "milaoshuhua", 
     "ribenhaitang", 
     "fengshuxin", 
@@ -42827,6 +42964,7 @@
     "bayinhe6", 
     "jiazhutao", 
     "qingtongshu", 
+    "jinchahua", 
     "bawangshu", 
     "xiannv", 
     "shengdanheka", 
@@ -42957,6 +43095,7 @@
     "zishuijingpingguo", 
     "zihulu", 
     "qisehuazi", 
+    "xiaochouf", 
     "bajiaoci", 
     "feipeng", 
     "xiancai", 
@@ -42971,6 +43110,7 @@
     "ruanshanhu", 
     "fenzisesansejin", 
     "fenshuijingpingguo", 
+    "xiaochoud", 
     "pingpo", 
     "xiangshuikongque", 
     "ribenguoqishu", 
@@ -42996,6 +43136,7 @@
     "lanshuijingpingguo", 
     "lanhulu", 
     "qisehualan", 
+    "xiaochoua", 
     "lanqiansuitang", 
     "youzi", 
     "sanyemei", 
@@ -43071,6 +43212,7 @@
     "hongheisesansejin", 
     "honghulu", 
     "qisehuahong", 
+    "xiaochoue", 
     "nmbjl", 
     "ningmengshu", 
     "lamei", 
