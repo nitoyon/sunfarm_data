@@ -37434,6 +37434,25 @@
      }, 
      "level_need": 1
     }, 
+    "boheshui": {
+     "total_time": 840, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "\u30ea\u30b9\u30c6\u30ea\u30f3\u306e\u7a2e", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 270, 
+     "experience": 12, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 120, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "xiangshuitu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -43234,6 +43253,7 @@
     "aizhihua", 
     "xunyicaotian", 
     "lajiaoyou", 
+    "boheshui", 
     "jiutouniao", 
     "jiucaixin", 
     "danhuangguo", 
