@@ -8184,9 +8184,9 @@
    "qiqiuniubaoxiang": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 20
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中に気球のうしの赤ちゃん1匹が含まれています", 
      "name": "気球のうし箱", 
      "introduce": "中に気球のうしの赤ちゃん1匹が含まれています"
@@ -18043,23 +18043,19 @@
     "start_time": 1311154200.0, 
     "activity_type": "hot_sale"
    }, 
-   "baitu": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
+   "maogen": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "ホワイトうさぎ", 
+    "name": "ウマノアシガタ", 
     "price": {
      "num": 25, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "", 
+    "modify": true, 
+    "goods_description": "ウマノアシガタ、あなたが植えているのは何色かな？", 
     "activity_type": "discount"
    }, 
    "jiucaixin": {
@@ -35873,7 +35869,7 @@
      "seasons": 1, 
      "sale_price": 8, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 15
      }, 
      "leaf_time": 150, 
      "level_need": 1
