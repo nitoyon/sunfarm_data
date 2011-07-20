@@ -18021,20 +18021,27 @@
     "start_time": 1310810400.0, 
     "activity_type": "hot_sale"
    }, 
-   "jiucaixin": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u30ea\u30fc\u30ad", 
-    "price": {
-     "num": 40, 
+   "yuanyidongwutujianbaoxiang": {
+    "original_price": {
+     "num": 150, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "\u5712\u82b8\u30b7\u30ea\u30fc\u30ba\u5b9d\u7bb1", 
+    "price": {
+     "num": 95, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1\u65e523\u6642\u9593", 
+    "end_time": 1311323400.0, 
+    "goods_description": "100\uff05\u306e\u78ba\u7387\u3067\u5712\u82b8\u30c9\u30c3\u30b0*1\uff0c\u5712\u82b8\u30ab\u30a6*1\uff0c\u5712\u82b8\u30e2\u30f3\u30ad\u30fc*1\uff0c\u5712\u82b8\u30a4\u30fc\u30b0\u30eb*1\uff0c\u5712\u82b8\u30db\u30fc\u30b9*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
+    "start_time": 1311154200.0, 
+    "activity_type": "hot_sale"
    }, 
    "baitu": {
     "original_price": {
@@ -18077,27 +18084,20 @@
     "start_time": 1310810400.0, 
     "activity_type": "hot_sale"
    }, 
-   "jiazhutaobaoxiang": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
+   "jiucaixin": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "\u30ad\u30e7\u30a6\u30c1\u30af\u30c8\u30a6\u5b9d\u7bb1", 
+    "name": "\u30ea\u30fc\u30ad", 
     "price": {
-     "num": 30, 
+     "num": 40, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "2\u65e51\u6642\u9593", 
-    "end_time": 1311147000.0, 
-    "goods_description": "\u4e2d\u306b\u30ad\u30e7\u30a6\u30c1\u30af\u30c8\u30a6\u306e\u7a2e2\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
-    "start_time": 1310970600.0, 
-    "activity_type": "hot_sale"
+    "goods_description": "", 
+    "activity_type": "discount"
    }
   }, 
   "farm": {
