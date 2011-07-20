@@ -18021,20 +18021,27 @@
     "start_time": 1310810400.0, 
     "activity_type": "hot_sale"
    }, 
-   "jiucaixin": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "リーキ", 
-    "price": {
-     "num": 40, 
+   "yuanyidongwutujianbaoxiang": {
+    "original_price": {
+     "num": 150, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "園芸シリーズ宝箱", 
+    "price": {
+     "num": 95, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日23時間", 
+    "end_time": 1311323400.0, 
+    "goods_description": "100％の確率で園芸ドッグ*1，園芸カウ*1，園芸モンキー*1，園芸イーグル*1，園芸ホース*1を入手できます。", 
+    "start_time": 1311154200.0, 
+    "activity_type": "hot_sale"
    }, 
    "baitu": {
     "original_price": {
@@ -18077,27 +18084,20 @@
     "start_time": 1310810400.0, 
     "activity_type": "hot_sale"
    }, 
-   "jiazhutaobaoxiang": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
+   "jiucaixin": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "キョウチクトウ宝箱", 
+    "name": "リーキ", 
     "price": {
-     "num": 30, 
+     "num": 40, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "2日1時間", 
-    "end_time": 1311147000.0, 
-    "goods_description": "中にキョウチクトウの種2個が含まれています", 
-    "start_time": 1310970600.0, 
-    "activity_type": "hot_sale"
+    "goods_description": "", 
+    "activity_type": "discount"
    }
   }, 
   "farm": {
