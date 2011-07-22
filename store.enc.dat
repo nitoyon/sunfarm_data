@@ -7568,9 +7568,9 @@
    "qiqiuchongzibaoxiang": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 24
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中に気球の虫の赤ちゃん1匹が含まれています", 
      "name": "気球の虫宝箱", 
      "introduce": "中に気球の虫の赤ちゃん1匹が含まれています"
@@ -18021,42 +18021,27 @@
     "goods_description": "収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
     "activity_type": "discount"
    }, 
-   "yuanyidongwutujianbaoxiang": {
+   "qiqiuchongzibaoxiang": {
     "original_price": {
-     "num": 150, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "園芸シリーズ宝箱", 
+    "name": "気球の虫宝箱", 
     "price": {
-     "num": 95, 
+     "num": 24, 
      "type": "F_coin"
     }, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "1日23時間", 
-    "end_time": 1311323400.0, 
-    "goods_description": "100％の確率で園芸ドッグ*1，園芸カウ*1，園芸モンキー*1，園芸イーグル*1，園芸ホース*1を入手できます。", 
-    "start_time": 1311154200.0, 
+    "limit_time": "2日23時間", 
+    "end_time": 1311582600.0, 
+    "goods_description": "中に気球の虫の赤ちゃん1匹が含まれています。", 
+    "start_time": 1311327000.0, 
     "activity_type": "hot_sale"
-   }, 
-   "maogen": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "ウマノアシガタ", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "ウマノアシガタ、あなたが植えているのは何色かな？", 
-    "activity_type": "discount"
    }, 
    "jiucaixin": {
     "specific_type": "re", 
@@ -18071,6 +18056,21 @@
     }, 
     "modify": false, 
     "goods_description": "", 
+    "activity_type": "discount"
+   }, 
+   "maogen": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ウマノアシガタ", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "ウマノアシガタ、あなたが植えているのは何色かな？", 
     "activity_type": "discount"
    }, 
    "sansejin": {
