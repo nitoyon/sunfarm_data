@@ -7568,9 +7568,9 @@
    "qiqiuchongzibaoxiang": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 24
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "\u4e2d\u306b\u6c17\u7403\u306e\u866b\u306e\u8d64\u3061\u3083\u30931\u5339\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
      "name": "\u6c17\u7403\u306e\u866b\u5b9d\u7bb1", 
      "introduce": "\u4e2d\u306b\u6c17\u7403\u306e\u866b\u306e\u8d64\u3061\u3083\u30931\u5339\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
@@ -18021,42 +18021,27 @@
     "goods_description": "\u53ce\u7a6b\u7269\u306f\u5de5\u5834\u3067\u52a0\u5de5\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002\u88fd\u9020\u3057\u305f\u7269\u3092\u53ce\u7a6b\u3059\u308b\u3068\u3001\u56f3\u9451\u306b\u5165\u308a\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
-   "yuanyidongwutujianbaoxiang": {
+   "qiqiuchongzibaoxiang": {
     "original_price": {
-     "num": 150, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "\u5712\u82b8\u30b7\u30ea\u30fc\u30ba\u5b9d\u7bb1", 
+    "name": "\u6c17\u7403\u306e\u866b\u5b9d\u7bb1", 
     "price": {
-     "num": 95, 
+     "num": 24, 
      "type": "F_coin"
     }, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "1\u65e523\u6642\u9593", 
-    "end_time": 1311323400.0, 
-    "goods_description": "100\uff05\u306e\u78ba\u7387\u3067\u5712\u82b8\u30c9\u30c3\u30b0*1\uff0c\u5712\u82b8\u30ab\u30a6*1\uff0c\u5712\u82b8\u30e2\u30f3\u30ad\u30fc*1\uff0c\u5712\u82b8\u30a4\u30fc\u30b0\u30eb*1\uff0c\u5712\u82b8\u30db\u30fc\u30b9*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
-    "start_time": 1311154200.0, 
+    "limit_time": "2\u65e523\u6642\u9593", 
+    "end_time": 1311582600.0, 
+    "goods_description": "\u4e2d\u306b\u6c17\u7403\u306e\u866b\u306e\u8d64\u3061\u3083\u30931\u5339\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002", 
+    "start_time": 1311327000.0, 
     "activity_type": "hot_sale"
-   }, 
-   "maogen": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u30a6\u30de\u30ce\u30a2\u30b7\u30ac\u30bf", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "\u30a6\u30de\u30ce\u30a2\u30b7\u30ac\u30bf\u3001\u3042\u306a\u305f\u304c\u690d\u3048\u3066\u3044\u308b\u306e\u306f\u4f55\u8272\u304b\u306a\uff1f", 
-    "activity_type": "discount"
    }, 
    "jiucaixin": {
     "specific_type": "re", 
@@ -18071,6 +18056,21 @@
     }, 
     "modify": false, 
     "goods_description": "", 
+    "activity_type": "discount"
+   }, 
+   "maogen": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u30a6\u30de\u30ce\u30a2\u30b7\u30ac\u30bf", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "\u30a6\u30de\u30ce\u30a2\u30b7\u30ac\u30bf\u3001\u3042\u306a\u305f\u304c\u690d\u3048\u3066\u3044\u308b\u306e\u306f\u4f55\u8272\u304b\u306a\uff1f", 
     "activity_type": "discount"
    }, 
    "sansejin": {
