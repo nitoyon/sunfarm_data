@@ -8678,9 +8678,9 @@
    "qiqiujibaoxiang": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 24
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中に気球の鶏の赤ちゃん1匹が含まれています", 
      "name": "気球の鶏宝箱", 
      "introduce": "中に気球の鶏の赤ちゃん1匹が含まれています"
@@ -18058,6 +18058,28 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
+   "qiqiujibaoxiang": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "気球の鶏宝箱", 
+    "price": {
+     "num": 24, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日7時間", 
+    "end_time": 1311841800.0, 
+    "goods_description": "中に気球の鶏の赤ちゃん1匹が含まれています。", 
+    "start_time": 1311557400.0, 
+    "activity_type": "hot_sale"
+   }, 
    "maogen": {
     "specific_type": "re", 
     "product_type": {
@@ -18072,28 +18094,6 @@
     "modify": true, 
     "goods_description": "ウマノアシガタ、あなたが植えているのは何色かな？", 
     "activity_type": "discount"
-   }, 
-   "sansejin": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "サンシキスミレ", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日22時間30分", 
-    "end_time": 1311496200.0, 
-    "goods_description": "", 
-    "start_time": 1311156000.0, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
