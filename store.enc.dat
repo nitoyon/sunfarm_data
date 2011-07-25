@@ -17984,28 +17984,6 @@
     "goods_description": "成熟したルスティフィナの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "cangshu": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "ハムスター", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日22時間30分", 
-    "end_time": 1311496200.0, 
-    "goods_description": "", 
-    "start_time": 1311156000.0, 
-    "activity_type": "hot_sale"
-   }, 
    "mianhua": {
     "specific_type": "re", 
     "product_type": {
@@ -18077,6 +18055,28 @@
     "limit_time": "3日7時間", 
     "end_time": 1311841800.0, 
     "goods_description": "中に気球の鶏の赤ちゃん1匹が含まれています。", 
+    "start_time": 1311557400.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "chabei": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "謎のカップ", 
+    "price": {
+     "num": 20, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日7時間", 
+    "end_time": 1311841800.0, 
+    "goods_description": "", 
     "start_time": 1311557400.0, 
     "activity_type": "hot_sale"
    }, 
@@ -28918,7 +28918,7 @@
     "chabei": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "謎のカップ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
@@ -28931,7 +28931,7 @@
      "seasons": 1, 
      "sale_price": 13, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 20
      }, 
      "leaf_time": 240, 
      "level_need": 1
