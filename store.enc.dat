@@ -19249,6 +19249,26 @@
      }, 
      "level_need": 0
     }, 
+    "tchuimeigui": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ｼﾙﾊﾞｰ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.11, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "wuhuaguo": {
      "total_time": 870, 
      "leaflet_time": 90, 
@@ -23634,24 +23654,24 @@
      }, 
      "level_need": 60
     }, 
-    "huaying": {
-     "total_time": 1350, 
-     "leaflet_time": 150, 
-     "used": false, 
-     "name": "ジャカランダ", 
+    "dihua": {
+     "total_time": 480, 
+     "leaflet_time": 22, 
+     "used": true, 
+     "name": "オギ", 
      "base_fruit": 25, 
-     "fruit_time": 480, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 35, 
-     "seasons": 1, 
-     "sale_price": 20, 
+     "fruit_time": 152, 
+     "sprout_time": 20, 
+     "bloom_time": 148, 
+     "experience": 1.11, 
+     "seasons": 2, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 138, 
      "seed_price": {
-      "F_coin": 100
+      "gold": 188
      }, 
-     "level_need": 1
+     "level_need": 39
     }, 
     "jingzhibuouyangzi": {
      "total_time": 1170, 
@@ -26112,6 +26132,26 @@
      }, 
      "level_need": 1
     }, 
+    "tchongmeigui": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ﾚｯﾄﾞ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.11, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "zhuyinghua": {
      "total_time": 782, 
      "leaflet_time": 120, 
@@ -27405,6 +27445,26 @@
      }, 
      "level_need": 14
     }, 
+    "tcfenmeigui": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ﾋﾟﾝｸ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.11, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "lanmeiguixin": {
      "total_time": 480, 
      "leaflet_time": 22, 
@@ -28242,24 +28302,24 @@
      }, 
      "level_need": 1
     }, 
-    "dihua": {
-     "total_time": 480, 
-     "leaflet_time": 22, 
-     "used": true, 
-     "name": "オギ", 
-     "base_fruit": 25, 
-     "fruit_time": 152, 
-     "sprout_time": 20, 
-     "bloom_time": 148, 
-     "experience": 1.11, 
-     "seasons": 2, 
-     "sale_price": 6, 
-     "increment_fruit": 25, 
-     "leaf_time": 138, 
+    "mexicocactus": {
+     "total_time": 2160, 
+     "leaflet_time": 302, 
      "seed_price": {
-      "gold": 188
+      "gold": 224
      }, 
-     "level_need": 39
+     "name": "メキシコシティー", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "recipe": "レシピに使えます：\nキツツキ\nマジックスティック", 
+     "sprout_time": 122, 
+     "bloom_time": 692, 
+     "experience": 4.38, 
+     "seasons": 2, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 324, 
+     "level_need": 15
     }, 
     "xunyicaotian": {
      "total_time": 780, 
@@ -28632,6 +28692,25 @@
      }, 
      "level_need": 1
     }, 
+    "yinglan": {
+     "total_time": 510, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "サクララン", 
+     "base_fruit": 25, 
+     "fruit_time": 180, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4.5, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 38
+     }, 
+     "level_need": 1
+    }, 
     "fanshiliu": {
      "total_time": 870, 
      "leaflet_time": 90, 
@@ -28936,25 +29015,24 @@
      "leaf_time": 240, 
      "level_need": 1
     }, 
-    "tianxiezuodeshu": {
-     "total_time": 1080, 
+    "jingtian": {
+     "total_time": 840, 
      "leaflet_time": 150, 
-     "used": false, 
-     "name": "さそり座の木", 
+     "used": true, 
+     "name": "キリンソウ", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "tuchan": true, 
-     "sprout_time": 30, 
-     "bloom_time": 300, 
-     "experience": 6.78, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.52, 
      "seasons": 1, 
-     "sale_price": 6, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 12
+      "gold": 230
      }, 
-     "level_need": 1
+     "level_need": 30
     }, 
     "lanqiansuitang": {
      "total_time": 730, 
@@ -30836,6 +30914,26 @@
       "F_coin": 6
      }, 
      "level_need": 0
+    }, 
+    "tclanmeigui": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ﾌﾞﾙｰ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.11, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
     }, 
     "jinqianshu": {
      "total_time": 2880, 
@@ -34012,22 +34110,23 @@
      }, 
      "level_need": 1
     }, 
-    "shuiguoshala": {
-     "total_time": 25, 
-     "leaflet_time": 5, 
+    "tcmeiguihuashu": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "フルーツサラダ", 
-     "base_fruit": 1, 
-     "fruit_time": 5, 
-     "sprout_time": 5, 
-     "bloom_time": 5, 
-     "experience": 280, 
-     "seasons": 4, 
-     "sale_price": 1200, 
-     "increment_fruit": 1, 
-     "leaf_time": 5, 
+     "name": "激ﾚｱ花束", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.11, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
      "seed_price": {
-      "gold": 10
+      "F_coin": 8
      }, 
      "level_need": 1
     }, 
@@ -34991,24 +35090,25 @@
      }, 
      "level_need": 58
     }, 
-    "jingtian": {
-     "total_time": 840, 
+    "tianxiezuodeshu": {
+     "total_time": 1080, 
      "leaflet_time": 150, 
-     "used": true, 
-     "name": "キリンソウ", 
+     "used": false, 
+     "name": "さそり座の木", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 90, 
-     "bloom_time": 150, 
-     "experience": 2.52, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.78, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 210, 
      "seed_price": {
-      "gold": 230
+      "F_coin": 12
      }, 
-     "level_need": 30
+     "level_need": 1
     }, 
     "maozitu": {
      "total_time": 810, 
@@ -38893,25 +38993,6 @@
      }, 
      "level_need": 0
     }, 
-    "sanduohua": {
-     "total_time": 1920, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "ぷっくりフラワー", 
-     "base_fruit": 25, 
-     "fruit_time": 420, 
-     "sprout_time": 330, 
-     "bloom_time": 420, 
-     "experience": 15, 
-     "seasons": 1, 
-     "sale_price": 21, 
-     "increment_fruit": 25, 
-     "leaf_time": 420, 
-     "seed_price": {
-      "F_coin": 38
-     }, 
-     "level_need": 1
-    }, 
     "lvqiansuitang": {
      "total_time": 730, 
      "leaflet_time": 90, 
@@ -39203,24 +39284,24 @@
      }, 
      "level_need": 0
     }, 
-    "mexicocactus": {
-     "total_time": 2160, 
-     "leaflet_time": 302, 
-     "seed_price": {
-      "gold": 224
-     }, 
-     "name": "メキシコシティー", 
+    "sanduohua": {
+     "total_time": 1920, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ぷっくりフラワー", 
      "base_fruit": 25, 
-     "fruit_time": 720, 
-     "recipe": "レシピに使えます：\nキツツキ\nマジックスティック", 
-     "sprout_time": 122, 
-     "bloom_time": 692, 
-     "experience": 4.38, 
-     "seasons": 2, 
-     "sale_price": 13, 
+     "fruit_time": 420, 
+     "sprout_time": 330, 
+     "bloom_time": 420, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 21, 
      "increment_fruit": 25, 
-     "leaf_time": 324, 
-     "level_need": 15
+     "leaf_time": 420, 
+     "seed_price": {
+      "F_coin": 38
+     }, 
+     "level_need": 1
     }, 
     "mayxuanmi": {
      "total_time": 660, 
@@ -40498,22 +40579,41 @@
      }, 
      "level_need": 1
     }, 
-    "yinglan": {
-     "total_time": 510, 
-     "leaflet_time": 60, 
+    "huaying": {
+     "total_time": 1350, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "サクララン", 
+     "name": "ジャカランダ", 
      "base_fruit": 25, 
-     "fruit_time": 180, 
-     "sprout_time": 30, 
-     "bloom_time": 150, 
-     "experience": 4.5, 
+     "fruit_time": 480, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 35, 
      "seasons": 1, 
-     "sale_price": 6, 
+     "sale_price": 20, 
      "increment_fruit": 25, 
-     "leaf_time": 90, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 38
+      "F_coin": 100
+     }, 
+     "level_need": 1
+    }, 
+    "shuiguoshala": {
+     "total_time": 25, 
+     "leaflet_time": 5, 
+     "used": false, 
+     "name": "フルーツサラダ", 
+     "base_fruit": 1, 
+     "fruit_time": 5, 
+     "sprout_time": 5, 
+     "bloom_time": 5, 
+     "experience": 280, 
+     "seasons": 4, 
+     "sale_price": 1200, 
+     "increment_fruit": 1, 
+     "leaf_time": 5, 
+     "seed_price": {
+      "gold": 10
      }, 
      "level_need": 1
     }, 
@@ -40709,22 +40809,23 @@
      }, 
      "level_need": 0
     }, 
-    "nvhaijieyang": {
-     "total_time": 1110, 
-     "leaflet_time": 90, 
+    "tcheimeigui": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "ひつじ官女", 
+     "name": "ﾌﾞﾗｯｸ", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
+     "fruit_time": 390, 
+     "tuchan": true, 
      "sprout_time": 30, 
-     "bloom_time": 330, 
-     "experience": 6, 
+     "bloom_time": 300, 
+     "experience": 6.11, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 3
+      "F_coin": 8
      }, 
      "level_need": 1
     }, 
@@ -42324,6 +42425,26 @@
      "leaf_time": 60, 
      "level_need": 0
     }, 
+    "tczimeigui": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ﾊﾟｰﾌﾟﾙ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.11, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "shanying": {
      "total_time": 1410, 
      "leaflet_time": 330, 
@@ -42967,6 +43088,25 @@
       "F_coin": 2160
      }, 
      "level_need": 0
+    }, 
+    "nvhaijieyang": {
+     "total_time": 1110, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ひつじ官女", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 30, 
+     "bloom_time": 330, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 3
+     }, 
+     "level_need": 1
     }, 
     "hongbailanmeigui": {
      "total_time": 3000, 
@@ -43837,6 +43977,7 @@
     "zhengzuomao", 
     "kuqinangua", 
     "langsuchengbao", 
+    "tcmeiguihuashu", 
     "wenziliu", 
     "shanghuamao", 
     "shizizuodeshu", 
@@ -43924,6 +44065,12 @@
     "wushiriyuandejuhua", 
     "groupon", 
     "caihongqiao", 
+    "tchuimeigui", 
+    "tczimeigui", 
+    "tcfenmeigui", 
+    "tcheimeigui", 
+    "tclanmeigui", 
+    "tchongmeigui", 
     "changchunhua", 
     "saibohua", 
     "dianshisong", 
