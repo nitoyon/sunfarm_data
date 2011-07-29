@@ -8781,9 +8781,9 @@
    "qiqiutuzibaoxiang": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 24
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中に気球の兎の赤ちゃん1匹が含まれています", 
      "name": "気球の兎箱", 
      "introduce": "中に気球の兎の赤ちゃん1匹が含まれています"
@@ -18102,6 +18102,28 @@
     "goods_description": "収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
     "activity_type": "discount"
    }, 
+   "qiqiutuzibaoxiang": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "気球の兎箱", 
+    "price": {
+     "num": 24, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日7時間", 
+    "end_time": 1312187400.0, 
+    "goods_description": "中に気球の兎の赤ちゃん1匹が含まれています", 
+    "start_time": 1311903000.0, 
+    "activity_type": "hot_sale"
+   }, 
    "qiqiuniubaoxiang": {
     "original_price": {
      "num": 30, 
@@ -18138,28 +18160,6 @@
     "modify": false, 
     "goods_description": "", 
     "activity_type": "discount"
-   }, 
-   "chabei": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "謎のカップ", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日7時間", 
-    "end_time": 1311841800.0, 
-    "goods_description": "", 
-    "start_time": 1311557400.0, 
-    "activity_type": "hot_sale"
    }, 
    "maogen": {
     "specific_type": "re", 
