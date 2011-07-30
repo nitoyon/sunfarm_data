@@ -8028,6 +8028,51 @@
      }
     }
    }, 
+   "bayuebaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "8月の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "huicai": [
+        1, 
+        0.8
+       ], 
+       "mianmaoshuweicao": [
+        1, 
+        0.4
+       ], 
+       "gancao": [
+        1, 
+        0.3
+       ], 
+       "duzhong": [
+        1, 
+        0.08
+       ], 
+       "qiancao": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "yinghuashuhuangniudan": {
     "config": {
      "price": {
@@ -46828,6 +46873,7 @@
    "huangseniudan", 
    "zhiwubaoxiang", 
    "tdysfen", 
+   "bayuebaoxiang", 
    "yinghuashuhuangniudan", 
    "shengdanlvniudan", 
    "test_bag", 
