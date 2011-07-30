@@ -18099,48 +18099,8 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "mianhua": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "わた", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "収穫物は工場で加工することができます。製造した物を収穫すると、図鑑に入ります。", 
-    "activity_type": "discount"
-   }, 
-   "qiqiutuzibaoxiang": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "気球の兎箱", 
-    "price": {
-     "num": 24, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日7時間", 
-    "end_time": 1312187400.0, 
-    "goods_description": "中に気球の兎の赤ちゃん1匹が含まれています", 
-    "start_time": 1311903000.0, 
-    "activity_type": "hot_sale"
-   }, 
    "qiqiuniubaoxiang": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -18151,12 +18111,8 @@
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日7時間", 
-    "end_time": 1312187400.0, 
     "goods_description": "中に気球のうしの赤ちゃん1匹が含まれています", 
-    "start_time": 1311903000.0, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "jiucaixin": {
     "specific_type": "re", 
@@ -18173,20 +18129,56 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "maogen": {
+   "crystal9": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "8月クリスタル", 
+    "start_time": 1311989400.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日7時間30分", 
+    "end_time": 1312966800.0, 
+    "goods_description": "8月クリスタル", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "qiqiutuzibaoxiang": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "ウマノアシガタ", 
+    "name": "気球の兎箱", 
     "price": {
-     "num": 25, 
+     "num": 24, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "ウマノアシガタ、あなたが植えているのは何色かな？", 
+    "goods_description": "中に気球の兎の赤ちゃん1匹が含まれています", 
     "activity_type": "discount"
+   }, 
+   "hammer": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ハンマー", 
+    "start_time": 1311989400.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "11日7時間30分", 
+    "end_time": 1312966800.0, 
+    "goods_description": "クリスタルを開けることができます。", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
