@@ -8369,6 +8369,43 @@
      }
     }
    }, 
+   "shucaipartytujianbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 45
+     }, 
+     "used": true, 
+     "goods_str": "100\uff05\u306e\u78ba\u7387\u3067\u30d1\u30fc\u30c6\u30a3\u30fc\u30cb\u30f3\u30b8\u30f3*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30ad\u30ce\u30b3*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30ca\u30b9*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30b8\u30e3\u30ac\u30a4\u30e2*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30cf\u30af\u30b5\u30a4*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
+     "name": "\u91ce\u83dc\u30d1\u30fc\u30c6\u30a3\u30fc\u306e\u56f3\u9451\u5b9d\u7bb1", 
+     "introduce": "100\uff05\u306e\u78ba\u7387\u3067\u30d1\u30fc\u30c6\u30a3\u30fc\u30cb\u30f3\u30b8\u30f3*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30ad\u30ce\u30b3*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30ca\u30b9*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30b8\u30e3\u30ac\u30a4\u30e2*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30cf\u30af\u30b5\u30a4*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "partyqiezi": [
+        1, 
+        1
+       ], 
+       "partybaicai": [
+        1, 
+        1
+       ], 
+       "partytudou": [
+        1, 
+        1
+       ], 
+       "partyhuluobo": [
+        1, 
+        1
+       ], 
+       "partymogu": [
+        1, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "mb_10": {
     "config": {
      "goods_str": "\u5927\u5730\u306e\u30ab\u30ae\u3092\u4f7f\u3063\u3066\u958b\u3051\u3089\u308c\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u5404\u7a2e\u306e\u30a2\u30a4\u30c6\u30e0\u3001\u4f5c\u7269\u3001\u52d5\u7269\u3001\u98df\u7ce7\u304c\u8cb0\u3048\u307e\u3059\u3002\uff11\u56de\u306b\u5e7e\u3064\u304b\u3092\u958b\u304f\u5834\u5408\u3001\u30b9\u30c6\u30ad\u306a\u666f\u54c1\u3092\u624b\u306b\u5165\u308c\u3084\u3059\u304f\u306a\u308a\u307e\u3059\u3002\u3067\u3082\u3001\u904b\u306b\u3082\u5de6\u53f3\u3055\u308c\u307e\u3059\u306e\u3067\u3001\u7a7a\u7bb1\u306e\u53ef\u80fd\u6027\u3082\u3042\u308a\u307e\u3059\u3002\u5b9d\u7bb1\u3068\u30ab\u30ae\u306e\u3069\u3061\u3089\u304b\u3092\u4f7f\u3048\u3070\u3001\u4e8c\u3064\u3068\u3082\u6d88\u3048\u307e\u3059\u3002", 
@@ -18076,27 +18113,20 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "chaozhilibao": {
-    "original_price": {
-     "num": 1270, 
-     "type": "F_coin"
-    }, 
+   "qiyuebaoxiang": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8", 
+    "name": "7\u6708\u306e\u5b9d\u7bb1", 
     "price": {
-     "num": 700, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3\u65e523\u6642\u9593", 
-    "end_time": 1312187400.0, 
-    "goods_description": "\u5927\u7279\u4fa1\u30bb\u30fc\u30eb\uff01\u4e2d\u306b\u306f500K\u30b3\u30a4\u30f3\u5206\u306e\u7a2e\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b770K\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3002\u3000\u7a2e\uff1a\u30af\u30ec\u30a4\u30b8\u30fc\u30ca\u30b7\u00d74    \u30af\u30ec\u30a4\u30b8\u30fc\u30b5\u30dc\u30c6\u30f3\u00d74  \u30c1\u30e7\u30a6\u82b1\u00d74       \u5929\u5c71\u96ea\u84ee\u00d74       \u9b54\u6cd5\u306e\u767d\u30d0\u30e9\u00d74     \u6708\u306e\u82b1\u00d710\u3000\u3000\u30a2\u30a4\u30c6\u30e0\uff1a\u521d\u7d1a\u80a5\u6599\u00d735      \u4e2d\u7d1a\u80a5\u6599\u00d735      \u9ad8\u7d1a\u80a5\u6599\u00d735      \u30de\u30b8\u30c3\u30af\u80a5\u6599\u00d735    \u5897\u7523\u80a5\u6599\u00d725      \u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u00d710    \u30a6\u30eb\u30c8\u30e9\u80a5\u6599\u00d75", 
-    "start_time": 1311845400.0, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "", 
+    "activity_type": "discount"
    }, 
    "huafeibao1": {
     "specific_type": "re", 
@@ -18129,21 +18159,6 @@
     "goods_description": "\u6210\u719f\u3057\u305f\u30b3\u30f3\u30c6\u30ea\u30af\u30e9\u30de\u30b4\u30b1\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3055\u305b\u307e\u3059\u3002\u4e00\u5ea6\u53ce\u7a6b\u3057\u305f\u3089\u5897\u7523\u91cf\u304c\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
-   "qiyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "7\u6708\u306e\u5b9d\u7bb1", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
-   }, 
    "qiqiuniubaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -18173,6 +18188,28 @@
     "modify": false, 
     "goods_description": "", 
     "activity_type": "discount"
+   }, 
+   "shucaipartytujianbaoxiang": {
+    "original_price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "\u91ce\u83dc\u30d1\u30fc\u30c6\u30a3\u30fc\u306e\u56f3\u9451\u5b9d\u7bb1", 
+    "price": {
+     "num": 45, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3\u65e5", 
+    "end_time": 1312446600.0, 
+    "goods_description": "100\uff05\u306e\u78ba\u7387\u3067\u30d1\u30fc\u30c6\u30a3\u30fc\u30cb\u30f3\u30b8\u30f3*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30ad\u30ce\u30b3*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30ca\u30b9*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30b8\u30e3\u30ac\u30a4\u30e2*1\uff0c\u30d1\u30fc\u30c6\u30a3\u30fc\u30cf\u30af\u30b5\u30a4*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
+    "start_time": 1312187400.0, 
+    "activity_type": "hot_sale"
    }, 
    "crystal9": {
     "product_type": {
@@ -47002,6 +47039,7 @@
    "cangbaotu3", 
    "nanhaijiebaoxiang", 
    "qiqiuniubaoxiang", 
+   "shucaipartytujianbaoxiang", 
    "bingdiaoshulanlibao", 
    "tunianniudanlv", 
    "niudanfen", 
