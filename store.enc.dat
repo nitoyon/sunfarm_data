@@ -8369,6 +8369,43 @@
      }
     }
    }, 
+   "shucaipartytujianbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 45
+     }, 
+     "used": true, 
+     "goods_str": "100％の確率でパーティーニンジン*1，パーティーキノコ*1，パーティーナス*1，パーティージャガイモ*1，パーティーハクサイ*1を入手できます。", 
+     "name": "野菜パーティーの図鑑宝箱", 
+     "introduce": "100％の確率でパーティーニンジン*1，パーティーキノコ*1，パーティーナス*1，パーティージャガイモ*1，パーティーハクサイ*1を入手できます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "partyqiezi": [
+        1, 
+        1
+       ], 
+       "partybaicai": [
+        1, 
+        1
+       ], 
+       "partytudou": [
+        1, 
+        1
+       ], 
+       "partyhuluobo": [
+        1, 
+        1
+       ], 
+       "partymogu": [
+        1, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "mb_10": {
     "config": {
      "goods_str": "大地のカギを使って開けられます。ランダムで各種のアイテム、作物、動物、食糧が貰えます。１回に幾つかを開く場合、ステキな景品を手に入れやすくなります。でも、運にも左右されますので、空箱の可能性もあります。宝箱とカギのどちらかを使えば、二つとも消えます。", 
@@ -18076,27 +18113,20 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "chaozhilibao": {
-    "original_price": {
-     "num": 1270, 
-     "type": "F_coin"
-    }, 
+   "qiyuebaoxiang": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "お買い得セット", 
+    "name": "7月の宝箱", 
     "price": {
-     "num": 700, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日23時間", 
-    "end_time": 1312187400.0, 
-    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5", 
-    "start_time": 1311845400.0, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "", 
+    "activity_type": "discount"
    }, 
    "huafeibao1": {
     "specific_type": "re", 
@@ -18129,21 +18159,6 @@
     "goods_description": "成熟したコンテリクラマゴケの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "qiyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "7月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
-   }, 
    "qiqiuniubaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -18173,6 +18188,28 @@
     "modify": false, 
     "goods_description": "", 
     "activity_type": "discount"
+   }, 
+   "shucaipartytujianbaoxiang": {
+    "original_price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "野菜パーティーの図鑑宝箱", 
+    "price": {
+     "num": 45, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日", 
+    "end_time": 1312446600.0, 
+    "goods_description": "100％の確率でパーティーニンジン*1，パーティーキノコ*1，パーティーナス*1，パーティージャガイモ*1，パーティーハクサイ*1を入手できます。", 
+    "start_time": 1312187400.0, 
+    "activity_type": "hot_sale"
    }, 
    "crystal9": {
     "product_type": {
@@ -47002,6 +47039,7 @@
    "cangbaotu3", 
    "nanhaijiebaoxiang", 
    "qiqiuniubaoxiang", 
+   "shucaipartytujianbaoxiang", 
    "bingdiaoshulanlibao", 
    "tunianniudanlv", 
    "niudanfen", 
