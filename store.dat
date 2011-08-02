@@ -22602,24 +22602,25 @@
      }, 
      "level_need": 1
     }, 
-    "niangao": {
-     "total_time": 480, 
-     "leaflet_time": 60, 
+    "tclanmeigui": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "\u93e1\u9905", 
+     "name": "\uff90\uff98\uff94\uff9b\uff70\uff7d\uff9e(\uff8c\uff9e\uff99\uff70)", 
      "base_fruit": 25, 
-     "fruit_time": 150, 
-     "sprout_time": 60, 
-     "bloom_time": 150, 
-     "experience": 2, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.11, 
      "seasons": 1, 
-     "sale_price": 10, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 60, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 8
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "wulaguiguoqishu": {
      "total_time": 1650, 
@@ -23718,6 +23719,25 @@
      }, 
      "leaf_time": 420, 
      "level_need": 53
+    }, 
+    "niangao": {
+     "total_time": 480, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u93e1\u9905", 
+     "base_fruit": 25, 
+     "fruit_time": 150, 
+     "sprout_time": 60, 
+     "bloom_time": 150, 
+     "experience": 2, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 60, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 0
     }, 
     "changchunhua": {
      "total_time": 2140, 
@@ -31558,23 +31578,22 @@
      }, 
      "level_need": 1
     }, 
-    "tclanmeigui": {
-     "total_time": 1080, 
-     "leaflet_time": 150, 
+    "huangmeishu": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "\uff90\uff98\uff94\uff9b\uff70\uff7d\uff9e(\uff8c\uff9e\uff99\uff70)", 
+     "name": "\u30ed\u30a6\u30d0\u30a4", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "tuchan": true, 
-     "sprout_time": 30, 
-     "bloom_time": 300, 
-     "experience": 6.11, 
-     "seasons": 1, 
-     "sale_price": 6, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 20, 
+     "seasons": 3, 
+     "sale_price": 10, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 30
      }, 
      "level_need": 1
     }, 
@@ -44790,6 +44809,7 @@
     "xiaochoue", 
     "nmbjl", 
     "ningmengshu", 
+    "huangmeishu", 
     "lamei", 
     "bangbangtang", 
     "wosun", 
