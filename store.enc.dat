@@ -22117,6 +22117,25 @@
      }, 
      "level_need": 0
     }, 
+    "zhuying": {
+     "total_time": 810, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "おおべにごうかん", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 180, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 0
+    }, 
     "mitao": {
      "total_time": 2390, 
      "leaflet_time": 480, 
@@ -23194,6 +23213,25 @@
       "F_coin": 38
      }, 
      "level_need": 1
+    }, 
+    "lingjiao": {
+     "total_time": 780, 
+     "leaflet_time": 30, 
+     "used": true, 
+     "name": "ヒシ", 
+     "base_fruit": 25, 
+     "fruit_time": 332, 
+     "sprout_time": 30, 
+     "bloom_time": 168, 
+     "experience": 1.66, 
+     "seasons": 2, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 220, 
+     "seed_price": {
+      "gold": 328
+     }, 
+     "level_need": 20
     }, 
     "huoji1": {
      "total_time": 1080, 
@@ -27476,6 +27514,25 @@
      "leaf_time": 150, 
      "level_need": 1
     }, 
+    "yanhuayi": {
+     "total_time": 630, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ピンク花火", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 120, 
+     "experience": 2.99, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 120, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "level_need": 1
+    }, 
     "deguoguoqishu": {
      "total_time": 1650, 
      "leaflet_time": 330, 
@@ -28699,24 +28756,24 @@
      }, 
      "level_need": 1
     }, 
-    "ziyuanbaicai": {
-     "total_time": 480, 
-     "leaflet_time": 22, 
-     "used": true, 
-     "name": "トレビス", 
+    "yanhuasan": {
+     "total_time": 630, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "イエロー花火", 
      "base_fruit": 25, 
-     "fruit_time": 152, 
-     "sprout_time": 20, 
-     "bloom_time": 148, 
-     "experience": 1.08, 
-     "seasons": 2, 
-     "sale_price": 8, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 120, 
+     "experience": 3.45, 
+     "seasons": 1, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 138, 
+     "leaf_time": 120, 
      "seed_price": {
-      "gold": 324
+      "F_coin": 30
      }, 
-     "level_need": 30
+     "level_need": 1
     }, 
     "gangqin2": {
      "total_time": 660, 
@@ -29468,6 +29525,25 @@
      }, 
      "leaf_time": 60, 
      "level_need": 0
+    }, 
+    "yanhuasi": {
+     "total_time": 660, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "パープル花火", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 120, 
+     "experience": 3.66, 
+     "seasons": 1, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "leaf_time": 120, 
+     "seed_price": {
+      "F_coin": 35
+     }, 
+     "level_need": 1
     }, 
     "ziyanghua": {
      "total_time": 1410, 
@@ -30500,24 +30576,24 @@
      }, 
      "level_need": 1
     }, 
-    "zhuying": {
-     "total_time": 810, 
-     "leaflet_time": 60, 
-     "used": false, 
-     "name": "おおべにごうかん", 
+    "ziyuanbaicai": {
+     "total_time": 480, 
+     "leaflet_time": 22, 
+     "used": true, 
+     "name": "トレビス", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 60, 
-     "bloom_time": 180, 
-     "experience": 15, 
-     "seasons": 1, 
-     "sale_price": 15, 
+     "fruit_time": 152, 
+     "sprout_time": 20, 
+     "bloom_time": 148, 
+     "experience": 1.08, 
+     "seasons": 2, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "leaf_time": 138, 
      "seed_price": {
-      "F_coin": 100
+      "gold": 324
      }, 
-     "level_need": 0
+     "level_need": 30
     }, 
     "naliangbacongying": {
      "total_time": 1290, 
@@ -32416,6 +32492,25 @@
      }, 
      "level_need": 1
     }, 
+    "yanhuawu": {
+     "total_time": 660, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "グリーン花火", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 120, 
+     "experience": 3.88, 
+     "seasons": 1, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "leaf_time": 120, 
+     "seed_price": {
+      "F_coin": 40
+     }, 
+     "level_need": 1
+    }, 
     "hulu": {
      "total_time": 3120, 
      "leaflet_time": 624, 
@@ -34137,22 +34232,22 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "groupon": {
-     "total_time": 2880, 
-     "leaflet_time": 510, 
+    "gaojiyanhua": {
+     "total_time": 810, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "ｸﾞﾙｰﾎﾟﾝ盛り合せ", 
+     "name": "高級な花火", 
      "base_fruit": 25, 
-     "fruit_time": 720, 
-     "sprout_time": 330, 
-     "bloom_time": 720, 
-     "experience": 800, 
-     "seasons": 3, 
-     "sale_price": 500, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 20, 
+     "seasons": 1, 
+     "sale_price": 20, 
      "increment_fruit": 25, 
-     "leaf_time": 600, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 50
      }, 
      "level_need": 1
     }, 
@@ -40819,24 +40914,24 @@
      }, 
      "level_need": 41
     }, 
-    "lingjiao": {
-     "total_time": 780, 
-     "leaflet_time": 30, 
-     "used": true, 
-     "name": "ヒシ", 
+    "yanhuaer": {
+     "total_time": 630, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ブルー花火", 
      "base_fruit": 25, 
-     "fruit_time": 332, 
+     "fruit_time": 300, 
      "sprout_time": 30, 
-     "bloom_time": 168, 
-     "experience": 1.66, 
-     "seasons": 2, 
-     "sale_price": 9, 
+     "bloom_time": 120, 
+     "experience": 3.22, 
+     "seasons": 1, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 220, 
+     "leaf_time": 120, 
      "seed_price": {
-      "gold": 328
+      "F_coin": 20
      }, 
-     "level_need": 20
+     "level_need": 1
     }, 
     "emozhixin": {
      "total_time": 630, 
@@ -43552,6 +43647,25 @@
      }, 
      "level_need": 1
     }, 
+    "groupon": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
+     "used": false, 
+     "name": "ｸﾞﾙｰﾎﾟﾝ盛り合せ", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 3, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 600, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "huangshuijingpingguo": {
      "total_time": 960, 
      "leaflet_time": 60, 
@@ -44338,6 +44452,7 @@
     "huanghulu", 
     "qisehuahuang", 
     "xiaochouc", 
+    "yanhuasan", 
     "moyushao", 
     "caomeilieche", 
     "wuhuaguo", 
@@ -44421,6 +44536,7 @@
     "lvshuijingpingguo", 
     "lvhulu", 
     "qisehualv", 
+    "yanhuawu", 
     "mianhuaheise", 
     "fanshiliu", 
     "fanqiejiang", 
@@ -44546,6 +44662,7 @@
     "zihulu", 
     "qisehuazi", 
     "xiaochouf", 
+    "yanhuasi", 
     "bajiaoci", 
     "feipeng", 
     "xiancai", 
@@ -44562,6 +44679,7 @@
     "fenzisesansejin", 
     "fenshuijingpingguo", 
     "xiaochoud", 
+    "yanhuayi", 
     "pingpo", 
     "xiangshuikongque", 
     "ribenguoqishu", 
@@ -44589,6 +44707,7 @@
     "qisehualan", 
     "xiaochoua", 
     "lanqiansuitang", 
+    "yanhuaer", 
     "youzi", 
     "sanyemei", 
     "xinxingqiaokeli", 
@@ -44832,6 +44951,7 @@
     "hanguoguoqishu", 
     "shuiyangqiehua", 
     "danbaidadou", 
+    "gaojiyanhua", 
     "jingzhiganlanyou", 
     "shenqijianlan", 
     "shenqijindaihua", 
