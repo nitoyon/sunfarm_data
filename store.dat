@@ -1231,6 +1231,59 @@
      }
     }
    }, 
+   "chouxuanlibao": {
+    "config": {
+     "price": {
+      "F_coin": 40
+     }, 
+     "used": false, 
+     "goods_str": "\u30ab\u30c8\u30ec\u30a2\u306e\u7a2e1\u500b\u3001\u30a6\u30eb\u30c8\u30e9\u80a5\u65991\u500b\u3001\u521d\u7d1a\u80a5\u65991\u500b\u3001\u4e2d\u7d1a\u80a5\u65991\u500b\u3001\u9ad8\u7d1a\u80a5\u65991\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65991\u500b\u3001\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u65991\u500b\u3001\u5897\u7523\u80a5\u65991\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01", 
+     "name": "\u62bd\u9078\u30bb\u30c3\u30c8", 
+     "introduce": "\u30ab\u30c8\u30ec\u30a2\u306e\u7a2e1\u500b\u3001\u30a6\u30eb\u30c8\u30e9\u80a5\u65991\u500b\u3001\u521d\u7d1a\u80a5\u65991\u500b\u3001\u4e2d\u7d1a\u80a5\u65991\u500b\u3001\u9ad8\u7d1a\u80a5\u65991\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65991\u500b\u3001\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u65991\u500b\u3001\u5897\u7523\u80a5\u65991\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "katelailan": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         1, 
+         1.0
+        ], 
+        "gaosu": [
+         1, 
+         1.0
+        ], 
+        "jisu": [
+         1, 
+         1.0
+        ], 
+        "gaoji": [
+         1, 
+         1.0
+        ], 
+        "test": [
+         1, 
+         1.0
+        ], 
+        "zengshou": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "xuyuanlibao3": {
     "config": {
      "price": {
@@ -27493,6 +27546,25 @@
      }, 
      "level_need": 3
     }, 
+    "katelailan": {
+     "total_time": 820, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "\u30ab\u30c8\u30ec\u30a2", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 270, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 120, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 1
+    }, 
     "liuliqian": {
      "total_time": 750, 
      "leaflet_time": 90, 
@@ -44514,6 +44586,7 @@
     "baobing", 
     "mantianxing", 
     "lamianshu", 
+    "katelailan", 
     "maoxiezhualian", 
     "jiecai", 
     "baihuasuantengguo", 
@@ -47011,6 +47084,7 @@
    "crops_shishutianfuluo_gift", 
    "crops_zhuomuniao_gift", 
    "gb_6", 
+   "chouxuanlibao", 
    "juice_yezizhi_gift", 
    "crops_chaiquan_gift", 
    "gb_4", 
