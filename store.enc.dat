@@ -7410,16 +7410,85 @@
      }
     }
    }, 
-   "crystal": {
+   "hongniudan": {
     "config": {
-     "goods_str": "雲の樹の種と高級肥料が入っています。", 
-     "name": "雲のクリスタル", 
      "price": {
-      "gold": 100
+      "F_coin": 1
      }, 
-     "introduce": "5月クリスタル", 
-     "state": "xin", 
+     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
+     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+     "name": "赤カプセル", 
      "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "dongqing": [
+        1, 
+        0.06
+       ], 
+       "niangao": [
+        1, 
+        0.1
+       ], 
+       "taigu": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.01
+       ], 
+       "shenqima_ti_lian": [
+        1, 
+        0.01
+       ], 
+       "carnation": [
+        1, 
+        0.01
+       ], 
+       "hongkapian": [
+        1, 
+        0.2
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "wushi": [
+        1, 
+        0.1
+       ]
+      }
+     }
     }
    }, 
    "tunianniudanfen": {
@@ -8369,7 +8438,123 @@
      }
     }
    }, 
-   "bayuezhiwutuangoubaoxiang1": {
+   "bayuezhiwutuangoubaoxiang5": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100％の確率でアザレア*1，マジック肥料*1。", 
+     "name": "八月の植物宝箱-アザレア", 
+     "introduce": "100％の確率でアザレア*1，マジック肥料*1。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "xiajuan": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         1
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "bayuezhiwutuangoubaoxiang4": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100％の確率でマンジュギク*1，マジック肥料*1。", 
+     "name": "八月の植物宝箱-マンジュギク", 
+     "introduce": "100％の確率でマンジュギク*1，マジック肥料*1。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "wanshouju": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         1
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "bayuezhiwutuangoubaoxiang6": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100％の確率でエンゴサク*1，マジック肥料*1。", 
+     "name": "八月の植物宝箱-エンゴサク", 
+     "introduce": "100％の確率でエンゴサク*1，マジック肥料*1。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yanhusuo": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         1
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "bayuezhiwutuangoubaoxiang3": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100％の確率でカラーマツリカ*1，マジック肥料*1。", 
+     "name": "八月の植物宝箱-カラーマツリカ", 
+     "introduce": "100％の確率でカラーマツリカ*1，マジック肥料*1。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shuangsemolihua": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         1
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "bayuezhiwutuangoubaoxiang2": {
     "config": {
      "price": {
       "F_coin": 10
@@ -9910,85 +10095,16 @@
      }
     }
    }, 
-   "hongniudan": {
+   "crystal": {
     "config": {
+     "goods_str": "雲の樹の種と高級肥料が入っています。", 
+     "name": "雲のクリスタル", 
      "price": {
-      "F_coin": 1
+      "gold": 100
      }, 
-     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
-     "introduce": "★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-     "name": "赤カプセル", 
+     "introduce": "5月クリスタル", 
+     "state": "xin", 
      "used": false
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "dongqing": [
-        1, 
-        0.06
-       ], 
-       "niangao": [
-        1, 
-        0.1
-       ], 
-       "taigu": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.01
-       ], 
-       "shenqima_ti_lian": [
-        1, 
-        0.01
-       ], 
-       "carnation": [
-        1, 
-        0.01
-       ], 
-       "hongkapian": [
-        1, 
-        0.2
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ], 
-        "xunjie1": [
-         1, 
-         1
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "wushi": [
-        1, 
-        0.1
-       ]
-      }
-     }
     }
    }, 
    "yingwubaoxiang": {
@@ -21023,7 +21139,7 @@
      "increment_fruit": 25, 
      "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 100
      }, 
      "level_need": 0
     }, 
@@ -22560,7 +22676,7 @@
      "increment_fruit": 25, 
      "leaf_time": 140, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 4
      }, 
      "level_need": 1
     }, 
@@ -25526,7 +25642,7 @@
      "increment_fruit": 25, 
      "leaf_time": 140, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 4
      }, 
      "level_need": 1
     }, 
@@ -34853,7 +34969,7 @@
      "increment_fruit": 25, 
      "leaf_time": 120, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 50
      }, 
      "level_need": 0
     }, 
@@ -36317,7 +36433,7 @@
      "increment_fruit": 25, 
      "leaf_time": 140, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 4
      }, 
      "level_need": 1
     }, 
@@ -36415,7 +36531,7 @@
      "increment_fruit": 25, 
      "leaf_time": 140, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 4
      }, 
      "level_need": 1
     }, 
@@ -47399,7 +47515,11 @@
    "test_bag", 
    "xinnianlanniudan", 
    "qiulanbaoxiang", 
-   "bayuezhiwutuangoubaoxiang1", 
+   "bayuezhiwutuangoubaoxiang5", 
+   "bayuezhiwutuangoubaoxiang4", 
+   "bayuezhiwutuangoubaoxiang6", 
+   "bayuezhiwutuangoubaoxiang3", 
+   "bayuezhiwutuangoubaoxiang2", 
    "cangbaotu3", 
    "nanhaijiebaoxiang", 
    "qiqiuniubaoxiang", 
