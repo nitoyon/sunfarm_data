@@ -1231,6 +1231,59 @@
      }
     }
    }, 
+   "chouxuanlibao": {
+    "config": {
+     "price": {
+      "F_coin": 40
+     }, 
+     "used": false, 
+     "goods_str": "カトレアの種1個、ウルトラ肥料1個、初級肥料1個、中級肥料1個、高級肥料1個、マジック肥料1個、ミニマジック肥料1個、増産肥料1個が含まれています。さっそく開けてみよう！", 
+     "name": "抽選セット", 
+     "introduce": "カトレアの種1個、ウルトラ肥料1個、初級肥料1個、中級肥料1個、高級肥料1個、マジック肥料1個、ミニマジック肥料1個、増産肥料1個が含まれています。さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "katelailan": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         1, 
+         1.0
+        ], 
+        "gaosu": [
+         1, 
+         1.0
+        ], 
+        "jisu": [
+         1, 
+         1.0
+        ], 
+        "gaoji": [
+         1, 
+         1.0
+        ], 
+        "test": [
+         1, 
+         1.0
+        ], 
+        "zengshou": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "xuyuanlibao3": {
     "config": {
      "price": {
@@ -27493,6 +27546,25 @@
      }, 
      "level_need": 3
     }, 
+    "katelailan": {
+     "total_time": 820, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "カトレア", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 270, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 120, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 1
+    }, 
     "liuliqian": {
      "total_time": 750, 
      "leaflet_time": 90, 
@@ -44514,6 +44586,7 @@
     "baobing", 
     "mantianxing", 
     "lamianshu", 
+    "katelailan", 
     "maoxiezhualian", 
     "jiecai", 
     "baihuasuantengguo", 
@@ -47011,6 +47084,7 @@
    "crops_shishutianfuluo_gift", 
    "crops_zhuomuniao_gift", 
    "gb_6", 
+   "chouxuanlibao", 
    "juice_yezizhi_gift", 
    "crops_chaiquan_gift", 
    "gb_4", 
