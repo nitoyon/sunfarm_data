@@ -18357,20 +18357,27 @@
     "goods_description": "成熟したカエンボクの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "qiqiuniubaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+   "ziluolan": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
     }, 
-    "name": "気球のうし箱", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "謎のバイオレット", 
     "price": {
-     "num": 24, 
+     "num": 15, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "中に気球のうしの赤ちゃん1匹が含まれています", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "4日3時間", 
+    "end_time": 1312878600.0, 
+    "goods_description": "バイオレット、あなたが植えているのは何色かな？", 
+    "start_time": 1312522200.0, 
+    "activity_type": "hot_sale"
    }, 
    "jiucaixin": {
     "specific_type": "re", 
@@ -18421,10 +18428,7 @@
     "activity_type": "discount"
    }, 
    "huangjinzhoutujianbaoxiang": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -18435,12 +18439,8 @@
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1312792200.0, 
     "goods_description": "100％の確率でオジギソウ*1，カスミソウ*1，ムラサキカタバミ*1，オダマキ*1，スイレン*1を入手できます。", 
-    "start_time": 1312446600.0, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "hammer": {
     "product_type": {
@@ -35756,7 +35756,7 @@
     "ziluolan": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "謎のバイオレット", 
      "base_fruit": 25, 
      "fruit_time": 360, 
@@ -35769,7 +35769,7 @@
      "seasons": 1, 
      "sale_price": 13, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 15
      }, 
      "leaf_time": 240, 
      "level_need": 1
