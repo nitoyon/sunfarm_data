@@ -21276,6 +21276,25 @@
      }, 
      "level_need": 1
     }, 
+    "liulian": {
+     "total_time": 3120, 
+     "leaflet_time": 624, 
+     "used": false, 
+     "name": "ドリアン", 
+     "base_fruit": 25, 
+     "fruit_time": 780, 
+     "sprout_time": 468, 
+     "bloom_time": 624, 
+     "experience": 5.5675, 
+     "seasons": 2, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 624, 
+     "seed_price": {
+      "gold": 10
+     }, 
+     "level_need": 1
+    }, 
     "luohuasheng": {
      "total_time": 960, 
      "leaflet_time": 90, 
@@ -21933,6 +21952,25 @@
      }, 
      "level_need": 0
     }, 
+    "xianrencao": {
+     "total_time": 810, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "クレマチス", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 7.89, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 90
+     }, 
+     "level_need": 1
+    }, 
     "lingxiao": {
      "total_time": 3000, 
      "leaflet_time": 510, 
@@ -22562,6 +22600,25 @@
       "gold": 1
      }, 
      "leaf_time": 330, 
+     "level_need": 1
+    }, 
+    "gutinghua": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "アマリリス", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 6.67, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
      "level_need": 1
     }, 
     "caichunfeng": {
@@ -26121,6 +26178,25 @@
      }, 
      "level_need": 1
     }, 
+    "taitao": {
+     "total_time": 750, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "コケモモ", 
+     "base_fruit": 25, 
+     "fruit_time": 270, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 16, 
+     "seasons": 1, 
+     "sale_price": 18, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 90
+     }, 
+     "level_need": 1
+    }, 
     "shengdanshu": {
      "total_time": 900, 
      "leaflet_time": 180, 
@@ -26236,22 +26312,23 @@
      }, 
      "level_need": 1
     }, 
-    "liulian": {
-     "total_time": 3120, 
-     "leaflet_time": 624, 
+    "tczimeigui": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "ドリアン", 
+     "name": "ﾐﾘﾔﾛｰｽﾞ(ﾊﾟｰﾌﾟﾙ)", 
      "base_fruit": 25, 
-     "fruit_time": 780, 
-     "sprout_time": 468, 
-     "bloom_time": 624, 
-     "experience": 5.5675, 
-     "seasons": 2, 
-     "sale_price": 15, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.11, 
+     "seasons": 1, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 624, 
+     "leaf_time": 210, 
      "seed_price": {
-      "gold": 10
+      "F_coin": 8
      }, 
      "level_need": 1
     }, 
@@ -29535,6 +29612,25 @@
      "leaf_time": 90, 
      "seed_price": {
       "F_coin": 38
+     }, 
+     "level_need": 1
+    }, 
+    "dunshengcao": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "アツモリソウ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 6.22, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 30
      }, 
      "level_need": 1
     }, 
@@ -33000,26 +33096,6 @@
      }, 
      "level_need": 1
     }, 
-    "tczimeigui": {
-     "total_time": 1080, 
-     "leaflet_time": 150, 
-     "used": false, 
-     "name": "ﾐﾘﾔﾛｰｽﾞ(ﾊﾟｰﾌﾟﾙ)", 
-     "base_fruit": 25, 
-     "fruit_time": 390, 
-     "tuchan": true, 
-     "sprout_time": 30, 
-     "bloom_time": 300, 
-     "experience": 6.11, 
-     "seasons": 1, 
-     "sale_price": 6, 
-     "increment_fruit": 25, 
-     "leaf_time": 210, 
-     "seed_price": {
-      "F_coin": 8
-     }, 
-     "level_need": 1
-    }, 
     "baiheisesansejin": {
      "total_time": 720, 
      "leaflet_time": 90, 
@@ -35338,22 +35414,22 @@
      }, 
      "level_need": 0
     }, 
-    "xiaochoue": {
-     "total_time": 1350, 
-     "leaflet_time": 150, 
+    "jitou": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "レッドヘアーピエロ", 
+     "name": "けいとう", 
      "base_fruit": 25, 
-     "fruit_time": 480, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 35, 
+     "fruit_time": 390, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 6.96, 
      "seasons": 1, 
-     "sale_price": 20, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 100
+      "F_coin": 30
      }, 
      "level_need": 1
     }, 
@@ -42977,6 +43053,44 @@
      "leaf_time": 60, 
      "level_need": 0
     }, 
+    "xionggucao": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "クマガイソウ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 7.57, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
+     "level_need": 1
+    }, 
+    "xiaochoue": {
+     "total_time": 1350, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "レッドヘアーピエロ", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 35, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 1
+    }, 
     "jiegeng": {
      "total_time": 1080, 
      "leaflet_time": 150, 
@@ -44748,6 +44862,7 @@
     "maorongkonglong", 
     "maorongshizi", 
     "yumichong", 
+    "jitou", 
     "juemingzi", 
     "kulushizi", 
     "tianxie", 
@@ -44806,7 +44921,9 @@
     "yazuihua", 
     "gangqin1", 
     "pgbjl", 
+    "dunshengcao", 
     "dongbeijincai", 
+    "gutinghua", 
     "shuijingputao", 
     "meiguoyingtao", 
     "meiguoguoqishu", 
@@ -44897,6 +45014,7 @@
     "qingtongshu", 
     "jinchahua", 
     "bawangshu", 
+    "xionggucao", 
     "xiannv", 
     "shengdanheka", 
     "shengdanjiexiangbin", 
@@ -44904,6 +45022,7 @@
     "shengdandongqinghua", 
     "shengdanmeigui", 
     "naiyou", 
+    "xianrencao", 
     "heisuankuai", 
     "bale", 
     "gangqin2", 
@@ -44918,6 +45037,7 @@
     "dangaohua", 
     "daqingshu", 
     "chunshihu", 
+    "taitao", 
     "yehehua", 
     "bosiju", 
     "hudiehuaxin", 
