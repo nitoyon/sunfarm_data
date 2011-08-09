@@ -2427,6 +2427,67 @@
      }
     }
    }, 
+   "gaodanglibaoold": {
+    "config": {
+     "price": {
+      "F_coin": 318
+     }, 
+     "used": false, 
+     "goods_str": "320Kコイン相当のアイテムが含まれています。", 
+     "name": "高級ギフトセット", 
+     "introduce": "320Kコイン相当のアイテムが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "mianhua": [
+        1, 
+        1.0
+       ], 
+       "bayinhe6": [
+        1, 
+        1.0
+       ], 
+       "binglinghua": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ], 
+       "jinsexiaomifeng": [
+        1, 
+        1.0
+       ], 
+       "changbozi": [
+        1, 
+        1.0
+       ], 
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "huiyuan": {
     "config": {
      "price": {
@@ -48153,6 +48214,7 @@
    "crops_tudoudunzhurou_gift", 
    "crops_zhugunongtangmian_gift", 
    "crops_qianlima_gift", 
+   "gaodanglibaoold", 
    "huiyuan", 
    "gb_1", 
    "crops_jidanbing_gift", 
