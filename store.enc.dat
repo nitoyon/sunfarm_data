@@ -22060,25 +22060,24 @@
      }, 
      "level_need": 1
     }, 
-    "caidanb": {
-     "total_time": 840, 
-     "leaflet_time": 90, 
-     "used": true, 
-     "name": "ぷんぷんｲｰｽﾀｰ", 
+    "helanjiezi": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "オランダガラシ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "tuchan": true, 
-     "sprout_time": 30, 
-     "bloom_time": 210, 
-     "experience": 5.7, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 5.33, 
      "seasons": 1, 
-     "sale_price": 7, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 10
+      "gold": 10
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "xianrencao": {
      "total_time": 810, 
@@ -23462,6 +23461,26 @@
      }, 
      "level_need": 0
     }, 
+    "ergongjincilang": {
+     "total_time": 2245, 
+     "leaflet_time": 317, 
+     "used": true, 
+     "name": "二宮金子", 
+     "base_fruit": 25, 
+     "fruit_time": 746, 
+     "tuchan": true, 
+     "sprout_time": 308, 
+     "bloom_time": 427, 
+     "experience": 6.53, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 437, 
+     "seed_price": {
+      "F_coin": 10
+     }, 
+     "level_need": 1
+    }, 
     "caidanc": {
      "total_time": 825, 
      "leaflet_time": 90, 
@@ -24396,25 +24415,6 @@
       "F_coin": 15
      }, 
      "level_need": 1
-    }, 
-    "hanying": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "寒桜", 
-     "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 13, 
-     "seasons": 1, 
-     "sale_price": 16, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 25
-     }, 
-     "level_need": 0
     }, 
     "bosijuhong": {
      "total_time": 720, 
@@ -27751,25 +27751,24 @@
      }, 
      "level_need": 1
     }, 
-    "niudanfen": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "bajiaohuixiang": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "レッドイースターチューリップ", 
+     "name": "トウシキミ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。レッドイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
-     "increment_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
      "bloom_time": 330, 
-     "experience": 8, 
+     "experience": 5.33, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 50
+      "gold": 10
      }, 
-     "leaf_time": 330, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "jingzhichahua": {
      "total_time": 630, 
@@ -28826,6 +28825,25 @@
      }, 
      "level_need": 0
     }, 
+    "pielan": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "コールラビ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 5.33, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "gold": 10
+     }, 
+     "level_need": 1
+    }, 
     "yaoqianshu": {
      "total_time": 900, 
      "leaflet_time": 180, 
@@ -29077,22 +29095,22 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "yehehua": {
-     "total_time": 510, 
+    "tongcai": {
+     "total_time": 960, 
      "leaflet_time": 60, 
      "used": false, 
-     "name": "ココマグノリア", 
+     "name": "ヨウサイ", 
      "base_fruit": 25, 
-     "fruit_time": 180, 
-     "sprout_time": 30, 
-     "bloom_time": 150, 
-     "experience": 4.5, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 5.33, 
      "seasons": 1, 
      "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 90, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 38
+      "gold": 10
      }, 
      "level_need": 1
     }, 
@@ -30159,22 +30177,22 @@
      }, 
      "level_need": 30
     }, 
-    "lanqiansuitang": {
-     "total_time": 730, 
-     "leaflet_time": 90, 
-     "used": false, 
-     "name": "ブルーベリーの千歳飴", 
+    "jiecai": {
+     "total_time": 630, 
+     "leaflet_time": 60, 
+     "used": true, 
+     "name": "カラシナ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 10, 
-     "bloom_time": 150, 
-     "experience": 6, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 120, 
+     "experience": 2.99, 
      "seasons": 1, 
-     "sale_price": 9, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 120, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 15
      }, 
      "level_need": 1
     }, 
@@ -30183,6 +30201,25 @@
      "leaflet_time": 60, 
      "used": false, 
      "name": "ヨルガオ", 
+     "base_fruit": 25, 
+     "fruit_time": 180, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4.5, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 38
+     }, 
+     "level_need": 1
+    }, 
+    "yehehua": {
+     "total_time": 510, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ココマグノリア", 
      "base_fruit": 25, 
      "fruit_time": 180, 
      "sprout_time": 30, 
@@ -31724,6 +31761,26 @@
      "seed_price": {
       "F_coin": 30
      }, 
+     "level_need": 0
+    }, 
+    "tdysfen": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "桃の提灯桜", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。桃の提灯桜を手に入れました。5種の提灯桜を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "guoguangpingguo": {
@@ -34045,6 +34102,25 @@
      }, 
      "level_need": 37
     }, 
+    "yingtaocaomei": {
+     "total_time": 570, 
+     "leaflet_time": 30, 
+     "used": false, 
+     "name": "チェリーいちご", 
+     "base_fruit": 25, 
+     "fruit_time": 210, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 90
+     }, 
+     "level_need": 1
+    }, 
     "jasmine": {
      "total_time": 840, 
      "leaflet_time": 126, 
@@ -35379,22 +35455,23 @@
      }, 
      "level_need": 1
     }, 
-    "yanhusuo": {
-     "total_time": 665, 
+    "caidanb": {
+     "total_time": 840, 
      "leaflet_time": 90, 
-     "used": false, 
-     "name": "エンゴサク", 
+     "used": true, 
+     "name": "ぷんぷんｲｰｽﾀｰ", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 10, 
-     "bloom_time": 145, 
-     "experience": 9, 
+     "fruit_time": 360, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 5.7, 
      "seasons": 1, 
-     "sale_price": 9, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 120, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 10
      }, 
      "level_need": 0
     }, 
@@ -35707,23 +35784,22 @@
      }, 
      "level_need": 1
     }, 
-    "ergongjincilang": {
-     "total_time": 2245, 
-     "leaflet_time": 317, 
-     "used": true, 
-     "name": "二宮金子", 
+    "yecai": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ブロッコリー", 
      "base_fruit": 25, 
-     "fruit_time": 746, 
-     "tuchan": true, 
-     "sprout_time": 308, 
-     "bloom_time": 427, 
-     "experience": 6.53, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 12.63, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 437, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 10
+      "F_coin": 50
      }, 
      "level_need": 1
     }, 
@@ -36572,25 +36648,24 @@
      }, 
      "level_need": 0
     }, 
-    "tdysfen": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "foshougua": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "桃の提灯桜", 
+     "name": "ハヤトウリ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。桃の提灯桜を手に入れました。5種の提灯桜を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
-     "increment_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
      "bloom_time": 330, 
-     "experience": 8, 
+     "experience": 5.33, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 50
+      "gold": 10
      }, 
-     "leaf_time": 330, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "yangdihuang": {
      "total_time": 960, 
@@ -36613,24 +36688,24 @@
      "leaf_time": 120, 
      "level_need": 21
     }, 
-    "jiecai": {
-     "total_time": 630, 
-     "leaflet_time": 60, 
-     "used": true, 
-     "name": "カラシナ", 
+    "hanying": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "寒桜", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 30, 
-     "bloom_time": 120, 
-     "experience": 2.99, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
      "seasons": 1, 
-     "sale_price": 4, 
+     "sale_price": 16, 
      "increment_fruit": 25, 
-     "leaf_time": 120, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 25
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "caoliao": {
      "total_time": 1440, 
@@ -40941,6 +41016,26 @@
      }, 
      "level_need": 0
     }, 
+    "niudanfen": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "レッドイースターチューリップ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。レッドイースターチューリップを手に入れました。5種のイースターチューリップを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "lanzuanshu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -41540,22 +41635,22 @@
      }, 
      "level_need": 1
     }, 
-    "tusanyecao": {
-     "total_time": 5, 
-     "leaflet_time": 1, 
+    "yanhusuo": {
+     "total_time": 665, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "図鑑のクローバー", 
+     "name": "エンゴサク", 
      "base_fruit": 25, 
-     "fruit_time": 1, 
-     "sprout_time": 1, 
-     "bloom_time": 1, 
-     "experience": 0.6, 
+     "fruit_time": 300, 
+     "sprout_time": 10, 
+     "bloom_time": 145, 
+     "experience": 9, 
      "seasons": 1, 
-     "sale_price": 1, 
+     "sale_price": 9, 
      "increment_fruit": 25, 
-     "leaf_time": 1, 
+     "leaf_time": 120, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 50
      }, 
      "level_need": 0
     }, 
@@ -42112,24 +42207,24 @@
      }, 
      "level_need": 32
     }, 
-    "yingtaocaomei": {
-     "total_time": 570, 
-     "leaflet_time": 30, 
+    "tusanyecao": {
+     "total_time": 5, 
+     "leaflet_time": 1, 
      "used": false, 
-     "name": "チェリーいちご", 
+     "name": "図鑑のクローバー", 
      "base_fruit": 25, 
-     "fruit_time": 210, 
-     "sprout_time": 30, 
-     "bloom_time": 150, 
-     "experience": 4, 
+     "fruit_time": 1, 
+     "sprout_time": 1, 
+     "bloom_time": 1, 
+     "experience": 0.6, 
      "seasons": 1, 
-     "sale_price": 4, 
+     "sale_price": 1, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 1, 
      "seed_price": {
-      "F_coin": 90
+      "F_coin": 1
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "shicheju": {
      "total_time": 720, 
@@ -43140,6 +43235,25 @@
      "leaf_time": 150, 
      "seed_price": {
       "F_coin": 30
+     }, 
+     "level_need": 1
+    }, 
+    "lanqiansuitang": {
+     "total_time": 730, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ブルーベリーの千歳飴", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 150, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -45597,6 +45711,7 @@
     "xiaochoua", 
     "lanqiansuitang", 
     "yanhuaer", 
+    "yecai", 
     "youzi", 
     "sanyemei", 
     "xinxingqiaokeli", 
@@ -45951,6 +46066,7 @@
     "luhui", 
     "qiukuishala", 
     "qiukuibiandang", 
+    "helanjiezi", 
     "juxianghuacha", 
     "hongdoulianrubaobing", 
     "caomeilianrubaobing", 
@@ -45959,6 +46075,7 @@
     "fkmg", 
     "xingyuncao", 
     "kafeitilamisu", 
+    "pielan", 
     "naiyouyumitang", 
     "yingtaodangao", 
     "xilengniupai", 
@@ -45970,6 +46087,7 @@
     "tilamisu", 
     "dongguadunpaigu", 
     "dongguapaigutang", 
+    "bajiaohuixiang", 
     "naiyoukaoyumi", 
     "liulian", 
     "fanqieniurouyimian", 
@@ -45979,6 +46097,7 @@
     "jingzhibuouzhu", 
     "jingzhibuouqie", 
     "cong", 
+    "foshougua", 
     "xinxingcao", 
     "hulu", 
     "feiliniupai", 
@@ -46010,6 +46129,7 @@
     "qianqucai", 
     "fanqieroujiangmian", 
     "zhuzixin", 
+    "tongcai", 
     "longshelan", 
     "wangyoucao", 
     "buouniu", 
