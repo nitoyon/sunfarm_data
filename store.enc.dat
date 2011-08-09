@@ -18467,26 +18467,19 @@
     "activity_type": "discount"
    }, 
    "ziluolan": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
     "name": "謎のバイオレット", 
     "price": {
-     "num": 15, 
+     "num": 25, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日3時間", 
-    "end_time": 1312878600.0, 
     "goods_description": "バイオレット、あなたが植えているのは何色かな？", 
-    "start_time": 1312522200.0, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "jiucaixin": {
     "specific_type": "re", 
@@ -18537,7 +18530,10 @@
     "activity_type": "discount"
    }, 
    "huangjinzhoutujianbaoxiang": {
-    "specific_type": "re", 
+    "original_price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -18547,9 +18543,13 @@
      "num": 45, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日3時間", 
+    "end_time": 1313137800.0, 
     "goods_description": "100％の確率でオジギソウ*1，カスミソウ*1，ムラサキカタバミ*1，オダマキ*1，スイレン*1を入手できます。", 
-    "activity_type": "discount"
+    "start_time": 1312867800.0, 
+    "activity_type": "hot_sale"
    }, 
    "hammer": {
     "product_type": {
@@ -36072,7 +36072,7 @@
      "seasons": 1, 
      "sale_price": 13, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 25
      }, 
      "leaf_time": 240, 
      "level_need": 1
