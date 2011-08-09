@@ -2427,6 +2427,67 @@
      }
     }
    }, 
+   "gaodanglibaoold": {
+    "config": {
+     "price": {
+      "F_coin": 318
+     }, 
+     "used": false, 
+     "goods_str": "320K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002", 
+     "name": "\u9ad8\u7d1a\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8", 
+     "introduce": "320K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "mianhua": [
+        1, 
+        1.0
+       ], 
+       "bayinhe6": [
+        1, 
+        1.0
+       ], 
+       "binglinghua": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ], 
+       "jinsexiaomifeng": [
+        1, 
+        1.0
+       ], 
+       "changbozi": [
+        1, 
+        1.0
+       ], 
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "huiyuan": {
     "config": {
      "price": {
@@ -48153,6 +48214,7 @@
    "crops_tudoudunzhurou_gift", 
    "crops_zhugunongtangmian_gift", 
    "crops_qianlima_gift", 
+   "gaodanglibaoold", 
    "huiyuan", 
    "gb_1", 
    "crops_jidanbing_gift", 
