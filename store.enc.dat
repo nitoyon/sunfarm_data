@@ -5955,7 +5955,7 @@
    "qiyuebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 8
      }, 
      "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
@@ -12747,7 +12747,7 @@
    "shenqibaotu": {
     "config": {
      "price": {
-      "F_coin": 60
+      "F_coin": 50
      }, 
      "used": true, 
      "goods_str": "魔法の種への行き方が書かれていて、魔法の種を見つけられるかもしれない。", 
@@ -18482,19 +18482,26 @@
   ], 
   "hot_sale": {
    "qiyuebaoxiang": {
-    "specific_type": "re", 
+    "original_price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "7月の宝箱", 
     "price": {
-     "num": 10, 
+     "num": 8, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日23時間30分", 
+    "end_time": 1313139600.0, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "start_time": 1312968600.0, 
+    "activity_type": "hot_sale"
    }, 
    "huafeibao1": {
     "specific_type": "re", 
@@ -18527,6 +18534,21 @@
     "goods_description": "成熟したカエンボクの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
+   "liuyuebaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "6月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "", 
+    "activity_type": "discount"
+   }, 
    "ziluolan": {
     "specific_type": "re", 
     "product_type": {
@@ -18557,22 +18579,26 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "crystal9": {
+   "shenqibaotu": {
+    "original_price": {
+     "num": 60, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "8月クリスタル", 
-    "start_time": 1311989400.0, 
+    "name": "魔法の種の地図", 
+    "price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "11日7時間30分", 
-    "end_time": 1312966800.0, 
-    "goods_description": "8月クリスタル", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
+    "limit_time": "1日23時間30分", 
+    "end_time": 1313139600.0, 
+    "goods_description": "魔法の種への行き方が書かれていて、魔法の種を見つけられるかもしれない。", 
+    "start_time": 1312968600.0, 
     "activity_type": "hot_sale"
    }, 
    "qiqiutuzibaoxiang": {
@@ -18610,24 +18636,6 @@
     "end_time": 1313137800.0, 
     "goods_description": "100％の確率でオジギソウ*1，カスミソウ*1，ムラサキカタバミ*1，オダマキ*1，スイレン*1を入手できます。", 
     "start_time": 1312867800.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ハンマー", 
-    "start_time": 1311989400.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "11日7時間30分", 
-    "end_time": 1312966800.0, 
-    "goods_description": "クリスタルを開けることができます。", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
     "activity_type": "hot_sale"
    }
   }, 
