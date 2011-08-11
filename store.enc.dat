@@ -1027,6 +1027,51 @@
      }
     }
    }, 
+   "libaochengxin": {
+    "config": {
+     "price": {
+      "F_coin": 158
+     }, 
+     "used": false, 
+     "goods_str": "セキチク、ホワイトうさぎ、ウルトラ肥料４個、ハムスターが含まれています、一定の確率で鯉のぼり(こ)を獲得することができます。", 
+     "name": "イエローギフトセット", 
+     "introduce": "セキチク、ホワイトうさぎ、ウルトラ肥料４個、ハムスターが含まれています、一定の確率で鯉のぼり(こ)を獲得することができます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "chengseliyuqi": [
+        1, 
+        1.0
+       ], 
+       "shizhuhua": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         4, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ], 
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "chaozhilibao": {
     "config": {
      "used": true, 
@@ -1613,6 +1658,47 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "libaolanxin": {
+    "config": {
+     "price": {
+      "F_coin": 85
+     }, 
+     "used": false, 
+     "goods_str": "アベリア、ホワイトうさぎ、ウルトラ肥料２個が含まれています、一定の確率で鯉のぼり(も)を獲得することができます。", 
+     "name": "ブルーギフトセット", 
+     "introduce": "アベリア、ホワイトうさぎ、ウルトラ肥料２個が含まれています、一定の確率で鯉のぼり(も)を獲得することができます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "lanseliyuqi": [
+        1, 
+        1.0
+       ], 
+       "nuomitiao": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ]
       }
      }
     }
@@ -2541,6 +2627,47 @@
      }
     }
    }, 
+   "libaohongxin": {
+    "config": {
+     "price": {
+      "F_coin": 39
+     }, 
+     "used": false, 
+     "goods_str": "アスチルベ、高級肥料２個、コアラが含まれています、一定の確率で鯉のぼり(ど)を獲得することができます。", 
+     "name": "レッドギフトセット", 
+     "introduce": "アスチルベ、高級肥料２個、コアラが含まれています、一定の確率で鯉のぼり(ど)を獲得することができます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luoxinfu": [
+        1, 
+        1.0
+       ], 
+       "huangseliyuqi": [
+        1, 
+        0.3
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "shudaixiong": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "tdysniudanbao": {
     "config": {
      "price": {
@@ -2742,6 +2869,39 @@
         1, 
         1.0
        ]
+      }
+     }
+    }
+   }, 
+   "libaofenxin": {
+    "config": {
+     "price": {
+      "F_coin": 29
+     }, 
+     "used": false, 
+     "goods_str": "サザンカ、高級肥料が含まれています、一定の確率で鯉のぼり(日)を獲得することができます。", 
+     "name": "ピンクギフトセット", 
+     "introduce": "サザンカ、高級肥料が含まれています、一定の確率で鯉のぼり(日)を獲得することができます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "ziseliyuqi": [
+        1, 
+        0.3
+       ], 
+       "chamei": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         1, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -2991,6 +3151,47 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "libaolvxin": {
+    "config": {
+     "price": {
+      "F_coin": 65
+     }, 
+     "used": false, 
+     "goods_str": "キワタ、ハムスター、ウルトラ肥料が含まれています、一定の確率で鯉のぼり(の)を獲得することができます。", 
+     "name": "グリーンギフトセット", 
+     "introduce": "キワタ、ハムスター、ウルトラ肥料が含まれています、一定の確率で鯉のぼり(の)を獲得することができます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "mumian": [
+        1, 
+        1.0
+       ], 
+       "lvseliyuqi": [
+        1, 
+        0.5
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "cangshu": [
+        1, 
+        1.0
+       ]
       }
      }
     }
@@ -3300,6 +3501,71 @@
         1.0
        ], 
        "bosiju": [
+        1, 
+        1.0
+       ], 
+       "binglinghua": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ], 
+       "jinsexiaomifeng": [
+        1, 
+        1.0
+       ], 
+       "changbozi": [
+        1, 
+        1.0
+       ], 
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
+   "gaojixin": {
+    "config": {
+     "price": {
+      "F_coin": 333
+     }, 
+     "used": false, 
+     "goods_str": "333Kコイン相当のアイテムが含まれています。", 
+     "name": "高級ギフトセット", 
+     "introduce": "333Kコイン相当のアイテムが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "maogen": [
+        1, 
+        1.0
+       ], 
+       "shenqijianlan": [
+        1, 
+        1.0
+       ], 
+       "sansejin": [
         1, 
         1.0
        ], 
@@ -48183,13 +48449,14 @@
    "guoqinglibao", 
    "juice_huluobosu_gift", 
    "gaojisiliaobao", 
+   "crops_tianyuanji_gift", 
    "fuhuoniudanbao", 
    "lanbao1", 
    "crops_xiangkaoyangpai_gift", 
    "xuyuanlibao5", 
    "gb_3", 
    "crops_qiukuishala_gift", 
-   "crops_tianyuanji_gift", 
+   "libaochengxin", 
    "yinghuashulibao", 
    "crops_shishutianfuluo_gift", 
    "crops_zhuomuniao_gift", 
@@ -48206,6 +48473,7 @@
    "hb_3", 
    "hb_2", 
    "yuetulibao", 
+   "libaolanxin", 
    "crops_youlicishen_gift", 
    "crops_naiyou_gift", 
    "fensebao1", 
@@ -48226,6 +48494,7 @@
    "huiyuan", 
    "gb_1", 
    "crops_jidanbing_gift", 
+   "libaohongxin", 
    "crops_pingguopai_gift", 
    "tdysniudanbao", 
    "gaojifeiliaobao", 
@@ -48234,12 +48503,14 @@
    "laohujizhongzibao", 
    "crops_zhishimianbaogan_gift", 
    "crops_moguniurouchaofan_gift", 
+   "libaofenxin", 
    "crops_hongtang_gift", 
    "yekonglibao", 
    "crops_zhuanjiyindanji_gift", 
    "crops_lajiaoyou_gift", 
    "shuiguoniudanlibao", 
    "zonghefeiliaobao", 
+   "libaolvxin", 
    "crops_fanqieguopu_gift", 
    "laohujidongwubao", 
    "crops_fanqieroujiangmian_gift", 
@@ -48256,6 +48527,7 @@
    "crops_emozhixin_gift", 
    "gaodanglibao", 
    "crops_jiangbaojiding_gift", 
+   "gaojixin", 
    "crops_zhishijumogu_gift", 
    "crops_xilengniupai_gift", 
    "crops_ziteng_gift", 
