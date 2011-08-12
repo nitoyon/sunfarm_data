@@ -915,30 +915,35 @@
      }
     }
    }, 
-   "gb_2": {
+   "xuyuanlibao5": {
     "config": {
      "price": {
-      "F_coin": 60
+      "F_coin": 30
      }, 
      "used": false, 
-     "goods_str": "\u8349\u83933\u4e2a\u3001\u8461\u84043\u4e2a\u3001\u9ec4\u91d1\u74dc3\u4e2a\u3001\u9ad8\u901f\u5316\u80a510\u4e2a", 
-     "name": "\u7a2e\u30bb\u30c3\u30c8"
+     "goods_str": "\u3059\u3068\u308c\u3061\u3042\u306e\u7a2e5\u500b\u3001\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01", 
+     "name": "\u8cde\u54c1e", 
+     "introduce": "\u3059\u3068\u308c\u3061\u3042\u306e\u7a2e5\u500b\u3001\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "strawberry": 3, 
-       "grapes": 3, 
-       "goldenmelon": 3
+       "tiantangniao": [
+        5, 
+        1.0
+       ]
       }, 
       "properties": {
        "fertilizer": {
-        "gaosu": 10
+        "xunjie": [
+         2, 
+         1.0
+        ], 
+        "xunjie1": [
+         2, 
+         1.0
+        ]
        }
-      }, 
-      "decorations": {
-       "butterfly": {}, 
-       "huaqiang": {}
       }
      }
     }
@@ -1358,6 +1363,39 @@
      }
     }
    }, 
+   "faguolibao": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "\u30d5\u30e9\u30f3\u30b9\u30e9\u30d9\u30f3\u30c0\u30fc\u306e\u7a2e2\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u3001\u521d\u7d1a\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01", 
+     "name": "\u30d5\u30e9\u30f3\u30b9\u30bb\u30c3\u30c8", 
+     "introduce": "\u30d5\u30e9\u30f3\u30b9\u30e9\u30d9\u30f3\u30c0\u30fc\u306e\u7a2e2\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u3001\u521d\u7d1a\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "xunyicao": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         2, 
+         1.0
+        ], 
+        "gaosu": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "xuyuanlibao2": {
     "config": {
      "price": {
@@ -1699,6 +1737,76 @@
         1, 
         1.0
        ]
+      }
+     }
+    }
+   }, 
+   "deguolibao": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "\u3084\u3050\u308b\u307e\u304e\u304f\u306e\u7a2e2\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u3001\u4e2d\u7d1a\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01", 
+     "name": "\u30c9\u30a4\u30c4\u30bb\u30c3\u30c8", 
+     "introduce": "\u3084\u3050\u308b\u307e\u304e\u304f\u306e\u7a2e2\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u3001\u4e2d\u7d1a\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "lanfurong": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         2, 
+         1.0
+        ], 
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "yidalilibao": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "\u96db\u83ca\u306e\u7a2e2\u500b\u3001\u521d\u7d1a\u80a5\u65992\u500b\u3001\u4e2d\u7d1a\u80a5\u65992\u500b\u3001\u9ad8\u7d1a\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01", 
+     "name": "\u30a4\u30bf\u30ea\u30a2\u30bb\u30c3\u30c8", 
+     "introduce": "\u96db\u83ca\u306e\u7a2e2\u500b\u3001\u521d\u7d1a\u80a5\u65992\u500b\u3001\u4e2d\u7d1a\u80a5\u65992\u500b\u3001\u9ad8\u7d1a\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yidalichuju": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         2, 
+         1.0
+        ], 
+        "gaoji": [
+         2, 
+         1.0
+        ], 
+        "gaosu": [
+         2, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -3196,6 +3304,35 @@
      }
     }
    }, 
+   "yingguolibao": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "\u30a4\u30ae\u30ea\u30b9\u30d0\u30e9\u306e\u7a2e2\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01", 
+     "name": "\u30a4\u30ae\u30ea\u30b9\u30bb\u30c3\u30c8", 
+     "introduce": "\u30a4\u30ae\u30ea\u30b9\u30d0\u30e9\u306e\u7a2e2\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yingguomeigui": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "laohujidongwubao": {
     "config": {
      "price": {
@@ -3609,6 +3746,35 @@
      }
     }
    }, 
+   "xibanyalibao": {
+    "config": {
+     "price": {
+      "F_coin": 20
+     }, 
+     "used": false, 
+     "goods_str": "\u3056\u304f\u308d\u306e\u7a2e2\u500b\u3001\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01", 
+     "name": "\u30b9\u30da\u30a4\u30f3\u30bb\u30c3\u30c8", 
+     "introduce": "\u3056\u304f\u308d\u306e\u7a2e2\u500b\u3001\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shiliuhua": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "huangsebao5": {
     "config": {
      "price": {
@@ -3926,35 +4092,30 @@
      }
     }
    }, 
-   "xuyuanlibao5": {
+   "gb_2": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 60
      }, 
      "used": false, 
-     "goods_str": "\u3059\u3068\u308c\u3061\u3042\u306e\u7a2e5\u500b\u3001\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01", 
-     "name": "\u8cde\u54c1e", 
-     "introduce": "\u3059\u3068\u308c\u3061\u3042\u306e\u7a2e5\u500b\u3001\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u3001\u30de\u30b8\u30c3\u30af\u80a5\u65992\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01"
+     "goods_str": "\u8349\u83933\u4e2a\u3001\u8461\u84043\u4e2a\u3001\u9ec4\u91d1\u74dc3\u4e2a\u3001\u9ad8\u901f\u5316\u80a510\u4e2a", 
+     "name": "\u7a2e\u30bb\u30c3\u30c8"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "tiantangniao": [
-        5, 
-        1.0
-       ]
+       "strawberry": 3, 
+       "grapes": 3, 
+       "goldenmelon": 3
       }, 
       "properties": {
        "fertilizer": {
-        "xunjie": [
-         2, 
-         1.0
-        ], 
-        "xunjie1": [
-         2, 
-         1.0
-        ]
+        "gaosu": 10
        }
+      }, 
+      "decorations": {
+       "butterfly": {}, 
+       "huaqiang": {}
       }
      }
     }
@@ -4427,6 +4588,51 @@
         1, 
         1.0
        ]
+      }
+     }
+    }
+   }, 
+   "ouzhoulibao": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "\u30b4\u30fc\u30b9\u30c8\u30b5\u30f3\u30b4\u3001\u30c4\u30ce\u30b5\u30f3\u30b4\u3001\u30d5\u30a1\u30a4\u30c8\u30b5\u30f3\u30b4\u3001\u30ad\u30f3\u30d4\u30ab\u30b5\u30f3\u30b4\u3001\u30d0\u30d6\u30eb\u30b5\u30f3\u30b4\u306e\u7a2e\u54041\u500b\u3001\u9ad8\u7d1a\u80a5\u65995\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01", 
+     "name": "\u30e8\u30fc\u30ed\u30c3\u30d1\u30bb\u30c3\u30c8", 
+     "introduce": "\u30b4\u30fc\u30b9\u30c8\u30b5\u30f3\u30b4\u3001\u30c4\u30ce\u30b5\u30f3\u30b4\u3001\u30d5\u30a1\u30a4\u30c8\u30b5\u30f3\u30b4\u3001\u30ad\u30f3\u30d4\u30ab\u30b5\u30f3\u30b4\u3001\u30d0\u30d6\u30eb\u30b5\u30f3\u30b4\u306e\u7a2e\u54041\u500b\u3001\u9ad8\u7d1a\u80a5\u65995\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3063\u305d\u304f\u958b\u3051\u3066\u307f\u3088\u3046\uff01"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baishanhu": [
+        1, 
+        1.0
+       ], 
+       "hongshanhu": [
+        1, 
+        1.0
+       ], 
+       "heishanhu": [
+        1, 
+        1.0
+       ], 
+       "jinshanhu": [
+        1, 
+        1.0
+       ], 
+       "lanshanhu": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -6889,6 +7095,43 @@
        "taohuamao": [
         1, 
         0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "partyfuyongyitujianbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 50
+     }, 
+     "used": true, 
+     "goods_str": "100\uff05\u306e\u78ba\u7387\u3067\u306b\u3093\u306b\u304f*1\uff0c\u3046\u3069*1\uff0c\u30ec\u30bf\u30b9*1\uff0c\u660e\u65e5\u8449*1\uff0c\u30a8\u30ea\u30f3\u30ae*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
+     "name": "\uff16\u6708\u91ce\u83dc\u30d1\u30fc\u30c6\u30a3\u30fc\u306e\u56f3\u9451\u5b9d\u7bb1", 
+     "introduce": "100\uff05\u306e\u78ba\u7387\u3067\u306b\u3093\u306b\u304f*1\uff0c\u3046\u3069*1\uff0c\u30ec\u30bf\u30b9*1\uff0c\u660e\u65e5\u8449*1\uff0c\u30a8\u30ea\u30f3\u30ae*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "tudanggui": [
+        1, 
+        1
+       ], 
+       "shengcai": [
+        1, 
+        1
+       ], 
+       "dasuanparty": [
+        1, 
+        1
+       ], 
+       "mingriye": [
+        1, 
+        1
+       ], 
+       "xingbaogu": [
+        1, 
+        1
        ]
       }
      }
@@ -10006,6 +10249,43 @@
      }
     }
    }, 
+   "caomeishuijingtujianbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 50
+     }, 
+     "used": true, 
+     "goods_str": "100\uff05\u306e\u78ba\u7387\u3067\u6843\u82b1\u3044\u3061\u3054*1\uff0c\u6731\u82b1\u3044\u3061\u3054*1\uff0c\u9ec4\u82b1\u3044\u3061\u3054*1\uff0c\u9752\u82b1\u3044\u3061\u3054*1\uff0c\u7d2b\u82b1\u3044\u3061\u3054*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
+     "name": "\u30af\u30ea\u30b9\u30bf\u30eb\u3044\u3061\u3054\u306e\u56f3\u9451\u5b9d\u7bb1", 
+     "introduce": "100\uff05\u306e\u78ba\u7387\u3067\u6843\u82b1\u3044\u3061\u3054*1\uff0c\u6731\u82b1\u3044\u3061\u3054*1\uff0c\u9ec4\u82b1\u3044\u3061\u3054*1\uff0c\u9752\u82b1\u3044\u3061\u3054*1\uff0c\u7d2b\u82b1\u3044\u3061\u3054*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "hongsehuacaomei": [
+        1, 
+        1
+       ], 
+       "fenbaisehuacaomei": [
+        1, 
+        1
+       ], 
+       "zisehuacaomei": [
+        1, 
+        1
+       ], 
+       "huangsehuacaomei": [
+        1, 
+        1
+       ], 
+       "lansehuacaomei": [
+        1, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "fudai3": {
     "config": {
      "price": {
@@ -12348,6 +12628,43 @@
        "wushi": [
         1, 
         0.03
+       ]
+      }
+     }
+    }
+   }, 
+   "huangjinzhouerqitujianbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 50
+     }, 
+     "used": true, 
+     "goods_str": "100\uff05\u306e\u78ba\u7387\u3067\u7d2b\u305f\u307e\u306d\u304e*1\uff0c\u3064\u308b\u3080\u3089\u3055\u304d*1\uff0c\u307f\u3087\u3046\u304c*1\uff0c\u30ba\u30c3\u30ad\u30fc\u30cb*1\uff0c\u305d\u3089\u8c46*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
+     "name": "\u30a4\u30d9\u30f3\u30c8\u30a2\u30a4\u30c6\u30e0\u306e\u56f3\u9451\u5b9d\u7bb1", 
+     "introduce": "100\uff05\u306e\u78ba\u7387\u3067\u7d2b\u305f\u307e\u306d\u304e*1\uff0c\u3064\u308b\u3080\u3089\u3055\u304d*1\uff0c\u307f\u3087\u3046\u304c*1\uff0c\u30ba\u30c3\u30ad\u30fc\u30cb*1\uff0c\u305d\u3089\u8c46*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "minghe": [
+        1, 
+        1
+       ], 
+       "yangcongxin": [
+        1, 
+        1
+       ], 
+       "chandou": [
+        1, 
+        1
+       ], 
+       "xiajinangua": [
+        1, 
+        1
+       ], 
+       "luokui": [
+        1, 
+        1
        ]
       }
      }
@@ -18985,6 +19302,25 @@
      }, 
      "level_need": 0
     }, 
+    "ouzhouzhixing": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u30e8\u30fc\u30ed\u30c3\u30d1\u306e\u30b9\u30bf\u30fc", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 14.63, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 1
+    }, 
     "maotouying": {
      "total_time": 720, 
      "leaflet_time": 80, 
@@ -20488,6 +20824,25 @@
      "leaf_time": 150, 
      "seed_price": {
       "F_coin": 15
+     }, 
+     "level_need": 1
+    }, 
+    "feizhouzhixing": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u30a2\u30d5\u30ea\u30ab\u306e\u30b9\u30bf\u30fc", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 14.63, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 50
      }, 
      "level_need": 1
     }, 
@@ -22249,6 +22604,25 @@
      }, 
      "level_need": 1
     }, 
+    "yidalichuju": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u96db\u83ca", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 10.33, 
+     "seasons": 1, 
+     "sale_price": 11, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 35
+     }, 
+     "level_need": 1
+    }, 
     "cuiju": {
      "total_time": 3000, 
      "leaflet_time": 510, 
@@ -23198,43 +23572,42 @@
      }, 
      "level_need": 40
     }, 
-    "hongsegesanghua": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "jinniuzuodeshu": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "\u30ec\u30c3\u30c9\u30c4\u30c4\u30b8", 
+     "name": "\u304a\u3046\u3057\u5ea7\u306e\u6728", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u30ec\u30c3\u30c9\u30c4\u30c4\u30b8\u3092\u624b\u306b\u5165\u308c\u307e\u3057\u305f\u30025\u7a2e\u306e\u30c4\u30c4\u30b8\u3092\u96c6\u3081\u308c\u3070\u3001500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002", 
-     "increment_fruit": 25, 
-     "bloom_time": 330, 
-     "experience": 8, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.38, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 8
      }, 
-     "leaf_time": 330, 
-     "level_need": 0
+     "level_need": 1
     }, 
-    "lamianshu": {
-     "total_time": 780, 
+    "xiazihua": {
+     "total_time": 660, 
      "leaflet_time": 90, 
      "used": false, 
-     "name": "\u30ab\u30c3\u30d7\u9eba\u306e\u6728", 
+     "name": "\u30a6\u30c3\u30c9\u30d5\u30a9\u30c7\u30a3\u30a2", 
      "base_fruit": 25, 
      "fruit_time": 300, 
-     "tuchan": true, 
-     "sprout_time": 90, 
+     "sprout_time": 30, 
      "bloom_time": 150, 
-     "experience": 5.02, 
+     "experience": 5, 
      "seasons": 1, 
-     "sale_price": 5, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 90, 
      "seed_price": {
-      "F_coin": 10
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -25363,24 +25736,24 @@
      }, 
      "level_need": 0
     }, 
-    "shuilianxin": {
-     "total_time": 1410, 
+    "shuijingqiu": {
+     "total_time": 750, 
      "leaflet_time": 150, 
      "used": false, 
-     "name": "\u3059\u3044\u308c\u3093", 
+     "name": "\u6c34\u6676\u7389", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 8, 
+     "fruit_time": 150, 
+     "sprout_time": 150, 
+     "bloom_time": 150, 
+     "experience": 2, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 20
+      "gold": 1
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "shirenhua": {
      "total_time": 1080, 
@@ -28890,6 +29263,25 @@
      }, 
      "level_need": 1
     }, 
+    "dayangzhouzhixing": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u30aa\u30bb\u30a2\u30cb\u30a2\u306e\u30b9\u30bf\u30fc", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 14.63, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 1
+    }, 
     "caijiaozhanshilanse": {
      "total_time": 1220, 
      "leaflet_time": 120, 
@@ -28948,24 +29340,24 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "shuijingqiu": {
-     "total_time": 750, 
+    "shuilianxin": {
+     "total_time": 1410, 
      "leaflet_time": 150, 
      "used": false, 
-     "name": "\u6c34\u6676\u7389", 
+     "name": "\u3059\u3044\u308c\u3093", 
      "base_fruit": 25, 
-     "fruit_time": 150, 
-     "sprout_time": 150, 
-     "bloom_time": 150, 
-     "experience": 2, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
      "seasons": 1, 
-     "sale_price": 4, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 1
+      "F_coin": 20
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "ginseng": {
      "total_time": 4740, 
@@ -29388,6 +29780,25 @@
       "F_coin": 999
      }, 
      "level_need": 0
+    }, 
+    "xunyicao": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u30d5\u30e9\u30f3\u30b9\u30e9\u30d9\u30f3\u30c0\u30fc", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 8.33, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
     }, 
     "yanhuawu": {
      "total_time": 660, 
@@ -30598,24 +31009,24 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "mantianxing": {
-     "total_time": 810, 
-     "leaflet_time": 90, 
+    "ningmengxiongmao": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "\u30ab\u30b9\u30df\u30bd\u30a6", 
+     "name": "\u30ec\u30e2\u30f3\u30d1\u30f3\u30c0", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 30, 
-     "bloom_time": 210, 
-     "experience": 4, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
      "seasons": 1, 
-     "sale_price": 6, 
+     "sale_price": 30, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 60
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "heibulun": {
      "total_time": 870, 
@@ -33348,6 +33759,25 @@
      "leaf_time": 120, 
      "level_need": 1
     }, 
+    "meizhouzhixing": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u30a2\u30e1\u30ea\u30ab\u5dde\u306e\u30b9\u30bf\u30fc", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 14.63, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 1
+    }, 
     "machixian": {
      "total_time": 630, 
      "leaflet_time": 60, 
@@ -35265,6 +35695,25 @@
      }, 
      "level_need": 0
     }, 
+    "shiliuhua": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u3056\u304f\u308d", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 5.33, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "level_need": 1
+    }, 
     "hunheshuiguodangao": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -36064,26 +36513,24 @@
      }, 
      "level_need": 1
     }, 
-    "chashu": {
-     "total_time": 360, 
-     "leaflet_time": 30, 
-     "used": true, 
-     "name": "\u30c1\u30e3\u30ce\u30ad", 
-     "base_fruit": 25, 
-     "fruit_time": 120, 
-     "bloom_time": 90, 
-     "recipe": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u8336\u8449", 
-     "sprout_time": 30, 
-     "state": "xin", 
-     "experience": 3, 
-     "seasons": 1, 
-     "sale_price": 5, 
-     "increment_fruit": 25, 
-     "leaf_time": 90, 
+    "eggplant": {
+     "total_time": 780, 
+     "leaflet_time": 78, 
      "seed_price": {
-      "F_coin": 5
+      "gold": 43
      }, 
-     "level_need": 1
+     "name": "\u30ca\u30b9", 
+     "base_fruit": 25, 
+     "fruit_time": 302, 
+     "recipe": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u91ce\u83dc\u30b8\u30e5\u30fc\u30b9\n\u91ce\u83dc\u5929\u3077\u3089", 
+     "sprout_time": 7, 
+     "bloom_time": 198, 
+     "experience": 1.85, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 195, 
+     "level_need": 4
     }, 
     "lanyunshu": {
      "total_time": 1410, 
@@ -38263,24 +38710,24 @@
      }, 
      "level_need": 1
     }, 
-    "ningmengxiongmao": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "mantianxing": {
+     "total_time": 810, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "\u30ec\u30e2\u30f3\u30d1\u30f3\u30c0", 
+     "name": "\u30ab\u30b9\u30df\u30bd\u30a6", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 10, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 4, 
      "seasons": 1, 
-     "sale_price": 30, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 60
+      "F_coin": 15
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "bayinhe1": {
      "total_time": 720, 
@@ -38608,6 +39055,25 @@
      "sale_price": 13, 
      "increment_fruit": 25, 
      "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
+     "level_need": 1
+    }, 
+    "lanfurong": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u3084\u3050\u308b\u307e\u304e\u304f", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9.63, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
      "seed_price": {
       "F_coin": 30
      }, 
@@ -39564,6 +40030,25 @@
       "gold": 80
      }, 
      "level_need": 0
+    }, 
+    "huanqiuzhixing": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u4e16\u754c\u306e\u30b9\u30bf\u30fc", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 25.63, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 1
     }, 
     "icecreamcake": {
      "total_time": 750, 
@@ -44000,24 +44485,26 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "eggplant": {
-     "total_time": 780, 
-     "leaflet_time": 78, 
-     "seed_price": {
-      "gold": 43
-     }, 
-     "name": "\u30ca\u30b9", 
+    "chashu": {
+     "total_time": 360, 
+     "leaflet_time": 30, 
+     "used": true, 
+     "name": "\u30c1\u30e3\u30ce\u30ad", 
      "base_fruit": 25, 
-     "fruit_time": 302, 
-     "recipe": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u91ce\u83dc\u30b8\u30e5\u30fc\u30b9\n\u91ce\u83dc\u5929\u3077\u3089", 
-     "sprout_time": 7, 
-     "bloom_time": 198, 
-     "experience": 1.85, 
+     "fruit_time": 120, 
+     "bloom_time": 90, 
+     "recipe": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u8336\u8449", 
+     "sprout_time": 30, 
+     "state": "xin", 
+     "experience": 3, 
      "seasons": 1, 
-     "sale_price": 4, 
+     "sale_price": 5, 
      "increment_fruit": 25, 
-     "leaf_time": 195, 
-     "level_need": 4
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 5
+     }, 
+     "level_need": 1
     }, 
     "xingbaogu": {
      "total_time": 660, 
@@ -44174,24 +44661,24 @@
      }, 
      "level_need": 17
     }, 
-    "huangmogu": {
-     "total_time": 630, 
+    "biandang": {
+     "total_time": 480, 
      "leaflet_time": 60, 
-     "used": true, 
-     "name": "\u30bf\u30e2\u30ae\u30bf\u30b1", 
+     "used": false, 
+     "name": "\u5fa1\u7bc0", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 30, 
-     "bloom_time": 120, 
-     "experience": 3.45, 
+     "fruit_time": 150, 
+     "sprout_time": 60, 
+     "bloom_time": 150, 
+     "experience": 3, 
      "seasons": 1, 
-     "sale_price": 4, 
+     "sale_price": 15, 
      "increment_fruit": 25, 
-     "leaf_time": 120, 
+     "leaf_time": 60, 
      "seed_price": {
-      "F_coin": 30
+      "F_coin": 8
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "qicaiyunshu": {
      "total_time": 1410, 
@@ -44368,6 +44855,25 @@
      }, 
      "leaf_time": 297, 
      "level_need": 0
+    }, 
+    "yingguomeigui": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u30a4\u30ae\u30ea\u30b9\u30d0\u30e9", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 7.63, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
     }, 
     "nirendatoucai": {
      "total_time": 810, 
@@ -45199,6 +45705,25 @@
      }, 
      "level_need": 0
     }, 
+    "yazhouzhixing": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u30a2\u30b8\u30a2\u306e\u30b9\u30bf\u30fc", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 14.63, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 1
+    }, 
     "juxianghuacha": {
      "total_time": 854, 
      "leaflet_time": 164, 
@@ -45415,24 +45940,24 @@
      "leaf_time": 60, 
      "level_need": 0
     }, 
-    "biandang": {
-     "total_time": 480, 
+    "huangmogu": {
+     "total_time": 630, 
      "leaflet_time": 60, 
-     "used": false, 
-     "name": "\u5fa1\u7bc0", 
+     "used": true, 
+     "name": "\u30bf\u30e2\u30ae\u30bf\u30b1", 
      "base_fruit": 25, 
-     "fruit_time": 150, 
-     "sprout_time": 60, 
-     "bloom_time": 150, 
-     "experience": 3, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 120, 
+     "experience": 3.45, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 60, 
+     "leaf_time": 120, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 30
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "boluogulaorou": {
      "total_time": 1330, 
@@ -45492,25 +46017,25 @@
      }, 
      "level_need": 1
     }, 
-    "jinniuzuodeshu": {
-     "total_time": 1080, 
-     "leaflet_time": 150, 
+    "hongsegesanghua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "\u304a\u3046\u3057\u5ea7\u306e\u6728", 
+     "name": "\u30ec\u30c3\u30c9\u30c4\u30c4\u30b8", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "tuchan": true, 
-     "sprout_time": 30, 
-     "bloom_time": 300, 
-     "experience": 6.38, 
-     "seasons": 1, 
-     "sale_price": 6, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u30ec\u30c3\u30c9\u30c4\u30c4\u30b8\u3092\u624b\u306b\u5165\u308c\u307e\u3057\u305f\u30025\u7a2e\u306e\u30c4\u30c4\u30b8\u3092\u96c6\u3081\u308c\u3070\u3001500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002", 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 50
      }, 
-     "level_need": 1
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "yuanyitiane": {
      "total_time": 1350, 
@@ -45571,22 +46096,23 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
-    "xiazihua": {
-     "total_time": 660, 
+    "lamianshu": {
+     "total_time": 780, 
      "leaflet_time": 90, 
      "used": false, 
-     "name": "\u30a6\u30c3\u30c9\u30d5\u30a9\u30c7\u30a3\u30a2", 
+     "name": "\u30ab\u30c3\u30d7\u9eba\u306e\u6728", 
      "base_fruit": 25, 
      "fruit_time": 300, 
-     "sprout_time": 30, 
+     "tuchan": true, 
+     "sprout_time": 90, 
      "bloom_time": 150, 
-     "experience": 5, 
+     "experience": 5.02, 
      "seasons": 1, 
-     "sale_price": 7, 
+     "sale_price": 5, 
      "increment_fruit": 25, 
-     "leaf_time": 90, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 10
      }, 
      "level_need": 1
     }, 
@@ -46094,6 +46620,7 @@
     "tianxie", 
     "tianxiezuodeshu", 
     "nvhaijiehou", 
+    "shiliuhua", 
     "shizi", 
     "linglan", 
     "chandou", 
@@ -46130,6 +46657,7 @@
     "niuyouyumi", 
     "mojie", 
     "mojiezuodeshu", 
+    "lanfurong", 
     "lvqiansuitang", 
     "zhutai", 
     "mianhua", 
@@ -46145,17 +46673,20 @@
     "tongcao", 
     "ji", 
     "xiajuan", 
+    "yazhouzhixing", 
     "luoxinfu", 
     "yazuihua", 
     "gangqin1", 
     "pgbjl", 
     "dunshengcao", 
     "dongbeijincai", 
+    "feizhouzhixing", 
     "nuomitiao", 
     "gutinghua", 
     "shuijingputao", 
     "meiguoyingtao", 
     "meiguoguoqishu", 
+    "meizhouzhixing", 
     "agentingguoqishu", 
     "muyoutong", 
     "andisipuyahua", 
@@ -46173,6 +46704,7 @@
     "xiaochouc", 
     "yanhuasan", 
     "moyushao", 
+    "yingguomeigui", 
     "caomeilieche", 
     "wuhuaguo", 
     "longkui", 
@@ -46197,6 +46729,7 @@
     "baolianhua", 
     "zimoli", 
     "hanxiucao", 
+    "dayangzhouzhixing", 
     "yeshancao", 
     "diqiecao", 
     "yinyuehua", 
@@ -46427,6 +46960,7 @@
     "xunyicaocha", 
     "chahuhuacha", 
     "faguodongqing", 
+    "xunyicao", 
     "xiaocanglan", 
     "jindaihua", 
     "shugendangao", 
@@ -46499,6 +47033,7 @@
     "meitao", 
     "malantou", 
     "yueguanghua", 
+    "ouzhouzhixing", 
     "zidingxiang", 
     "fupenzi", 
     "jiaotou", 
@@ -46536,6 +47071,7 @@
     "buouyangzi", 
     "qicailiyuqi", 
     "keaisanyecao", 
+    "huanqiuzhixing", 
     "zhonghuajieyangzi", 
     "ergongjicilang", 
     "ergongjincilang", 
@@ -46682,6 +47218,7 @@
     "dazhong", 
     "changyedelaweiluobo", 
     "yanpi", 
+    "yidalichuju", 
     "xuediaohonghuli", 
     "xuediaochangjinglu", 
     "xuediaoshudaixiong", 
@@ -48769,7 +49306,7 @@
    "fuhuoniudanbao", 
    "lanbao1", 
    "crops_xiangkaoyangpai_gift", 
-   "xuyuanlibao5", 
+   "gb_2", 
    "gb_3", 
    "crops_qiukuishala_gift", 
    "libaochengxin", 
@@ -48790,6 +49327,8 @@
    "hb_2", 
    "yuetulibao", 
    "libaolanxin", 
+   "deguolibao", 
+   "yidalilibao", 
    "crops_youlicishen_gift", 
    "crops_naiyou_gift", 
    "fensebao1", 
@@ -48803,7 +49342,7 @@
    "gb_12", 
    "fenbao3", 
    "dongwu_1", 
-   "crops_tudoudunzhurou_gift", 
+   "faguolibao", 
    "crops_zhugunongtangmian_gift", 
    "crops_qianlima_gift", 
    "gaodanglibaoold", 
@@ -48819,6 +49358,7 @@
    "laohujizhongzibao", 
    "crops_zhishimianbaogan_gift", 
    "crops_moguniurouchaofan_gift", 
+   "crops_tudoudunzhurou_gift", 
    "libaofenxin", 
    "crops_hongtang_gift", 
    "yekonglibao", 
@@ -48827,7 +49367,7 @@
    "shuiguoniudanlibao", 
    "zonghefeiliaobao", 
    "libaolvxin", 
-   "crops_fanqieguopu_gift", 
+   "yingguolibao", 
    "laohujidongwubao", 
    "crops_fanqieroujiangmian_gift", 
    "huangsebao5", 
@@ -48838,6 +49378,7 @@
    "crops_qingtongshu_gift", 
    "caiseniudanlibao", 
    "juice_mangguozhi_gift", 
+   "crops_fanqieguopu_gift", 
    "chengbao2", 
    "crops_moshubang_gift", 
    "crops_emozhixin_gift", 
@@ -48846,6 +49387,7 @@
    "gaojixin", 
    "crops_zhishijumogu_gift", 
    "crops_xilengniupai_gift", 
+   "xibanyalibao", 
    "crops_ziteng_gift", 
    "crops_dongguapaigutang_gift", 
    "lvsebao3", 
@@ -48859,7 +49401,7 @@
    "gb_9", 
    "xuyuanlibao9", 
    "xuyuanlibao8", 
-   "gb_2", 
+   "xuyuanlibao5", 
    "xuyuanlibao4", 
    "xuyuanlibao7", 
    "xuyuanlibao6", 
@@ -48877,6 +49419,7 @@
    "crops_yejunhuoguo_gift", 
    "crops_xiwanghua_gift", 
    "crops_boluogulaorou_gift", 
+   "ouzhoulibao", 
    "lansebao4"
   ], 
   "mystic_bags_sort": [
@@ -48918,6 +49461,7 @@
    "mofayaoshi2", 
    "jingangcuo", 
    "shengdanlanniudan", 
+   "partyfuyongyitujianbaoxiang", 
    "chengseniudan", 
    "lajiaobaoxiang", 
    "landan", 
@@ -48970,6 +49514,7 @@
    "yinghuashulanniudan", 
    "niudanhuang", 
    "huangdan", 
+   "caomeishuijingtujianbaoxiang", 
    "fudai3", 
    "fudai2", 
    "fudai1", 
@@ -49005,6 +49550,7 @@
    "yinghuashuhongniudan", 
    "kaichunbaoxiang", 
    "hongdan", 
+   "huangjinzhouerqitujianbaoxiang", 
    "qiqiuzhubaoxiang", 
    "xinnianziniudan", 
    "tunianniudanhong", 
