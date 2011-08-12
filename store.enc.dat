@@ -6427,7 +6427,7 @@
    "qiyuebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 8
+      "F_coin": 10
      }, 
      "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
@@ -19064,6 +19064,21 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "qiyuebaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "7月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "", 
+    "activity_type": "discount"
+   }, 
    "huafeibao1": {
     "specific_type": "re", 
     "product_type": {
@@ -19116,21 +19131,6 @@
     "goods_description": "100％の確率で紫たまねぎ*1，つるむらさき*1，みょうが*1，ズッキーニ*1，そら豆*1を入手できます。", 
     "start_time": 1313141400.0, 
     "activity_type": "hot_sale"
-   }, 
-   "liuyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "6月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
    }, 
    "ziluolan": {
     "specific_type": "re", 
