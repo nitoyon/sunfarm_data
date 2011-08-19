@@ -297,7 +297,7 @@
      "used": true, 
      "name": "高級肥料セット", 
      "price": {
-      "F_coin": 30
+      "F_coin": 20
      }, 
      "introduce": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -7103,9 +7103,9 @@
    "partyfuyongyitujianbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 45
+      "F_coin": 50
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "100％の確率でにんにく*1，うど*1，レタス*1，明日葉*1，エリンギ*1を入手できます。", 
      "name": "６月野菜パーティーの図鑑宝箱", 
      "introduce": "100％の確率でにんにく*1，うど*1，レタス*1，明日葉*1，エリンギ*1を入手できます。"
@@ -7934,7 +7934,7 @@
      "price": {
       "F_coin": 50
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "100％の確率でオジギソウ*1，カスミソウ*1，ムラサキカタバミ*1，オダマキ*1，スイレン*1を入手できます。", 
      "name": "GW限定花の図鑑宝箱", 
      "introduce": "100％の確率でオジギソウ*1，カスミソウ*1，ムラサキカタバミ*1，オダマキ*1，スイレン*1を入手できます。"
@@ -8832,7 +8832,7 @@
    "bayuebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 8
+      "F_coin": 10
      }, 
      "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
@@ -10254,7 +10254,7 @@
      "price": {
       "F_coin": 50
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "100％の確率で桃花いちご*1，朱花いちご*1，黄花いちご*1，青花いちご*1，紫花いちご*1を入手できます。", 
      "name": "クリスタルいちごの図鑑宝箱", 
      "introduce": "100％の確率で桃花いちご*1，朱花いちご*1，黄花いちご*1，青花いちご*1，紫花いちご*1を入手できます。"
@@ -12638,7 +12638,7 @@
      "price": {
       "F_coin": 50
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "100％の確率で紫たまねぎ*1，つるむらさき*1，みょうが*1，ズッキーニ*1，そら豆*1を入手できます。", 
      "name": "イベントアイテムの図鑑宝箱", 
      "introduce": "100％の確率で紫たまねぎ*1，つるむらさき*1，みょうが*1，ズッキーニ*1，そら豆*1を入手できます。"
@@ -19064,6 +19064,28 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "huafeibao2": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "高級肥料セット", 
+    "price": {
+     "num": 20, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2日22時間30分", 
+    "end_time": 1314003600.0, 
+    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします", 
+    "start_time": 1313749800.0, 
+    "activity_type": "hot_sale"
+   }, 
    "qiyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -19109,28 +19131,6 @@
     "modify": false, 
     "goods_description": "成熟したトベラの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
-   }, 
-   "partyfuyongyitujianbaoxiang": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "６月野菜パーティーの図鑑宝箱", 
-    "price": {
-     "num": 45, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "2日22時間30分", 
-    "end_time": 1313744400.0, 
-    "goods_description": "100％の確率でにんにく*1，うど*1，レタス*1，明日葉*1，エリンギ*1を入手できます。", 
-    "start_time": 1313490600.0, 
-    "activity_type": "hot_sale"
    }, 
    "shenqibaotu": {
     "original_price": {
@@ -19191,19 +19191,19 @@
     "start_time": 1313571600.0, 
     "activity_type": "hot_sale"
    }, 
-   "qiqiutuzibaoxiang": {
+   "bayuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "気球の兎箱", 
+    "name": "8月の宝箱", 
     "price": {
-     "num": 24, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "中に気球の兎の赤ちゃん1匹が含まれています", 
+    "goods_description": "", 
     "activity_type": "discount"
    }, 
    "jiazhutao": {
