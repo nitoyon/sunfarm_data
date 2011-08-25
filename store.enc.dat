@@ -7103,9 +7103,9 @@
    "partyfuyongyitujianbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 50
+      "F_coin": 45
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "100％の確率でにんにく*1，うど*1，レタス*1，明日葉*1，エリンギ*1を入手できます。", 
      "name": "６月野菜パーティーの図鑑宝箱", 
      "introduce": "100％の確率でにんにく*1，うど*1，レタス*1，明日葉*1，エリンギ*1を入手できます。"
@@ -12083,6 +12083,43 @@
          0.1
         ]
        }
+      }
+     }
+    }
+   }, 
+   "houzitujianbaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 25
+     }, 
+     "used": true, 
+     "goods_str": "100％の確率でフランソワルトン*1，ポットー*1，キツネザル*1，テナガザル*1，キンシコウ*1を入手できます。", 
+     "name": "猿の図鑑宝箱", 
+     "introduce": "100％の確率でフランソワルトン*1，ポットー*1，キツネザル*1，テナガザル*1，キンシコウ*1を入手できます。"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "changbiyuan": [
+        1, 
+        0.2
+       ], 
+       "baitouyehou": [
+        1, 
+        0.2
+       ], 
+       "jinsihou": [
+        1, 
+        0.2
+       ], 
+       "shuxionghou": [
+        1, 
+        0.2
+       ], 
+       "huhou": [
+        1, 
+        0.2
+       ]
       }
      }
     }
@@ -19094,7 +19131,45 @@
     "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
-   "caomeishuijingtujianbaoxiang": {
+   "magiccardless": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック増産カード", 
+    "price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "成熟したトベラの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+    "activity_type": "discount"
+   }, 
+   "houzitujianbaoxiang": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "猿の図鑑宝箱", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1314349200.0, 
+    "goods_description": "猿の図鑑種類の中からランダムで[猿一匹]を必ずご入手いただけます。（種類の指定はできません）", 
+    "start_time": 1314262800.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "partyfuyongyitujianbaoxiang": {
     "original_price": {
      "num": 50, 
      "type": "F_coin"
@@ -19103,17 +19178,17 @@
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "クリスタルいちごの図鑑宝箱", 
+    "name": "６月野菜パーティーの図鑑宝箱", 
     "price": {
      "num": 45, 
      "type": "F_coin"
     }, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1314262800.0, 
-    "goods_description": "", 
-    "start_time": 1314003600.0, 
+    "limit_time": "23時間30分", 
+    "end_time": 1314349200.0, 
+    "goods_description": "100％の確率でにんにく*1，うど*1，レタス*1，明日葉*1，エリンギ*1を入手できます。", 
+    "start_time": 1314264600.0, 
     "activity_type": "hot_sale"
    }, 
    "bayuebaoxiang": {
@@ -19146,48 +19221,23 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "shucaipartytujianbaoxiang": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
+   "liulimao": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "dog"
     }, 
-    "name": "野菜パーティーの図鑑宝箱", 
-    "price": {
-     "num": 45, 
-     "type": "F_coin"
-    }, 
+    "name": "瑠璃猫", 
+    "start_time": 1314262800.0, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "2日23時間30分", 
-    "end_time": 1314262800.0, 
-    "goods_description": "100％の確率でパーティーニンジン*1，パーティーキノコ*1，パーティーナス*1，パーティージャガイモ*1，パーティーハクサイ*1を入手できます。", 
-    "start_time": 1314005400.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "huangjinzhoutujianbaoxiang": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "GW限定花の図鑑宝箱", 
+    "limit_time": "6日", 
+    "end_time": 1314781200.0, 
+    "goods_description": "", 
     "price": {
-     "num": 45, 
+     "num": 38, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1314262800.0, 
-    "goods_description": "100％の確率でオジギソウ*1，カスミソウ*1，ムラサキカタバミ*1，オダマキ*1，スイレン*1を入手できます。", 
-    "start_time": 1314003600.0, 
     "activity_type": "hot_sale"
    }, 
    "jiazhutao": {
@@ -19203,22 +19253,6 @@
     }, 
     "modify": false, 
     "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
-    "activity_type": "discount"
-   }, 
-   "magiccardless": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック増産カード", 
-    "price": {
-     "num": 3, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "成熟したチャンチンモドキの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }
   }, 
@@ -49023,7 +49057,7 @@
       "pro": 0.3
      }, 
      "liulimao": {
-      "used": false, 
+      "used": true, 
       "name": "瑠璃猫", 
       "price": {
        "F_coin": 38
@@ -50814,6 +50848,7 @@
    "cangbaotu1", 
    "mianzhihuabao", 
    "yundongxiongmao", 
+   "houzitujianbaoxiang", 
    "yuanyidongwutujianbaoxiang", 
    "jiagongchangsucaibao", 
    "shengdanhuangniudan", 
