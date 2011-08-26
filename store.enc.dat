@@ -14613,9 +14613,10 @@
      "name": "てんびん座", 
      "base_fruit": 25, 
      "fruit_time": 240, 
-     "adult_time": 240, 
+     "sale_price": 5, 
+     "introduce": "てんびん座。原価：9Kコイン  現在価格：6Kコイン", 
      "buy_price": {
-      "F_coin": 9
+      "F_coin": 6
      }, 
      "state": "xin", 
      "seasons": 1, 
@@ -14623,7 +14624,7 @@
      "experience": 3.7, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 5, 
+     "adult_time": 240, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -15218,8 +15219,8 @@
      "name": "和服うさぎ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
-     "detail": "和服うさぎ。原価：18Kコイン  現在価格：13Kコイン", 
-     "adult_time": 240, 
+     "sale_price": 29, 
+     "introduce": "和服うさぎ。原価：18Kコイン  現在価格：13Kコイン", 
      "buy_price": {
       "F_coin": 13
      }, 
@@ -15228,10 +15229,10 @@
      "experience": 6.2, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 29, 
+     "adult_time": 240, 
      "increment_fruit": 25, 
-     "level_need": 1, 
-     "fruit_quantifier": "個"
+     "fruit_quantifier": "個", 
+     "level_need": 1
     }, 
     "banma": {
      "total_time": 2460, 
@@ -15507,8 +15508,8 @@
      "name": "超能力パンダ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
-     "detail": "超能力パンダ。原価：25Kコイン  現在価格：18Kコイン", 
-     "adult_time": 240, 
+     "sale_price": 36, 
+     "introduce": "超能力パンダ。原価：25Kコイン  現在価格：18Kコイン", 
      "buy_price": {
       "F_coin": 18
      }, 
@@ -15517,10 +15518,10 @@
      "experience": 8, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 36, 
+     "adult_time": 240, 
      "increment_fruit": 25, 
-     "level_need": 0, 
-     "fruit_quantifier": "個"
+     "fruit_quantifier": "個", 
+     "level_need": 0
     }, 
     "buludaoshangfengdie": {
      "total_time": 720, 
@@ -16159,8 +16160,8 @@
      "name": "ホワイトうさぎ", 
      "base_fruit": 25, 
      "fruit_time": 600, 
-     "detail": "ホワイトうさぎ。原価：30Kコイン  現在価格：21Kコイン", 
-     "adult_time": 420, 
+     "sale_price": 10, 
+     "introduce": "ホワイトうさぎ。原価：30Kコイン  現在価格：21Kコイン", 
      "buy_price": {
       "F_coin": 21
      }, 
@@ -16169,10 +16170,10 @@
      "experience": 15, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 10, 
+     "adult_time": 420, 
      "increment_fruit": 25, 
-     "level_need": 1, 
-     "fruit_quantifier": "個"
+     "fruit_quantifier": "個", 
+     "level_need": 1
     }, 
     "yangtuo": {
      "total_time": 4560, 
@@ -17100,8 +17101,8 @@
      "name": "マジシャン兎ちゃん", 
      "base_fruit": 25, 
      "fruit_time": 600, 
-     "detail": "マジシャン兎ちゃん。原価：25Kコイン  現在価格：18Kコイン", 
-     "adult_time": 420, 
+     "sale_price": 15, 
+     "introduce": "マジシャン兎ちゃん。原価：25Kコイン  現在価格：18Kコイン", 
      "buy_price": {
       "F_coin": 18
      }, 
@@ -17110,10 +17111,10 @@
      "experience": 14, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 15, 
+     "adult_time": 420, 
      "increment_fruit": 25, 
-     "level_need": 0, 
-     "fruit_quantifier": "個"
+     "fruit_quantifier": "個", 
+     "level_need": 0
     }, 
     "shengzhuangmilu": {
      "total_time": 1320, 
@@ -17246,8 +17247,8 @@
      "name": "神官うさぎ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
-     "detail": "神官うさぎ。原価：18Kコイン  現在価格：13Kコイン", 
-     "adult_time": 240, 
+     "sale_price": 29, 
+     "introduce": "神官うさぎ。原価：18Kコイン  現在価格：13Kコイン", 
      "buy_price": {
       "F_coin": 13
      }, 
@@ -17256,10 +17257,10 @@
      "experience": 6.2, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 29, 
+     "adult_time": 240, 
      "increment_fruit": 25, 
-     "level_need": 1, 
-     "fruit_quantifier": "個"
+     "fruit_quantifier": "個", 
+     "level_need": 1
     }, 
     "lanqingting": {
      "total_time": 480, 
@@ -17407,9 +17408,10 @@
      "name": "オオフラミンゴ", 
      "base_fruit": 25, 
      "fruit_time": 720, 
-     "adult_time": 720, 
+     "sale_price": 100, 
+     "introduce": "オオフラミンゴ。原価：25Kコイン  現在価格：18Kコイン", 
      "buy_price": {
-      "F_coin": 25
+      "F_coin": 18
      }, 
      "state": "xin", 
      "seasons": 1, 
@@ -17417,7 +17419,7 @@
      "experience": 9.8, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 100, 
+     "adult_time": 720, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -18089,9 +18091,9 @@
      "name": "袋を背負った亀さん", 
      "base_fruit": 25, 
      "fruit_time": 720, 
+     "sale_price": 50, 
      "tuchan": true, 
-     "detail": "池から袋を背負ったカメさんが出てきた、出身地はおみやげWALKERの池袋駅だって。原価：70Kコイン  現在価格：49Kコイン", 
-     "adult_time": 240, 
+     "introduce": "池から袋を背負ったカメさんが出てきた、出身地はおみやげWALKERの池袋駅だって。原価：70Kコイン  現在価格：49Kコイン", 
      "buy_price": {
       "F_coin": 49
      }, 
@@ -18100,10 +18102,10 @@
      "experience": 18, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 50, 
+     "adult_time": 240, 
      "increment_fruit": 25, 
-     "level_need": 0, 
-     "fruit_quantifier": "個"
+     "fruit_quantifier": "個", 
+     "level_need": 0
     }, 
     "caomeiyangtuo": {
      "total_time": 840, 
@@ -18223,16 +18225,17 @@
      "name": "さそり座", 
      "base_fruit": 25, 
      "fruit_time": 240, 
-     "adult_time": 240, 
+     "sale_price": 25, 
+     "introduce": "さそり座。原価：9Kコイン  現在価格：6Kコイン", 
      "buy_price": {
-      "F_coin": 9
+      "F_coin": 6
      }, 
      "seasons": 1, 
      "young_time": 240, 
      "experience": 3.7, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 25, 
+     "adult_time": 240, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
