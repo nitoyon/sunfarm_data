@@ -19136,7 +19136,7 @@
     }, 
     "name": "7月の宝箱", 
     "price": {
-     "num": 10, 
+     "num": 7, 
      "type": "F_coin"
     }, 
     "modify": false, 
@@ -19151,7 +19151,7 @@
     }, 
     "name": "中級肥料セット", 
     "price": {
-     "num": 15, 
+     "num": 11, 
      "type": "F_coin"
     }, 
     "modify": true, 
@@ -19167,7 +19167,7 @@
     }, 
     "name": "マジック増産カード", 
     "price": {
-     "num": 3, 
+     "num": 2, 
      "type": "F_coin"
     }, 
     "modify": false, 
@@ -19226,7 +19226,7 @@
     }, 
     "name": "8月の宝箱", 
     "price": {
-     "num": 10, 
+     "num": 7, 
      "type": "F_coin"
     }, 
     "modify": true, 
@@ -19249,22 +19249,26 @@
     "activity_type": "discount"
    }, 
    "liulimao": {
+    "original_price": {
+     "num": 38, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
      "goods_category": "dog"
     }, 
     "name": "瑠璃猫", 
-    "start_time": 1314262800.0, 
+    "price": {
+     "num": 27, 
+     "type": "F_coin"
+    }, 
     "modify": true, 
     "limit_type": "limit_time", 
     "limit_time": "6日", 
     "end_time": 1314781200.0, 
     "goods_description": "", 
-    "price": {
-     "num": 27, 
-     "type": "F_coin"
-    }, 
+    "start_time": 1314262800.0, 
     "activity_type": "hot_sale"
    }, 
    "jiazhutao": {
