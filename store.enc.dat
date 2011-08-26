@@ -6424,6 +6424,18 @@
   }, 
   "vip_discount": 0.85, 
   "mystic_bags": {
+   "crystal10": {
+    "config": {
+     "goods_str": "ハローフラワーの種と高級肥料が入っています。", 
+     "name": "9月クリスタル", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "9月クリスタル", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "qiyuebaoxiang": {
     "config": {
      "price": {
@@ -50914,6 +50926,7 @@
    "lansebao4"
   ], 
   "mystic_bags_sort": [
+   "crystal10", 
    "hammer", 
    "crystal", 
    "crystal9", 
