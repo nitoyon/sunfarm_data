@@ -19136,7 +19136,7 @@
     }, 
     "name": "7\u6708\u306e\u5b9d\u7bb1", 
     "price": {
-     "num": 10, 
+     "num": 7, 
      "type": "F_coin"
     }, 
     "modify": false, 
@@ -19151,7 +19151,7 @@
     }, 
     "name": "\u4e2d\u7d1a\u80a5\u6599\u30bb\u30c3\u30c8", 
     "price": {
-     "num": 15, 
+     "num": 11, 
      "type": "F_coin"
     }, 
     "modify": true, 
@@ -19167,7 +19167,7 @@
     }, 
     "name": "\u30de\u30b8\u30c3\u30af\u5897\u7523\u30ab\u30fc\u30c9", 
     "price": {
-     "num": 3, 
+     "num": 2, 
      "type": "F_coin"
     }, 
     "modify": false, 
@@ -19226,7 +19226,7 @@
     }, 
     "name": "8\u6708\u306e\u5b9d\u7bb1", 
     "price": {
-     "num": 10, 
+     "num": 7, 
      "type": "F_coin"
     }, 
     "modify": true, 
@@ -19249,22 +19249,26 @@
     "activity_type": "discount"
    }, 
    "liulimao": {
+    "original_price": {
+     "num": 38, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
      "goods_category": "dog"
     }, 
     "name": "\u7460\u7483\u732b", 
-    "start_time": 1314262800.0, 
+    "price": {
+     "num": 27, 
+     "type": "F_coin"
+    }, 
     "modify": true, 
     "limit_type": "limit_time", 
     "limit_time": "6\u65e5", 
     "end_time": 1314781200.0, 
     "goods_description": "", 
-    "price": {
-     "num": 27, 
-     "type": "F_coin"
-    }, 
+    "start_time": 1314262800.0, 
     "activity_type": "hot_sale"
    }, 
    "jiazhutao": {
