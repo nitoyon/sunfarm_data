@@ -14059,31 +14059,31 @@
      }, 
      "gaosu": {
       "price": {
-       "F_coin": 3
+       "F_coin": 2
       }, 
       "used": true, 
       "name": "中級飼料", 
-      "introduce": "使うと動物の生産時間を2時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
+      "introduce": "使うと動物の生産時間を2時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。原価：3Kコイン  現在価格：2Kコイン", 
       "effect": 2
      }, 
      "jisu1": {
       "used": true, 
       "name": "スーパー飼料", 
       "price": {
-       "F_coin": 12
+       "F_coin": 8
       }, 
       "effect": 10, 
-      "introduce": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
+      "introduce": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。原価：12Kコイン  現在価格：8Kコイン", 
       "state": "re"
      }, 
      "jisu": {
       "used": true, 
       "name": "高級飼料", 
       "price": {
-       "F_coin": 6
+       "F_coin": 4
       }, 
       "effect": 4, 
-      "introduce": "使うと動物の生産時間を4時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
+      "introduce": "使うと動物の生産時間を4時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。原価：6Kコイン  現在価格：4Kコイン", 
       "state": "re"
      }, 
      "common": {
@@ -14099,10 +14099,10 @@
       "used": true, 
       "name": "マジック飼料", 
       "price": {
-       "F_coin": 2
+       "F_coin": 1
       }, 
       "effect": 0.5, 
-      "introduce": "使うと動物の生産時間を0.5時間短縮できます。同じ段階で何個でも使えます。飼料の効果は次の段階へ持ち越すことはできません。", 
+      "introduce": "使うと動物の生産時間を0.5時間短縮できます。同じ段階で何個でも使えます。飼料の効果は次の段階へ持ち越すことはできません。原価：2Kコイン  現在価格：1Kコイン", 
       "state": "re"
      }, 
      "gaoji": {
@@ -14152,9 +14152,9 @@
       "used": true, 
       "name": "シュナウザー(畜)", 
       "price": {
-       "F_coin": 16
+       "F_coin": 11
       }, 
-      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物がないと働けません。", 
+      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物がないと働けません。原価：16Kコイン  現在価格：11Kコイン", 
       "multi_buy": false, 
       "pro": 1
      }, 
@@ -14182,9 +14182,9 @@
       "used": true, 
       "name": "プードル(畜)", 
       "price": {
-       "F_coin": 16
+       "F_coin": 11
       }, 
-      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落すコイン20-80（ランダム）とシステムからの同じ金額のコインをゲットします。但し、食べ物がないと働けません。", 
+      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落すコイン20-80（ランダム）とシステムからの同じ金額のコインをゲットします。但し、食べ物がないと働けません。原価：16Kコイン  現在価格：11Kコイン", 
       "multi_buy": false, 
       "pro": 1
      }, 
@@ -43125,15 +43125,16 @@
      "base_fruit": 25, 
      "fruit_time": 300, 
      "sprout_time": 30, 
+     "introduce": "ピンク花火。原価：15Kコイン  現在価格：11Kコイン", 
+     "increment_fruit": 25, 
      "bloom_time": 120, 
      "experience": 2.99, 
      "seasons": 1, 
      "sale_price": 4, 
-     "increment_fruit": 25, 
-     "leaf_time": 120, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 11
      }, 
+     "leaf_time": 120, 
      "level_need": 1
     }, 
     "bosijucheng": {
@@ -49820,14 +49821,15 @@
       }, 
       "qingrenjie": {
        "used": true, 
-       "name": "ローズビーチ 原価：9Kコイン  現在価格：6Kコイン", 
+       "name": "ローズビーチ", 
        "layer_order": 3, 
        "price": {
         "F_coin": 6
        }, 
-       "experience": 28, 
+       "introduce": "ローズビーチ 原価：9Kコイン  現在価格：6Kコイン", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 28
       }, 
       "haibin": {
        "used": false, 
@@ -49889,11 +49891,12 @@
        "name": "桜の地面", 
        "layer_order": 3, 
        "price": {
-        "F_coin": 9
+        "F_coin": 6
        }, 
-       "experience": 28, 
+       "introduce": "桜の地面 原価：9Kコイン  現在価格：6Kコイン", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 28
       }, 
       "xinchun": {
        "used": false, 
@@ -49919,14 +49922,15 @@
       }, 
       "caomeijie": {
        "used": true, 
-       "name": "いちご畑 原価：30Kコイン  現在価格：21Kコイン", 
+       "name": "いちご畑", 
        "layer_order": 3, 
        "price": {
         "F_coin": 21
        }, 
-       "experience": 2000, 
+       "introduce": "いちご畑。原価：30Kコイン  現在価格：21Kコイン", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 2000
       }, 
       "xiarizhuangyuan": {
        "used": false, 
@@ -50160,14 +50164,15 @@
       }, 
       "qingrenjie": {
        "used": true, 
-       "name": "愛の神殿 原価：5Kコイン  現在価格：4Kコイン", 
+       "name": "愛の神殿", 
        "layer_order": 2, 
        "price": {
         "F_coin": 4
        }, 
-       "experience": 43, 
+       "introduce": "愛の神殿 原価：5Kコイン  現在価格：4Kコイン", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 43
       }, 
       "haibin": {
        "used": false, 
@@ -50223,14 +50228,15 @@
       }, 
       "yh": {
        "used": true, 
-       "name": "桜の家 原価：5Kコイン  現在価格：4Kコイン", 
+       "name": "桜の家", 
        "layer_order": 2, 
        "price": {
         "F_coin": 4
        }, 
-       "experience": 43, 
+       "introduce": "桜の家 原価：5Kコイン  現在価格：4Kコイン", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 43
       }, 
       "xinchun": {
        "used": false, 
@@ -50256,14 +50262,15 @@
       }, 
       "caomeijie": {
        "used": true, 
-       "name": "いちごの小屋  原価：20Kコイン  現在価格：14Kコイン", 
+       "name": "いちごの小屋", 
        "layer_order": 2, 
        "price": {
         "F_coin": 14
        }, 
-       "experience": 1500, 
+       "introduce": "いちごの小屋 原価：20Kコイン  現在価格：14Kコイン", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 1500
       }, 
       "neutral": {
        "used": false, 
@@ -50452,14 +50459,15 @@
       }, 
       "qingrenjie": {
        "used": true, 
-       "name": "愛の空 原価：4Kコイン  現在価格：3Kコイン", 
+       "name": "愛の空", 
        "layer_order": 3, 
        "price": {
         "F_coin": 3
        }, 
-       "experience": 20, 
+       "introduce": "愛の空 原価：4Kコイン  現在価格：3Kコイン", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 20
       }, 
       "haibin": {
        "used": false, 
@@ -50507,14 +50515,15 @@
       }, 
       "yh": {
        "used": true, 
-       "name": "桜の空 原価：4Kコイン  現在価格：3Kコイン", 
+       "name": "桜の空", 
        "layer_order": 3, 
        "price": {
         "F_coin": 3
        }, 
-       "experience": 20, 
+       "introduce": "桜の空 原価：4Kコイン  現在価格：3Kコイン", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 20
       }, 
       "xinchun": {
        "used": false, 
@@ -50540,14 +50549,15 @@
       }, 
       "caomeijie": {
        "used": true, 
-       "name": "いちご畑の空 原価：5Kコイン  現在価格：4Kコイン", 
+       "name": "いちご畑の空", 
        "layer_order": 3, 
        "price": {
         "F_coin": 4
        }, 
-       "experience": 500, 
+       "introduce": "いちご畑の空 原価：5Kコイン  現在価格：4Kコイン", 
        "multi_buy": false, 
-       "deadline": 30
+       "deadline": 30, 
+       "experience": 500
       }, 
       "xiarizhuangyuan": {
        "used": false, 
