@@ -19128,6 +19128,24 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "crystal10": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "9月クリスタル", 
+    "start_time": 1314351000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "14日23時間30分", 
+    "end_time": 1315645200.0, 
+    "goods_description": "9月クリスタル。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "qiyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -19174,48 +19192,22 @@
     "goods_description": "成熟したトベラの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "houzitujianbaoxiang": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
+   "hammer": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "猿の図鑑宝箱", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
+    "name": "ハンマー", 
+    "start_time": 1314349200.0, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1314349200.0, 
-    "goods_description": "猿の図鑑種類の中からランダムで[猿一匹]を必ずご入手いただけます。（種類の指定はできません）", 
-    "start_time": 1314262800.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "partyfuyongyitujianbaoxiang": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "６月野菜パーティーの図鑑宝箱", 
+    "limit_time": "15日", 
+    "end_time": 1315645200.0, 
+    "goods_description": "クリスタルを開けることができます。", 
     "price": {
-     "num": 45, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "23時間30分", 
-    "end_time": 1314349200.0, 
-    "goods_description": "100％の確率でにんにく*1，うど*1，レタス*1，明日葉*1，エリンギ*1を入手できます。", 
-    "start_time": 1314264600.0, 
     "activity_type": "hot_sale"
    }, 
    "bayuebaoxiang": {
