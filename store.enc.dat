@@ -8714,7 +8714,7 @@
    "jiuyuebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 8
      }, 
      "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
@@ -19190,28 +19190,20 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "liulimao": {
-    "original_price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
+   "qiyuebaoxiang": {
+    "specific_type": "re", 
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "dog"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "瑠璃猫", 
+    "name": "7月の宝箱", 
     "price": {
-     "num": 27, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1314781200.0, 
+    "modify": false, 
     "goods_description": "", 
-    "start_time": 1314262800.0, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "huafeibao1": {
     "specific_type": "re", 
@@ -19244,23 +19236,20 @@
     "goods_description": "成熟したトベラの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "hammer": {
+   "jiazhutao": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "ハンマー", 
-    "start_time": 1314349200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "15日", 
-    "end_time": 1315645200.0, 
-    "goods_description": "クリスタルを開けることができます。", 
+    "name": "キョウチクトウ", 
     "price": {
-     "num": 10, 
+     "num": 25, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
+    "activity_type": "discount"
    }, 
    "bayuebaoxiang": {
     "specific_type": "re", 
@@ -19293,34 +19282,44 @@
     "activity_type": "discount"
    }, 
    "jiuyuebaoxiang": {
-    "specific_type": "re", 
+    "original_price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "9月の宝箱", 
     "price": {
+     "num": 8, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "2日", 
+    "end_time": 1314954000.0, 
+    "goods_description": "", 
+    "start_time": 1314781200.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "hammer": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ハンマー", 
+    "start_time": 1314349200.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "15日", 
+    "end_time": 1315645200.0, 
+    "goods_description": "クリスタルを開けることができます。", 
+    "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
-   }, 
-   "jiazhutao": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "キョウチクトウ", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
