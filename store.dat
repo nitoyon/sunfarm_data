@@ -19191,20 +19191,28 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "qiyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "7\u6708\u306e\u5b9d\u7bb1", 
-    "price": {
-     "num": 7, 
+   "liulimao": {
+    "original_price": {
+     "num": 38, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "dog"
+    }, 
+    "name": "\u7460\u7483\u732b", 
+    "price": {
+     "num": 27, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "6\u65e5", 
+    "end_time": 1314781200.0, 
     "goods_description": "", 
-    "activity_type": "discount"
+    "start_time": 1314262800.0, 
+    "activity_type": "hot_sale"
    }, 
    "huafeibao1": {
     "specific_type": "re", 
@@ -19285,28 +19293,20 @@
     "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "liulimao": {
-    "original_price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
+   "jiuyuebaoxiang": {
+    "specific_type": "re", 
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "dog"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "\u7460\u7483\u732b", 
+    "name": "9\u6708\u306e\u5b9d\u7bb1", 
     "price": {
-     "num": 27, 
+     "num": 7, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "6\u65e5", 
-    "end_time": 1314781200.0, 
+    "modify": false, 
     "goods_description": "", 
-    "start_time": 1314262800.0, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "jiazhutao": {
     "specific_type": "re", 
