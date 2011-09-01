@@ -19486,14 +19486,12 @@
      "goods_type": "mystic_bag"
     }, 
     "name": "ブルーチョウ宝箱", 
-    "start_time": "2011-09-01 12:00:00", 
-    "modify": true, 
-    "end_time": "2011-09-06 12:00:00", 
-    "goods_description": "中にブルーチョウの赤ちゃん1匹が含まれています", 
     "price": {
      "num": 30, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "goods_description": "中にブルーチョウの赤ちゃん1匹が含まれています", 
     "activity_type": "discount"
    }, 
    "zisehudiebaoxiang": {
@@ -19503,14 +19501,12 @@
      "goods_type": "mystic_bag"
     }, 
     "name": "パープルチョウ宝箱", 
-    "start_time": "2011-09-01 12:00:00", 
-    "modify": true, 
-    "end_time": "2011-09-06 12:00:00", 
-    "goods_description": "中にパープルチョウの赤ちゃん1匹が含まれています", 
     "price": {
      "num": 30, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "goods_description": "中にパープルチョウの赤ちゃん1匹が含まれています", 
     "activity_type": "discount"
    }, 
    "chengsehudiebaoxiang": {
@@ -19520,14 +19516,12 @@
      "goods_type": "mystic_bag"
     }, 
     "name": "オレンジチョウ宝箱", 
-    "start_time": "2011-09-01 12:00:00", 
-    "modify": true, 
-    "end_time": "2011-09-06 12:00:00", 
-    "goods_description": "中にオレンジチョウの赤ちゃん1匹が含まれています", 
     "price": {
      "num": 30, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "goods_description": "中にオレンジチョウの赤ちゃん1匹が含まれています", 
     "activity_type": "discount"
    }, 
    "jiuyuebaoxiang": {
@@ -19559,14 +19553,12 @@
      "goods_type": "mystic_bag"
     }, 
     "name": "グリーンチョウ宝箱", 
-    "start_time": "2011-09-01 12:00:00", 
-    "modify": true, 
-    "end_time": "2011-09-06 12:00:00", 
-    "goods_description": "中にグリーンチョウの赤ちゃん1匹が含まれています", 
     "price": {
      "num": 30, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "goods_description": "中にグリーンチョウの赤ちゃん1匹が含まれています", 
     "activity_type": "discount"
    }, 
    "fensehudiebaoxiang": {
@@ -19576,14 +19568,12 @@
      "goods_type": "mystic_bag"
     }, 
     "name": "ピンクチョウ宝箱", 
-    "start_time": "2011-09-01 12:00:00", 
-    "modify": true, 
-    "end_time": "2011-09-06 12:00:00", 
-    "goods_description": "中にピンクチョウの赤ちゃん1匹が含まれています", 
     "price": {
      "num": 30, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "goods_description": "中にピンクチョウの赤ちゃん1匹が含まれています", 
     "activity_type": "discount"
    }, 
    "hammer": {
@@ -50616,10 +50606,10 @@
       "price": {
        "F_coin": 2
       }, 
-      "introduce": "成熟したチャンチンモドキの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+      "introduce": "成熟したヘビイチゴの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
       "magic_card": true, 
       "include": [
-       "nansuanzao"
+       "shemei"
       ], 
       "magic_card_percent": 0.5
      }, 
@@ -50775,7 +50765,7 @@
       "price": {
        "F_coin": 12
       }, 
-      "introduce": "チャンチンモドキ以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+      "introduce": "ヘビイチゴ以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
       "magic_card_percent": 0.5
      }, 
