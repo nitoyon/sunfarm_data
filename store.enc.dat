@@ -9134,7 +9134,7 @@
      "price": {
       "F_coin": 120
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "100％の確率でオレンジチョウ*1，ピンクチョウ*1，ブルーチョウ*1，グリーンチョウ*1，パープルチョウン*1を入手できます。", 
      "name": "二周年記念チョウ宝箱", 
      "introduce": "100％の確率でオレンジチョウ*1，ピンクチョウ*1，ブルーチョウ*1，グリーンチョウ*1，パープルチョウン*1を入手できます。"
@@ -9146,15 +9146,15 @@
         1, 
         1
        ], 
+       "zisehudie": [
+        1, 
+        1
+       ], 
        "lvsehudie": [
         1, 
         1
        ], 
        "fensehudie": [
-        1, 
-        1
-       ], 
-       "zisehudi": [
         1, 
         1
        ]
@@ -19460,21 +19460,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "qiyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "7月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
-   }, 
    "huafeibao1": {
     "original_price": {
      "num": 15, 
@@ -19494,65 +19479,55 @@
     "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
-   "magiccardless": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック増産カード", 
-    "price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "成熟したトベラの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
-    "activity_type": "discount"
-   }, 
-   "jiazhutao": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "キョウチクトウ", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
-    "activity_type": "discount"
-   }, 
-   "bayuebaoxiang": {
+   "lansehudiebaoxiang": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "8月の宝箱", 
+    "name": "ブルーチョウ宝箱", 
+    "start_time": "2011-09-01 12:00:00", 
+    "modify": true, 
+    "end_time": "2011-09-06 12:00:00", 
+    "goods_description": "中にブルーチョウの赤ちゃん1匹が含まれています", 
     "price": {
-     "num": 10, 
+     "num": 30, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "", 
     "activity_type": "discount"
    }, 
-   "jiucaixin": {
+   "zisehudiebaoxiang": {
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "リーキ", 
+    "name": "パープルチョウ宝箱", 
+    "start_time": "2011-09-01 12:00:00", 
+    "modify": true, 
+    "end_time": "2011-09-06 12:00:00", 
+    "goods_description": "中にパープルチョウの赤ちゃん1匹が含まれています", 
     "price": {
-     "num": 40, 
+     "num": 30, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "", 
+    "activity_type": "discount"
+   }, 
+   "chengsehudiebaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "オレンジチョウ宝箱", 
+    "start_time": "2011-09-01 12:00:00", 
+    "modify": true, 
+    "end_time": "2011-09-06 12:00:00", 
+    "goods_description": "中にオレンジチョウの赤ちゃん1匹が含まれています", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
     "activity_type": "discount"
    }, 
    "jiuyuebaoxiang": {
@@ -19576,6 +19551,40 @@
     "goods_description": "", 
     "start_time": 1314781200.0, 
     "activity_type": "hot_sale"
+   }, 
+   "lvsehudiebaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "グリーンチョウ宝箱", 
+    "start_time": "2011-09-01 12:00:00", 
+    "modify": true, 
+    "end_time": "2011-09-06 12:00:00", 
+    "goods_description": "中にグリーンチョウの赤ちゃん1匹が含まれています", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "discount"
+   }, 
+   "fensehudiebaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ピンクチョウ宝箱", 
+    "start_time": "2011-09-01 12:00:00", 
+    "modify": true, 
+    "end_time": "2011-09-06 12:00:00", 
+    "goods_description": "中にピンクチョウの赤ちゃん1匹が含まれています", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "discount"
    }, 
    "hammer": {
     "product_type": {
