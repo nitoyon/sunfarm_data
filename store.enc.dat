@@ -6999,7 +6999,7 @@
      "price": {
       "F_coin": 30
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にピンクチョウの赤ちゃん1匹が含まれています", 
      "name": "ピンクチョウ宝箱", 
      "introduce": "中にピンクチョウの赤ちゃん1匹が含まれています"
@@ -7946,7 +7946,7 @@
      "price": {
       "F_coin": 30
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にブルーチョウの赤ちゃん1匹が含まれています", 
      "name": "ブルーチョウ宝箱", 
      "introduce": "中にブルーチョウの赤ちゃん1匹が含まれています"
@@ -9132,7 +9132,7 @@
    "caisehudiebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 150
+      "F_coin": 120
      }, 
      "used": false, 
      "goods_str": "100％の確率でオレンジチョウ*1，ピンクチョウ*1，ブルーチョウ*1，グリーンチョウ*1，パープルチョウン*1を入手できます。", 
@@ -10691,7 +10691,7 @@
      "price": {
       "F_coin": 30
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にグリーンチョウの赤ちゃん1匹が含まれています", 
      "name": "グリーンチョウ宝箱", 
      "introduce": "中にグリーンチョウの赤ちゃん1匹が含まれています"
@@ -13196,7 +13196,7 @@
      "price": {
       "F_coin": 30
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にパープルチョウの赤ちゃん1匹が含まれています", 
      "name": "パープルチョウ宝箱", 
      "introduce": "中にパープルチョウの赤ちゃん1匹が含まれています"
@@ -13217,7 +13217,7 @@
      "price": {
       "F_coin": 30
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にオレンジチョウの赤ちゃん1匹が含まれています", 
      "name": "オレンジチョウ宝箱", 
      "introduce": "中にオレンジチョウの赤ちゃん1匹が含まれています"
@@ -28357,6 +28357,25 @@
       "F_coin": 20
      }, 
      "level_need": 1
+    }, 
+    "shemei": {
+     "total_time": 840, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ヘビイチゴ", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.52, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 230
+     }, 
+     "level_need": 30
     }, 
     "shanghuamao": {
      "total_time": 820, 
@@ -50263,6 +50282,7 @@
     "huo_long_guo", 
     "zhujin", 
     "lanmeiguixin", 
+    "shemei", 
     "liushu", 
     "huojushu", 
     "qiulan", 
