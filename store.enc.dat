@@ -7242,6 +7242,43 @@
      }
     }
    }, 
+   "liangzhounianzhiwubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 45
+     }, 
+     "used": false, 
+     "goods_str": "100％の確率で植木（二）*1，植木（シュウ）*1，植木（ネン）*1，植木（キ）*1，植木（ネン）*1を入手できます。", 
+     "name": "二周年記念植物宝箱", 
+     "introduce": "100％の確率で植木（二）*1，植木（シュウ）*1，植木（ネン）*1，植木（キ）*1，植木（ネン）*1を入手できます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "langsezhou": [
+        1, 
+        1
+       ], 
+       "lvsenian": [
+        1, 
+        1
+       ], 
+       "ziseji": [
+        1, 
+        1
+       ], 
+       "hongsenian": [
+        1, 
+        1
+       ], 
+       "huangseer": [
+        1, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
    "nanhaijiebaoxiang": {
     "config": {
      "price": {
@@ -52501,6 +52538,7 @@
    "shengdanlanniudan", 
    "partyfuyongyitujianbaoxiang", 
    "chengseniudan", 
+   "liangzhounianzhiwubaoxiang", 
    "lajiaobaoxiang", 
    "shenqijindaihuabaoxiang", 
    "landan", 
