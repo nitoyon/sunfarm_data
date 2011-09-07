@@ -19777,73 +19777,6 @@
     "goods_description": "成熟したトベラの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "jiazhutao": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "キョウチクトウ", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
-    "activity_type": "discount"
-   }, 
-   "liangzhounianzhiwubaoxiang": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "二周年記念植物宝箱", 
-    "price": {
-     "num": 45, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "8日", 
-    "end_time": 1315645200.0, 
-    "goods_description": "100％の確率で植木（二）*1，植木（シュウ）*1，植木（ネン）*1，植木（キ）*1，植木（ネン）*1を入手できます。", 
-    "start_time": 1314954000.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "jiucaixin": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "リーキ", 
-    "price": {
-     "num": 40, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "", 
-    "activity_type": "discount"
-   }, 
-   "jiuyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "9月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "", 
-    "activity_type": "discount"
-   }, 
    "hammer": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -19862,6 +19795,55 @@
     }, 
     "activity_type": "hot_sale"
    }, 
+   "liangzhounianzhiwubaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "二周年記念植物宝箱", 
+    "start_time": 1314954000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "8日", 
+    "end_time": 1315645200.0, 
+    "goods_description": "100％の確率で植木（二）*1，植木（シュウ）*1，植木（ネン）*1，植木（キ）*1，植木（ネン）*1を入手できます。", 
+    "price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "discount"
+   }, 
+   "jiuyuebaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "9月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "", 
+    "activity_type": "discount"
+   }, 
+   "jiazhutao": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "キョウチクトウ", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
+    "activity_type": "discount"
+   }, 
    "xunjie": {
     "specific_type": "re", 
     "product_type": {
@@ -19877,6 +19859,24 @@
     "modify": false, 
     "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
+   }, 
+   "aiqianniu": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "謎のツクバネアサガオ", 
+    "start_time": 1315375200.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日3時間", 
+    "end_time": 1315904400.0, 
+    "goods_description": "ツクバネアサガオ、あなたが植えているのは何色かな？", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
