@@ -19934,6 +19934,24 @@
     "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
+   "mayingdan": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "謎のランタナ", 
+    "start_time": 1315980000.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日3時間", 
+    "end_time": 1316595600.0, 
+    "goods_description": "ファイブカラーの花、あなたが植えているのは何色かな？", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "huangjinzhousiqi": {
     "original_price": {
      "num": 50, 
@@ -20004,24 +20022,6 @@
     "modify": false, 
     "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
     "activity_type": "discount"
-   }, 
-   "aiqianniu": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "謎のツクバネアサガオ", 
-    "start_time": 1315375200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日3時間", 
-    "end_time": 1315904400.0, 
-    "goods_description": "ツクバネアサガオ、あなたが植えているのは何色かな？", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -25522,7 +25522,7 @@
     "mayingdan": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "謎のランタナ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
