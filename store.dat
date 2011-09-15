@@ -16868,7 +16868,7 @@
     "juhuatuhuang": {
      "total_time": 1320, 
      "harvest_type": 0, 
-     "used": false, 
+     "used": true, 
      "name": "\u9ec4\u83ca\u306e\u514e", 
      "base_fruit": 25, 
      "fruit_time": 960, 
@@ -18142,7 +18142,7 @@
     "juhuatuhong": {
      "total_time": 1320, 
      "harvest_type": 0, 
-     "used": false, 
+     "used": true, 
      "name": "\u8d64\u83ca\u306e\u514e", 
      "base_fruit": 25, 
      "fruit_time": 960, 
@@ -20020,6 +20020,24 @@
     "start_time": 1315558800.0, 
     "activity_type": "discount"
    }, 
+   "juhuatuhuang": {
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u9ec4\u83ca\u306e\u514e", 
+    "start_time": 1316055600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7\u65e56\u6642\u9593", 
+    "end_time": 1316682000.0, 
+    "goods_description": "\u9ec4\u83ca\u306e\u514e", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "siliaobao1": {
     "original_price": {
      "num": 15, 
@@ -20042,6 +20060,24 @@
     "goods_description": "\u4e2d\u306b\u306f\u4e2d\u7d1a\u98fc\u6599\u304c\u4e94\u3064\u542b\u307e\u308c\u3066\u3044\u3066\u3001\u3055\u3089\u306b\u4e8c\u3064\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3057\u307e\u3059\u3002", 
     "start_time": 1315990800.0, 
     "activity_type": "discount"
+   }, 
+   "juhuatuhong": {
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "\u8d64\u83ca\u306e\u514e", 
+    "start_time": 1316055600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7\u65e56\u6642\u9593", 
+    "end_time": 1316682000.0, 
+    "goods_description": "\u8d64\u83ca\u306e\u514e", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "jiuyuebaoxiang": {
     "specific_type": "re", 
