@@ -13420,6 +13420,99 @@
      }
     }
    }, 
+   "ailianxudenglubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 999999
+     }, 
+     "used": false, 
+     "goods_str": "連続ログインした人だけ入手できる宝箱、一定の確率でヒマワリとほかのレアアイテムがもらえる！", 
+     "name": "連続ﾛｸﾞｲﾝ宝箱", 
+     "introduce": "連続ログインした人だけ入手できる宝箱、一定の確率でヒマワリとほかのレアアイテムがもらえる！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        0.05
+       ], 
+       "lizhixiang": [
+        1, 
+        0.15
+       ], 
+       "sanyecao": [
+        1, 
+        0.2
+       ], 
+       "tongcai": [
+        1, 
+        1
+       ], 
+       "sunflower": [
+        1, 
+        0.001
+       ], 
+       "ginseng": [
+        1, 
+        0.03
+       ], 
+       "hongfushi": [
+        1, 
+        0.2
+       ], 
+       "guoguangpingguo": [
+        1, 
+        0.2
+       ], 
+       "liulian": [
+        1, 
+        0.05
+       ], 
+       "ziteng": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         0.1
+        ], 
+        "zengshou3": [
+         3, 
+         0.05
+        ], 
+        "xunjie1": [
+         3, 
+         0.15
+        ], 
+        "gaosu": [
+         3, 
+         1
+        ], 
+        "jisu": [
+         3, 
+         0.1
+        ], 
+        "gaoji": [
+         3, 
+         0.05
+        ], 
+        "zengshou": [
+         3, 
+         0.15
+        ], 
+        "xunjie": [
+         3, 
+         0.05
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "crystal2": {
     "config": {
      "goods_str": "スノー家族の種と高級肥料が入っています。", 
@@ -54084,6 +54177,7 @@
    "xinnianhongniudan", 
    "zisehudiebaoxiang", 
    "chengsehudiebaoxiang", 
+   "ailianxudenglubaoxiang", 
    "lanniudan", 
    "tujianbaoxiang", 
    "lanseniudan", 
