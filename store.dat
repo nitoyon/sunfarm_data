@@ -13420,6 +13420,99 @@
      }
     }
    }, 
+   "ailianxudenglubaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 999999
+     }, 
+     "used": false, 
+     "goods_str": "\u9023\u7d9a\u30ed\u30b0\u30a4\u30f3\u3057\u305f\u4eba\u3060\u3051\u5165\u624b\u3067\u304d\u308b\u5b9d\u7bb1\u3001\u4e00\u5b9a\u306e\u78ba\u7387\u3067\u30d2\u30de\u30ef\u30ea\u3068\u307b\u304b\u306e\u30ec\u30a2\u30a2\u30a4\u30c6\u30e0\u304c\u3082\u3089\u3048\u308b\uff01", 
+     "name": "\u9023\u7d9a\uff9b\uff78\uff9e\uff72\uff9d\u5b9d\u7bb1", 
+     "introduce": "\u9023\u7d9a\u30ed\u30b0\u30a4\u30f3\u3057\u305f\u4eba\u3060\u3051\u5165\u624b\u3067\u304d\u308b\u5b9d\u7bb1\u3001\u4e00\u5b9a\u306e\u78ba\u7387\u3067\u30d2\u30de\u30ef\u30ea\u3068\u307b\u304b\u306e\u30ec\u30a2\u30a2\u30a4\u30c6\u30e0\u304c\u3082\u3089\u3048\u308b\uff01"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        0.05
+       ], 
+       "lizhixiang": [
+        1, 
+        0.15
+       ], 
+       "sanyecao": [
+        1, 
+        0.2
+       ], 
+       "tongcai": [
+        1, 
+        1
+       ], 
+       "sunflower": [
+        1, 
+        0.001
+       ], 
+       "ginseng": [
+        1, 
+        0.03
+       ], 
+       "hongfushi": [
+        1, 
+        0.2
+       ], 
+       "guoguangpingguo": [
+        1, 
+        0.2
+       ], 
+       "liulian": [
+        1, 
+        0.05
+       ], 
+       "ziteng": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         0.1
+        ], 
+        "zengshou3": [
+         3, 
+         0.05
+        ], 
+        "xunjie1": [
+         3, 
+         0.15
+        ], 
+        "gaosu": [
+         3, 
+         1
+        ], 
+        "jisu": [
+         3, 
+         0.1
+        ], 
+        "gaoji": [
+         3, 
+         0.05
+        ], 
+        "zengshou": [
+         3, 
+         0.15
+        ], 
+        "xunjie": [
+         3, 
+         0.05
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "crystal2": {
     "config": {
      "goods_str": "\u30b9\u30ce\u30fc\u5bb6\u65cf\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
@@ -54084,6 +54177,7 @@
    "xinnianhongniudan", 
    "zisehudiebaoxiang", 
    "chengsehudiebaoxiang", 
+   "ailianxudenglubaoxiang", 
    "lanniudan", 
    "tujianbaoxiang", 
    "lanseniudan", 
