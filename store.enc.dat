@@ -14302,8 +14302,10 @@
     "beijixiong", 
     "hefutunan", 
     "hongqingting", 
+    "juhuatuhong", 
     "liumangtu", 
     "lanqingting", 
+    "juhuatuhuang", 
     "xiongmaotu", 
     "shengdanmao", 
     "shengdangou", 
@@ -16038,6 +16040,28 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
+    "dalanmao": {
+     "total_time": 720, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "パク猫", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 15
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 5.8, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 60, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
     "yeji": {
      "total_time": 540, 
      "sound": {
@@ -16841,30 +16865,25 @@
      "level_need": 39, 
      "fruit_quantifier": "個"
     }, 
-    "mmdaishu": {
-     "total_time": 1260, 
-     "sound": {
-      "p": "1136,1136,1137,1137,-1,-1", 
-      "enable": true, 
-      "name": "daishu"
-     }, 
-     "harvest_type": 3, 
+    "juhuatuhuang": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
      "used": false, 
-     "name": "母の日のカンガルー", 
+     "name": "黄菊の兎", 
      "base_fruit": 25, 
-     "fruit_time": 504, 
-     "adult_time": 378, 
+     "fruit_time": 960, 
+     "adult_time": 240, 
      "buy_price": {
-      "gold": 10
+      "F_coin": 25
      }, 
      "seasons": 1, 
-     "young_time": 378, 
-     "experience": 3.9, 
+     "young_time": 120, 
+     "experience": 14, 
      "fruit_name": "", 
-     "is_auto_harvest": false, 
-     "sale_price": 9, 
+     "is_auto_harvest": true, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "level_need": 0, 
+     "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
     "jiweiyingwu": {
@@ -17610,24 +17629,23 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
-    "dalanmao": {
-     "total_time": 720, 
+    "nvtanglang": {
+     "total_time": 1680, 
      "harvest_type": 3, 
      "used": false, 
-     "name": "パク猫", 
+     "name": "カマリリ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "adult_time": 240, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
      "buy_price": {
-      "F_coin": 15
+      "F_coin": 50
      }, 
-     "state": "xin", 
      "seasons": 1, 
-     "young_time": 120, 
-     "experience": 5.8, 
+     "young_time": 240, 
+     "experience": 18, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 60, 
+     "sale_price": 170, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -17728,25 +17746,30 @@
      "level_need": 25, 
      "fruit_quantifier": "個"
     }, 
-    "nvtanglang": {
-     "total_time": 1680, 
+    "mmdaishu": {
+     "total_time": 1260, 
+     "sound": {
+      "p": "1136,1136,1137,1137,-1,-1", 
+      "enable": true, 
+      "name": "daishu"
+     }, 
      "harvest_type": 3, 
      "used": false, 
-     "name": "カマリリ", 
+     "name": "母の日のカンガルー", 
      "base_fruit": 25, 
-     "fruit_time": 720, 
-     "adult_time": 720, 
+     "fruit_time": 504, 
+     "adult_time": 378, 
      "buy_price": {
-      "F_coin": 50
+      "gold": 10
      }, 
      "seasons": 1, 
-     "young_time": 240, 
-     "experience": 18, 
+     "young_time": 378, 
+     "experience": 3.9, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
-     "sale_price": 170, 
+     "sale_price": 9, 
      "increment_fruit": 25, 
-     "level_need": 1, 
+     "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
     "huafenhou": {
@@ -18111,6 +18134,27 @@
      "experience": 5.58, 
      "fruit_name": "", 
      "is_auto_harvest": false, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "juhuatuhong": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "赤菊の兎", 
+     "base_fruit": 25, 
+     "fruit_time": 960, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 25
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 14, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
      "sale_price": 12, 
      "increment_fruit": 25, 
      "level_need": 1, 
@@ -23124,6 +23168,25 @@
       "F_coin": 25
      }, 
      "level_need": 1
+    }, 
+    "sanjiaomei": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ブーゲンビリア", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 0
     }, 
     "yhhf": {
      "total_time": 1050, 
@@ -36816,6 +36879,25 @@
      "leaf_time": 420, 
      "level_need": 53
     }, 
+    "manyuemujin": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ハイビスカス", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 0
+    }, 
     "f660_hongcong": {
      "total_time": 720, 
      "leaflet_time": 90, 
@@ -37636,6 +37718,25 @@
       "F_coin": 8
      }, 
      "level_need": 53
+    }, 
+    "tiantangniaox": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "クレーンフラワー", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 0
     }, 
     "shizizuodeshu": {
      "total_time": 1080, 
@@ -38834,6 +38935,25 @@
       "F_coin": 50
      }, 
      "leaf_time": 330, 
+     "level_need": 0
+    }, 
+    "quwencao": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "テンジクアオイ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
      "level_need": 0
     }, 
     "shuidicaomei": {
@@ -42199,6 +42319,25 @@
       "F_coin": 20
      }, 
      "level_need": 1
+    }, 
+    "diwanghuax": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "インペリアルフラワー", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 0
     }, 
     "yingtaodangao": {
      "total_time": 685, 
@@ -48664,6 +48803,25 @@
      }, 
      "level_need": 1
     }, 
+    "maogaocaix": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "モウセンゴケ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 17, 
+     "seasons": 1, 
+     "sale_price": 17, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 0
+    }, 
     "nanmeibanmahua": {
      "total_time": 1710, 
      "leaflet_time": 270, 
@@ -50341,6 +50499,7 @@
     "yidalimian", 
     "hashiqifangzi", 
     "mianju4", 
+    "diwanghuax", 
     "maozisongshu", 
     "maozitu", 
     "baisuihua", 
@@ -50384,6 +50543,7 @@
     "nirenxiangjiao", 
     "nirenboluo", 
     "nirenmangguo", 
+    "tiantangniaox", 
     "niudantujianer_lv", 
     "niudanlv", 
     "yejianghuabai", 
@@ -50435,6 +50595,7 @@
     "hudiehua", 
     "chobanana", 
     "azalea", 
+    "quwencao", 
     "emozhixin", 
     "caichunfeng", 
     "wutou", 
@@ -50449,6 +50610,7 @@
     "dayezhu", 
     "liangyanzhu", 
     "lingxiao", 
+    "manyuemujin", 
     "beimu", 
     "lanshanhu", 
     "boluodangao", 
@@ -50486,6 +50648,7 @@
     "lankapian", 
     "lanzuanmudan", 
     "lansegesanghua", 
+    "sanjiaomei", 
     "ledujuan", 
     "chinesecrabapple", 
     "qiefangzi", 
@@ -50511,6 +50674,7 @@
     "ribenzizhu", 
     "xianliangluobo", 
     "mianyangfangzi", 
+    "maogaocaix", 
     "jinpinshanyao", 
     "shanyaohua", 
     "lily", 
