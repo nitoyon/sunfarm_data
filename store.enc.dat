@@ -16868,7 +16868,7 @@
     "juhuatuhuang": {
      "total_time": 1320, 
      "harvest_type": 0, 
-     "used": false, 
+     "used": true, 
      "name": "黄菊の兎", 
      "base_fruit": 25, 
      "fruit_time": 960, 
@@ -18142,7 +18142,7 @@
     "juhuatuhong": {
      "total_time": 1320, 
      "harvest_type": 0, 
-     "used": false, 
+     "used": true, 
      "name": "赤菊の兎", 
      "base_fruit": 25, 
      "fruit_time": 960, 
@@ -20020,6 +20020,24 @@
     "start_time": 1315558800.0, 
     "activity_type": "discount"
    }, 
+   "juhuatuhuang": {
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "黄菊の兎", 
+    "start_time": 1316055600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日6時間", 
+    "end_time": 1316682000.0, 
+    "goods_description": "黄菊の兎", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "siliaobao1": {
     "original_price": {
      "num": 15, 
@@ -20042,6 +20060,24 @@
     "goods_description": "中には中級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
     "start_time": 1315990800.0, 
     "activity_type": "discount"
+   }, 
+   "juhuatuhong": {
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "赤菊の兎", 
+    "start_time": 1316055600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日6時間", 
+    "end_time": 1316682000.0, 
+    "goods_description": "赤菊の兎", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "jiuyuebaoxiang": {
     "specific_type": "re", 
