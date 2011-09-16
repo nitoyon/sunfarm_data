@@ -297,7 +297,7 @@
      "used": true, 
      "name": "高級肥料セット", 
      "price": {
-      "F_coin": 30
+      "F_coin": 27
      }, 
      "introduce": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -20226,7 +20226,7 @@
      "num": 35, 
      "type": "F_coin"
     }, 
-    "specific_type": "re", 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
@@ -20244,20 +20244,28 @@
     "start_time": 1316138400.0, 
     "activity_type": "discount"
    }, 
-   "huafeibao1": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+   "magiccardless": {
+    "original_price": {
+     "num": 3, 
+     "type": "F_coin"
     }, 
-    "name": "中級肥料セット", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック増産カード", 
     "price": {
-     "num": 15, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1316509200.0, 
+    "goods_description": "", 
+    "start_time": 1316163600.0, 
+    "activity_type": "hot_sale"
    }, 
    "mayingdan": {
     "product_type": {
@@ -20277,30 +20285,27 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "siliaobao2": {
-    "original_price": {
+   "juhuatuhong": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "赤菊の兎", 
+    "start_time": 1316055600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日6時間", 
+    "end_time": 1316682000.0, 
+    "goods_description": "赤菊の兎", 
+    "price": {
      "num": 30, 
      "type": "F_coin"
     }, 
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "高級飼料セット", 
-    "price": {
-     "num": 27, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1316682000.0, 
-    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "start_time": 1316163600.0, 
     "activity_type": "discount"
    }, 
    "juhuatuhuang": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "ranch", 
      "goods_type": "baby"
@@ -20316,14 +20321,14 @@
      "num": 30, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
    "siliaobao1": {
     "original_price": {
      "num": 15, 
      "type": "F_coin"
     }, 
-    "specific_type": "re", 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
@@ -20341,23 +20346,51 @@
     "start_time": 1315990800.0, 
     "activity_type": "discount"
    }, 
-   "juhuatuhong": {
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
+   "gaoji": {
+    "original_price": {
+     "num": 6, 
+     "type": "F_coin"
     }, 
-    "name": "赤菊の兎", 
-    "start_time": 1316055600.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日6時間", 
-    "end_time": 1316682000.0, 
-    "goods_description": "赤菊の兎", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "高級肥料", 
     "price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1316509200.0, 
+    "goods_description": "(イベントの期間)使うと作物の成熟時間を7時間短縮できます。マイミクに盗まれる前に収穫しちゃいましょう。", 
+    "start_time": 1316163600.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "siliaobao2": {
+    "original_price": {
      "num": 30, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "高級飼料セット", 
+    "price": {
+     "num": 27, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1316682000.0, 
+    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "start_time": 1316163600.0, 
+    "activity_type": "discount"
    }, 
    "jiuyuebaoxiang": {
     "specific_type": "re", 
@@ -20372,21 +20405,6 @@
     }, 
     "modify": true, 
     "goods_description": "", 
-    "activity_type": "discount"
-   }, 
-   "jiazhutao": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "キョウチクトウ", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "キョウチクトウ、あなたが植えているのは何色かな？", 
     "activity_type": "discount"
    }
   }, 
@@ -52993,7 +53011,7 @@
       "used": true, 
       "name": "マジック増産カード", 
       "price": {
-       "F_coin": 2
+       "F_coin": 1
       }, 
       "introduce": "成熟したヨウシュヤマゴボウとソケイの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
       "magic_card": true, 
