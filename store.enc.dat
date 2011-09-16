@@ -3038,7 +3038,7 @@
      "used": true, 
      "name": "高級飼料セット", 
      "price": {
-      "F_coin": 30
+      "F_coin": 27
      }, 
      "introduce": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -20238,10 +20238,10 @@
     }, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "13日7時間", 
+    "limit_time": "3日7時間", 
     "end_time": 1316422800.0, 
     "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
-    "start_time": 1315274400.0, 
+    "start_time": 1316138400.0, 
     "activity_type": "discount"
    }, 
    "huafeibao1": {
@@ -20277,27 +20277,27 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "huangjinzhousiqi": {
+   "siliaobao2": {
     "original_price": {
-     "num": 50, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "特別花の図鑑宝箱", 
+    "name": "高級飼料セット", 
     "price": {
-     "num": 40, 
+     "num": 27, 
      "type": "F_coin"
     }, 
     "modify": true, 
     "limit_type": "limit_time", 
     "limit_time": "6日", 
-    "end_time": 1316077200.0, 
-    "goods_description": "100％の確率でオトギリソウ*1，ケマンソウ*1，アザミ*1，ヒルガオ*1，チューベローズ*1を入手できます。", 
-    "start_time": 1315558800.0, 
+    "end_time": 1316682000.0, 
+    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "start_time": 1316163600.0, 
     "activity_type": "discount"
    }, 
    "juhuatuhuang": {
