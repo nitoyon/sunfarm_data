@@ -8873,7 +8873,7 @@
    "jiuyuebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 8
+      "F_coin": 10
      }, 
      "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
@@ -20263,7 +20263,7 @@
     "limit_type": "limit_time", 
     "limit_time": "4日", 
     "end_time": 1316509200.0, 
-    "goods_description": "", 
+    "goods_description": "成熟したヨウシュヤマゴボウとソケイの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "start_time": 1316163600.0, 
     "activity_type": "hot_sale"
    }, 
@@ -20365,7 +20365,7 @@
     "limit_type": "limit_time", 
     "limit_time": "4日", 
     "end_time": 1316509200.0, 
-    "goods_description": "(イベントの期間)使うと作物の成熟時間を7時間短縮できます。マイミクに盗まれる前に収穫しちゃいましょう。", 
+    "goods_description": "(使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "start_time": 1316163600.0, 
     "activity_type": "hot_sale"
    }, 
@@ -20404,7 +20404,7 @@
      "type": "F_coin"
     }, 
     "modify": true, 
-    "goods_description": "", 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }
   }, 
@@ -53207,7 +53207,7 @@
      }, 
      "gaoji": {
       "price": {
-       "F_coin": 6
+       "F_coin": 4
       }, 
       "used": true, 
       "name": "高級肥料", 
