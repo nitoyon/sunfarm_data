@@ -14309,6 +14309,13 @@
     "qiaokelibaobao", 
     "changbiyuan", 
     "JiCiWeiXi", 
+    "mingxingmao", 
+    "huahuamao", 
+    "guowangmao", 
+    "xiezuomao", 
+    "sheyingmao", 
+    "shangbanmao", 
+    "famingmao", 
     "xiaobianfu", 
     "xiaomonv", 
     "xiaoheimao", 
@@ -14731,6 +14738,27 @@
    }, 
    "decorations": {}, 
    "babies": {
+    "sheyingmao": {
+     "total_time": 840, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "\u30cd\u30b3\u30b5\u30c4\u30a8\u30a4\u30b7\u30e3", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 14, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "\u500b"
+    }, 
     "milu": {
      "total_time": 1320, 
      "sound": {
@@ -15886,25 +15914,25 @@
      "level_need": 10, 
      "fruit_quantifier": "\u500b"
     }, 
-    "taipingyangfei": {
-     "total_time": 1280, 
+    "qiqiuchongzi": {
+     "total_time": 1320, 
      "harvest_type": 0, 
-     "used": true, 
-     "name": "\u6570\u306e\u5b50", 
+     "used": false, 
+     "name": "\u6c17\u7403\u306e\u866b", 
      "base_fruit": 25, 
-     "fruit_time": 800, 
+     "fruit_time": 960, 
      "adult_time": 240, 
      "buy_price": {
-      "gold": 103
+      "F_coin": 20
      }, 
      "seasons": 1, 
-     "young_time": 240, 
-     "experience": 3.3, 
+     "young_time": 120, 
+     "experience": 14, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 10, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "level_need": 12, 
+     "level_need": 1, 
      "fruit_quantifier": "\u500b"
     }, 
     "huabao": {
@@ -16217,29 +16245,25 @@
      "level_need": 6, 
      "fruit_quantifier": "\u500b"
     }, 
-    "goose": {
-     "total_time": 930, 
-     "sound": {
-      "p": "1030,1030,1031,1031,-1,-1", 
-      "enable": true, 
-      "name": "e"
-     }, 
-     "name": "\u9d5e\u9ce5", 
+    "famingmao": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "\u30cd\u30b3\u30cf\u30c4\u30e1\u30a4\u30ab", 
      "base_fruit": 25, 
-     "fruit_time": 372, 
-     "recipe": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u5408\u6210\u80a5\u6599(\u4f4e)", 
-     "adult_time": 279, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
      "buy_price": {
-      "gold": 107
+      "F_coin": 50
      }, 
-     "seasons": 4, 
-     "young_time": 279, 
-     "experience": 1.1975, 
-     "fruit_name": "\u305f\u307e\u3054", 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 30, 
+     "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 3, 
+     "sale_price": 60, 
      "increment_fruit": 25, 
-     "level_need": 7, 
+     "level_need": 0, 
      "fruit_quantifier": "\u500b"
     }, 
     "wuguChook": {
@@ -16839,25 +16863,25 @@
      "level_need": 10, 
      "fruit_quantifier": "\u500b"
     }, 
-    "qiqiuchongzi": {
-     "total_time": 1320, 
+    "taipingyangfei": {
+     "total_time": 1280, 
      "harvest_type": 0, 
-     "used": false, 
-     "name": "\u6c17\u7403\u306e\u866b", 
+     "used": true, 
+     "name": "\u6570\u306e\u5b50", 
      "base_fruit": 25, 
-     "fruit_time": 960, 
+     "fruit_time": 800, 
      "adult_time": 240, 
      "buy_price": {
-      "F_coin": 20
+      "gold": 103
      }, 
      "seasons": 1, 
-     "young_time": 120, 
-     "experience": 14, 
+     "young_time": 240, 
+     "experience": 3.3, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 12, 
+     "sale_price": 10, 
      "increment_fruit": 25, 
-     "level_need": 1, 
+     "level_need": 12, 
      "fruit_quantifier": "\u500b"
     }, 
     "lvxiongbasedong": {
@@ -17055,6 +17079,27 @@
      "sale_price": 12, 
      "increment_fruit": 25, 
      "level_need": 1, 
+     "fruit_quantifier": "\u500b"
+    }, 
+    "mingxingmao": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "\u30cd\u30b3\u30a2\u30a4\u30c9\u30eb", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 25, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 47, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
      "fruit_quantifier": "\u500b"
     }, 
     "shanxiao": {
@@ -17335,25 +17380,25 @@
      "level_need": 0, 
      "fruit_quantifier": "\u500b"
     }, 
-    "zhihuijiashizi": {
+    "xiezuomao": {
      "total_time": 1320, 
      "harvest_type": 0, 
      "used": false, 
-     "name": "\u30b3\u30f3\u30c0\u30af\u30bf\u30fc\u30e9\u30a4\u30aa\u30f3", 
+     "name": "\u30cd\u30b3\u30b5\u30c3\u30ab", 
      "base_fruit": 25, 
-     "fruit_time": 960, 
-     "adult_time": 240, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
      "buy_price": {
       "F_coin": 30
      }, 
      "seasons": 1, 
-     "young_time": 120, 
-     "experience": 27, 
+     "young_time": 240, 
+     "experience": 21, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 50, 
+     "sale_price": 35, 
      "increment_fruit": 25, 
-     "level_need": 1, 
+     "level_need": 0, 
      "fruit_quantifier": "\u500b"
     }, 
     "mmkaola": {
@@ -18290,6 +18335,27 @@
      "level_need": 1, 
      "fruit_quantifier": "\u500b"
     }, 
+    "guowangmao": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "\u30cd\u30b3\u30ad\u30f3\u30b0", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 50
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 400, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 60, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "\u500b"
+    }, 
     "fuhuojietuziliu": {
      "total_time": 1320, 
      "harvest_type": 0, 
@@ -18373,6 +18439,27 @@
      "fruit_name": "\u305f\u307e\u3054", 
      "is_auto_harvest": true, 
      "sale_price": 40, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "\u500b"
+    }, 
+    "huahuamao": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "\u30cd\u30b3\u30ac\u30ab", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 17, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 20, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "\u500b"
@@ -18786,6 +18873,27 @@
      "level_need": 1, 
      "fruit_quantifier": "\u500b"
     }, 
+    "zhihuijiashizi": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "\u30b3\u30f3\u30c0\u30af\u30bf\u30fc\u30e9\u30a4\u30aa\u30f3", 
+     "base_fruit": 25, 
+     "fruit_time": 960, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 27, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 50, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
+     "fruit_quantifier": "\u500b"
+    }, 
     "xiaolu": {
      "total_time": 840, 
      "harvest_type": 3, 
@@ -18830,6 +18938,31 @@
      "sale_price": 21, 
      "increment_fruit": 25, 
      "level_need": 26, 
+     "fruit_quantifier": "\u500b"
+    }, 
+    "goose": {
+     "total_time": 930, 
+     "sound": {
+      "p": "1030,1030,1031,1031,-1,-1", 
+      "enable": true, 
+      "name": "e"
+     }, 
+     "name": "\u9d5e\u9ce5", 
+     "base_fruit": 25, 
+     "fruit_time": 372, 
+     "recipe": "\u30ec\u30b7\u30d4\u306b\u4f7f\u3048\u307e\u3059\uff1a\n\u5408\u6210\u80a5\u6599(\u4f4e)", 
+     "adult_time": 279, 
+     "buy_price": {
+      "gold": 107
+     }, 
+     "seasons": 4, 
+     "young_time": 279, 
+     "experience": 1.1975, 
+     "fruit_name": "\u305f\u307e\u3054", 
+     "is_auto_harvest": true, 
+     "sale_price": 3, 
+     "increment_fruit": 25, 
+     "level_need": 7, 
      "fruit_quantifier": "\u500b"
     }, 
     "shengdangou": {
@@ -19578,6 +19711,27 @@
      "sale_price": 14, 
      "increment_fruit": 25, 
      "level_need": 1, 
+     "fruit_quantifier": "\u500b"
+    }, 
+    "shangbanmao": {
+     "total_time": 840, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "\u30cd\u30b3\u30b5\u30e9\u30ea\u30fc\u30de\u30f3", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 7, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
      "fruit_quantifier": "\u500b"
     }, 
     "dayan": {
