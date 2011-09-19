@@ -321,7 +321,7 @@
      "used": true, 
      "name": "マルチ肥料セット", 
      "price": {
-      "F_coin": 30
+      "F_coin": 35
      }, 
      "introduce": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
      "state": "xin", 
@@ -20222,26 +20222,18 @@
   ], 
   "hot_sale": {
    "huafeibao3": {
-    "original_price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
     }, 
     "name": "マルチ肥料セット", 
     "price": {
-     "num": 30, 
+     "num": 35, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日7時間", 
-    "end_time": 1316422800.0, 
     "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
-    "start_time": 1316138400.0, 
     "activity_type": "discount"
    }, 
    "magiccardless": {
