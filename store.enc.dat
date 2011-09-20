@@ -7776,7 +7776,7 @@
      "price": {
       "F_coin": 99
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "100％の確率で晴のシャボン樹*1，雨のシャボン樹*1，風のシャボン樹*1，雪のシャボン樹*1，雹のシャボン樹*1を入手できます。", 
      "name": "天気のシャボン樹第一弾の図鑑宝箱", 
      "introduce": "100％の確率で晴のシャボン樹*1，雨のシャボン樹*1，風のシャボン樹*1，雪のシャボン樹*1，雹のシャボン樹*1を入手できます。"
@@ -12576,6 +12576,43 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "yanhuabaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 60
+     }, 
+     "used": false, 
+     "goods_str": "100％の確率でピンク花火*1，ブルー花火*1，イエロー花火*1，パープル花火*1，グリーン花火*1を入手できます。", 
+     "name": "花火大会の図鑑宝箱", 
+     "introduce": "100％の確率でピンク花火*1，ブルー花火*1，イエロー花火*1，パープル花火*1，グリーン花火*1を入手できます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yanhuayi": [
+        1, 
+        1
+       ], 
+       "yanhuasan": [
+        1, 
+        1
+       ], 
+       "yanhuasi": [
+        1, 
+        1
+       ], 
+       "yanhuawu": [
+        1, 
+        1
+       ], 
+       "yanhuaer": [
+        1, 
+        1
+       ]
       }
      }
     }
@@ -54869,6 +54906,7 @@
    "houzitujianbaoxiang", 
    "yuanyidongwutujianbaoxiang", 
    "jiagongchangsucaibao", 
+   "yanhuabaoxiang", 
    "shengdanhuangniudan", 
    "niudanlan", 
    "yinghuashuhongniudan", 
