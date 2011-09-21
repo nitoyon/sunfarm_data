@@ -10152,25 +10152,25 @@
     "data": {
      "farm": {
       "seeds": {
-       "partyqiezi": [
+       "maozixiong": [
         1, 
         0.3
        ], 
-       "partybaicai": [
+       "maozisongshu": [
         1, 
-        1
+        0.2
        ], 
-       "partytudou": [
+       "maozilv": [
         1, 
         0.5
        ], 
-       "partyhuluobo": [
+       "maozizhu": [
+        1, 
+        1
+       ], 
+       "maoziya": [
         1, 
         0.1
-       ], 
-       "partymogu": [
-        1, 
-        0.2
        ]
       }
      }
@@ -20498,24 +20498,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "discount"
-   }, 
-   "zhuotutujian": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "イースターアニマルズの宝箱", 
-    "start_time": 1316509200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1316768400.0, 
-    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でイースターガーベラ*1，イースターカラー*1，イースターレンゲ*1，イースタースイセン*1，イースターラベンダー*1を入手できます。", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "bayuezhuochongfuyongbaoxiang": {
     "specific_type": "xin", 
