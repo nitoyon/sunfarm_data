@@ -26353,24 +26353,24 @@
      }, 
      "level_need": 0
     }, 
-    "ribenguoqishua": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "penjingsan": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "復刻版日本国旗樹復刻版", 
+     "name": "ユメボンサイ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 330, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
      "bloom_time": 330, 
-     "experience": 6, 
+     "experience": 8, 
      "seasons": 1, 
-     "sale_price": 12, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
      "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 20
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "huangjinrenshen": {
      "total_time": 1710, 
@@ -27565,6 +27565,25 @@
       "gold": 10
      }, 
      "level_need": 1
+    }, 
+    "penjingsi": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ハッピーボンサイ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 0
     }, 
     "xigua": {
      "total_time": 5150, 
@@ -30582,6 +30601,25 @@
       "F_coin": 15
      }, 
      "level_need": 1
+    }, 
+    "penjingliu": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "カツリョクボンサイ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 17, 
+     "seasons": 1, 
+     "sale_price": 17, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 0
     }, 
     "meiguoguoqishu": {
      "total_time": 1650, 
@@ -35465,23 +35503,22 @@
      }, 
      "level_need": 0
     }, 
-    "maladoufu": {
-     "total_time": 960, 
-     "leaflet_time": 90, 
-     "used": true, 
-     "name": "とろとろマーボー豆腐", 
+    "kongquecao": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "マリーゴールド", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "tuchan": true, 
-     "sprout_time": 30, 
-     "bloom_time": 300, 
-     "experience": 6.38, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
      "seasons": 1, 
-     "sale_price": 7, 
+     "sale_price": 16, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 10
+      "F_coin": 25
      }, 
      "level_need": 0
     }, 
@@ -35712,6 +35749,25 @@
       "gold": 412
      }, 
      "level_need": 52
+    }, 
+    "penjingyi": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "チエボンサイ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 0
     }, 
     "sansemogu": {
      "total_time": 1440, 
@@ -42911,6 +42967,25 @@
      }, 
      "level_need": 1
     }, 
+    "ribenguoqishua": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "復刻版日本国旗樹復刻版", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 6, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 1
+     }, 
+     "level_need": 1
+    }, 
     "gaojishengdanhong": {
      "total_time": 900, 
      "leaflet_time": 180, 
@@ -47247,22 +47322,23 @@
      }, 
      "level_need": 1
     }, 
-    "kongquecao": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "マリーゴールド", 
+    "maladoufu": {
+     "total_time": 960, 
+     "leaflet_time": 90, 
+     "used": true, 
+     "name": "とろとろマーボー豆腐", 
      "base_fruit": 25, 
      "fruit_time": 330, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 13, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.38, 
      "seasons": 1, 
-     "sale_price": 16, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 10
      }, 
      "level_need": 0
     }, 
@@ -48815,6 +48891,25 @@
      }, 
      "level_need": 1
     }, 
+    "penjingwu": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "コウウンボンサイ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 0
+    }, 
     "xuanzhuanmuma": {
      "total_time": 1350, 
      "leaflet_time": 150, 
@@ -49161,6 +49256,25 @@
       "F_coin": 25
      }, 
      "level_need": 1
+    }, 
+    "penjinger": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "マホウボンサイ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 0
     }, 
     "chabeixiongmao": {
      "total_time": 1080, 
@@ -51578,6 +51692,7 @@
     "yanzihuax", 
     "yaoguo", 
     "zhuyahua", 
+    "penjingliu", 
     "maozhiwucaise", 
     "yejianghuacai", 
     "caisebaxianhua", 
@@ -51610,6 +51725,7 @@
     "putaoxiongmao", 
     "jiguanhua", 
     "yingsu", 
+    "penjingwu", 
     "xianrenzhangxin", 
     "gouwen", 
     "kafeibei", 
@@ -51649,6 +51765,7 @@
     "zhangyufengzheng", 
     "ziyanghua", 
     "jingangrenshen", 
+    "penjingyi", 
     "zanghonghua", 
     "tulip", 
     "diyongjinlian", 
@@ -51672,6 +51789,7 @@
     "liangyanzhu", 
     "lingxiao", 
     "manyuemujin", 
+    "penjingsi", 
     "beimu", 
     "lanshanhu", 
     "boluodangao", 
@@ -51727,6 +51845,7 @@
     "shengdanhong", 
     "wurong", 
     "songrong", 
+    "penjinger", 
     "kongquecao", 
     "jinlvmei", 
     "man_tuo_luo", 
@@ -51741,6 +51860,7 @@
     "maogaocaix", 
     "jinpinshanyao", 
     "shanyaohua", 
+    "penjingsan", 
     "lily", 
     "niudantujianer_BOSS", 
     "dacaohua", 
