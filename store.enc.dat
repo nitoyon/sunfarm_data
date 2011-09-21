@@ -20480,25 +20480,6 @@
     }, 
     "activity_type": "discount"
    }, 
-   "mayingdan": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "謎のランタナ", 
-    "start_time": 1315980000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日3時間", 
-    "end_time": 1316595600.0, 
-    "goods_description": "ファイブカラーの花、あなたが植えているのは何色かな？", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "discount"
-   }, 
    "zhuotutujian": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -20532,6 +20513,25 @@
     "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でキクモ*1，キカシグサ*1，イグサ*1，アヤメ*1，カキツバタ*1を入手できます。", 
     "price": {
      "num": 15, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "discount"
+   }, 
+   "juhuatuhong": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "ranch", 
+     "goods_type": "baby"
+    }, 
+    "name": "赤菊の兎", 
+    "start_time": 1316055600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日6時間", 
+    "end_time": 1316682000.0, 
+    "goods_description": "赤菊の兎", 
+    "price": {
+     "num": 30, 
      "type": "F_coin"
     }, 
     "activity_type": "discount"
@@ -20573,23 +20573,27 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "juhuatuhong": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "ranch", 
-     "goods_type": "baby"
-    }, 
-    "name": "赤菊の兎", 
-    "start_time": 1316055600.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日6時間", 
-    "end_time": 1316682000.0, 
-    "goods_description": "赤菊の兎", 
-    "price": {
+   "siliaobao2": {
+    "original_price": {
      "num": 30, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "高級飼料セット", 
+    "price": {
+     "num": 27, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1316682000.0, 
+    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "start_time": 1316163600.0, 
     "activity_type": "discount"
    }, 
    "jiuyuebaoxiang": {
