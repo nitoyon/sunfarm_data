@@ -194,6 +194,43 @@
      }
     }
    }, 
+   "xinlibaolv4": {
+    "config": {
+     "price": {
+      "F_coin": 65
+     }, 
+     "used": false, 
+     "goods_str": "トマト妖精、ハムスター、ウルトラ肥料が含まれています。", 
+     "name": "グリーンギフトセット", 
+     "introduce": "トマト妖精、ハムスター、ウルトラ肥料が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "xihongshixiaoyao": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "xuyuanlibao6": {
     "config": {
      "price": {
@@ -911,6 +948,43 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "xinlibaozi3": {
+    "config": {
+     "price": {
+      "F_coin": 39
+     }, 
+     "used": false, 
+     "goods_str": "アサガオ妖精、高級肥料２個、コアラが含まれています。", 
+     "name": "レッドギフトセット", 
+     "introduce": "アサガオ妖精、高級肥料２個、コアラが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "labahuaxiaoyao": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "shudaixiong": [
+        1, 
+        1.0
+       ]
       }
      }
     }
@@ -2201,6 +2275,47 @@
      }
     }
    }, 
+   "xinlibaohuang6": {
+    "config": {
+     "price": {
+      "F_coin": 158
+     }, 
+     "used": false, 
+     "goods_str": "木の妖精、ホワイトうさぎ、ウルトラ肥料４個、ハムスターが含まれています。", 
+     "name": "イエローギフトセット", 
+     "introduce": "木の妖精、ホワイトうさぎ、ウルトラ肥料４個、ハムスターが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shuxiaoyao": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         4, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ], 
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "huaijiuniudanbao": {
     "config": {
      "price": {
@@ -2982,6 +3097,35 @@
         1, 
         1.0
        ]
+      }
+     }
+    }
+   }, 
+   "xinlibaofen2": {
+    "config": {
+     "price": {
+      "F_coin": 29
+     }, 
+     "used": false, 
+     "goods_str": "ヒョウタン妖精、高級肥料が含まれています。", 
+     "name": "ピンクギフトセット", 
+     "introduce": "ヒョウタン妖精、高級肥料が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "huluxiaoyao": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         1, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -3884,6 +4028,43 @@
      }
     }
    }, 
+   "xinlibaolan5": {
+    "config": {
+     "price": {
+      "F_coin": 85
+     }, 
+     "used": false, 
+     "goods_str": "竹の子妖精、ホワイトうさぎ、ウルトラ肥料２個が含まれています。", 
+     "name": "ブルーギフトセット", 
+     "introduce": "竹の子妖精、ホワイトうさぎ、ウルトラ肥料２個が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "zhusunxiaoyao": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "baitu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "huangsebao5": {
     "config": {
      "price": {
@@ -3918,6 +4099,79 @@
         1.0
        ], 
        "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
+   "xingaoji0": {
+    "config": {
+     "price": {
+      "F_coin": 350
+     }, 
+     "used": false, 
+     "goods_str": "350Kコイン相当のアイテムが含まれています。", 
+     "name": "高級ギフトセット", 
+     "introduce": "350Kコイン相当のアイテムが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "nirenzhiwu6": [
+        1, 
+        1.0
+       ], 
+       "hongbailanmeigui": [
+        1, 
+        1.0
+       ], 
+       "ziluolan": [
+        1, 
+        1.0
+       ], 
+       "mayingdan": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "jinsexiaomifeng": [
+        1, 
+        1.0
+       ], 
+       "changbozi": [
+        1, 
+        1.0
+       ], 
+       "cangshu": [
+        1, 
+        1.0
+       ], 
+       "juhuatuhuang": [
+        1, 
+        1.0
+       ], 
+       "baitu": [
+        1, 
+        1.0
+       ], 
+       "juhuatuhong": [
         1, 
         1.0
        ]
@@ -4898,24 +5152,40 @@
      }
     }
    }, 
-   "crops_suanrulao_gift": {
+   "crops_ziteng_gift": {
     "config": {
-     "goods_str": "ジャージー\t\t\t\t\t2匹", 
-     "name": "生ヨーグルト材料セット", 
-     "needlevel": 2, 
+     "goods_str": "サクランボ\t\t\t\t\t1個\n\nマジックスティックを製造するための:\n\tメキシコシティー\t\t\t1個\n\tハエトリ草\t\t\t\t\t1個\n\t羊\t\t\t\t\t\t\t1匹", 
+     "name": "フジ材料セット", 
+     "needlevel": 4, 
      "price": {
-      "gold": 960
+      "gold": 912
      }, 
      "factory": true, 
-     "introduce": "ジャージー2個", 
+     "introduce": "メキシコシティー1個\nハエトリ草1個\n羊1個\nサクランボ1個", 
      "sale": true, 
      "used": true
     }, 
     "data": {
+     "farm": {
+      "seeds": {
+       "cherry": [
+        1, 
+        1.0
+       ], 
+       "mexicocactus": [
+        1, 
+        1.0
+       ], 
+       "flycatcher": [
+        1, 
+        1.0
+       ]
+      }
+     }, 
      "ranch": {
       "babies": {
-       "juanshanniu": [
-        2, 
+       "sheep": [
+        1, 
         1.0
        ]
       }
@@ -5040,46 +5310,6 @@
        ], 
        "apple": [
         2, 
-        1.0
-       ]
-      }
-     }
-    }
-   }, 
-   "crops_ziteng_gift": {
-    "config": {
-     "goods_str": "サクランボ\t\t\t\t\t1個\n\nマジックスティックを製造するための:\n\tメキシコシティー\t\t\t1個\n\tハエトリ草\t\t\t\t\t1個\n\t羊\t\t\t\t\t\t\t1匹", 
-     "name": "フジ材料セット", 
-     "needlevel": 4, 
-     "price": {
-      "gold": 912
-     }, 
-     "factory": true, 
-     "introduce": "メキシコシティー1個\nハエトリ草1個\n羊1個\nサクランボ1個", 
-     "sale": true, 
-     "used": true
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "cherry": [
-        1, 
-        1.0
-       ], 
-       "mexicocactus": [
-        1, 
-        1.0
-       ], 
-       "flycatcher": [
-        1, 
-        1.0
-       ]
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "sheep": [
-        1, 
         1.0
        ]
       }
@@ -5331,6 +5561,30 @@
         1.0
        ], 
        "beijingDuck": [
+        2, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
+   "crops_suanrulao_gift": {
+    "config": {
+     "goods_str": "ジャージー\t\t\t\t\t2匹", 
+     "name": "生ヨーグルト材料セット", 
+     "needlevel": 2, 
+     "price": {
+      "gold": 960
+     }, 
+     "factory": true, 
+     "introduce": "ジャージー2個", 
+     "sale": true, 
+     "used": true
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "juanshanniu": [
         2, 
         1.0
        ]
@@ -20430,8 +20684,8 @@
    "crops_qiukuishala_gift", 
    "crops_lajiaoyou_gift", 
    "crops_zhuanjiyindanji_gift", 
-   "crops_youlicishen_gift", 
    "crops_suanrulao_gift", 
+   "crops_youlicishen_gift", 
    "crops_guoguangpingguo_gift", 
    "crops_tudoudunzhurou_gift", 
    "crops_pingguopai_gift", 
@@ -55239,7 +55493,7 @@
    "guoqibaofuke", 
    "caisegesanghualibao", 
    "dongwubao", 
-   "crops_suanrulao_gift", 
+   "xinlibaolv4", 
    "juice_guosuanjinghua_gift", 
    "crops_yingtaodangao_gift", 
    "zonghesiliaobao", 
@@ -55253,6 +55507,7 @@
    "crops_tianyuanji_gift", 
    "fuhuoniudanbao", 
    "lanbao1", 
+   "xinlibaozi3", 
    "crops_xiangkaoyangpai_gift", 
    "gb_2", 
    "gb_3", 
@@ -55285,7 +55540,7 @@
    "niudanlipinbao", 
    "crops_huanxianghua_gift", 
    "gaojilibao", 
-   "crops_mitao_gift", 
+   "xinlibaohuang6", 
    "huaijiuniudanbao", 
    "gb_10", 
    "gb_12", 
@@ -55301,12 +55556,14 @@
    "libaohongxin", 
    "crops_pingguopai_gift", 
    "tdysniudanbao", 
+   "xinlibaofen2", 
    "gaojifeiliaobao", 
    "crops_jiajiepingguo_gift", 
    "crops_guoguangpingguo_gift", 
    "laohujizhongzibao", 
    "crops_zhishimianbaogan_gift", 
    "crops_moguniurouchaofan_gift", 
+   "crops_mitao_gift", 
    "crops_tudoudunzhurou_gift", 
    "libaofenxin", 
    "crops_hongtang_gift", 
@@ -55337,10 +55594,12 @@
    "crops_zhishijumogu_gift", 
    "crops_xilengniupai_gift", 
    "xibanyalibao", 
+   "xinlibaolan5", 
    "crops_ziteng_gift", 
    "crops_dongguapaigutang_gift", 
    "lvsebao3", 
    "crops_shuiguojiang_gift", 
+   "xingaoji0", 
    "crops_ganlanyou_gift", 
    "items_shiyanfeiliao_gift", 
    "items_dijifeiliao_gift", 
@@ -55358,6 +55617,7 @@
    "gb_7", 
    "xuyuanlibao3", 
    "xuyuanlibao2", 
+   "crops_suanrulao_gift", 
    "crops_mapodoufu_gift", 
    "crops_danhuangjiang_gift", 
    "zibao5", 
