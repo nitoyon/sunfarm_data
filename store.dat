@@ -42506,6 +42506,25 @@
      "leaf_time": 150, 
      "level_need": 1
     }, 
+    "goushu": {
+     "total_time": 715, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u30ab\u30b8\u30ce\u30ad", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 25, 
+     "bloom_time": 150, 
+     "experience": 1.76, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 99
+     }, 
+     "level_need": 10
+    }, 
     "pea": {
      "total_time": 1414, 
      "leaflet_time": 180, 
@@ -45696,24 +45715,24 @@
      }, 
      "level_need": 1
     }, 
-    "mikuo": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
+    "yuxingcao": {
+     "total_time": 840, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "\u7cf8\u62ec", 
+     "name": "\u30c9\u30af\u30c0\u30df", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
+     "fruit_time": 300, 
      "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 50, 
+     "bloom_time": 150, 
+     "experience": 2.6, 
      "seasons": 1, 
-     "sale_price": 500, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 150
+      "gold": 230
      }, 
-     "level_need": 0
+     "level_need": 30
     }, 
     "liushengji": {
      "total_time": 1200, 
@@ -47183,6 +47202,25 @@
       "F_coin": 90
      }, 
      "level_need": 1
+    }, 
+    "mikuo": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "\u7cf8\u62ec", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 50, 
+     "seasons": 1, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 150
+     }, 
+     "level_need": 0
     }, 
     "qincai": {
      "total_time": 1200, 
@@ -53068,6 +53106,7 @@
     "huajiantuanzi", 
     "houmianbaoshu", 
     "gongdengbaihe", 
+    "goushu", 
     "keke", 
     "shanzhuyu", 
     "xiaosheju", 
@@ -53152,6 +53191,7 @@
     "nansuanzao", 
     "haitonghua", 
     "ziyuanbaicai", 
+    "yuxingcao", 
     "baojunlajiao", 
     "huolongguoxin", 
     "huo_long_guo", 
