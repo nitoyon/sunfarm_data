@@ -7953,7 +7953,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でキクモ*1，キカシグサ*1，イグサ*1，アヤメ*1，カキツバタ*1を入手できます。", 
      "name": "水生植物図鑑宝箱", 
      "introduce": "虫とりイベント図鑑の宝箱で、一定の確率でキクモ*1，キカシグサ*1，イグサ*1，アヤメ*1，カキツバタ*1を入手できます。"
@@ -8278,7 +8278,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でお眠りねこ*1，蝶蝶ねこ*1，金魚ねこ*1，正座ねこ*1，木登りねこ*1を入手できます。", 
      "name": "子猫の図鑑宝箱", 
      "introduce": "虫とりイベント図鑑の宝箱で、一定の確率でお眠りねこ*1，蝶蝶ねこ*1，金魚ねこ*1，正座ねこ*1，木登りねこ*1を入手できます。"
@@ -9944,7 +9944,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でヒイラギモチ*1，サンユウカ*1，ホウオウボクプルケリマ*1，アロカシア*1，おおべにごうかん*1を入手できます。", 
      "name": "海洋の花の図鑑宝箱", 
      "introduce": "虫とりイベント図鑑の宝箱で、一定の確率でヒイラギモチ*1，サンユウカ*1，ホウオウボクプルケリマ*1，アロカシア*1，おおべにごうかん*1を入手できます。"
@@ -10459,7 +10459,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でイースターガーベラ*1，イースターカラー*1，イースターレンゲ*1，イースタースイセン*1，イースターラベンダー*1を入手できます。", 
      "name": "イースターアニマルズの宝箱", 
      "introduce": "虫とりイベント図鑑の宝箱で、一定の確率でイースターガーベラ*1，イースターカラー*1，イースターレンゲ*1，イースタースイセン*1，イースターラベンダー*1を入手できます。"
@@ -11501,7 +11501,7 @@
    "shenqijindaihuabaoxiang": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 25
      }, 
      "used": true, 
      "goods_str": "中に魔法のバリエガータの種2個が含まれています。", 
@@ -13674,7 +13674,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でちゅーちゅートマト*1，いっぱいアップル*1，ぐーぐーコーン*1，くるくるマロン*1，かんむりサンフラワー*1を入手できます。", 
      "name": "虫とり図鑑の宝箱", 
      "introduce": "虫とりイベント図鑑の宝箱で、一定の確率でちゅーちゅートマト*1，いっぱいアップル*1，ぐーぐーコーン*1，くるくるマロン*1，かんむりサンフラワー*1を入手できます。"
@@ -20758,41 +20758,43 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "zhuomaotujianbaoxiang": {
+   "chaozhilibao": {
+    "goods_str": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5.", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "子猫の図鑑宝箱", 
-    "start_time": 1316509200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1316768400.0, 
-    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でお眠りねこ*1，蝶蝶ねこ*1，金魚ねこ*1，正座ねこ*1，木登りねこ*1を入手できます。", 
+    "name": "お買い得セット", 
     "price": {
-     "num": 15, 
+     "num": 700, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "limit_type": "limit_hot", 
+    "goods_description": "大特価セール！中には500Kコイン分の種が含まれています。さらに770Kコインのアイテムをプレゼント。　種：クレイジーナシ×4    クレイジーサボテン×4  チョウ花×4       天山雪蓮×4       魔法の白バラ×4     月の花×10　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×10    ウルトラ肥料×5.", 
     "activity_type": "hot_sale"
    }, 
-   "haiyangzhihuatujian": {
-    "specific_type": "xin", 
+   "shenqijindaihuabaoxiang": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "海洋の花の図鑑宝箱", 
-    "start_time": 1316509200.0, 
+    "name": "魔法のバリエガータ宝箱", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
     "modify": true, 
     "limit_type": "limit_time", 
     "limit_time": "3日", 
-    "end_time": 1316768400.0, 
-    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でヒイラギモチ*1，サンユウカ*1，ホウオウボクプルケリマ*1，アロカシア*1，おおべにごうかん*1を入手できます。", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
+    "end_time": 1317027600.0, 
+    "goods_description": "中に魔法のバリエガータの種2個が含まれています。", 
+    "start_time": 1316768400.0, 
     "activity_type": "discount"
    }, 
    "jiqiyou": {
@@ -20813,41 +20815,28 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "zhuotutujian": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "イースターアニマルズの宝箱", 
-    "start_time": 1316509200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1316768400.0, 
-    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でイースターガーベラ*1，イースターカラー*1，イースターレンゲ*1，イースタースイセン*1，イースターラベンダー*1を入手できます。", 
-    "price": {
-     "num": 15, 
+   "big_food": {
+    "original_price": {
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
-   }, 
-   "bayuezhuochongfuyongbaoxiang": {
-    "specific_type": "xin", 
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "dog_food"
     }, 
-    "name": "水生植物図鑑宝箱", 
-    "start_time": 1316509200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1316768400.0, 
-    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でキクモ*1，キカシグサ*1，イグサ*1，アヤメ*1，カキツバタ*1を入手できます。", 
+    "name": "食べ物セット（畑）", 
     "price": {
-     "num": 15, 
+     "num": 7, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1317027600.0, 
+    "goods_description": "五日分の食べ物、それに二日分をサービスします。ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
+    "start_time": 1316682000.0, 
     "activity_type": "discount"
    }, 
    "gailiangji": {
@@ -20855,7 +20844,6 @@
      "num": 5, 
      "type": "F_coin"
     }, 
-    "specific_type": "re", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
@@ -20872,25 +20860,22 @@
     "end_time": 1317027600.0, 
     "goods_description": "土地改良専用アイテム", 
     "start_time": 1316682000.0, 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
-   "zhuochongtujian": {
-    "specific_type": "xin", 
+   "shengjifeiliao": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "虫とり図鑑の宝箱", 
-    "start_time": 1316509200.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1316768400.0, 
-    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でちゅーちゅートマト*1，いっぱいアップル*1，ぐーぐーコーン*1，くるくるマロン*1，かんむりサンフラワー*1を入手できます。", 
+    "name": "有機肥料パック", 
     "price": {
-     "num": 15, 
-     "type": "F_coin"
+     "num": 3000, 
+     "type": "gold"
     }, 
+    "modify": true, 
+    "goods_description": "土地改良専用アイテム。", 
     "activity_type": "discount"
    }, 
    "jiuyuebaoxiang": {
@@ -20929,6 +20914,30 @@
     "limit_time": "4日", 
     "end_time": 1317027600.0, 
     "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "start_time": 1316682000.0, 
+    "activity_type": "discount"
+   }, 
+   "magiccardless": {
+    "original_price": {
+     "num": 3, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック増産カード", 
+    "price": {
+     "num": 2, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1317027600.0, 
+    "goods_description": "成熟したドクダミとカジノキの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "start_time": 1316682000.0, 
     "activity_type": "discount"
    }
@@ -54131,7 +54140,7 @@
       "used": true, 
       "name": "食べ物セット（畑）", 
       "price": {
-       "F_coin": 10
+       "F_coin": 7
       }, 
       "introduce": "五日分の食べ物、それに二日分をサービスします。ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
       "multi_buy": false, 
