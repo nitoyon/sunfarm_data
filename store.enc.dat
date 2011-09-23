@@ -21417,6 +21417,26 @@
      "leaf_time": 90, 
      "level_need": 0
     }, 
+    "jiqiyou": {
+     "total_time": 2160, 
+     "leaflet_time": 480, 
+     "used": false, 
+     "name": "種たべロウ君の専用的な種", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "sprout_time": 240, 
+     "introduce": "Lv10以上で植えることができます。成長時間が長いため、購入した種を植えるのではなく、現在イベント開催中の「種食べロウ君」にあげて種処理機能を利用されることをお勧めします！ご注意：この種は販売・利用時間限定です。9月28日14時を過ぎますと、販売ができなくなり、購入頂いた種もアイテム袋から消失しますのでご注意ください。", 
+     "increment_fruit": 25, 
+     "bloom_time": 480, 
+     "experience": 10.8, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "seed_price": {
+      "gold": 500
+     }, 
+     "leaf_time": 480, 
+     "level_need": 10
+    }, 
     "jiniansheyingzhihua": {
      "total_time": 1380, 
      "leaflet_time": 180, 
@@ -53736,6 +53756,7 @@
     "daluobo", 
     "tonghao", 
     "shuixian", 
+    "jiqiyou", 
     "pea", 
     "mensong", 
     "guavaflower", 
