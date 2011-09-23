@@ -20734,6 +20734,24 @@
     }, 
     "activity_type": "discount"
    }, 
+   "jiqiyou": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "種たべロウ君の専用的な種", 
+    "start_time": 1316757600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日23時間", 
+    "end_time": 1317186000.0, 
+    "goods_description": "Lv10以上で植えることができます。成長時間が長いため、購入した種を植えるのではなく、現在イベント開催中の「種食べロウ君」にあげて種処理機能を利用されることをお勧めします！ご注意：この種は販売・利用時間限定です。9月28日14時を過ぎますと、販売ができなくなり、購入頂いた種もアイテム袋から消失しますのでご注意ください。", 
+    "price": {
+     "num": 500, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "zhuotutujian": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -20796,6 +20814,7 @@
     "activity_type": "discount"
    }, 
    "zhuochongtujian": {
+    "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -20811,22 +20830,6 @@
      "num": 15, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
-   }, 
-   "shengjifeiliao": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "有機肥料パック", 
-    "price": {
-     "num": 3000, 
-     "type": "gold"
-    }, 
-    "modify": true, 
-    "goods_description": "土地改良専用アイテム。", 
     "activity_type": "discount"
    }, 
    "jiuyuebaoxiang": {
