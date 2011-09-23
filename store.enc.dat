@@ -24177,22 +24177,22 @@
      }, 
      "level_need": 1
     }, 
-    "yehehua": {
-     "total_time": 510, 
+    "tongcai": {
+     "total_time": 960, 
      "leaflet_time": 60, 
      "used": false, 
-     "name": "ココマグノリア", 
+     "name": "ヨウサイ", 
      "base_fruit": 25, 
-     "fruit_time": 180, 
-     "sprout_time": 30, 
-     "bloom_time": 150, 
-     "experience": 4.5, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 5.33, 
      "seasons": 1, 
      "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 90, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 38
+      "gold": 10
      }, 
      "level_need": 1
     }, 
@@ -31091,6 +31091,26 @@
      }, 
      "level_need": 1
     }, 
+    "qiufenjuhua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "秋分の菊", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "花言葉：秋分の花", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "bajiaoci": {
      "total_time": 480, 
      "leaflet_time": 20, 
@@ -31265,22 +31285,22 @@
      "leaf_time": 145, 
      "level_need": 53
     }, 
-    "rulao": {
-     "total_time": 1650, 
-     "leaflet_time": 330, 
+    "shinanhua": {
+     "total_time": 510, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "チーズ", 
+     "name": "ハクサンシャクナゲ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 330, 
-     "bloom_time": 330, 
-     "experience": 190, 
+     "fruit_time": 180, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4.5, 
      "seasons": 1, 
-     "sale_price": 730, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 90, 
      "seed_price": {
-      "F_coin": 1
+      "F_coin": 38
      }, 
      "level_need": 1
     }, 
@@ -33019,6 +33039,46 @@
      "increment_fruit": 25, 
      "leaf_time": 121, 
      "level_need": 1
+    }, 
+    "qiufenmolihua": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "秋分のジャスミン", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "花言葉：秋分の花", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
+    "qiufenbaihe": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "秋分のユリ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "花言葉：秋分の花", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "qisehua": {
      "total_time": 1080, 
@@ -39990,6 +40050,26 @@
      }, 
      "level_need": 1
     }, 
+    "qiufenmatilian": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "秋分のカラー", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "花言葉：秋分の花", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "jiejiecai": {
      "total_time": 480, 
      "leaflet_time": 20, 
@@ -41346,6 +41426,25 @@
       "F_coin": 15
      }, 
      "level_need": 1
+    }, 
+    "qiufenqiubing": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "おはぎ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 24, 
+     "seasons": 1, 
+     "sale_price": 45, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 0
     }, 
     "bingdiaoshulan": {
      "total_time": 480, 
@@ -43207,22 +43306,22 @@
      }, 
      "level_need": 41
     }, 
-    "shinanhua": {
-     "total_time": 510, 
-     "leaflet_time": 60, 
+    "rulao": {
+     "total_time": 1650, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "ハクサンシャクナゲ", 
+     "name": "チーズ", 
      "base_fruit": 25, 
-     "fruit_time": 180, 
-     "sprout_time": 30, 
-     "bloom_time": 150, 
-     "experience": 4.5, 
+     "fruit_time": 330, 
+     "sprout_time": 330, 
+     "bloom_time": 330, 
+     "experience": 190, 
      "seasons": 1, 
-     "sale_price": 6, 
+     "sale_price": 730, 
      "increment_fruit": 25, 
-     "leaf_time": 90, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 38
+      "F_coin": 1
      }, 
      "level_need": 1
     }, 
@@ -47631,22 +47730,22 @@
      }, 
      "level_need": 1
     }, 
-    "tongcai": {
-     "total_time": 960, 
+    "yehehua": {
+     "total_time": 510, 
      "leaflet_time": 60, 
      "used": false, 
-     "name": "ヨウサイ", 
+     "name": "ココマグノリア", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 5.33, 
+     "fruit_time": 180, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4.5, 
      "seasons": 1, 
      "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "leaf_time": 90, 
      "seed_price": {
-      "gold": 10
+      "F_coin": 38
      }, 
      "level_need": 1
     }, 
@@ -51440,6 +51539,26 @@
      }, 
      "level_need": 0
     }, 
+    "qiufenmeigui": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "秋分のバラ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "花言葉：秋分の花", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "xingandengjie": {
      "total_time": 720, 
      "leaflet_time": 90, 
@@ -52306,6 +52425,7 @@
     "chonglaoda", 
     "dafeiyancao", 
     "zhuying", 
+    "qiufenqiubing", 
     "xiangrikuichong", 
     "pisa", 
     "moyu", 
@@ -52630,6 +52750,11 @@
     "tdyszi", 
     "bailian", 
     "feverfew", 
+    "qiufenmatilian", 
+    "qiufenmolihua", 
+    "qiufenmeigui", 
+    "qiufenbaihe", 
+    "qiufenjuhua", 
     "baibingxin", 
     "xingandengjie", 
     "duancezhuzi", 
@@ -54164,11 +54289,11 @@
       "price": {
        "F_coin": 2
       }, 
-      "introduce": "成熟したヨウシュヤマゴボウとソケイの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+      "introduce": "成熟したドクダミとカジノキの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
       "magic_card": true, 
       "include": [
-       "meizhoushanglu", 
-       "baihehua"
+       "goushu", 
+       "yuxingcao"
       ], 
       "magic_card_percent": 0.5
      }, 
@@ -54324,7 +54449,7 @@
       "price": {
        "F_coin": 12
       }, 
-      "introduce": "ヨウシュヤマゴボウとソケイ以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+      "introduce": "ドクダミとカジノキ以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
       "magic_card_percent": 0.5
      }, 
