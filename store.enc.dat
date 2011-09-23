@@ -1022,6 +1022,67 @@
      }
     }
    }, 
+   "qiufenhualibao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。", 
+     "name": "秋分の花プレゼント", 
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqiginseng": [
+        1, 
+        1.0
+       ], 
+       "baiqiangwei": [
+        1, 
+        1.0
+       ], 
+       "baochunhua": [
+        1, 
+        1.0
+       ], 
+       "bosiju": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         6, 
+         1.0
+        ], 
+        "gaosu": [
+         20, 
+         1.0
+        ], 
+        "jisu": [
+         20, 
+         1.0
+        ], 
+        "gaoji": [
+         20, 
+         1.0
+        ], 
+        "zengshou": [
+         10, 
+         1.0
+        ], 
+        "xunjie": [
+         30, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "xuyuanlibao4": {
     "config": {
      "price": {
@@ -55779,6 +55840,7 @@
    "xinlibaozi3", 
    "crops_xiangkaoyangpai_gift", 
    "gb_2", 
+   "qiufenhualibao", 
    "gb_3", 
    "crops_qiukuishala_gift", 
    "libaochengxin", 
