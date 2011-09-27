@@ -6905,6 +6905,18 @@
      }
     }
    }, 
+   "crystal11": {
+    "config": {
+     "goods_str": "モジフラワーの種と高級肥料が入っています。", 
+     "name": "10月クリスタル", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "10月クリスタル", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "qingrenyushou1": {
     "config": {
      "price": {
@@ -10775,98 +10787,22 @@
      }
     }
    }, 
-   "yinghuashulanniudan": {
+   "dihuangbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 2
+      "F_coin": 1
      }, 
-     "used": false, 
-     "goods_str": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
-     "name": "青さくら玉のカプセル", 
-     "introduce": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
+     "used": true, 
+     "goods_str": "中にジオウの種5個が含まれています", 
+     "name": "ジオウ宝箱", 
+     "introduce": "中にジオウの種5個が含まれています"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.02
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "niudanzhiwulanse": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "zishuijingpingguo": [
-        1, 
-        0.01
-       ], 
-       "shenqinigerseed": [
-        1, 
-        0.03
-       ], 
-       "qinglvmogu": [
-        1, 
-        0.03
-       ], 
-       "chabei": [
-        1, 
-        0.03
-       ], 
-       "nirenxiangjiao": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.05
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         1
-        ], 
-        "gaosu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "jinsewoniu": [
-        1, 
-        0.08
-       ], 
-       "baitu": [
-        1, 
-        0.05
+       "dihuang": [
+        5, 
+        1
        ]
       }
      }
@@ -12306,22 +12242,98 @@
      }
     }
    }, 
-   "dihuangbaoxiang": {
+   "yinghuashulanniudan": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 2
      }, 
-     "used": true, 
-     "goods_str": "中にジオウの種5個が含まれています", 
-     "name": "ジオウ宝箱", 
-     "introduce": "中にジオウの種5個が含まれています"
+     "used": false, 
+     "goods_str": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
+     "name": "青さくら玉のカプセル", 
+     "introduce": "3%の確率で青さくら玉を獲得できます。100％の確率でマジック飼料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "dihuang": [
-        5, 
-        1
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "niudanzhiwulanse": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "zishuijingpingguo": [
+        1, 
+        0.01
+       ], 
+       "shenqinigerseed": [
+        1, 
+        0.03
+       ], 
+       "qinglvmogu": [
+        1, 
+        0.03
+       ], 
+       "chabei": [
+        1, 
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         1
+        ], 
+        "gaosu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinsewoniu": [
+        1, 
+        0.08
+       ], 
+       "baitu": [
+        1, 
+        0.05
        ]
       }
      }
@@ -56403,6 +56415,7 @@
    "crystal", 
    "love_stone", 
    "crystal9", 
+   "crystal11", 
    "mb_10", 
    "crystal3", 
    "crystal6", 
