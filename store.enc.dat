@@ -9321,7 +9321,7 @@
      "price": {
       "F_coin": 7
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
      "name": "2月の宝箱", 
      "introduce": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
@@ -13377,7 +13377,7 @@
      "price": {
       "F_coin": 7
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
      "name": "3月の宝箱", 
      "introduce": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
@@ -20788,29 +20788,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "zhiwubaoxiang": {
-    "original_price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "2月の宝箱", 
-    "price": {
-     "num": 7, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1317200400.0, 
-    "goods_description": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで花シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "start_time": 1316941200.0, 
-    "activity_type": "discount"
-   }, 
    "liuyuebaoxiang": {
     "original_price": {
      "num": 10, 
@@ -20881,6 +20858,21 @@
     "start_time": 1316941200.0, 
     "activity_type": "discount"
    }, 
+   "jiuyuebaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "9月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
    "siyuebaoxiang": {
     "original_price": {
      "num": 10, 
@@ -20922,6 +20914,30 @@
     }, 
     "activity_type": "hot_sale"
    }, 
+   "xunjie": {
+    "original_price": {
+     "num": 2, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック肥料", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日", 
+    "end_time": 1317459600.0, 
+    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "start_time": 1317200400.0, 
+    "activity_type": "discount"
+   }, 
    "siyuebaoxiang2": {
     "original_price": {
      "num": 42, 
@@ -20943,29 +20959,6 @@
     "goods_description": "販売促進が終了後、宝箱は販売していません!4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。", 
     "start_time": 1317027600.0, 
     "activity_type": "hot_sale"
-   }, 
-   "kaichunbaoxiang": {
-    "original_price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "3月の宝箱", 
-    "price": {
-     "num": 7, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1317200400.0, 
-    "goods_description": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "start_time": 1316941200.0, 
-    "activity_type": "discount"
    }
   }, 
   "farm": {
