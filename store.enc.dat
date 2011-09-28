@@ -20811,24 +20811,6 @@
     "start_time": 1316941200.0, 
     "activity_type": "discount"
    }, 
-   "jiqiyou": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "種たべロウ君の専用的な種", 
-    "start_time": 1316757600.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日23時間", 
-    "end_time": 1317186000.0, 
-    "goods_description": "Lv10以上で植えることができます。成長時間が長いため、購入した種を植えるのではなく、現在イベント開催中の「種食べロウ君」にあげて種処理機能を利用されることをお勧めします！ご注意：この種は販売・利用時間限定です。9月28日14時を過ぎますと、販売ができなくなり、購入頂いた種もアイテム袋から消失しますのでご注意ください。", 
-    "price": {
-     "num": 500, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "liuyuebaoxiang": {
     "original_price": {
      "num": 10, 
@@ -20872,6 +20854,30 @@
     "limit_time": "5日", 
     "end_time": 1317373200.0, 
     "goods_description": "販売促進が終了後、宝箱は販売していません!3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。", 
+    "start_time": 1316941200.0, 
+    "activity_type": "discount"
+   }, 
+   "gaoji": {
+    "original_price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "高級肥料", 
+    "price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1317286800.0, 
+    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "start_time": 1316941200.0, 
     "activity_type": "discount"
    }, 
@@ -20921,7 +20927,6 @@
      "num": 42, 
      "type": "F_coin"
     }, 
-    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -20931,13 +20936,13 @@
      "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": false, 
+    "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "5日", 
+    "limit_time": "4日", 
     "end_time": 1317373200.0, 
     "goods_description": "販売促進が終了後、宝箱は販売していません!4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。", 
-    "start_time": 1316941200.0, 
-    "activity_type": "discount"
+    "start_time": 1317027600.0, 
+    "activity_type": "hot_sale"
    }, 
    "kaichunbaoxiang": {
     "original_price": {
@@ -21534,7 +21539,7 @@
     "jiqiyou": {
      "total_time": 2160, 
      "leaflet_time": 480, 
-     "used": true, 
+     "used": false, 
      "name": "種たべロウ君の専用的な種", 
      "base_fruit": 25, 
      "fruit_time": 480, 
