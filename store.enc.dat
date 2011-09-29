@@ -651,6 +651,39 @@
      }
     }
    }, 
+   "deguolibao1": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "フィンランドのヒツジグサの種2個、マジック肥料2個、中級肥料2個が含まれています。さっそく開けてみよう！", 
+     "name": "ノルウェーセット", 
+     "introduce": "フィンランドのヒツジグサの種2個、マジック肥料2個、中級肥料2個が含まれています。さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "taiguoshuilian": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         2, 
+         1.0
+        ], 
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "guoqinglibao": {
     "config": {
      "price": {
@@ -815,6 +848,43 @@
        "feedstuffs": {
         "jisu": [
          10, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "yidalilibao1": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "オランダのボタン種2個、初級肥料2個、中級肥料2個、高級肥料2個が含まれています。さっそく開けてみよう！", 
+     "name": "フィンランドセット", 
+     "introduce": "オランダのボタン種2個、初級肥料2個、中級肥料2個、高級肥料2個が含まれています。さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "zhongguomudan": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         2, 
+         1.0
+        ], 
+        "gaoji": [
+         2, 
+         1.0
+        ], 
+        "gaosu": [
+         2, 
          1.0
         ]
        }
@@ -1395,6 +1465,35 @@
      }
     }
    }, 
+   "xibanyalibao1": {
+    "config": {
+     "price": {
+      "F_coin": 20
+     }, 
+     "used": false, 
+     "goods_str": "デンマークのムクゲの種2個、ミニマジック肥料2個が含まれています。さっそく開けてみよう！", 
+     "name": "スイスセット", 
+     "introduce": "デンマークのムクゲの種2個、ミニマジック肥料2個が含まれています。さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "hanguomujinhua": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "xuyuanlibao1": {
     "config": {
      "price": {
@@ -1835,6 +1934,34 @@
         1, 
         1.0
        ]
+      }
+     }
+    }
+   }, 
+   "ouzhoulibao1": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "ゴーストサンゴ、ツノサンゴ、ファイトサンゴ、キンピカサンゴ、バブルサンゴの種各1個、高級肥料5個が含まれています。さっそく開けてみよう！", 
+     "name": "北欧セット", 
+     "introduce": "ゴーストサンゴ、ツノサンゴ、ファイトサンゴ、キンピカサンゴ、バブルサンゴの種各1個、高級肥料5個が含まれています。さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {}, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         2, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -2759,24 +2886,35 @@
      }
     }
    }, 
-   "putaobao": {
+   "faguolibao1": {
     "config": {
-     "used": true, 
-     "name": "アメシストのグレープセット", 
      "price": {
-      "F_coin": 10
+      "F_coin": 30
      }, 
-     "introduce": "アメシストのグレープの種が10個入っています。", 
-     "state": "xin", 
-     "goods_str": "アメシストのグレープの種が10個入っています。"
+     "used": false, 
+     "goods_str": "スイスのサクラの種2個、マジック肥料2個、初級肥料2個が含まれています。さっそく開けてみよう！", 
+     "name": "デンマークセット", 
+     "introduce": "スイスのサクラの種2個、マジック肥料2個、初級肥料2個が含まれています。さっそく開けてみよう！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "shuijingputao": [
-        10, 
+       "ribenyinghua": [
+        2, 
         1.0
        ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         2, 
+         1.0
+        ], 
+        "gaosu": [
+         2, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -3055,6 +3193,28 @@
       "babies": {
        "shudaixiong": [
         1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
+   "putaobao": {
+    "config": {
+     "used": true, 
+     "name": "アメシストのグレープセット", 
+     "price": {
+      "F_coin": 10
+     }, 
+     "introduce": "アメシストのグレープの種が10個入っています。", 
+     "state": "xin", 
+     "goods_str": "アメシストのグレープの種が10個入っています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shuijingputao": [
+        10, 
         1.0
        ]
       }
@@ -3776,6 +3936,35 @@
       }, 
       "babies": {
        "wuzongGoose": 5
+      }
+     }
+    }
+   }, 
+   "yingguolibao1": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "ノルウェーのブッソウゲの種2個、マジック肥料2個が含まれています。さっそく開けてみよう！", 
+     "name": "オランダセット", 
+     "introduce": "ノルウェーのブッソウゲの種2個、マジック肥料2個が含まれています。さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "malaixiyazhujin": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -24642,25 +24831,6 @@
      }, 
      "level_need": 1
     }, 
-    "niudanzhiwuzhongji": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "虹さくら玉", 
-     "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 10, 
-     "seasons": 1, 
-     "sale_price": 30, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 60
-     }, 
-     "level_need": 0
-    }, 
     "pineapple": {
      "total_time": 2088, 
      "leaflet_time": 240, 
@@ -27961,24 +28131,24 @@
      }, 
      "level_need": 0
     }, 
-    "diqiuzhixing": {
-     "total_time": 1020, 
-     "leaflet_time": 60, 
+    "niudanzhiwuzhongji": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "北欧のスター", 
+     "name": "虹さくら玉", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "sprout_time": 60, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
      "bloom_time": 330, 
-     "experience": 14.63, 
+     "experience": 10, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 30, 
      "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 60
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "hunheshuiguo": {
      "total_time": 7200, 
@@ -29447,6 +29617,25 @@
      "leaf_time": 240, 
      "seed_price": {
       "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
+    "diqiuzhixing": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "北欧のスター", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 14.63, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 50
      }, 
      "level_need": 1
     }, 
@@ -35968,6 +36157,25 @@
       "F_coin": 7
      }, 
      "level_need": 1
+    }, 
+    "jinlianmu": {
+     "total_time": 840, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ミッキーマウスの木", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.6, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 230
+     }, 
+     "level_need": 30
     }, 
     "tuchandiandeshu": {
      "total_time": 1440, 
@@ -43960,6 +44168,25 @@
       "F_coin": 15
      }, 
      "level_need": 1
+    }, 
+    "shanheye": {
+     "total_time": 715, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ポドフィルム", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 25, 
+     "bloom_time": 150, 
+     "experience": 1.76, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 99
+     }, 
+     "level_need": 10
     }, 
     "weixiaobiaoqing": {
      "total_time": 750, 
@@ -55005,6 +55232,7 @@
     "qincai", 
     "baihehua", 
     "dalihua", 
+    "shanheye", 
     "daluobo", 
     "tonghao", 
     "shuixian", 
@@ -55088,6 +55316,7 @@
     "zhujin", 
     "lanmeiguixin", 
     "shemei", 
+    "jinlianmu", 
     "liushu", 
     "meizhoushanglu", 
     "huojushu", 
@@ -55413,11 +55642,11 @@
       "price": {
        "F_coin": 3
       }, 
-      "introduce": "成熟したドクダミとカジノキの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+      "introduce": "成熟したポドフィルムとミッキーマウスの木の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
       "magic_card": true, 
       "include": [
-       "goushu", 
-       "yuxingcao"
+       "shanheye", 
+       "jinlianmu"
       ], 
       "magic_card_percent": 0.5
      }, 
@@ -55573,7 +55802,7 @@
       "price": {
        "F_coin": 12
       }, 
-      "introduce": "ドクダミとカジノキ以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+      "introduce": "ポドフィルムとミッキーマウスの木以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
       "magic_card_percent": 0.5
      }, 
@@ -56927,10 +57156,12 @@
    "zhounianbao3", 
    "zhounianbao1", 
    "crops_hongfushi_gift", 
+   "deguolibao1", 
    "guoqinglibao", 
    "juice_huluobosu_gift", 
    "gaojisiliaobao", 
    "crops_tianyuanji_gift", 
+   "yidalilibao1", 
    "fuhuoniudanbao", 
    "lanbao1", 
    "xinlibaozi3", 
@@ -56939,10 +57170,11 @@
    "qiufenhualibao", 
    "gb_3", 
    "crops_qiukuishala_gift", 
+   "crops_zhuomuniao_gift", 
    "libaochengxin", 
    "yinghuashulibao", 
    "crops_shishutianfuluo_gift", 
-   "crops_zhuomuniao_gift", 
+   "xibanyalibao1", 
    "gb_6", 
    "chouxuanlibao", 
    "juice_yezizhi_gift", 
@@ -56956,6 +57188,7 @@
    "hb_3", 
    "hb_2", 
    "tunshuniudanzi", 
+   "ouzhoulibao1", 
    "yuetulibao", 
    "libaolanxin", 
    "deguolibao", 
@@ -56972,6 +57205,7 @@
    "gb_10", 
    "gb_12", 
    "fenbao3", 
+   "faguolibao1", 
    "dongwu_1", 
    "faguolibao", 
    "crops_zhugunongtangmian_gift", 
@@ -57008,6 +57242,7 @@
    "crops_naiyoukaoyumi_gift", 
    "juice_miganzhi_gift", 
    "crops_juxianghuacha_gift", 
+   "yingguolibao1", 
    "crops_qingtongshu_gift", 
    "caiseniudanlibao", 
    "juice_mangguozhi_gift", 
