@@ -7203,6 +7203,51 @@
      }
     }
    }, 
+   "shiyuebaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "10月の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "helanju": [
+        1, 
+        0.4
+       ], 
+       "bailan": [
+        1, 
+        0.8
+       ], 
+       "huamaogeng": [
+        1, 
+        0.3
+       ], 
+       "hebaomudan": [
+        1, 
+        0.2
+       ], 
+       "zhudinghong": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "crystal11": {
     "config": {
      "goods_str": "モジフラワーの種と高級肥料が入っています。", 
@@ -44865,7 +44910,7 @@
      "sprout_time": 30, 
      "bloom_time": 210, 
      "introduce": "収穫する際、ランダムで5つのレア種をご入手いただけます。入手できない場合もあります。", 
-     "random_special": 0.2, 
+     "random_special": 0, 
      "increment_fruit": 25, 
      "random_name": "random6", 
      "experience": 4.5, 
@@ -58327,6 +58372,7 @@
    "mb_4", 
    "mb_1", 
    "qiyuebaoxiang", 
+   "shiyuebaoxiang", 
    "liushubaoxiang", 
    "qingrenyushou1", 
    "qingrenyushou3", 
