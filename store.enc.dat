@@ -1597,6 +1597,115 @@
      }
     }
    }, 
+   "langduhualibao": {
+    "config": {
+     "price": {
+      "F_coin": 500
+     }, 
+     "used": false, 
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産の気球の兎も入っているよ！さっそく開けてみよう！", 
+     "name": "コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産の気球の兎も入っているよ！さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        1.0
+       ], 
+       "tianshanxuelian": [
+        1, 
+        1.0
+       ], 
+       "xuesongshu": [
+        1, 
+        1.0
+       ], 
+       "yingtao": [
+        4, 
+        1.0
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        1.0
+       ], 
+       "changchunhua": [
+        1, 
+        1.0
+       ], 
+       "shenqiginseng": [
+        1, 
+        1.0
+       ], 
+       "pingpo": [
+        1, 
+        1.0
+       ], 
+       "qinglvmogu": [
+        1, 
+        1.0
+       ], 
+       "yutuhua": [
+        5, 
+        1.0
+       ], 
+       "baochunhua": [
+        1, 
+        1.0
+       ], 
+       "nirenboluo": [
+        1, 
+        1.0
+       ], 
+       "jiazhutao": [
+        1, 
+        1.0
+       ], 
+       "fenmeigui": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "qiqiutuzi": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "faguolibao": {
     "config": {
      "price": {
@@ -57958,6 +58067,7 @@
    "juice_yezizhi_gift", 
    "crops_chaiquan_gift", 
    "gb_4", 
+   "langduhualibao", 
    "hesuilibao", 
    "gb_5", 
    "crops_lanmeibingjiling_gift", 
