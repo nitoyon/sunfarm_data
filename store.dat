@@ -7203,6 +7203,51 @@
      }
     }
    }, 
+   "shiyuebaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u690d\u7269\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002", 
+     "name": "10\u6708\u306e\u5b9d\u7bb1", 
+     "introduce": "100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u690d\u7269\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "helanju": [
+        1, 
+        0.4
+       ], 
+       "bailan": [
+        1, 
+        0.8
+       ], 
+       "huamaogeng": [
+        1, 
+        0.3
+       ], 
+       "hebaomudan": [
+        1, 
+        0.2
+       ], 
+       "zhudinghong": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "crystal11": {
     "config": {
      "goods_str": "\u30e2\u30b8\u30d5\u30e9\u30ef\u30fc\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
@@ -44865,7 +44910,7 @@
      "sprout_time": 30, 
      "bloom_time": 210, 
      "introduce": "\u53ce\u7a6b\u3059\u308b\u969b\u3001\u30e9\u30f3\u30c0\u30e0\u30675\u3064\u306e\u30ec\u30a2\u7a2e\u3092\u3054\u5165\u624b\u3044\u305f\u3060\u3051\u307e\u3059\u3002\u5165\u624b\u3067\u304d\u306a\u3044\u5834\u5408\u3082\u3042\u308a\u307e\u3059\u3002", 
-     "random_special": 0.2, 
+     "random_special": 0, 
      "increment_fruit": 25, 
      "random_name": "random6", 
      "experience": 4.5, 
@@ -58327,6 +58372,7 @@
    "mb_4", 
    "mb_1", 
    "qiyuebaoxiang", 
+   "shiyuebaoxiang", 
    "liushubaoxiang", 
    "qingrenyushou1", 
    "qingrenyushou3", 
