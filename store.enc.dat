@@ -7208,7 +7208,7 @@
      "price": {
       "F_coin": 10
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
      "name": "10月の宝箱", 
      "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
@@ -8061,7 +8061,7 @@
    "nanhaijiebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 5
      }, 
      "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
@@ -8931,7 +8931,7 @@
      "price": {
       "F_coin": 7
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
      "name": "4月の宝箱", 
      "introduce": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
@@ -9272,7 +9272,7 @@
      "price": {
       "F_coin": 10
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "販売促進が終了後、宝箱は販売していません!3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。", 
      "name": "3月のハッピー箱", 
      "introduce": "販売促進が終了後、宝箱は販売していません!3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。"
@@ -10944,7 +10944,7 @@
    "niangaolihe": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 5
      }, 
      "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。おもち図鑑に収録されます。", 
@@ -11803,7 +11803,7 @@
      "price": {
       "F_coin": 7
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
      "name": "6月の宝箱", 
      "introduce": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
@@ -12259,7 +12259,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "販売促進が終了後、宝箱は販売していません!4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。", 
      "name": "4月のハッピー箱", 
      "introduce": "販売促進が終了後、宝箱は販売していません!4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。"
@@ -21154,50 +21154,88 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "liuyuebaoxiang": {
-    "original_price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "re", 
+   "shiyuebaoxiang": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "6月の宝箱", 
+    "name": "10月の宝箱", 
     "price": {
-     "num": 7, 
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_new", 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "hot_sale"
+   }, 
+   "dongwubao": {
+    "original_price": {
+     "num": 48, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "ノベルティ動物セット", 
+    "price": {
+     "num": 24, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "5日", 
-    "end_time": 1317373200.0, 
-    "goods_description": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "start_time": 1316941200.0, 
+    "end_time": 1317805200.0, 
+    "goods_description": "ゼブラ一匹、キリン一匹、カンガルー一匹、ハト一匹、ダチョウ一匹、ヤギ一匹が入っています。", 
+    "start_time": 1317373200.0, 
     "activity_type": "discount"
    }, 
-   "tejiabaoxiang2": {
+   "nanhaijiebaoxiang": {
     "original_price": {
-     "num": 21, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "specific_type": "re", 
+    "specific_type": "zhe", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "3月のハッピー箱", 
+    "name": "端午の宝箱", 
     "price": {
-     "num": 10, 
+     "num": 5, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "5日", 
-    "end_time": 1317373200.0, 
-    "goods_description": "販売促進が終了後、宝箱は販売していません!3月特価セール！中には25kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。", 
-    "start_time": 1316941200.0, 
+    "end_time": 1317805200.0, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "start_time": 1317373200.0, 
+    "activity_type": "discount"
+   }, 
+   "niangaolihe": {
+    "original_price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "鏡もちの箱", 
+    "price": {
+     "num": 5, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "8日", 
+    "end_time": 1318064400.0, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。おもち図鑑に収録されます。", 
+    "start_time": 1317373200.0, 
     "activity_type": "discount"
    }, 
    "jiuyuebaoxiang": {
@@ -21213,29 +21251,6 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
-   "siyuebaoxiang": {
-    "original_price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "4月の宝箱", 
-    "price": {
-     "num": 7, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1317373200.0, 
-    "goods_description": "販売促進が終了後、宝箱は販売していません!100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "start_time": 1316941200.0, 
     "activity_type": "discount"
    }, 
    "hammer": {
@@ -21279,28 +21294,6 @@
     "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "start_time": 1317200400.0, 
     "activity_type": "discount"
-   }, 
-   "siyuebaoxiang2": {
-    "original_price": {
-     "num": 42, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "4月のハッピー箱", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1317373200.0, 
-    "goods_description": "販売促進が終了後、宝箱は販売していません!4月特価セール！中には50kコインのアイテムが含まれています。また、レアアイテムもランダムで入手できますよ。", 
-    "start_time": 1317027600.0, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
