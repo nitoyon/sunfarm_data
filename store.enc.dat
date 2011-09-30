@@ -23929,6 +23929,25 @@
      }, 
      "level_need": 1
     }, 
+    "bailan": {
+     "total_time": 900, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ビャクラン", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "xixiangsuxiang": {
      "total_time": 750, 
      "leaflet_time": 90, 
@@ -25676,26 +25695,24 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "yulan": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "helanju": {
+     "total_time": 810, 
+     "leaflet_time": 120, 
      "used": false, 
-     "name": "ハクモクレン", 
+     "name": "オランダチュ", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "goodstype": "flower", 
+     "fruit_time": 300, 
      "sprout_time": 90, 
-     "introduce": "", 
-     "increment_fruit": 25, 
-     "bloom_time": 330, 
-     "experience": 11, 
+     "bloom_time": 150, 
+     "experience": 5, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 15
      }, 
-     "leaf_time": 330, 
-     "level_need": 53
+     "level_need": 1
     }, 
     "starsalad": {
      "total_time": 1920, 
@@ -25930,22 +25947,22 @@
      "leaf_time": 150, 
      "level_need": 0
     }, 
-    "eli": {
-     "total_time": 870, 
-     "leaflet_time": 90, 
+    "youlicishen": {
+     "total_time": 245, 
+     "leaflet_time": 30, 
      "used": false, 
-     "name": "あぼかど", 
+     "name": "アボカドの刺身", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "sprout_time": 30, 
-     "bloom_time": 210, 
-     "experience": 6.67, 
+     "fruit_time": 90, 
+     "sprout_time": 5, 
+     "bloom_time": 60, 
+     "experience": 4.51, 
      "seasons": 1, 
-     "sale_price": 13, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 60, 
      "seed_price": {
-      "F_coin": 30
+      "gold": 390
      }, 
      "level_need": 1
     }, 
@@ -27603,22 +27620,22 @@
      }, 
      "level_need": 1
     }, 
-    "youlicishen": {
-     "total_time": 245, 
-     "leaflet_time": 30, 
+    "eli": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "アボカドの刺身", 
+     "name": "あぼかど", 
      "base_fruit": 25, 
-     "fruit_time": 90, 
-     "sprout_time": 5, 
-     "bloom_time": 60, 
-     "experience": 4.51, 
+     "fruit_time": 390, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 6.67, 
      "seasons": 1, 
-     "sale_price": 6, 
+     "sale_price": 13, 
      "increment_fruit": 25, 
-     "leaf_time": 60, 
+     "leaf_time": 150, 
      "seed_price": {
-      "gold": 390
+      "F_coin": 30
      }, 
      "level_need": 1
     }, 
@@ -31176,6 +31193,25 @@
      "leaf_time": 240, 
      "seed_price": {
       "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
+    "zhudinghong": {
+     "total_time": 510, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "アマリリス", 
+     "base_fruit": 25, 
+     "fruit_time": 180, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4.5, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 38
      }, 
      "level_need": 1
     }, 
@@ -34925,6 +34961,25 @@
      "leaf_time": 300, 
      "seed_price": {
       "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
+    "baiheyu": {
+     "total_time": 1350, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "スパティフィルム", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 35, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 100
      }, 
      "level_need": 1
     }, 
@@ -45980,6 +46035,25 @@
      }, 
      "level_need": 1
     }, 
+    "hebaomudan": {
+     "total_time": 1200, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ポケットボタン", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "jiutouniao": {
      "total_time": 720, 
      "leaflet_time": 90, 
@@ -48478,6 +48552,25 @@
      }, 
      "level_need": 22
     }, 
+    "huamaogeng": {
+     "total_time": 660, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ラナンキュラスの花", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "hezuomianhua": {
      "total_time": 960, 
      "leaflet_time": 60, 
@@ -50178,6 +50271,27 @@
       "F_coin": 12
      }, 
      "level_need": 1
+    }, 
+    "yulan": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "ハクモクレン", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "leaf_time": 330, 
+     "level_need": 53
     }, 
     "kuju": {
      "total_time": 630, 
@@ -55145,6 +55259,7 @@
     "feizhouzhixing", 
     "nuomitiao", 
     "gutinghua", 
+    "zhudinghong", 
     "shuijingputao", 
     "meiguoyingtao", 
     "meiguoguoqishu", 
@@ -55209,6 +55324,7 @@
     "guibaihe", 
     "zhongguomudan", 
     "helanyangzi", 
+    "helanju", 
     "helanguoqishu", 
     "ganlanyou", 
     "f704_xiangchengguodongshu", 
@@ -55369,6 +55485,7 @@
     "yousuanru", 
     "dadouyousuanru", 
     "jinxingguo", 
+    "baiheyu", 
     "machixian", 
     "xibanyaguoqishu", 
     "qiaokelidangaoxin", 
@@ -55482,6 +55599,7 @@
     "meinvying", 
     "daxueren", 
     "qionghua", 
+    "bailan", 
     "pipa", 
     "mianhuafense", 
     "shanghuapijiu", 
@@ -55557,6 +55675,7 @@
     "yimihua", 
     "zhong", 
     "poyusan", 
+    "hebaomudan", 
     "youtong", 
     "putaoyaguoqishu", 
     "yuejuhua", 
@@ -55608,6 +55727,7 @@
     "zidingxiang", 
     "fupenzi", 
     "jiaotou", 
+    "huamaogeng", 
     "bayinhe1", 
     "xiangshuitu", 
     "bawanghua", 
