@@ -334,7 +334,7 @@
      "used": true, 
      "name": "高級肥料セット", 
      "price": {
-      "F_coin": 25
+      "F_coin": 30
      }, 
      "introduce": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -358,7 +358,7 @@
      "used": true, 
      "name": "マルチ肥料セット", 
      "price": {
-      "F_coin": 35
+      "F_coin": 30
      }, 
      "introduce": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
      "state": "xin", 
@@ -21113,29 +21113,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "huafeibao2": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "高級肥料セット", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1317459600.0, 
-    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "start_time": 1317200400.0, 
-    "activity_type": "discount"
-   }, 
    "crystal11": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -21192,6 +21169,29 @@
     "start_time": 1317373200.0, 
     "activity_type": "discount"
    }, 
+   "huafeibao3": {
+    "original_price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "マルチ肥料セット", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "8日", 
+    "end_time": 1318150800.0, 
+    "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
+    "start_time": 1317459600.0, 
+    "activity_type": "discount"
+   }, 
    "nanhaijiebaoxiang": {
     "original_price": {
      "num": 10, 
@@ -21213,6 +21213,30 @@
     "end_time": 1317805200.0, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "start_time": 1317373200.0, 
+    "activity_type": "discount"
+   }, 
+   "gaoji": {
+    "original_price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "高級肥料", 
+    "price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "8日", 
+    "end_time": 1318150800.0, 
+    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "start_time": 1317459600.0, 
     "activity_type": "discount"
    }, 
    "niangaolihe": {
@@ -21270,30 +21294,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "xunjie": {
-    "original_price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック肥料", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1317459600.0, 
-    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1317200400.0, 
-    "activity_type": "discount"
    }
   }, 
   "farm": {
@@ -56872,7 +56872,7 @@
      }, 
      "xunjie": {
       "price": {
-       "F_coin": 1
+       "F_coin": 2
       }, 
       "used": true, 
       "name": "マジック肥料", 
@@ -56881,7 +56881,7 @@
      }, 
      "gaoji": {
       "price": {
-       "F_coin": 6
+       "F_coin": 4
       }, 
       "used": true, 
       "name": "高級肥料", 
