@@ -156,7 +156,7 @@
    "dongwubao": {
     "config": {
      "price": {
-      "F_coin": 24
+      "F_coin": 48
      }, 
      "used": true, 
      "goods_str": "ゼブラ一匹、キリン一匹、カンガルー一匹、ハト一匹、ダチョウ一匹、ヤギ一匹が入っています。", 
@@ -7161,7 +7161,7 @@
    "qiyuebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 6
      }, 
      "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
@@ -8061,7 +8061,7 @@
    "nanhaijiebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 5
+      "F_coin": 10
      }, 
      "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
@@ -9816,7 +9816,7 @@
    "bayuebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 7
      }, 
      "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
@@ -21146,27 +21146,27 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "hot_sale"
    }, 
-   "dongwubao": {
+   "qiyuebaoxiang": {
     "original_price": {
-     "num": 48, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "specific_type": "zhe", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "ノベルティ動物セット", 
+    "name": "7月の宝箱", 
     "price": {
-     "num": 24, 
+     "num": 6, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1317805200.0, 
-    "goods_description": "ゼブラ一匹、キリン一匹、カンガルー一匹、ハト一匹、ダチョウ一匹、ヤギ一匹が入っています。", 
-    "start_time": 1317373200.0, 
+    "limit_time": "6日", 
+    "end_time": 1318323600.0, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "start_time": 1317805200.0, 
     "activity_type": "discount"
    }, 
    "huafeibao3": {
@@ -21192,7 +21192,7 @@
     "start_time": 1317459600.0, 
     "activity_type": "discount"
    }, 
-   "nanhaijiebaoxiang": {
+   "bayuebaoxiang": {
     "original_price": {
      "num": 10, 
      "type": "F_coin"
@@ -21202,17 +21202,17 @@
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "端午の宝箱", 
+    "name": "8月の宝箱", 
     "price": {
-     "num": 5, 
+     "num": 7, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1317805200.0, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "start_time": 1317373200.0, 
+    "limit_time": "6日", 
+    "end_time": 1318323600.0, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "start_time": 1317805200.0, 
     "activity_type": "discount"
    }, 
    "gaoji": {
