@@ -21113,23 +21113,28 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "crystal11": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+   "huafeibao3": {
+    "original_price": {
+     "num": 35, 
+     "type": "F_coin"
     }, 
-    "name": "10月クリスタル", 
-    "start_time": 1317114000.0, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "マルチ肥料セット", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "11日", 
-    "end_time": 1318064400.0, 
-    "goods_description": "モジフラワーの種と高級肥料が入っています。", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
+    "limit_time": "8日", 
+    "end_time": 1318150800.0, 
+    "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
+    "start_time": 1317459600.0, 
+    "activity_type": "discount"
    }, 
    "shiyuebaoxiang": {
     "product_type": {
@@ -21144,6 +21149,28 @@
     "modify": true, 
     "limit_type": "limit_new", 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "hot_sale"
+   }, 
+   "caomeishuijingtujianbaoxiang": {
+    "original_price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "クリスタルいちごの図鑑宝箱", 
+    "price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1318582800.0, 
+    "goods_description": "100％の確率で桃花いちご*1，朱花いちご*1，黄花いちご*1，青花いちご*1，紫花いちご*1を入手できます。", 
+    "start_time": 1318064400.0, 
     "activity_type": "hot_sale"
    }, 
    "qiyuebaoxiang": {
@@ -21169,28 +21196,23 @@
     "start_time": 1317805200.0, 
     "activity_type": "discount"
    }, 
-   "huafeibao3": {
-    "original_price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
+   "oushinan": {
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "scene_type": "farm", 
+     "goods_type": "seed"
     }, 
-    "name": "マルチ肥料セット", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
+    "name": "謎のジャノメエリカ", 
+    "start_time": 1318064400.0, 
     "modify": true, 
     "limit_type": "limit_time", 
-    "limit_time": "8日", 
-    "end_time": 1318150800.0, 
-    "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
-    "start_time": 1317459600.0, 
-    "activity_type": "discount"
+    "limit_time": "9日", 
+    "end_time": 1318842000.0, 
+    "goods_description": "", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "bayuebaoxiang": {
     "original_price": {
@@ -21276,24 +21298,6 @@
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ハンマー", 
-    "start_time": 1317114000.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "11日", 
-    "end_time": 1318064400.0, 
-    "goods_description": "クリスタルを開けることができます。", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -27126,7 +27130,7 @@
     "oushinan": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "謎のジャノメエリカ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
