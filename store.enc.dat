@@ -358,7 +358,7 @@
      "used": true, 
      "name": "マルチ肥料セット", 
      "price": {
-      "F_coin": 30
+      "F_coin": 35
      }, 
      "introduce": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
      "state": "xin", 
@@ -8306,9 +8306,9 @@
    "bayuezhuochongfuyongbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 15
+      "F_coin": 10
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でキクモ*1，キカシグサ*1，イグサ*1，アヤメ*1，カキツバタ*1を入手できます。", 
      "name": "水生植物図鑑宝箱", 
      "introduce": "虫とりイベント図鑑の宝箱で、一定の確率でキクモ*1，キカシグサ*1，イグサ*1，アヤメ*1，カキツバタ*1を入手できます。"
@@ -10873,9 +10873,9 @@
    "zhuotutujian": {
     "config": {
      "price": {
-      "F_coin": 15
+      "F_coin": 10
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でイースターガーベラ*1，イースターカラー*1，イースターレンゲ*1，イースタースイセン*1，イースターラベンダー*1を入手できます。", 
      "name": "イースターアニマルズの宝箱", 
      "introduce": "虫とりイベント図鑑の宝箱で、一定の確率でイースターガーベラ*1，イースターカラー*1，イースターレンゲ*1，イースタースイセン*1，イースターラベンダー*1を入手できます。"
@@ -11005,7 +11005,7 @@
    "niangaolihe": {
     "config": {
      "price": {
-      "F_coin": 5
+      "F_coin": 10
      }, 
      "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。おもち図鑑に収録されます。", 
@@ -21150,27 +21150,27 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "huafeibao3": {
+   "qiyuebaoxiang": {
     "original_price": {
-     "num": 35, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "specific_type": "zhe", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "マルチ肥料セット", 
+    "name": "7月の宝箱", 
     "price": {
-     "num": 30, 
+     "num": 6, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "8日", 
-    "end_time": 1318150800.0, 
-    "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
-    "start_time": 1317459600.0, 
+    "limit_time": "6日", 
+    "end_time": 1318323600.0, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "start_time": 1317805200.0, 
     "activity_type": "discount"
    }, 
    "shiyuebaoxiang": {
@@ -21210,9 +21210,9 @@
     "start_time": 1318064400.0, 
     "activity_type": "hot_sale"
    }, 
-   "qiyuebaoxiang": {
+   "zhuotutujian": {
     "original_price": {
-     "num": 10, 
+     "num": 15, 
      "type": "F_coin"
     }, 
     "specific_type": "zhe", 
@@ -21220,17 +21220,40 @@
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "7月の宝箱", 
+    "name": "イースターアニマルズの宝箱", 
     "price": {
-     "num": 6, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1318323600.0, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "start_time": 1317805200.0, 
+    "limit_time": "5日", 
+    "end_time": 1318582800.0, 
+    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でイースターガーベラ*1，イースターカラー*1，イースターレンゲ*1，イースタースイセン*1，イースターラベンダー*1を入手できます。", 
+    "start_time": 1318150800.0, 
+    "activity_type": "discount"
+   }, 
+   "bayuezhuochongfuyongbaoxiang": {
+    "original_price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "水生植物図鑑宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1318582800.0, 
+    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でキクモ*1，キカシグサ*1，イグサ*1，アヤメ*1，カキツバタ*1を入手できます。", 
+    "start_time": 1318150800.0, 
     "activity_type": "discount"
    }, 
    "oushinan": {
@@ -21274,53 +21297,6 @@
     "start_time": 1317805200.0, 
     "activity_type": "discount"
    }, 
-   "gaoji": {
-    "original_price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "高級肥料", 
-    "price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "8日", 
-    "end_time": 1318150800.0, 
-    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1317459600.0, 
-    "activity_type": "discount"
-   }, 
-   "niangaolihe": {
-    "original_price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "鏡もちの箱", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "8日", 
-    "end_time": 1318064400.0, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで鏡もちシリーズのどれかが入手できます。おもち図鑑に収録されます。", 
-    "start_time": 1317373200.0, 
-    "activity_type": "discount"
-   }, 
    "jiuyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -21334,6 +21310,30 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
+   "xunjie": {
+    "original_price": {
+     "num": 2, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック肥料", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1318496400.0, 
+    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "start_time": 1318150800.0, 
     "activity_type": "discount"
    }
   }, 
@@ -57175,7 +57175,7 @@
      }, 
      "xunjie": {
       "price": {
-       "F_coin": 2
+       "F_coin": 1
       }, 
       "used": true, 
       "name": "マジック肥料", 
@@ -57184,7 +57184,7 @@
      }, 
      "gaoji": {
       "price": {
-       "F_coin": 4
+       "F_coin": 6
       }, 
       "used": true, 
       "name": "高級肥料", 
