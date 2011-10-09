@@ -9704,6 +9704,99 @@
      }
     }
    }, 
+   "yinghuashuziniudan": {
+    "config": {
+     "price": {
+      "F_coin": 2
+     }, 
+     "used": false, 
+     "goods_str": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
+     "name": "紫さくら玉のカプセル", 
+     "introduce": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        0.05
+       ], 
+       "shenqijianlan": [
+        1, 
+        0.05
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "niudanzhiwuzise": [
+        1, 
+        0.1
+       ], 
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.01
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "shuijingputao": [
+        1, 
+        0.05
+       ], 
+       "fenshuijingpingguo": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "shanxiao": [
+        1, 
+        0.05
+       ], 
+       "xiongmaotu": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
    "tdysfen": {
     "config": {
      "price": {
@@ -9979,6 +10072,43 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "jiuyueshucaibaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 45
+     }, 
+     "used": false, 
+     "goods_str": "100％の確率でメキャベツ*1，インゲンマメ*1，ハリビユ*1，チンゲンサイ*1，コリアンダー*1を入手できます。", 
+     "name": "野菜図鑑宝箱", 
+     "introduce": "100％の確率でメキャベツ*1，インゲンマメ*1，ハリビユ*1，チンゲンサイ*1，コリアンダー*1を入手できます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "xiaobaocai": [
+        1, 
+        1
+       ], 
+       "yuansui": [
+        1, 
+        1
+       ], 
+       "baoziganlan": [
+        1, 
+        1
+       ], 
+       "cixian": [
+        1, 
+        1
+       ], 
+       "caidou": [
+        1, 
+        1
+       ]
       }
      }
     }
@@ -10556,75 +10686,6 @@
         5, 
         1
        ]
-      }
-     }
-    }
-   }, 
-   "xinnianhuangniudan": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日", 
-     "name": "黄の新年カプセル", 
-     "introduce": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "huang": [
-        1, 
-        0.5
-       ], 
-       "nirenmangguo": [
-        1, 
-        0.04
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ], 
-       "shenqihuo_long_guo": [
-        1, 
-        0.03
-       ], 
-       "chashu": [
-        1, 
-        0.2
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "shuijingputao": [
-        1, 
-        0.2
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie1": [
-         1, 
-         1.0
-        ], 
-        "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
-        ], 
-        "gaosu": [
-         1, 
-         0.15
-        ], 
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
       }
      }
     }
@@ -12767,95 +12828,31 @@
      }
     }
    }, 
-   "yinghuashuziniudan": {
+   "cangbaotu3": {
     "config": {
      "price": {
-      "F_coin": 2
+      "F_coin": 9999
      }, 
      "used": false, 
-     "goods_str": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。", 
-     "name": "紫さくら玉のカプセル", 
-     "introduce": "10%の確率で紫さくら玉を獲得できます。100％の確率でマジック肥料を入手できます。5種類のさくら玉を全部揃うと800Kコイン相当のギフトセットがもらえます。"
+     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
+     "name": "藏宝图卷三", 
+     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "luhui": [
+       "shenqizijin": [
         1, 
-        0.05
-       ], 
-       "shenqijianlan": [
-        1, 
-        0.05
-       ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "niudanzhiwuzise": [
-        1, 
-        0.1
-       ], 
-       "shenqibian": [
-        1, 
-        0.03
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "fenghuangzhiyi": [
-        1, 
-        0.01
-       ], 
-       "shenqijasmine": [
-        1, 
-        0.02
-       ], 
-       "shuijingputao": [
-        1, 
-        0.05
-       ], 
-       "fenshuijingpingguo": [
-        1, 
-        0.03
+        1.0
        ]
       }, 
       "properties": {
-       "fertilizer": {
-        "zengshou": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie": [
+       "feedstuffs": {
+        "gaosu": [
          1, 
          1.0
         ]
        }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }, 
-      "babies": {
-       "shanxiao": [
-        1, 
-        0.05
-       ], 
-       "xiongmaotu": [
-        1, 
-        0.05
-       ]
       }
      }
     }
@@ -14710,29 +14707,69 @@
      }
     }
    }, 
-   "cangbaotu3": {
+   "xinnianhuangniudan": {
     "config": {
      "price": {
-      "F_coin": 9999
+      "F_coin": 1
      }, 
      "used": false, 
-     "goods_str": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用.", 
-     "name": "藏宝图卷三", 
-     "introduce": "记录着一处神秘的藏宝地,可寻找到神秘种子及道具,直接打开使用."
+     "goods_str": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日", 
+     "name": "黄の新年カプセル", 
+     "introduce": "50%の確率で黄色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。残り時間：8日"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "shenqizijin": [
+       "huang": [
         1, 
-        1.0
+        0.5
+       ], 
+       "nirenmangguo": [
+        1, 
+        0.04
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "shenqihuo_long_guo": [
+        1, 
+        0.03
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
        ]
       }, 
       "properties": {
-       "feedstuffs": {
-        "gaosu": [
+       "fertilizer": {
+        "xunjie1": [
          1, 
          1.0
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         0.3
         ]
        }
       }
@@ -58698,6 +58735,7 @@
    "qiqiuniubaoxiang", 
    "shucaipartytujianbaoxiang", 
    "bingdiaoshulanlibao", 
+   "xinnianhuangniudan", 
    "dihuangbaoxiang", 
    "tunianniudanlv", 
    "niudanfen", 
@@ -58765,7 +58803,7 @@
    "caomeierqibaoxiang", 
    "cangbaotu4", 
    "tunianniudanhuang", 
-   "xinnianhuangniudan", 
+   "jiuyueshucaibaoxiang", 
    "shenqibaotu", 
    "niudanlv", 
    "tdyslv", 
