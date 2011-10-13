@@ -21334,6 +21334,30 @@
     "start_time": 1318323600.0, 
     "activity_type": "discount"
    }, 
+   "gaoji": {
+    "original_price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "高級肥料", 
+    "price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1318928400.0, 
+    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "start_time": 1318496400.0, 
+    "activity_type": "discount"
+   }, 
    "jiuyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -21347,30 +21371,6 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
-   "xunjie": {
-    "original_price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック肥料", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1318496400.0, 
-    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1318150800.0, 
     "activity_type": "discount"
    }
   }, 
@@ -57992,7 +57992,7 @@
      }, 
      "xunjie": {
       "price": {
-       "F_coin": 1
+       "F_coin": 2
       }, 
       "used": true, 
       "name": "マジック肥料", 
@@ -58001,7 +58001,7 @@
      }, 
      "gaoji": {
       "price": {
-       "F_coin": 6
+       "F_coin": 4
       }, 
       "used": true, 
       "name": "高級肥料", 
