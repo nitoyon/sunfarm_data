@@ -8308,7 +8308,7 @@
      "price": {
       "F_coin": 10
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でキクモ*1，キカシグサ*1，イグサ*1，アヤメ*1，カキツバタ*1を入手できます。", 
      "name": "水生植物図鑑宝箱", 
      "introduce": "虫とりイベント図鑑の宝箱で、一定の確率でキクモ*1，キカシグサ*1，イグサ*1，アヤメ*1，カキツバタ*1を入手できます。"
@@ -10427,9 +10427,9 @@
    "haiyangzhihuatujian": {
     "config": {
      "price": {
-      "F_coin": 15
+      "F_coin": 10
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でヒイラギモチ*1，サンユウカ*1，ホウオウボクプルケリマ*1，アロカシア*1，おおべにごうかん*1を入手できます。", 
      "name": "海洋の花の図鑑宝箱", 
      "introduce": "虫とりイベント図鑑の宝箱で、一定の確率でヒイラギモチ*1，サンユウカ*1，ホウオウボクプルケリマ*1，アロカシア*1，おおべにごうかん*1を入手できます。"
@@ -10875,7 +10875,7 @@
      "price": {
       "F_coin": 10
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でイースターガーベラ*1，イースターカラー*1，イースターレンゲ*1，イースタースイセン*1，イースターラベンダー*1を入手できます。", 
      "name": "イースターアニマルズの宝箱", 
      "introduce": "虫とりイベント図鑑の宝箱で、一定の確率でイースターガーベラ*1，イースターカラー*1，イースターレンゲ*1，イースタースイセン*1，イースターラベンダー*1を入手できます。"
@@ -11353,9 +11353,9 @@
    "caomeishuijingtujianbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 35
+      "F_coin": 50
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "100％の確率で桃花いちご*1，朱花いちご*1，黄花いちご*1，青花いちご*1，紫花いちご*1を入手できます。", 
      "name": "クリスタルいちごの図鑑宝箱", 
      "introduce": "100％の確率で桃花いちご*1，朱花いちご*1，黄花いちご*1，青花いちご*1，紫花いちご*1を入手できます。"
@@ -21341,6 +21341,28 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "huafeibao2": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "高級肥料セット", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1318928400.0, 
+    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "start_time": 1318582800.0, 
+    "activity_type": "hot_sale"
+   }, 
    "zhuomaotujianbaoxiang": {
     "original_price": {
      "num": 15, 
@@ -21379,29 +21401,7 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "hot_sale"
    }, 
-   "caomeishuijingtujianbaoxiang": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "クリスタルいちごの図鑑宝箱", 
-    "price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1318582800.0, 
-    "goods_description": "100％の確率で桃花いちご*1，朱花いちご*1，黄花いちご*1，青花いちご*1，紫花いちご*1を入手できます。", 
-    "start_time": 1318064400.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "zhuotutujian": {
+   "haiyangzhihuatujian": {
     "original_price": {
      "num": 15, 
      "type": "F_coin"
@@ -21411,7 +21411,7 @@
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "イースターアニマルズの宝箱", 
+    "name": "海洋の花の図鑑宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
@@ -21419,32 +21419,9 @@
     "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "5日", 
-    "end_time": 1318582800.0, 
-    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でイースターガーベラ*1，イースターカラー*1，イースターレンゲ*1，イースタースイセン*1，イースターラベンダー*1を入手できます。", 
-    "start_time": 1318150800.0, 
-    "activity_type": "discount"
-   }, 
-   "bayuezhuochongfuyongbaoxiang": {
-    "original_price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "水生植物図鑑宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1318582800.0, 
-    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でキクモ*1，キカシグサ*1，イグサ*1，アヤメ*1，カキツバタ*1を入手できます。", 
-    "start_time": 1318150800.0, 
+    "end_time": 1319014800.0, 
+    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でヒイラギモチ*1，サンユウカ*1，ホウオウボクプルケリマ*1，アロカシア*1，おおべにごうかん*1を入手できます。", 
+    "start_time": 1318582800.0, 
     "activity_type": "discount"
    }, 
    "oushinan": {
@@ -21464,29 +21441,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "zhuochongtujian": {
-    "original_price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "虫とり図鑑の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1318842000.0, 
-    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でちゅーちゅートマト*1，いっぱいアップル*1，ぐーぐーコーン*1，くるくるマロン*1，かんむりサンフラワー*1を入手できます。", 
-    "start_time": 1318323600.0, 
-    "activity_type": "discount"
    }, 
    "gaoji": {
     "original_price": {
@@ -21525,6 +21479,53 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
+   "zhuochongtujian": {
+    "original_price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "虫とり図鑑の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1318842000.0, 
+    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でちゅーちゅートマト*1，いっぱいアップル*1，ぐーぐーコーン*1，くるくるマロン*1，かんむりサンフラワー*1を入手できます。", 
+    "start_time": 1318323600.0, 
+    "activity_type": "discount"
+   }, 
+   "xunjie": {
+    "original_price": {
+     "num": 2, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック肥料", 
+    "price": {
+     "num": 1, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1319014800.0, 
+    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "start_time": 1318582800.0, 
     "activity_type": "discount"
    }
   }, 
