@@ -156,7 +156,7 @@
    "dongwubao": {
     "config": {
      "price": {
-      "F_coin": 48
+      "F_coin": 24
      }, 
      "used": true, 
      "goods_str": "\u30bc\u30d6\u30e9\u4e00\u5339\u3001\u30ad\u30ea\u30f3\u4e00\u5339\u3001\u30ab\u30f3\u30ac\u30eb\u30fc\u4e00\u5339\u3001\u30cf\u30c8\u4e00\u5339\u3001\u30c0\u30c1\u30e7\u30a6\u4e00\u5339\u3001\u30e4\u30ae\u4e00\u5339\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
@@ -3512,7 +3512,7 @@
      "used": true, 
      "name": "\u9ad8\u7d1a\u98fc\u6599\u30bb\u30c3\u30c8", 
      "price": {
-      "F_coin": 30
+      "F_coin": 25
      }, 
      "introduce": "\u4e2d\u306b\u306f\u9ad8\u7d1a\u98fc\u6599\u304c\u4e94\u3064\u542b\u307e\u308c\u3066\u3044\u3066\u3001\u3055\u3089\u306b\u4e8c\u3064\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3057\u307e\u3059\u3002", 
      "state": "re", 
@@ -7894,7 +7894,7 @@
    "partyfuyongyitujianbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 50
+      "F_coin": 35
      }, 
      "used": true, 
      "goods_str": "100\uff05\u306e\u78ba\u7387\u3067\u306b\u3093\u306b\u304f*1\uff0c\u3046\u3069*1\uff0c\u30ec\u30bf\u30b9*1\uff0c\u660e\u65e5\u8449*1\uff0c\u30a8\u30ea\u30f3\u30ae*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
@@ -21363,29 +21363,6 @@
     "start_time": 1318582800.0, 
     "activity_type": "hot_sale"
    }, 
-   "zhuomaotujianbaoxiang": {
-    "original_price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "\u5b50\u732b\u306e\u56f3\u9451\u5b9d\u7bb1", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6\u65e5", 
-    "end_time": 1318842000.0, 
-    "goods_description": "\u866b\u3068\u308a\u30a4\u30d9\u30f3\u30c8\u56f3\u9451\u306e\u5b9d\u7bb1\u3067\u3001\u4e00\u5b9a\u306e\u78ba\u7387\u3067\u304a\u7720\u308a\u306d\u3053*1\uff0c\u8776\u8776\u306d\u3053*1\uff0c\u91d1\u9b5a\u306d\u3053*1\uff0c\u6b63\u5ea7\u306d\u3053*1\uff0c\u6728\u767b\u308a\u306d\u3053*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
-    "start_time": 1318323600.0, 
-    "activity_type": "discount"
-   }, 
    "shiyuebaoxiang": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -21400,6 +21377,51 @@
     "limit_type": "limit_new", 
     "goods_description": "100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u690d\u7269\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002", 
     "activity_type": "hot_sale"
+   }, 
+   "dongwubao": {
+    "original_price": {
+     "num": 48, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "\u30ce\u30d9\u30eb\u30c6\u30a3\u52d5\u7269\u30bb\u30c3\u30c8", 
+    "price": {
+     "num": 24, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4\u65e5", 
+    "end_time": 1319187600.0, 
+    "goods_description": "\u30bc\u30d6\u30e9\u4e00\u5339\u3001\u30ad\u30ea\u30f3\u4e00\u5339\u3001\u30ab\u30f3\u30ac\u30eb\u30fc\u4e00\u5339\u3001\u30cf\u30c8\u4e00\u5339\u3001\u30c0\u30c1\u30e7\u30a6\u4e00\u5339\u3001\u30e4\u30ae\u4e00\u5339\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
+    "start_time": 1318842000.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "partyfuyongyitujianbaoxiang": {
+    "original_price": {
+     "num": 50, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "\uff16\u6708\u91ce\u83dc\u30d1\u30fc\u30c6\u30a3\u30fc\u306e\u56f3\u9451\u5b9d\u7bb1", 
+    "price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4\u65e5", 
+    "end_time": 1319187600.0, 
+    "goods_description": "100\uff05\u306e\u78ba\u7387\u3067\u306b\u3093\u306b\u304f*1\uff0c\u3046\u3069*1\uff0c\u30ec\u30bf\u30b9*1\uff0c\u660e\u65e5\u8449*1\uff0c\u30a8\u30ea\u30f3\u30ae*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
+    "start_time": 1318842000.0, 
+    "activity_type": "discount"
    }, 
    "haiyangzhihuatujian": {
     "original_price": {
@@ -21423,24 +21445,6 @@
     "goods_description": "\u866b\u3068\u308a\u30a4\u30d9\u30f3\u30c8\u56f3\u9451\u306e\u5b9d\u7bb1\u3067\u3001\u4e00\u5b9a\u306e\u78ba\u7387\u3067\u30d2\u30a4\u30e9\u30ae\u30e2\u30c1*1\uff0c\u30b5\u30f3\u30e6\u30a6\u30ab*1\uff0c\u30db\u30a6\u30aa\u30a6\u30dc\u30af\u30d7\u30eb\u30b1\u30ea\u30de*1\uff0c\u30a2\u30ed\u30ab\u30b7\u30a2*1\uff0c\u304a\u304a\u3079\u306b\u3054\u3046\u304b\u3093*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
     "start_time": 1318582800.0, 
     "activity_type": "discount"
-   }, 
-   "oushinan": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u8b0e\u306e\u30b8\u30e3\u30ce\u30e1\u30a8\u30ea\u30ab", 
-    "start_time": 1318064400.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "9\u65e5", 
-    "end_time": 1318842000.0, 
-    "goods_description": "", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "gaoji": {
     "original_price": {
@@ -21466,6 +21470,29 @@
     "start_time": 1318496400.0, 
     "activity_type": "discount"
    }, 
+   "siliaobao2": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "\u9ad8\u7d1a\u98fc\u6599\u30bb\u30c3\u30c8", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4\u65e5", 
+    "end_time": 1319187600.0, 
+    "goods_description": "\u4e2d\u306b\u306f\u9ad8\u7d1a\u98fc\u6599\u304c\u4e94\u3064\u542b\u307e\u308c\u3066\u3044\u3066\u3001\u3055\u3089\u306b\u4e8c\u3064\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3057\u307e\u3059\u3002", 
+    "start_time": 1318842000.0, 
+    "activity_type": "discount"
+   }, 
    "jiuyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -21479,29 +21506,6 @@
     }, 
     "modify": true, 
     "goods_description": "100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u690d\u7269\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002", 
-    "activity_type": "discount"
-   }, 
-   "zhuochongtujian": {
-    "original_price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "\u866b\u3068\u308a\u56f3\u9451\u306e\u5b9d\u7bb1", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6\u65e5", 
-    "end_time": 1318842000.0, 
-    "goods_description": "\u866b\u3068\u308a\u30a4\u30d9\u30f3\u30c8\u56f3\u9451\u306e\u5b9d\u7bb1\u3067\u3001\u4e00\u5b9a\u306e\u78ba\u7387\u3067\u3061\u3085\u30fc\u3061\u3085\u30fc\u30c8\u30de\u30c8*1\uff0c\u3044\u3063\u3071\u3044\u30a2\u30c3\u30d7\u30eb*1\uff0c\u3050\u30fc\u3050\u30fc\u30b3\u30fc\u30f3*1\uff0c\u304f\u308b\u304f\u308b\u30de\u30ed\u30f3*1\uff0c\u304b\u3093\u3080\u308a\u30b5\u30f3\u30d5\u30e9\u30ef\u30fc*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
-    "start_time": 1318323600.0, 
     "activity_type": "discount"
    }, 
    "xunjie": {
