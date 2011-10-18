@@ -391,7 +391,7 @@
      "used": true, 
      "name": "中級肥料セット", 
      "price": {
-      "F_coin": 15
+      "F_coin": 10
      }, 
      "introduce": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -21595,27 +21595,29 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "huafeibao2": {
+   "big_food": {
     "original_price": {
-     "num": 30, 
+     "num": 10, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "dog_food"
     }, 
-    "name": "高級肥料セット", 
+    "name": "食べ物セット（畑）", 
     "price": {
-     "num": 25, 
+     "num": 8, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1318928400.0, 
-    "goods_description": "中には高級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "start_time": 1318582800.0, 
-    "activity_type": "hot_sale"
+    "limit_time": "6日", 
+    "end_time": 1319446800.0, 
+    "goods_description": "五日分の食べ物、それに二日分をサービスします。ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
+    "start_time": 1318928400.0, 
+    "activity_type": "discount"
    }, 
    "shiyuebaoxiang": {
     "product_type": {
@@ -21630,6 +21632,28 @@
     "modify": true, 
     "limit_type": "limit_new", 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "hot_sale"
+   }, 
+   "huafeibao1": {
+    "original_price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "中級肥料セット", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日", 
+    "end_time": 1319187600.0, 
+    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "start_time": 1318928400.0, 
     "activity_type": "hot_sale"
    }, 
    "dongwubao": {
@@ -21698,30 +21722,6 @@
     "end_time": 1319014800.0, 
     "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でヒイラギモチ*1，サンユウカ*1，ホウオウボクプルケリマ*1，アロカシア*1，おおべにごうかん*1を入手できます。", 
     "start_time": 1318582800.0, 
-    "activity_type": "discount"
-   }, 
-   "gaoji": {
-    "original_price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "高級肥料", 
-    "price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1318928400.0, 
-    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1318496400.0, 
     "activity_type": "discount"
    }, 
    "siliaobao2": {
@@ -58554,7 +58554,7 @@
       "used": true, 
       "name": "食べ物セット（畑）", 
       "price": {
-       "F_coin": 10
+       "F_coin": 8
       }, 
       "introduce": "五日分の食べ物、それに二日分をサービスします。ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
       "multi_buy": false, 
@@ -58967,9 +58967,9 @@
      }, 
      "gaoji": {
       "price": {
-       "F_coin": 4
+       "F_coin": 6
       }, 
-      "used": false, 
+      "used": true, 
       "name": "高級肥料", 
       "introduce": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
       "effect": 5.5
