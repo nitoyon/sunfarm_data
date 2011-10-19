@@ -10681,9 +10681,9 @@
    "haiyangzhihuatujian": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 15
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でヒイラギモチ*1，サンユウカ*1，ホウオウボクプルケリマ*1，アロカシア*1，おおべにごうかん*1を入手できます。", 
      "name": "海洋の花の図鑑宝箱", 
      "introduce": "虫とりイベント図鑑の宝箱で、一定の確率でヒイラギモチ*1，サンユウカ*1，ホウオウボクプルケリマ*1，アロカシア*1，おおべにごうかん*1を入手できます。"
@@ -13528,7 +13528,7 @@
    "houzitujianbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 25
+      "F_coin": 18
      }, 
      "used": true, 
      "goods_str": "猿の図鑑種類の中からランダムで[猿一匹]を必ずご入手いただけます。（種類の指定はできません）", 
@@ -14278,7 +14278,7 @@
    "zhuochongtujian": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 15
      }, 
      "used": false, 
      "goods_str": "虫とりイベント図鑑の宝箱で、一定の確率でちゅーちゅートマト*1，いっぱいアップル*1，ぐーぐーコーン*1，くるくるマロン*1，かんむりサンフラワー*1を入手できます。", 
@@ -21678,6 +21678,53 @@
     "start_time": 1318842000.0, 
     "activity_type": "hot_sale"
    }, 
+   "houzitujianbaoxiang": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "猿の図鑑宝箱", 
+    "price": {
+     "num": 18, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1319446800.0, 
+    "goods_description": "猿の図鑑種類の中からランダムで[猿一匹]を必ずご入手いただけます。（種類の指定はできません）", 
+    "start_time": 1319014800.0, 
+    "activity_type": "discount"
+   }, 
+   "zengshou1": {
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "中級増産肥料", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日", 
+    "end_time": 1319446800.0, 
+    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。ン", 
+    "start_time": 1319014800.0, 
+    "activity_type": "discount"
+   }, 
    "partyfuyongyitujianbaoxiang": {
     "original_price": {
      "num": 50, 
@@ -21699,29 +21746,6 @@
     "end_time": 1319187600.0, 
     "goods_description": "100％の確率でにんにく*1，うど*1，レタス*1，明日葉*1，エリンギ*1を入手できます。", 
     "start_time": 1318842000.0, 
-    "activity_type": "discount"
-   }, 
-   "haiyangzhihuatujian": {
-    "original_price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "海洋の花の図鑑宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1319014800.0, 
-    "goods_description": "虫とりイベント図鑑の宝箱で、一定の確率でヒイラギモチ*1，サンユウカ*1，ホウオウボクプルケリマ*1，アロカシア*1，おおべにごうかん*1を入手できます。", 
-    "start_time": 1318582800.0, 
     "activity_type": "discount"
    }, 
    "siliaobao2": {
@@ -21760,30 +21784,6 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
-   "xunjie": {
-    "original_price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "マジック肥料", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1319014800.0, 
-    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1318582800.0, 
     "activity_type": "discount"
    }
   }, 
