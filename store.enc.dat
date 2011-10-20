@@ -43048,6 +43048,25 @@
      }, 
      "level_need": 1
     }, 
+    "aiying": {
+     "total_time": 840, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ドワーフチェリー", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.6, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 230
+     }, 
+     "level_need": 30
+    }, 
     "lvsenian": {
      "total_time": 1710, 
      "leaflet_time": 270, 
@@ -43124,6 +43143,25 @@
      }, 
      "leaf_time": 330, 
      "level_need": 0
+    }, 
+    "alishanlongdan": {
+     "total_time": 715, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "阿里山のリンドウ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 25, 
+     "bloom_time": 150, 
+     "experience": 1.76, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 99
+     }, 
+     "level_need": 10
     }, 
     "tuoluohuahuang": {
      "total_time": 1380, 
@@ -58629,6 +58667,7 @@
     "jiqiyou", 
     "pea", 
     "mensong", 
+    "alishanlongdan", 
     "guavaflower", 
     "mango", 
     "hongfushi", 
@@ -58700,6 +58739,7 @@
     "haitonghua", 
     "ziyuanbaicai", 
     "yuxingcao", 
+    "aiying", 
     "baojunlajiao", 
     "huolongguoxin", 
     "huo_long_guo", 
