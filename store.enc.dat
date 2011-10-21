@@ -8148,9 +8148,9 @@
    "partyfuyongyitujianbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 35
+      "F_coin": 50
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "100％の確率でにんにく*1，うど*1，レタス*1，明日葉*1，エリンギ*1を入手できます。", 
      "name": "６月野菜パーティーの図鑑宝箱", 
      "introduce": "100％の確率でにんにく*1，うど*1，レタス*1，明日葉*1，エリンギ*1を入手できます。"
@@ -13407,7 +13407,7 @@
      "price": {
       "F_coin": 25
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています", 
      "name": "スポーツパンダ宝箱", 
      "introduce": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています"
@@ -21634,48 +21634,22 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "hot_sale"
    }, 
-   "huafeibao1": {
-    "original_price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
+   "magiccardless": {
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "中級肥料セット", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
+    "name": "マジック増産カード", 
+    "start_time": "2011-10-21 18:00:00", 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1319187600.0, 
-    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "start_time": 1318928400.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "dongwubao": {
-    "original_price": {
-     "num": 48, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "ノベルティ動物セット", 
+    "limit_type": "limit_hot", 
+    "end_time": "2011-10-25 18:00:00", 
+    "goods_description": "成熟した阿里山のリンドウとドワーフチェリーの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "price": {
-     "num": 24, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1319187600.0, 
-    "goods_description": "ゼブラ一匹、キリン一匹、カンガルー一匹、ハト一匹、ダチョウ一匹、ヤギ一匹が入っています。", 
-    "start_time": 1318842000.0, 
     "activity_type": "hot_sale"
    }, 
    "houzitujianbaoxiang": {
@@ -21725,32 +21699,27 @@
     "start_time": 1319014800.0, 
     "activity_type": "discount"
    }, 
-   "partyfuyongyitujianbaoxiang": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
+   "jisu": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "６月野菜パーティーの図鑑宝箱", 
+    "name": "中級肥料", 
+    "start_time": "2011-10-21 18:00:00", 
+    "modify": false, 
+    "limit_type": "limit_hot", 
+    "end_time": "2011-10-26 18:00:00", 
+    "goods_description": "使うと作物の成熟時間を2.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "price": {
-     "num": 35, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1319187600.0, 
-    "goods_description": "100％の確率でにんにく*1，うど*1，レタス*1，明日葉*1，エリンギ*1を入手できます。", 
-    "start_time": 1318842000.0, 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
-   "siliaobao2": {
+   "zhongzibao": {
     "original_price": {
-     "num": 30, 
+     "num": 48, 
      "type": "F_coin"
     }, 
     "specific_type": "zhe", 
@@ -21758,17 +21727,17 @@
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
     }, 
-    "name": "高級飼料セット", 
+    "name": "ノベルティ種セット", 
     "price": {
-     "num": 25, 
+     "num": 43, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "4日", 
-    "end_time": 1319187600.0, 
-    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "start_time": 1318842000.0, 
+    "end_time": 1319533200.0, 
+    "goods_description": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。", 
+    "start_time": 1319187600.0, 
     "activity_type": "discount"
    }, 
    "jiuyuebaoxiang": {
@@ -21784,6 +21753,29 @@
     }, 
     "modify": true, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
+   "yundongxiongmao": {
+    "original_price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "スポーツパンダ宝箱", 
+    "price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1319533200.0, 
+    "goods_description": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています", 
+    "start_time": 1319187600.0, 
     "activity_type": "discount"
    }
   }, 
