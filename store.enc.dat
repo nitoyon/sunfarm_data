@@ -13528,9 +13528,9 @@
    "houzitujianbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 18
+      "F_coin": 25
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "猿の図鑑種類の中からランダムで[猿一匹]を必ずご入手いただけます。（種類の指定はできません）", 
      "name": "猿の図鑑宝箱", 
      "introduce": "猿の図鑑種類の中からランダムで[猿一匹]を必ずご入手いただけます。（種類の指定はできません）"
@@ -21595,30 +21595,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "big_food": {
-    "original_price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "dog_food"
-    }, 
-    "name": "食べ物セット（畑）", 
-    "price": {
-     "num": 8, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1319446800.0, 
-    "goods_description": "五日分の食べ物、それに二日分をサービスします。ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
-    "start_time": 1318928400.0, 
-    "activity_type": "discount"
-   }, 
    "shiyuebaoxiang": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -21633,6 +21609,29 @@
     "limit_type": "limit_new", 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "hot_sale"
+   }, 
+   "shenqijindaihuabaoxiang": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "魔法のバリエガータ宝箱", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日", 
+    "end_time": 1319706000.0, 
+    "goods_description": "中に魔法のバリエガータの種2個が含まれています。", 
+    "start_time": 1319446800.0, 
+    "activity_type": "discount"
    }, 
    "magiccardless": {
     "product_type": {
@@ -21652,51 +21651,27 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "houzitujianbaoxiang": {
+   "gaojishengdanhong": {
     "original_price": {
-     "num": 25, 
+     "num": 28, 
      "type": "F_coin"
     }, 
     "specific_type": "zhe", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "猿の図鑑宝箱", 
-    "price": {
-     "num": 18, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1319446800.0, 
-    "goods_description": "猿の図鑑種類の中からランダムで[猿一匹]を必ずご入手いただけます。（種類の指定はできません）", 
-    "start_time": 1319014800.0, 
-    "activity_type": "discount"
-   }, 
-   "zengshou1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "goods_type": "flower"
     }, 
-    "name": "中級増産肥料", 
+    "name": "華麗なポインセチア", 
     "price": {
-     "num": 10, 
+     "num": 20, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1319446800.0, 
-    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。ン", 
-    "start_time": 1319014800.0, 
+    "limit_time": "3日", 
+    "end_time": 1319706000.0, 
+    "goods_description": "魔法の華麗なポインセチア", 
+    "start_time": 1319446800.0, 
     "activity_type": "discount"
    }, 
    "jisu": {
@@ -21776,6 +21751,22 @@
     "end_time": 1319533200.0, 
     "goods_description": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています", 
     "start_time": 1319187600.0, 
+    "activity_type": "discount"
+   }, 
+   "gaoji": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "高級肥料", 
+    "price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }
   }, 
@@ -59112,7 +59103,7 @@
       "used": true, 
       "name": "食べ物セット（畑）", 
       "price": {
-       "F_coin": 8
+       "F_coin": 10
       }, 
       "introduce": "五日分の食べ物、それに二日分をサービスします。ガーディアンは食べ物を食べてから働き始めます。自動的に追加されますので、アイテム袋に表示されません。食べ物の皿にカーソルを当たて確認してください。使用時間は購入時から計算されており、見張り番の有無に関係なく時間が経過します。", 
       "multi_buy": false, 
@@ -59297,7 +59288,7 @@
       "name": "中級増産肥料", 
       "max_level": 35, 
       "price": {
-       "F_coin": 10
+       "F_coin": 12
       }, 
       "effect": 0, 
       "introduce": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。ン", 
