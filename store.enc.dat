@@ -24265,23 +24265,26 @@
      "leaf_time": 480, 
      "level_need": 0
     }, 
-    "shizijiao": {
-     "total_time": 810, 
-     "leaflet_time": 90, 
+    "liuliju": {
+     "total_time": 750, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "カラフルなパプリカ", 
+     "name": "ルリヂサ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
      "sprout_time": 30, 
      "bloom_time": 210, 
-     "experience": 20, 
-     "seasons": 1, 
-     "sale_price": 20, 
+     "introduce": "収穫する際、ランダムで5つのレア種をご入手いただけます。入手できない場合もあります。", 
+     "random_special": 0.1, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "random_name": "random6", 
+     "experience": 4.5, 
+     "seasons": 1, 
+     "sale_price": 4, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 0
      }, 
+     "leaf_time": 120, 
      "level_need": 1
     }, 
     "tdyshong": {
@@ -29628,6 +29631,25 @@
      "sale_price": 8, 
      "increment_fruit": 25, 
      "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
+    "mofaqianniuhua": {
+     "total_time": 1200, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "あさがおベビー", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
      "seed_price": {
       "F_coin": 25
      }, 
@@ -38707,6 +38729,25 @@
      }, 
      "level_need": 10
     }, 
+    "shizijiao": {
+     "total_time": 810, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "カラフルなパプリカ", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 20, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 1
+    }, 
     "ezhangqiu": {
      "total_time": 900, 
      "leaflet_time": 150, 
@@ -42355,6 +42396,25 @@
      }, 
      "level_need": 0
     }, 
+    "mofameigui": {
+     "total_time": 900, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "バラベビー", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "mufurongx": {
      "total_time": 1410, 
      "leaflet_time": 150, 
@@ -44822,6 +44882,25 @@
      "leaf_time": 145, 
      "seed_price": {
       "F_coin": 455
+     }, 
+     "level_need": 1
+    }, 
+    "mofamaoweicao": {
+     "total_time": 1200, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "オオアワガエリベビー", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -48664,6 +48743,25 @@
      }, 
      "level_need": 1
     }, 
+    "mofabaihe": {
+     "total_time": 900, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ゆりベビー", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "yumaodengdeshu": {
      "total_time": 780, 
      "leaflet_time": 90, 
@@ -49722,6 +49820,25 @@
      }, 
      "leaf_time": 153, 
      "level_need": 0
+    }, 
+    "mofaxunyicao": {
+     "total_time": 1350, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ラベンダーベビー", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 35, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 1
     }, 
     "tclanmeigui": {
      "total_time": 1080, 
@@ -55613,6 +55730,25 @@
      "leaf_time": 297, 
      "level_need": 0
     }, 
+    "mofayumi": {
+     "total_time": 810, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "トウモロコシベビー", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "level_need": 1
+    }, 
     "yingguomeigui": {
      "total_time": 1020, 
      "leaflet_time": 60, 
@@ -57953,6 +58089,7 @@
     "changxiangsi", 
     "biglobe", 
     "shengdanhongxin", 
+    "mofaqianniuhua", 
     "yangzinangua", 
     "eli", 
     "tangguoshu", 
@@ -58057,6 +58194,7 @@
     "mojie", 
     "mojiezuodeshu", 
     "lanfurong", 
+    "mofabaihe", 
     "lvqiansuitang", 
     "zhutai", 
     "mianhua", 
@@ -58152,6 +58290,7 @@
     "kongxincai", 
     "xueronghua", 
     "hejiaoshu", 
+    "mofamaoweicao", 
     "bosipopona", 
     "baolianhua", 
     "1jindaihua", 
@@ -58389,6 +58528,7 @@
     "bayinhe3", 
     "hezuoluobo", 
     "hanguomujinhua", 
+    "mofayumi", 
     "lishuo", 
     "jimu", 
     "qiyeshu", 
@@ -58429,6 +58569,7 @@
     "maotouying", 
     "huangyou", 
     "f706_xiangjiaoguodongshu", 
+    "mofameigui", 
     "f747_xixueguinanguashu", 
     "niaofengshu", 
     "blbjl", 
@@ -58621,6 +58762,7 @@
     "xiangshuitu", 
     "bawanghua", 
     "aizhihua", 
+    "mofaxunyicao", 
     "xunyicaotian", 
     "lajiaoyou", 
     "boheshui", 
@@ -58630,6 +58772,7 @@
     "jiucaixin", 
     "danhuangguo", 
     "niaoluo", 
+    "liuliju", 
     "lanhuadan", 
     "qicaijiazhutao", 
     "wucaizheyangsandehua", 
