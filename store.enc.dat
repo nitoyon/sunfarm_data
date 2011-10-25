@@ -21640,15 +21640,13 @@
      "goods_category": "fertilizer"
     }, 
     "name": "マジック増産カード", 
-    "start_time": "2011-10-21 18:00:00", 
-    "modify": false, 
-    "limit_type": "limit_hot", 
-    "end_time": "2011-10-25 18:00:00", 
-    "goods_description": "成熟した阿里山のリンドウとドワーフチェリーの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "price": {
      "num": 3, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "limit_type": "limit_hot", 
+    "goods_description": "成熟した阿里山のリンドウとドワーフチェリーの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "hot_sale"
    }, 
    "gaojishengdanhong": {
@@ -21681,15 +21679,13 @@
      "goods_category": "fertilizer"
     }, 
     "name": "中級肥料", 
-    "start_time": "2011-10-21 18:00:00", 
-    "modify": false, 
-    "limit_type": "limit_hot", 
-    "end_time": "2011-10-26 18:00:00", 
-    "goods_description": "使うと作物の成熟時間を2.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "price": {
      "num": 3, 
      "type": "F_coin"
     }, 
+    "modify": true, 
+    "limit_type": "limit_hot", 
+    "goods_description": "使うと作物の成熟時間を2.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "hot_sale"
    }, 
    "zhongzibao": {
@@ -21709,8 +21705,8 @@
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1319533200.0, 
+    "limit_time": "6日", 
+    "end_time": 1319706000.0, 
     "goods_description": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。", 
     "start_time": 1319187600.0, 
     "activity_type": "discount"
@@ -21747,8 +21743,8 @@
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1319533200.0, 
+    "limit_time": "6日", 
+    "end_time": 1319706000.0, 
     "goods_description": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています", 
     "start_time": 1319187600.0, 
     "activity_type": "discount"
