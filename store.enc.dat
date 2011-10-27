@@ -15503,6 +15503,7 @@
     "jiayoujuanshanniu", 
     "jiayouluotuo", 
     "jinglingdongwu", 
+    "nanguagui", 
     "tunshuhuang", 
     "caomeiyangtuo", 
     "caomeixiniu", 
@@ -16533,26 +16534,25 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
-    "bailaohu": {
-     "total_time": 1440, 
-     "harvest_type": 3, 
+    "nanguagui": {
+     "total_time": 840, 
+     "harvest_type": 0, 
      "used": false, 
-     "name": "ホワイトタイガー", 
+     "name": "かぼかめ", 
      "base_fruit": 25, 
-     "fruit_time": 570, 
-     "adult_time": 570, 
+     "fruit_time": 480, 
+     "adult_time": 240, 
      "buy_price": {
-      "F_coin": 25
+      "F_coin": 30
      }, 
-     "state": "xin", 
      "seasons": 1, 
-     "young_time": 300, 
-     "experience": 9.8, 
+     "young_time": 120, 
+     "experience": 20, 
      "fruit_name": "", 
-     "is_auto_harvest": false, 
-     "sale_price": 98, 
+     "is_auto_harvest": true, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "level_need": 1, 
+     "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
     "jinsexiaomifeng": {
@@ -18371,6 +18371,27 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
+    "tunshufen": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ピンクモルモット", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 17, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 35, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
     "mingxingmao": {
      "total_time": 1320, 
      "harvest_type": 0, 
@@ -18743,25 +18764,25 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
-    "xiezuomao": {
+    "zhihuijiashizi": {
      "total_time": 1320, 
      "harvest_type": 0, 
      "used": false, 
-     "name": "ネコサッカ", 
+     "name": "コンダクターライオン", 
      "base_fruit": 25, 
-     "fruit_time": 600, 
-     "adult_time": 480, 
+     "fruit_time": 960, 
+     "adult_time": 240, 
      "buy_price": {
       "F_coin": 30
      }, 
      "seasons": 1, 
-     "young_time": 240, 
-     "experience": 21, 
+     "young_time": 120, 
+     "experience": 27, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 35, 
+     "sale_price": 50, 
      "increment_fruit": 25, 
-     "level_need": 0, 
+     "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
     "mmkaola": {
@@ -20004,26 +20025,24 @@
      "level_need": 15, 
      "fruit_quantifier": "個"
     }, 
-    "tunshufen": {
-     "total_time": 1320, 
-     "harvest_type": 0, 
+    "shenhongmeiguiyingwu": {
+     "total_time": 1680, 
+     "harvest_type": 3, 
      "used": false, 
-     "name": "ピンクモルモット", 
+     "name": "アカクサインコ", 
      "base_fruit": 25, 
-     "fruit_time": 600, 
-     "adult_time": 480, 
+     "fruit_time": 720, 
+     "adult_time": 720, 
      "buy_price": {
-      "F_coin": 30
+      "F_coin": 50
      }, 
      "seasons": 1, 
+     "experience": 25, 
      "young_time": 240, 
-     "experience": 17, 
-     "fruit_name": "", 
-     "is_auto_harvest": true, 
-     "sale_price": 35, 
+     "is_auto_harvest": false, 
+     "sale_price": 220, 
      "increment_fruit": 25, 
-     "level_need": 0, 
-     "fruit_quantifier": "個"
+     "level_need": 1
     }, 
     "yezhu": {
      "total_time": 5160, 
@@ -20116,6 +20135,28 @@
      "sale_price": 50, 
      "increment_fruit": 25, 
      "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "bailaohu": {
+     "total_time": 1440, 
+     "harvest_type": 3, 
+     "used": false, 
+     "name": "ホワイトタイガー", 
+     "base_fruit": 25, 
+     "fruit_time": 570, 
+     "adult_time": 570, 
+     "buy_price": {
+      "F_coin": 25
+     }, 
+     "state": "xin", 
+     "seasons": 1, 
+     "young_time": 300, 
+     "experience": 9.8, 
+     "fruit_name": "", 
+     "is_auto_harvest": false, 
+     "sale_price": 98, 
+     "increment_fruit": 25, 
+     "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
     "qie": {
@@ -20249,27 +20290,6 @@
      "fruit_name": "たまご", 
      "is_auto_harvest": true, 
      "sale_price": 11, 
-     "increment_fruit": 25, 
-     "level_need": 1, 
-     "fruit_quantifier": "個"
-    }, 
-    "zhihuijiashizi": {
-     "total_time": 1320, 
-     "harvest_type": 0, 
-     "used": false, 
-     "name": "コンダクターライオン", 
-     "base_fruit": 25, 
-     "fruit_time": 960, 
-     "adult_time": 240, 
-     "buy_price": {
-      "F_coin": 30
-     }, 
-     "seasons": 1, 
-     "young_time": 120, 
-     "experience": 27, 
-     "fruit_name": "", 
-     "is_auto_harvest": true, 
-     "sale_price": 50, 
      "increment_fruit": 25, 
      "level_need": 1, 
      "fruit_quantifier": "個"
@@ -21265,24 +21285,26 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
-    "shenhongmeiguiyingwu": {
-     "total_time": 1680, 
-     "harvest_type": 3, 
+    "xiezuomao": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
      "used": false, 
-     "name": "アカクサインコ", 
+     "name": "ネコサッカ", 
      "base_fruit": 25, 
-     "fruit_time": 720, 
-     "adult_time": 720, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
      "buy_price": {
-      "F_coin": 50
+      "F_coin": 30
      }, 
      "seasons": 1, 
-     "experience": 25, 
      "young_time": 240, 
-     "is_auto_harvest": false, 
-     "sale_price": 220, 
+     "experience": 21, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 35, 
      "increment_fruit": 25, 
-     "level_need": 1
+     "level_need": 0, 
+     "fruit_quantifier": "個"
     }, 
     "waixingmaoguai": {
      "total_time": 360, 
