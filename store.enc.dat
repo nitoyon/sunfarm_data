@@ -3590,7 +3590,7 @@
      "used": true, 
      "name": "高級飼料セット", 
      "price": {
-      "F_coin": 30
+      "F_coin": 25
      }, 
      "introduce": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -21617,7 +21617,23 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "huafeibao3": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "マルチ肥料セット", 
+    "price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
+    "activity_type": "discount"
+   }, 
    "shiyuebaoxiang": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
@@ -21628,91 +21644,86 @@
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_new", 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "hot_sale"
-   }, 
-   "shenqijindaihuabaoxiang": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "魔法のバリエガータ宝箱", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1319706000.0, 
-    "goods_description": "中に魔法のバリエガータの種2個が含まれています。", 
-    "start_time": 1319446800.0, 
     "activity_type": "discount"
    }, 
-   "magiccardless": {
+   "three_day": {
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "goods_category": "vip_card"
     }, 
-    "name": "マジック増産カード", 
+    "name": "会員カード（3日）", 
+    "start_time": 1319702400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1320048000.0, 
+    "goods_description": "このカードをご利用頂きますと、3日間有効の会員資格がもらえます。会員になれば、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
     "price": {
-     "num": 3, 
+     "num": 5, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_hot", 
-    "goods_description": "成熟した阿里山のリンドウとドワーフチェリーの増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "hot_sale"
    }, 
-   "gaojishengdanhong": {
+   "shenqinigerseed": {
     "original_price": {
-     "num": 28, 
+     "num": 25, 
      "type": "F_coin"
     }, 
     "specific_type": "zhe", 
     "product_type": {
      "scene_type": "farm", 
-     "goods_type": "flower"
+     "goods_type": "seed"
     }, 
-    "name": "華麗なポインセチア", 
+    "name": "魔法の黒ゴマ", 
     "price": {
      "num": 20, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "3日", 
-    "end_time": 1319706000.0, 
-    "goods_description": "魔法の華麗なポインセチア", 
-    "start_time": 1319446800.0, 
-    "activity_type": "discount"
+    "limit_time": "5日", 
+    "end_time": 1320138000.0, 
+    "goods_description": "魔法の黒ゴマ", 
+    "start_time": 1319706000.0, 
+    "activity_type": "hot_sale"
    }, 
    "jisu": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
+    }, 
+    "name": "高級飼料", 
+    "price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "goods_description": "使うと動物の生産時間を4時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
+    "activity_type": "discount"
+   }, 
+   "gaoji": {
+    "specific_type": "re", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
      "goods_category": "fertilizer"
     }, 
-    "name": "中級肥料", 
+    "name": "高級肥料", 
     "price": {
-     "num": 3, 
+     "num": 6, 
      "type": "F_coin"
     }, 
     "modify": true, 
-    "limit_type": "limit_hot", 
-    "goods_description": "使うと作物の成熟時間を2.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "activity_type": "hot_sale"
+    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "activity_type": "discount"
    }, 
-   "zhongzibao": {
+   "siliaobao2": {
     "original_price": {
-     "num": 48, 
+     "num": 30, 
      "type": "F_coin"
     }, 
     "specific_type": "zhe", 
@@ -21720,18 +21731,18 @@
      "scene_type": "gift_bags", 
      "goods_type": "gift_bag"
     }, 
-    "name": "ノベルティ種セット", 
+    "name": "高級飼料セット", 
     "price": {
-     "num": 43, 
+     "num": 25, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1319706000.0, 
-    "goods_description": "アロエ一個、ドリアン一個、リュウゼツラン一個、ヒョウタン一個、レイシ一個、アボカド一個が入っています。", 
-    "start_time": 1319187600.0, 
-    "activity_type": "discount"
+    "limit_time": "5日", 
+    "end_time": 1320134400.0, 
+    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "start_time": 1319702400.0, 
+    "activity_type": "hot_sale"
    }, 
    "jiuyuebaoxiang": {
     "specific_type": "re", 
@@ -21748,43 +21759,20 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "yundongxiongmao": {
-    "original_price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "スポーツパンダ宝箱", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1319706000.0, 
-    "goods_description": "中にスポーツパンダの赤ちゃん1匹と高級飼料1個が含まれています", 
-    "start_time": 1319187600.0, 
-    "activity_type": "discount"
-   }, 
-   "gaoji": {
+   "magiccardmost": {
     "specific_type": "re", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
      "goods_category": "fertilizer"
     }, 
-    "name": "高級肥料", 
+    "name": "ミラクル増産カード", 
     "price": {
-     "num": 6, 
+     "num": 12, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "modify": true, 
+    "goods_description": "阿里山のリンドウとドワーフチェリー以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
     "activity_type": "discount"
    }
   }, 
@@ -23583,14 +23571,14 @@
      "fruit_time": 744, 
      "sprout_time": 37, 
      "bloom_time": 568, 
-     "used": false, 
+     "used": true, 
      "experience": 4.215, 
      "seasons": 2, 
      "sale_price": 16, 
      "increment_fruit": 25, 
      "leaf_time": 568, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 20
      }, 
      "level_need": 0
     }, 
@@ -59771,7 +59759,7 @@
       "price": {
        "F_coin": 5
       }, 
-      "used": false, 
+      "used": true, 
       "name": "会員カード（3日）", 
       "introduce": "このカードをご利用頂きますと、3日間有効の会員資格がもらえます。会員になれば、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
       "effect": 3
