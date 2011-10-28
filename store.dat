@@ -39334,6 +39334,26 @@
      }, 
      "level_need": 0
     }, 
+    "ergongjincilang": {
+     "total_time": 2245, 
+     "leaflet_time": 317, 
+     "used": true, 
+     "name": "\u4e8c\u5bae\u91d1\u5b50", 
+     "base_fruit": 25, 
+     "fruit_time": 746, 
+     "tuchan": true, 
+     "sprout_time": 308, 
+     "bloom_time": 427, 
+     "experience": 6.53, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 437, 
+     "seed_price": {
+      "F_coin": 10
+     }, 
+     "level_need": 1
+    }, 
     "sansemogu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -55174,23 +55194,22 @@
      "leaf_time": 90, 
      "level_need": 0
     }, 
-    "ergongjincilang": {
-     "total_time": 2245, 
-     "leaflet_time": 317, 
-     "used": true, 
-     "name": "\u4e8c\u5bae\u91d1\u5b50", 
+    "bihaideshijieshu": {
+     "total_time": 660, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "\u78a7\u6d77\u306e\u4e16\u754c\u6a39", 
      "base_fruit": 25, 
-     "fruit_time": 746, 
-     "tuchan": true, 
-     "sprout_time": 308, 
-     "bloom_time": 427, 
-     "experience": 6.53, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 200, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 20, 
      "increment_fruit": 25, 
-     "leaf_time": 437, 
+     "leaf_time": 90, 
      "seed_price": {
-      "F_coin": 10
+      "F_coin": 500
      }, 
      "level_need": 1
     }, 
@@ -59450,6 +59469,7 @@
     "yudaishu", 
     "zhenzhubei", 
     "baitang", 
+    "bihaideshijieshu", 
     "f653_shennaichuanyinxing", 
     "nirenzhiwu4", 
     "zhusunxiaoyao", 
