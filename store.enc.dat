@@ -21809,23 +21809,28 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "three_day": {
+   "zengshou3": {
+    "original_price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "vip_card"
+     "goods_category": "fertilizer"
     }, 
-    "name": "会員カード（3日）", 
-    "start_time": 1319702400.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1320048000.0, 
-    "goods_description": "このカードをご利用頂きますと、3日間有効の会員資格がもらえます。会員になれば、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
+    "name": "高級増産肥料", 
     "price": {
      "num": 5, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1320566400.0, 
+    "goods_description": "高級増産肥料はレベル36から60までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
+    "start_time": 1320048000.0, 
     "activity_type": "hot_sale"
    }, 
    "shenqinigerseed": {
@@ -60518,7 +60523,7 @@
       "name": "高級増産肥料", 
       "max_level": 61, 
       "price": {
-       "F_coin": 6
+       "F_coin": 5
       }, 
       "effect": 0, 
       "introduce": "高級増産肥料はレベル36から60までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
