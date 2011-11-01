@@ -21794,20 +21794,20 @@
     "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
     "activity_type": "discount"
    }, 
-   "shiyuebaoxiang": {
-    "specific_type": "re", 
+   "shiyiyuebaoxiang": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "10月の宝箱", 
+    "name": "11月の宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
     "modify": true, 
+    "limit_type": "limit_new", 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "zengshou3": {
     "original_price": {
@@ -21833,28 +21833,20 @@
     "start_time": 1320048000.0, 
     "activity_type": "hot_sale"
    }, 
-   "shenqinigerseed": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
+   "shiyuebaoxiang": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "魔法の黒ゴマ", 
+    "name": "10月の宝箱", 
     "price": {
-     "num": 20, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1320138000.0, 
-    "goods_description": "魔法の黒ゴマ", 
-    "start_time": 1319706000.0, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
    }, 
    "jisu": {
     "specific_type": "re", 
@@ -21888,29 +21880,6 @@
     "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }, 
-   "siliaobao2": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "高級飼料セット", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1320134400.0, 
-    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "start_time": 1319702400.0, 
-    "activity_type": "hot_sale"
-   }, 
    "jiuyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -21941,6 +21910,29 @@
     "modify": true, 
     "goods_description": "阿里山のリンドウとドワーフチェリー以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
     "activity_type": "discount"
+   }, 
+   "shenqiparadiseflower": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "flower"
+    }, 
+    "name": "魔法のストレリチア", 
+    "price": {
+     "num": 20, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日2時間", 
+    "end_time": 1320397200.0, 
+    "goods_description": "魔法のストレリチア", 
+    "start_time": 1320130800.0, 
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -42546,12 +42538,12 @@
      "introduce": "花言葉：全てを手に入れる。", 
      "increment_fruit": 25, 
      "bloom_time": 576, 
-     "used": false, 
+     "used": true, 
      "experience": 2.6, 
      "seasons": 1, 
      "sale_price": 43, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 20
      }, 
      "leaf_time": 576, 
      "level_need": 0
