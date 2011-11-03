@@ -7794,6 +7794,18 @@
      }
     }
    }, 
+   "crystal12": {
+    "config": {
+     "goods_str": "モジフラワーの種と高級肥料が入っています。", 
+     "name": "11月クリスタル", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "11月クリスタル", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "xinbaoxiang": {
     "config": {
      "price": {
@@ -8474,47 +8486,23 @@
      }
     }
    }, 
-   "nanhaijiebaoxiang": {
+   "lajiaobaoxiang": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 1
      }, 
      "used": true, 
-     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-     "name": "端午の宝箱", 
-     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+     "goods_str": "中にハバネロの種5個が含まれています", 
+     "name": "ハバネロ宝箱", 
+     "introduce": "中にハバネロの種5個が含まれています"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "ziseliyuqi": [
-        1, 
-        0.08
-       ], 
-       "chengseliyuqi": [
-        1, 
-        0.8
-       ], 
-       "lanseliyuqi": [
-        1, 
-        0.3
-       ], 
-       "huangseliyuqi": [
-        1, 
-        0.4
-       ], 
-       "lvseliyuqi": [
-        1, 
-        0.2
+       "baojunlajiao": [
+        5, 
+        1
        ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
       }
      }
     }
@@ -10877,23 +10865,47 @@
      }
     }
    }, 
-   "lajiaobaoxiang": {
+   "nanhaijiebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 10
      }, 
      "used": true, 
-     "goods_str": "中にハバネロの種5個が含まれています", 
-     "name": "ハバネロ宝箱", 
-     "introduce": "中にハバネロの種5個が含まれています"
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "端午の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで鯉のぼりシリーズのどれかが入手できます。お持ち図鑑に収録されます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "baojunlajiao": [
-        5, 
-        1
+       "ziseliyuqi": [
+        1, 
+        0.08
+       ], 
+       "chengseliyuqi": [
+        1, 
+        0.8
+       ], 
+       "lanseliyuqi": [
+        1, 
+        0.3
+       ], 
+       "huangseliyuqi": [
+        1, 
+        0.4
+       ], 
+       "lvseliyuqi": [
+        1, 
+        0.2
        ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -62499,6 +62511,7 @@
   ], 
   "mystic_bags_sort": [
    "crystal10", 
+   "crystal12", 
    "hammer", 
    "crystal", 
    "love_stone", 
