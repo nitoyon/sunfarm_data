@@ -7794,6 +7794,18 @@
      }
     }
    }, 
+   "crystal12": {
+    "config": {
+     "goods_str": "\u30e2\u30b8\u30d5\u30e9\u30ef\u30fc\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
+     "name": "11\u6708\u30af\u30ea\u30b9\u30bf\u30eb", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "11\u6708\u30af\u30ea\u30b9\u30bf\u30eb", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "xinbaoxiang": {
     "config": {
      "price": {
@@ -8474,47 +8486,23 @@
      }
     }
    }, 
-   "nanhaijiebaoxiang": {
+   "lajiaobaoxiang": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 1
      }, 
      "used": true, 
-     "goods_str": "100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u9bc9\u306e\u307c\u308a\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002", 
-     "name": "\u7aef\u5348\u306e\u5b9d\u7bb1", 
-     "introduce": "100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u9bc9\u306e\u307c\u308a\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002"
+     "goods_str": "\u4e2d\u306b\u30cf\u30d0\u30cd\u30ed\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
+     "name": "\u30cf\u30d0\u30cd\u30ed\u5b9d\u7bb1", 
+     "introduce": "\u4e2d\u306b\u30cf\u30d0\u30cd\u30ed\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "ziseliyuqi": [
-        1, 
-        0.08
-       ], 
-       "chengseliyuqi": [
-        1, 
-        0.8
-       ], 
-       "lanseliyuqi": [
-        1, 
-        0.3
-       ], 
-       "huangseliyuqi": [
-        1, 
-        0.4
-       ], 
-       "lvseliyuqi": [
-        1, 
-        0.2
+       "baojunlajiao": [
+        5, 
+        1
        ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         5, 
-         1.0
-        ]
-       }
       }
      }
     }
@@ -10877,23 +10865,47 @@
      }
     }
    }, 
-   "lajiaobaoxiang": {
+   "nanhaijiebaoxiang": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 10
      }, 
      "used": true, 
-     "goods_str": "\u4e2d\u306b\u30cf\u30d0\u30cd\u30ed\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
-     "name": "\u30cf\u30d0\u30cd\u30ed\u5b9d\u7bb1", 
-     "introduce": "\u4e2d\u306b\u30cf\u30d0\u30cd\u30ed\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
+     "goods_str": "100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u9bc9\u306e\u307c\u308a\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002", 
+     "name": "\u7aef\u5348\u306e\u5b9d\u7bb1", 
+     "introduce": "100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u9bc9\u306e\u307c\u308a\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "baojunlajiao": [
-        5, 
-        1
+       "ziseliyuqi": [
+        1, 
+        0.08
+       ], 
+       "chengseliyuqi": [
+        1, 
+        0.8
+       ], 
+       "lanseliyuqi": [
+        1, 
+        0.3
+       ], 
+       "huangseliyuqi": [
+        1, 
+        0.4
+       ], 
+       "lvseliyuqi": [
+        1, 
+        0.2
        ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -62499,6 +62511,7 @@
   ], 
   "mystic_bags_sort": [
    "crystal10", 
+   "crystal12", 
    "hammer", 
    "crystal", 
    "love_stone", 
