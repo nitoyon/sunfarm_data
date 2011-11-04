@@ -15736,6 +15736,7 @@
     "fuhuojietuziyi", 
     "BaxiGui", 
     "zhanbushi", 
+    "bolulu", 
     "xiaolu", 
     "facaigui", 
     "shengzhuangmilu", 
@@ -19466,6 +19467,27 @@
      "fruit_name": "", 
      "is_auto_harvest": false, 
      "sale_price": 60, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "\u500b"
+    }, 
+    "bolulu": {
+     "total_time": 840, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "\u5996\u7cbe\u306e\u8d64\u3061\u3083\u3093", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 7, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "\u500b"
@@ -31714,23 +31736,22 @@
      }, 
      "level_need": 1
     }, 
-    "f650_dongjingyumi": {
-     "total_time": 1290, 
-     "leaflet_time": 150, 
+    "nanguashu": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "\u6771\u4eac\u30b9\u30a4\u30fc\u30c8\u30b3\u30fc\u30f3", 
+     "name": "\u30ab\u30dc\u30c1\u30e3\u306e\u6728", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
-     "tuchan": true, 
+     "fruit_time": 330, 
      "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 6.2, 
+     "bloom_time": 210, 
+     "experience": 8.0, 
      "seasons": 1, 
-     "sale_price": 7, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 6
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -41797,22 +41818,23 @@
      }, 
      "level_need": 0
     }, 
-    "nanguashu": {
-     "total_time": 870, 
-     "leaflet_time": 90, 
+    "f650_dongjingyumi": {
+     "total_time": 1290, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "\u30ab\u30dc\u30c1\u30e3\u306e\u6728", 
+     "name": "\u6771\u4eac\u30b9\u30a4\u30fc\u30c8\u30b3\u30fc\u30f3", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
+     "fruit_time": 510, 
+     "tuchan": true, 
      "sprout_time": 90, 
-     "bloom_time": 210, 
-     "experience": 8.0, 
+     "bloom_time": 330, 
+     "experience": 6.2, 
      "seasons": 1, 
-     "sale_price": 6, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 6
      }, 
      "level_need": 1
     }, 
@@ -57388,6 +57410,25 @@
      }, 
      "level_need": 1
     }, 
+    "jiuzhuangputaojiu": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u6700\u9ad8\u306e\u30ef\u30a4\u30f3", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 17, 
+     "seasons": 1, 
+     "sale_price": 17, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "level_need": 0
+    }, 
     "wubaiwanshu": {
      "total_time": 2160, 
      "leaflet_time": 330, 
@@ -59269,6 +59310,7 @@
     "zhongguoxin", 
     "icecreamstar", 
     "icecreamcake", 
+    "jiuzhuangputaojiu", 
     "yueliangdeshu", 
     "yutuhua", 
     "yelaixiangx", 
