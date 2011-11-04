@@ -21907,27 +21907,20 @@
     "start_time": 1320048000.0, 
     "activity_type": "hot_sale"
    }, 
-   "shenqiparadiseflower": {
-    "original_price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
+   "magiccardless": {
+    "specific_type": "re", 
     "product_type": {
+     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_type": "flower"
+     "goods_category": "fertilizer"
     }, 
-    "name": "魔法のストレリチア", 
+    "name": "マジック増産カード", 
     "price": {
-     "num": 20, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "3日2時間", 
-    "end_time": 1320397200.0, 
-    "goods_description": "魔法のストレリチア", 
-    "start_time": 1320130800.0, 
+    "modify": true, 
+    "goods_description": "成熟したレインボー葛ウコンと彩雲球の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
    "shiyiyuebaoxiang": {
@@ -42839,12 +42832,12 @@
      "introduce": "花言葉：全てを手に入れる。", 
      "increment_fruit": 25, 
      "bloom_time": 576, 
-     "used": true, 
+     "used": false, 
      "experience": 2.6, 
      "seasons": 1, 
      "sale_price": 43, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 25
      }, 
      "leaf_time": 576, 
      "level_need": 0
