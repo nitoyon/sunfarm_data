@@ -21883,30 +21883,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "zengshou3": {
-    "original_price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "zhe", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "高級増産肥料", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1320566400.0, 
-    "goods_description": "高級増産肥料はレベル36から60までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-    "start_time": 1320048000.0, 
-    "activity_type": "hot_sale"
-   }, 
    "magiccardless": {
     "specific_type": "re", 
     "product_type": {
@@ -21953,6 +21929,24 @@
     "modify": true, 
     "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
+   }, 
+   "lvronghao": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "謎のヨモギ", 
+    "start_time": 1320652800.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1321257600.0, 
+    "goods_description": "謎のヨモギ、あなたが植えているのは何色かな？", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "shiyuebaoxiang": {
     "specific_type": "re", 
@@ -24429,7 +24423,7 @@
     "lvronghao": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "謎のヨモギ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
@@ -61406,7 +61400,7 @@
       "name": "高級増産肥料", 
       "max_level": 61, 
       "price": {
-       "F_coin": 5
+       "F_coin": 6
       }, 
       "effect": 0, 
       "introduce": "高級増産肥料はレベル36から60までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
