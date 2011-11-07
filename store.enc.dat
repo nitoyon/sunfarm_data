@@ -24426,6 +24426,27 @@
      }, 
      "level_need": 1
     }, 
+    "lvronghao": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "謎のヨモギ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "introduce": "謎のヨモギ、あなたが植えているのは何色かな？", 
+     "is_random": true, 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "leaf_time": 240, 
+     "level_need": 1
+    }, 
     "relunhua": {
      "total_time": 1410, 
      "leaflet_time": 150, 
@@ -25086,22 +25107,22 @@
      }, 
      "level_need": 1
     }, 
-    "mayingdanzi": {
-     "total_time": 1080, 
+    "maoronggou": {
+     "total_time": 990, 
      "leaflet_time": 90, 
      "used": false, 
-     "name": "パープルランタナ", 
+     "name": "いぬぐるみ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 9, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 270, 
+     "experience": 6.77, 
      "seasons": 1, 
-     "sale_price": 13, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 240, 
+     "leaf_time": 270, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 10
      }, 
      "level_need": 1
     }, 
@@ -25934,25 +25955,6 @@
       "F_coin": 10
      }, 
      "level_need": 0
-    }, 
-    "groupon": {
-     "total_time": 2880, 
-     "leaflet_time": 510, 
-     "used": false, 
-     "name": "ｸﾞﾙｰﾎﾟﾝ盛り合せ", 
-     "base_fruit": 25, 
-     "fruit_time": 720, 
-     "sprout_time": 330, 
-     "bloom_time": 720, 
-     "experience": 800, 
-     "seasons": 3, 
-     "sale_price": 500, 
-     "increment_fruit": 25, 
-     "leaf_time": 600, 
-     "seed_price": {
-      "F_coin": 20
-     }, 
-     "level_need": 1
     }, 
     "wandoulieche": {
      "total_time": 780, 
@@ -28388,6 +28390,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "lvronghaohong": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "レッドヨモギ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "shanzhu": {
      "total_time": 960, 
      "leaflet_time": 90, 
@@ -28598,22 +28619,22 @@
      }, 
      "level_need": 1
     }, 
-    "maoronggou": {
-     "total_time": 990, 
+    "mayingdanzi": {
+     "total_time": 1080, 
      "leaflet_time": 90, 
      "used": false, 
-     "name": "いぬぐるみ", 
+     "name": "パープルランタナ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 30, 
-     "bloom_time": 270, 
-     "experience": 6.77, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 13, 
      "increment_fruit": 25, 
-     "leaf_time": 270, 
+     "leaf_time": 240, 
      "seed_price": {
-      "F_coin": 10
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -32075,6 +32096,25 @@
      }, 
      "level_need": 1
     }, 
+    "lvronghaozi": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "パープルヨモギ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "zimoli": {
      "total_time": 2880, 
      "leaflet_time": 510, 
@@ -33680,6 +33720,25 @@
       "F_coin": 25
      }, 
      "leaf_time": 150, 
+     "level_need": 1
+    }, 
+    "lvronghaocai": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "カラフルヨモギ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
      "level_need": 1
     }, 
     "huoxuelian": {
@@ -36782,24 +36841,24 @@
      }, 
      "level_need": 1
     }, 
-    "ji": {
-     "total_time": 870, 
-     "leaflet_time": 90, 
+    "katelanhuang": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "アザミ", 
+     "name": "カトレア(黄)", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "sprout_time": 30, 
-     "bloom_time": 210, 
-     "experience": 6.96, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 30
+      "F_coin": 20
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "lavendertea": {
      "total_time": 1920, 
@@ -36937,24 +36996,24 @@
      }, 
      "level_need": 0
     }, 
-    "katelanhuang": {
-     "total_time": 1410, 
-     "leaflet_time": 150, 
+    "caijiaozhanshihongse": {
+     "total_time": 1220, 
+     "leaflet_time": 120, 
      "used": false, 
-     "name": "カトレア(黄)", 
+     "name": "ピーマンレッド", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
+     "fruit_time": 450, 
      "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 8, 
+     "bloom_time": 320, 
+     "experience": 6, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 240, 
      "seed_price": {
-      "F_coin": 20
+      "gold": 15
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "zijunzilan": {
      "total_time": 750, 
@@ -44472,6 +44531,25 @@
      }, 
      "level_need": 1
     }, 
+    "lvronghaohuang": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "イエローヨモギ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "aiying": {
      "total_time": 840, 
      "leaflet_time": 150, 
@@ -45321,6 +45399,25 @@
      "leaf_time": 324, 
      "seed_price": {
       "F_coin": 455
+     }, 
+     "level_need": 1
+    }, 
+    "lvronghaolan": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ブルーヨモギ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -48440,6 +48537,25 @@
       "F_coin": 25
      }, 
      "level_need": 0
+    }, 
+    "ji": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "アザミ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 6.96, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
+     "level_need": 1
     }, 
     "dinghunxiangbin": {
      "total_time": 870, 
@@ -57267,22 +57383,22 @@
      }, 
      "level_need": 1
     }, 
-    "caijiaozhanshihongse": {
-     "total_time": 1220, 
-     "leaflet_time": 120, 
+    "groupon": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
      "used": false, 
-     "name": "ピーマンレッド", 
+     "name": "ｸﾞﾙｰﾎﾟﾝ盛り合せ", 
      "base_fruit": 25, 
-     "fruit_time": 450, 
-     "sprout_time": 90, 
-     "bloom_time": 320, 
-     "experience": 6, 
-     "seasons": 1, 
-     "sale_price": 12, 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 3, 
+     "sale_price": 500, 
      "increment_fruit": 25, 
-     "leaf_time": 240, 
+     "leaf_time": 600, 
      "seed_price": {
-      "gold": 15
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -57437,6 +57553,25 @@
       "F_coin": 20
      }, 
      "leaf_time": 120, 
+     "level_need": 1
+    }, 
+    "lvronghaobai": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ホワイトヨモギ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
      "level_need": 1
     }, 
     "yelaixiangx": {
@@ -59782,6 +59917,7 @@
     "huanghulu", 
     "qisehuahuang", 
     "xiaochouc", 
+    "lvronghaohuang", 
     "mayingdanhuang", 
     "yanhuasan", 
     "lianhuadenghuang", 
@@ -59884,6 +60020,7 @@
     "wusehulu", 
     "caijiao", 
     "shankumaihuashu", 
+    "lvronghaocai", 
     "lianhuadengwucai", 
     "changshouhua", 
     "duocaiaiqianniu", 
@@ -60153,6 +60290,7 @@
     "zihulu", 
     "qisehuazi", 
     "xiaochouf", 
+    "lvronghaozi", 
     "mayingdanzi", 
     "yanhuasi", 
     "lianhuadengzi", 
@@ -60221,6 +60359,7 @@
     "qisehualan", 
     "xiaochoua", 
     "lanqiansuitang", 
+    "lvronghaolan", 
     "yanhuaer", 
     "lianhuadenglan", 
     "yecai", 
@@ -60247,6 +60386,7 @@
     "baiqiumingju", 
     "oushinanbai", 
     "aiseaiqianniu", 
+    "lvronghaobai", 
     "mayingdanbai", 
     "diaozhonghua", 
     "yimihua", 
@@ -60345,6 +60485,7 @@
     "honghulu", 
     "qisehuahong", 
     "xiaochoue", 
+    "lvronghaohong", 
     "f709_ningmengguodongshu", 
     "nmbjl", 
     "ningmengshu", 
@@ -60559,6 +60700,7 @@
     "ziluolan", 
     "suijihulu", 
     "qisehua", 
+    "lvronghao", 
     "mayingdan", 
     "f673_hemaoqiezi", 
     "hongsemotianlunshu", 
