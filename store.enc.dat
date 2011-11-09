@@ -21850,6 +21850,21 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
+   "huafeibao3": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "マルチ肥料セット", 
+    "price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
+    "activity_type": "discount"
+   }, 
    "crystal12": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -21868,19 +21883,51 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "f747_xixueguinanguashu": {
+   "magiccardless": {
     "specific_type": "re", 
     "product_type": {
+     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_type": "seed"
+     "goods_category": "fertilizer"
     }, 
-    "name": "バンパイアのパンプキン樹", 
+    "name": "マジック増産カード", 
     "price": {
-     "num": 20, 
+     "num": 3, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "パンプキン樹第一弾の種", 
+    "modify": false, 
+    "goods_description": "成熟したレインボー葛ウコンと彩雲球の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+    "activity_type": "discount"
+   }, 
+   "shiyiyuebaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "11月の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
+   }, 
+   "gaoji": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "高級肥料", 
+    "price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }, 
    "lvronghao": {
@@ -21901,64 +21948,35 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "shiyiyuebaoxiang": {
+   "shiyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "11月の宝箱", 
+    "name": "10月の宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": true, 
+    "modify": false, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "f744_kexueguairennanguashu": {
+   "magiccardmost": {
     "specific_type": "re", 
     "product_type": {
+     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_type": "seed"
+     "goods_category": "fertilizer"
     }, 
-    "name": "フランケンのパンプキン樹", 
+    "name": "ミラクル増産カード", 
     "price": {
-     "num": 20, 
+     "num": 12, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "goods_description": "パンプキン樹第一弾の種", 
-    "activity_type": "discount"
-   }, 
-   "f743_nanguashu": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "パンプキン樹", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "パンプキン樹第一弾の種", 
-    "activity_type": "discount"
-   }, 
-   "f742_wunvnanguashu": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "ウィッチのパンプキン樹", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "パンプキン樹第一弾の種", 
+    "modify": false, 
+    "goods_description": "レインボー葛ウコンと彩雲球以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
     "activity_type": "discount"
    }, 
    "hammer": {
@@ -21978,21 +21996,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
-   }, 
-   "f746_munaiyinanguashu": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "ミイラのパンプキン樹", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "goods_description": "パンプキン樹第一弾の種", 
-    "activity_type": "discount"
    }
   }, 
   "farm": {
