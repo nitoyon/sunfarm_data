@@ -22019,6 +22019,25 @@
      }, 
      "level_need": 1
     }, 
+    "siyehuateng": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "クローバー花蔓", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "huangsexingxingshu": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -22704,6 +22723,25 @@
      }, 
      "level_need": 27
     }, 
+    "huaduohuateng": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "花びら花蔓", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "shanghuapijiu": {
      "total_time": 1110, 
      "leaflet_time": 90, 
@@ -23082,22 +23120,22 @@
      }, 
      "level_need": 1
     }, 
-    "xilanhuachaojidan": {
-     "total_time": 920, 
-     "leaflet_time": 60, 
+    "mingriye": {
+     "total_time": 660, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "ブロッコリーの卵炒め", 
+     "name": "明日葉", 
      "base_fruit": 25, 
      "fruit_time": 300, 
-     "sprout_time": 60, 
-     "bloom_time": 300, 
-     "experience": 12, 
+     "sprout_time": 30, 
+     "bloom_time": 120, 
+     "experience": 3.66, 
      "seasons": 1, 
-     "sale_price": 10, 
+     "sale_price": 5, 
      "increment_fruit": 25, 
-     "leaf_time": 200, 
+     "leaf_time": 120, 
      "seed_price": {
-      "gold": 99
+      "F_coin": 35
      }, 
      "level_need": 1
     }, 
@@ -24266,26 +24304,6 @@
      }, 
      "level_need": 1
     }, 
-    "f708_mangguoguodongshu": {
-     "total_time": 1330, 
-     "leaflet_time": 150, 
-     "used": false, 
-     "name": "マンゴーのゼリー樹", 
-     "base_fruit": 25, 
-     "fruit_time": 510, 
-     "tuchan": true, 
-     "sprout_time": 90, 
-     "bloom_time": 320, 
-     "experience": 6.8, 
-     "seasons": 1, 
-     "sale_price": 7, 
-     "increment_fruit": 25, 
-     "leaf_time": 260, 
-     "seed_price": {
-      "F_coin": 6
-     }, 
-     "level_need": 1
-    }, 
     "hongsemotianlunshu": {
      "total_time": 750, 
      "leaflet_time": 90, 
@@ -25373,6 +25391,25 @@
       "gold": 324
      }, 
      "level_need": 30
+    }, 
+    "xinxinghuateng": {
+     "total_time": 750, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ハート花蔓", 
+     "base_fruit": 25, 
+     "fruit_time": 270, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 0
     }, 
     "icecreamtower": {
      "total_time": 810, 
@@ -28613,22 +28650,22 @@
      "leaf_time": 448, 
      "level_need": 0
     }, 
-    "mingriye": {
-     "total_time": 660, 
-     "leaflet_time": 90, 
+    "xilanhuachaojidan": {
+     "total_time": 920, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "明日葉", 
+     "name": "ブロッコリーの卵炒め", 
      "base_fruit": 25, 
      "fruit_time": 300, 
-     "sprout_time": 30, 
-     "bloom_time": 120, 
-     "experience": 3.66, 
+     "sprout_time": 60, 
+     "bloom_time": 300, 
+     "experience": 12, 
      "seasons": 1, 
-     "sale_price": 5, 
+     "sale_price": 10, 
      "increment_fruit": 25, 
-     "leaf_time": 120, 
+     "leaf_time": 200, 
      "seed_price": {
-      "F_coin": 35
+      "gold": 99
      }, 
      "level_need": 1
     }, 
@@ -41809,6 +41846,25 @@
      }, 
      "level_need": 1
     }, 
+    "hudiehuateng": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "蝶々花蔓", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "bosijuhong": {
      "total_time": 720, 
      "leaflet_time": 90, 
@@ -42270,6 +42326,25 @@
      "leaf_time": 164, 
      "seed_price": {
       "gold": 1800
+     }, 
+     "level_need": 1
+    }, 
+    "yueyahuateng": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "yueyahuateng", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
      }, 
      "level_need": 1
     }, 
@@ -47680,6 +47755,27 @@
      }, 
      "level_need": 1
     }, 
+    "shengdanfenyueji": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "チャイニーズローズ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "goodstype": "flower", 
+     "sprout_time": 90, 
+     "introduce": "", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 11, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "leaf_time": 330, 
+     "level_need": 53
+    }, 
     "partyhuluobo": {
      "total_time": 630, 
      "leaflet_time": 60, 
@@ -48110,6 +48206,25 @@
      }, 
      "level_need": 1
     }, 
+    "yueyaxinghuateng": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "月型花蔓", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "gouyahua": {
      "total_time": 480, 
      "leaflet_time": 20, 
@@ -48420,26 +48535,25 @@
      }, 
      "level_need": 1
     }, 
-    "shengdanfenyueji": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "f708_mangguoguodongshu": {
+     "total_time": 1330, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "チャイニーズローズ", 
+     "name": "マンゴーのゼリー樹", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "goodstype": "flower", 
+     "fruit_time": 510, 
+     "tuchan": true, 
      "sprout_time": 90, 
-     "introduce": "", 
-     "increment_fruit": 25, 
-     "bloom_time": 330, 
-     "experience": 11, 
+     "bloom_time": 320, 
+     "experience": 6.8, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 6
      }, 
-     "leaf_time": 330, 
-     "level_need": 53
+     "level_need": 1
     }, 
     "xiajinangua": {
      "total_time": 810, 
@@ -56586,6 +56700,25 @@
      }, 
      "level_need": 30
     }, 
+    "yuxinghuateng": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "魚花蔓", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "hyacinth": {
      "total_time": 600, 
      "leaflet_time": 90, 
@@ -60039,6 +60172,7 @@
     "manyuemujin", 
     "penjingsi", 
     "qianliguang", 
+    "xinxinghuateng", 
     "beimu", 
     "lanshanhu", 
     "boluodangao", 
@@ -60329,6 +60463,7 @@
     "changxiangsi", 
     "biglobe", 
     "shengdanhongxin", 
+    "yueyahuateng", 
     "mofaqianniuhua", 
     "yangzinangua", 
     "eli", 
@@ -60659,6 +60794,7 @@
     "naiyou", 
     "xianrencao", 
     "heisuankuai", 
+    "siyehuateng", 
     "bale", 
     "gangqin2", 
     "lvshuijingpingguo", 
@@ -61207,6 +61343,7 @@
     "mingriye", 
     "yingchunhua", 
     "f678_qingtianfeizaoshu", 
+    "yueyaxinghuateng", 
     "youlezhaicha", 
     "shuxiaoyao", 
     "f650_dongjingyumi", 
@@ -61288,6 +61425,7 @@
     "f718_shenghuyuanluobo", 
     "zizhisuanjujiu", 
     "zhidamen", 
+    "huaduohuateng", 
     "huazhushu", 
     "nirenzhiwu1", 
     "chaguozi", 
@@ -61297,6 +61435,7 @@
     "shatanyanhua", 
     "zhizhufengshu", 
     "mitao", 
+    "hudiehuateng", 
     "hudiefengshu", 
     "zhuohudiemao", 
     "luosihua", 
@@ -61363,6 +61502,7 @@
     "shenqijindaihua", 
     "shuangyuzuodeshu", 
     "yufengshu", 
+    "yuxinghuateng", 
     "chengseliyuqi", 
     "huangseliyuqi", 
     "lvseliyuqi", 
