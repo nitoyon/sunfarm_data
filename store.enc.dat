@@ -14025,6 +14025,51 @@
      }
     }
    }, 
+   "jidebaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 10
+     }, 
+     "used": false, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "薊の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baimaoji": [
+        1, 
+        0.9
+       ], 
+       "hubeiji": [
+        1, 
+        0.2
+       ], 
+       "gongshanji": [
+        1, 
+        0.4
+       ], 
+       "honghuaji": [
+        1, 
+        0.3
+       ], 
+       "kuaiji": [
+        1, 
+        0.1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "zong_zi": {
     "config": {
      "goods_str": "打开粽子固定可得5个急速化肥和一朵风信子，还有几率获得各种珍稀作物花卉和动物宝宝，能开出什么看人品哦", 
@@ -64053,7 +64098,7 @@
    "shenqijindaihuabaoxiang", 
    "landan", 
    "tudoulibao", 
-   "caiyecaobaoxiang", 
+   "jidebaoxiang", 
    "hushenfu", 
    "bayuezhuochongfuyongbaoxiang", 
    "tdyshong", 
@@ -64079,6 +64124,7 @@
    "huangseniudan", 
    "jiuyuebaoxiang", 
    "zhiwubaoxiang", 
+   "caiyecaobaoxiang", 
    "tdysfen", 
    "bayuebaoxiang", 
    "yinghuashuhuangniudan", 
