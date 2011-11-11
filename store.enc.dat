@@ -14030,7 +14030,7 @@
      "price": {
       "F_coin": 10
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
      "name": "薊の宝箱", 
      "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
@@ -21910,23 +21910,20 @@
     "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
     "activity_type": "discount"
    }, 
-   "crystal12": {
+   "shiyiyuebaoxiang": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "11月クリスタル", 
-    "start_time": 1320300000.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "8日3時間", 
-    "end_time": 1321002000.0, 
-    "goods_description": "元素の木の種と高級肥料が入っています。", 
+    "name": "11月の宝箱", 
     "price": {
-     "num": 100, 
-     "type": "gold"
+     "num": 10, 
+     "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
    }, 
    "magiccardless": {
     "specific_type": "re", 
@@ -21944,13 +21941,13 @@
     "goods_description": "成熟した北極花と白蟻花の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "shiyiyuebaoxiang": {
+   "shiyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "11月の宝箱", 
+    "name": "10月の宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
@@ -21958,6 +21955,28 @@
     "modify": false, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
+   }, 
+   "shenqiginseng": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "魔法の朝鮮人参", 
+    "price": {
+     "num": 20, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1321603200.0, 
+    "goods_description": "魔法の朝鮮人参", 
+    "start_time": 1320998400.0, 
+    "activity_type": "hot_sale"
    }, 
    "gaoji": {
     "specific_type": "re", 
@@ -21993,21 +22012,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "shiyuebaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "10月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
    "magiccardmost": {
     "specific_type": "re", 
     "product_type": {
@@ -22024,18 +22028,18 @@
     "goods_description": "北極花と白蟻花以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
     "activity_type": "discount"
    }, 
-   "hammer": {
+   "jidebaoxiang": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "ハンマー", 
-    "start_time": 1320300000.0, 
+    "name": "薊の宝箱", 
+    "start_time": 1320998400.0, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "8日3時間", 
-    "end_time": 1321002000.0, 
-    "goods_description": "クリスタルを開けることができます。", 
+    "limit_time": "7日", 
+    "end_time": 1321603200.0, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "price": {
      "num": 10, 
      "type": "F_coin"
@@ -36351,14 +36355,14 @@
      "fruit_time": 827, 
      "sprout_time": 42, 
      "bloom_time": 632, 
-     "used": false, 
+     "used": true, 
      "experience": 4.32333333, 
      "seasons": 3, 
      "sale_price": 17, 
      "increment_fruit": 25, 
      "leaf_time": 632, 
      "seed_price": {
-      "F_coin": 30
+      "F_coin": 20
      }, 
      "level_need": 0
     }, 
