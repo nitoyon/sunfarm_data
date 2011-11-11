@@ -21896,7 +21896,7 @@
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "成熟したレインボー葛ウコンと彩雲球の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
+    "goods_description": "成熟した北極花と白蟻花の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
    "shiyiyuebaoxiang": {
@@ -21976,7 +21976,7 @@
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "レインボー葛ウコンと彩雲球以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+    "goods_description": "北極花と白蟻花以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
     "activity_type": "discount"
    }, 
    "hammer": {
@@ -25079,7 +25079,7 @@
     "beijihua": {
      "total_time": 715, 
      "leaflet_time": 60, 
-     "used": false, 
+     "used": true, 
      "name": "北極花", 
      "base_fruit": 25, 
      "fruit_time": 330, 
@@ -52732,7 +52732,7 @@
     "baimayihua": {
      "total_time": 840, 
      "leaflet_time": 150, 
-     "used": false, 
+     "used": true, 
      "name": "白蟻花", 
      "base_fruit": 25, 
      "fruit_time": 300, 
