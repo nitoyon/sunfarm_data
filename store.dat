@@ -16089,7 +16089,7 @@
       "used": true, 
       "name": "\u30b9\u30fc\u30d1\u30fc\u98fc\u6599", 
       "price": {
-       "F_coin": 12
+       "F_coin": 10
       }, 
       "effect": 10, 
       "introduce": "\u4f7f\u3046\u3068\u52d5\u7269\u306e\u751f\u7523\u6642\u9593\u309210\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002\u98fc\u6599\u306e\u52b9\u679c\u306f\u6b21\u306e\u6bb5\u968e\u3078\u6301\u3061\u8d8a\u3059\u3053\u3068\u306f\u3067\u304d\u307e\u305b\u3093\u3002", 
@@ -22132,6 +22132,29 @@
     "start_time": 1320998400.0, 
     "activity_type": "hot_sale"
    }, 
+   "jisu1": {
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
+    }, 
+    "name": "\u30b9\u30fc\u30d1\u30fc\u98fc\u6599", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4\u65e5", 
+    "end_time": 1321603200.0, 
+    "goods_description": "\u4f7f\u3046\u3068\u52d5\u7269\u306e\u751f\u7523\u6642\u9593\u309210\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002\u98fc\u6599\u306e\u52b9\u679c\u306f\u6b21\u306e\u6bb5\u968e\u3078\u6301\u3061\u8d8a\u3059\u3053\u3068\u306f\u3067\u304d\u307e\u305b\u3093\u3002", 
+    "start_time": 1321257600.0, 
+    "activity_type": "hot_sale"
+   }, 
    "gaoji": {
     "specific_type": "re", 
     "product_type": {
@@ -22147,24 +22170,6 @@
     "modify": false, 
     "goods_description": "\u4f7f\u3046\u3068\u4f5c\u7269\u306e\u6210\u719f\u6642\u9593\u30925.5\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002\u80a5\u6599\u306e\u52b9\u679c\u306f\u6b21\u306e\u6bb5\u968e\u3078\u6301\u3061\u8d8a\u3059\u3053\u3068\u306f\u3067\u304d\u307e\u305b\u3093\u3002", 
     "activity_type": "discount"
-   }, 
-   "lvronghao": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "\u8b0e\u306e\u30e8\u30e2\u30ae", 
-    "start_time": 1320652800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7\u65e5", 
-    "end_time": 1321257600.0, 
-    "goods_description": "\u8b0e\u306e\u30e8\u30e2\u30ae\u3001\u3042\u306a\u305f\u304c\u690d\u3048\u3066\u3044\u308b\u306e\u306f\u4f55\u8272\u304b\u306a\uff1f", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "magiccardmost": {
     "specific_type": "re", 
