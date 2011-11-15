@@ -16089,7 +16089,7 @@
       "used": true, 
       "name": "スーパー飼料", 
       "price": {
-       "F_coin": 12
+       "F_coin": 10
       }, 
       "effect": 10, 
       "introduce": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
@@ -22132,6 +22132,29 @@
     "start_time": 1320998400.0, 
     "activity_type": "hot_sale"
    }, 
+   "jisu1": {
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
+    }, 
+    "name": "スーパー飼料", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1321603200.0, 
+    "goods_description": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
+    "start_time": 1321257600.0, 
+    "activity_type": "hot_sale"
+   }, 
    "gaoji": {
     "specific_type": "re", 
     "product_type": {
@@ -22147,24 +22170,6 @@
     "modify": false, 
     "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
-   }, 
-   "lvronghao": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "謎のヨモギ", 
-    "start_time": 1320652800.0, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1321257600.0, 
-    "goods_description": "謎のヨモギ、あなたが植えているのは何色かな？", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "magiccardmost": {
     "specific_type": "re", 
