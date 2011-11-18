@@ -22064,13 +22064,13 @@
     "goods_description": "中には高級肥料5個、増産肥料1個、マジック肥料10個が含まれています。", 
     "activity_type": "discount"
    }, 
-   "shiyiyuebaoxiang": {
+   "shiyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "11月の宝箱", 
+    "name": "10月の宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
@@ -22095,13 +22095,55 @@
     "goods_description": "成熟した北極花と白蟻花の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "shiyuebaoxiang": {
+   "three_day": {
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "vip_card"
+    }, 
+    "name": "会員カード（3日）", 
+    "start_time": 1321603200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日", 
+    "end_time": 1321862400.0, 
+    "goods_description": "このカードをご利用頂きますと、3日間有効の会員資格がもらえます。会員になれば、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
+    "price": {
+     "num": 5, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "zengshou1": {
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "中級増産肥料", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "3日", 
+    "end_time": 1321862400.0, 
+    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
+    "start_time": 1321603200.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "shiyiyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "10月の宝箱", 
+    "name": "11月の宝箱", 
     "price": {
      "num": 10, 
      "type": "F_coin"
@@ -22109,51 +22151,6 @@
     "modify": false, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
-   }, 
-   "shenqiginseng": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "魔法の朝鮮人参", 
-    "price": {
-     "num": 20, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1321603200.0, 
-    "goods_description": "魔法の朝鮮人参", 
-    "start_time": 1320998400.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "jisu1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
-    }, 
-    "name": "スーパー飼料", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1321603200.0, 
-    "goods_description": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1321257600.0, 
-    "activity_type": "hot_sale"
    }, 
    "gaoji": {
     "specific_type": "re", 
@@ -22171,6 +22168,28 @@
     "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }, 
+   "siliaobao2": {
+    "original_price": {
+     "num": 30, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "高級飼料セット", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1322121600.0, 
+    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "start_time": 1321603200.0, 
+    "activity_type": "hot_sale"
+   }, 
    "magiccardmost": {
     "specific_type": "re", 
     "product_type": {
@@ -22186,24 +22205,6 @@
     "modify": false, 
     "goods_description": "北極花と白蟻花以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
     "activity_type": "discount"
-   }, 
-   "jidebaoxiang": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "薊の宝箱", 
-    "start_time": 1320998400.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1321603200.0, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
