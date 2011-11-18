@@ -63705,6 +63705,16 @@
       "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物がないと働けません。", 
       "multi_buy": false, 
       "pro": 1
+     }, 
+     "youzhirishouhuzhe": {
+      "used": false, 
+      "name": "おとりさま", 
+      "price": {
+       "F_coin": 50
+      }, 
+      "introduce": "だるまに見えるけど、実は神様が宿ってますよ！大事にしてあげたら、あなたの畑を守りますよ！", 
+      "multi_buy": false, 
+      "pro": 0.7
      }
     }, 
     "cash_coupon": {
@@ -65297,6 +65307,7 @@
      "El"
     ], 
     "dog": [
+     "youzhirishouhuzhe", 
      "shengdanlaoren", 
      "xuenarui", 
      "taidi", 
