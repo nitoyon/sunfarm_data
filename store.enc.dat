@@ -14160,7 +14160,7 @@
      "price": {
       "F_coin": 10
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
      "name": "スマイリングの宝箱", 
      "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
@@ -22404,6 +22404,24 @@
     "start_time": 1321862400.0, 
     "activity_type": "hot_sale"
    }, 
+   "xiaoyehuadebaoxiang": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "スマイリングの宝箱", 
+    "start_time": 1322121600.0, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1322726400.0, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "gaoji": {
     "original_price": {
      "num": 6, 
@@ -22425,28 +22443,6 @@
     "end_time": 1322467200.0, 
     "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "start_time": 1321862400.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "siliaobao2": {
-    "original_price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "高級飼料セット", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1322121600.0, 
-    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "start_time": 1321603200.0, 
     "activity_type": "hot_sale"
    }, 
    "zengshou": {
