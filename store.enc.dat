@@ -65170,6 +65170,16 @@
       "multi_buy": false, 
       "pro": 0.3
      }, 
+     "xuenarui": {
+      "used": true, 
+      "name": "シュナウザー（畑）", 
+      "price": {
+       "F_coin": 16
+      }, 
+      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物がないと働けません。", 
+      "multi_buy": false, 
+      "pro": 1
+     }, 
      "heimao": {
       "used": false, 
       "name": "黒猫ガーディアン", 
@@ -65210,15 +65220,15 @@
       "multi_buy": false, 
       "pro": 0.3
      }, 
-     "xuenarui": {
+     "huoguo": {
       "used": true, 
-      "name": "シュナウザー（畑）", 
+      "name": "鍋の妖精", 
       "price": {
-       "F_coin": 16
+       "F_coin": 0
       }, 
-      "introduce": "一般の見張り番より捕まえる確率が50%高いです。マイミクさんから落したコイン20-80枚（ランダム）をゲットします。また、システムからのサービスの同額コインも獲得します。但し、食べ物がないと働けません。", 
+      "introduce": "", 
       "multi_buy": false, 
-      "pro": 1
+      "pro": 1.0
      }, 
      "taidi": {
       "used": true, 
@@ -66867,6 +66877,7 @@
      "taidi", 
      "putaojiushouhuzhe", 
      "liulimao", 
+     "huoguo", 
      "heimao", 
      "tianshinv", 
      "wupo", 
