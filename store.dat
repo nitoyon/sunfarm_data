@@ -65196,6 +65196,16 @@
       "multi_buy": false, 
       "pro": 0.2
      }, 
+     "huoguo": {
+      "used": false, 
+      "name": "\u934b\u306e\u5996\u7cbe", 
+      "price": {
+       "F_coin": 0
+      }, 
+      "introduce": "", 
+      "multi_buy": false, 
+      "pro": 0.1
+     }, 
      "tianshinv": {
       "used": true, 
       "name": "\u30e9\u30d6\u30a8\u30f3\u30b8\u30a7\u30eb\uff08\u5973\u306e\u5b50\uff09", 
@@ -65216,15 +65226,15 @@
       "multi_buy": false, 
       "pro": 0.3
      }, 
-     "huoguo": {
+     "huoguoshouhuzhe": {
       "used": false, 
-      "name": "\u934b\u306e\u5996\u7cbe", 
+      "name": "\u934b\u306e\u5996\u7cbe\u738b", 
       "price": {
        "F_coin": 0
       }, 
       "introduce": "", 
       "multi_buy": false, 
-      "pro": 0.1
+      "pro": 1.0
      }, 
      "taidi": {
       "used": true, 
@@ -66874,6 +66884,7 @@
      "putaojiushouhuzhe", 
      "liulimao", 
      "huoguo", 
+     "huoguoshouhuzhe", 
      "heimao", 
      "tianshinv", 
      "wupo", 
