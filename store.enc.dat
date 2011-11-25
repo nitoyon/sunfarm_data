@@ -65196,6 +65196,16 @@
       "multi_buy": false, 
       "pro": 0.2
      }, 
+     "huoguo": {
+      "used": false, 
+      "name": "鍋の妖精", 
+      "price": {
+       "F_coin": 0
+      }, 
+      "introduce": "", 
+      "multi_buy": false, 
+      "pro": 0.1
+     }, 
      "tianshinv": {
       "used": true, 
       "name": "ラブエンジェル（女の子）", 
@@ -65216,15 +65226,15 @@
       "multi_buy": false, 
       "pro": 0.3
      }, 
-     "huoguo": {
+     "huoguoshouhuzhe": {
       "used": false, 
-      "name": "鍋の妖精", 
+      "name": "鍋の妖精王", 
       "price": {
        "F_coin": 0
       }, 
       "introduce": "", 
       "multi_buy": false, 
-      "pro": 0.1
+      "pro": 1.0
      }, 
      "taidi": {
       "used": true, 
@@ -66874,6 +66884,7 @@
      "putaojiushouhuzhe", 
      "liulimao", 
      "huoguo", 
+     "huoguoshouhuzhe", 
      "heimao", 
      "tianshinv", 
      "wupo", 
