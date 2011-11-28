@@ -391,7 +391,7 @@
      "used": true, 
      "name": "中級肥料セット", 
      "price": {
-      "F_coin": 15
+      "F_coin": 10
      }, 
      "introduce": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -22335,21 +22335,27 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "magiccardmost": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+   "huafeibao1": {
+    "original_price": {
+     "num": 15, 
+     "type": "F_coin"
     }, 
-    "name": "ミラクル増産カード", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "中級肥料セット", 
     "price": {
-     "num": 12, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "北極花と白蟻花以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1322812800.0, 
+    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
+    "start_time": 1322467200.0, 
+    "activity_type": "hot_sale"
    }, 
    "magiccardless": {
     "specific_type": "re", 
@@ -22367,6 +22373,29 @@
     "goods_description": "成熟した北極花と白蟻花の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
+   "magiccardmost": {
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "ミラクル増産カード", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日", 
+    "end_time": 1322812800.0, 
+    "goods_description": "北極花と白蟻花以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+    "start_time": 1322467200.0, 
+    "activity_type": "hot_sale"
+   }, 
    "shiyuebaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -22381,28 +22410,6 @@
     "modify": false, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
-   }, 
-   "hongbailanmeigui": {
-    "original_price": {
-     "num": 38, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "スリーカラーのバラ", 
-    "price": {
-     "num": 30, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1322467200.0, 
-    "goods_description": "スリーカラーのバラ", 
-    "start_time": 1321862400.0, 
-    "activity_type": "hot_sale"
    }, 
    "xiaoyehuadebaoxiang": {
     "product_type": {
@@ -22422,29 +22429,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "gaoji": {
-    "original_price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "高級肥料", 
-    "price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1322467200.0, 
-    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1321862400.0, 
-    "activity_type": "hot_sale"
-   }, 
    "zengshou": {
     "specific_type": "re", 
     "product_type": {
@@ -22459,6 +22443,22 @@
     }, 
     "modify": false, 
     "goods_description": "増産肥料はレベル1から9までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
+    "activity_type": "discount"
+   }, 
+   "xunjie": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "マジック肥料", 
+    "price": {
+     "num": 2, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }
   }, 
@@ -65748,7 +65748,7 @@
       "used": true, 
       "name": "ミラクル増産カード", 
       "price": {
-       "F_coin": 12
+       "F_coin": 10
       }, 
       "introduce": "北極花と白蟻花以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
@@ -65784,7 +65784,7 @@
      }, 
      "gaoji": {
       "price": {
-       "F_coin": 4
+       "F_coin": 6
       }, 
       "used": true, 
       "name": "高級肥料", 
