@@ -329,6 +329,43 @@
      }
     }
    }, 
+   "lvsebao3": {
+    "config": {
+     "price": {
+      "F_coin": 65
+     }, 
+     "used": false, 
+     "goods_str": "イエローサンゴ、ハムスター、ウルトラ肥料が含まれています。", 
+     "name": "グリーンギフトセット", 
+     "introduce": "イエローサンゴ、ハムスター、ウルトラ肥料が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "chuxushanhu": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "cangshu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "huafeibao2": {
     "config": {
      "used": true, 
@@ -713,6 +750,47 @@
      }
     }
    }, 
+   "diaoyu7libaolv6": {
+    "config": {
+     "price": {
+      "F_coin": 158
+     }, 
+     "used": false, 
+     "goods_str": "諸葛菜、不良タートル、ウルトラ肥料４個、気球のシカが含まれています。", 
+     "name": "グリーンギフトセット", 
+     "introduce": "諸葛菜、不良タートル、ウルトラ肥料４個、気球のシカが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "zhugecai": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         4, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "liumanggui": [
+        1, 
+        1.0
+       ], 
+       "qiqiulu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "beijinglibao": {
     "config": {
      "price": {
@@ -1029,28 +1107,44 @@
      }
     }
    }, 
-   "xinlibaozi3": {
+   "diaoyu7libao": {
     "config": {
      "price": {
-      "F_coin": 39
+      "F_coin": 350
      }, 
      "used": false, 
-     "goods_str": "アサガオ妖精、高級肥料２個、コアラが含まれています。", 
-     "name": "パープルギフトセット", 
-     "introduce": "アサガオ妖精、高級肥料２個、コアラが含まれています。"
+     "goods_str": "350Kコイン相当のアイテムが含まれています。", 
+     "name": "高級ギフトセット", 
+     "introduce": "350Kコイン相当のアイテムが含まれています。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "labahuaxiaoyao": [
+       "baiqiangwei": [
+        1, 
+        1.0
+       ], 
+       "dianshihua": [
+        1, 
+        1.0
+       ], 
+       "shenqijianlan": [
+        1, 
+        1.0
+       ], 
+       "oushinan": [
         1, 
         1.0
        ]
       }, 
       "properties": {
        "fertilizer": {
+        "test": [
+         5, 
+         1.0
+        ], 
         "gaoji": [
-         2, 
+         5, 
          1.0
         ]
        }
@@ -1058,7 +1152,27 @@
      }, 
      "ranch": {
       "babies": {
-       "shudaixiong": [
+       "jinsexiaomifeng": [
+        1, 
+        1.0
+       ], 
+       "dakonglong": [
+        1, 
+        1.0
+       ], 
+       "huolieniaoxin": [
+        1, 
+        1.0
+       ], 
+       "shangbanmao": [
+        1, 
+        1.0
+       ], 
+       "juhuatuhong": [
+        1, 
+        1.0
+       ], 
+       "beijixiong": [
         1, 
         1.0
        ]
@@ -2514,6 +2628,43 @@
      }
     }
    }, 
+   "xinlibaozi3": {
+    "config": {
+     "price": {
+      "F_coin": 39
+     }, 
+     "used": false, 
+     "goods_str": "アサガオ妖精、高級肥料２個、コアラが含まれています。", 
+     "name": "パープルギフトセット", 
+     "introduce": "アサガオ妖精、高級肥料２個、コアラが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "labahuaxiaoyao": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "shudaixiong": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "gaojilibao": {
     "config": {
      "price": {
@@ -3315,6 +3466,80 @@
      }
     }
    }, 
+   "diaoyu7libaolan5": {
+    "config": {
+     "price": {
+      "F_coin": 85
+     }, 
+     "used": false, 
+     "goods_str": "昭和草、気球のシカ、ウルトラ肥料２個が含まれています。", 
+     "name": "ブルーギフトセット", 
+     "introduce": "昭和草、気球のシカ、ウルトラ肥料２個が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "zhaohecao": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "qiqiulu": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
+   "diaoyu7libaozi3": {
+    "config": {
+     "price": {
+      "F_coin": 39
+     }, 
+     "used": false, 
+     "goods_str": "玉牛掌、高級肥料２個、カニが含まれています。", 
+     "name": "パープルギフトセット", 
+     "introduce": "玉牛掌、高級肥料２個、カニが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yuniuzhang": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "pangxie": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "libaohongxin": {
     "config": {
      "price": {
@@ -3682,6 +3907,35 @@
         1, 
         1.0
        ]
+      }
+     }
+    }
+   }, 
+   "diaoyu7libaofen2": {
+    "config": {
+     "price": {
+      "F_coin": 29
+     }, 
+     "used": false, 
+     "goods_str": "白仏甲、高級肥料が含まれています。", 
+     "name": "ピンクギフトセット", 
+     "introduce": "白仏甲、高級肥料が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baifojia": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         1, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -4160,20 +4414,53 @@
      }
     }
    }, 
-   "lvsebao3": {
+   "lasalibao": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "中国スイセンの種2個、マジック肥料2個、中級肥料2個が含まれています。さっそく開けてみよう！", 
+     "name": "ラサセット", 
+     "introduce": "中国スイセンの種2個、マジック肥料2個、中級肥料2個が含まれています。さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "zhongguoshuixian": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         2, 
+         1.0
+        ], 
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
+   "diaoyu7libaohong4": {
     "config": {
      "price": {
       "F_coin": 65
      }, 
      "used": false, 
-     "goods_str": "イエローサンゴ、ハムスター、ウルトラ肥料が含まれています。", 
-     "name": "グリーンギフトセット", 
-     "introduce": "イエローサンゴ、ハムスター、ウルトラ肥料が含まれています。"
+     "goods_str": "月宮殿、クルマサカオウム、ウルトラ肥料が含まれています。", 
+     "name": "レッドギフトセット", 
+     "introduce": "月宮殿、クルマサカオウム、ウルトラ肥料が含まれています。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "chuxushanhu": [
+       "yuegongdian": [
         1, 
         1.0
        ]
@@ -4189,7 +4476,7 @@
      }, 
      "ranch": {
       "babies": {
-       "cangshu": [
+       "miqieshifengtouyingwu": [
         1, 
         1.0
        ]
@@ -4930,39 +5217,6 @@
      }
     }
    }, 
-   "lasalibao": {
-    "config": {
-     "price": {
-      "F_coin": 30
-     }, 
-     "used": false, 
-     "goods_str": "中国スイセンの種2個、マジック肥料2個、中級肥料2個が含まれています。さっそく開けてみよう！", 
-     "name": "ラサセット", 
-     "introduce": "中国スイセンの種2個、マジック肥料2個、中級肥料2個が含まれています。さっそく開けてみよう！"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "zhongguoshuixian": [
-        2, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         2, 
-         1.0
-        ], 
-        "xunjie": [
-         2, 
-         1.0
-        ]
-       }
-      }
-     }
-    }
-   }, 
    "libaozi3": {
     "config": {
      "price": {
@@ -5639,20 +5893,20 @@
      }
     }
    }, 
-   "lansebao4": {
+   "lvbao4": {
     "config": {
      "price": {
       "F_coin": 85
      }, 
      "used": false, 
-     "goods_str": "ブルーサンゴ、ホワイトうさぎ、ウルトラ肥料２個が含まれています。", 
-     "name": "ブルーギフトセット", 
-     "introduce": "ブルーサンゴ、ホワイトうさぎ、ウルトラ肥料２個が含まれています。"
+     "goods_str": "中にはモッコウ、ホワイトうさぎ、ウルトラ肥料２個が含まれています。", 
+     "name": "グリーンギフトセット", 
+     "introduce": "中にはモッコウ、ホワイトうさぎ、ウルトラ肥料２個が含まれています。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "pengshanhu": [
+       "muxianghua": [
         1, 
         1.0
        ]
@@ -5919,20 +6173,20 @@
      }
     }
    }, 
-   "lvbao4": {
+   "lansebao4": {
     "config": {
      "price": {
       "F_coin": 85
      }, 
      "used": false, 
-     "goods_str": "中にはモッコウ、ホワイトうさぎ、ウルトラ肥料２個が含まれています。", 
-     "name": "グリーンギフトセット", 
-     "introduce": "中にはモッコウ、ホワイトうさぎ、ウルトラ肥料２個が含まれています。"
+     "goods_str": "ブルーサンゴ、ホワイトうさぎ、ウルトラ肥料２個が含まれています。", 
+     "name": "ブルーギフトセット", 
+     "introduce": "ブルーサンゴ、ホワイトうさぎ、ウルトラ肥料２個が含まれています。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "muxianghua": [
+       "pengshanhu": [
         1, 
         1.0
        ]
@@ -67337,6 +67591,7 @@
    "zhounianbao1", 
    "crops_hongfushi_gift", 
    "deguolibao1", 
+   "diaoyu7libaolv6", 
    "beijinglibao", 
    "guoqinglibao", 
    "juice_huluobosu_gift", 
@@ -67346,7 +67601,7 @@
    "crops_xilengniupai_gift", 
    "fuhuoniudanbao", 
    "lanbao1", 
-   "xinlibaozi3", 
+   "diaoyu7libao", 
    "crops_xiangkaoyangpai_gift", 
    "gb_2", 
    "qiufenhualibao", 
@@ -67370,6 +67625,7 @@
    "hb_4", 
    "hb_3", 
    "hb_2", 
+   "crops_qingtongshu_gift", 
    "tunshuniudanzi", 
    "ouzhoulibao1", 
    "yuetulibao", 
@@ -67396,6 +67652,8 @@
    "gaodanglibaoold", 
    "libaolv6", 
    "huiyuan", 
+   "diaoyu7libaolan5", 
+   "diaoyu7libaozi3", 
    "gb_1", 
    "crops_jidanbing_gift", 
    "libaohongxin", 
@@ -67408,8 +67666,9 @@
    "shanghailibao", 
    "crops_guoguangpingguo_gift", 
    "laohujizhongzibao", 
+   "diaoyu7libaofen2", 
    "crops_zhishimianbaogan_gift", 
-   "crops_moguniurouchaofan_gift", 
+   "juice_nanguazhi_gift", 
    "crops_mitao_gift", 
    "crops_tudoudunzhurou_gift", 
    "libaofenxin", 
@@ -67424,13 +67683,14 @@
    "laohujidongwubao", 
    "xibanyalibao", 
    "crops_fanqieroujiangmian_gift", 
-   "huangsebao5", 
+   "lasalibao", 
    "juice_shucaizhi_gift", 
    "crops_naiyoukaoyumi_gift", 
+   "diaoyu7libaohong4", 
    "juice_miganzhi_gift", 
    "crops_juxianghuacha_gift", 
    "yingguolibao1", 
-   "crops_qingtongshu_gift", 
+   "huangsebao5", 
    "caiseniudanlibao", 
    "juice_mangguozhi_gift", 
    "crops_fanqieguopu_gift", 
@@ -67443,6 +67703,7 @@
    "gaojixin", 
    "crops_zhishijumogu_gift", 
    "libao0", 
+   "crops_moguniurouchaofan_gift", 
    "xinlibaolan5", 
    "crops_ziteng_gift", 
    "crops_dongguapaigutang_gift", 
@@ -67450,7 +67711,6 @@
    "crops_shuiguojiang_gift", 
    "xingaoji0", 
    "judazhiwulibao", 
-   "lasalibao", 
    "crops_ganlanyou_gift", 
    "libaozi3", 
    "libaolan5", 
@@ -67475,8 +67735,8 @@
    "crops_danhuangjiang_gift", 
    "spec_finishedlibao", 
    "zibao5", 
-   "juice_nanguazhi_gift", 
-   "lvbao4", 
+   "xinlibaozi3", 
+   "lansebao4", 
    "chaojilibao", 
    "hunheshuiguoniudan", 
    "crops_yejunhuoguo_gift", 
@@ -67484,7 +67744,7 @@
    "crops_boluogulaorou_gift", 
    "ouzhoulibao", 
    "sichuanlibao", 
-   "lansebao4"
+   "lvbao4"
   ], 
   "mystic_bags_sort": [
    "crystal10", 
