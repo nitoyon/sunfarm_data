@@ -17609,7 +17609,7 @@
     "pangxiex": {
      "total_time": 1320, 
      "harvest_type": 0, 
-     "used": false, 
+     "used": true, 
      "name": "楽しいかに", 
      "base_fruit": 25, 
      "fruit_time": 960, 
@@ -22841,20 +22841,20 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "xiaoyehuadebaoxiang": {
+   "pangxiex": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "ranch", 
+     "goods_type": "baby"
     }, 
-    "name": "スマイリングの宝箱", 
-    "start_time": 1322121600.0, 
-    "modify": true, 
+    "name": "楽しいかに", 
+    "start_time": 1322726400.0, 
+    "modify": false, 
     "limit_type": "limit_time", 
     "limit_time": "7日", 
-    "end_time": 1322726400.0, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "end_time": 1323331200.0, 
+    "goods_description": "楽しいかに", 
     "price": {
-     "num": 10, 
+     "num": 15, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
