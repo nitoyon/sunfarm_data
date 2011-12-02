@@ -8062,6 +8062,18 @@
      }
     }
    }, 
+   "crystal13": {
+    "config": {
+     "goods_str": "\u6c34\u6676\u306e\u82b1\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
+     "name": "12\u6708\u30af\u30ea\u30b9\u30bf\u30eb", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "12\u6708\u30af\u30ea\u30b9\u30bf\u30eb", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "crystal11": {
     "config": {
      "goods_str": "\u30e2\u30b8\u30d5\u30e9\u30ef\u30fc\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
@@ -68887,6 +68899,7 @@
   ], 
   "mystic_bags_sort": [
    "crystal10", 
+   "crystal13", 
    "crystal12", 
    "piece", 
    "hammer", 
