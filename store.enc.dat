@@ -428,7 +428,7 @@
      "used": true, 
      "name": "中級肥料セット", 
      "price": {
-      "F_coin": 10
+      "F_coin": 15
      }, 
      "introduce": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
      "state": "re", 
@@ -22822,27 +22822,21 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "huafeibao1": {
-    "original_price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
+   "magiccardmost": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "中級肥料セット", 
+    "name": "ミラクル増産カード", 
     "price": {
-     "num": 10, 
+     "num": 12, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1322812800.0, 
-    "goods_description": "中には中級肥料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "start_time": 1322467200.0, 
-    "activity_type": "hot_sale"
+    "modify": true, 
+    "goods_description": "北極花と白蟻花以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+    "activity_type": "discount"
    }, 
    "magiccardless": {
     "specific_type": "re", 
@@ -22860,45 +22854,41 @@
     "goods_description": "成熟した北極花と白蟻花の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "magiccardmost": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
+   "fengchehuabaoxiang": {
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "ミラクル増産カード", 
+    "name": "12月の宝箱", 
+    "start_time": 1322812800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1323417600.0, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1322812800.0, 
-    "goods_description": "北極花と白蟻花以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
-    "start_time": 1322467200.0, 
     "activity_type": "hot_sale"
    }, 
    "pangxiex": {
-    "specific_type": "xin", 
     "product_type": {
      "scene_type": "ranch", 
      "goods_type": "baby"
     }, 
     "name": "楽しいかに", 
-    "start_time": "2011-12-01 17:00:00", 
+    "start_time": 1322726400.0, 
     "modify": false, 
-    "end_time": "2011-12-08 17:00:00", 
-    "goods_description": "販売期間：2011-12-01~2011-12-08", 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1323331200.0, 
+    "goods_description": "販売期間：2011-12-01~2011-12-08 17:00", 
     "price": {
      "num": 15, 
      "type": "F_coin"
     }, 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "gaoji": {
     "original_price": {
@@ -67433,7 +67423,7 @@
       "used": true, 
       "name": "ミラクル増産カード", 
       "price": {
-       "F_coin": 10
+       "F_coin": 12
       }, 
       "introduce": "北極花と白蟻花以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
