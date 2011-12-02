@@ -8062,6 +8062,18 @@
      }
     }
    }, 
+   "crystal13": {
+    "config": {
+     "goods_str": "水晶の花の種と高級肥料が入っています。", 
+     "name": "12月クリスタル", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "12月クリスタル", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "crystal11": {
     "config": {
      "goods_str": "モジフラワーの種と高級肥料が入っています。", 
@@ -68887,6 +68899,7 @@
   ], 
   "mystic_bags_sort": [
    "crystal10", 
+   "crystal13", 
    "crystal12", 
    "piece", 
    "hammer", 
