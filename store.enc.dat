@@ -36946,6 +36946,26 @@
      }, 
      "level_need": 30
     }, 
+    "f737_tacong": {
+     "total_time": 1230, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "やぐらねぎ", 
+     "base_fruit": 25, 
+     "fruit_time": 490, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 310, 
+     "experience": 6.31, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 5
+     }, 
+     "level_need": 1
+    }, 
     "f744_kexueguairennanguashu": {
      "total_time": 1250, 
      "leaflet_time": 130, 
@@ -52093,25 +52113,25 @@
      }, 
      "level_need": 0
     }, 
-    "lanzuanshu": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "f664_yunxiangaocai": {
+     "total_time": 1200, 
+     "leaflet_time": 120, 
      "used": false, 
-     "name": "青カード", 
-     "base_fruit": 1, 
-     "fruit_time": 360, 
+     "name": "雲仙コブ高菜", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "tuchan": true, 
      "sprout_time": 90, 
-     "introduce": "おめでとうございます。青カードを手に入れました。6種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
-     "increment_fruit": 0, 
-     "bloom_time": 330, 
-     "experience": 100, 
+     "bloom_time": 310, 
+     "experience": 6.1, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "leaf_time": 200, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 6
      }, 
-     "leaf_time": 330, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "f654_aizhiyanzihua": {
      "total_time": 960, 
@@ -53735,6 +53755,26 @@
      "seed_price": {
       "F_coin": 25
      }, 
+     "level_need": 0
+    }, 
+    "lanzuanshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "青カード", 
+     "base_fruit": 1, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。青カードを手に入れました。6種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 0, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "shuimitaoxiongmao": {
@@ -65467,6 +65507,7 @@
     "niuyouyumi", 
     "mojie", 
     "mojiezuodeshu", 
+    "f737_tacong", 
     "lanfurong", 
     "yumennangua", 
     "mofabaihe", 
@@ -66494,6 +66535,7 @@
     "xuediaodaxingxing", 
     "xuediaohuabao", 
     "jiagongchanglizi", 
+    "f664_yunxiangaocai", 
     "leimendenglong", 
     "f682_bingbaofeizaoshu", 
     "dianxiancao", 
