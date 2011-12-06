@@ -862,57 +862,111 @@
      }
     }
    }, 
-   "xuyuanlibao9": {
+   "shieryueniudanlibao": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 500
      }, 
      "used": false, 
-     "goods_str": "とうがん兄さん、もろこしさん、ホウライ人参、ぷっくりフラワー、にっこり茸の種各1個、高級肥料5個、高級飼料5個が含まれています。さっそく開けてみよう！", 
-     "name": "お願いセットd", 
-     "introduce": "とうがん兄さん、もろこしさん、ホウライ人参、ぷっくりフラワー、にっこり茸の種各1個、高級肥料5個、高級飼料5個が含まれています。さっそく開けてみよう！"
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産の気球の兎も入っているよ！さっそく開けてみよう！", 
+     "name": "コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産の気球の兎も入っているよ！さっそく開けてみよう！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "renshenyeye": [
+       "tianshanxuelian": [
         1, 
         1.0
        ], 
-       "dongguashuaige": [
+       "xuesongshu": [
         1, 
         1.0
        ], 
-       "sanduohua": [
+       "yingtao": [
+        4, 
+        1.0
+       ], 
+       "shengdanfenyueji": [
         1, 
         1.0
        ], 
-       "niuyouyumi": [
+       "shengdanliwushu": [
         1, 
         1.0
        ], 
-       "sansemogu": [
+       "shenqiginseng": [
+        1, 
+        1.0
+       ], 
+       "pingpo": [
+        1, 
+        1.0
+       ], 
+       "xinxingxigua": [
+        1, 
+        1.0
+       ], 
+       "lvronghao": [
+        1, 
+        1.0
+       ], 
+       "yutuhua": [
+        5, 
+        1.0
+       ], 
+       "yanhua": [
+        1, 
+        1.0
+       ], 
+       "baochunhua": [
+        1, 
+        1.0
+       ], 
+       "nirenboluo": [
+        1, 
+        1.0
+       ], 
+       "zhangyufengzheng": [
         1, 
         1.0
        ]
       }, 
       "properties": {
        "fertilizer": {
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "gaosu": [
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
         "gaoji": [
+         10, 
+         1.0
+        ], 
+        "zengshou": [
          5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
          1.0
         ]
        }
       }
      }, 
      "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         5, 
-         1.0
-        ]
-       }
+      "babies": {
+       "qiqiutuzi": [
+        1, 
+        1.0
+       ]
       }
      }
     }
@@ -2494,6 +2548,39 @@
      }
     }
    }, 
+   "faguolibao1": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "スイスのサクラの種2個、マジック肥料2個、初級肥料2個が含まれています。さっそく開けてみよう！", 
+     "name": "スイスセット", 
+     "introduce": "スイスのサクラの種2個、マジック肥料2個、初級肥料2個が含まれています。さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "ribenyinghua": [
+        2, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         2, 
+         1.0
+        ], 
+        "gaosu": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "fensebao1": {
     "config": {
      "price": {
@@ -3153,35 +3240,24 @@
      }
     }
    }, 
-   "faguolibao1": {
+   "putaobao": {
     "config": {
+     "used": true, 
+     "name": "アメシストのグレープセット", 
      "price": {
-      "F_coin": 30
+      "F_coin": 10
      }, 
-     "used": false, 
-     "goods_str": "スイスのサクラの種2個、マジック肥料2個、初級肥料2個が含まれています。さっそく開けてみよう！", 
-     "name": "スイスセット", 
-     "introduce": "スイスのサクラの種2個、マジック肥料2個、初級肥料2個が含まれています。さっそく開けてみよう！"
+     "introduce": "アメシストのグレープの種が10個入っています。", 
+     "state": "xin", 
+     "goods_str": "アメシストのグレープの種が10個入っています。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "ribenyinghua": [
-        2, 
+       "shuijingputao": [
+        10, 
         1.0
        ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         2, 
-         1.0
-        ], 
-        "gaosu": [
-         2, 
-         1.0
-        ]
-       }
       }
      }
     }
@@ -3575,28 +3651,6 @@
       "babies": {
        "shudaixiong": [
         1, 
-        1.0
-       ]
-      }
-     }
-    }
-   }, 
-   "putaobao": {
-    "config": {
-     "used": true, 
-     "name": "アメシストのグレープセット", 
-     "price": {
-      "F_coin": 10
-     }, 
-     "introduce": "アメシストのグレープの種が10個入っています。", 
-     "state": "xin", 
-     "goods_str": "アメシストのグレープの種が10個入っています。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "shuijingputao": [
-        10, 
         1.0
        ]
       }
@@ -4982,6 +5036,61 @@
         1, 
         1.0
        ]
+      }
+     }
+    }
+   }, 
+   "xuyuanlibao9": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "とうがん兄さん、もろこしさん、ホウライ人参、ぷっくりフラワー、にっこり茸の種各1個、高級肥料5個、高級飼料5個が含まれています。さっそく開けてみよう！", 
+     "name": "お願いセットd", 
+     "introduce": "とうがん兄さん、もろこしさん、ホウライ人参、ぷっくりフラワー、にっこり茸の種各1個、高級肥料5個、高級飼料5個が含まれています。さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "renshenyeye": [
+        1, 
+        1.0
+       ], 
+       "dongguashuaige": [
+        1, 
+        1.0
+       ], 
+       "sanduohua": [
+        1, 
+        1.0
+       ], 
+       "niuyouyumi": [
+        1, 
+        1.0
+       ], 
+       "sansemogu": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         5, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -69024,6 +69133,7 @@
    "diaoyu7libaolv6", 
    "beijinglibao", 
    "guoqinglibao", 
+   "juice_nanguazhi_gift", 
    "juice_huluobosu_gift", 
    "gaojisiliaobao", 
    "crops_tianyuanji_gift", 
@@ -69064,6 +69174,7 @@
    "yidalilibao", 
    "crops_youlicishen_gift", 
    "crops_naiyou_gift", 
+   "faguolibao1", 
    "fensebao1", 
    "crops_tilamisu_gift", 
    "niudanlipinbao", 
@@ -69074,7 +69185,6 @@
    "gb_10", 
    "gb_12", 
    "fenbao3", 
-   "faguolibao1", 
    "dongwu_1", 
    "faguolibao", 
    "crops_zhugunongtangmian_gift", 
@@ -69098,7 +69208,7 @@
    "laohujizhongzibao", 
    "diaoyu7libaofen2", 
    "crops_zhishimianbaogan_gift", 
-   "juice_nanguazhi_gift", 
+   "shieryueniudanlibao", 
    "crops_mitao_gift", 
    "crops_tudoudunzhurou_gift", 
    "libaofenxin", 
