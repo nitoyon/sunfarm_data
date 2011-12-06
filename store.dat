@@ -28211,6 +28211,25 @@
      }, 
      "level_need": 0
     }, 
+    "helanju": {
+     "total_time": 810, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "\u30aa\u30e9\u30f3\u30c0\u30c1\u30e5", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "level_need": 1
+    }, 
     "guihunshu": {
      "total_time": 870, 
      "leaflet_time": 90, 
@@ -28732,22 +28751,23 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "helanju": {
-     "total_time": 810, 
-     "leaflet_time": 120, 
+    "f690_xuecai": {
+     "total_time": 1230, 
+     "leaflet_time": 160, 
      "used": false, 
-     "name": "\u30aa\u30e9\u30f3\u30c0\u30c1\u30e5", 
+     "name": "\u96ea\u83dc", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
+     "fruit_time": 490, 
+     "tuchan": true, 
      "sprout_time": 90, 
-     "bloom_time": 150, 
-     "experience": 5, 
+     "bloom_time": 310, 
+     "experience": 6.31, 
      "seasons": 1, 
-     "sale_price": 9, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 5
      }, 
      "level_need": 1
     }, 
@@ -66891,6 +66911,7 @@
     "xuediaodaxingxing", 
     "xuediaohuabao", 
     "jiagongchanglizi", 
+    "f690_xuecai", 
     "f664_yunxiangaocai", 
     "leimendenglong", 
     "f682_bingbaofeizaoshu", 
