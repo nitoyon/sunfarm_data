@@ -23601,6 +23601,26 @@
      }, 
      "level_need": 0
     }, 
+    "hongzuanshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "赤カード", 
+     "base_fruit": 1, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。赤カードを手に入れました。6種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 0, 
+     "bloom_time": 330, 
+     "experience": 100, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "zhusunxiaoyao": {
      "total_time": 870, 
      "leaflet_time": 90, 
@@ -29696,6 +29716,25 @@
      }, 
      "level_need": 1
     }, 
+    "caopimilu": {
+     "total_time": 750, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "トナカイのうえき", 
+     "base_fruit": 25, 
+     "fruit_time": 270, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 0
+    }, 
     "f648_qiyuxiankelai": {
      "total_time": 960, 
      "leaflet_time": 150, 
@@ -30100,25 +30139,24 @@
      }, 
      "level_need": 1
     }, 
-    "hongzuanshu": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "caopisongshu": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
      "used": false, 
-     "name": "赤カード", 
-     "base_fruit": 1, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。赤カードを手に入れました。6種のカードを集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
-     "increment_fruit": 0, 
-     "bloom_time": 330, 
-     "experience": 100, 
+     "name": "リスのうえき", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
      "seasons": 1, 
-     "sale_price": 15, 
-     "seed_price": {
-      "F_coin": 50
-     }, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
      "leaf_time": 330, 
-     "level_need": 0
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
     }, 
     "jindaihua": {
      "total_time": 1440, 
@@ -49386,6 +49424,25 @@
      }, 
      "level_need": 1
     }, 
+    "caopixiaomao": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "こねこのうえき", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "shengdanwu": {
      "total_time": 1200, 
      "leaflet_time": 90, 
@@ -56576,6 +56633,25 @@
      }, 
      "level_need": 1
     }, 
+    "caopixiaozhu": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "こぶたのうえき", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "hanbao": {
      "total_time": 1615, 
      "leaflet_time": 227, 
@@ -59432,6 +59508,25 @@
       "gold": 224
      }, 
      "level_need": 12
+    }, 
+    "caopixiaolu": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "しかのうえき", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
     }, 
     "ziseji": {
      "total_time": 1710, 
@@ -62459,6 +62554,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 1
+     }, 
+     "level_need": 1
+    }, 
+    "caopixiaoxiong": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "くまのうえき", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
      }, 
      "level_need": 1
     }, 
@@ -65584,6 +65698,7 @@
     "shengdanjieshu", 
     "emozhixin", 
     "caichunfeng", 
+    "caopimilu", 
     "wutou", 
     "tuerqijiegeng", 
     "nanmogu", 
@@ -65976,6 +66091,7 @@
     "gecong", 
     "qiexibiaoqing", 
     "maorongxiong", 
+    "caopixiaoxiong", 
     "yuncaimianhuatang", 
     "zhenzichong", 
     "maorongkonglong", 
@@ -65983,12 +66099,15 @@
     "yumichong", 
     "jitou", 
     "juemingzi", 
+    "caopixiaomao", 
+    "caopixiaozhu", 
     "kulushizi", 
     "qinqinbiaoqing", 
     "tianxie", 
     "tianxiezuodeshu", 
     "nvhaijiehou", 
     "shiliuhua", 
+    "caopixiaolu", 
     "shizi", 
     "zisux", 
     "linglan", 
@@ -66722,6 +66841,7 @@
     "mofaxunyicao", 
     "xunyicaotian", 
     "lajiaoyou", 
+    "caopisongshu", 
     "boheshui", 
     "jiutouniao", 
     "hudiejiemogu", 
