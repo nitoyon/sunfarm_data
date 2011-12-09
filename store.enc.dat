@@ -27720,6 +27720,26 @@
      }, 
      "level_need": 1
     }, 
+    "f727_fangxiangqingpinangua": {
+     "total_time": 1230, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "芳香青皮甘栗南瓜", 
+     "base_fruit": 25, 
+     "fruit_time": 490, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 310, 
+     "experience": 6.61, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 5
+     }, 
+     "level_need": 1
+    }, 
     "oushinanhuang": {
      "total_time": 1080, 
      "leaflet_time": 90, 
@@ -30601,6 +30621,26 @@
      }, 
      "leaf_time": 243, 
      "level_need": 0
+    }, 
+    "f697_zhahuangdaqiu": {
+     "total_time": 1200, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "札幌大球", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 310, 
+     "experience": 6.3, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 200, 
+     "seed_price": {
+      "F_coin": 6
+     }, 
+     "level_need": 1
     }, 
     "jingjiehua": {
      "total_time": 1065, 
@@ -33860,20 +33900,20 @@
      }, 
      "level_need": 30
     }, 
-    "tianxie": {
-     "total_time": 1380, 
-     "leaflet_time": 180, 
+    "hudiehuaxin": {
+     "total_time": 1200, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "さそり座", 
+     "name": "コチョウラン", 
      "base_fruit": 25, 
-     "fruit_time": 450, 
-     "sprout_time": 150, 
-     "bloom_time": 300, 
-     "experience": 13.5, 
+     "fruit_time": 420, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
-     "leaf_time": 300, 
+     "leaf_time": 210, 
      "seed_price": {
       "F_coin": 25
      }, 
@@ -59992,20 +60032,20 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "hudiehuaxin": {
-     "total_time": 1200, 
-     "leaflet_time": 150, 
+    "ribenyinghua": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "コチョウラン", 
+     "name": "スイスのサクラ", 
      "base_fruit": 25, 
-     "fruit_time": 420, 
-     "sprout_time": 90, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
      "bloom_time": 330, 
-     "experience": 10, 
+     "experience": 8.33, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 9, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 180, 
      "seed_price": {
       "F_coin": 25
      }, 
@@ -62208,22 +62248,22 @@
      }, 
      "level_need": 61
     }, 
-    "ribenyinghua": {
-     "total_time": 1020, 
-     "leaflet_time": 60, 
+    "jiagongchanglizi": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "スイスのサクラ", 
+     "name": "雪結晶の栗", 
      "base_fruit": 25, 
      "fruit_time": 390, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 8.33, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 2800, 
      "seasons": 1, 
-     "sale_price": 9, 
-     "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "sale_price": 15, 
+     "increment_fruit": 0, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 30
      }, 
      "level_need": 1
     }, 
@@ -65128,6 +65168,25 @@
      }, 
      "level_need": 0
     }, 
+    "tianxie": {
+     "total_time": 1380, 
+     "leaflet_time": 180, 
+     "used": false, 
+     "name": "さそり座", 
+     "base_fruit": 25, 
+     "fruit_time": 450, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 13.5, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 300, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "baimeigui": {
      "total_time": 870, 
      "leaflet_time": 150, 
@@ -65225,25 +65284,6 @@
      }, 
      "leaf_time": 60, 
      "level_need": 0
-    }, 
-    "jiagongchanglizi": {
-     "total_time": 870, 
-     "leaflet_time": 90, 
-     "used": false, 
-     "name": "雪結晶の栗", 
-     "base_fruit": 25, 
-     "fruit_time": 390, 
-     "sprout_time": 30, 
-     "bloom_time": 210, 
-     "experience": 2800, 
-     "seasons": 1, 
-     "sale_price": 15, 
-     "increment_fruit": 0, 
-     "leaf_time": 150, 
-     "seed_price": {
-      "F_coin": 30
-     }, 
-     "level_need": 1
     }, 
     "f724_shengsuan": {
      "total_time": 1250, 
@@ -67273,6 +67313,7 @@
     "youlezhaicha", 
     "shuxiaoyao", 
     "bingganmuma", 
+    "f697_zhahuangdaqiu", 
     "f650_dongjingyumi", 
     "pengzaisong", 
     "penzaisong", 
@@ -67370,6 +67411,7 @@
     "huaduohuateng", 
     "huasui", 
     "huazhushu", 
+    "f727_fangxiangqingpinangua", 
     "nirenzhiwu1", 
     "f734_yajuanxincai", 
     "chaguozi", 
