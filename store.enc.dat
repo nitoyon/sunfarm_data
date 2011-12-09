@@ -1236,7 +1236,7 @@
    }, 
    "dongrilibao": {
     "config": {
-     "used": false, 
+     "used": true, 
      "name": "冬のお買い得セット", 
      "price": {
       "F_coin": 730
@@ -23097,30 +23097,30 @@
     "start_time": 1323324000.0, 
     "activity_type": "discount"
    }, 
-   "gaoji": {
+   "dongrilibao": {
     "original_price": {
-     "num": 6, 
+     "num": 1380, 
      "type": "F_coin"
     }, 
+    "goods_str": "冬の大特価セール！中には580Kコイン分の種と畜産の可愛い動物も入っているよ！。さらに800Kコインのアイテムをプレゼント。　種：スリーカラーのバラ×4  魔法のビレイア×4       魔法の君の願い×4       千歳飴×4     ローズちゃん×5　　チョコちゃん×5　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×12    ウルトラ肥料×8.", 
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "高級肥料", 
+    "name": "冬のお買い得セット", 
     "price": {
-     "num": 4, 
+     "num": 730, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "8日", 
-    "end_time": 1323417600.0, 
-    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1322726400.0, 
+    "limit_time": "7日", 
+    "end_time": 1324022400.0, 
+    "goods_description": "冬の大特価セール！中には580Kコイン分の種と畜産の可愛い動物も入っているよ！。さらに800Kコインのアイテムをプレゼント。　種：スリーカラーのバラ×4  魔法のビレイア×4       魔法の君の願い×4       千歳飴×4     ローズちゃん×5　　チョコちゃん×5　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×12    ウルトラ肥料×8.", 
+    "start_time": 1323417600.0, 
     "activity_type": "hot_sale"
    }, 
-   "muouyiji": {
+   "muouwushi": {
     "original_price": {
      "num": 35, 
      "type": "F_coin"
@@ -23130,7 +23130,7 @@
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "舞妓人形", 
+    "name": "侍人形", 
     "price": {
      "num": 25, 
      "type": "F_coin"
@@ -23184,7 +23184,7 @@
     "start_time": 1323324000.0, 
     "activity_type": "discount"
    }, 
-   "muouwushi": {
+   "muouyiji": {
     "original_price": {
      "num": 35, 
      "type": "F_coin"
@@ -23194,7 +23194,7 @@
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "侍人形", 
+    "name": "舞妓人形", 
     "price": {
      "num": 25, 
      "type": "F_coin"
