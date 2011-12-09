@@ -1236,7 +1236,7 @@
    }, 
    "dongrilibao": {
     "config": {
-     "used": false, 
+     "used": true, 
      "name": "\u51ac\u306e\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8", 
      "price": {
       "F_coin": 730
@@ -23097,30 +23097,30 @@
     "start_time": 1323324000.0, 
     "activity_type": "discount"
    }, 
-   "gaoji": {
+   "dongrilibao": {
     "original_price": {
-     "num": 6, 
+     "num": 1380, 
      "type": "F_coin"
     }, 
+    "goods_str": "\u51ac\u306e\u5927\u7279\u4fa1\u30bb\u30fc\u30eb\uff01\u4e2d\u306b\u306f580K\u30b3\u30a4\u30f3\u5206\u306e\u7a2e\u3068\u755c\u7523\u306e\u53ef\u611b\u3044\u52d5\u7269\u3082\u5165\u3063\u3066\u3044\u308b\u3088\uff01\u3002\u3055\u3089\u306b800K\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3002\u3000\u7a2e\uff1a\u30b9\u30ea\u30fc\u30ab\u30e9\u30fc\u306e\u30d0\u30e9\u00d74  \u9b54\u6cd5\u306e\u30d3\u30ec\u30a4\u30a2\u00d74       \u9b54\u6cd5\u306e\u541b\u306e\u9858\u3044\u00d74       \u5343\u6b73\u98f4\u00d74     \u30ed\u30fc\u30ba\u3061\u3083\u3093\u00d75\u3000\u3000\u30c1\u30e7\u30b3\u3061\u3083\u3093\u00d75\u3000\u3000\u30a2\u30a4\u30c6\u30e0\uff1a\u521d\u7d1a\u80a5\u6599\u00d735      \u4e2d\u7d1a\u80a5\u6599\u00d735      \u9ad8\u7d1a\u80a5\u6599\u00d735      \u30de\u30b8\u30c3\u30af\u80a5\u6599\u00d735    \u5897\u7523\u80a5\u6599\u00d725      \u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u00d712    \u30a6\u30eb\u30c8\u30e9\u80a5\u6599\u00d78.", 
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "\u9ad8\u7d1a\u80a5\u6599", 
+    "name": "\u51ac\u306e\u304a\u8cb7\u3044\u5f97\u30bb\u30c3\u30c8", 
     "price": {
-     "num": 4, 
+     "num": 730, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "8\u65e5", 
-    "end_time": 1323417600.0, 
-    "goods_description": "\u4f7f\u3046\u3068\u4f5c\u7269\u306e\u6210\u719f\u6642\u9593\u30925.5\u6642\u9593\u77ed\u7e2e\u3067\u304d\u307e\u3059\u3002\u80a5\u6599\u306e\u52b9\u679c\u306f\u6b21\u306e\u6bb5\u968e\u3078\u6301\u3061\u8d8a\u3059\u3053\u3068\u306f\u3067\u304d\u307e\u305b\u3093\u3002", 
-    "start_time": 1322726400.0, 
+    "limit_time": "7\u65e5", 
+    "end_time": 1324022400.0, 
+    "goods_description": "\u51ac\u306e\u5927\u7279\u4fa1\u30bb\u30fc\u30eb\uff01\u4e2d\u306b\u306f580K\u30b3\u30a4\u30f3\u5206\u306e\u7a2e\u3068\u755c\u7523\u306e\u53ef\u611b\u3044\u52d5\u7269\u3082\u5165\u3063\u3066\u3044\u308b\u3088\uff01\u3002\u3055\u3089\u306b800K\u30b3\u30a4\u30f3\u306e\u30a2\u30a4\u30c6\u30e0\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\u3002\u3000\u7a2e\uff1a\u30b9\u30ea\u30fc\u30ab\u30e9\u30fc\u306e\u30d0\u30e9\u00d74  \u9b54\u6cd5\u306e\u30d3\u30ec\u30a4\u30a2\u00d74       \u9b54\u6cd5\u306e\u541b\u306e\u9858\u3044\u00d74       \u5343\u6b73\u98f4\u00d74     \u30ed\u30fc\u30ba\u3061\u3083\u3093\u00d75\u3000\u3000\u30c1\u30e7\u30b3\u3061\u3083\u3093\u00d75\u3000\u3000\u30a2\u30a4\u30c6\u30e0\uff1a\u521d\u7d1a\u80a5\u6599\u00d735      \u4e2d\u7d1a\u80a5\u6599\u00d735      \u9ad8\u7d1a\u80a5\u6599\u00d735      \u30de\u30b8\u30c3\u30af\u80a5\u6599\u00d735    \u5897\u7523\u80a5\u6599\u00d725      \u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u00d712    \u30a6\u30eb\u30c8\u30e9\u80a5\u6599\u00d78.", 
+    "start_time": 1323417600.0, 
     "activity_type": "hot_sale"
    }, 
-   "muouyiji": {
+   "muouwushi": {
     "original_price": {
      "num": 35, 
      "type": "F_coin"
@@ -23130,7 +23130,7 @@
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "\u821e\u5993\u4eba\u5f62", 
+    "name": "\u4f8d\u4eba\u5f62", 
     "price": {
      "num": 25, 
      "type": "F_coin"
@@ -23184,7 +23184,7 @@
     "start_time": 1323324000.0, 
     "activity_type": "discount"
    }, 
-   "muouwushi": {
+   "muouyiji": {
     "original_price": {
      "num": 35, 
      "type": "F_coin"
@@ -23194,7 +23194,7 @@
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
-    "name": "\u4f8d\u4eba\u5f62", 
+    "name": "\u821e\u5993\u4eba\u5f62", 
     "price": {
      "num": 25, 
      "type": "F_coin"
