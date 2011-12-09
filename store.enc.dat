@@ -1234,35 +1234,80 @@
      }
     }
    }, 
-   "xuyuanlibao5": {
+   "dongrilibao": {
     "config": {
-     "price": {
-      "F_coin": 30
-     }, 
      "used": false, 
-     "goods_str": "すとれちあの種5個、ミニマジック肥料2個、マジック肥料2個が含まれています。さっそく開けてみよう！", 
-     "name": "賞品e", 
-     "introduce": "すとれちあの種5個、ミニマジック肥料2個、マジック肥料2個が含まれています。さっそく開けてみよう！"
+     "name": "冬のお買い得セット", 
+     "price": {
+      "F_coin": 730
+     }, 
+     "introduce": "冬の大特価セール！中には580Kコイン分の種と畜産の可愛い動物も入っているよ！。さらに800Kコインのアイテムをプレゼント。　種：スリーカラーのバラ×4  魔法のビレイア×4       魔法の君の願い×4       千歳飴×4     ローズちゃん×5　　チョコちゃん×5　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×12    ウルトラ肥料×8.", 
+     "state": "re", 
+     "goods_str": "冬の大特価セール！中には580Kコイン分の種と畜産の可愛い動物も入っているよ！。さらに800Kコインのアイテムをプレゼント。　種：スリーカラーのバラ×4  魔法のビレイア×4       魔法の君の願い×4       千歳飴×4     ローズちゃん×5　　チョコちゃん×5　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×12    ウルトラ肥料×8."
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "tiantangniao": [
-        5, 
+       "mhxy": [
+        4, 
+        1.0
+       ], 
+       "hongbailanmeigui": [
+        4, 
+        1.0
+       ], 
+       "yaredaidujuan": [
+        4, 
+        1.0
+       ], 
+       "qiansuitang": [
+        4, 
         1.0
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "xunjie": [
-         2, 
+        "zengshou1": [
+         12, 
          1.0
         ], 
-        "xunjie1": [
-         2, 
+        "gaosu": [
+         35, 
+         1.0
+        ], 
+        "jisu": [
+         35, 
+         1.0
+        ], 
+        "gaoji": [
+         35, 
+         1.0
+        ], 
+        "test": [
+         8, 
+         1.0
+        ], 
+        "zengshou": [
+         25, 
+         1.0
+        ], 
+        "xunjie": [
+         35, 
          1.0
         ]
        }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "qiaokelibaobao": [
+        5, 
+        1.0
+       ], 
+       "meiguibaobao": [
+        5, 
+        1.0
+       ]
       }
      }
     }
@@ -2429,39 +2474,119 @@
      }
     }
    }, 
-   "yidalilibao": {
+   "judazhiwulibao": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 500
      }, 
      "used": false, 
-     "goods_str": "雛菊の種2個、初級肥料2個、中級肥料2個、高級肥料2個が含まれています。さっそく開けてみよう！", 
-     "name": "イタリアセット", 
-     "introduce": "雛菊の種2個、初級肥料2個、中級肥料2個、高級肥料2個が含まれています。さっそく開けてみよう！"
+     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産の気球の豚も入っているよ！さっそく開けてみよう！", 
+     "name": "コンププレゼント", 
+     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産の気球の豚も入っているよ！さっそく開けてみよう！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "yidalichuju": [
-        2, 
+       "baiqiangwei": [
+        1, 
+        1.0
+       ], 
+       "tianshanxuelian": [
+        1, 
+        1.0
+       ], 
+       "xuesongshu": [
+        1, 
+        1.0
+       ], 
+       "yingtao": [
+        4, 
+        1.0
+       ], 
+       "mayingdan": [
+        1, 
+        1.0
+       ], 
+       "shenqiginseng": [
+        1, 
+        1.0
+       ], 
+       "changchunhua": [
+        1, 
+        1.0
+       ], 
+       "oushinan": [
+        1, 
+        1.0
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        1.0
+       ], 
+       "zezhenzhucai": [
+        1, 
+        1.0
+       ], 
+       "yutuhua": [
+        5, 
+        1.0
+       ], 
+       "fenmeigui": [
+        1, 
+        1.0
+       ], 
+       "nirenboluo": [
+        1, 
+        1.0
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        1.0
+       ], 
+       "baochunhua": [
+        1, 
         1.0
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "jisu": [
-         2, 
-         1.0
-        ], 
-        "gaoji": [
-         2, 
+        "zengshou1": [
+         3, 
          1.0
         ], 
         "gaosu": [
-         2, 
+         10, 
+         1.0
+        ], 
+        "jisu": [
+         10, 
+         1.0
+        ], 
+        "gaoji": [
+         10, 
+         1.0
+        ], 
+        "zengshou": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         10, 
          1.0
         ]
        }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "qiqiuzhu": [
+        1, 
+        1.0
+       ], 
+       "qiqiuniu": [
+        1, 
+        1.0
+       ]
       }
      }
     }
@@ -4468,6 +4593,62 @@
      }
     }
    }, 
+   "chaojilibao": {
+    "config": {
+     "used": false, 
+     "name": "クリスマスギフトセット", 
+     "price": {
+      "F_coin": 10
+     }, 
+     "introduce": "クリスマスサービスセット、Ｋコイン10個でＫコイン50個にあたる飼料、花の種、非発売品の動物などアイテムをゲット、一名様3個まで、イベント期間限定。", 
+     "goods_str": "クリスマスサービスセット、Ｋコイン10個でＫコイン50個にあたる飼料、花の種、非発売品の動物などアイテムをゲット、一名様3個まで、イベント期間限定。", 
+     "end_time": "2010-12-24 23:59:59", 
+     "begin_time": "2010-08-04 18:00:00", 
+     "max_num": 3
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "bailu": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         1.0
+        ], 
+        "gaoji": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu": [
+         1, 
+         1.0
+        ], 
+        "gaosu": [
+         1, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "quail": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "lasalibao": {
     "config": {
      "price": {
@@ -5209,119 +5390,39 @@
      }
     }
    }, 
-   "judazhiwulibao": {
+   "yidalilibao": {
     "config": {
      "price": {
-      "F_coin": 500
+      "F_coin": 30
      }, 
      "used": false, 
-     "goods_str": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産の気球の豚も入っているよ！さっそく開けてみよう！", 
-     "name": "コンププレゼント", 
-     "introduce": "全種コンプリートおめでとう、500Kコイン相当のアイテムが含まれています。畜産の気球の豚も入っているよ！さっそく開けてみよう！"
+     "goods_str": "雛菊の種2個、初級肥料2個、中級肥料2個、高級肥料2個が含まれています。さっそく開けてみよう！", 
+     "name": "イタリアセット", 
+     "introduce": "雛菊の種2個、初級肥料2個、中級肥料2個、高級肥料2個が含まれています。さっそく開けてみよう！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "baiqiangwei": [
-        1, 
-        1.0
-       ], 
-       "tianshanxuelian": [
-        1, 
-        1.0
-       ], 
-       "xuesongshu": [
-        1, 
-        1.0
-       ], 
-       "yingtao": [
-        4, 
-        1.0
-       ], 
-       "mayingdan": [
-        1, 
-        1.0
-       ], 
-       "shenqiginseng": [
-        1, 
-        1.0
-       ], 
-       "changchunhua": [
-        1, 
-        1.0
-       ], 
-       "oushinan": [
-        1, 
-        1.0
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        1.0
-       ], 
-       "zezhenzhucai": [
-        1, 
-        1.0
-       ], 
-       "yutuhua": [
-        5, 
-        1.0
-       ], 
-       "fenmeigui": [
-        1, 
-        1.0
-       ], 
-       "nirenboluo": [
-        1, 
-        1.0
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        1.0
-       ], 
-       "baochunhua": [
-        1, 
+       "yidalichuju": [
+        2, 
         1.0
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "zengshou1": [
-         3, 
-         1.0
-        ], 
-        "gaosu": [
-         10, 
-         1.0
-        ], 
         "jisu": [
-         10, 
+         2, 
          1.0
         ], 
         "gaoji": [
-         10, 
+         2, 
          1.0
         ], 
-        "zengshou": [
-         5, 
-         1.0
-        ], 
-        "xunjie": [
-         10, 
+        "gaosu": [
+         2, 
          1.0
         ]
        }
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "qiqiuzhu": [
-        1, 
-        1.0
-       ], 
-       "qiqiuniu": [
-        1, 
-        1.0
-       ]
       }
      }
     }
@@ -6039,58 +6140,35 @@
      }
     }
    }, 
-   "chaojilibao": {
+   "xuyuanlibao5": {
     "config": {
-     "used": false, 
-     "name": "クリスマスギフトセット", 
      "price": {
-      "F_coin": 10
+      "F_coin": 30
      }, 
-     "introduce": "クリスマスサービスセット、Ｋコイン10個でＫコイン50個にあたる飼料、花の種、非発売品の動物などアイテムをゲット、一名様3個まで、イベント期間限定。", 
-     "goods_str": "クリスマスサービスセット、Ｋコイン10個でＫコイン50個にあたる飼料、花の種、非発売品の動物などアイテムをゲット、一名様3個まで、イベント期間限定。", 
-     "end_time": "2010-12-24 23:59:59", 
-     "begin_time": "2010-08-04 18:00:00", 
-     "max_num": 3
+     "used": false, 
+     "goods_str": "すとれちあの種5個、ミニマジック肥料2個、マジック肥料2個が含まれています。さっそく開けてみよう！", 
+     "name": "賞品e", 
+     "introduce": "すとれちあの種5個、ミニマジック肥料2個、マジック肥料2個が含まれています。さっそく開けてみよう！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "bailu": [
-        1, 
+       "tiantangniao": [
+        5, 
         1.0
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "jisu": [
-         1, 
+        "xunjie": [
+         2, 
          1.0
         ], 
-        "gaoji": [
-         1, 
+        "xunjie1": [
+         2, 
          1.0
         ]
        }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "jisu": [
-         1, 
-         1.0
-        ], 
-        "gaosu": [
-         1, 
-         1.0
-        ]
-       }
-      }, 
-      "babies": {
-       "quail": [
-        1, 
-        1.0
-       ]
       }
      }
     }
@@ -25303,6 +25381,25 @@
      }, 
      "level_need": 1
     }, 
+    "shishucailan": {
+     "total_time": 750, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "野菜のバスケット", 
+     "base_fruit": 25, 
+     "fruit_time": 270, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 16, 
+     "seasons": 1, 
+     "sale_price": 18, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 90
+     }, 
+     "level_need": 1
+    }, 
     "lan": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -37115,6 +37212,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "qiezicailan": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "茄子のバスケット", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 6.67, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
+     "level_need": 1
+    }, 
     "duohuasuxin": {
      "total_time": 1260, 
      "leaflet_time": 150, 
@@ -42797,6 +42913,25 @@
      "leaf_time": 200, 
      "seed_price": {
       "F_coin": 6
+     }, 
+     "level_need": 1
+    }, 
+    "xihongshicailan": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "トマトのバスケット", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 7.57, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 30
      }, 
      "level_need": 1
     }, 
@@ -52400,6 +52535,25 @@
      }, 
      "level_need": 1
     }, 
+    "yumicailan": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "トウモロコシのバスケット", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 6.22, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
+     "level_need": 1
+    }, 
     "shengdanoushinan": {
      "total_time": 715, 
      "leaflet_time": 60, 
@@ -57524,6 +57678,25 @@
      }, 
      "level_need": 1
     }, 
+    "dasuancailan": {
+     "total_time": 810, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ニンニクのバスケット", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 7.89, 
+     "seasons": 1, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 90
+     }, 
+     "level_need": 1
+    }, 
     "orange": {
      "total_time": 2793, 
      "leaflet_time": 557, 
@@ -58187,6 +58360,25 @@
      "leaf_time": 624, 
      "seed_price": {
       "F_coin": 99999
+     }, 
+     "level_need": 1
+    }, 
+    "huangguacailan": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "キュウリのバスケット", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 6.96, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 30
      }, 
      "level_need": 1
     }, 
@@ -66651,6 +66843,7 @@
     "xiangshuimao", 
     "bayinhe6", 
     "jianqiuluohuashu", 
+    "huangguacailan", 
     "jiazhutao", 
     "liangjingjingshu", 
     "jingucao", 
@@ -66837,6 +67030,7 @@
     "f748_moguinanguashu", 
     "cuiquehuashu", 
     "hanguomujinhua", 
+    "yumicailan", 
     "mofayumi", 
     "lishuo", 
     "huojix", 
@@ -66844,6 +67038,7 @@
     "qiyeshu", 
     "duzhong", 
     "xihongshicaomei", 
+    "xihongshicailan", 
     "xihongshixiaoyao", 
     "sanseshenxian", 
     "deguoguoqishu", 
@@ -66859,6 +67054,7 @@
     "zhenzi", 
     "nanyangshan", 
     "jingzhibuouyangzi", 
+    "dasuancailan", 
     "xiaomaoshu", 
     "chabeimao", 
     "maoliu", 
@@ -67414,6 +67610,7 @@
     "f727_fangxiangqingpinangua", 
     "nirenzhiwu1", 
     "f734_yajuanxincai", 
+    "qiezicailan", 
     "chaguozi", 
     "kuihuadaji", 
     "lu", 
@@ -67450,6 +67647,7 @@
     "shanghuajiu", 
     "f725_yezecai", 
     "partyshengyan", 
+    "shishucailan", 
     "shucailanzi", 
     "jinpaishu", 
     "jingesiyangzi", 
@@ -69815,6 +70013,7 @@
    "huafeibao2", 
    "huafeibao1", 
    "zhounianbao4", 
+   "dongrilibao", 
    "chaozhilibao", 
    "guoqibao", 
    "zhongzibao", 
@@ -69844,12 +70043,12 @@
    "gaojisiliaobao", 
    "crops_tianyuanji_gift", 
    "yidalilibao1", 
+   "gb_2", 
    "crops_xilengniupai_gift", 
    "fuhuoniudanbao", 
    "lanbao1", 
    "diaoyu7libao", 
    "crops_xiangkaoyangpai_gift", 
-   "gb_2", 
    "qiufenhualibao", 
    "gb_3", 
    "crops_qiukuishala_gift", 
@@ -69877,7 +70076,7 @@
    "yuetulibao", 
    "libaolanxin", 
    "deguolibao", 
-   "yidalilibao", 
+   "judazhiwulibao", 
    "crops_youlicishen_gift", 
    "crops_naiyou_gift", 
    "faguolibao1", 
@@ -69956,7 +70155,7 @@
    "lvsebao3", 
    "crops_shuiguojiang_gift", 
    "xingaoji0", 
-   "judazhiwulibao", 
+   "yidalilibao", 
    "crops_ganlanyou_gift", 
    "libaozi3", 
    "libaolan5", 
