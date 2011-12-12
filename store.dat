@@ -23016,24 +23016,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "crystal13": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "12\u6708\u30af\u30ea\u30b9\u30bf\u30eb", 
-    "start_time": 1323046800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6\u65e58\u6642\u9593", 
-    "end_time": 1323594000.0, 
-    "goods_description": "12\u6708\u30af\u30ea\u30b9\u30bf\u30eb", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "muounvhai": {
     "original_price": {
      "num": 35, 
@@ -23056,6 +23038,29 @@
     "goods_description": "", 
     "start_time": 1323324000.0, 
     "activity_type": "discount"
+   }, 
+   "month_day": {
+    "original_price": {
+     "num": 150, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "vip_card"
+    }, 
+    "name": "\u4f1a\u54e1\u30ab\u30fc\u30c9", 
+    "price": {
+     "num": 120, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7\u65e5", 
+    "end_time": 1324281600.0, 
+    "goods_description": "\u4f1a\u54e1\u30ab\u30fc\u30c9", 
+    "start_time": 1323676800.0, 
+    "activity_type": "hot_sale"
    }, 
    "fengchehuabaoxiang": {
     "specific_type": "xin", 
@@ -23118,6 +23123,28 @@
     "start_time": 1323417600.0, 
     "activity_type": "hot_sale"
    }, 
+   "shenqijindaihua": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "\u9b54\u6cd5\u306e\u30d0\u30ea\u30a8\u30ac\u30fc\u30bf", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7\u65e5", 
+    "end_time": 1324281600.0, 
+    "goods_description": "\u9b54\u6cd5\u306e\u30d0\u30ea\u30a8\u30ac\u30fc\u30bf", 
+    "start_time": 1323676800.0, 
+    "activity_type": "hot_sale"
+   }, 
    "muouwushi": {
     "original_price": {
      "num": 35, 
@@ -23140,24 +23167,6 @@
     "goods_description": "", 
     "start_time": 1323324000.0, 
     "activity_type": "discount"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "\u30cf\u30f3\u30de\u30fc", 
-    "start_time": 1323046800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6\u65e58\u6642\u9593", 
-    "end_time": 1323594000.0, 
-    "goods_description": "\u30af\u30ea\u30b9\u30bf\u30eb\u3092\u958b\u3051\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "muourenzhe": {
     "original_price": {
@@ -68186,7 +68195,7 @@
     "vip_card": {
      "month_day": {
       "price": {
-       "F_coin": 150
+       "F_coin": 120
       }, 
       "used": true, 
       "name": "\u4f1a\u54e1\u30ab\u30fc\u30c9", 
