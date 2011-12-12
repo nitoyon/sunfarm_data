@@ -23016,24 +23016,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "crystal13": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "12月クリスタル", 
-    "start_time": 1323046800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日8時間", 
-    "end_time": 1323594000.0, 
-    "goods_description": "12月クリスタル", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "muounvhai": {
     "original_price": {
      "num": 35, 
@@ -23056,6 +23038,29 @@
     "goods_description": "", 
     "start_time": 1323324000.0, 
     "activity_type": "discount"
+   }, 
+   "month_day": {
+    "original_price": {
+     "num": 150, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "vip_card"
+    }, 
+    "name": "会員カード", 
+    "price": {
+     "num": 120, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1324281600.0, 
+    "goods_description": "会員カード", 
+    "start_time": 1323676800.0, 
+    "activity_type": "hot_sale"
    }, 
    "fengchehuabaoxiang": {
     "specific_type": "xin", 
@@ -23118,6 +23123,28 @@
     "start_time": 1323417600.0, 
     "activity_type": "hot_sale"
    }, 
+   "shenqijindaihua": {
+    "original_price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "魔法のバリエガータ", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1324281600.0, 
+    "goods_description": "魔法のバリエガータ", 
+    "start_time": 1323676800.0, 
+    "activity_type": "hot_sale"
+   }, 
    "muouwushi": {
     "original_price": {
      "num": 35, 
@@ -23140,24 +23167,6 @@
     "goods_description": "", 
     "start_time": 1323324000.0, 
     "activity_type": "discount"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ハンマー", 
-    "start_time": 1323046800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日8時間", 
-    "end_time": 1323594000.0, 
-    "goods_description": "クリスタルを開けることができます。", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "muourenzhe": {
     "original_price": {
@@ -68186,7 +68195,7 @@
     "vip_card": {
      "month_day": {
       "price": {
-       "F_coin": 150
+       "F_coin": 120
       }, 
       "used": true, 
       "name": "会員カード", 
