@@ -32321,6 +32321,25 @@
      }, 
      "level_need": 19
     }, 
+    "pingguochong": {
+     "total_time": 480, 
+     "leaflet_time": 20, 
+     "used": false, 
+     "name": "いっぱいアップル", 
+     "base_fruit": 25, 
+     "fruit_time": 150, 
+     "sprout_time": 20, 
+     "bloom_time": 150, 
+     "experience": 4, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 140, 
+     "seed_price": {
+      "F_coin": 4
+     }, 
+     "level_need": 1
+    }, 
     "corn": {
      "total_time": 540, 
      "leaflet_time": 54, 
@@ -38808,22 +38827,23 @@
      }, 
      "level_need": 0
     }, 
-    "pingguochong": {
-     "total_time": 480, 
-     "leaflet_time": 20, 
+    "f812_bingdongputaoshu": {
+     "total_time": 1360, 
+     "leaflet_time": 180, 
      "used": false, 
-     "name": "いっぱいアップル", 
+     "name": "アイスブドウの樹", 
      "base_fruit": 25, 
-     "fruit_time": 150, 
-     "sprout_time": 20, 
-     "bloom_time": 150, 
-     "experience": 4, 
+     "fruit_time": 450, 
+     "tuchan": true, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 7.11, 
      "seasons": 1, 
-     "sale_price": 4, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 140, 
+     "leaf_time": 280, 
      "seed_price": {
-      "F_coin": 4
+      "F_coin": 7
      }, 
      "level_need": 1
     }, 
@@ -41090,6 +41110,26 @@
       "gold": 189
      }, 
      "level_need": 10
+    }, 
+    "f811_bingdonglishu": {
+     "total_time": 1390, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "アイスナシの樹", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 6.9, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
     }, 
     "meitao": {
      "total_time": 750, 
@@ -46915,6 +46955,26 @@
      "leaf_time": 60, 
      "level_need": 0
     }, 
+    "f808_bingdongmangguoshu": {
+     "total_time": 1200, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "アイスマンゴーの樹", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 310, 
+     "experience": 6.8, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 200, 
+     "seed_price": {
+      "F_coin": 6
+     }, 
+     "level_need": 1
+    }, 
     "yunshishenxian": {
      "total_time": 1380, 
      "leaflet_time": 180, 
@@ -50567,24 +50627,25 @@
      }, 
      "level_need": 1
     }, 
-    "linglan": {
-     "total_time": 720, 
-     "leaflet_time": 90, 
+    "niudansongshu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "すずらん", 
+     "name": "クリスマスツリー", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 10, 
-     "bloom_time": 145, 
-     "experience": 5, 
-     "seasons": 1, 
-     "sale_price": 8, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。クリスマスツリーを手に入れました。5種のクリスマスのプレゼントを集めれば、500Kコイン相当のギフトセットがもらえます。", 
      "increment_fruit": 25, 
-     "leaf_time": 145, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 50
      }, 
-     "level_need": 1
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "qiufenqiubing": {
      "total_time": 1440, 
@@ -52520,6 +52581,26 @@
      "leaf_time": 120, 
      "seed_price": {
       "F_coin": 15
+     }, 
+     "level_need": 1
+    }, 
+    "f809_bingdongshizishu": {
+     "total_time": 1230, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "アイス柿の樹", 
+     "base_fruit": 25, 
+     "fruit_time": 490, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 310, 
+     "experience": 6.85, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 6
      }, 
      "level_need": 1
     }, 
@@ -56984,6 +57065,26 @@
      }, 
      "leaf_time": 138, 
      "level_need": 5
+    }, 
+    "f813_bingdongcaomeishu": {
+     "total_time": 1330, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "アイスイチゴの樹", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 320, 
+     "experience": 6.8, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 6
+     }, 
+     "level_need": 1
     }, 
     "dawanhua": {
      "total_time": 360, 
@@ -61558,6 +61659,26 @@
      }, 
      "level_need": 1
     }, 
+    "f810_bingdongpingguoshu": {
+     "total_time": 1250, 
+     "leaflet_time": 130, 
+     "used": false, 
+     "name": "アイスリンゴの樹", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 310, 
+     "experience": 7.0, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 6
+     }, 
+     "level_need": 1
+    }, 
     "daqingshu": {
      "total_time": 660, 
      "leaflet_time": 90, 
@@ -63683,24 +63804,24 @@
      }, 
      "level_need": 1
     }, 
-    "mianzhihua": {
-     "total_time": 960, 
+    "linglan": {
+     "total_time": 720, 
      "leaflet_time": 90, 
-     "used": true, 
-     "name": "プルメリアルブラ", 
+     "used": false, 
+     "name": "すずらん", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 60, 
-     "bloom_time": 300, 
-     "experience": 2.72, 
+     "fruit_time": 330, 
+     "sprout_time": 10, 
+     "bloom_time": 145, 
+     "experience": 5, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 145, 
      "seed_price": {
-      "gold": 238
+      "F_coin": 15
      }, 
-     "level_need": 40
+     "level_need": 1
     }, 
     "shuangzimogu": {
      "total_time": 870, 
@@ -64934,26 +65055,6 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "niudansongshu": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
-     "used": false, 
-     "name": "クリスマスツリー", 
-     "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。クリスマスツリーを手に入れました。5種のクリスマスのプレゼントを集めれば、500Kコイン相当のギフトセットがもらえます。", 
-     "increment_fruit": 25, 
-     "bloom_time": 330, 
-     "experience": 10, 
-     "seasons": 1, 
-     "sale_price": 15, 
-     "seed_price": {
-      "F_coin": 50
-     }, 
-     "leaf_time": 330, 
-     "level_need": 0
-    }, 
     "tangshizi": {
      "total_time": 1080, 
      "leaflet_time": 150, 
@@ -65851,6 +65952,25 @@
      }, 
      "level_need": 1
     }, 
+    "mianzhihua": {
+     "total_time": 960, 
+     "leaflet_time": 90, 
+     "used": true, 
+     "name": "プルメリアルブラ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 300, 
+     "experience": 2.72, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 238
+     }, 
+     "level_need": 40
+    }, 
     "nirenyali": {
      "total_time": 1080, 
      "leaflet_time": 150, 
@@ -66194,8 +66314,8 @@
     "diaokexiaonvhaishengzhuang", 
     "niudanlazhu", 
     "niudandangao", 
-    "shengdanshu", 
     "niudansongshu", 
+    "shengdanshu", 
     "shengdanwu", 
     "huahuan", 
     "xiongyuncai", 
@@ -66762,6 +66882,12 @@
     "quantoucai", 
     "liaolan", 
     "bingjiling", 
+    "f813_bingdongcaomeishu", 
+    "f811_bingdonglishu", 
+    "f812_bingdongputaoshu", 
+    "f808_bingdongmangguoshu", 
+    "f810_bingdongpingguoshu", 
+    "f809_bingdongshizishu", 
     "yanjingji", 
     "wutongshu", 
     "1zisu", 
