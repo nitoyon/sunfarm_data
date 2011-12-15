@@ -24332,24 +24332,26 @@
      }, 
      "level_need": 38
     }, 
-    "jiuweimaozhiwu": {
-     "total_time": 1200, 
+    "wenshulan": {
+     "total_time": 1080, 
      "leaflet_time": 90, 
      "used": false, 
-     "name": "九尾の狐", 
+     "name": "謎の文殊ラン", 
      "base_fruit": 25, 
-     "fruit_time": 450, 
+     "fruit_time": 360, 
      "sprout_time": 60, 
-     "bloom_time": 360, 
-     "experience": 400, 
-     "seasons": 1, 
-     "sale_price": 500, 
+     "introduce": "謎の文殊ラン、あなたが植えているのは何色かな？", 
+     "is_random": true, 
      "increment_fruit": 25, 
-     "leaf_time": 240, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
      "seed_price": {
-      "F_coin": 200
+      "F_coin": 15
      }, 
-     "level_need": 0
+     "leaf_time": 240, 
+     "level_need": 1
     }, 
     "liusushu": {
      "total_time": 1410, 
@@ -26214,26 +26216,23 @@
      "leaf_time": 480, 
      "level_need": 0
     }, 
-    "liuliju": {
-     "total_time": 750, 
-     "leaflet_time": 60, 
+    "shizijiao": {
+     "total_time": 810, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "ルリヂサ", 
+     "name": "カラフルなパプリカ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
      "sprout_time": 30, 
      "bloom_time": 210, 
-     "introduce": "収穫する際、ランダムで5つのレア種をご入手いただけます。入手できない場合もあります。", 
-     "random_special": 0, 
-     "increment_fruit": 25, 
-     "random_name": "random7", 
-     "experience": 4.5, 
+     "experience": 20, 
      "seasons": 1, 
-     "sale_price": 4, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 0
+      "F_coin": 50
      }, 
-     "leaf_time": 120, 
      "level_need": 1
     }, 
     "tdyshong": {
@@ -29240,6 +29239,25 @@
      }, 
      "level_need": 1
     }, 
+    "wenshulanhuangse": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "黄色い文殊ラン", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "qisehuahong": {
      "total_time": 1080, 
      "leaflet_time": 90, 
@@ -31029,6 +31047,25 @@
       "F_coin": 20
      }, 
      "level_need": 0
+    }, 
+    "wenshulanlanse": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ブルー文殊ラン", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
     }, 
     "huangjinrenshen": {
      "total_time": 1710, 
@@ -38329,6 +38366,25 @@
      }, 
      "level_need": 1
     }, 
+    "wenshulanzise": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "パープル文殊ラン", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "tuzifangzi": {
      "total_time": 1410, 
      "leaflet_time": 330, 
@@ -41732,6 +41788,25 @@
      }, 
      "level_need": 1
     }, 
+    "jiuweimaozhiwu": {
+     "total_time": 1200, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "九尾の狐", 
+     "base_fruit": 25, 
+     "fruit_time": 450, 
+     "sprout_time": 60, 
+     "bloom_time": 360, 
+     "experience": 400, 
+     "seasons": 1, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 200
+     }, 
+     "level_need": 0
+    }, 
     "xiangshuimao": {
      "total_time": 720, 
      "leaflet_time": 80, 
@@ -43354,23 +43429,26 @@
      }, 
      "level_need": 10
     }, 
-    "shizijiao": {
-     "total_time": 810, 
-     "leaflet_time": 90, 
+    "liuliju": {
+     "total_time": 750, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "カラフルなパプリカ", 
+     "name": "ルリヂサ", 
      "base_fruit": 25, 
      "fruit_time": 330, 
      "sprout_time": 30, 
      "bloom_time": 210, 
-     "experience": 20, 
-     "seasons": 1, 
-     "sale_price": 20, 
+     "introduce": "収穫する際、ランダムで5つのレア種をご入手いただけます。入手できない場合もあります。", 
+     "random_special": 0, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "random_name": "random7", 
+     "experience": 4.5, 
+     "seasons": 1, 
+     "sale_price": 4, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 0
      }, 
+     "leaf_time": 120, 
      "level_need": 1
     }, 
     "ezhangqiu": {
@@ -45932,6 +46010,25 @@
      "leaf_time": 150, 
      "seed_price": {
       "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
+    "wenshulanfense": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ピンク文殊ラン", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -58591,6 +58688,25 @@
      }, 
      "level_need": 0
     }, 
+    "changyedaji": {
+     "total_time": 840, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "長葉大戟", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.6, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 230
+     }, 
+     "level_need": 30
+    }, 
     "jinpaishu": {
      "total_time": 1050, 
      "leaflet_time": 150, 
@@ -59956,6 +60072,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
+    "wenshulancaise": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "カラー文殊ラン", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -65386,6 +65521,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
+    "changliewutou": {
+     "total_time": 715, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "長裂烏頭", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 25, 
+     "bloom_time": 150, 
+     "experience": 1.76, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 99
+     }, 
+     "level_need": 10
+    }, 
     "kaolalansehuahuan": {
      "total_time": 1080, 
      "leaflet_time": 90, 
@@ -65480,6 +65634,25 @@
      "leaf_time": 210, 
      "seed_price": {
       "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
+    "wenshulanbaise": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "白い文殊ラン", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 13, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -67437,6 +67610,7 @@
     "duocaiaiqianniu", 
     "ziluolancaise", 
     "shuangsemolihua", 
+    "wenshulancaise", 
     "caisefengchehua", 
     "f674_yishicaihua", 
     "huali", 
@@ -67742,6 +67916,7 @@
     "xiaochouf", 
     "lvronghaozi", 
     "mayingdanzi", 
+    "wenshulanzise", 
     "yanhuasi", 
     "lianhuadengzi", 
     "zisefengchehua", 
@@ -67775,6 +67950,7 @@
     "ziluolanfen", 
     "xiaochoud", 
     "mayingdanfen", 
+    "wenshulanfense", 
     "yanhuayi", 
     "lianhuadengfen", 
     "fensefengchehua", 
@@ -67820,6 +67996,7 @@
     "xiaochoua", 
     "lanqiansuitang", 
     "lvronghaolan", 
+    "wenshulanlanse", 
     "yanhuaer", 
     "lianhuadenglan", 
     "lansefengchehua", 
@@ -68191,6 +68368,7 @@
     "f724_shengsuan", 
     "suanrulao", 
     "tanhuanghua", 
+    "wenshulanbaise", 
     "f720_baiqiezi", 
     "mianhuabaise", 
     "baifojia", 
@@ -68271,6 +68449,7 @@
     "qisehua", 
     "lvronghao", 
     "mayingdan", 
+    "wenshulan", 
     "lansehuahuan", 
     "shengdanhuahuan", 
     "hongsehuahuan", 
@@ -68351,6 +68530,7 @@
     "dengpaoshuhuangse", 
     "mianhuahuangse", 
     "caijiao4", 
+    "wenshulanhuangse", 
     "huangjinkeke", 
     "jinselanmei", 
     "huangjinbing", 
@@ -68628,6 +68808,7 @@
     "shuixian", 
     "jiqiyou", 
     "pea", 
+    "changliewutou", 
     "mensong", 
     "alishanlongdan", 
     "guavaflower", 
@@ -68719,6 +68900,7 @@
     "baimayihua", 
     "zongzixin", 
     "tougucao", 
+    "changyedaji", 
     "dongguaxin", 
     "donggua", 
     "xingzixin", 
