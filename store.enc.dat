@@ -23100,29 +23100,6 @@
     "start_time": 1323324000.0, 
     "activity_type": "discount"
    }, 
-   "dongrilibao": {
-    "original_price": {
-     "num": 1380, 
-     "type": "F_coin"
-    }, 
-    "goods_str": "冬の大特価セール！中には580Kコイン分の種と畜産の可愛い動物も入っているよ！。さらに800Kコインのアイテムをプレゼント。　種：スリーカラーのバラ×4  魔法のビレイア×4       魔法の君の願い×4       千歳飴×4     ローズちゃん×5　　チョコちゃん×5　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×12    ウルトラ肥料×8.", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "冬のお買い得セット", 
-    "price": {
-     "num": 730, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1324022400.0, 
-    "goods_description": "冬の大特価セール！中には580Kコイン分の種と畜産の可愛い動物も入っているよ！。さらに800Kコインのアイテムをプレゼント。　種：スリーカラーのバラ×4  魔法のビレイア×4       魔法の君の願い×4       千歳飴×4     ローズちゃん×5　　チョコちゃん×5　　アイテム：初級肥料×35      中級肥料×35      高級肥料×35      マジック肥料×35    増産肥料×25      中級増産肥料×12    ウルトラ肥料×8.", 
-    "start_time": 1323417600.0, 
-    "activity_type": "hot_sale"
-   }, 
    "shenqijindaihua": {
     "original_price": {
      "num": 25, 
@@ -23167,6 +23144,24 @@
     "goods_description": "", 
     "start_time": 1323324000.0, 
     "activity_type": "discount"
+   }, 
+   "wenshulan": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "謎の文殊ラン", 
+    "start_time": 1324022400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1324627200.0, 
+    "goods_description": "謎の文殊ラン、あなたが植えているのは何色かな？", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "muourenzhe": {
     "original_price": {
@@ -24335,7 +24330,7 @@
     "wenshulan": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "謎の文殊ラン", 
      "base_fruit": 25, 
      "fruit_time": 360, 
