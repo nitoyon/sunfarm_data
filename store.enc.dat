@@ -14834,6 +14834,103 @@
      }
     }
    }, 
+   "tdyslv": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "3%の確率で緑の提灯桜を獲得できます。100％の確率でマジック飼料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "緑の提灯桜のカプセル", 
+     "introduce": "3%の確率で緑の提灯桜を獲得できます。100％の確率でマジック飼料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "zishuijingpingguo": [
+        1, 
+        0.01
+       ], 
+       "shenqinigerseed": [
+        1, 
+        0.03
+       ], 
+       "qinglvmogu": [
+        1, 
+        0.03
+       ], 
+       "tdyslv": [
+        1, 
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "chabei": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         1
+        ], 
+        "gaosu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinsewoniu": [
+        1, 
+        0.08
+       ], 
+       "baitu": [
+        1, 
+        0.05
+       ]
+      }
+     }
+    }
+   }, 
    "jidebaoxiang": {
     "config": {
      "price": {
@@ -16275,99 +16372,47 @@
      }
     }
    }, 
-   "tdyslv": {
+   "tuchanxianrenzhangyi": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 60
      }, 
      "used": false, 
-     "goods_str": "3%の確率で緑の提灯桜を獲得できます。100％の確率でマジック飼料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "緑の提灯桜のカプセル", 
-     "introduce": "3%の確率で緑の提灯桜を獲得できます。100％の確率でマジック飼料を入手できます。5種類の提灯桜を全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "サボテンの図鑑宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "baiqiangwei": [
+       "f755_tuerxianrenzhang": [
         1, 
-        0.02
+        1
        ], 
-       "yutuhua": [
+       "f754_aixinxianrenzhang": [
         1, 
-        0.1
+        1
        ], 
-       "jiariyecan": [
+       "f756_caihongxianrenzhang": [
         1, 
-        0.01
+        1
        ], 
-       "zishuijingpingguo": [
+       "f759_lishixianrenzhang": [
         1, 
-        0.01
+        1
        ], 
-       "shenqinigerseed": [
+       "f757_taiguxianrenzhang": [
         1, 
-        0.03
-       ], 
-       "qinglvmogu": [
-        1, 
-        0.03
-       ], 
-       "tdyslv": [
-        1, 
-        0.03
-       ], 
-       "nirenxiangjiao": [
-        1, 
-        0.03
-       ], 
-       "chabei": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.03
+        1
        ]
       }, 
       "properties": {
        "fertilizer": {
         "xunjie": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.05
+         5, 
+         1.0
         ]
        }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         1
-        ], 
-        "gaosu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "jinsewoniu": [
-        1, 
-        0.08
-       ], 
-       "baitu": [
-        1, 
-        0.05
-       ]
       }
      }
     }
@@ -71488,6 +71533,7 @@
    "shengdanhuangniudan", 
    "xiaoyehuadebaoxiang", 
    "niudanlan", 
+   "tuchanxianrenzhangyi", 
    "yinghuashuhongniudan", 
    "tianqishutuangou", 
    "hongdan", 
