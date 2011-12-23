@@ -10328,6 +10328,55 @@
      }
     }
    }, 
+   "shengdanlibao": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "100%の確率でマジック肥料が4個と高級肥料が2個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。中の種を植えて収穫後、加工場で加工すれば、20,000経験値のカラフルドリーミーツリーの種がもらえます。しかし、カラフルドリーミーツリーを増産することができません。", 
+     "name": "クリスマスの宝箱", 
+     "introduce": "100%の確率でマジック肥料が4個と高級肥料が2個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。中の種を植えて収穫後、加工場で加工すれば、20,000経験値のカラフルドリーミーツリーの種がもらえます。しかし、カラフルドリーミーツリーを増産することができません。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "ouzhouchisong_libao": [
+        1, 
+        0.1
+       ], 
+       "mishixiang_libao": [
+        1, 
+        0.3
+       ], 
+       "changchunteng_libao": [
+        1, 
+        0.8
+       ], 
+       "yueguishu_libao": [
+        1, 
+        0.2
+       ], 
+       "hujisheng_libao": [
+        1, 
+        0.4
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         2, 
+         1.0
+        ], 
+        "xunjie": [
+         4, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "hongniudan": {
     "config": {
      "price": {
@@ -11482,15 +11531,15 @@
      }
     }
    }, 
-   "xinnianlanniudan": {
+   "ailianxudenglubaoxiang": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 999999
      }, 
      "used": false, 
-     "goods_str": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "青の新年カプセル", 
-     "introduce": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "goods_str": "連続ログインした人だけ入手できる宝箱、一定の確率でヒマワリとほかのレアアイテムがもらえる！", 
+     "name": "連続ﾛｸﾞｲﾝ宝箱", 
+     "introduce": "連続ログインした人だけ入手できる宝箱、一定の確率でヒマワリとほかのレアアイテムがもらえる！"
     }, 
     "data": {
      "farm": {
@@ -11499,82 +11548,78 @@
         1, 
         0.05
        ], 
-       "lan": [
+       "lizhixiang": [
         1, 
-        0.1
+        0.15
        ], 
-       "heimeigui": [
+       "sanyecao": [
         1, 
-        0.03
+        0.2
        ], 
-       "yingtao": [
+       "tongcai": [
         1, 
-        0.08
+        1
        ], 
-       "shenqijasmine": [
+       "sunflower": [
         1, 
-        0.02
+        0.001
        ], 
-       "shenqibian": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "lanshuijingpingguo": [
+       "ginseng": [
         1, 
         0.03
        ], 
-       "nvmogu": [
+       "hongfushi": [
         1, 
-        0.02
+        0.2
        ], 
-       "chabei": [
+       "guoguangpingguo": [
+        1, 
+        0.2
+       ], 
+       "liulian": [
         1, 
         0.05
        ], 
-       "zhangyufengzheng": [
+       "ziteng": [
         1, 
-        0.01
+        0.1
        ]
       }, 
       "properties": {
        "fertilizer": {
+        "zengshou1": [
+         3, 
+         0.1
+        ], 
+        "zengshou3": [
+         3, 
+         0.05
+        ], 
+        "xunjie1": [
+         3, 
+         0.15
+        ], 
+        "gaosu": [
+         3, 
+         1
+        ], 
         "jisu": [
-         1, 
+         3, 
          0.1
         ], 
         "gaoji": [
-         1, 
-         0.08
+         3, 
+         0.05
         ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
+        "zengshou": [
+         3, 
+         0.15
+        ], 
         "xunjie": [
-         1, 
-         0.3
+         3, 
+         0.05
         ]
        }
-      }, 
-      "babies": {
-       "taohuamao": [
-        1, 
-        0.05
-       ], 
-       "jinseqingwa": [
-        1, 
-        0.1
-       ]
       }
      }
     }
@@ -16016,15 +16061,15 @@
      }
     }
    }, 
-   "ailianxudenglubaoxiang": {
+   "xinnianlanniudan": {
     "config": {
      "price": {
-      "F_coin": 999999
+      "F_coin": 1
      }, 
      "used": false, 
-     "goods_str": "連続ログインした人だけ入手できる宝箱、一定の確率でヒマワリとほかのレアアイテムがもらえる！", 
-     "name": "連続ﾛｸﾞｲﾝ宝箱", 
-     "introduce": "連続ログインした人だけ入手できる宝箱、一定の確率でヒマワリとほかのレアアイテムがもらえる！"
+     "goods_str": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "青の新年カプセル", 
+     "introduce": "10%の確率で青色の夜空を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類の夜空を全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
@@ -16033,78 +16078,82 @@
         1, 
         0.05
        ], 
-       "lizhixiang": [
+       "lan": [
         1, 
-        0.15
+        0.1
        ], 
-       "sanyecao": [
-        1, 
-        0.2
-       ], 
-       "tongcai": [
-        1, 
-        1
-       ], 
-       "sunflower": [
-        1, 
-        0.001
-       ], 
-       "ginseng": [
+       "heimeigui": [
         1, 
         0.03
        ], 
-       "hongfushi": [
+       "yingtao": [
         1, 
-        0.2
+        0.08
        ], 
-       "guoguangpingguo": [
+       "shenqijasmine": [
         1, 
-        0.2
+        0.02
        ], 
-       "liulian": [
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "lanshuijingpingguo": [
+        1, 
+        0.03
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "chabei": [
         1, 
         0.05
        ], 
-       "ziteng": [
+       "zhangyufengzheng": [
         1, 
-        0.1
+        0.01
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "zengshou1": [
-         3, 
-         0.1
-        ], 
-        "zengshou3": [
-         3, 
-         0.05
-        ], 
-        "xunjie1": [
-         3, 
-         0.15
-        ], 
-        "gaosu": [
-         3, 
-         1
-        ], 
         "jisu": [
-         3, 
+         1, 
          0.1
         ], 
         "gaoji": [
-         3, 
-         0.05
+         1, 
+         0.08
         ], 
-        "zengshou": [
-         3, 
-         0.15
-        ], 
-        "xunjie": [
-         3, 
-         0.05
+        "xunjie1": [
+         1, 
+         1.0
         ]
        }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "taohuamao": [
+        1, 
+        0.05
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
+       ]
       }
      }
     }
@@ -25295,6 +25344,25 @@
      }, 
      "level_need": 0
     }, 
+    "mishixiang_libao": {
+     "total_time": 660, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "ローズマリー", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "caiji": {
      "total_time": 1410, 
      "leaflet_time": 150, 
@@ -33042,25 +33110,25 @@
      }, 
      "level_need": 1
     }, 
-    "taiyangta": {
-     "total_time": 825, 
-     "leaflet_time": 90, 
-     "used": true, 
-     "name": "サンシャインの塔", 
+    "lanshanhu": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "バブルサンゴ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "tuchan": true, 
-     "sprout_time": 45, 
-     "bloom_time": 210, 
-     "experience": 2.29, 
-     "seasons": 1, 
-     "sale_price": 6, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "バブルサンゴ", 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "bloom_time": 330, 
+     "experience": 7, 
+     "seasons": 1, 
+     "sale_price": 16, 
      "seed_price": {
-      "F_coin": 10
+      "F_coin": 20
      }, 
-     "level_need": 1
+     "leaf_time": 150, 
+     "level_need": 0
     }, 
     "zhouhua": {
      "total_time": 870, 
@@ -34106,6 +34174,25 @@
      }, 
      "level_need": 1
     }, 
+    "tujianshengdanshu": {
+     "total_time": 1350, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ぴかぴかドリーミーツリー", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 1
+    }, 
     "jiucaixin": {
      "total_time": 660, 
      "leaflet_time": 90, 
@@ -34780,6 +34867,25 @@
       "gold": 230
      }, 
      "level_need": 30
+    }, 
+    "changchunteng_libao": {
+     "total_time": 900, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ヘデラへリックス", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
     }, 
     "hudiehuaxin": {
      "total_time": 1200, 
@@ -35938,25 +36044,25 @@
      }, 
      "level_need": 1
     }, 
-    "lanshanhu": {
-     "total_time": 1080, 
-     "leaflet_time": 150, 
-     "used": false, 
-     "name": "バブルサンゴ", 
+    "taiyangta": {
+     "total_time": 825, 
+     "leaflet_time": 90, 
+     "used": true, 
+     "name": "サンシャインの塔", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "バブルサンゴ", 
-     "increment_fruit": 25, 
-     "bloom_time": 330, 
-     "experience": 7, 
+     "fruit_time": 330, 
+     "tuchan": true, 
+     "sprout_time": 45, 
+     "bloom_time": 210, 
+     "experience": 2.29, 
      "seasons": 1, 
-     "sale_price": 16, 
-     "seed_price": {
-      "F_coin": 20
-     }, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
      "leaf_time": 150, 
-     "level_need": 0
+     "seed_price": {
+      "F_coin": 10
+     }, 
+     "level_need": 1
     }, 
     "ziluolanzi": {
      "total_time": 1080, 
@@ -37335,24 +37441,25 @@
      }, 
      "level_need": 1
     }, 
-    "zhujin": {
-     "total_time": 840, 
-     "leaflet_time": 150, 
+    "shanghuabiandang": {
+     "total_time": 1110, 
+     "leaflet_time": 90, 
      "used": true, 
-     "name": "ブッソウゲ", 
+     "name": "弁当桜", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 90, 
-     "bloom_time": 150, 
-     "experience": 2.52, 
-     "seasons": 1, 
-     "sale_price": 14, 
+     "fruit_time": 510, 
+     "sprout_time": 30, 
+     "introduce": "弁当桜。原価：35Kコイン  現在価格：25Kコイン", 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "bloom_time": 330, 
+     "experience": 9, 
+     "seasons": 1, 
+     "sale_price": 10, 
      "seed_price": {
-      "gold": 230
+      "F_coin": 25
      }, 
-     "level_need": 30
+     "leaf_time": 150, 
+     "level_need": 1
     }, 
     "lvronghaocai": {
      "total_time": 1080, 
@@ -39917,26 +40024,6 @@
      "seed_price": {
       "F_coin": 5
      }, 
-     "level_need": 1
-    }, 
-    "shanghuabiandang": {
-     "total_time": 1110, 
-     "leaflet_time": 90, 
-     "used": true, 
-     "name": "弁当桜", 
-     "base_fruit": 25, 
-     "fruit_time": 510, 
-     "sprout_time": 30, 
-     "introduce": "弁当桜。原価：35Kコイン  現在価格：25Kコイン", 
-     "increment_fruit": 25, 
-     "bloom_time": 330, 
-     "experience": 9, 
-     "seasons": 1, 
-     "sale_price": 10, 
-     "seed_price": {
-      "F_coin": 25
-     }, 
-     "leaf_time": 150, 
      "level_need": 1
     }, 
     "maoguo": {
@@ -44230,6 +44317,25 @@
      }, 
      "level_need": 10
     }, 
+    "ouzhouchisong_libao": {
+     "total_time": 1200, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ーロッパアカマツ", 
+     "base_fruit": 25, 
+     "fruit_time": 420, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 25
+     }, 
+     "level_need": 1
+    }, 
     "liuliju": {
      "total_time": 750, 
      "leaflet_time": 60, 
@@ -45247,6 +45353,25 @@
      "leaf_time": 297, 
      "level_need": 0
     }, 
+    "shengdanshu_libao": {
+     "total_time": 1350, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "カラフルドリーミーツリー", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 800, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 0, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 999
+     }, 
+     "level_need": 1
+    }, 
     "sixingshucai": {
      "total_time": 600, 
      "leaflet_time": 15, 
@@ -46040,6 +46165,25 @@
      }, 
      "leaf_time": 138, 
      "level_need": 11
+    }, 
+    "yueguishu_libao": {
+     "total_time": 510, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ッケイジュ", 
+     "base_fruit": 25, 
+     "fruit_time": 180, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 38
+     }, 
+     "level_need": 1
     }, 
     "huangselanzhuer": {
      "total_time": 1080, 
@@ -56814,6 +56958,25 @@
       "F_coin": 9999
      }, 
      "level_need": 1
+    }, 
+    "zhujin": {
+     "total_time": 840, 
+     "leaflet_time": 150, 
+     "used": true, 
+     "name": "ブッソウゲ", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.52, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 230
+     }, 
+     "level_need": 30
     }, 
     "huluxiaoyao": {
      "total_time": 870, 
@@ -67802,6 +67965,25 @@
      }, 
      "level_need": 0
     }, 
+    "hujisheng_libao": {
+     "total_time": 810, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "ヤドリギ", 
+     "base_fruit": 25, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 15
+     }, 
+     "level_need": 1
+    }, 
     "foshougan": {
      "total_time": 870, 
      "leaflet_time": 90, 
@@ -68742,6 +68924,7 @@
     "haixiubiaoqing", 
     "f726_yesuan", 
     "meirenjiao", 
+    "tujianshengdanshu", 
     "shuangzi", 
     "xiangcai", 
     "ziqiansuitang", 
@@ -68952,6 +69135,7 @@
     "wusehulu", 
     "caijiao", 
     "fangputaocai", 
+    "shengdanshu_libao", 
     "shankumaihuashu", 
     "changputaocai", 
     "yuanputaocai", 
@@ -69172,6 +69356,7 @@
     "zhiliguoqishu", 
     "xiaobaocai", 
     "rulao", 
+    "yueguishu_libao", 
     "pashanhu", 
     "huangjinguo", 
     "kugua", 
@@ -69379,6 +69564,7 @@
     "jidanhua", 
     "xuerenshuwu", 
     "puercha", 
+    "changchunteng_libao", 
     "xiangshuixiong", 
     "pingerhua", 
     "lanmeicaomei", 
@@ -69458,6 +69644,7 @@
     "f795_shicheju", 
     "yezishu", 
     "bajiaojinpan", 
+    "hujisheng_libao", 
     "gougu", 
     "shanyao", 
     "shancimei", 
@@ -69531,12 +69718,14 @@
     "huangmeishu", 
     "lamei", 
     "f772_fenhongsemogu", 
+    "mishixiang_libao", 
     "bangbangtang", 
     "wosun", 
     "wuwangcao", 
     "mianhuatang", 
     "buouyangzi", 
     "huangpi", 
+    "ouzhouchisong_libao", 
     "dengpaoshucaise", 
     "qicailiyuqi", 
     "keaisanyecao", 
@@ -72478,6 +72667,7 @@
    "huangjinzhoutujianbaoxiang", 
    "siyuebaoxiang", 
    "jiazhutaobaoxiang", 
+   "shengdanlibao", 
    "tunianniudanfen", 
    "tejiabaoxiang1", 
    "tejiabaoxiang2", 
@@ -72497,7 +72687,7 @@
    "yinghuashuhuangniudan", 
    "shengdanlvniudan", 
    "test_bag", 
-   "xinnianlanniudan", 
+   "ailianxudenglubaoxiang", 
    "caisehudiebaoxiang", 
    "qiulanbaoxiang", 
    "bayuezhiwutuangoubaoxiang5", 
@@ -72574,7 +72764,7 @@
    "xinnianhongniudan", 
    "zisehudiebaoxiang", 
    "chengsehudiebaoxiang", 
-   "ailianxudenglubaoxiang", 
+   "xinnianlanniudan", 
    "lanniudan", 
    "tujianbaoxiang", 
    "lanseniudan", 
