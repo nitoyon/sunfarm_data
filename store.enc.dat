@@ -71106,13 +71106,13 @@
       "multi_buy": false, 
       "pro": 1
      }, 
-     "heimao": {
+     "xunlushouhuzhe": {
       "used": false, 
-      "name": "黒猫ガーディアン", 
+      "name": "あのトナカイ", 
       "price": {
        "F_coin": 50
       }, 
-      "introduce": "あのハロウィンのクロネコがガーディアンになって新登場！餌は人並みに餌を食べるが、あまり働かないヤツです。", 
+      "introduce": "あのトナカイガーディアン新登場！餌は人並みに餌を食べるが、あまり働かないヤツです。", 
       "multi_buy": false, 
       "pro": 0.1
      }, 
@@ -71133,6 +71133,16 @@
        "F_coin": 0
       }, 
       "introduce": "", 
+      "multi_buy": false, 
+      "pro": 0.1
+     }, 
+     "heimao": {
+      "used": false, 
+      "name": "黒猫ガーディアン", 
+      "price": {
+       "F_coin": 50
+      }, 
+      "introduce": "あのハロウィンのクロネコがガーディアンになって新登場！餌は人並みに餌を食べるが、あまり働かないヤツです。", 
       "multi_buy": false, 
       "pro": 0.1
      }, 
@@ -71333,24 +71343,14 @@
       "introduce": "使うと作物の成熟時間を15分短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
       "effect": 0.25
      }, 
-     "zengshou8": {
-      "crops_level": [
-       1, 
-       9
-      ], 
-      "used": false, 
-      "name": "合成肥料(中)", 
-      "max_level": 10, 
+     "tianran": {
       "price": {
-       "F_coin": 999
+       "F_coin": 9999
       }, 
-      "effect": 0, 
-      "introduce": "合成肥料(中)はレベル1 - 9の作物の増産量を15%アップします（花には使えません）。同じ作物に2回まで使えます。殺虫や水遣りをして増産量を200%までアップできます。多期作の場合、次の収穫は普通に戻ります。", 
-      "use_area": [
-       "friuit"
-      ], 
-      "increment_percent": 0.15, 
-      "increment_percent_max": 1
+      "used": false, 
+      "name": "ステキな肥料", 
+      "introduce": "使うと作物の成熟時間を5時間短縮できます。マイミクに盗まれる前に収穫しちゃいましょう。", 
+      "effect": 5
      }, 
      "zengshou9": {
       "crops_level": [
@@ -71407,14 +71407,24 @@
       "introduce": "使うと作物の成熟時間を1.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
       "effect": 1.5
      }, 
-     "tianran": {
-      "price": {
-       "F_coin": 9999
-      }, 
+     "zengshou8": {
+      "crops_level": [
+       1, 
+       9
+      ], 
       "used": false, 
-      "name": "ステキな肥料", 
-      "introduce": "使うと作物の成熟時間を5時間短縮できます。マイミクに盗まれる前に収穫しちゃいましょう。", 
-      "effect": 5
+      "name": "合成肥料(中)", 
+      "max_level": 10, 
+      "price": {
+       "F_coin": 999
+      }, 
+      "effect": 0, 
+      "introduce": "合成肥料(中)はレベル1 - 9の作物の増産量を15%アップします（花には使えません）。同じ作物に2回まで使えます。殺虫や水遣りをして増産量を200%までアップできます。多期作の場合、次の収穫は普通に戻ります。", 
+      "use_area": [
+       "friuit"
+      ], 
+      "increment_percent": 0.15, 
+      "increment_percent_max": 1
      }, 
      "zengshou": {
       "crops_level": [
@@ -71452,6 +71462,15 @@
       "name": "トライアル肥料", 
       "introduce": "使うと作物の成熟時間を1時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
       "effect": 1
+     }, 
+     "chaojix": {
+      "price": {
+       "F_coin": 15
+      }, 
+      "used": false, 
+      "name": "たくみ肥料", 
+      "introduce": "使うと作物の成熟時間を24時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
+      "effect": 24
      }, 
      "shengjifeiliao": {
       "price": {
@@ -72807,6 +72826,7 @@
      "El"
     ], 
     "dog": [
+     "xunlushouhuzhe", 
      "youzhirishouhuzhe", 
      "shengdanlaoren", 
      "xuenarui", 
@@ -72830,6 +72850,7 @@
      "auction_point_coupons_bag"
     ], 
     "fertilizer": [
+     "chaojix", 
      "test", 
      "tianran", 
      "magiccardless", 
