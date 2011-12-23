@@ -10333,7 +10333,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個と高級肥料。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。中の種を植えて収穫後、加工場で加工すれば、20,000経験値のカラフルドリーミーツリーの種がもらえます。しかし、カラフルドリーミーツリーを増産することができません。", 
      "name": "クリスマスの宝箱", 
      "introduce": "100%の確率でマジック肥料が5個と高級肥料。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。中の種を植えて収穫後、加工場で加工すれば、20,000経験値のカラフルドリーミーツリーの種がもらえます。しかし、カラフルドリーミーツリーを増産することができません。"
@@ -23536,28 +23536,23 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "muouyiji": {
-    "original_price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "xin", 
+   "shengdanlibao": {
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "舞妓人形", 
+    "name": "クリスマスの宝箱", 
+    "start_time": 1324627200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "14日", 
+    "end_time": 1325836800.0, 
+    "goods_description": "100%の確率でマジック肥料が4個と高級肥料。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。中の種を植えて収穫後、加工場で加工すれば、20,000経験値のカラフルドリーミーツリーの種がもらえます。しかし、カラフルドリーミーツリーを増産することができません。", 
     "price": {
-     "num": 25, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日2時間", 
-    "end_time": 1323763200.0, 
-    "goods_description": "", 
-    "start_time": 1323324000.0, 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }, 
    "muounvhai": {
     "original_price": {
@@ -23570,6 +23565,29 @@
      "goods_type": "seed"
     }, 
     "name": "雛人形", 
+    "price": {
+     "num": 25, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "5日2時間", 
+    "end_time": 1323763200.0, 
+    "goods_description": "", 
+    "start_time": 1323324000.0, 
+    "activity_type": "discount"
+   }, 
+   "muouyiji": {
+    "original_price": {
+     "num": 35, 
+     "type": "F_coin"
+    }, 
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "舞妓人形", 
     "price": {
      "num": 25, 
      "type": "F_coin"
@@ -23664,24 +23682,6 @@
     "end_time": 1324886400.0, 
     "goods_description": "長裂烏頭と長葉大戟以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
     "start_time": 1324281600.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "wenshulan": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "謎の文殊ラン", 
-    "start_time": 1324022400.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1324627200.0, 
-    "goods_description": "謎の文殊ラン、あなたが植えているのは何色かな？", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
     "activity_type": "hot_sale"
    }, 
    "muourenzhe": {
