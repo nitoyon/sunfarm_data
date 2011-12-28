@@ -8852,51 +8852,61 @@
      }
     }
    }, 
-   "huangniudan": {
+   "ziseniudan": {
     "config": {
      "price": {
       "F_coin": 1
      }, 
-     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
-     "introduce": " ★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
-     "name": "黄カプセル", 
-     "used": false
+     "used": false, 
+     "goods_str": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "紫カプセル", 
+     "introduce": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "heimeigui": [
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "fenghuangzhiyi": [
         1, 
         0.03
        ], 
-       "yingtao": [
-        1, 
-        0.05
-       ], 
-       "shenqijasmine": [
+       "shenqiparadiseflower": [
         1, 
         0.01
        ], 
-       "huangkapian": [
+       "zizuanshu": [
         1, 
-        0.001
-       ], 
-       "nvmogu": [
-        1, 
-        0.01
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
+        0.03
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "jisu": [
+        "xunjie": [
          1, 
-         0.1
+         0.3
         ], 
         "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
          1, 
          0.08
         ], 
@@ -8905,25 +8915,19 @@
          1
         ]
        }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
       }, 
       "babies": {
-       "chengseqingwa": [
-        1, 
-        0.1
-       ], 
-       "taohuamao": [
+       "buludaoshangfengdie": [
         1, 
         0.05
+       ], 
+       "huangsewoniu": [
+        1, 
+        0.08
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
        ]
       }
      }
@@ -9505,6 +9509,119 @@
      }
     }
    }, 
+   "jinsefudai": {
+    "config": {
+     "price": {
+      "F_coin": 300
+     }, 
+     "used": false, 
+     "goods_str": "450Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
+     "name": "イエロー福袋", 
+     "introduce": "450Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        1
+       ], 
+       "mensongxin": [
+        1, 
+        0.6
+       ], 
+       "shenqijianlan": [
+        1, 
+        1
+       ], 
+       "yumaojianpai": [
+        1, 
+        0.5
+       ], 
+       "mendeng": [
+        1, 
+        0.8
+       ], 
+       "zhuliansheng": [
+        1, 
+        0.2
+       ], 
+       "zhuoshi": [
+        1, 
+        0.1
+       ], 
+       "lvronghao": [
+        1, 
+        1
+       ], 
+       "wenshulan": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         3, 
+         1.0
+        ], 
+        "zengshou1": [
+         3, 
+         1.0
+        ], 
+        "gaoji": [
+         6, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu1": [
+         2, 
+         1.0
+        ], 
+        "ceshi": [
+         2, 
+         1.0
+        ], 
+        "gaoji": [
+         4, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "haidaogou": [
+        1, 
+        1.0
+       ], 
+       "pangxiex": [
+        1, 
+        1.0
+       ], 
+       "lvsehudie": [
+        1, 
+        1.0
+       ], 
+       "sakesidaxiang": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "caiyecaobaoxiang": {
     "config": {
      "price": {
@@ -9521,6 +9638,83 @@
        "caiyecao": [
         5, 
         1
+       ]
+      }
+     }
+    }
+   }, 
+   "heisefudai": {
+    "config": {
+     "price": {
+      "F_coin": 150
+     }, 
+     "used": false, 
+     "goods_str": "200Kコイン相当のアイテムが含まれています。さらに舞妓羽子板と注連縄をもらうチャンスがあります。", 
+     "name": "ブラック福袋", 
+     "introduce": "200Kコイン相当のアイテムが含まれています。さらに舞妓羽子板と注連縄をもらうチャンスがあります。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        1
+       ], 
+       "yumaojianpai": [
+        1, 
+        0.6
+       ], 
+       "zhuliansheng": [
+        1, 
+        0.1
+       ], 
+       "wenshulan": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         2, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         4, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu1": [
+         2, 
+         1.0
+        ], 
+        "gaoji": [
+         4, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "jitatuzi": [
+        1, 
+        1.0
+       ], 
+       "huabao": [
+        1, 
+        1.0
        ]
       }
      }
@@ -9757,6 +9951,95 @@
        "gongdengbaihehuang": [
         5, 
         1
+       ]
+      }
+     }
+    }
+   }, 
+   "shengdanziniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "3%の確率で紫の星を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
+     "name": "紫のクリスマスカプセル", 
+     "introduce": "3%の確率で紫の星を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        0.03
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "zisexingxingshu": [
+        1, 
+        0.03
+       ], 
+       "shenqiginseng": [
+        1, 
+        0.03
+       ], 
+       "fenghuangzhiyi": [
+        1, 
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.3
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaosu": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "huangsewoniu": [
+        1, 
+        0.08
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
        ]
       }
      }
@@ -11496,61 +11779,45 @@
      }
     }
    }, 
-   "shengdanziniudan": {
+   "hongsefudai": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 100
      }, 
      "used": false, 
-     "goods_str": "3%の確率で紫の星を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-     "name": "紫のクリスマスカプセル", 
-     "introduce": "3%の確率で紫の星を獲得できます。100％の確率でミニマジック飼料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+     "goods_str": "150Kコイン相当のアイテムが含まれています。さらに菊の門松と舞妓羽子板をもらうチャンスがあります。", 
+     "name": "レッド福袋", 
+     "introduce": "150Kコイン相当のアイテムが含まれています。さらに菊の門松と舞妓羽子板をもらうチャンスがあります。"
     }, 
     "data": {
      "farm": {
       "seeds": {
        "baiqiangwei": [
         1, 
-        0.03
+        1
        ], 
-       "yutuhua": [
+       "yumaojianpai": [
         1, 
         0.1
        ], 
-       "jiariyecan": [
+       "mensongxin": [
         1, 
-        0.01
+        0.6
        ], 
-       "zisexingxingshu": [
+       "wenshulan": [
         1, 
-        0.03
-       ], 
-       "shenqiginseng": [
-        1, 
-        0.03
-       ], 
-       "fenghuangzhiyi": [
-        1, 
-        0.03
-       ], 
-       "nirenxiangjiao": [
-        1, 
-        0.03
-       ], 
-       "shenqiparadiseflower": [
-        1, 
-        0.03
+        1
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "xunjie": [
+        "zengshou1": [
          1, 
-         0.3
+         1.0
         ], 
-        "gaoji": [
-         1, 
-         0.05
+        "xunjie": [
+         5, 
+         1.0
         ]
        }
       }
@@ -11558,28 +11825,24 @@
      "ranch": {
       "properties": {
        "feedstuffs": {
-        "gaosu": [
+        "jisu1": [
          1, 
-         0.08
+         1.0
         ], 
-        "xunjie1": [
-         1, 
-         1
+        "gaoji": [
+         2, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
         ]
        }
       }, 
       "babies": {
-       "buludaoshangfengdie": [
+       "huabao": [
         1, 
-        0.05
-       ], 
-       "huangsewoniu": [
-        1, 
-        0.08
-       ], 
-       "jinseqingwa": [
-        1, 
-        0.1
+        1.0
        ]
       }
      }
@@ -11958,6 +12221,71 @@
          1
         ]
        }
+      }
+     }
+    }
+   }, 
+   "lvsefudai": {
+    "config": {
+     "price": {
+      "F_coin": 50
+     }, 
+     "used": false, 
+     "goods_str": "80Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
+     "name": "グリーン福袋", 
+     "introduce": "80Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "mensongxin": [
+        1, 
+        0.1
+       ], 
+       "wenshulan": [
+        1, 
+        1
+       ], 
+       "mendeng": [
+        1, 
+        0.6
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu1": [
+         1, 
+         1.0
+        ], 
+        "gaoji": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         1, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "huabao": [
+        1, 
+        1.0
+       ]
       }
      }
     }
@@ -13283,53 +13611,53 @@
      }
     }
    }, 
-   "ziseniudan": {
+   "fensefudai": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 200
      }, 
      "used": false, 
-     "goods_str": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "紫カプセル", 
-     "introduce": "3%の確率で紫カードを獲得できます。100％の確率でミニマジック飼料を入手できます。また、他のアイテムもランダムでもらえます。6種類のカードを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "goods_str": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
+     "name": "ピンク福袋", 
+     "introduce": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。"
     }, 
     "data": {
      "farm": {
       "seeds": {
        "baiqiangwei": [
         1, 
-        0.02
+        1
        ], 
-       "jiariyecan": [
+       "zhuliansheng": [
         1, 
-        0.01
+        0.6
        ], 
-       "yutuhua": [
+       "zhuoshi": [
         1, 
         0.1
        ], 
-       "fenghuangzhiyi": [
+       "wenshulan": [
         1, 
-        0.03
-       ], 
-       "shenqiparadiseflower": [
-        1, 
-        0.01
-       ], 
-       "zizuanshu": [
-        1, 
-        0.03
+        1
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "xunjie": [
-         1, 
-         0.3
+        "test": [
+         2, 
+         1.0
+        ], 
+        "zengshou1": [
+         2, 
+         1.0
         ], 
         "gaoji": [
-         1, 
-         0.05
+         4, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
         ]
        }
       }
@@ -13337,28 +13665,32 @@
      "ranch": {
       "properties": {
        "feedstuffs": {
-        "gaosu": [
-         1, 
-         0.08
+        "jisu1": [
+         2, 
+         1.0
         ], 
-        "xunjie1": [
-         1, 
-         1
+        "ceshi": [
+         2, 
+         1.0
+        ], 
+        "gaoji": [
+         4, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
         ]
        }
       }, 
       "babies": {
-       "buludaoshangfengdie": [
+       "huabao": [
         1, 
-        0.05
+        1.0
        ], 
-       "huangsewoniu": [
+       "geshouxiaogou": [
         1, 
-        0.08
-       ], 
-       "jinseqingwa": [
-        1, 
-        0.1
+        1.0
        ]
       }
      }
@@ -13440,6 +13772,83 @@
        "shenqijindaihua": [
         2, 
         1
+       ]
+      }
+     }
+    }
+   }, 
+   "huangniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "goods_str": "サンシャイン牧場１周年記念！期間限定！！！\n【期間】8月27日～9月3日\n【内容】\n★　100％の確率でKコインアイテムをゲット！\n★　運がよげればいろいろな高価アイテムをゲット！\n★　カードの種（イエロー、レット、ブルーの３色カード）を集めれば、一周年セットの三種類をワンセットをゲット！\n※プレゼントがイベント終了3日以内に配布されますのでご注意ください。", 
+     "introduce": " ★★★サンシャイン牧場１周年記念！期間限定！！！　★100％の確率でKコインアイテムをゲット！　★運がよげればいろいろな高価アイテムをゲット！", 
+     "name": "黄カプセル", 
+     "used": false
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.05
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.01
+       ], 
+       "huangkapian": [
+        1, 
+        0.001
+       ], 
+       "nvmogu": [
+        1, 
+        0.01
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
        ]
       }
      }
@@ -71904,9 +72313,9 @@
     "vip_card": {
      "month_day": {
       "price": {
-       "F_coin": 120
+       "F_coin": 130
       }, 
-      "used": false, 
+      "used": true, 
       "name": "会員カード", 
       "introduce": "このカードをご利用頂きますと、30日間有効の会員資格がもらえます。会員になりますと、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
       "effect": 30
@@ -73970,7 +74379,7 @@
    "qingrenyushou2", 
    "xinbaoxiang", 
    "tunianniudanlan", 
-   "ziseniudan", 
+   "fensefudai", 
    "huiguilibao", 
    "gaojihuafeitaozhuang", 
    "lvseniudan", 
@@ -73987,12 +74396,16 @@
    "shenqijindaihuabaoxiang", 
    "landan", 
    "tudoulibao", 
+   "jinsefudai", 
    "jidebaoxiang", 
    "hushenfu", 
+   "kaichunbaoxiang", 
+   "ziseniudan", 
    "bayuezhuochongfuyongbaoxiang", 
    "tdyshong", 
    "gongdengbaihebaoxiang", 
-   "kaichunbaoxiang", 
+   "shengdanziniudan", 
+   "tianqishutuangou", 
    "shengdanhongniudan", 
    "zhuomaotujianbaoxiang", 
    "caisefudai", 
@@ -74021,7 +74434,7 @@
    "bayuebaoxiang", 
    "yinghuashuhuangniudan", 
    "shengdanlvniudan", 
-   "shengdanziniudan", 
+   "hongsefudai", 
    "test_bag", 
    "ailianxudenglubaoxiang", 
    "caisehudiebaoxiang", 
@@ -74031,6 +74444,7 @@
    "bayuezhiwutuangoubaoxiang6", 
    "bayuezhiwutuangoubaoxiang3", 
    "bayuezhiwutuangoubaoxiang2", 
+   "lvsefudai", 
    "cangbaotu3", 
    "nanhaijiebaoxiang", 
    "qiqiuniubaoxiang", 
@@ -74091,7 +74505,7 @@
    "tuchanxianrenzhangyi", 
    "mianzhihuabao", 
    "yinghuashuhongniudan", 
-   "tianqishutuangou", 
+   "heisefudai", 
    "hongdan", 
    "huangjinzhouerqitujianbaoxiang", 
    "qiqiuzhubaoxiang", 
