@@ -9514,7 +9514,7 @@
      "price": {
       "F_coin": 300
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "450Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
      "name": "イエロー福袋", 
      "introduce": "450Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。"
@@ -9648,7 +9648,7 @@
      "price": {
       "F_coin": 150
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "200Kコイン相当のアイテムが含まれています。さらに舞妓羽子板と注連縄をもらうチャンスがあります。", 
      "name": "ブラック福袋", 
      "introduce": "200Kコイン相当のアイテムが含まれています。さらに舞妓羽子板と注連縄をもらうチャンスがあります。"
@@ -10237,7 +10237,7 @@
      "price": {
       "F_coin": 500
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "850Kコイン相当のアイテムが含まれています。100%確率で日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
      "name": "カラフル福袋", 
      "introduce": "850Kコイン相当のアイテムが含まれています。100%確率で日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。"
@@ -11784,7 +11784,7 @@
      "price": {
       "F_coin": 100
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "150Kコイン相当のアイテムが含まれています。さらに菊の門松と舞妓羽子板をもらうチャンスがあります。", 
      "name": "レッド福袋", 
      "introduce": "150Kコイン相当のアイテムが含まれています。さらに菊の門松と舞妓羽子板をもらうチャンスがあります。"
@@ -12230,7 +12230,7 @@
      "price": {
       "F_coin": 50
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "80Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
      "name": "グリーン福袋", 
      "introduce": "80Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。"
@@ -13616,7 +13616,7 @@
      "price": {
       "F_coin": 200
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
      "name": "ピンク福袋", 
      "introduce": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。"
@@ -24190,6 +24190,21 @@
     "start_time": 1324886400.0, 
     "activity_type": "hot_sale"
    }, 
+   "caisefudai": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "カラフル福袋", 
+    "price": {
+     "num": 500, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "850Kコイン相当のアイテムが含まれています。100%確率で日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
+    "activity_type": "discount"
+   }, 
    "shengdanlibao": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -24208,156 +24223,102 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "muounvhai": {
-    "original_price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "雛人形", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日2時間", 
-    "end_time": 1323763200.0, 
-    "goods_description": "", 
-    "start_time": 1323324000.0, 
-    "activity_type": "discount"
-   }, 
-   "fengchehuabaoxiang": {
+   "lvsefudai": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "12月の宝箱", 
+    "name": "グリーン福袋", 
     "price": {
-     "num": 10, 
+     "num": 50, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "goods_description": "80Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
     "activity_type": "discount"
    }, 
-   "muouxiangpu": {
-    "original_price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
+   "fensefudai": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "相撲人形", 
+    "name": "ピンク福袋", 
     "price": {
-     "num": 25, 
+     "num": 200, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日2時間", 
-    "end_time": 1323763200.0, 
-    "goods_description": "", 
-    "start_time": 1323324000.0, 
+    "modify": false, 
+    "goods_description": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
     "activity_type": "discount"
    }, 
-   "muouwushi": {
+   "month_day": {
     "original_price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "侍人形", 
-    "price": {
-     "num": 25, 
-     "type": "F_coin"
-    }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日2時間", 
-    "end_time": 1323763200.0, 
-    "goods_description": "", 
-    "start_time": 1323324000.0, 
-    "activity_type": "discount"
-   }, 
-   "siliaobao2": {
-    "original_price": {
-     "num": 30, 
+     "num": 150, 
      "type": "F_coin"
     }, 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "vip_card"
     }, 
-    "name": "高級飼料セット", 
+    "name": "会員カード", 
     "price": {
-     "num": 20, 
+     "num": 130, 
      "type": "F_coin"
     }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "2日", 
-    "end_time": 1325059200.0, 
-    "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
-    "start_time": 1324886400.0, 
+    "limit_time": "1日", 
+    "end_time": 1325145600.0, 
+    "goods_description": "このカードをご利用頂きますと、30日間有効の会員資格がもらえます。会員になりますと、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
+    "start_time": 1325059200.0, 
     "activity_type": "hot_sale"
    }, 
-   "muourenzhe": {
-    "original_price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
+   "hongsefudai": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "忍者人形", 
+    "name": "レッド福袋", 
     "price": {
-     "num": 25, 
+     "num": 100, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日2時間", 
-    "end_time": 1323763200.0, 
-    "goods_description": "", 
-    "start_time": 1323324000.0, 
+    "modify": false, 
+    "goods_description": "150Kコイン相当のアイテムが含まれています。さらに菊の門松と舞妓羽子板をもらうチャンスがあります。", 
     "activity_type": "discount"
    }, 
-   "muouyiji": {
-    "original_price": {
-     "num": 35, 
-     "type": "F_coin"
-    }, 
+   "jinsefudai": {
     "specific_type": "xin", 
     "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "舞妓人形", 
+    "name": "イエロー福袋", 
     "price": {
-     "num": 25, 
+     "num": 300, 
      "type": "F_coin"
     }, 
-    "modify": true, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日2時間", 
-    "end_time": 1323763200.0, 
-    "goods_description": "", 
-    "start_time": 1323324000.0, 
+    "modify": false, 
+    "goods_description": "450Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
+    "activity_type": "discount"
+   }, 
+   "heisefudai": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ブラック福袋", 
+    "price": {
+     "num": 150, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "200Kコイン相当のアイテムが含まれています。さらに舞妓羽子板と注連縄をもらうチャンスがあります。", 
     "activity_type": "discount"
    }
   }, 
