@@ -24178,6 +24178,25 @@
     }, 
     "activity_type": "hot_sale"
    }, 
+   "three_day": {
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "vip_card"
+    }, 
+    "name": "会員カード（3日）", 
+    "start_time": 1325145600.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1325232000.0, 
+    "goods_description": "このカードをご利用頂きますと、3日間有効の会員資格がもらえます。会員になれば、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
+    "price": {
+     "num": 5, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
    "lvsefudai": {
     "specific_type": "xin", 
     "product_type": {
@@ -24207,29 +24226,6 @@
     "modify": false, 
     "goods_description": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
     "activity_type": "discount"
-   }, 
-   "month_day": {
-    "original_price": {
-     "num": 150, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "vip_card"
-    }, 
-    "name": "会員カード", 
-    "price": {
-     "num": 130, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1325145600.0, 
-    "goods_description": "このカードをご利用頂きますと、30日間有効の会員資格がもらえます。会員になりますと、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
-    "start_time": 1325059200.0, 
-    "activity_type": "hot_sale"
    }, 
    "hongsefudai": {
     "specific_type": "xin", 
@@ -72229,7 +72225,7 @@
     "vip_card": {
      "month_day": {
       "price": {
-       "F_coin": 130
+       "F_coin": 150
       }, 
       "used": true, 
       "name": "会員カード", 
@@ -72240,7 +72236,7 @@
       "price": {
        "F_coin": 5
       }, 
-      "used": false, 
+      "used": true, 
       "name": "会員カード（3日）", 
       "introduce": "このカードをご利用頂きますと、3日間有効の会員資格がもらえます。会員になれば、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
       "effect": 3
