@@ -9134,47 +9134,99 @@
      }
     }
    }, 
-   "jingbingbaoxiang": {
+   "shengdanlanniudan": {
     "config": {
      "price": {
-      "F_coin": 10
+      "F_coin": 1
      }, 
      "used": false, 
-     "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-     "name": "鏡もちの宝箱", 
-     "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+     "goods_str": "10%の確率で青の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
+     "name": "青のクリスマスカプセル", 
+     "introduce": "10%の確率で青の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "jingbingchen": [
+       "luhui": [
         1, 
-        0.8
+        0.05
        ], 
-       "jingbingchun": [
+       "heimeigui": [
         1, 
-        0.4
+        0.03
        ], 
-       "jingbingyuan": [
+       "yingtao": [
         1, 
-        0.2
+        0.08
        ], 
-       "jingbingshou": [
+       "shenqijasmine": [
         1, 
-        0.3
+        0.02
        ], 
-       "jingbingying": [
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "hhlyq": [
+        1, 
+        0.05
+       ], 
+       "lansexingxingshu": [
         1, 
         0.1
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "xunjie": [
-         5, 
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
          1.0
         ]
        }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
+       ]
       }
      }
     }
@@ -12146,27 +12198,6 @@
      }
     }
    }, 
-   "mianzhihuabao": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "中にプルメリアルブラの種5個が含まれています", 
-     "name": "プルメリアルブラ宝箱", 
-     "introduce": "中にプルメリアルブラの種5個が含まれています"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "mianzhihua": [
-        5, 
-        1
-       ]
-      }
-     }
-    }
-   }, 
    "bayuezhiwutuangoubaoxiang3": {
     "config": {
      "price": {
@@ -15058,98 +15089,22 @@
      }
     }
    }, 
-   "shengdanlanniudan": {
+   "mianzhihuabao": {
     "config": {
      "price": {
       "F_coin": 1
      }, 
      "used": false, 
-     "goods_str": "10%の確率で青の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！", 
-     "name": "青のクリスマスカプセル", 
-     "introduce": "10%の確率で青の星を獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のダイヤを全部揃うと500Kコイン相当のギフトセットがもらえます。今回のプレゼントはここでしか入手できないアイテムも入っています！"
+     "goods_str": "中にプルメリアルブラの種5個が含まれています", 
+     "name": "プルメリアルブラ宝箱", 
+     "introduce": "中にプルメリアルブラの種5個が含まれています"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "luhui": [
-        1, 
-        0.05
-       ], 
-       "heimeigui": [
-        1, 
-        0.03
-       ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "shenqijasmine": [
-        1, 
-        0.02
-       ], 
-       "shenqibian": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "hhlyq": [
-        1, 
-        0.05
-       ], 
-       "lansexingxingshu": [
-        1, 
-        0.1
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }, 
-      "babies": {
-       "chengseqingwa": [
-        1, 
-        0.1
-       ], 
-       "taohuamao": [
-        1, 
-        0.05
+       "mianzhihua": [
+        5, 
+        1
        ]
       }
      }
@@ -74349,7 +74304,7 @@
    "fensehudiebaoxiang", 
    "shiyiyuebaoxiang", 
    "jingangcuo", 
-   "jingbingbaoxiang", 
+   "kaichunbaoxiang", 
    "partyfuyongyitujianbaoxiang", 
    "chengseniudan", 
    "liangzhounianzhiwubaoxiang", 
@@ -74360,7 +74315,6 @@
    "jinsefudai", 
    "jidebaoxiang", 
    "hushenfu", 
-   "kaichunbaoxiang", 
    "ziseniudan", 
    "bayuezhuochongfuyongbaoxiang", 
    "tdyshong", 
