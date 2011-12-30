@@ -24122,29 +24122,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "zengshou1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "中級増産肥料", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1325232000.0, 
-    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-    "start_time": 1324886400.0, 
-    "activity_type": "hot_sale"
-   }, 
    "caisefudai": {
     "specific_type": "xin", 
     "product_type": {
@@ -24178,25 +24155,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "three_day": {
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "vip_card"
-    }, 
-    "name": "会員カード（3日）", 
-    "start_time": 1325145600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1325232000.0, 
-    "goods_description": "このカードをご利用頂きますと、3日間有効の会員資格がもらえます。会員になれば、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "lvsefudai": {
     "specific_type": "xin", 
     "product_type": {
@@ -24212,20 +24170,38 @@
     "goods_description": "80Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
     "activity_type": "discount"
    }, 
-   "fensefudai": {
+   "jinsefudai": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "ピンク福袋", 
+    "name": "イエロー福袋", 
     "price": {
-     "num": 200, 
+     "num": 300, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
+    "goods_description": "450Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
     "activity_type": "discount"
+   }, 
+   "hammer": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ハンマー", 
+    "start_time": 1325149200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "9日", 
+    "end_time": 1325926800.0, 
+    "goods_description": "クリスタルを開けることができます。", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "hongsefudai": {
     "specific_type": "xin", 
@@ -24242,19 +24218,37 @@
     "goods_description": "150Kコイン相当のアイテムが含まれています。さらに菊の門松と舞妓羽子板をもらうチャンスがあります。", 
     "activity_type": "discount"
    }, 
-   "jinsefudai": {
+   "crystal14": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ルビーキャスタル", 
+    "start_time": 1325149200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "9日", 
+    "end_time": 1325926800.0, 
+    "goods_description": "ルビーキャスタル", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "fensefudai": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "イエロー福袋", 
+    "name": "ピンク福袋", 
     "price": {
-     "num": 300, 
+     "num": 200, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "450Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
+    "goods_description": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
     "activity_type": "discount"
    }, 
    "heisefudai": {
