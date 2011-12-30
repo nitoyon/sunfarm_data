@@ -24122,29 +24122,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "zengshou1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "\u4e2d\u7d1a\u5897\u7523\u80a5\u6599", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4\u65e5", 
-    "end_time": 1325232000.0, 
-    "goods_description": "\u5897\u7523\u80a5\u6599\u306e\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u7248\u3001\u4e2d\u7d1a\u5897\u7523\u80a5\u6599\u306f\u30ec\u30d9\u30eb0\u304b\u308935\u307e\u3067\u306e\u4f5c\u7269\u306e\u5897\u7523\u91cf\u309250%\u30a2\u30c3\u30d7\u3057\u307e\u3059\uff08\u82b1\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\uff09\u3002\u540c\u3058\u4f5c\u7269\u306b2\u56de\u307e\u3067\u4f7f\u3048\u307e\u3059\u3002\u591a\u671f\u4f5c\u306e\u5834\u5408\u3001\u6b21\u306e\u53ce\u7a6b\u306f\u666e\u901a\u306b\u623b\u308a\u307e\u3059\u3002", 
-    "start_time": 1324886400.0, 
-    "activity_type": "hot_sale"
-   }, 
    "caisefudai": {
     "specific_type": "xin", 
     "product_type": {
@@ -24178,25 +24155,6 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "three_day": {
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "vip_card"
-    }, 
-    "name": "\u4f1a\u54e1\u30ab\u30fc\u30c9\uff083\u65e5\uff09", 
-    "start_time": 1325145600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "1\u65e5", 
-    "end_time": 1325232000.0, 
-    "goods_description": "\u3053\u306e\u30ab\u30fc\u30c9\u3092\u3054\u5229\u7528\u9802\u304d\u307e\u3059\u3068\u30013\u65e5\u9593\u6709\u52b9\u306e\u4f1a\u54e1\u8cc7\u683c\u304c\u3082\u3089\u3048\u307e\u3059\u3002\u4f1a\u54e1\u306b\u306a\u308c\u3070\u3001\u4fbf\u5229\u306a\u6a5f\u80fd\u304c\u4f7f\u3048\u308b\u307b\u304b\u3001\u30de\u30a4\u30df\u30af\u306e\u7267\u5834\u3068\u4e00\u5473\u9055\u3046\u7267\u5834\u3092\u3064\u304f\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
    "lvsefudai": {
     "specific_type": "xin", 
     "product_type": {
@@ -24212,20 +24170,38 @@
     "goods_description": "80K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u65e5\u672c\u63d0\u706f\u3068\u83ca\u306e\u9580\u677e\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
-   "fensefudai": {
+   "jinsefudai": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "\u30d4\u30f3\u30af\u798f\u888b", 
+    "name": "\u30a4\u30a8\u30ed\u30fc\u798f\u888b", 
     "price": {
-     "num": 200, 
+     "num": 300, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "300K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u6ce8\u9023\u7e04\u3068\u8fce\u6625\u98fe\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
+    "goods_description": "450K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u65e5\u672c\u63d0\u706f\u3068\u83ca\u306e\u9580\u677e\u3068\u821e\u5993\u7fbd\u5b50\u677f\u3068\u6ce8\u9023\u7e04\u3068\u8fce\u6625\u98fe\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
     "activity_type": "discount"
+   }, 
+   "hammer": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "\u30cf\u30f3\u30de\u30fc", 
+    "start_time": 1325149200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "9\u65e5", 
+    "end_time": 1325926800.0, 
+    "goods_description": "\u30af\u30ea\u30b9\u30bf\u30eb\u3092\u958b\u3051\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "hongsefudai": {
     "specific_type": "xin", 
@@ -24242,19 +24218,37 @@
     "goods_description": "150K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u83ca\u306e\u9580\u677e\u3068\u821e\u5993\u7fbd\u5b50\u677f\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
-   "jinsefudai": {
+   "crystal14": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "\u30eb\u30d3\u30fc\u30ad\u30e3\u30b9\u30bf\u30eb", 
+    "start_time": 1325149200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "9\u65e5", 
+    "end_time": 1325926800.0, 
+    "goods_description": "\u30eb\u30d3\u30fc\u30ad\u30e3\u30b9\u30bf\u30eb", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "fensefudai": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "\u30a4\u30a8\u30ed\u30fc\u798f\u888b", 
+    "name": "\u30d4\u30f3\u30af\u798f\u888b", 
     "price": {
-     "num": 300, 
+     "num": 200, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "450K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u65e5\u672c\u63d0\u706f\u3068\u83ca\u306e\u9580\u677e\u3068\u821e\u5993\u7fbd\u5b50\u677f\u3068\u6ce8\u9023\u7e04\u3068\u8fce\u6625\u98fe\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
+    "goods_description": "300K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u6ce8\u9023\u7e04\u3068\u8fce\u6625\u98fe\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
     "activity_type": "discount"
    }, 
    "heisefudai": {
