@@ -8722,7 +8722,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "30Kコイン相当のアイテムが含まれています。さらに木の龍をもらうチャンスがあります。", 
      "name": "新年のレッド福袋", 
      "introduce": "30Kコイン相当のアイテムが含まれています。さらに木の龍をもらうチャンスがあります。"
@@ -9927,7 +9927,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "30Kコイン相当のアイテムが含まれています。さらに火の龍りをもらうチャンスがあります。", 
      "name": "新年のピンク福袋", 
      "introduce": "30Kコイン相当のアイテムが含まれています。さらに火の龍りをもらうチャンスがあります。"
@@ -10041,7 +10041,7 @@
      "price": {
       "F_coin": 150
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "30Kコイン相当のアイテムが含まれています。さらに水の龍りをもらうチャンスがあります。", 
      "name": "新年のブラック福袋", 
      "introduce": "30Kコイン相当のアイテムが含まれています。さらに水の龍りをもらうチャンスがあります。"
@@ -11363,7 +11363,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "30Kコイン相当のアイテムが含まれています。さらに土の龍りをもらうチャンスがあります。", 
      "name": "新年のゴールデン福袋", 
      "introduce": "30Kコイン相当のアイテムが含まれています。さらに土の龍りをもらうチャンスがあります。"
@@ -11889,7 +11889,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "30Kコイン相当のアイテムが含まれています。さらに金の龍をもらうチャンスがあります。", 
      "name": "新年のグリーン福袋", 
      "introduce": "30Kコイン相当のアイテムが含まれています。さらに金の龍をもらうチャンスがあります。"
@@ -15560,7 +15560,7 @@
      "price": {
       "F_coin": 300
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "600Kコイン相当のアイテムが含まれています。100%確率で金の龍と木の龍と水の龍と火の龍と土の龍がもらえます。", 
      "name": "新年のカラフル福袋", 
      "introduce": "600Kコイン相当のアイテムが含まれています。100%確率で金の龍と木の龍と水の龍と火の龍と土の龍がもらえます。"
@@ -24818,19 +24818,38 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "caisefudai": {
+   "caisefudai2": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "カラフル福袋", 
+    "name": "新年のカラフル福袋", 
+    "start_time": "2011-12-31 18:00:00", 
+    "modify": false, 
+    "end_time": "2012-01-09 17:00:00", 
+    "goods_description": "600Kコイン相当のアイテムが含まれています。100%確率で金の龍と木の龍と水の龍と火の龍と土の龍がもらえます。", 
     "price": {
-     "num": 500, 
+     "num": 300, 
      "type": "F_coin"
     }, 
+    "activity_type": "discount"
+   }, 
+   "jinsefudai2": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "新年のゴールデン福袋", 
+    "start_time": "2011-12-31 18:00:00", 
     "modify": false, 
-    "goods_description": "850Kコイン相当のアイテムが含まれています。100%確率で日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾がもらえます。", 
+    "end_time": "2012-01-09 17:00:00", 
+    "goods_description": "450Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
     "activity_type": "discount"
    }, 
    "shengdanlibao": {
@@ -24851,67 +24870,55 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "lvsefudai": {
+   "heisefudai2": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "グリーン福袋", 
+    "name": "新年のブラック福袋", 
+    "start_time": "2011-12-31 18:00:00", 
+    "modify": false, 
+    "end_time": "2012-01-09 17:00:00", 
+    "goods_description": "200Kコイン相当のアイテムが含まれています。さらに舞妓羽子板と注連縄をもらうチャンスがあります。", 
     "price": {
-     "num": 50, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "80Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
     "activity_type": "discount"
    }, 
-   "jinsefudai": {
+   "hongsefudai2": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "イエロー福袋", 
-    "price": {
-     "num": 300, 
-     "type": "F_coin"
-    }, 
+    "name": "新年のレッド福袋", 
+    "start_time": "2011-12-31 18:00:00", 
     "modify": false, 
-    "goods_description": "450Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
-    "activity_type": "discount"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ハンマー", 
-    "start_time": 1325149200.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "9日", 
-    "end_time": 1325926800.0, 
-    "goods_description": "クリスタルを開けることができます。", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "hongsefudai": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "レッド福袋", 
-    "price": {
-     "num": 100, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
+    "end_time": "2012-01-09 17:00:00", 
     "goods_description": "150Kコイン相当のアイテムが含まれています。さらに菊の門松と舞妓羽子板をもらうチャンスがあります。", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "discount"
+   }, 
+   "lvsefudai2": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "新年のグリーン福袋", 
+    "start_time": "2011-12-31 18:00:00", 
+    "modify": false, 
+    "end_time": "2012-01-09 17:00:00", 
+    "goods_description": "80Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
     "activity_type": "discount"
    }, 
    "crystal14": {
@@ -24932,35 +24939,40 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "fensefudai": {
+   "fensefudai2": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "ピンク福袋", 
+    "name": "新年のピンク福袋", 
+    "start_time": "2011-12-31 18:00:00", 
+    "modify": false, 
+    "end_time": "2012-01-09 17:00:00", 
+    "goods_description": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
     "price": {
-     "num": 200, 
+     "num": 15, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
     "activity_type": "discount"
    }, 
-   "heisefudai": {
-    "specific_type": "xin", 
+   "hammer": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "ブラック福袋", 
+    "name": "ハンマー", 
+    "start_time": 1325149200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "9日", 
+    "end_time": 1325926800.0, 
+    "goods_description": "クリスタルを開けることができます。", 
     "price": {
-     "num": 150, 
+     "num": 10, 
      "type": "F_coin"
     }, 
-    "modify": false, 
-    "goods_description": "200Kコイン相当のアイテムが含まれています。さらに舞妓羽子板と注連縄をもらうチャンスがあります。", 
-    "activity_type": "discount"
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
