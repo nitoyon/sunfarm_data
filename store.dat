@@ -8717,6 +8717,59 @@
      }
     }
    }, 
+   "hongsefudai2": {
+    "config": {
+     "price": {
+      "F_coin": 15
+     }, 
+     "used": false, 
+     "goods_str": "30K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u6728\u306e\u9f8d\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
+     "name": "\u65b0\u5e74\u306e\u30ec\u30c3\u30c9\u798f\u888b", 
+     "introduce": "30K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u6728\u306e\u9f8d\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "wenshulan": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaoji": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "xiaomulong": [
+        1, 
+        0.2
+       ]
+      }
+     }
+    }
+   }, 
    "qingrenyushou3": {
     "config": {
      "price": {
@@ -8977,53 +9030,53 @@
      }
     }
    }, 
-   "ziseniudan": {
+   "fensefudai": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 200
      }, 
-     "used": false, 
-     "goods_str": "3%\u306e\u78ba\u7387\u3067\u7d2b\u30ab\u30fc\u30c9\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30df\u30cb\u30de\u30b8\u30c3\u30af\u98fc\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u307e\u305f\u3001\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u3082\u30e9\u30f3\u30c0\u30e0\u3067\u3082\u3089\u3048\u307e\u3059\u30026\u7a2e\u985e\u306e\u30ab\u30fc\u30c9\u3092\u5168\u90e8\u63c3\u3046\u3068500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002", 
-     "name": "\u7d2b\u30ab\u30d7\u30bb\u30eb", 
-     "introduce": "3%\u306e\u78ba\u7387\u3067\u7d2b\u30ab\u30fc\u30c9\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30df\u30cb\u30de\u30b8\u30c3\u30af\u98fc\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u307e\u305f\u3001\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u3082\u30e9\u30f3\u30c0\u30e0\u3067\u3082\u3089\u3048\u307e\u3059\u30026\u7a2e\u985e\u306e\u30ab\u30fc\u30c9\u3092\u5168\u90e8\u63c3\u3046\u3068500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002"
+     "used": true, 
+     "goods_str": "300K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u6ce8\u9023\u7e04\u3068\u8fce\u6625\u98fe\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
+     "name": "\u30d4\u30f3\u30af\u798f\u888b", 
+     "introduce": "300K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u6ce8\u9023\u7e04\u3068\u8fce\u6625\u98fe\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002"
     }, 
     "data": {
      "farm": {
       "seeds": {
        "baiqiangwei": [
         1, 
-        0.02
+        1
        ], 
-       "jiariyecan": [
+       "zhuliansheng": [
         1, 
-        0.01
+        0.6
        ], 
-       "yutuhua": [
+       "zhuoshi": [
         1, 
         0.1
        ], 
-       "fenghuangzhiyi": [
+       "wenshulan": [
         1, 
-        0.03
-       ], 
-       "shenqiparadiseflower": [
-        1, 
-        0.01
-       ], 
-       "zizuanshu": [
-        1, 
-        0.03
+        1
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "xunjie": [
-         1, 
-         0.3
+        "test": [
+         2, 
+         1.0
+        ], 
+        "zengshou1": [
+         2, 
+         1.0
         ], 
         "gaoji": [
-         1, 
-         0.05
+         4, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
         ]
        }
       }
@@ -9031,28 +9084,32 @@
      "ranch": {
       "properties": {
        "feedstuffs": {
-        "gaosu": [
-         1, 
-         0.08
+        "jisu1": [
+         2, 
+         1.0
         ], 
-        "xunjie1": [
-         1, 
-         1
+        "ceshi": [
+         2, 
+         1.0
+        ], 
+        "gaoji": [
+         4, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
         ]
        }
       }, 
       "babies": {
-       "buludaoshangfengdie": [
+       "huabao": [
         1, 
-        0.05
+        1.0
        ], 
-       "huangsewoniu": [
+       "geshouxiaogou": [
         1, 
-        0.08
-       ], 
-       "jinseqingwa": [
-        1, 
-        0.1
+        1.0
        ]
       }
      }
@@ -9090,6 +9147,103 @@
        "shenqima_ti_lian": [
         1, 
         0.3
+       ]
+      }
+     }
+    }
+   }, 
+   "shengdanlanniudan": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "10%\u306e\u78ba\u7387\u3067\u9752\u306e\u661f\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u30025\u7a2e\u985e\u306e\u30c0\u30a4\u30e4\u3092\u5168\u90e8\u63c3\u3046\u3068500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002\u4eca\u56de\u306e\u30d7\u30ec\u30bc\u30f3\u30c8\u306f\u3053\u3053\u3067\u3057\u304b\u5165\u624b\u3067\u304d\u306a\u3044\u30a2\u30a4\u30c6\u30e0\u3082\u5165\u3063\u3066\u3044\u307e\u3059\uff01", 
+     "name": "\u9752\u306e\u30af\u30ea\u30b9\u30de\u30b9\u30ab\u30d7\u30bb\u30eb", 
+     "introduce": "10%\u306e\u78ba\u7387\u3067\u9752\u306e\u661f\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u30025\u7a2e\u985e\u306e\u30c0\u30a4\u30e4\u3092\u5168\u90e8\u63c3\u3046\u3068500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002\u4eca\u56de\u306e\u30d7\u30ec\u30bc\u30f3\u30c8\u306f\u3053\u3053\u3067\u3057\u304b\u5165\u624b\u3067\u304d\u306a\u3044\u30a2\u30a4\u30c6\u30e0\u3082\u5165\u3063\u3066\u3044\u307e\u3059\uff01"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "luhui": [
+        1, 
+        0.05
+       ], 
+       "heimeigui": [
+        1, 
+        0.03
+       ], 
+       "yingtao": [
+        1, 
+        0.08
+       ], 
+       "shenqijasmine": [
+        1, 
+        0.02
+       ], 
+       "shenqibian": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "nvmogu": [
+        1, 
+        0.02
+       ], 
+       "hhlyq": [
+        1, 
+        0.05
+       ], 
+       "lansexingxingshu": [
+        1, 
+        0.1
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.01
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "jisu": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.08
+        ], 
+        "xunjie1": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
+      }, 
+      "babies": {
+       "chengseqingwa": [
+        1, 
+        0.1
+       ], 
+       "taohuamao": [
+        1, 
+        0.05
        ]
       }
      }
@@ -9768,31 +9922,19 @@
      }
     }
    }, 
-   "heisefudai": {
+   "fensefudai2": {
     "config": {
      "price": {
-      "F_coin": 150
+      "F_coin": 15
      }, 
-     "used": true, 
-     "goods_str": "200K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u821e\u5993\u7fbd\u5b50\u677f\u3068\u6ce8\u9023\u7e04\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
-     "name": "\u30d6\u30e9\u30c3\u30af\u798f\u888b", 
-     "introduce": "200K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u821e\u5993\u7fbd\u5b50\u677f\u3068\u6ce8\u9023\u7e04\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002"
+     "used": false, 
+     "goods_str": "30K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u706b\u306e\u9f8d\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
+     "name": "\u65b0\u5e74\u306e\u30d4\u30f3\u30af\u798f\u888b", 
+     "introduce": "30K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u706b\u306e\u9f8d\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "baiqiangwei": [
-        1, 
-        1
-       ], 
-       "yumaojianpai": [
-        1, 
-        0.6
-       ], 
-       "zhuliansheng": [
-        1, 
-        0.1
-       ], 
        "wenshulan": [
         1, 
         1
@@ -9800,16 +9942,12 @@
       }, 
       "properties": {
        "fertilizer": {
-        "zengshou1": [
-         2, 
+        "gaoji": [
+         1, 
          1.0
         ], 
         "xunjie": [
-         5, 
-         1.0
-        ], 
-        "gaoji": [
-         4, 
+         2, 
          1.0
         ]
        }
@@ -9818,28 +9956,20 @@
      "ranch": {
       "properties": {
        "feedstuffs": {
-        "jisu1": [
-         2, 
-         1.0
-        ], 
         "gaoji": [
-         4, 
+         1, 
          1.0
         ], 
         "xunjie": [
-         5, 
+         2, 
          1.0
         ]
        }
       }, 
       "babies": {
-       "jitatuzi": [
+       "xiaohuolong": [
         1, 
-        1.0
-       ], 
-       "huabao": [
-        1, 
-        1.0
+        0.2
        ]
       }
      }
@@ -9899,6 +10029,59 @@
         0.2
        ], 
        "wushi": [
+        1, 
+        0.2
+       ]
+      }
+     }
+    }
+   }, 
+   "heisefudai2": {
+    "config": {
+     "price": {
+      "F_coin": 150
+     }, 
+     "used": false, 
+     "goods_str": "30K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u6c34\u306e\u9f8d\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
+     "name": "\u65b0\u5e74\u306e\u30d6\u30e9\u30c3\u30af\u798f\u888b", 
+     "introduce": "30K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u6c34\u306e\u9f8d\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "wenshulan": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaoji": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "xiaoshuilong": [
         1, 
         0.2
        ]
@@ -10170,39 +10353,47 @@
      }
     }
    }, 
-   "tianqishutuangou": {
+   "kaichunbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 99
+      "F_coin": 7
      }, 
      "used": false, 
-     "goods_str": "100\uff05\u306e\u78ba\u7387\u3067\u6674\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96e8\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u98a8\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96ea\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96f9\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
-     "name": "\u5929\u6c17\u306e\u30b7\u30e3\u30dc\u30f3\u6a39\u7b2c\u4e00\u5f3e\u306e\u56f3\u9451\u5b9d\u7bb1", 
-     "introduce": "100\uff05\u306e\u78ba\u7387\u3067\u6674\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96e8\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u98a8\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96ea\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96f9\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002"
+     "goods_str": "\u8ca9\u58f2\u4fc3\u9032\u304c\u7d42\u4e86\u5f8c\u3001\u5b9d\u7bb1\u306f\u8ca9\u58f2\u3057\u3066\u3044\u307e\u305b\u3093!100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u690d\u7269\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002", 
+     "name": "3\u6708\u306e\u5b9d\u7bb1", 
+     "introduce": "\u8ca9\u58f2\u4fc3\u9032\u304c\u7d42\u4e86\u5f8c\u3001\u5b9d\u7bb1\u306f\u8ca9\u58f2\u3057\u3066\u3044\u307e\u305b\u3093!100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u690d\u7269\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "f678_qingtianfeizaoshu": [
+       "linglan": [
         1, 
-        1
+        0.4
        ], 
-       "f682_bingbaofeizaoshu": [
+       "maoliu": [
         1, 
-        1
+        0.08
        ], 
-       "f679_yutianfeizaoshu": [
+       "yingchunhua": [
         1, 
-        1
+        0.8
        ], 
-       "f681_xuehuafeizaoshu": [
+       "jindaihua": [
         1, 
-        1
+        0.2
        ], 
-       "f680_hanfengfeizaoshu": [
+       "dongbeijincai": [
         1, 
-        1
+        0.3
        ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -10606,6 +10797,43 @@
      "ranch": {
       "babies": {
        "lansehudie": [
+        1, 
+        1
+       ]
+      }
+     }
+    }
+   }, 
+   "tianqishutuangou": {
+    "config": {
+     "price": {
+      "F_coin": 99
+     }, 
+     "used": false, 
+     "goods_str": "100\uff05\u306e\u78ba\u7387\u3067\u6674\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96e8\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u98a8\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96ea\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96f9\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002", 
+     "name": "\u5929\u6c17\u306e\u30b7\u30e3\u30dc\u30f3\u6a39\u7b2c\u4e00\u5f3e\u306e\u56f3\u9451\u5b9d\u7bb1", 
+     "introduce": "100\uff05\u306e\u78ba\u7387\u3067\u6674\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96e8\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u98a8\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96ea\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\uff0c\u96f9\u306e\u30b7\u30e3\u30dc\u30f3\u6a39*1\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "f678_qingtianfeizaoshu": [
+        1, 
+        1
+       ], 
+       "f682_bingbaofeizaoshu": [
+        1, 
+        1
+       ], 
+       "f679_yutianfeizaoshu": [
+        1, 
+        1
+       ], 
+       "f681_xuehuafeizaoshu": [
+        1, 
+        1
+       ], 
+       "f680_hanfengfeizaoshu": [
         1, 
         1
        ]
@@ -11130,6 +11358,59 @@
      }
     }
    }, 
+   "jinsefudai2": {
+    "config": {
+     "price": {
+      "F_coin": 15
+     }, 
+     "used": false, 
+     "goods_str": "30K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u571f\u306e\u9f8d\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
+     "name": "\u65b0\u5e74\u306e\u30b4\u30fc\u30eb\u30c7\u30f3\u798f\u888b", 
+     "introduce": "30K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u571f\u306e\u9f8d\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "wenshulan": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaoji": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "xiaotulong": [
+        1, 
+        0.2
+       ]
+      }
+     }
+    }
+   }, 
    "guohuatujian": {
     "config": {
      "price": {
@@ -11598,6 +11879,59 @@
        "xiongmaotu": [
         1, 
         0.05
+       ]
+      }
+     }
+    }
+   }, 
+   "lvsefudai2": {
+    "config": {
+     "price": {
+      "F_coin": 15
+     }, 
+     "used": false, 
+     "goods_str": "30K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u91d1\u306e\u9f8d\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
+     "name": "\u65b0\u5e74\u306e\u30b0\u30ea\u30fc\u30f3\u798f\u888b", 
+     "introduce": "30K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u91d1\u306e\u9f8d\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "wenshulan": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "gaoji": [
+         1, 
+         1.0
+        ], 
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "xiaojinlong": [
+        1, 
+        0.2
        ]
       }
      }
@@ -12267,27 +12601,6 @@
          1
         ]
        }
-      }
-     }
-    }
-   }, 
-   "mianzhihuabao": {
-    "config": {
-     "price": {
-      "F_coin": 1
-     }, 
-     "used": false, 
-     "goods_str": "\u4e2d\u306b\u30d7\u30eb\u30e1\u30ea\u30a2\u30eb\u30d6\u30e9\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
-     "name": "\u30d7\u30eb\u30e1\u30ea\u30a2\u30eb\u30d6\u30e9\u5b9d\u7bb1", 
-     "introduce": "\u4e2d\u306b\u30d7\u30eb\u30e1\u30ea\u30a2\u30eb\u30d6\u30e9\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "mianzhihua": [
-        5, 
-        1
-       ]
       }
      }
     }
@@ -13193,22 +13506,98 @@
      }
     }
    }, 
-   "dihuangbaoxiang": {
+   "yinghuashulanniudan": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 2
      }, 
-     "used": true, 
-     "goods_str": "\u4e2d\u306b\u30b8\u30aa\u30a6\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
-     "name": "\u30b8\u30aa\u30a6\u5b9d\u7bb1", 
-     "introduce": "\u4e2d\u306b\u30b8\u30aa\u30a6\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
+     "used": false, 
+     "goods_str": "3%\u306e\u78ba\u7387\u3067\u9752\u3055\u304f\u3089\u7389\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u98fc\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u30025\u7a2e\u985e\u306e\u3055\u304f\u3089\u7389\u3092\u5168\u90e8\u63c3\u3046\u3068800K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002", 
+     "name": "\u9752\u3055\u304f\u3089\u7389\u306e\u30ab\u30d7\u30bb\u30eb", 
+     "introduce": "3%\u306e\u78ba\u7387\u3067\u9752\u3055\u304f\u3089\u7389\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u98fc\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u30025\u7a2e\u985e\u306e\u3055\u304f\u3089\u7389\u3092\u5168\u90e8\u63c3\u3046\u3068800K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "dihuang": [
-        5, 
-        1
+       "baiqiangwei": [
+        1, 
+        0.02
+       ], 
+       "yutuhua": [
+        1, 
+        0.1
+       ], 
+       "niudanzhiwulanse": [
+        1, 
+        0.03
+       ], 
+       "jiariyecan": [
+        1, 
+        0.01
+       ], 
+       "zishuijingpingguo": [
+        1, 
+        0.01
+       ], 
+       "shenqinigerseed": [
+        1, 
+        0.03
+       ], 
+       "qinglvmogu": [
+        1, 
+        0.03
+       ], 
+       "chabei": [
+        1, 
+        0.03
+       ], 
+       "nirenxiangjiao": [
+        1, 
+        0.03
+       ], 
+       "zhangyufengzheng": [
+        1, 
+        0.03
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         1, 
+         0.1
+        ], 
+        "gaoji": [
+         1, 
+         0.05
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "xunjie": [
+         1, 
+         1
+        ], 
+        "gaosu": [
+         1, 
+         0.08
+        ]
+       }
+      }, 
+      "babies": {
+       "buludaoshangfengdie": [
+        1, 
+        0.05
+       ], 
+       "jinsewoniu": [
+        1, 
+        0.08
+       ], 
+       "baitu": [
+        1, 
+        0.05
        ]
       }
      }
@@ -13736,53 +14125,53 @@
      }
     }
    }, 
-   "fensefudai": {
+   "ziseniudan": {
     "config": {
      "price": {
-      "F_coin": 200
+      "F_coin": 1
      }, 
-     "used": true, 
-     "goods_str": "300K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u6ce8\u9023\u7e04\u3068\u8fce\u6625\u98fe\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
-     "name": "\u30d4\u30f3\u30af\u798f\u888b", 
-     "introduce": "300K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u6ce8\u9023\u7e04\u3068\u8fce\u6625\u98fe\u308a\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002"
+     "used": false, 
+     "goods_str": "3%\u306e\u78ba\u7387\u3067\u7d2b\u30ab\u30fc\u30c9\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30df\u30cb\u30de\u30b8\u30c3\u30af\u98fc\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u307e\u305f\u3001\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u3082\u30e9\u30f3\u30c0\u30e0\u3067\u3082\u3089\u3048\u307e\u3059\u30026\u7a2e\u985e\u306e\u30ab\u30fc\u30c9\u3092\u5168\u90e8\u63c3\u3046\u3068500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002", 
+     "name": "\u7d2b\u30ab\u30d7\u30bb\u30eb", 
+     "introduce": "3%\u306e\u78ba\u7387\u3067\u7d2b\u30ab\u30fc\u30c9\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30df\u30cb\u30de\u30b8\u30c3\u30af\u98fc\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u307e\u305f\u3001\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u3082\u30e9\u30f3\u30c0\u30e0\u3067\u3082\u3089\u3048\u307e\u3059\u30026\u7a2e\u985e\u306e\u30ab\u30fc\u30c9\u3092\u5168\u90e8\u63c3\u3046\u3068500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002"
     }, 
     "data": {
      "farm": {
       "seeds": {
        "baiqiangwei": [
         1, 
-        1
+        0.02
        ], 
-       "zhuliansheng": [
+       "jiariyecan": [
         1, 
-        0.6
+        0.01
        ], 
-       "zhuoshi": [
+       "yutuhua": [
         1, 
         0.1
        ], 
-       "wenshulan": [
+       "fenghuangzhiyi": [
         1, 
-        1
+        0.03
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        0.01
+       ], 
+       "zizuanshu": [
+        1, 
+        0.03
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "test": [
-         2, 
-         1.0
-        ], 
-        "zengshou1": [
-         2, 
-         1.0
+        "xunjie": [
+         1, 
+         0.3
         ], 
         "gaoji": [
-         4, 
-         1.0
-        ], 
-        "xunjie": [
-         5, 
-         1.0
+         1, 
+         0.05
         ]
        }
       }
@@ -13790,32 +14179,28 @@
      "ranch": {
       "properties": {
        "feedstuffs": {
-        "jisu1": [
-         2, 
-         1.0
+        "gaosu": [
+         1, 
+         0.08
         ], 
-        "ceshi": [
-         2, 
-         1.0
-        ], 
-        "gaoji": [
-         4, 
-         1.0
-        ], 
-        "xunjie": [
-         5, 
-         1.0
+        "xunjie1": [
+         1, 
+         1
         ]
        }
       }, 
       "babies": {
-       "huabao": [
+       "buludaoshangfengdie": [
         1, 
-        1.0
+        0.05
        ], 
-       "geshouxiaogou": [
+       "huangsewoniu": [
         1, 
-        1.0
+        0.08
+       ], 
+       "jinseqingwa": [
+        1, 
+        0.1
        ]
       }
      }
@@ -14766,98 +15151,22 @@
      }
     }
    }, 
-   "yinghuashulanniudan": {
+   "dihuangbaoxiang": {
     "config": {
      "price": {
-      "F_coin": 2
+      "F_coin": 1
      }, 
-     "used": false, 
-     "goods_str": "3%\u306e\u78ba\u7387\u3067\u9752\u3055\u304f\u3089\u7389\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u98fc\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u30025\u7a2e\u985e\u306e\u3055\u304f\u3089\u7389\u3092\u5168\u90e8\u63c3\u3046\u3068800K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002", 
-     "name": "\u9752\u3055\u304f\u3089\u7389\u306e\u30ab\u30d7\u30bb\u30eb", 
-     "introduce": "3%\u306e\u78ba\u7387\u3067\u9752\u3055\u304f\u3089\u7389\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u98fc\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u30025\u7a2e\u985e\u306e\u3055\u304f\u3089\u7389\u3092\u5168\u90e8\u63c3\u3046\u3068800K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002"
+     "used": true, 
+     "goods_str": "\u4e2d\u306b\u30b8\u30aa\u30a6\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
+     "name": "\u30b8\u30aa\u30a6\u5b9d\u7bb1", 
+     "introduce": "\u4e2d\u306b\u30b8\u30aa\u30a6\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "baiqiangwei": [
-        1, 
-        0.02
-       ], 
-       "yutuhua": [
-        1, 
-        0.1
-       ], 
-       "niudanzhiwulanse": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "zishuijingpingguo": [
-        1, 
-        0.01
-       ], 
-       "shenqinigerseed": [
-        1, 
-        0.03
-       ], 
-       "qinglvmogu": [
-        1, 
-        0.03
-       ], 
-       "chabei": [
-        1, 
-        0.03
-       ], 
-       "nirenxiangjiao": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.03
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "xunjie": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.05
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         1
-        ], 
-        "gaosu": [
-         1, 
-         0.08
-        ]
-       }
-      }, 
-      "babies": {
-       "buludaoshangfengdie": [
-        1, 
-        0.05
-       ], 
-       "jinsewoniu": [
-        1, 
-        0.08
-       ], 
-       "baitu": [
-        1, 
-        0.05
+       "dihuang": [
+        5, 
+        1
        ]
       }
      }
@@ -15183,98 +15492,22 @@
      }
     }
    }, 
-   "shengdanlanniudan": {
+   "mianzhihuabao": {
     "config": {
      "price": {
       "F_coin": 1
      }, 
      "used": false, 
-     "goods_str": "10%\u306e\u78ba\u7387\u3067\u9752\u306e\u661f\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u30025\u7a2e\u985e\u306e\u30c0\u30a4\u30e4\u3092\u5168\u90e8\u63c3\u3046\u3068500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002\u4eca\u56de\u306e\u30d7\u30ec\u30bc\u30f3\u30c8\u306f\u3053\u3053\u3067\u3057\u304b\u5165\u624b\u3067\u304d\u306a\u3044\u30a2\u30a4\u30c6\u30e0\u3082\u5165\u3063\u3066\u3044\u307e\u3059\uff01", 
-     "name": "\u9752\u306e\u30af\u30ea\u30b9\u30de\u30b9\u30ab\u30d7\u30bb\u30eb", 
-     "introduce": "10%\u306e\u78ba\u7387\u3067\u9752\u306e\u661f\u3092\u7372\u5f97\u3067\u304d\u307e\u3059\u3002100\uff05\u306e\u78ba\u7387\u3067\u30df\u30cb\u30de\u30b8\u30c3\u30af\u80a5\u6599\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u30025\u7a2e\u985e\u306e\u30c0\u30a4\u30e4\u3092\u5168\u90e8\u63c3\u3046\u3068500K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30ae\u30d5\u30c8\u30bb\u30c3\u30c8\u304c\u3082\u3089\u3048\u307e\u3059\u3002\u4eca\u56de\u306e\u30d7\u30ec\u30bc\u30f3\u30c8\u306f\u3053\u3053\u3067\u3057\u304b\u5165\u624b\u3067\u304d\u306a\u3044\u30a2\u30a4\u30c6\u30e0\u3082\u5165\u3063\u3066\u3044\u307e\u3059\uff01"
+     "goods_str": "\u4e2d\u306b\u30d7\u30eb\u30e1\u30ea\u30a2\u30eb\u30d6\u30e9\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
+     "name": "\u30d7\u30eb\u30e1\u30ea\u30a2\u30eb\u30d6\u30e9\u5b9d\u7bb1", 
+     "introduce": "\u4e2d\u306b\u30d7\u30eb\u30e1\u30ea\u30a2\u30eb\u30d6\u30e9\u306e\u7a2e5\u500b\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "luhui": [
-        1, 
-        0.05
-       ], 
-       "heimeigui": [
-        1, 
-        0.03
-       ], 
-       "yingtao": [
-        1, 
-        0.08
-       ], 
-       "shenqijasmine": [
-        1, 
-        0.02
-       ], 
-       "shenqibian": [
-        1, 
-        0.03
-       ], 
-       "jiariyecan": [
-        1, 
-        0.01
-       ], 
-       "nvmogu": [
-        1, 
-        0.02
-       ], 
-       "hhlyq": [
-        1, 
-        0.05
-       ], 
-       "lansexingxingshu": [
-        1, 
-        0.1
-       ], 
-       "nirenboluo": [
-        1, 
-        0.03
-       ], 
-       "zhangyufengzheng": [
-        1, 
-        0.01
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "jisu": [
-         1, 
-         0.1
-        ], 
-        "gaoji": [
-         1, 
-         0.08
-        ], 
-        "xunjie1": [
-         1, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "properties": {
-       "feedstuffs": {
-        "xunjie": [
-         1, 
-         0.3
-        ]
-       }
-      }, 
-      "babies": {
-       "chengseqingwa": [
-        1, 
-        0.1
-       ], 
-       "taohuamao": [
-        1, 
-        0.05
+       "mianzhihua": [
+        5, 
+        1
        ]
       }
      }
@@ -15318,6 +15551,135 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "caisefudai2": {
+    "config": {
+     "price": {
+      "F_coin": 300
+     }, 
+     "used": false, 
+     "goods_str": "600K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002100%\u78ba\u7387\u3067\u91d1\u306e\u9f8d\u3068\u6728\u306e\u9f8d\u3068\u6c34\u306e\u9f8d\u3068\u706b\u306e\u9f8d\u3068\u571f\u306e\u9f8d\u304c\u3082\u3089\u3048\u307e\u3059\u3002", 
+     "name": "\u65b0\u5e74\u306e\u30ab\u30e9\u30d5\u30eb\u798f\u888b", 
+     "introduce": "600K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002100%\u78ba\u7387\u3067\u91d1\u306e\u9f8d\u3068\u6728\u306e\u9f8d\u3068\u6c34\u306e\u9f8d\u3068\u706b\u306e\u9f8d\u3068\u571f\u306e\u9f8d\u304c\u3082\u3089\u3048\u307e\u3059\u3002"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "baiqiangwei": [
+        1, 
+        1.0
+       ], 
+       "shenqijindaihua": [
+        1, 
+        1.0
+       ], 
+       "wenshulan": [
+        1, 
+        1.0
+       ], 
+       "lvronghao": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "zengshou1": [
+         5, 
+         1.0
+        ], 
+        "zengshou3": [
+         3, 
+         1.0
+        ], 
+        "jisu": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         2, 
+         1.0
+        ], 
+        "test": [
+         3, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu1": [
+         2, 
+         1.0
+        ], 
+        "ceshi": [
+         3, 
+         1.0
+        ], 
+        "gaoji": [
+         3, 
+         1.0
+        ], 
+        "gaosu": [
+         5, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }, 
+      "babies": {
+       "xiaojinlong": [
+        1, 
+        1.0
+       ], 
+       "zixingchuzuche": [
+        1, 
+        1.0
+       ], 
+       "xiaohuolong": [
+        1, 
+        1.0
+       ], 
+       "zisehudie": [
+        1, 
+        1.0
+       ], 
+       "haidaociwei": [
+        1, 
+        1.0
+       ], 
+       "tunshubai": [
+        1, 
+        1.0
+       ], 
+       "xiaotulong": [
+        1, 
+        1.0
+       ], 
+       "xiaomulong": [
+        1, 
+        1.0
+       ], 
+       "qiqiuzhu": [
+        1, 
+        1.0
+       ], 
+       "xiaoshuilong": [
+        1, 
+        1.0
+       ]
       }
      }
     }
@@ -16135,47 +16497,79 @@
      }
     }
    }, 
-   "kaichunbaoxiang": {
+   "heisefudai": {
     "config": {
      "price": {
-      "F_coin": 7
+      "F_coin": 150
      }, 
-     "used": false, 
-     "goods_str": "\u8ca9\u58f2\u4fc3\u9032\u304c\u7d42\u4e86\u5f8c\u3001\u5b9d\u7bb1\u306f\u8ca9\u58f2\u3057\u3066\u3044\u307e\u305b\u3093!100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u690d\u7269\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002", 
-     "name": "3\u6708\u306e\u5b9d\u7bb1", 
-     "introduce": "\u8ca9\u58f2\u4fc3\u9032\u304c\u7d42\u4e86\u5f8c\u3001\u5b9d\u7bb1\u306f\u8ca9\u58f2\u3057\u3066\u3044\u307e\u305b\u3093!100%\u306e\u78ba\u7387\u3067\u30de\u30b8\u30c3\u30af\u80a5\u6599\u304c5\u500b\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u30e9\u30f3\u30c0\u30e0\u3067\u690d\u7269\u30b7\u30ea\u30fc\u30ba\u306e\u3069\u308c\u304b\u304c\u5165\u624b\u3067\u304d\u307e\u3059\u3002\u304a\u6301\u3061\u56f3\u9451\u306b\u53ce\u9332\u3055\u308c\u307e\u3059\u3002"
+     "used": true, 
+     "goods_str": "200K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u821e\u5993\u7fbd\u5b50\u677f\u3068\u6ce8\u9023\u7e04\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002", 
+     "name": "\u30d6\u30e9\u30c3\u30af\u798f\u888b", 
+     "introduce": "200K\u30b3\u30a4\u30f3\u76f8\u5f53\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u3055\u3089\u306b\u821e\u5993\u7fbd\u5b50\u677f\u3068\u6ce8\u9023\u7e04\u3092\u3082\u3089\u3046\u30c1\u30e3\u30f3\u30b9\u304c\u3042\u308a\u307e\u3059\u3002"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "linglan": [
+       "baiqiangwei": [
         1, 
-        0.4
+        1
        ], 
-       "maoliu": [
+       "yumaojianpai": [
         1, 
-        0.08
+        0.6
        ], 
-       "yingchunhua": [
+       "zhuliansheng": [
         1, 
-        0.8
+        0.1
        ], 
-       "jindaihua": [
+       "wenshulan": [
         1, 
-        0.2
-       ], 
-       "dongbeijincai": [
-        1, 
-        0.3
+        1
        ]
       }, 
       "properties": {
        "fertilizer": {
+        "zengshou1": [
+         2, 
+         1.0
+        ], 
+        "xunjie": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         4, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "properties": {
+       "feedstuffs": {
+        "jisu1": [
+         2, 
+         1.0
+        ], 
+        "gaoji": [
+         4, 
+         1.0
+        ], 
         "xunjie": [
          5, 
          1.0
         ]
        }
+      }, 
+      "babies": {
+       "jitatuzi": [
+        1, 
+        1.0
+       ], 
+       "huabao": [
+        1, 
+        1.0
+       ]
       }
      }
     }
@@ -43646,6 +44040,25 @@
      "leaf_time": 480, 
      "level_need": 0
     }, 
+    "huandebacaozhou": {
+     "total_time": 1001, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u5e7b\u306e\u516b\u8349\u7ca5", 
+     "base_fruit": 25, 
+     "fruit_time": 1, 
+     "sprout_time": 50, 
+     "bloom_time": 500, 
+     "experience": 80, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 300, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
+     "level_need": 1
+    }, 
     "huajiantuanzi": {
      "total_time": 480, 
      "leaflet_time": 20, 
@@ -47541,22 +47954,22 @@
      "leaf_time": 145, 
      "level_need": 1
     }, 
-    "caihuawenshala": {
-     "total_time": 840, 
-     "leaflet_time": 90, 
+    "xueyuanyinghua": {
+     "total_time": 1735, 
+     "leaflet_time": 347, 
      "used": false, 
-     "name": "\u30ab\u30ea\u30d5\u30e9\u30ef\u30fc\u306e\u30db\u30c3\u30c8\u30b5\u30e9\u30c0", 
+     "name": "\u685c\u306e\u6728", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 90, 
-     "bloom_time": 240, 
-     "experience": 37, 
-     "seasons": 1, 
-     "sale_price": 55, 
+     "fruit_time": 521, 
+     "sprout_time": 173, 
+     "bloom_time": 347, 
+     "experience": 3.18, 
+     "seasons": 2, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 120, 
+     "leaf_time": 347, 
      "seed_price": {
-      "gold": 981
+      "F_coin": 999
      }, 
      "level_need": 1
     }, 
@@ -50715,22 +51128,22 @@
      }, 
      "level_need": 1
     }, 
-    "xueyuanyinghua": {
-     "total_time": 1735, 
-     "leaflet_time": 347, 
+    "caihuawenshala": {
+     "total_time": 840, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "\u685c\u306e\u6728", 
+     "name": "\u30ab\u30ea\u30d5\u30e9\u30ef\u30fc\u306e\u30db\u30c3\u30c8\u30b5\u30e9\u30c0", 
      "base_fruit": 25, 
-     "fruit_time": 521, 
-     "sprout_time": 173, 
-     "bloom_time": 347, 
-     "experience": 3.18, 
-     "seasons": 2, 
-     "sale_price": 8, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 240, 
+     "experience": 37, 
+     "seasons": 1, 
+     "sale_price": 55, 
      "increment_fruit": 25, 
-     "leaf_time": 347, 
+     "leaf_time": 120, 
      "seed_price": {
-      "F_coin": 999
+      "gold": 981
      }, 
      "level_need": 1
     }, 
@@ -57945,6 +58358,25 @@
      }, 
      "leaf_time": 60, 
      "level_need": 0
+    }, 
+    "chaojibacaozhou": {
+     "total_time": 1001, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "\u3042\u306e\u30b5\u30f3\u5409\u516b\u8349\u7ca5", 
+     "base_fruit": 25, 
+     "fruit_time": 1, 
+     "sprout_time": 50, 
+     "bloom_time": 500, 
+     "experience": 2800, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 0, 
+     "leaf_time": 300, 
+     "seed_price": {
+      "F_coin": 30
+     }, 
+     "level_need": 1
     }, 
     "ditanghua": {
      "total_time": 1200, 
@@ -71307,6 +71739,7 @@
     "shengdanhongxin", 
     "qingju", 
     "mofaqianniuhua", 
+    "chaojibacaozhou", 
     "chuanshuotaiyangcaozhou", 
     "yangzinangua", 
     "yangzitaiyanghuahuan", 
@@ -72346,6 +72779,7 @@
     "fanqieguopu", 
     "shenmibingjiling", 
     "zhayanbiaoqingshu", 
+    "huandebacaozhou", 
     "hunlijiutong", 
     "shanghuabiandang", 
     "oushinancai", 
@@ -75179,6 +75613,7 @@
    "crystal14", 
    "crystal12", 
    "zong_zi", 
+   "piece", 
    "hammer", 
    "crystal", 
    "love_stone", 
@@ -75190,7 +75625,6 @@
    "crystal5", 
    "hongshuijing", 
    "chengshuijing", 
-   "piece", 
    "mb_6", 
    "mb_8", 
    "crystal8", 
@@ -75205,11 +75639,13 @@
    "shiyuebaoxiang", 
    "liushubaoxiang", 
    "qingrenyushou1", 
+   "hongsefudai2", 
    "qingrenyushou3", 
    "qingrenyushou2", 
+   "yinghuashulanniudan", 
    "xinbaoxiang", 
    "tunianniudanlan", 
-   "fensefudai", 
+   "ziseniudan", 
    "huiguilibao", 
    "gaojihuafeitaozhuang", 
    "lvseniudan", 
@@ -75229,13 +75665,13 @@
    "jinsefudai", 
    "jidebaoxiang", 
    "hushenfu", 
+   "heisefudai2", 
    "kaichunbaoxiang", 
-   "ziseniudan", 
    "bayuezhuochongfuyongbaoxiang", 
    "tdyshong", 
    "gongdengbaihebaoxiang", 
    "shengdanziniudan", 
-   "tianqishutuangou", 
+   "heisefudai", 
    "shengdanhongniudan", 
    "zhuomaotujianbaoxiang", 
    "caisefudai", 
@@ -75250,6 +75686,7 @@
    "tejiabaoxiang1", 
    "tejiabaoxiang2", 
    "xinnianlvniudan", 
+   "jinsefudai2", 
    "guohuatujian", 
    "yinyuedongwubaoxiang", 
    "huajianjiubaoxiang", 
@@ -75272,6 +75709,7 @@
    "bayuezhiwutuangoubaoxiang5", 
    "bayuezhiwutuangoubaoxiang4", 
    "bayuezhiwutuangoubaoxiang6", 
+   "mianzhihuabao", 
    "bayuezhiwutuangoubaoxiang3", 
    "bayuezhiwutuangoubaoxiang2", 
    "lvsefudai", 
@@ -75290,7 +75728,7 @@
    "niangaolihe", 
    "qiqiutuzibaoxiang", 
    "dujuanbaoxiang", 
-   "yinghuashulanniudan", 
+   "haiyangzhihuatujian", 
    "niudanhuang", 
    "huangdan", 
    "caomeishuijingtujianbaoxiang", 
@@ -75301,7 +75739,7 @@
    "bayinhebaoxiang", 
    "nanguashutuangoubaoxiang", 
    "lvsehudiebaoxiang", 
-   "El_bag", 
+   "fensefudai", 
    "mb_10_key", 
    "mofayaoshi2", 
    "huangniudan", 
@@ -75312,18 +75750,20 @@
    "caomeijieerqibiansebaoxiang", 
    "lianxudenglu", 
    "yinghuashulvniudan", 
+   "lvsefudai2", 
    "siyuebaoxiang1", 
    "siyuebaoxiang2", 
    "tujiandongwubaoxiang", 
    "niudanzi", 
    "cangbaotu2", 
    "huangjinzhousiqi", 
-   "haiyangzhihuatujian", 
+   "El_bag", 
    "lvdan", 
    "yinghuashuziniudan", 
    "tdyshuang", 
    "cangbaotu1", 
    "shengdanlanniudan", 
+   "caisefudai2", 
    "yundongxiongmao", 
    "houzitujianbaoxiang", 
    "yuanyidongwutujianbaoxiang", 
@@ -75333,9 +75773,9 @@
    "xiaoyehuadebaoxiang", 
    "niudanlan", 
    "tuchanxianrenzhangyi", 
-   "mianzhihuabao", 
+   "fensefudai2", 
    "yinghuashuhongniudan", 
-   "heisefudai", 
+   "tianqishutuangou", 
    "hongdan", 
    "huangjinzhouerqitujianbaoxiang", 
    "qiqiuzhubaoxiang", 
