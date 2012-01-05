@@ -33394,6 +33394,26 @@
      }, 
      "level_need": 0
     }, 
+    "f847_handongdexigua": {
+     "total_time": 1310, 
+     "leaflet_time": 180, 
+     "used": false, 
+     "name": "真冬のスイカ", 
+     "base_fruit": 25, 
+     "fruit_time": 400, 
+     "tuchan": true, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 6.91, 
+     "seasons": 1, 
+     "sale_price": 5, 
+     "increment_fruit": 25, 
+     "leaf_time": 280, 
+     "seed_price": {
+      "F_coin": 6
+     }, 
+     "level_need": 1
+    }, 
     "maoronggou": {
      "total_time": 990, 
      "leaflet_time": 90, 
@@ -39110,24 +39130,25 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "blbjl": {
-     "total_time": 1200, 
-     "leaflet_time": 150, 
+    "langduhuang": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "パイナップルシャーベット", 
+     "name": "イエロージンチョウゲ", 
      "base_fruit": 25, 
-     "fruit_time": 420, 
+     "fruit_time": 360, 
      "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 10, 
-     "seasons": 1, 
-     "sale_price": 14, 
+     "introduce": "おめでとうございます。イエロージンチョウゲを手に入れました。5種のジンチョウゲを集めれば、500Kコイン相当のギフトセットがもらえます。", 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 50
      }, 
-     "level_need": 1
+     "leaf_time": 330, 
+     "level_need": 0
     }, 
     "shanlajiu": {
      "total_time": 1080, 
@@ -64672,25 +64693,24 @@
      }, 
      "level_need": 1
     }, 
-    "langduhuang": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "blbjl": {
+     "total_time": 1200, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "イエロージンチョウゲ", 
+     "name": "パイナップルシャーベット", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
+     "fruit_time": 420, 
      "sprout_time": 90, 
-     "introduce": "おめでとうございます。イエロージンチョウゲを手に入れました。5種のジンチョウゲを集めれば、500Kコイン相当のギフトセットがもらえます。", 
-     "increment_fruit": 25, 
      "bloom_time": 330, 
-     "experience": 8, 
+     "experience": 10, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 25
      }, 
-     "leaf_time": 330, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "kaoquanyang": {
      "total_time": 3120, 
@@ -73381,6 +73401,7 @@
     "piaoliangdepenhua", 
     "jianshizhiwu", 
     "f695_xiangmobanbaihuanggua", 
+    "f847_handongdexigua", 
     "yudaishu", 
     "zhenzhubei", 
     "baitang", 
