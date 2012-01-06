@@ -9035,7 +9035,7 @@
      "price": {
       "F_coin": 200
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
      "name": "ピンク福袋", 
      "introduce": "300Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。"
@@ -9418,7 +9418,7 @@
      "price": {
       "F_coin": 10
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
      "name": "鏡餅の宝箱", 
      "introduce": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
@@ -9793,7 +9793,7 @@
      "price": {
       "F_coin": 300
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "450Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
      "name": "イエロー福袋", 
      "introduce": "450Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。"
@@ -10553,7 +10553,7 @@
      "price": {
       "F_coin": 500
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "850Kコイン相当のアイテムが含まれています。100%確率で日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾がもらえます。", 
      "name": "カラフル福袋", 
      "introduce": "850Kコイン相当のアイテムが含まれています。100%確率で日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾がもらえます。"
@@ -10961,7 +10961,7 @@
      "price": {
       "F_coin": 15
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "100%の確率でマジック肥料が5個。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。中の種を植えて収穫後、加工場で加工すれば、20,000経験値のカラフルドリーミーツリーの種がもらえます。しかし、カラフルドリーミーツリーを増産することができません。", 
      "name": "クリスマスの宝箱", 
      "introduce": "100%の確率でマジック肥料が5個。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。中の種を植えて収穫後、加工場で加工すれば、20,000経験値のカラフルドリーミーツリーの種がもらえます。しかし、カラフルドリーミーツリーを増産することができません。"
@@ -12243,7 +12243,7 @@
      "price": {
       "F_coin": 100
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "150Kコイン相当のアイテムが含まれています。さらに菊の門松と舞妓羽子板をもらうチャンスがあります。", 
      "name": "レッド福袋", 
      "introduce": "150Kコイン相当のアイテムが含まれています。さらに菊の門松と舞妓羽子板をもらうチャンスがあります。"
@@ -12668,7 +12668,7 @@
      "price": {
       "F_coin": 50
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "80Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
      "name": "グリーン福袋", 
      "introduce": "80Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。"
@@ -16502,7 +16502,7 @@
      "price": {
       "F_coin": 150
      }, 
-     "used": true, 
+     "used": false, 
      "goods_str": "200Kコイン相当のアイテムが含まれています。さらに舞妓羽子板と注連縄をもらうチャンスがあります。", 
      "name": "ブラック福袋", 
      "introduce": "200Kコイン相当のアイテムが含まれています。さらに舞妓羽子板と注連縄をもらうチャンスがあります。"
@@ -24901,37 +24901,55 @@
     }, 
     "activity_type": "discount"
    }, 
-   "jinsefudai2": {
+   "lvsefudai2": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "新年のゴールデン福袋", 
+    "name": "新年のグリーン福袋", 
     "start_time": "2011-12-31 18:00:00", 
     "modify": false, 
     "end_time": "2012-01-09 17:00:00", 
-    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
+    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
     "price": {
      "num": 15, 
      "type": "F_coin"
     }, 
     "activity_type": "discount"
    }, 
-   "shengdanlibao": {
+   "crystal14": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "クリスマスの宝箱", 
-    "start_time": 1324627200.0, 
+    "name": "ルビーキャスタル", 
+    "start_time": 1325149200.0, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "14日", 
-    "end_time": 1325836800.0, 
-    "goods_description": "100%の確率でマジック肥料が5個。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。中の種を植えて収穫後、加工場で加工すれば、20,000経験値のカラフルドリーミーツリーの種がもらえます。しかし、カラフルドリーミーツリーを増産することができません。", 
+    "limit_time": "9日", 
+    "end_time": 1325926800.0, 
+    "goods_description": "ルビーキャスタル", 
     "price": {
-     "num": 15, 
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
+   }, 
+   "jingbingbaoxiang": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "鏡餅の宝箱", 
+    "start_time": 1325836800.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "10日", 
+    "end_time": 1326700800.0, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "price": {
+     "num": 10, 
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
@@ -24970,52 +24988,17 @@
     }, 
     "activity_type": "discount"
    }, 
-   "lvsefudai2": {
+   "jinsefudai2": {
     "specific_type": "xin", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "新年のグリーン福袋", 
+    "name": "新年のゴールデン福袋", 
     "start_time": "2011-12-31 18:00:00", 
     "modify": false, 
     "end_time": "2012-01-09 17:00:00", 
-    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "discount"
-   }, 
-   "crystal14": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ルビーキャスタル", 
-    "start_time": 1325149200.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "9日", 
-    "end_time": 1325926800.0, 
-    "goods_description": "ルビーキャスタル", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
-    "activity_type": "hot_sale"
-   }, 
-   "fensefudai2": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "新年のピンク福袋", 
-    "start_time": "2011-12-31 18:00:00", 
-    "modify": false, 
-    "end_time": "2012-01-09 17:00:00", 
-    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
+    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
     "price": {
      "num": 15, 
      "type": "F_coin"
@@ -25039,6 +25022,23 @@
      "type": "F_coin"
     }, 
     "activity_type": "hot_sale"
+   }, 
+   "fensefudai2": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "新年のピンク福袋", 
+    "start_time": "2011-12-31 18:00:00", 
+    "modify": false, 
+    "end_time": "2012-01-09 17:00:00", 
+    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "discount"
    }
   }, 
   "farm": {
