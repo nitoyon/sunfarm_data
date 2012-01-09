@@ -974,9 +974,9 @@
    "gaojisiliaobao": {
     "config": {
      "price": {
-      "F_coin": 50
+      "F_coin": 40
      }, 
-     "used": false, 
+     "used": true, 
      "goods_str": "中には高級飼料が10個含まれています。", 
      "name": "スロット高級飼料セット", 
      "introduce": "中には高級飼料が10個含まれています。"
@@ -24946,39 +24946,26 @@
     }, 
     "activity_type": "discount"
    }, 
-   "lvsefudai2": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "新年のグリーン福袋", 
-    "start_time": "2011-12-31 18:00:00", 
-    "modify": false, 
-    "end_time": "2012-01-09 17:00:00", 
-    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
-    "price": {
-     "num": 15, 
+   "gaojisiliaobao": {
+    "original_price": {
+     "num": 50, 
      "type": "F_coin"
     }, 
-    "activity_type": "discount"
-   }, 
-   "crystal14": {
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "ルビーキャスタル", 
-    "start_time": 1325149200.0, 
+    "name": "スロット高級飼料セット", 
+    "price": {
+     "num": 40, 
+     "type": "F_coin"
+    }, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "9日", 
-    "end_time": 1325926800.0, 
-    "goods_description": "ルビーキャスタル", 
-    "price": {
-     "num": 100, 
-     "type": "gold"
-    }, 
+    "limit_time": "14日7時間", 
+    "end_time": 1327305600.0, 
+    "goods_description": "中には高級飼料が10個含まれています。", 
+    "start_time": 1326070800.0, 
     "activity_type": "hot_sale"
    }, 
    "jingbingbaoxiang": {
@@ -25033,6 +25020,46 @@
     }, 
     "activity_type": "discount"
    }, 
+   "lvsefudai2": {
+    "specific_type": "xin", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "新年のグリーン福袋", 
+    "start_time": "2011-12-31 18:00:00", 
+    "modify": false, 
+    "end_time": "2012-01-09 17:00:00", 
+    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "discount"
+   }, 
+   "gaoji": {
+    "original_price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "高級肥料", 
+    "price": {
+     "num": 4, 
+     "type": "F_coin"
+    }, 
+    "modify": true, 
+    "limit_type": "limit_time", 
+    "limit_time": "4日7時間", 
+    "end_time": 1326441600.0, 
+    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "start_time": 1326070800.0, 
+    "activity_type": "hot_sale"
+   }, 
    "jinsefudai2": {
     "specific_type": "xin", 
     "product_type": {
@@ -25049,24 +25076,6 @@
      "type": "F_coin"
     }, 
     "activity_type": "discount"
-   }, 
-   "hammer": {
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "ハンマー", 
-    "start_time": 1325149200.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "9日", 
-    "end_time": 1325926800.0, 
-    "goods_description": "クリスタルを開けることができます。", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "fensefudai2": {
     "specific_type": "xin", 
@@ -74698,7 +74707,7 @@
      }, 
      "gaoji": {
       "price": {
-       "F_coin": 6
+       "F_coin": 4
       }, 
       "used": true, 
       "name": "高級肥料", 
