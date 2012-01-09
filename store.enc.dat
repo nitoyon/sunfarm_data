@@ -26396,6 +26396,26 @@
      }, 
      "level_need": 1
     }, 
+    "f848_handongdexiangjiao": {
+     "total_time": 1310, 
+     "leaflet_time": 180, 
+     "used": false, 
+     "name": "真冬のバナナ", 
+     "base_fruit": 25, 
+     "fruit_time": 400, 
+     "tuchan": true, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 6.92, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 280, 
+     "seed_price": {
+      "F_coin": 6
+     }, 
+     "level_need": 1
+    }, 
     "mingriye": {
      "total_time": 660, 
      "leaflet_time": 90, 
@@ -43591,6 +43611,25 @@
      }, 
      "level_need": 1
     }, 
+    "huoyingwu": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "火鸚鵡", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "tdysfen": {
      "total_time": 1440, 
      "leaflet_time": 330, 
@@ -46668,22 +46707,22 @@
      }, 
      "level_need": 31
     }, 
-    "huoyingwu": {
-     "total_time": 870, 
-     "leaflet_time": 90, 
+    "lianhuadengcheng": {
+     "total_time": 1380, 
+     "leaflet_time": 180, 
      "used": false, 
-     "name": "火鸚鵡", 
+     "name": "オレンジ蓮の灯", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 90, 
-     "bloom_time": 210, 
-     "experience": 10, 
+     "fruit_time": 450, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 5, 
      "seasons": 1, 
-     "sale_price": 12, 
+     "sale_price": 9, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 300, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 8
      }, 
      "level_need": 1
     }, 
@@ -64511,25 +64550,6 @@
      }, 
      "level_need": 0
     }, 
-    "lianhuadengcheng": {
-     "total_time": 1380, 
-     "leaflet_time": 180, 
-     "used": false, 
-     "name": "オレンジ蓮の灯", 
-     "base_fruit": 25, 
-     "fruit_time": 450, 
-     "sprout_time": 150, 
-     "bloom_time": 300, 
-     "experience": 5, 
-     "seasons": 1, 
-     "sale_price": 9, 
-     "increment_fruit": 25, 
-     "leaf_time": 300, 
-     "seed_price": {
-      "F_coin": 8
-     }, 
-     "level_need": 1
-    }, 
     "mikuo": {
      "total_time": 1410, 
      "leaflet_time": 330, 
@@ -73576,6 +73596,7 @@
     "jianshizhiwu", 
     "f695_xiangmobanbaihuanggua", 
     "f847_handongdexigua", 
+    "f848_handongdexiangjiao", 
     "yudaishu", 
     "zhenzhubei", 
     "baitang", 
