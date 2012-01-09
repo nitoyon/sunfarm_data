@@ -24929,44 +24929,37 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "caisefudai2": {
-    "specific_type": "xin", 
+   "zengshou1": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "新年のカラフル福袋", 
-    "start_time": "2011-12-31 18:00:00", 
-    "modify": false, 
-    "end_time": "2012-01-09 17:00:00", 
-    "goods_description": "600Kコイン相当のアイテムが含まれています。100%確率で金の龍と木の龍と水の龍と火の龍と土の龍がもらえます。", 
+    "name": "中級増産肥料", 
     "price": {
-     "num": 300, 
+     "num": 12, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "gaojisiliaobao": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
+   "magiccardmost": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "スロット高級飼料セット", 
+    "name": "ミラクル増産カード", 
     "price": {
-     "num": 40, 
+     "num": 12, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "14日7時間", 
-    "end_time": 1327305600.0, 
-    "goods_description": "中には高級飼料が10個含まれています。", 
-    "start_time": 1326070800.0, 
-    "activity_type": "hot_sale"
+    "goods_description": "長裂烏頭と長葉大戟以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+    "activity_type": "discount"
    }, 
    "jingbingbaoxiang": {
     "product_type": {
@@ -24986,55 +24979,50 @@
     }, 
     "activity_type": "hot_sale"
    }, 
-   "heisefudai2": {
-    "specific_type": "xin", 
+   "fengchehuabaoxiang": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "新年のブラック福袋", 
-    "start_time": "2011-12-31 18:00:00", 
-    "modify": false, 
-    "end_time": "2012-01-09 17:00:00", 
-    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに舞妓羽子板と注連縄をもらうチャンスがあります。", 
+    "name": "12月の宝箱", 
     "price": {
-     "num": 15, 
+     "num": 10, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "hongsefudai2": {
-    "specific_type": "xin", 
+   "jisu1": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
     }, 
-    "name": "新年のレッド福袋", 
-    "start_time": "2011-12-31 18:00:00", 
-    "modify": false, 
-    "end_time": "2012-01-09 17:00:00", 
-    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに菊の門松と舞妓羽子板をもらうチャンスがあります。", 
+    "name": "スーパー飼料", 
     "price": {
-     "num": 15, 
+     "num": 12, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "goods_description": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }, 
-   "lvsefudai2": {
-    "specific_type": "xin", 
+   "siliaobao1": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
     }, 
-    "name": "新年のグリーン福袋", 
-    "start_time": "2011-12-31 18:00:00", 
-    "modify": false, 
-    "end_time": "2012-01-09 17:00:00", 
-    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松をもらうチャンスがあります。", 
+    "name": "中級飼料セット", 
     "price": {
      "num": 15, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "goods_description": "中には中級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
    "gaoji": {
@@ -25060,38 +25048,42 @@
     "start_time": 1326070800.0, 
     "activity_type": "hot_sale"
    }, 
-   "jinsefudai2": {
-    "specific_type": "xin", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "新年のゴールデン福袋", 
-    "start_time": "2011-12-31 18:00:00", 
-    "modify": false, 
-    "end_time": "2012-01-09 17:00:00", 
-    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに日本提灯と菊の門松と舞妓羽子板と注連縄と迎春飾りをもらうチャンスがあります。", 
-    "price": {
-     "num": 15, 
+   "gaojisiliaobao": {
+    "original_price": {
+     "num": 50, 
      "type": "F_coin"
     }, 
-    "activity_type": "discount"
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "スロット高級飼料セット", 
+    "price": {
+     "num": 40, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "14日7時間", 
+    "end_time": 1327305600.0, 
+    "goods_description": "中には高級飼料が10個含まれています。", 
+    "start_time": 1326070800.0, 
+    "activity_type": "hot_sale"
    }, 
-   "fensefudai2": {
-    "specific_type": "xin", 
+   "xunjie": {
+    "specific_type": "re", 
     "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "新年のピンク福袋", 
-    "start_time": "2011-12-31 18:00:00", 
-    "modify": false, 
-    "end_time": "2012-01-09 17:00:00", 
-    "goods_description": "30Kコイン相当のアイテムが含まれています。さらに注連縄と迎春飾りをもらうチャンスがあります。", 
+    "name": "マジック肥料", 
     "price": {
-     "num": 15, 
+     "num": 2, 
      "type": "F_coin"
     }, 
+    "modify": false, 
+    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }
   }, 
