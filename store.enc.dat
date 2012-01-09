@@ -15906,6 +15906,51 @@
      }
     }
    }, 
+   "tcxiangrikuiyi": {
+    "config": {
+     "price": {
+      "F_coin": 45
+     }, 
+     "used": false, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます。100%の確率で可愛いヒマワリ（第一弾）の植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "可愛いヒマワリ第一弾の図鑑宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます。100%の確率で可愛いヒマワリ（第一弾）の植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "f785_lanyangyangxiangrikui": [
+        1, 
+        1
+       ], 
+       "f788_mojingxiangrikui": [
+        1, 
+        1
+       ], 
+       "f784_keshuixiangrikui": [
+        1, 
+        1
+       ], 
+       "f786_paishouxiangrikui": [
+        1, 
+        1
+       ], 
+       "f787_kaixinxiangrikui": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "jiagongchangsucaibao": {
     "config": {
      "price": {
@@ -76348,6 +76393,7 @@
    "mb_10_key", 
    "mofayaoshi2", 
    "huangniudan", 
+   "yuanyidongwutujianbaoxiang", 
    "liuyuebaoxiang", 
    "lansehudiebaoxiang", 
    "hongniudan", 
@@ -76371,7 +76417,7 @@
    "caisefudai2", 
    "yundongxiongmao", 
    "houzitujianbaoxiang", 
-   "yuanyidongwutujianbaoxiang", 
+   "tcxiangrikuiyi", 
    "jiagongchangsucaibao", 
    "yanhuabaoxiang", 
    "shengdanhuangniudan", 
