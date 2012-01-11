@@ -41837,6 +41837,25 @@
      }, 
      "level_need": 1
     }, 
+    "jiayouzhongzi": {
+     "total_time": 2880, 
+     "leaflet_time": 510, 
+     "used": false, 
+     "name": "応援シード", 
+     "base_fruit": 25, 
+     "fruit_time": 720, 
+     "sprout_time": 330, 
+     "bloom_time": 720, 
+     "experience": 800, 
+     "seasons": 3, 
+     "sale_price": 500, 
+     "increment_fruit": 25, 
+     "leaf_time": 600, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "nanmeirilunhua": {
      "total_time": 750, 
      "leaflet_time": 90, 
@@ -51203,22 +51222,23 @@
      }, 
      "level_need": 1
     }, 
-    "jiayouzhongzi": {
-     "total_time": 2880, 
-     "leaflet_time": 510, 
+    "f851_handongdemihoutao": {
+     "total_time": 1310, 
+     "leaflet_time": 180, 
      "used": false, 
-     "name": "応援シード", 
+     "name": "真冬のキウイ", 
      "base_fruit": 25, 
-     "fruit_time": 720, 
-     "sprout_time": 330, 
-     "bloom_time": 720, 
-     "experience": 800, 
-     "seasons": 3, 
-     "sale_price": 500, 
+     "fruit_time": 400, 
+     "tuchan": true, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 7.1, 
+     "seasons": 1, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 600, 
+     "leaf_time": 280, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 6
      }, 
      "level_need": 1
     }, 
@@ -73865,6 +73885,7 @@
     "piaoliangdepenhua", 
     "jianshizhiwu", 
     "f695_xiangmobanbaihuanggua", 
+    "f851_handongdemihoutao", 
     "f847_handongdexigua", 
     "f848_handongdexiangjiao", 
     "f849_handongdehamigua", 
