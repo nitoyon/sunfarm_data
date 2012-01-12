@@ -18052,6 +18052,7 @@
     "caomeimaotouyingbianse", 
     "huhou", 
     "jinsihou", 
+    "jitagui", 
     "f828_shengdantianshu", 
     "tunshuhui", 
     "hongcaiximiyingwu", 
@@ -18066,6 +18067,7 @@
     "qiuniu", 
     "jiaotu", 
     "huaxuexueren", 
+    "mingxinggui", 
     "yundongxiongmao", 
     "lvxiongbasedong", 
     "wazixueren", 
@@ -18077,6 +18079,7 @@
     "changbiyuan", 
     "taotie", 
     "JiCiWeiXi", 
+    "gushougui", 
     "mingxingmao", 
     "huahuamao", 
     "guowangmao", 
@@ -18104,6 +18107,7 @@
     "pulao", 
     "tunshubai", 
     "maozixueren", 
+    "quanjishou", 
     "shuxionghou", 
     "heyuan", 
     "moshutuzi", 
@@ -18115,7 +18119,10 @@
     "fuhuojietuziwu", 
     "meiguibaobao", 
     "fuhuojietuziyi", 
+    "guichengxiang", 
     "BaxiGui", 
+    "guixianren", 
+    "jianke", 
     "ganenjiemao", 
     "zhanbushi", 
     "xiaotulong", 
@@ -18793,6 +18800,27 @@
      "fruit_name": "", 
      "is_auto_harvest": false, 
      "sale_price": 20, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "mingxinggui": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "スター亀", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 40, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 47, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -21010,6 +21038,27 @@
      "level_need": 10, 
      "fruit_quantifier": "個"
     }, 
+    "guixianren": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "仙人の亀", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 50
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 800, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 60, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
     "taipingyangfei": {
      "total_time": 1280, 
      "harvest_type": 0, 
@@ -21291,23 +21340,23 @@
      "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
-    "caihongji": {
+    "guichengxiang": {
      "total_time": 1320, 
      "harvest_type": 0, 
      "used": false, 
-     "name": "レインボー七面鳥", 
+     "name": "丞相亀", 
      "base_fruit": 25, 
      "fruit_time": 600, 
      "adult_time": 480, 
      "buy_price": {
-      "F_coin": 50
+      "F_coin": 30
      }, 
      "seasons": 1, 
      "young_time": 240, 
-     "experience": 800, 
+     "experience": 320, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 60, 
+     "sale_price": 35, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -21634,6 +21683,31 @@
      "fruit_name": "", 
      "is_auto_harvest": true, 
      "sale_price": 60, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "chook": {
+     "total_time": 60, 
+     "sound": {
+      "p": "1026,1026,1027,1027,-1,-1", 
+      "enable": true, 
+      "name": "ji"
+     }, 
+     "name": "鶏", 
+     "base_fruit": 25, 
+     "fruit_time": 23, 
+     "recipe": "レシピに使えます：\n田舎鶏", 
+     "adult_time": 36, 
+     "buy_price": {
+      "gold": 15
+     }, 
+     "seasons": 3, 
+     "young_time": 1, 
+     "experience": 0.05, 
+     "fruit_name": "たまご", 
+     "is_auto_harvest": true, 
+     "sale_price": 0.3, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -22025,6 +22099,27 @@
      "sale_price": 53, 
      "increment_fruit": 25, 
      "level_need": 1, 
+     "fruit_quantifier": "個"
+    }, 
+    "quanjishou": {
+     "total_time": 840, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ボクシング亀", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 32, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
      "fruit_quantifier": "個"
     }, 
     "wazixueren": {
@@ -22909,11 +23004,11 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
-    "huahuamao": {
+    "jianke": {
      "total_time": 1320, 
      "harvest_type": 0, 
      "used": false, 
-     "name": "ネコガカ", 
+     "name": "侠客亀", 
      "base_fruit": 25, 
      "fruit_time": 600, 
      "adult_time": 480, 
@@ -22922,7 +23017,7 @@
      }, 
      "seasons": 1, 
      "young_time": 240, 
-     "experience": 17, 
+     "experience": 120, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
      "sale_price": 20, 
@@ -23019,6 +23114,27 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
+    "huahuamao": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ネコガカ", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 17, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
     "taohuamao": {
      "total_time": 1320, 
      "sound": {
@@ -23040,6 +23156,27 @@
      "fruit_name": "たまご", 
      "is_auto_harvest": true, 
      "sale_price": 20, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
+    "gushougui": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ドラマー亀", 
+     "base_fruit": 25, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
+     "buy_price": {
+      "F_coin": 50
+     }, 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 60, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 60, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -24416,6 +24553,27 @@
      "level_need": 0, 
      "fruit_quantifier": "匹"
     }, 
+    "jitagui": {
+     "total_time": 840, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "ギター亀", 
+     "base_fruit": 25, 
+     "fruit_time": 480, 
+     "adult_time": 240, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 120, 
+     "experience": 200, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "個"
+    }, 
     "xiongmaotu": {
      "total_time": 1280, 
      "harvest_type": 0, 
@@ -24647,27 +24805,23 @@
      "level_need": 1, 
      "fruit_quantifier": "個"
     }, 
-    "chook": {
-     "total_time": 60, 
-     "sound": {
-      "p": "1026,1026,1027,1027,-1,-1", 
-      "enable": true, 
-      "name": "ji"
-     }, 
-     "name": "鶏", 
+    "caihongji": {
+     "total_time": 1320, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "レインボー七面鳥", 
      "base_fruit": 25, 
-     "fruit_time": 23, 
-     "recipe": "レシピに使えます：\n田舎鶏", 
-     "adult_time": 36, 
+     "fruit_time": 600, 
+     "adult_time": 480, 
      "buy_price": {
-      "gold": 15
+      "F_coin": 50
      }, 
-     "seasons": 3, 
-     "young_time": 1, 
-     "experience": 0.05, 
-     "fruit_name": "たまご", 
+     "seasons": 1, 
+     "young_time": 240, 
+     "experience": 800, 
+     "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 0.3, 
+     "sale_price": 60, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "個"
@@ -49210,6 +49364,26 @@
       "F_coin": 300
      }, 
      "level_need": 0
+    }, 
+    "f850_handongdejuzi": {
+     "total_time": 1310, 
+     "leaflet_time": 180, 
+     "used": false, 
+     "name": "真冬のオレンジ", 
+     "base_fruit": 25, 
+     "fruit_time": 400, 
+     "tuchan": true, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 7.5, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 280, 
+     "seed_price": {
+      "F_coin": 6
+     }, 
+     "level_need": 1
     }, 
     "kaosongrong": {
      "total_time": 1920, 
@@ -74139,6 +74313,7 @@
     "piaoliangdepenhua", 
     "jianshizhiwu", 
     "f695_xiangmobanbaihuanggua", 
+    "f850_handongdejuzi", 
     "f851_handongdemihoutao", 
     "f847_handongdexigua", 
     "f848_handongdexiangjiao", 
