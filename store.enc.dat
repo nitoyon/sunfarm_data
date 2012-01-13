@@ -29063,6 +29063,25 @@
      }, 
      "level_need": 1
     }, 
+    "manyuedenvshen": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "満月の女神", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "nansheteng": {
      "total_time": 660, 
      "leaflet_time": 90, 
@@ -29553,23 +29572,24 @@
      }, 
      "level_need": 30
     }, 
-    "xinxinghuateng": {
-     "total_time": 750, 
-     "leaflet_time": 90, 
+    "langdulan": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "ハート花蔓", 
+     "name": "ブルージンチョウゲ", 
      "base_fruit": 25, 
-     "fruit_time": 270, 
-     "sprout_time": 30, 
-     "bloom_time": 210, 
-     "experience": 15, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。ブルージンチョウゲを手に入れました。5種のジンチョウゲを集めれば、500Kコイン相当のギフトセットがもらえます。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
      "seasons": 1, 
      "sale_price": 15, 
-     "increment_fruit": 25, 
-     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 100
+      "F_coin": 50
      }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "icecreamtower": {
@@ -31465,6 +31485,25 @@
      "leaf_time": 270, 
      "seed_price": {
       "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
+    "huadenvshen": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "花の女神", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
      }, 
      "level_need": 1
     }, 
@@ -38915,6 +38954,25 @@
      }, 
      "level_need": 0
     }, 
+    "xuedenvshen": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "雪の女神", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "tianping": {
      "total_time": 1380, 
      "leaflet_time": 180, 
@@ -44638,11 +44696,11 @@
      }, 
      "level_need": 1
     }, 
-    "qisehuazi": {
+    "jiazhutaohong": {
      "total_time": 1080, 
      "leaflet_time": 90, 
      "used": false, 
-     "name": "パープルフラワー", 
+     "name": "レッドキョウチクトウ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
      "sprout_time": 60, 
@@ -49113,24 +49171,23 @@
      }, 
      "level_need": 1
     }, 
-    "langdulan": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "xinxinghuateng": {
+     "total_time": 750, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "ブルージンチョウゲ", 
+     "name": "ハート花蔓", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。ブルージンチョウゲを手に入れました。5種のジンチョウゲを集めれば、500Kコイン相当のギフトセットがもらえます。", 
-     "increment_fruit": 25, 
-     "bloom_time": 330, 
-     "experience": 8, 
+     "fruit_time": 270, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 15, 
      "seasons": 1, 
      "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 100
      }, 
-     "leaf_time": 330, 
      "level_need": 0
     }, 
     "xingyunfeizhouju": {
@@ -51181,6 +51238,25 @@
      "leaf_time": 600, 
      "level_need": 0
     }, 
+    "taiyangdenvshen": {
+     "total_time": 750, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "太陽の女神", 
+     "base_fruit": 25, 
+     "fruit_time": 270, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 0
+    }, 
     "lajin": {
      "total_time": 1050, 
      "leaflet_time": 150, 
@@ -51354,11 +51430,11 @@
      }, 
      "level_need": 1
     }, 
-    "jiazhutaohong": {
+    "qisehuazi": {
      "total_time": 1080, 
      "leaflet_time": 90, 
      "used": false, 
-     "name": "レッドキョウチクトウ", 
+     "name": "パープルフラワー", 
      "base_fruit": 25, 
      "fruit_time": 360, 
      "sprout_time": 60, 
@@ -53649,6 +53725,25 @@
      "leaf_time": 230, 
      "seed_price": {
       "F_coin": 5
+     }, 
+     "level_need": 1
+    }, 
+    "fengzuodenvshen": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "豊作の女神", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
      }, 
      "level_need": 1
     }, 
@@ -62782,25 +62877,24 @@
      }, 
      "level_need": 1
     }, 
-    "qiancaiyedehua": {
-     "total_time": 1290, 
-     "leaflet_time": 150, 
+    "haidaoxigua": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
      "used": false, 
-     "name": "千葉菜の花", 
+     "name": "海賊スイカ", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
-     "tuchan": true, 
+     "fruit_time": 330, 
      "sprout_time": 90, 
      "bloom_time": 330, 
-     "experience": 7.2, 
+     "experience": 13, 
      "seasons": 1, 
-     "sale_price": 7, 
+     "sale_price": 16, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 5
+      "F_coin": 25
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "tomato": {
      "total_time": 630, 
@@ -64013,25 +64107,24 @@
      }, 
      "level_need": 72
     }, 
-    "f724_shengsuan": {
-     "total_time": 1250, 
-     "leaflet_time": 120, 
+    "changxiangsi": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "生にんにく", 
+     "name": "ｿｳﾞｨﾆｮﾝB", 
      "base_fruit": 25, 
-     "fruit_time": 480, 
-     "tuchan": true, 
+     "fruit_time": 510, 
      "sprout_time": 90, 
-     "bloom_time": 310, 
-     "experience": 6.11, 
+     "bloom_time": 330, 
+     "experience": 8, 
      "seasons": 1, 
-     "sale_price": 5, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 250, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 6
+      "F_coin": 20
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "mianmaoshuweicao": {
      "total_time": 810, 
@@ -64900,24 +64993,25 @@
      }, 
      "level_need": 0
     }, 
-    "haidaoxigua": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
+    "dangaohua": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "海賊スイカ", 
+     "name": "ケーキツリー", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 13, 
+     "fruit_time": 390, 
+     "tuchan": true, 
+     "sprout_time": 30, 
+     "bloom_time": 300, 
+     "experience": 6.7, 
      "seasons": 1, 
-     "sale_price": 16, 
+     "sale_price": 5, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 10
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "meihuashuren": {
      "total_time": 750, 
@@ -68612,26 +68706,6 @@
      }, 
      "level_need": 1
     }, 
-    "dangaohua": {
-     "total_time": 1080, 
-     "leaflet_time": 150, 
-     "used": false, 
-     "name": "ケーキツリー", 
-     "base_fruit": 25, 
-     "fruit_time": 390, 
-     "tuchan": true, 
-     "sprout_time": 30, 
-     "bloom_time": 300, 
-     "experience": 6.7, 
-     "seasons": 1, 
-     "sale_price": 5, 
-     "increment_fruit": 25, 
-     "leaf_time": 210, 
-     "seed_price": {
-      "F_coin": 10
-     }, 
-     "level_need": 1
-    }, 
     "zisehuacaomei": {
      "total_time": 1410, 
      "leaflet_time": 330, 
@@ -70427,6 +70501,26 @@
      }, 
      "level_need": 1
     }, 
+    "qiancaiyedehua": {
+     "total_time": 1290, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "千葉菜の花", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 7.2, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 210, 
+     "seed_price": {
+      "F_coin": 5
+     }, 
+     "level_need": 1
+    }, 
     "goldenmelon": {
      "total_time": 1364, 
      "leaflet_time": 95, 
@@ -71980,24 +72074,25 @@
      }, 
      "level_need": 1
     }, 
-    "changxiangsi": {
-     "total_time": 1410, 
-     "leaflet_time": 150, 
+    "f724_shengsuan": {
+     "total_time": 1250, 
+     "leaflet_time": 120, 
      "used": false, 
-     "name": "ｿｳﾞｨﾆｮﾝB", 
+     "name": "生にんにく", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
+     "fruit_time": 480, 
+     "tuchan": true, 
      "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 8, 
+     "bloom_time": 310, 
+     "experience": 6.11, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 5, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 250, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 6
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "biandang": {
      "total_time": 480, 
@@ -72308,6 +72403,25 @@
       "F_coin": 20
      }, 
      "level_need": 0
+    }, 
+    "xingdenvshen": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "星の女神", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
     }, 
     "qiji": {
      "total_time": 870, 
@@ -72919,6 +73033,7 @@
     "tuyuansuzhishu", 
     "tianshanxuelian", 
     "muoutianzhaodashen", 
+    "taiyangdenvshen", 
     "jiqiren", 
     "qiji", 
     "budaowengmeimei", 
@@ -74229,6 +74344,7 @@
     "f683_rishifeizaoshu", 
     "mingriye", 
     "f733_xiqiezi", 
+    "xingdenvshen", 
     "1xingxingshu", 
     "caidengshu", 
     "chunzhilv", 
@@ -74291,6 +74407,7 @@
     "langsuchengbao", 
     "kubiaoqingshu", 
     "hubeiji", 
+    "manyuedenvshen", 
     "f677_yuanzhuluobo", 
     "tcmeiguihuashu", 
     "binxuanhua", 
@@ -74362,6 +74479,7 @@
     "zizhisuanjujiu", 
     "yumaojianpai", 
     "zhidamen", 
+    "huadenvshen", 
     "xianhuaniaochao", 
     "huaduohuateng", 
     "huasui", 
@@ -74405,6 +74523,7 @@
     "lansehuahuan", 
     "shengdanhuahuan", 
     "hongsehuahuan", 
+    "fengzuodenvshen", 
     "beikeniaochao", 
     "gongshanji", 
     "f673_hemaoqiezi", 
@@ -74450,6 +74569,7 @@
     "f679_yutianfeizaoshu", 
     "budaoweng", 
     "f681_xuehuafeizaoshu", 
+    "xuedenvshen", 
     "xuerenshengdanhuahuan", 
     "xuediaohonghuli", 
     "xuediaochangjinglu", 
