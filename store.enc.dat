@@ -28742,25 +28742,24 @@
      }, 
      "level_need": 0
     }, 
-    "tusujiu": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "xiaolongbao": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
      "used": false, 
-     "name": "おとそ", 
+     "name": "ショウロンボウ", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
-     "sprout_time": 90, 
-     "introduce": "おめでとうございます。クリスマスケーキを手に入れました。5種のクリスマスのプレゼントを集めれば、500Kコイン相当のギフトセットがもらえます。", 
-     "increment_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
      "bloom_time": 330, 
-     "experience": 8, 
+     "experience": 1000, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 11, 
+     "increment_fruit": 0, 
+     "leaf_time": 180, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 35
      }, 
-     "leaf_time": 330, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "yufengshu": {
      "total_time": 1710, 
@@ -30536,6 +30535,25 @@
      "leaf_time": 120, 
      "seed_price": {
       "F_coin": 15
+     }, 
+     "level_need": 1
+    }, 
+    "yueguanghua": {
+     "total_time": 510, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ヨルガオ", 
+     "base_fruit": 25, 
+     "fruit_time": 180, 
+     "sprout_time": 30, 
+     "bloom_time": 150, 
+     "experience": 4.5, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 90, 
+     "seed_price": {
+      "F_coin": 38
      }, 
      "level_need": 1
     }, 
@@ -36602,6 +36620,25 @@
      }, 
      "level_need": 0
     }, 
+    "mantouxiongdi": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "饅頭兄弟", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 11, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 35
+     }, 
+     "level_need": 1
+    }, 
     "heidou": {
      "total_time": 1500, 
      "leaflet_time": 186, 
@@ -39653,6 +39690,25 @@
      }, 
      "level_need": 1
     }, 
+    "mantouzhu": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "豚饅頭", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 12, 
+     "seasons": 1, 
+     "sale_price": 11, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 35
+     }, 
+     "level_need": 1
+    }, 
     "wanyeqiu": {
      "total_time": 1710, 
      "leaflet_time": 270, 
@@ -41578,6 +41634,25 @@
       "F_coin": 10
      }, 
      "level_need": 0
+    }, 
+    "mantoutu": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ウサギ饅頭", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 11, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 35
+     }, 
+     "level_need": 1
     }, 
     "nirenbingjilin": {
      "total_time": 1020, 
@@ -43977,6 +44052,25 @@
      }, 
      "level_need": 1
     }, 
+    "mantoumeimei": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "いもうと饅頭", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 1200, 
+     "seasons": 1, 
+     "sale_price": 11, 
+     "increment_fruit": 0, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 35
+     }, 
+     "level_need": 1
+    }, 
     "heidoucha": {
      "total_time": 2880, 
      "leaflet_time": 510, 
@@ -44806,6 +44900,25 @@
      "leaf_time": 150, 
      "seed_price": {
       "F_coin": 30
+     }, 
+     "level_need": 1
+    }, 
+    "mantouxiong": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "熊饅頭", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 11, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 35
      }, 
      "level_need": 1
     }, 
@@ -46822,6 +46935,26 @@
      }, 
      "level_need": 1
     }, 
+    "tusujiu": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "おとそ", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。クリスマスケーキを手に入れました。5種のクリスマスのプレゼントを集めれば、500Kコイン相当のギフトセットがもらえます。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "f688_lianshiyufeizaoshu": {
      "total_time": 1360, 
      "leaflet_time": 180, 
@@ -47613,25 +47746,6 @@
       "gold": 186
      }, 
      "level_need": 10
-    }, 
-    "jiayouriben": {
-     "total_time": 480, 
-     "leaflet_time": 22, 
-     "used": false, 
-     "name": "ガンバレ日本", 
-     "base_fruit": 25, 
-     "fruit_time": 152, 
-     "sprout_time": 20, 
-     "bloom_time": 148, 
-     "experience": 1.38, 
-     "seasons": 1, 
-     "sale_price": 4, 
-     "increment_fruit": 25, 
-     "leaf_time": 138, 
-     "seed_price": {
-      "F_coin": 1
-     }, 
-     "level_need": 0
     }, 
     "ouzhouchisong_libao": {
      "total_time": 1200, 
@@ -51525,24 +51639,24 @@
      }, 
      "level_need": 1
     }, 
-    "mensongxin": {
-     "total_time": 1200, 
-     "leaflet_time": 150, 
+    "jiayouriben": {
+     "total_time": 480, 
+     "leaflet_time": 22, 
      "used": false, 
-     "name": "菊の門松", 
+     "name": "ガンバレ日本", 
      "base_fruit": 25, 
-     "fruit_time": 420, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 5, 
+     "fruit_time": 152, 
+     "sprout_time": 20, 
+     "bloom_time": 148, 
+     "experience": 1.38, 
      "seasons": 1, 
-     "sale_price": 9, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 138, 
      "seed_price": {
-      "F_coin": 15
+      "F_coin": 1
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "diyongjinlian": {
      "total_time": 3000, 
@@ -51623,19 +51737,19 @@
      }, 
      "level_need": 0
     }, 
-    "liangjingjingshu": {
+    "nailaobao": {
      "total_time": 1020, 
      "leaflet_time": 60, 
      "used": false, 
-     "name": "キラキラツリー", 
+     "name": "ブルーベリーおやつ", 
      "base_fruit": 25, 
      "fruit_time": 390, 
      "sprout_time": 60, 
      "bloom_time": 330, 
-     "experience": 15, 
+     "experience": 4000, 
      "seasons": 1, 
      "sale_price": 11, 
-     "increment_fruit": 25, 
+     "increment_fruit": 0, 
      "leaf_time": 180, 
      "seed_price": {
       "F_coin": 35
@@ -58711,6 +58825,25 @@
      "leaf_time": 120, 
      "level_need": 1
     }, 
+    "liangjingjingshu": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "キラキラツリー", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 11, 
+     "increment_fruit": 25, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 35
+     }, 
+     "level_need": 1
+    }, 
     "taiyangshengdan": {
      "total_time": 3272, 
      "leaflet_time": 1, 
@@ -61568,22 +61701,22 @@
      }, 
      "level_need": 1
     }, 
-    "yueguanghua": {
-     "total_time": 510, 
-     "leaflet_time": 60, 
+    "shengdandongqinghua": {
+     "total_time": 480, 
+     "leaflet_time": 20, 
      "used": false, 
-     "name": "ヨルガオ", 
+     "name": "クリスマスホーリー", 
      "base_fruit": 25, 
-     "fruit_time": 180, 
-     "sprout_time": 30, 
+     "fruit_time": 150, 
+     "sprout_time": 20, 
      "bloom_time": 150, 
-     "experience": 4.5, 
+     "experience": 5, 
      "seasons": 1, 
-     "sale_price": 6, 
+     "sale_price": 5, 
      "increment_fruit": 25, 
-     "leaf_time": 90, 
+     "leaf_time": 140, 
      "seed_price": {
-      "F_coin": 38
+      "F_coin": 455
      }, 
      "level_need": 1
     }, 
@@ -66469,6 +66602,25 @@
      }, 
      "level_need": 1
     }, 
+    "lanmeinailao": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ブルーベリーチーズ", 
+     "base_fruit": 25, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 200, 
+     "seasons": 1, 
+     "sale_price": 11, 
+     "increment_fruit": 0, 
+     "leaf_time": 180, 
+     "seed_price": {
+      "F_coin": 35
+     }, 
+     "level_need": 1
+    }, 
     "starsalad": {
      "total_time": 1920, 
      "leaflet_time": 150, 
@@ -71194,22 +71346,22 @@
      }, 
      "level_need": 1
     }, 
-    "shengdandongqinghua": {
-     "total_time": 480, 
-     "leaflet_time": 20, 
+    "mensongxin": {
+     "total_time": 1200, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "クリスマスホーリー", 
+     "name": "菊の門松", 
      "base_fruit": 25, 
-     "fruit_time": 150, 
-     "sprout_time": 20, 
-     "bloom_time": 150, 
+     "fruit_time": 420, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
      "experience": 5, 
      "seasons": 1, 
-     "sale_price": 5, 
+     "sale_price": 9, 
      "increment_fruit": 25, 
-     "leaf_time": 140, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 455
+      "F_coin": 15
      }, 
      "level_need": 1
     }, 
@@ -73608,6 +73760,7 @@
     "f685_shandianfeizaoshu", 
     "maoronggou", 
     "mogugege", 
+    "mantoumeimei", 
     "f663_dedaomalingshu", 
     "shuangyu", 
     "maorongtuzi", 
@@ -73843,6 +73996,7 @@
     "duocengqiaokeli", 
     "chabeituzi", 
     "tuzifengshu", 
+    "mantoutu", 
     "f803_tuershucong", 
     "f755_tuerxianrenzhang", 
     "f789_tuerxiangrikui", 
@@ -74088,6 +74242,7 @@
     "shatang", 
     "shengjiang", 
     "yipinhong", 
+    "xiaolongbao", 
     "baiji", 
     "baiyinrenshen", 
     "yuanyangshenxian", 
@@ -74363,7 +74518,9 @@
     "lanhulu", 
     "qisehualan", 
     "xiaochoua", 
+    "nailaobao", 
     "lanqiansuitang", 
+    "lanmeinailao", 
     "lvronghaolan", 
     "wenshulanlanse", 
     "yanhuaer", 
@@ -74786,6 +74943,7 @@
     "tcmeiguihuashu", 
     "binxuanhua", 
     "huoyingwu", 
+    "mantouxiong", 
     "wenziliu", 
     "shanghuamao", 
     "maoerdenglong", 
@@ -74898,6 +75056,7 @@
     "shengdanhuahuan", 
     "hongsehuahuan", 
     "fengzuodenvshen", 
+    "mantouzhu", 
     "beikeniaochao", 
     "gongshanji", 
     "f673_hemaoqiezi", 
@@ -74967,6 +75126,7 @@
     "fenglingshu", 
     "f719_shiyongju", 
     "shuiyangqiehua", 
+    "mantouxiongdi", 
     "danbaidadou", 
     "gaojiyanhua", 
     "jingzhiganlanyou", 
