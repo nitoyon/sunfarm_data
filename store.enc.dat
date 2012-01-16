@@ -18654,7 +18654,7 @@
       "used": true, 
       "name": "スーパー飼料", 
       "price": {
-       "F_coin": 12
+       "F_coin": 8
       }, 
       "effect": 10, 
       "introduce": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
@@ -25389,22 +25389,19 @@
     "activity_type": "discount"
    }, 
    "jingbingbaoxiang": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
     "name": "鏡餅の宝箱", 
-    "start_time": 1325836800.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "10日", 
-    "end_time": 1326700800.0, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "price": {
      "num": 10, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "modify": false, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
    }, 
    "fengchehuabaoxiang": {
     "specific_type": "re", 
@@ -25422,7 +25419,10 @@
     "activity_type": "discount"
    }, 
    "jisu1": {
-    "specific_type": "re", 
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "ranch", 
@@ -25430,12 +25430,16 @@
     }, 
     "name": "スーパー飼料", 
     "price": {
-     "num": 12, 
+     "num": 8, 
      "type": "F_coin"
     }, 
     "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "1日", 
+    "end_time": 1326787200.0, 
     "goods_description": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
-    "activity_type": "discount"
+    "start_time": 1326700800.0, 
+    "activity_type": "hot_sale"
    }, 
    "siliaobao1": {
     "specific_type": "re", 
