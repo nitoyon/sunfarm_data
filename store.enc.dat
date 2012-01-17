@@ -18654,7 +18654,7 @@
       "used": true, 
       "name": "スーパー飼料", 
       "price": {
-       "F_coin": 8
+       "F_coin": 12
       }, 
       "effect": 10, 
       "introduce": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
@@ -25372,21 +25372,27 @@
     "start_time": 1326668400.0, 
     "activity_type": "hot_sale"
    }, 
-   "magiccardmost": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+   "gaojisiliaobao": {
+    "original_price": {
+     "num": 50, 
+     "type": "F_coin"
     }, 
-    "name": "ミラクル増産カード", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "スロット高級飼料セット", 
     "price": {
-     "num": 12, 
+     "num": 40, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "長裂烏頭と長葉大戟以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "14日7時間", 
+    "end_time": 1327305600.0, 
+    "goods_description": "中には高級飼料が10個含まれています。", 
+    "start_time": 1326070800.0, 
+    "activity_type": "hot_sale"
    }, 
    "jingbingbaoxiang": {
     "specific_type": "re", 
@@ -25418,28 +25424,21 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "jisu1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
+   "xunjie": {
+    "specific_type": "re", 
     "product_type": {
      "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
     }, 
-    "name": "スーパー飼料", 
+    "name": "マジック肥料", 
     "price": {
-     "num": 8, 
+     "num": 2, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "1日", 
-    "end_time": 1326787200.0, 
-    "goods_description": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1326700800.0, 
-    "activity_type": "hot_sale"
+    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "activity_type": "discount"
    }, 
    "siliaobao1": {
     "specific_type": "re", 
@@ -25472,43 +25471,39 @@
     "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }, 
-   "gaojisiliaobao": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "スロット高級飼料セット", 
-    "price": {
-     "num": 40, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "14日7時間", 
-    "end_time": 1327305600.0, 
-    "goods_description": "中には高級飼料が10個含まれています。", 
-    "start_time": 1326070800.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "xunjie": {
+   "magiccardmost": {
     "specific_type": "re", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
      "goods_category": "fertilizer"
     }, 
-    "name": "マジック肥料", 
+    "name": "ミラクル増産カード", 
     "price": {
-     "num": 2, 
+     "num": 12, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "goods_description": "長裂烏頭と長葉大戟以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
     "activity_type": "discount"
+   }, 
+   "yushandou": {
+    "product_type": {
+     "scene_type": "farm", 
+     "goods_type": "seed"
+    }, 
+    "name": "ルピナス", 
+    "start_time": 1326787200.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "8日", 
+    "end_time": 1327478400.0, 
+    "goods_description": "謎のルピナス、あなたが植えているのは何色かな？", 
+    "price": {
+     "num": 15, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -70232,7 +70227,7 @@
     "yushandou": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "ルピナス", 
      "base_fruit": 25, 
      "fruit_time": 360, 
