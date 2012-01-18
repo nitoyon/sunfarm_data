@@ -77530,13 +77530,13 @@
       "multi_buy": false, 
       "pro": 1
      }, 
-     "xunlushouhuzhe": {
+     "qifushenshouhuzhe": {
       "used": false, 
-      "name": "あのトナカイ", 
+      "name": "七福神のガーディアン", 
       "price": {
        "F_coin": 50
       }, 
-      "introduce": "あのトナカイガーディアン新登場！餌は人並みに餌を食べるが、あまり働かないヤツです。", 
+      "introduce": "七福神のガーディアン新登場！餌は人並みに餌を食べるが、あまり働かないヤツです。", 
       "multi_buy": false, 
       "pro": 0.1
      }, 
@@ -77630,6 +77630,16 @@
       "multi_buy": false, 
       "pro": 1
      }, 
+     "youzhirishouhuzhe": {
+      "used": false, 
+      "name": "おとりさま", 
+      "price": {
+       "F_coin": 50
+      }, 
+      "introduce": "だるまに見えるけど、実は神様が宿ってますよ！大事にしてあげたら、あなたの畑を守りますよ！", 
+      "multi_buy": false, 
+      "pro": 0.7
+     }, 
      "liulimao": {
       "used": true, 
       "name": "瑠璃猫", 
@@ -77640,15 +77650,15 @@
       "multi_buy": false, 
       "pro": 1
      }, 
-     "youzhirishouhuzhe": {
+     "xunlushouhuzhe": {
       "used": false, 
-      "name": "おとりさま", 
+      "name": "あのトナカイ", 
       "price": {
        "F_coin": 50
       }, 
-      "introduce": "だるまに見えるけど、実は神様が宿ってますよ！大事にしてあげたら、あなたの畑を守りますよ！", 
+      "introduce": "あのトナカイガーディアン新登場！餌は人並みに餌を食べるが、あまり働かないヤツです。", 
       "multi_buy": false, 
-      "pro": 0.7
+      "pro": 0.1
      }
     }, 
     "cash_coupon": {
@@ -79256,6 +79266,7 @@
      "xuenarui", 
      "taidi", 
      "putaojiushouhuzhe", 
+     "qifushenshouhuzhe", 
      "liulimao", 
      "huoguo", 
      "huoguoshouhuzhe", 
