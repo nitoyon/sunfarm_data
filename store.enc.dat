@@ -11910,6 +11910,51 @@
      }
     }
    }, 
+   "baoshibaoxiangyi": {
+    "config": {
+     "price": {
+      "F_coin": 60
+     }, 
+     "used": false, 
+     "goods_str": "100%の確率ウルトラ肥料が2個入手できます。100%の確率で宝石シリーズ図鑑の植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+     "name": "宝石の宝箱", 
+     "introduce": "100%の確率ウルトラ肥料が2個入手できます。100%の確率で宝石シリーズ図鑑の植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "ribenhuzhizi": [
+        1, 
+        1
+       ], 
+       "jinlvmei": [
+        1, 
+        1
+       ], 
+       "jinzhancao": [
+        1, 
+        1
+       ], 
+       "ledujuan": [
+        1, 
+        1
+       ], 
+       "zuiyucao": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "xianhuabaoxiang": {
     "config": {
      "price": {
@@ -79559,6 +79604,7 @@
    "yinyuedongwubaoxiang", 
    "huajianjiubaoxiang", 
    "qiqiuchongzibaoxiang", 
+   "baoshibaoxiangyi", 
    "xianhuabaoxiang", 
    "huangseniudan", 
    "jiuyuebaoxiang", 
