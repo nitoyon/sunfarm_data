@@ -32403,25 +32403,24 @@
      }, 
      "level_need": 1
     }, 
-    "zifengli": {
-     "total_time": 750, 
-     "leaflet_time": 60, 
+    "f879_mianhuatangshu": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
      "used": false, 
-     "name": "カルミネア", 
+     "name": "ワタアメ樹", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 30, 
-     "introduce": "収穫する際、ランダムで5つのレア種をご入手いただけます。入手できない場合もあります。", 
-     "random_special": 0, 
-     "increment_fruit": 25, 
-     "bloom_time": 210, 
-     "experience": 5, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
      "seasons": 1, 
-     "sale_price": 4, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
      "seed_price": {
-      "F_coin": 0
+      "F_coin": 8
      }, 
-     "leaf_time": 120, 
      "level_need": 1
     }, 
     "yidalichuju": {
@@ -39658,6 +39657,26 @@
      }, 
      "level_need": 1
     }, 
+    "f870_handongdecaomei": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "真冬のストロベリー", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "taiyangta": {
      "total_time": 825, 
      "leaflet_time": 90, 
@@ -43359,6 +43378,26 @@
      }, 
      "level_need": 1
     }, 
+    "f881_huashengtangshu": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "ピーナツキャンディー樹", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "xiaolihuahuang": {
      "total_time": 870, 
      "leaflet_time": 90, 
@@ -45482,25 +45521,25 @@
      }, 
      "level_need": 1
     }, 
-    "tdysfen": {
-     "total_time": 1440, 
-     "leaflet_time": 330, 
+    "f871_handongdemangguo": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
      "used": false, 
-     "name": "桃の提灯桜", 
+     "name": "真冬のマンゴー", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
+     "fruit_time": 550, 
+     "tuchan": true, 
      "sprout_time": 90, 
-     "introduce": "おめでとうございます。桃の提灯桜を手に入れました。5種の提灯桜を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
-     "increment_fruit": 25, 
-     "bloom_time": 330, 
-     "experience": 8, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
      "seasons": 1, 
-     "sale_price": 15, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
      "seed_price": {
-      "F_coin": 50
+      "F_coin": 8
      }, 
-     "leaf_time": 330, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "basishizi": {
      "total_time": 1020, 
@@ -46330,6 +46369,26 @@
      "seed_price": {
       "F_coin": 100
      }, 
+     "level_need": 0
+    }, 
+    "tdysfen": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "桃の提灯桜", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "おめでとうございます。桃の提灯桜を手に入れました。5種の提灯桜を集めれば、500Kコイン相当のギフトセットがもらえます。ギフトセットはイベント終了後3日以内に配布致します。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "F_coin": 50
+     }, 
+     "leaf_time": 330, 
      "level_need": 0
     }, 
     "yangdihuang": {
@@ -48435,6 +48494,27 @@
       "F_coin": 150
      }, 
      "level_need": 0
+    }, 
+    "zifengli": {
+     "total_time": 750, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "カルミネア", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "introduce": "収穫する際、ランダムで5つのレア種をご入手いただけます。入手できない場合もあります。", 
+     "random_special": 0, 
+     "increment_fruit": 25, 
+     "bloom_time": 210, 
+     "experience": 5, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "seed_price": {
+      "F_coin": 0
+     }, 
+     "leaf_time": 120, 
+     "level_need": 1
     }, 
     "lingjiao": {
      "total_time": 780, 
@@ -54591,6 +54671,26 @@
      }, 
      "level_need": 1
     }, 
+    "f880_qiaokelishu": {
+     "total_time": 1420, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "チョコレート樹", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 360, 
+     "experience": 7.9, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "f687_liuxingyufeizaoshu": {
      "total_time": 1390, 
      "leaflet_time": 160, 
@@ -56400,16 +56500,16 @@
      }, 
      "level_need": 1
     }, 
-    "zhuyahua": {
-     "total_time": 1080, 
-     "leaflet_time": 150, 
+    "moguxiaoyao": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "カタクリ", 
+     "name": "キノコ妖精", 
      "base_fruit": 25, 
-     "fruit_time": 360, 
+     "fruit_time": 330, 
      "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 7, 
+     "bloom_time": 210, 
+     "experience": 14.0, 
      "seasons": 1, 
      "sale_price": 12, 
      "increment_fruit": 25, 
@@ -56417,7 +56517,7 @@
      "seed_price": {
       "F_coin": 20
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "zishuijingpingguo": {
      "total_time": 960, 
@@ -65369,6 +65469,26 @@
      "leaf_time": 330, 
      "level_need": 1
     }, 
+    "f878_shuiguotangshu": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "フルーツキャンディー樹", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
     "tudinggui": {
      "total_time": 1200, 
      "leaflet_time": 150, 
@@ -66041,16 +66161,16 @@
      }, 
      "level_need": 1
     }, 
-    "moguxiaoyao": {
-     "total_time": 870, 
-     "leaflet_time": 90, 
+    "zhuyahua": {
+     "total_time": 1080, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "キノコ妖精", 
+     "name": "カタクリ", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
+     "fruit_time": 360, 
      "sprout_time": 90, 
-     "bloom_time": 210, 
-     "experience": 14.0, 
+     "bloom_time": 330, 
+     "experience": 7, 
      "seasons": 1, 
      "sale_price": 12, 
      "increment_fruit": 25, 
@@ -66058,7 +66178,7 @@
      "seed_price": {
       "F_coin": 20
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "changyedaji": {
      "total_time": 840, 
@@ -66343,6 +66463,26 @@
      "leaf_time": 150, 
      "seed_price": {
       "F_coin": 30
+     }, 
+     "level_need": 1
+    }, 
+    "f882_niunaitangshu": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "ミルクキャンディー樹", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 8
      }, 
      "level_need": 1
     }, 
@@ -68663,6 +68803,26 @@
       "gold": 632
      }, 
      "level_need": 30
+    }, 
+    "f883_zhimatangshu": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "ゴマキャンディー樹", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
     }, 
     "diaoxiang": {
      "total_time": 4200, 
@@ -76083,6 +76243,7 @@
     "kafeishu", 
     "f691_kelulabi", 
     "zhuyu", 
+    "f883_zhimatangshu", 
     "baishanhu", 
     "jinshenxian", 
     "jinye", 
@@ -76219,6 +76380,7 @@
     "qiaokelishux", 
     "qiaokelidangao", 
     "qiaokeliwu", 
+    "f880_qiaokelishu", 
     "qiaokelilizishu", 
     "zhiliguoqishu", 
     "xiaobaocai", 
@@ -76392,6 +76554,7 @@
     "xiaolihuafen", 
     "pingpo", 
     "xiangshuikongque", 
+    "f881_huashengtangshu", 
     "ribenguoqishu", 
     "qisehuaboss", 
     "daizhuangqiaokeli", 
@@ -76415,6 +76578,7 @@
     "xunyicao", 
     "xuangouzi", 
     "xiaocanglan", 
+    "f878_shuiguotangshu", 
     "shuiguoshu", 
     "jindaihua", 
     "foshougan", 
@@ -76524,6 +76688,7 @@
     "f816_shenshanxiaomicao", 
     "f686_haishishenlou", 
     "niunai", 
+    "f882_niunaitangshu", 
     "mujinhua", 
     "hongzhishan", 
     "suanjiangcao", 
@@ -76639,6 +76804,7 @@
     "bangbangtang", 
     "wosun", 
     "wuwangcao", 
+    "f879_mianhuatangshu", 
     "mianhuatang", 
     "buouyangzi", 
     "huangpi", 
@@ -76911,7 +77077,9 @@
     "f850_handongdejuzi", 
     "f851_handongdemihoutao", 
     "f847_handongdexigua", 
+    "f870_handongdecaomei", 
     "f848_handongdexiangjiao", 
+    "f871_handongdemangguo", 
     "f849_handongdehamigua", 
     "f852_handongdemitao", 
     "yudaishu", 
