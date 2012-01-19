@@ -26946,6 +26946,25 @@
      }, 
      "level_need": 0
     }, 
+    "shuangyuliuxingqun": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "魚座流星群", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "qisehualv": {
      "total_time": 1080, 
      "leaflet_time": 90, 
@@ -32096,6 +32115,25 @@
       "F_coin": 20
      }, 
      "level_need": 1
+    }, 
+    "shuangziliuxingqun": {
+     "total_time": 750, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "双子座流星群", 
+     "base_fruit": 25, 
+     "fruit_time": 270, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 0
     }, 
     "mantoushu": {
      "total_time": 930, 
@@ -60154,24 +60192,24 @@
      }, 
      "level_need": 1
     }, 
-    "mayiyulan": {
-     "total_time": 1020, 
-     "leaflet_time": 60, 
-     "used": false, 
-     "name": "ピンクハクモクレン", 
+    "kulian1": {
+     "total_time": 840, 
+     "leaflet_time": 150, 
+     "used": true, 
+     "name": "アミノキ", 
      "base_fruit": 25, 
-     "fruit_time": 390, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 10.33, 
+     "fruit_time": 300, 
+     "sprout_time": 90, 
+     "bloom_time": 150, 
+     "experience": 2.6, 
      "seasons": 1, 
-     "sale_price": 11, 
+     "sale_price": 14, 
      "increment_fruit": 25, 
-     "leaf_time": 180, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 35
+      "gold": 230
      }, 
-     "level_need": 1
+     "level_need": 30
     }, 
     "f654_aizhiyanzihua": {
      "total_time": 960, 
@@ -63285,6 +63323,25 @@
      }, 
      "level_need": 1
     }, 
+    "baiyangliuxingqun": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "牡羊座流星群", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "apple": {
      "total_time": 930, 
      "leaflet_time": 121, 
@@ -63552,24 +63609,24 @@
      }, 
      "level_need": 0
     }, 
-    "kulian1": {
-     "total_time": 840, 
-     "leaflet_time": 150, 
-     "used": true, 
-     "name": "アミノキ", 
+    "mayiyulan": {
+     "total_time": 1020, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ピンクハクモクレン", 
      "base_fruit": 25, 
-     "fruit_time": 300, 
-     "sprout_time": 90, 
-     "bloom_time": 150, 
-     "experience": 2.6, 
+     "fruit_time": 390, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 10.33, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 11, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 180, 
      "seed_price": {
-      "gold": 230
+      "F_coin": 35
      }, 
-     "level_need": 30
+     "level_need": 1
     }, 
     "huanqiuzhixing": {
      "total_time": 1020, 
@@ -65642,6 +65699,25 @@
      }, 
      "level_need": 1
     }, 
+    "shuipingliuxingqun": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "水瓶座流星群", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "nanmeijinbaohua": {
      "total_time": 1710, 
      "leaflet_time": 270, 
@@ -67488,6 +67564,25 @@
      }, 
      "leaf_time": 150, 
      "level_need": 0
+    }, 
+    "jinniuliuxingqun": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "牛座流星群", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
     }, 
     "chabei": {
      "total_time": 1080, 
@@ -72128,6 +72223,25 @@
      }, 
      "level_need": 1
     }, 
+    "mojieliuxingqun": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "山羊座流星群", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "chabeituzi": {
      "total_time": 1080, 
      "leaflet_time": 90, 
@@ -75311,6 +75425,7 @@
     "babaiwanniaoju", 
     "nanmeirilunhua", 
     "shuangzifengye", 
+    "shuangziliuxingqun", 
     "pinchuanwuqing", 
     "tuxiangrikui", 
     "tuqianniuhua", 
@@ -76627,6 +76742,7 @@
     "xiaomai", 
     "f668_weidaodacong", 
     "f784_keshuixiangrikui", 
+    "mojieliuxingqun", 
     "f715_daoqiukui", 
     "f716_chongshengluobo", 
     "f717_daoxie", 
@@ -76751,6 +76867,7 @@
     "chilunhua", 
     "f730_shuiqiezi", 
     "shuiguolanzi", 
+    "shuipingliuxingqun", 
     "shuiqiqiu", 
     "binglizishu", 
     "f675_heneiyicuncandou", 
@@ -76767,6 +76884,8 @@
     "binxuanhua", 
     "huoyingwu", 
     "mantouxiong", 
+    "jinniuliuxingqun", 
+    "baiyangliuxingqun", 
     "wenziliu", 
     "shanghuamao", 
     "maoerdenglong", 
@@ -76980,6 +77099,7 @@
     "huoguoshucai", 
     "mofalizishu", 
     "shuangyuzuodeshu", 
+    "shuangyuliuxingqun", 
     "yufengshu", 
     "yuxinghuateng", 
     "chengseliyuqi", 
