@@ -25676,59 +25676,39 @@
     "activity_type": "discount"
    }, 
    "yushandou": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "farm", 
      "goods_type": "seed"
     }, 
     "name": "ルピナス", 
-    "start_time": 1326787200.0, 
+    "start_time": "2012-01-17 17:00:00", 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "8日", 
-    "end_time": 1327478400.0, 
+    "end_time": "2012-01-25 17:00:00", 
     "goods_description": "謎のルピナス、あなたが植えているのは何色かな？", 
     "price": {
      "num": 15, 
      "type": "F_coin"
     }, 
-    "activity_type": "hot_sale"
+    "activity_type": "discount"
    }, 
-   "gaojisiliaobao": {
-    "original_price": {
-     "num": 50, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "スロット高級飼料セット", 
-    "price": {
-     "num": 40, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "14日7時間", 
-    "end_time": 1327305600.0, 
-    "goods_description": "中には高級飼料が10個含まれています。", 
-    "start_time": 1326070800.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "jingbingbaoxiang": {
-    "specific_type": "re", 
+   "crystal15": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "鏡餅の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
+    "name": "ダイヤモンドハート", 
+    "start_time": 1327100400.0, 
     "modify": false, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
+    "limit_type": "limit_time", 
+    "limit_time": "6日9時間", 
+    "end_time": 1327651200.0, 
+    "goods_description": "お面の種と高級肥料が入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "fengchehuabaoxiang": {
     "specific_type": "re", 
@@ -25743,21 +25723,6 @@
     }, 
     "modify": false, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
-   "siliaobao1": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "gift_bags", 
-     "goods_type": "gift_bag"
-    }, 
-    "name": "中級飼料セット", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "中には中級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
    }, 
    "gaoji": {
@@ -25783,21 +25748,44 @@
     "start_time": 1327046400.0, 
     "activity_type": "hot_sale"
    }, 
-   "magiccardmost": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+   "gaojisiliaobao": {
+    "original_price": {
+     "num": 50, 
+     "type": "F_coin"
     }, 
-    "name": "ミラクル増産カード", 
+    "specific_type": "zhe", 
+    "product_type": {
+     "scene_type": "gift_bags", 
+     "goods_type": "gift_bag"
+    }, 
+    "name": "スロット高級飼料セット", 
     "price": {
-     "num": 12, 
+     "num": 40, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "長裂烏頭と長葉大戟以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+    "end_time": "2012-01-23 17:00:00", 
+    "goods_description": "中には高級飼料が10個含まれています。", 
+    "start_time": "2012-01-09 10:00:00", 
     "activity_type": "discount"
+   }, 
+   "hammer": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "ハンマー", 
+    "start_time": 1327100400.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日9時間", 
+    "end_time": 1327651200.0, 
+    "goods_description": "クリスタルを開けることができます。", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "xunjie": {
     "specific_type": "re", 
@@ -25813,6 +25801,21 @@
     }, 
     "modify": false, 
     "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
+    "activity_type": "discount"
+   }, 
+   "jingbingbaoxiang": {
+    "specific_type": "re", 
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "鏡餅の宝箱", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }
   }, 
