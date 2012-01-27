@@ -25731,10 +25731,7 @@
     "activity_type": "discount"
    }, 
    "gaoji": {
-    "original_price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
+    "specific_type": "re", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
@@ -25742,32 +25739,11 @@
     }, 
     "name": "高級肥料", 
     "price": {
-     "num": 4, 
+     "num": 6, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日", 
-    "end_time": 1327564800.0, 
     "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1327046400.0, 
-    "activity_type": "hot_sale"
-   }, 
-   "yushandou": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "ルピナス", 
-    "start_time": "2012-01-17 17:00:00", 
-    "modify": false, 
-    "end_time": "2012-01-25 17:00:00", 
-    "goods_description": "謎のルピナス、あなたが植えているのは何色かな？", 
-    "price": {
-     "num": 15, 
-     "type": "F_coin"
-    }, 
     "activity_type": "discount"
    }, 
    "hammer": {
