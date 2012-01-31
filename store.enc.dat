@@ -30171,6 +30171,25 @@
      }, 
      "level_need": 45
     }, 
+    "yangzixuenv": {
+     "total_time": 750, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "よう子雪女", 
+     "base_fruit": 25, 
+     "fruit_time": 270, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 15, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 0
+    }, 
     "katelailan": {
      "total_time": 820, 
      "leaflet_time": 90, 
@@ -30324,6 +30343,25 @@
      "leaf_time": 180, 
      "seed_price": {
       "F_coin": 35
+     }, 
+     "level_need": 1
+    }, 
+    "xuezhubaixiong": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "雪竹パンダ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
      }, 
      "level_need": 1
     }, 
@@ -37709,22 +37747,22 @@
      }, 
      "level_need": 12
     }, 
-    "wuxingmogu": {
-     "total_time": 720, 
-     "leaflet_time": 75, 
+    "xuerenshuwu": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
      "used": false, 
-     "name": "究極きのこセット", 
+     "name": "プレゼントの木", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 15, 
-     "bloom_time": 150, 
-     "experience": 10.0, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
      "seasons": 1, 
-     "sale_price": 11, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 500
+      "F_coin": 9
      }, 
      "level_need": 1
     }, 
@@ -39563,22 +39601,22 @@
      }, 
      "level_need": 1
     }, 
-    "caijiaozhanshizise": {
-     "total_time": 1220, 
-     "leaflet_time": 120, 
+    "huangqiumingju": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
      "used": false, 
-     "name": "ピーマンパープル", 
+     "name": "イエローシュウメイギク", 
      "base_fruit": 25, 
-     "fruit_time": 450, 
-     "sprout_time": 90, 
-     "bloom_time": 320, 
-     "experience": 6.3, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
      "seasons": 1, 
-     "sale_price": 14, 
+     "sale_price": 4, 
      "increment_fruit": 25, 
-     "leaf_time": 240, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 15
+      "F_coin": 9
      }, 
      "level_need": 1
     }, 
@@ -45142,25 +45180,6 @@
      }, 
      "level_need": 1
     }, 
-    "xuerenshuwu": {
-     "total_time": 1710, 
-     "leaflet_time": 270, 
-     "used": false, 
-     "name": "プレゼントの木", 
-     "base_fruit": 25, 
-     "fruit_time": 510, 
-     "sprout_time": 210, 
-     "bloom_time": 390, 
-     "experience": 11.89, 
-     "seasons": 1, 
-     "sale_price": 4, 
-     "increment_fruit": 25, 
-     "leaf_time": 330, 
-     "seed_price": {
-      "F_coin": 9
-     }, 
-     "level_need": 1
-    }, 
     "beimu": {
      "total_time": 1410, 
      "leaflet_time": 150, 
@@ -48449,22 +48468,22 @@
      }, 
      "level_need": 1
     }, 
-    "taozixianluomao": {
-     "total_time": 480, 
-     "leaflet_time": 12, 
-     "used": false, 
-     "name": "桃シャム", 
+    "muouwushi": {
+     "total_time": 1410, 
+     "leaflet_time": 330, 
+     "used": true, 
+     "name": "侍人形", 
      "base_fruit": 25, 
-     "fruit_time": 222, 
-     "sprout_time": 10, 
-     "bloom_time": 148, 
-     "experience": 1.49, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 13, 
      "seasons": 1, 
-     "sale_price": 6, 
+     "sale_price": 16, 
      "increment_fruit": 25, 
-     "leaf_time": 88, 
+     "leaf_time": 330, 
      "seed_price": {
-      "gold": 80
+      "F_coin": 25
      }, 
      "level_need": 0
     }, 
@@ -50529,25 +50548,24 @@
      }, 
      "level_need": 0
     }, 
-    "bailu": {
-     "total_time": 1980, 
-     "leaflet_time": 297, 
-     "used": true, 
-     "name": "シラサギの花", 
+    "wenquanxuetu": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "温泉雪兎", 
      "base_fruit": 25, 
-     "fruit_time": 594, 
-     "goodstype": "flower", 
-     "sprout_time": 396, 
-     "increment_fruit": 25, 
-     "bloom_time": 396, 
-     "experience": 6.34, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
      "seasons": 1, 
-     "sale_price": 45, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 18
+      "F_coin": 9
      }, 
-     "leaf_time": 297, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "shengdanshu_libao": {
      "total_time": 1350, 
@@ -56630,24 +56648,24 @@
      }, 
      "level_need": 9
     }, 
-    "shuilian": {
-     "total_time": 810, 
-     "leaflet_time": 90, 
+    "yinghuashuijingqiu": {
+     "total_time": 1410, 
+     "leaflet_time": 150, 
      "used": false, 
-     "name": "スイレン", 
+     "name": "ｻｸﾗの水晶", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 30, 
-     "bloom_time": 210, 
-     "experience": 6.6, 
+     "fruit_time": 510, 
+     "sprout_time": 90, 
+     "bloom_time": 330, 
+     "experience": 8, 
      "seasons": 1, 
-     "sale_price": 9, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 330, 
      "seed_price": {
-      "F_coin": 30
+      "F_coin": 20
      }, 
-     "level_need": 1
+     "level_need": 0
     }, 
     "yuanhua": {
      "total_time": 1710, 
@@ -57265,23 +57283,23 @@
      }, 
      "level_need": 0
     }, 
-    "f756_caihongxianrenzhang": {
-     "total_time": 1250, 
-     "leaflet_time": 130, 
+    "f745_langrennanguashu": {
+     "total_time": 1390, 
+     "leaflet_time": 160, 
      "used": false, 
-     "name": "レインボーサボテン", 
+     "name": "ウィアウルフのパンプキン樹", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
+     "fruit_time": 550, 
      "tuchan": true, 
      "sprout_time": 90, 
-     "bloom_time": 310, 
-     "experience": 7.0, 
+     "bloom_time": 330, 
+     "experience": 7.01, 
      "seasons": 1, 
-     "sale_price": 7, 
+     "sale_price": 9, 
      "increment_fruit": 25, 
-     "leaf_time": 210, 
+     "leaf_time": 260, 
      "seed_price": {
-      "F_coin": 6
+      "F_coin": 25
      }, 
      "level_need": 1
     }, 
@@ -57731,22 +57749,22 @@
      }, 
      "level_need": 1
     }, 
-    "huangqiumingju": {
-     "total_time": 1710, 
-     "leaflet_time": 270, 
+    "tuoluohuacaise": {
+     "total_time": 1380, 
+     "leaflet_time": 180, 
      "used": false, 
-     "name": "イエローシュウメイギク", 
+     "name": "カラフルなハクウンボク", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
-     "sprout_time": 210, 
-     "bloom_time": 390, 
-     "experience": 11.89, 
+     "fruit_time": 450, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 28.5, 
      "seasons": 1, 
-     "sale_price": 4, 
+     "sale_price": 17, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 300, 
      "seed_price": {
-      "F_coin": 9
+      "F_coin": 0
      }, 
      "level_need": 1
     }, 
@@ -62367,6 +62385,25 @@
      }, 
      "level_need": 0
     }, 
+    "yutongxiaoji": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "木桶ひよこ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "f716_chongshengluobo": {
      "total_time": 1230, 
      "leaflet_time": 160, 
@@ -62967,6 +63004,25 @@
      }, 
      "level_need": 1
     }, 
+    "xuemeibainiao": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "雪梅白鳥", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "zisebaxianhua": {
      "total_time": 1410, 
      "leaflet_time": 330, 
@@ -63143,22 +63199,22 @@
      }, 
      "level_need": 1
     }, 
-    "muouwushi": {
-     "total_time": 1410, 
-     "leaflet_time": 330, 
-     "used": true, 
-     "name": "侍人形", 
+    "taozixianluomao": {
+     "total_time": 480, 
+     "leaflet_time": 12, 
+     "used": false, 
+     "name": "桃シャム", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 13, 
+     "fruit_time": 222, 
+     "sprout_time": 10, 
+     "bloom_time": 148, 
+     "experience": 1.49, 
      "seasons": 1, 
-     "sale_price": 16, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 88, 
      "seed_price": {
-      "F_coin": 25
+      "gold": 80
      }, 
      "level_need": 0
     }, 
@@ -63236,6 +63292,25 @@
      "leaf_time": 210, 
      "seed_price": {
       "F_coin": 8
+     }, 
+     "level_need": 1
+    }, 
+    "wuxingmogu": {
+     "total_time": 720, 
+     "leaflet_time": 75, 
+     "used": false, 
+     "name": "究極きのこセット", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 15, 
+     "bloom_time": 150, 
+     "experience": 10.0, 
+     "seasons": 1, 
+     "sale_price": 11, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 500
      }, 
      "level_need": 1
     }, 
@@ -63554,24 +63629,24 @@
      }, 
      "level_need": 1
     }, 
-    "yinghuashuijingqiu": {
-     "total_time": 1410, 
-     "leaflet_time": 150, 
+    "shuilian": {
+     "total_time": 810, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "ｻｸﾗの水晶", 
+     "name": "スイレン", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
-     "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 8, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 6.6, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 9, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 30
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "mofabaihe": {
      "total_time": 900, 
@@ -64587,6 +64662,25 @@
       "F_coin": 50
      }, 
      "level_need": 0
+    }, 
+    "caijiaozhanshizise": {
+     "total_time": 1220, 
+     "leaflet_time": 120, 
+     "used": false, 
+     "name": "ピーマンパープル", 
+     "base_fruit": 25, 
+     "fruit_time": 450, 
+     "sprout_time": 90, 
+     "bloom_time": 320, 
+     "experience": 6.3, 
+     "seasons": 1, 
+     "sale_price": 14, 
+     "increment_fruit": 25, 
+     "leaf_time": 240, 
+     "seed_price": {
+      "gold": 15
+     }, 
+     "level_need": 1
     }, 
     "yangcongxin": {
      "total_time": 810, 
@@ -68118,23 +68212,23 @@
      }, 
      "level_need": 1
     }, 
-    "f745_langrennanguashu": {
-     "total_time": 1390, 
-     "leaflet_time": 160, 
+    "f756_caihongxianrenzhang": {
+     "total_time": 1250, 
+     "leaflet_time": 130, 
      "used": false, 
-     "name": "ウィアウルフのパンプキン樹", 
+     "name": "レインボーサボテン", 
      "base_fruit": 25, 
-     "fruit_time": 550, 
+     "fruit_time": 510, 
      "tuchan": true, 
      "sprout_time": 90, 
-     "bloom_time": 330, 
-     "experience": 7.01, 
+     "bloom_time": 310, 
+     "experience": 7.0, 
      "seasons": 1, 
-     "sale_price": 9, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 260, 
+     "leaf_time": 210, 
      "seed_price": {
-      "F_coin": 25
+      "F_coin": 6
      }, 
      "level_need": 1
     }, 
@@ -71730,25 +71824,6 @@
      }, 
      "level_need": 0
     }, 
-    "tuoluohuacaise": {
-     "total_time": 1380, 
-     "leaflet_time": 180, 
-     "used": false, 
-     "name": "カラフルなハクウンボク", 
-     "base_fruit": 25, 
-     "fruit_time": 450, 
-     "sprout_time": 150, 
-     "bloom_time": 300, 
-     "experience": 28.5, 
-     "seasons": 1, 
-     "sale_price": 17, 
-     "increment_fruit": 25, 
-     "leaf_time": 300, 
-     "seed_price": {
-      "F_coin": 0
-     }, 
-     "level_need": 1
-    }, 
     "jiazhutaozi": {
      "total_time": 1080, 
      "leaflet_time": 90, 
@@ -72947,6 +73022,26 @@
       "F_coin": 20
      }, 
      "level_need": 1
+    }, 
+    "bailu": {
+     "total_time": 1980, 
+     "leaflet_time": 297, 
+     "used": true, 
+     "name": "シラサギの花", 
+     "base_fruit": 25, 
+     "fruit_time": 594, 
+     "goodstype": "flower", 
+     "sprout_time": 396, 
+     "increment_fruit": 25, 
+     "bloom_time": 396, 
+     "experience": 6.34, 
+     "seasons": 1, 
+     "sale_price": 45, 
+     "seed_price": {
+      "F_coin": 18
+     }, 
+     "leaf_time": 297, 
+     "level_need": 0
     }, 
     "shanghuasan": {
      "total_time": 1110, 
@@ -74746,6 +74841,25 @@
      }, 
      "level_need": 1
     }, 
+    "wenquanmantou": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": false, 
+     "name": "温泉饅頭", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
+    }, 
     "wenshulanbaise": {
      "total_time": 1080, 
      "leaflet_time": 90, 
@@ -76169,6 +76283,7 @@
     "huajianbiandang", 
     "yangziyujieliaoli", 
     "yangzifengshu", 
+    "yangzixuenv", 
     "caidand", 
     "cottoncandy", 
     "qiulanxin", 
@@ -77968,6 +78083,7 @@
     "yuegongdian", 
     "youlezhaicha", 
     "shuxiaoyao", 
+    "yutongxiaoji", 
     "bingganmuma", 
     "f697_zhahuangdaqiu", 
     "f650_dongjingyumi", 
@@ -78019,6 +78135,8 @@
     "f687_liuxingyufeizaoshu", 
     "langsuchengbao", 
     "kubiaoqingshu", 
+    "wenquanxuetu", 
+    "wenquanmantou", 
     "hubeiji", 
     "manyuedenvshen", 
     "f677_yuanzhuluobo", 
@@ -78213,6 +78331,8 @@
     "xuediaoshudaixiong", 
     "xuediaodaxingxing", 
     "xuediaohuabao", 
+    "xuemeibainiao", 
+    "xuezhubaixiong", 
     "jiagongchanglizi", 
     "f690_xuecai", 
     "tuzishangxueniangao", 
