@@ -25751,29 +25751,6 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "jisu1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "ranch", 
-     "goods_category": "feedstuffs"
-    }, 
-    "name": "スーパー飼料", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1327824000.0, 
-    "goods_description": "使うと動物の生産時間を10時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1327392000.0, 
-    "activity_type": "hot_sale"
-   }, 
    "gaoji": {
     "specific_type": "re", 
     "product_type": {
@@ -25804,6 +25781,29 @@
     "modify": false, 
     "goods_description": "中には高級飼料が五つ含まれていて、さらに二つをプレゼントします。", 
     "activity_type": "discount"
+   }, 
+   "magiccardmost": {
+    "original_price": {
+     "num": 12, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "ミラクル増産カード", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日9時間", 
+    "end_time": 1328515200.0, 
+    "goods_description": "長裂烏頭と長葉大戟以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
+    "start_time": 1327964400.0, 
+    "activity_type": "hot_sale"
    }, 
    "xunjie": {
     "specific_type": "re", 
@@ -79043,7 +79043,7 @@
       "used": true, 
       "name": "ミラクル増産カード", 
       "price": {
-       "F_coin": 12
+       "F_coin": 10
       }, 
       "introduce": "長裂烏頭と長葉大戟以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
       "magic_card": true, 
