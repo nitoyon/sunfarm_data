@@ -25713,29 +25713,6 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "month_day": {
-    "original_price": {
-     "num": 150, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "vip_card"
-    }, 
-    "name": "会員カード", 
-    "price": {
-     "num": 140, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "4日", 
-    "end_time": 1327996800.0, 
-    "goods_description": "このカードをご利用頂きますと、30日間有効の会員資格がもらえます。会員になりますと、便利な機能が使えるほか、マイミクの牧場と一味違う牧場をつくることができます。", 
-    "start_time": 1327651200.0, 
-    "activity_type": "hot_sale"
-   }, 
    "fengchehuabaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -25751,8 +25728,27 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "gaoji": {
+   "jisu": {
     "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "ranch", 
+     "goods_category": "feedstuffs"
+    }, 
+    "name": "高級飼料", 
+    "price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "使うと動物の生産時間を4時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
+    "activity_type": "discount"
+   }, 
+   "gaoji": {
+    "original_price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
@@ -25760,12 +25756,16 @@
     }, 
     "name": "高級肥料", 
     "price": {
-     "num": 6, 
+     "num": 4, 
      "type": "F_coin"
     }, 
     "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "7日", 
+    "end_time": 1328601600.0, 
     "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "activity_type": "discount"
+    "start_time": 1327996800.0, 
+    "activity_type": "hot_sale"
    }, 
    "siliaobao2": {
     "specific_type": "re", 
@@ -78885,7 +78885,7 @@
     "vip_card": {
      "month_day": {
       "price": {
-       "F_coin": 140
+       "F_coin": 150
       }, 
       "used": true, 
       "name": "会員カード", 
@@ -79367,7 +79367,7 @@
      }, 
      "gaoji": {
       "price": {
-       "F_coin": 6
+       "F_coin": 4
       }, 
       "used": true, 
       "name": "高級肥料", 
