@@ -25659,29 +25659,6 @@
    "juice_huluobosu_gift"
   ], 
   "hot_sale": {
-   "zengshou1": {
-    "original_price": {
-     "num": 12, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "中級増産肥料", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日", 
-    "end_time": 1328083200.0, 
-    "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-    "start_time": 1327651200.0, 
-    "activity_type": "hot_sale"
-   }, 
    "zengshou3": {
     "specific_type": "re", 
     "product_type": {
@@ -25806,7 +25783,10 @@
     "activity_type": "hot_sale"
    }, 
    "xunjie": {
-    "specific_type": "re", 
+    "original_price": {
+     "num": 2, 
+     "type": "F_coin"
+    }, 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
@@ -25814,12 +25794,16 @@
     }, 
     "name": "マジック肥料", 
     "price": {
-     "num": 2, 
+     "num": 1, 
      "type": "F_coin"
     }, 
     "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "2日", 
+    "end_time": 1328256000.0, 
     "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "activity_type": "discount"
+    "start_time": 1328083200.0, 
+    "activity_type": "hot_sale"
    }
   }, 
   "farm": {
@@ -79140,7 +79124,7 @@
       "name": "中級増産肥料", 
       "max_level": 35, 
       "price": {
-       "F_coin": 10
+       "F_coin": 12
       }, 
       "effect": 0, 
       "introduce": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
@@ -79378,7 +79362,7 @@
      }, 
      "xunjie": {
       "price": {
-       "F_coin": 2
+       "F_coin": 1
       }, 
       "used": true, 
       "name": "マジック肥料", 
