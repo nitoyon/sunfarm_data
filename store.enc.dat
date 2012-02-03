@@ -9036,7 +9036,7 @@
      }, 
      "introduce": "2月クリスタル", 
      "state": "xin", 
-     "used": false
+     "used": true
     }
    }, 
    "crystal11": {
@@ -11319,7 +11319,7 @@
      }, 
      "introduce": "クリスタルを開けることができます。", 
      "state": "xin", 
-     "used": false
+     "used": true
     }
    }, 
    "jiazhutaobaoxiang": {
@@ -25687,22 +25687,6 @@
     "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "zengshou3": {
-    "specific_type": "re", 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "高級増産肥料", 
-    "price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "高級増産肥料はレベル36から60までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
-    "activity_type": "discount"
-   }, 
    "jingbingbaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -25717,6 +25701,24 @@
     "modify": false, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
+   }, 
+   "crystal16": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "2月クリスタル", 
+    "start_time": 1328256000.0, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1328774400.0, 
+    "goods_description": "お面の種と高級肥料が入っています。", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "activity_type": "hot_sale"
    }, 
    "fengchehuabaoxiang": {
     "specific_type": "re", 
@@ -25792,6 +25794,7 @@
      "num": 12, 
      "type": "F_coin"
     }, 
+    "specific_type": "zhe", 
     "product_type": {
      "goods_type": "property", 
      "scene_type": "farm", 
@@ -25803,34 +25806,27 @@
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日9時間", 
-    "end_time": 1328515200.0, 
+    "end_time": "2012-02-06 17:00:00", 
     "goods_description": "長裂烏頭と長葉大戟以外の成熟した作物の増産量を50%アップさせます。一度収穫したら増産量が普通に戻ります。サン牧クエストの収集品に使用することができません。", 
-    "start_time": 1327964400.0, 
-    "activity_type": "hot_sale"
+    "start_time": "2012-01-31 08:00:00", 
+    "activity_type": "discount"
    }, 
-   "xunjie": {
-    "original_price": {
-     "num": 2, 
-     "type": "F_coin"
-    }, 
+   "hammer": {
     "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
     }, 
-    "name": "マジック肥料", 
-    "price": {
-     "num": 1, 
-     "type": "F_coin"
-    }, 
+    "name": "ハンマー", 
+    "start_time": 1328256000.0, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "2日", 
-    "end_time": 1328256000.0, 
-    "goods_description": "使うと作物の成熟時間を0.5時間短縮できます。同じ段階で何個でも使えます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1328083200.0, 
+    "limit_time": "6日", 
+    "end_time": 1328774400.0, 
+    "goods_description": "クリスタルを開けることができます。", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
     "activity_type": "hot_sale"
    }
   }, 
