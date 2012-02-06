@@ -50888,6 +50888,26 @@
      }, 
      "level_need": 1
     }, 
+    "lanmeixin": {
+     "total_time": 480, 
+     "leaflet_time": 22, 
+     "used": true, 
+     "name": "ヌマスノキ", 
+     "base_fruit": 25, 
+     "fruit_time": 152, 
+     "recipe": "レシピに使えます：\nブルーベリーアイス", 
+     "sprout_time": 20, 
+     "bloom_time": 148, 
+     "experience": 1.35, 
+     "seasons": 1, 
+     "sale_price": 10, 
+     "increment_fruit": 25, 
+     "leaf_time": 138, 
+     "seed_price": {
+      "gold": 200
+     }, 
+     "level_need": 33
+    }, 
     "lvshuijingpingguo": {
      "total_time": 960, 
      "leaflet_time": 60, 
@@ -72376,25 +72396,24 @@
      }, 
      "level_need": 1
     }, 
-    "lanmeixin": {
-     "total_time": 480, 
-     "leaflet_time": 22, 
-     "used": true, 
-     "name": "ヌマスノキ", 
+    "xilinshu": {
+     "total_time": 960, 
+     "leaflet_time": 60, 
+     "used": false, 
+     "name": "ナチュムラの木", 
      "base_fruit": 25, 
-     "fruit_time": 152, 
-     "recipe": "レシピに使えます：\nブルーベリーアイス", 
-     "sprout_time": 20, 
-     "bloom_time": 148, 
-     "experience": 1.35, 
-     "seasons": 1, 
+     "fruit_time": 330, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 20, 
+     "seasons": 3, 
      "sale_price": 10, 
      "increment_fruit": 25, 
-     "leaf_time": 138, 
+     "leaf_time": 180, 
      "seed_price": {
-      "gold": 200
+      "F_coin": 30
      }, 
-     "level_need": 33
+     "level_need": 1
     }, 
     "xiankelai": {
      "total_time": 1080, 
@@ -78032,6 +78051,7 @@
     "changgengliaohuashu", 
     "changputao", 
     "kesinailisi", 
+    "xilinshu", 
     "zhenzi", 
     "nanyangshan", 
     "jingzhibuouyangzi", 
