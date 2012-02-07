@@ -25751,27 +25751,22 @@
     "goods_description": "使うと動物の生産時間を4時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }, 
-   "gaoji": {
-    "original_price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
+   "jiegumu": {
     "product_type": {
-     "goods_type": "property", 
      "scene_type": "farm", 
-     "goods_category": "fertilizer"
+     "goods_type": "seed"
     }, 
-    "name": "高級肥料", 
-    "price": {
-     "num": 4, 
-     "type": "F_coin"
-    }, 
+    "name": "謎のセイヨウニワトコ", 
+    "start_time": 1328565600.0, 
     "modify": false, 
     "limit_type": "limit_time", 
-    "limit_time": "7日", 
-    "end_time": 1328601600.0, 
-    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1327996800.0, 
+    "limit_time": "6日10時間", 
+    "end_time": 1329120000.0, 
+    "goods_description": "謎のセイヨウニワトコ、あなたが植えているのは何色かな？", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
     "activity_type": "hot_sale"
    }, 
    "siliaobao2": {
@@ -29618,7 +29613,7 @@
     "jiegumu": {
      "total_time": 1080, 
      "leaflet_time": 90, 
-     "used": false, 
+     "used": true, 
      "name": "謎のセイヨウニワトコ", 
      "base_fruit": 25, 
      "fruit_time": 360, 
@@ -80184,7 +80179,7 @@
      }, 
      "gaoji": {
       "price": {
-       "F_coin": 4
+       "F_coin": 6
       }, 
       "used": true, 
       "name": "高級肥料", 
