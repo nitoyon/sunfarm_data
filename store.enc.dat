@@ -15477,69 +15477,49 @@
      }
     }
    }, 
-   "tunianniudanhuang": {
+   "tcbudingshuyi": {
     "config": {
      "price": {
-      "F_coin": 1
+      "F_coin": 50
      }, 
      "used": false, 
-     "goods_str": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
-     "name": "イエローうさツリーのカプセル", 
-     "introduce": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+     "goods_str": "100%の確率でマジック肥料が5個入手できます、100%の確率で果物のゼリー樹（第一弾）の植物シリーズのすべてが入手できます、お持ち図鑑に収録されます。20%の確率で10万経験値を得るシャンペン果物プリンが入手できます。", 
+     "name": "果物のゼリー樹第一弾の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます、100%の確率で果物のゼリー樹（第一弾）の植物シリーズのすべてが入手できます、お持ち図鑑に収録されます。20%の確率で10万経験値を得るシャンペン果物プリンが入手できます。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "shenqijianlan": [
-        1, 
-        0.03
-       ], 
-       "niudantujianer_huang": [
-        1, 
-        0.5
-       ], 
-       "bingyerizhonghua": [
-        1, 
-        0.08
-       ], 
-       "chashu": [
+       "shuiguobuding": [
         1, 
         0.2
        ], 
-       "nirenxianrenzhang": [
+       "f710_xiguaguodongshu": [
         1, 
-        0.04
+        1
        ], 
-       "nirenboluo": [
+       "f707_caomeiguodongshu": [
         1, 
-        0.03
+        1
        ], 
-       "shuijingputao": [
+       "f708_mangguoguodongshu": [
         1, 
-        0.2
+        1
+       ], 
+       "f709_ningmengguodongshu": [
+        1, 
+        1
+       ], 
+       "f706_xiangjiaoguodongshu": [
+        1, 
+        1
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "xunjie1": [
-         1, 
-         1.0
-        ], 
-        "jisu": [
-         1, 
-         0.08
-        ], 
-        "gaoji": [
-         1, 
-         0.03
-        ], 
-        "gaosu": [
-         1, 
-         0.15
-        ], 
         "xunjie": [
-         1, 
-         0.3
+         5, 
+         1.0
         ]
        }
       }
@@ -15920,6 +15900,75 @@
         1, 
         0.05
        ]
+      }
+     }
+    }
+   }, 
+   "tunianniudanhuang": {
+    "config": {
+     "price": {
+      "F_coin": 1
+     }, 
+     "used": false, 
+     "goods_str": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。", 
+     "name": "イエローうさツリーのカプセル", 
+     "introduce": "50%の確率でイエローうさツリーを獲得できます。100％の確率でミニマジック肥料を入手できます。5種類のうさツリーを全部揃うと500Kコイン相当のギフトセットがもらえます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "shenqijianlan": [
+        1, 
+        0.03
+       ], 
+       "niudantujianer_huang": [
+        1, 
+        0.5
+       ], 
+       "bingyerizhonghua": [
+        1, 
+        0.08
+       ], 
+       "chashu": [
+        1, 
+        0.2
+       ], 
+       "nirenxianrenzhang": [
+        1, 
+        0.04
+       ], 
+       "nirenboluo": [
+        1, 
+        0.03
+       ], 
+       "shuijingputao": [
+        1, 
+        0.2
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie1": [
+         1, 
+         1.0
+        ], 
+        "jisu": [
+         1, 
+         0.08
+        ], 
+        "gaoji": [
+         1, 
+         0.03
+        ], 
+        "gaosu": [
+         1, 
+         0.15
+        ], 
+        "xunjie": [
+         1, 
+         0.3
+        ]
+       }
       }
      }
     }
@@ -82039,6 +82088,7 @@
    "xianhuabaoxiang", 
    "huangseniudan", 
    "jiuyuebaoxiang", 
+   "cangbaotu2", 
    "zhiwubaoxiang", 
    "caiyecaobaoxiang", 
    "tdysfen", 
@@ -82101,7 +82151,7 @@
    "siyuebaoxiang2", 
    "tujiandongwubaoxiang", 
    "niudanzi", 
-   "cangbaotu2", 
+   "tcbudingshuyi", 
    "huangjinzhousiqi", 
    "El_bag", 
    "lvdan", 
