@@ -33120,6 +33120,26 @@
      }, 
      "level_need": 1
     }, 
+    "f790_labashuixian": {
+     "total_time": 1320, 
+     "leaflet_time": 150, 
+     "used": false, 
+     "name": "ラッパ水仙", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 310, 
+     "experience": 6.55, 
+     "seasons": 1, 
+     "sale_price": 7, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 6
+     }, 
+     "level_need": 1
+    }, 
     "yidalichuju": {
      "total_time": 1020, 
      "leaflet_time": 60, 
@@ -33528,22 +33548,23 @@
      }, 
      "level_need": 1
     }, 
-    "wutoux": {
-     "total_time": 870, 
-     "leaflet_time": 90, 
+    "f906_guaiguaiyindianzhiwu": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
      "used": false, 
-     "name": "カブトギク", 
+     "name": "おとなしいインディアン植物", 
      "base_fruit": 25, 
-     "fruit_time": 330, 
+     "fruit_time": 550, 
+     "tuchan": true, 
      "sprout_time": 90, 
-     "bloom_time": 210, 
-     "experience": 17.0, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
      "seasons": 1, 
-     "sale_price": 12, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 260, 
      "seed_price": {
-      "F_coin": 20
+      "F_coin": 7
      }, 
      "level_need": 1
     }, 
@@ -36041,6 +36062,25 @@
      }, 
      "leaf_time": 330, 
      "level_need": 0
+    }, 
+    "wutoux": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "カブトギク", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 17.0, 
+     "seasons": 1, 
+     "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
     }, 
     "zhishijumogu": {
      "total_time": 930, 
@@ -39075,22 +39115,23 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "lianhuadengwucai": {
-     "total_time": 1380, 
-     "leaflet_time": 180, 
+    "f902_taoqiyindianzhiwu": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
      "used": false, 
-     "name": "カラフル蓮の灯", 
+     "name": "悪戯インディアン植物", 
      "base_fruit": 25, 
-     "fruit_time": 450, 
-     "sprout_time": 150, 
-     "bloom_time": 300, 
-     "experience": 28.5, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
      "seasons": 1, 
-     "sale_price": 17, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 300, 
+     "leaf_time": 260, 
      "seed_price": {
-      "F_coin": 100
+      "F_coin": 7
      }, 
      "level_need": 1
     }, 
@@ -44410,23 +44451,23 @@
      }, 
      "level_need": 1
     }, 
-    "f790_labashuixian": {
-     "total_time": 1320, 
-     "leaflet_time": 150, 
+    "f905_keaiyindianzhiwu": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
      "used": false, 
-     "name": "ラッパ水仙", 
+     "name": "可愛いインディアン植物", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
+     "fruit_time": 550, 
      "tuchan": true, 
      "sprout_time": 90, 
-     "bloom_time": 310, 
-     "experience": 6.55, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
      "seasons": 1, 
-     "sale_price": 7, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
      "leaf_time": 260, 
      "seed_price": {
-      "F_coin": 6
+      "F_coin": 7
      }, 
      "level_need": 1
     }, 
@@ -51479,6 +51520,25 @@
      "leaf_time": 600, 
      "level_need": 0
     }, 
+    "lianhuadengwucai": {
+     "total_time": 1380, 
+     "leaflet_time": 180, 
+     "used": false, 
+     "name": "カラフル蓮の灯", 
+     "base_fruit": 25, 
+     "fruit_time": 450, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 28.5, 
+     "seasons": 1, 
+     "sale_price": 17, 
+     "increment_fruit": 25, 
+     "leaf_time": 300, 
+     "seed_price": {
+      "F_coin": 100
+     }, 
+     "level_need": 1
+    }, 
     "f739_dahezhencai": {
      "total_time": 1230, 
      "leaflet_time": 160, 
@@ -52079,6 +52139,26 @@
      "leaf_time": 120, 
      "seed_price": {
       "gold": 1
+     }, 
+     "level_need": 1
+    }, 
+    "f903_qieyiyindianzhiwu": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "快適インディアン植物", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 7
      }, 
      "level_need": 1
     }, 
@@ -62609,6 +62689,26 @@
       "F_coin": 10
      }, 
      "level_need": 0
+    }, 
+    "f907_tianzhenyindianzhiwu": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "無邪気インディアン植物", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
+     "seasons": 1, 
+     "sale_price": 9, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 8
+     }, 
+     "level_need": 1
     }, 
     "shengdailv": {
      "total_time": 1020, 
@@ -73954,6 +74054,26 @@
      }, 
      "level_need": 30
     }, 
+    "f904_shuakuyindianzhiwu": {
+     "total_time": 1420, 
+     "leaflet_time": 160, 
+     "used": false, 
+     "name": "クールインディアン植物", 
+     "base_fruit": 25, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 360, 
+     "experience": 7.9, 
+     "seasons": 1, 
+     "sale_price": 8, 
+     "increment_fruit": 25, 
+     "leaf_time": 260, 
+     "seed_price": {
+      "F_coin": 7
+     }, 
+     "level_need": 1
+    }, 
     "zhongguoshuixian": {
      "total_time": 1020, 
      "leaflet_time": 60, 
@@ -78753,6 +78873,7 @@
     "f788_mojingxiangrikui", 
     "xinnianbiandang", 
     "f669_aduofuchunju", 
+    "f906_guaiguaiyindianzhiwu", 
     "chunv", 
     "chunvzuodeshu", 
     "1guiliannangua", 
@@ -79159,6 +79280,7 @@
     "xinandiaolan", 
     "siyehuateng", 
     "xueqiehua", 
+    "f904_shuakuyindianzhiwu", 
     "bale", 
     "gangqin2", 
     "qieyuncai", 
@@ -79853,6 +79975,7 @@
     "shuangzizuodeshu", 
     "shizhu", 
     "keainangua", 
+    "f905_keaiyindianzhiwu", 
     "f899_biaobaiqiaokeli", 
     "f741_hegeshanluobo", 
     "penquan", 
@@ -79933,10 +80056,12 @@
     "jiayouzhongzi", 
     "nirenzhiwu3", 
     "ribenshuidao", 
+    "f903_qieyiyindianzhiwu", 
     "1fennunangua", 
     "fennunangua", 
     "qingrenhuasu", 
     "f688_lianshiyufeizaoshu", 
+    "f902_taoqiyindianzhiwu", 
     "f898_relianqiaokeli", 
     "jingqibiaoqingshu", 
     "qingrenjiedangaoer", 
@@ -80053,6 +80178,7 @@
     "tcmeiguihuashu", 
     "binxuanhua", 
     "huoyingwu", 
+    "f907_tianzhenyindianzhiwu", 
     "mantouxiong", 
     "f897_anlianqiaokeli", 
     "jinniuliuxingqun", 
