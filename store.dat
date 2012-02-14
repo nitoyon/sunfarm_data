@@ -12080,6 +12080,18 @@
      }
     }
    }, 
+   "water": {
+    "config": {
+     "goods_str": "\u304a\u9762\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
+     "name": "\u6e05\u6c34", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "\u304a\u9762\u306e\u7a2e\u3068\u9ad8\u7d1a\u80a5\u6599\u304c\u5165\u3063\u3066\u3044\u307e\u3059\u3002", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "xianhuabaoxiang": {
     "config": {
      "price": {
@@ -13001,6 +13013,27 @@
          0.05
         ]
        }
+      }
+     }
+    }
+   }, 
+   "chengsehudiebaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": true, 
+     "goods_str": "\u4e2d\u306b\u30aa\u30ec\u30f3\u30b8\u30c1\u30e7\u30a6\u306e\u8d64\u3061\u3083\u30931\u5339\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
+     "name": "\u30aa\u30ec\u30f3\u30b8\u30c1\u30e7\u30a6\u5b9d\u7bb1", 
+     "introduce": "\u4e2d\u306b\u30aa\u30ec\u30f3\u30b8\u30c1\u30e7\u30a6\u306e\u8d64\u3061\u3083\u30931\u5339\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "chengsehudie": [
+        1, 
+        1
+       ]
       }
      }
     }
@@ -17522,6 +17555,18 @@
      }
     }
    }, 
+   "foam": {
+    "config": {
+     "goods_str": "\u6e05\u6c34\u3092\u958b\u3051\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
+     "name": "\u30b7\u30e3\u30dc\u30f3\u6db2", 
+     "price": {
+      "F_coin": 10
+     }, 
+     "introduce": "\u6e05\u6c34\u3092\u958b\u3051\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "zhuochongtujian": {
     "config": {
      "price": {
@@ -17826,25 +17871,16 @@
      }
     }
    }, 
-   "chengsehudiebaoxiang": {
+   "water_piece": {
     "config": {
+     "goods_str": "\u6e05\u6c34\u3092\u958b\u3051\u308b\u6642\u30af\u30ea\u30b9\u30bf\u30eb\u304b\u3051\u3089\uff11\u500b\u304b\u3089\uff13\u500b\u307e\u3067\u3092\u5165\u624b\u3067\u304d\u307e\u3059", 
+     "name": "\u6ef4", 
      "price": {
-      "F_coin": 30
+      "gold": 100
      }, 
-     "used": true, 
-     "goods_str": "\u4e2d\u306b\u30aa\u30ec\u30f3\u30b8\u30c1\u30e7\u30a6\u306e\u8d64\u3061\u3083\u30931\u5339\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059", 
-     "name": "\u30aa\u30ec\u30f3\u30b8\u30c1\u30e7\u30a6\u5b9d\u7bb1", 
-     "introduce": "\u4e2d\u306b\u30aa\u30ec\u30f3\u30b8\u30c1\u30e7\u30a6\u306e\u8d64\u3061\u3083\u30931\u5339\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059"
-    }, 
-    "data": {
-     "ranch": {
-      "babies": {
-       "chengsehudie": [
-        1, 
-        1
-       ]
-      }
-     }
+     "introduce": "\u6e05\u6c34\u3092\u958b\u3051\u308b\u6642\u30af\u30ea\u30b9\u30bf\u30eb\u304b\u3051\u3089\uff11\u500b\u304b\u3089\uff13\u500b\u307e\u3067\u3092\u5165\u624b\u3067\u304d\u307e\u3059", 
+     "state": "xin", 
+     "used": false
     }
    }, 
    "xinnianlanniudan": {
@@ -83231,12 +83267,14 @@
    "crystal15", 
    "crystal16", 
    "crystal12", 
+   "water_piece", 
    "zong_zi", 
    "piece", 
    "hammer", 
    "crystal", 
    "love_stone", 
    "crystal9", 
+   "water", 
    "crystal11", 
    "mb_10", 
    "crystal3", 
@@ -83246,6 +83284,7 @@
    "chengshuijing", 
    "mb_6", 
    "mb_8", 
+   "foam", 
    "crystal8", 
    "mb_7", 
    "crystal2", 
