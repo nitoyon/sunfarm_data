@@ -12080,6 +12080,18 @@
      }
     }
    }, 
+   "water": {
+    "config": {
+     "goods_str": "お面の種と高級肥料が入っています。", 
+     "name": "清水", 
+     "price": {
+      "gold": 100
+     }, 
+     "introduce": "お面の種と高級肥料が入っています。", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "xianhuabaoxiang": {
     "config": {
      "price": {
@@ -13001,6 +13013,27 @@
          0.05
         ]
        }
+      }
+     }
+    }
+   }, 
+   "chengsehudiebaoxiang": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": true, 
+     "goods_str": "中にオレンジチョウの赤ちゃん1匹が含まれています", 
+     "name": "オレンジチョウ宝箱", 
+     "introduce": "中にオレンジチョウの赤ちゃん1匹が含まれています"
+    }, 
+    "data": {
+     "ranch": {
+      "babies": {
+       "chengsehudie": [
+        1, 
+        1
+       ]
       }
      }
     }
@@ -17522,6 +17555,18 @@
      }
     }
    }, 
+   "foam": {
+    "config": {
+     "goods_str": "清水を開けることができます。", 
+     "name": "シャボン液", 
+     "price": {
+      "F_coin": 10
+     }, 
+     "introduce": "清水を開けることができます。", 
+     "state": "xin", 
+     "used": false
+    }
+   }, 
    "zhuochongtujian": {
     "config": {
      "price": {
@@ -17826,25 +17871,16 @@
      }
     }
    }, 
-   "chengsehudiebaoxiang": {
+   "water_piece": {
     "config": {
+     "goods_str": "清水を開ける時クリスタルかけら１個から３個までを入手できます", 
+     "name": "滴", 
      "price": {
-      "F_coin": 30
+      "gold": 100
      }, 
-     "used": true, 
-     "goods_str": "中にオレンジチョウの赤ちゃん1匹が含まれています", 
-     "name": "オレンジチョウ宝箱", 
-     "introduce": "中にオレンジチョウの赤ちゃん1匹が含まれています"
-    }, 
-    "data": {
-     "ranch": {
-      "babies": {
-       "chengsehudie": [
-        1, 
-        1
-       ]
-      }
-     }
+     "introduce": "清水を開ける時クリスタルかけら１個から３個までを入手できます", 
+     "state": "xin", 
+     "used": false
     }
    }, 
    "xinnianlanniudan": {
@@ -83231,12 +83267,14 @@
    "crystal15", 
    "crystal16", 
    "crystal12", 
+   "water_piece", 
    "zong_zi", 
    "piece", 
    "hammer", 
    "crystal", 
    "love_stone", 
    "crystal9", 
+   "water", 
    "crystal11", 
    "mb_10", 
    "crystal3", 
@@ -83246,6 +83284,7 @@
    "chengshuijing", 
    "mb_6", 
    "mb_8", 
+   "foam", 
    "crystal8", 
    "mb_7", 
    "crystal2", 
