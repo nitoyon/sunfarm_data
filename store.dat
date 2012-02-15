@@ -18757,6 +18757,7 @@
     "xiaobianfu", 
     "xiaomonv", 
     "xiaoheimao", 
+    "qrjtunshu", 
     "shuitongxueren", 
     "fuhuojietuzier", 
     "xiongmao", 
@@ -22487,23 +22488,23 @@
      "level_need": 0, 
      "fruit_quantifier": "\u500b"
     }, 
-    "lansandekaola": {
-     "total_time": 720, 
+    "jiayouyangtuo": {
+     "total_time": 480, 
      "harvest_type": 0, 
      "used": false, 
-     "name": "\u7720\u3044\u30b3\u30a2\u30e9", 
+     "name": "pray\u30a2\u30eb\u30d1\u30ab", 
      "base_fruit": 25, 
-     "fruit_time": 310, 
-     "adult_time": 235, 
+     "fruit_time": 240, 
+     "adult_time": 120, 
      "buy_price": {
-      "F_coin": 30
+      "F_coin": 25
      }, 
      "seasons": 1, 
-     "young_time": 175, 
-     "experience": 15, 
+     "young_time": 120, 
+     "experience": 100, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 30, 
+     "sale_price": 50, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "\u500b"
@@ -23532,6 +23533,27 @@
      "fruit_name": "", 
      "is_auto_harvest": true, 
      "sale_price": 47, 
+     "increment_fruit": 25, 
+     "level_need": 0, 
+     "fruit_quantifier": "\u500b"
+    }, 
+    "qrjtunshu": {
+     "total_time": 720, 
+     "harvest_type": 0, 
+     "used": false, 
+     "name": "\u30cf\u30fc\u30c8\u30e2\u30eb\u30e2\u30c3\u30c8", 
+     "base_fruit": 25, 
+     "fruit_time": 310, 
+     "adult_time": 235, 
+     "buy_price": {
+      "F_coin": 30
+     }, 
+     "seasons": 1, 
+     "young_time": 175, 
+     "experience": 15, 
+     "fruit_name": "", 
+     "is_auto_harvest": true, 
+     "sale_price": 30, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "\u500b"
@@ -25459,23 +25481,23 @@
      "level_need": 0, 
      "fruit_quantifier": "\u500b"
     }, 
-    "jiayouyangtuo": {
-     "total_time": 480, 
+    "lansandekaola": {
+     "total_time": 720, 
      "harvest_type": 0, 
      "used": false, 
-     "name": "pray\u30a2\u30eb\u30d1\u30ab", 
+     "name": "\u7720\u3044\u30b3\u30a2\u30e9", 
      "base_fruit": 25, 
-     "fruit_time": 240, 
-     "adult_time": 120, 
+     "fruit_time": 310, 
+     "adult_time": 235, 
      "buy_price": {
-      "F_coin": 25
+      "F_coin": 30
      }, 
      "seasons": 1, 
-     "young_time": 120, 
-     "experience": 100, 
+     "young_time": 175, 
+     "experience": 15, 
      "fruit_name": "", 
      "is_auto_harvest": true, 
-     "sale_price": 50, 
+     "sale_price": 30, 
      "increment_fruit": 25, 
      "level_need": 0, 
      "fruit_quantifier": "\u500b"
