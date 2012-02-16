@@ -45321,6 +45321,26 @@
      }, 
      "level_need": 1
     }, 
+    "shuitun": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "\u30ab\u30d4\u30d0\u30e9\u3055\u3093\u3068\u4ef2\u9593\u305f\u3061", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "\u30ab\u30d4\u30d0\u30e9\u3055\u3093\u671f\u9593\u9650\u5b9a\u7a2e\u3002", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "gold": 100
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "danangua": {
      "total_time": 1650, 
      "leaflet_time": 30, 
@@ -81708,6 +81728,7 @@
     "caomeituan", 
     "yingtaojiang", 
     "bolicuihuashu", 
+    "shuitun", 
     "yumeiren", 
     "dayantonghuashu", 
     "starsalad", 
@@ -82301,6 +82322,16 @@
       "multi_buy": false, 
       "pro": 1
      }, 
+     "xunlushouhuzhe": {
+      "used": false, 
+      "name": "\u3042\u306e\u30c8\u30ca\u30ab\u30a4", 
+      "price": {
+       "F_coin": 50
+      }, 
+      "introduce": "\u3042\u306e\u30c8\u30ca\u30ab\u30a4\u30ac\u30fc\u30c7\u30a3\u30a2\u30f3\u65b0\u767b\u5834\uff01\u990c\u306f\u4eba\u4e26\u307f\u306b\u990c\u3092\u98df\u3079\u308b\u304c\u3001\u3042\u307e\u308a\u50cd\u304b\u306a\u3044\u30e4\u30c4\u3067\u3059\u3002", 
+      "multi_buy": false, 
+      "pro": 0.1
+     }, 
      "youzhirishouhuzhe": {
       "used": false, 
       "name": "\u304a\u3068\u308a\u3055\u307e", 
@@ -82321,15 +82352,15 @@
       "multi_buy": false, 
       "pro": 1
      }, 
-     "xunlushouhuzhe": {
+     "kapiparashouhuzhe": {
       "used": false, 
-      "name": "\u3042\u306e\u30c8\u30ca\u30ab\u30a4", 
+      "name": "\u30ab\u30d4\u30d0\u30e9\u3055\u3093\u30ac\u30fc\u30c7\u30a3\u30a2\u30f3", 
       "price": {
-       "F_coin": 50
+       "gold": 3000
       }, 
-      "introduce": "\u3042\u306e\u30c8\u30ca\u30ab\u30a4\u30ac\u30fc\u30c7\u30a3\u30a2\u30f3\u65b0\u767b\u5834\uff01\u990c\u306f\u4eba\u4e26\u307f\u306b\u990c\u3092\u98df\u3079\u308b\u304c\u3001\u3042\u307e\u308a\u50cd\u304b\u306a\u3044\u30e4\u30c4\u3067\u3059\u3002", 
+      "introduce": "\u671f\u9593\u9650\u5b9a\uff01\u30ab\u30d4\u30d0\u30e9\u3055\u3093\u30b9\u30da\u30b7\u30e3\u30eb\u30ac\u30fc\u30c7\u30a3\u30a2\u30f3\u3002", 
       "multi_buy": false, 
-      "pro": 0.1
+      "pro": 0.3
      }
     }, 
     "cash_coupon": {
@@ -83942,6 +83973,7 @@
      "huoguo", 
      "huoguoshouhuzhe", 
      "heimao", 
+     "kapiparashouhuzhe", 
      "tianshinv", 
      "wupo", 
      "yhxianzi", 
