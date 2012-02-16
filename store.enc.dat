@@ -45321,6 +45321,26 @@
      }, 
      "level_need": 1
     }, 
+    "shuitun": {
+     "total_time": 1440, 
+     "leaflet_time": 330, 
+     "used": false, 
+     "name": "カピバラさんと仲間たち", 
+     "base_fruit": 25, 
+     "fruit_time": 360, 
+     "sprout_time": 90, 
+     "introduce": "カピバラさん期間限定種。", 
+     "increment_fruit": 25, 
+     "bloom_time": 330, 
+     "experience": 8, 
+     "seasons": 1, 
+     "sale_price": 15, 
+     "seed_price": {
+      "gold": 100
+     }, 
+     "leaf_time": 330, 
+     "level_need": 0
+    }, 
     "danangua": {
      "total_time": 1650, 
      "leaflet_time": 30, 
@@ -81708,6 +81728,7 @@
     "caomeituan", 
     "yingtaojiang", 
     "bolicuihuashu", 
+    "shuitun", 
     "yumeiren", 
     "dayantonghuashu", 
     "starsalad", 
@@ -82301,6 +82322,16 @@
       "multi_buy": false, 
       "pro": 1
      }, 
+     "xunlushouhuzhe": {
+      "used": false, 
+      "name": "あのトナカイ", 
+      "price": {
+       "F_coin": 50
+      }, 
+      "introduce": "あのトナカイガーディアン新登場！餌は人並みに餌を食べるが、あまり働かないヤツです。", 
+      "multi_buy": false, 
+      "pro": 0.1
+     }, 
      "youzhirishouhuzhe": {
       "used": false, 
       "name": "おとりさま", 
@@ -82321,15 +82352,15 @@
       "multi_buy": false, 
       "pro": 1
      }, 
-     "xunlushouhuzhe": {
+     "kapiparashouhuzhe": {
       "used": false, 
-      "name": "あのトナカイ", 
+      "name": "カピバラさんガーディアン", 
       "price": {
-       "F_coin": 50
+       "gold": 3000
       }, 
-      "introduce": "あのトナカイガーディアン新登場！餌は人並みに餌を食べるが、あまり働かないヤツです。", 
+      "introduce": "期間限定！カピバラさんスペシャルガーディアン。", 
       "multi_buy": false, 
-      "pro": 0.1
+      "pro": 0.3
      }
     }, 
     "cash_coupon": {
@@ -83942,6 +83973,7 @@
      "huoguo", 
      "huoguoshouhuzhe", 
      "heimao", 
+     "kapiparashouhuzhe", 
      "tianshinv", 
      "wupo", 
      "yhxianzi", 
