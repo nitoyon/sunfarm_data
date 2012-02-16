@@ -2475,6 +2475,43 @@
      }
     }
    }, 
+   "libaocheng_shi": {
+    "config": {
+     "price": {
+      "F_coin": 65
+     }, 
+     "used": false, 
+     "goods_str": "園芸の火車、ティラノサウルス、ウルトラ肥料が含まれています。", 
+     "name": "オレンジギフトセット", 
+     "introduce": "園芸の火車、ティラノサウルス、ウルトラ肥料が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yuanyihuoche": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "dakonglong": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "hb_5": {
     "config": {
      "price": {
@@ -2825,6 +2862,43 @@
          1.0
         ]
        }
+      }
+     }
+    }
+   }, 
+   "libaozi_shi": {
+    "config": {
+     "price": {
+      "F_coin": 39
+     }, 
+     "used": false, 
+     "goods_str": "園芸の飛行機、高級肥料２個、鍬うさぎが含まれています。", 
+     "name": "パープルギフトセット", 
+     "introduce": "園芸の飛行機、高級肥料２個、鍬うさぎが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yuanyifeiji": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "liumangtu": [
+        1, 
+        1.0
+       ]
       }
      }
     }
@@ -3345,6 +3419,35 @@
      }
     }
    }, 
+   "libaofen_shi": {
+    "config": {
+     "price": {
+      "F_coin": 29
+     }, 
+     "used": false, 
+     "goods_str": "園芸の屋敷、高級肥料が含まれています。", 
+     "name": "ピンクギフトセット", 
+     "introduce": "園芸の屋敷、高級肥料が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yuanyifangzi": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "gaoji": [
+         1, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "xinlibaozi3": {
     "config": {
      "price": {
@@ -3375,47 +3478,6 @@
      "ranch": {
       "babies": {
        "shudaixiong": [
-        1, 
-        1.0
-       ]
-      }
-     }
-    }
-   }, 
-   "libaolv_jiu": {
-    "config": {
-     "price": {
-      "F_coin": 158
-     }, 
-     "used": false, 
-     "goods_str": "ドッキリ弁当、黄菊の兎、ウルトラ肥料４個、ハムスターが含まれています。", 
-     "name": "グリーンギフトセット", 
-     "introduce": "ドッキリ弁当、黄菊の兎、ウルトラ肥料４個、ハムスターが含まれています。"
-    }, 
-    "data": {
-     "farm": {
-      "seeds": {
-       "qingjiebiandang": [
-        1, 
-        1.0
-       ]
-      }, 
-      "properties": {
-       "fertilizer": {
-        "test": [
-         4, 
-         1.0
-        ]
-       }
-      }
-     }, 
-     "ranch": {
-      "babies": {
-       "juhuatuhuang": [
-        1, 
-        1.0
-       ], 
-       "cangshu": [
         1, 
         1.0
        ]
@@ -3623,6 +3685,47 @@
      "ranch": {
       "babies": {
        "gongfuxiongmao": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
+   "libaolv_shi": {
+    "config": {
+     "price": {
+      "F_coin": 158
+     }, 
+     "used": false, 
+     "goods_str": "園芸の汽車、クルマサカオウム、ウルトラ肥料４個、赤菊の兎が含まれています。", 
+     "name": "グリーンギフトセット", 
+     "introduce": "園芸の汽車、クルマサカオウム、ウルトラ肥料４個、赤菊の兎が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yuanyiqiche": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         4, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "miqieshifengtouyingwu": [
+        1, 
+        1.0
+       ], 
+       "juhuatuhong": [
         1, 
         1.0
        ]
@@ -5088,6 +5191,43 @@
      }
     }
    }, 
+   "libaolan_shi": {
+    "config": {
+     "price": {
+      "F_coin": 85
+     }, 
+     "used": false, 
+     "goods_str": "園芸の汽船、赤菊の兎、ウルトラ肥料２個が含まれています。", 
+     "name": "ブルーギフトセット", 
+     "introduce": "園芸の汽船、赤菊の兎、ウルトラ肥料２個が含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "yuanyilunchuan": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         2, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "juhuatuhong": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "libaofen_jiu": {
     "config": {
      "price": {
@@ -6429,6 +6569,79 @@
      }
     }
    }, 
+   "libaoda_shi": {
+    "config": {
+     "price": {
+      "F_coin": 350
+     }, 
+     "used": false, 
+     "goods_str": "350Kコイン相当のアイテムが含まれています。", 
+     "name": "高級ギフトセット", 
+     "introduce": "350Kコイン相当のアイテムが含まれています。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "bosipopona": [
+        1, 
+        1.0
+       ], 
+       "shenqibian": [
+        1, 
+        1.0
+       ], 
+       "yushandou": [
+        1, 
+        1.0
+       ], 
+       "shenqiparadiseflower": [
+        1, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "test": [
+         5, 
+         1.0
+        ], 
+        "gaoji": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "xiaojinlong": [
+        1, 
+        1.0
+       ], 
+       "baoyashu": [
+        1, 
+        1.0
+       ], 
+       "qie": [
+        1, 
+        1.0
+       ], 
+       "daxiang": [
+        1, 
+        1.0
+       ], 
+       "baifengtouyingwu": [
+        1, 
+        1.0
+       ], 
+       "xiezuomao": [
+        1, 
+        1.0
+       ]
+      }
+     }
+    }
+   }, 
    "hongsebao2": {
     "config": {
      "price": {
@@ -6629,31 +6842,43 @@
      }
     }
    }, 
-   "xuyuanlibao4": {
+   "libaolv_jiu": {
     "config": {
      "price": {
-      "F_coin": 30
+      "F_coin": 158
      }, 
      "used": false, 
-     "goods_str": "ワスレグサの種5個、マジック肥料2個が含まれています。さっそく開けてみよう！", 
-     "name": "賞品d", 
-     "introduce": "ワスレグサの種5個、マジック肥料2個が含まれています。さっそく開けてみよう！"
+     "goods_str": "ドッキリ弁当、黄菊の兎、ウルトラ肥料４個、ハムスターが含まれています。", 
+     "name": "グリーンギフトセット", 
+     "introduce": "ドッキリ弁当、黄菊の兎、ウルトラ肥料４個、ハムスターが含まれています。"
     }, 
     "data": {
      "farm": {
       "seeds": {
-       "wangyoucao": [
-        5, 
+       "qingjiebiandang": [
+        1, 
         1.0
        ]
       }, 
       "properties": {
        "fertilizer": {
-        "xunjie": [
-         2, 
+        "test": [
+         4, 
          1.0
         ]
        }
+      }
+     }, 
+     "ranch": {
+      "babies": {
+       "juhuatuhuang": [
+        1, 
+        1.0
+       ], 
+       "cangshu": [
+        1, 
+        1.0
+       ]
       }
      }
     }
@@ -6856,6 +7081,35 @@
         1, 
         1.0
        ]
+      }
+     }
+    }
+   }, 
+   "xuyuanlibao4": {
+    "config": {
+     "price": {
+      "F_coin": 30
+     }, 
+     "used": false, 
+     "goods_str": "ワスレグサの種5個、マジック肥料2個が含まれています。さっそく開けてみよう！", 
+     "name": "賞品d", 
+     "introduce": "ワスレグサの種5個、マジック肥料2個が含まれています。さっそく開けてみよう！"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "wangyoucao": [
+        5, 
+        1.0
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         2, 
+         1.0
+        ]
+       }
       }
      }
     }
@@ -29240,6 +29494,25 @@
      }, 
      "level_need": 0
     }, 
+    "yuanyiqiche": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "園芸の汽車", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "huoguoshucai": {
      "total_time": 720, 
      "leaflet_time": 15, 
@@ -38901,6 +39174,25 @@
      }, 
      "level_need": 0
     }, 
+    "yuanyifeiji": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "園芸の飛行機", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
     "qiukui": {
      "total_time": 600, 
      "leaflet_time": 55, 
@@ -39577,23 +39869,22 @@
      "leaf_time": 330, 
      "level_need": 0
     }, 
-    "f902_taoqiyindianzhiwu": {
-     "total_time": 1410, 
-     "leaflet_time": 160, 
+    "lianhuadengwucai": {
+     "total_time": 1380, 
+     "leaflet_time": 180, 
      "used": false, 
-     "name": "悪戯インディアン植物", 
+     "name": "カラフル蓮の灯", 
      "base_fruit": 25, 
-     "fruit_time": 550, 
-     "tuchan": true, 
-     "sprout_time": 90, 
-     "bloom_time": 350, 
-     "experience": 7.85, 
+     "fruit_time": 450, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 28.5, 
      "seasons": 1, 
-     "sale_price": 8, 
+     "sale_price": 17, 
      "increment_fruit": 25, 
-     "leaf_time": 260, 
+     "leaf_time": 300, 
      "seed_price": {
-      "F_coin": 7
+      "F_coin": 100
      }, 
      "level_need": 1
     }, 
@@ -39791,6 +40082,26 @@
      }, 
      "leaf_time": 120, 
      "level_need": 7
+    }, 
+    "nirenxihongshi": {
+     "total_time": 960, 
+     "leaflet_time": 150, 
+     "used": true, 
+     "name": "とまとん", 
+     "base_fruit": 25, 
+     "red_pit_seed": true, 
+     "fruit_time": 360, 
+     "sprout_time": 150, 
+     "bloom_time": 150, 
+     "experience": 2.5, 
+     "seasons": 1, 
+     "sale_price": 20, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "gold": 390
+     }, 
+     "level_need": 14
     }, 
     "dongyatangdi": {
      "total_time": 810, 
@@ -48023,25 +48334,23 @@
      "leaf_time": 240, 
      "level_need": 1
     }, 
-    "shangxueniangao": {
-     "total_time": 240, 
-     "leaflet_time": 1, 
+    "maotouyinghongsehuahuan": {
+     "total_time": 1080, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "雪見のモチ", 
-     "base_fruit": 25, 
-     "fruit_time": 1, 
-     "sprout_time": 1, 
-     "introduce": "ランダムに２種のリースが現れますよ！毎回育てるとその中の1種が入手できます！", 
-     "is_random": true, 
-     "increment_fruit": 25, 
-     "bloom_time": 177, 
+     "name": "森の番人のリース", 
+     "base_fruit": 3, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
      "experience": 10, 
      "seasons": 1, 
      "sale_price": 15, 
+     "increment_fruit": 3, 
+     "leaf_time": 240, 
      "seed_price": {
       "F_coin": 30
      }, 
-     "leaf_time": 60, 
      "level_need": 1
     }, 
     "budaoweng": {
@@ -49595,22 +49904,22 @@
      }, 
      "level_need": 1
     }, 
-    "xiaolihualan": {
-     "total_time": 810, 
+    "xiaoniaohongsehuahuan": {
+     "total_time": 1080, 
      "leaflet_time": 90, 
      "used": false, 
-     "name": "ブルー麗花", 
-     "base_fruit": 25, 
-     "fruit_time": 330, 
-     "sprout_time": 30, 
-     "bloom_time": 210, 
-     "experience": 7.89, 
+     "name": "小鳥たちのリース", 
+     "base_fruit": 3, 
+     "fruit_time": 360, 
+     "sprout_time": 60, 
+     "bloom_time": 330, 
+     "experience": 10, 
      "seasons": 1, 
-     "sale_price": 16, 
-     "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "sale_price": 15, 
+     "increment_fruit": 3, 
+     "leaf_time": 240, 
      "seed_price": {
-      "F_coin": 90
+      "F_coin": 30
      }, 
      "level_need": 1
     }, 
@@ -51868,23 +52177,25 @@
      }, 
      "level_need": 1
     }, 
-    "xuerenshuer": {
-     "total_time": 1710, 
-     "leaflet_time": 270, 
+    "shangxueniangao": {
+     "total_time": 240, 
+     "leaflet_time": 1, 
      "used": false, 
-     "name": "あの子の木", 
+     "name": "雪見のモチ", 
      "base_fruit": 25, 
-     "fruit_time": 510, 
-     "sprout_time": 210, 
-     "bloom_time": 390, 
-     "experience": 11.89, 
-     "seasons": 1, 
-     "sale_price": 4, 
+     "fruit_time": 1, 
+     "sprout_time": 1, 
+     "introduce": "ランダムに２種のリースが現れますよ！毎回育てるとその中の1種が入手できます！", 
+     "is_random": true, 
      "increment_fruit": 25, 
-     "leaf_time": 330, 
+     "bloom_time": 177, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 15, 
      "seed_price": {
-      "F_coin": 9
+      "F_coin": 30
      }, 
+     "leaf_time": 60, 
      "level_need": 1
     }, 
     "f762_xiangrikuixianrenzhang": {
@@ -51986,23 +52297,22 @@
      }, 
      "level_need": 1
     }, 
-    "wushiriyuandejuhua": {
-     "total_time": 1380, 
-     "leaflet_time": 180, 
+    "yuanyifangzi": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
      "used": false, 
-     "name": "５０円のなる菊", 
+     "name": "園芸の屋敷", 
      "base_fruit": 25, 
-     "fruit_time": 450, 
-     "tuchan": true, 
-     "sprout_time": 150, 
-     "bloom_time": 300, 
-     "experience": 7.32, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 10, 
      "seasons": 1, 
-     "sale_price": 7, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
-     "leaf_time": 300, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 8
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -52096,22 +52406,23 @@
      "leaf_time": 600, 
      "level_need": 0
     }, 
-    "lianhuadengwucai": {
-     "total_time": 1380, 
-     "leaflet_time": 180, 
+    "f902_taoqiyindianzhiwu": {
+     "total_time": 1410, 
+     "leaflet_time": 160, 
      "used": false, 
-     "name": "カラフル蓮の灯", 
+     "name": "悪戯インディアン植物", 
      "base_fruit": 25, 
-     "fruit_time": 450, 
-     "sprout_time": 150, 
-     "bloom_time": 300, 
-     "experience": 28.5, 
+     "fruit_time": 550, 
+     "tuchan": true, 
+     "sprout_time": 90, 
+     "bloom_time": 350, 
+     "experience": 7.85, 
      "seasons": 1, 
-     "sale_price": 17, 
+     "sale_price": 8, 
      "increment_fruit": 25, 
-     "leaf_time": 300, 
+     "leaf_time": 260, 
      "seed_price": {
-      "F_coin": 100
+      "F_coin": 7
      }, 
      "level_need": 1
     }, 
@@ -54919,6 +55230,25 @@
      "experience": 14.0, 
      "seasons": 1, 
      "sale_price": 12, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
+    "yuanyihuoche": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "園芸の火車", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 6, 
      "increment_fruit": 25, 
      "leaf_time": 150, 
      "seed_price": {
@@ -62661,22 +62991,22 @@
      }, 
      "level_need": 1
     }, 
-    "xiaoniaohongsehuahuan": {
-     "total_time": 1080, 
+    "xiaolihualan": {
+     "total_time": 810, 
      "leaflet_time": 90, 
      "used": false, 
-     "name": "小鳥たちのリース", 
-     "base_fruit": 3, 
-     "fruit_time": 360, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 10, 
+     "name": "ブルー麗花", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 30, 
+     "bloom_time": 210, 
+     "experience": 7.89, 
      "seasons": 1, 
-     "sale_price": 15, 
-     "increment_fruit": 3, 
-     "leaf_time": 240, 
+     "sale_price": 16, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
      "seed_price": {
-      "F_coin": 30
+      "F_coin": 90
      }, 
      "level_need": 1
     }, 
@@ -66056,6 +66386,25 @@
      "experience": 5.0, 
      "seasons": 1, 
      "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
+     }, 
+     "level_need": 1
+    }, 
+    "yuanyichengbao": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "園芸の城", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 12, 
      "increment_fruit": 25, 
      "leaf_time": 150, 
      "seed_price": {
@@ -69837,25 +70186,6 @@
      }, 
      "level_need": 1
     }, 
-    "maotouyinghongsehuahuan": {
-     "total_time": 1080, 
-     "leaflet_time": 90, 
-     "used": false, 
-     "name": "森の番人のリース", 
-     "base_fruit": 3, 
-     "fruit_time": 360, 
-     "sprout_time": 60, 
-     "bloom_time": 330, 
-     "experience": 10, 
-     "seasons": 1, 
-     "sale_price": 15, 
-     "increment_fruit": 3, 
-     "leaf_time": 240, 
-     "seed_price": {
-      "F_coin": 30
-     }, 
-     "level_need": 1
-    }, 
     "dengpaoshuhuangse": {
      "total_time": 900, 
      "leaflet_time": 150, 
@@ -70050,6 +70380,25 @@
      "increment_fruit": 25, 
      "leaf_time": 282, 
      "level_need": 11
+    }, 
+    "yuetuniangao": {
+     "total_time": 1710, 
+     "leaflet_time": 270, 
+     "used": true, 
+     "name": "つきうさぎ", 
+     "base_fruit": 25, 
+     "fruit_time": 510, 
+     "sprout_time": 210, 
+     "bloom_time": 390, 
+     "experience": 11.89, 
+     "seasons": 1, 
+     "sale_price": 4, 
+     "increment_fruit": 25, 
+     "leaf_time": 330, 
+     "seed_price": {
+      "F_coin": 9
+     }, 
+     "level_need": 1
     }, 
     "yudaishu": {
      "total_time": 870, 
@@ -73207,25 +73556,24 @@
      }, 
      "level_need": 1
     }, 
-    "nirenxihongshi": {
-     "total_time": 960, 
+    "xiyangdujuan": {
+     "total_time": 630, 
      "leaflet_time": 150, 
-     "used": true, 
-     "name": "とまとん", 
+     "used": false, 
+     "name": "シャクナゲ", 
      "base_fruit": 25, 
-     "red_pit_seed": true, 
-     "fruit_time": 360, 
-     "sprout_time": 150, 
+     "fruit_time": 150, 
+     "sprout_time": 30, 
      "bloom_time": 150, 
-     "experience": 2.5, 
+     "experience": 3.5, 
      "seasons": 1, 
-     "sale_price": 20, 
+     "sale_price": 7, 
      "increment_fruit": 25, 
      "leaf_time": 150, 
      "seed_price": {
-      "gold": 390
+      "F_coin": 4
      }, 
-     "level_need": 14
+     "level_need": 0
     }, 
     "tuqianniuhua": {
      "total_time": 450, 
@@ -73563,6 +73911,25 @@
      "leaf_time": 330, 
      "seed_price": {
       "F_coin": 1
+     }, 
+     "level_need": 1
+    }, 
+    "yuanyilunchuan": {
+     "total_time": 870, 
+     "leaflet_time": 90, 
+     "used": false, 
+     "name": "園芸の汽船", 
+     "base_fruit": 25, 
+     "fruit_time": 330, 
+     "sprout_time": 90, 
+     "bloom_time": 210, 
+     "experience": 10, 
+     "seasons": 1, 
+     "sale_price": 6, 
+     "increment_fruit": 25, 
+     "leaf_time": 150, 
+     "seed_price": {
+      "F_coin": 20
      }, 
      "level_need": 1
     }, 
@@ -77645,11 +78012,11 @@
      }, 
      "level_need": 1
     }, 
-    "yuetuniangao": {
+    "xuerenshuer": {
      "total_time": 1710, 
      "leaflet_time": 270, 
-     "used": true, 
-     "name": "つきうさぎ", 
+     "used": false, 
+     "name": "あの子の木", 
      "base_fruit": 25, 
      "fruit_time": 510, 
      "sprout_time": 210, 
@@ -78172,24 +78539,25 @@
      }, 
      "level_need": 0
     }, 
-    "xiyangdujuan": {
-     "total_time": 630, 
-     "leaflet_time": 150, 
+    "wushiriyuandejuhua": {
+     "total_time": 1380, 
+     "leaflet_time": 180, 
      "used": false, 
-     "name": "シャクナゲ", 
+     "name": "５０円のなる菊", 
      "base_fruit": 25, 
-     "fruit_time": 150, 
-     "sprout_time": 30, 
-     "bloom_time": 150, 
-     "experience": 3.5, 
+     "fruit_time": 450, 
+     "tuchan": true, 
+     "sprout_time": 150, 
+     "bloom_time": 300, 
+     "experience": 7.32, 
      "seasons": 1, 
      "sale_price": 7, 
      "increment_fruit": 25, 
-     "leaf_time": 150, 
+     "leaf_time": 300, 
      "seed_price": {
-      "F_coin": 4
+      "F_coin": 8
      }, 
-     "level_need": 0
+     "level_need": 1
     }, 
     "f876_yangguangkuguashu": {
      "total_time": 1410, 
@@ -80822,6 +81190,12 @@
     "penquan", 
     "shansewanzi", 
     "f693_guofenrenshen", 
+    "yuanyichengbao", 
+    "yuanyifangzi", 
+    "yuanyilunchuan", 
+    "yuanyiqiche", 
+    "yuanyihuoche", 
+    "yuanyifeiji", 
     "yuanyiying", 
     "yuanyiniu", 
     "yuanyitiane", 
@@ -83673,7 +84047,7 @@
    "diaoyu7libao", 
    "crops_xiangkaoyangpai_gift", 
    "qiufenhualibao", 
-   "xuyuanlibao4", 
+   "libaolv_jiu", 
    "crops_qiukuishala_gift", 
    "crops_zhuomuniao_gift", 
    "libaochengxin", 
@@ -83690,7 +84064,7 @@
    "langduhualibao", 
    "hesuilibao", 
    "eryueqingrenjielibao", 
-   "crops_lanmeibingjiling_gift", 
+   "libaocheng_shi", 
    "hb_5", 
    "hb_4", 
    "hb_3", 
@@ -83699,6 +84073,7 @@
    "tunshuniudanzi", 
    "ouzhoulibao1", 
    "yuetulibao", 
+   "libaozi_shi", 
    "libaolanxin", 
    "deguolibao", 
    "judazhiwulibao", 
@@ -83711,9 +84086,11 @@
    "niudanlipinbao", 
    "gb_3", 
    "crops_huanxianghua_gift", 
+   "libaofen_shi", 
    "gaojilibao", 
    "xinlibaohuang6", 
    "huaijiuniudanbao", 
+   "libaolv_shi", 
    "gb_10", 
    "gb_12", 
    "libaohuang_ba", 
@@ -83737,6 +84114,7 @@
    "gaojifeiliaobao", 
    "gb_2", 
    "libaohong4", 
+   "crops_lanmeibingjiling_gift", 
    "crops_jiajiepingguo_gift", 
    "shanghailibao", 
    "crops_guoguangpingguo_gift", 
@@ -83754,6 +84132,7 @@
    "shuiguoniudanlibao", 
    "zonghefeiliaobao", 
    "libaolvxin", 
+   "libaolan_shi", 
    "libaofen_jiu", 
    "yingguolibao", 
    "laohujidongwubao", 
@@ -83797,6 +84176,7 @@
    "libaozi3", 
    "libaolan5", 
    "items_shiyanfeiliao_gift", 
+   "libaoda_shi", 
    "items_dijifeiliao_gift", 
    "hongsebao2", 
    "qixilibao", 
@@ -83805,7 +84185,7 @@
    "xuyuanlibao9", 
    "xuyuanlibao8", 
    "xuyuanlibao5", 
-   "libaolv_jiu", 
+   "xuyuanlibao4", 
    "xuyuanlibao7", 
    "xuyuanlibao6", 
    "xuyuanlibao1", 
