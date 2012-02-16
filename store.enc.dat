@@ -12089,7 +12089,7 @@
      }, 
      "introduce": "シャボン玉を吹くために使う清水です。", 
      "state": "xin", 
-     "used": false
+     "used": true
     }, 
     "data": {}
    }, 
@@ -17565,7 +17565,7 @@
      }, 
      "introduce": "清水を開けることができます。", 
      "state": "xin", 
-     "used": false
+     "used": true
     }, 
     "data": {}
    }, 
@@ -25970,6 +25970,21 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
+   "foam": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "シャボン液", 
+    "price": {
+     "num": 10, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_new", 
+    "goods_description": "清水を開けることができます。", 
+    "activity_type": "hot_sale"
+   }, 
    "fengchehuabaoxiang": {
     "specific_type": "re", 
     "product_type": {
@@ -25984,6 +25999,21 @@
     "modify": false, 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
+   }, 
+   "water": {
+    "product_type": {
+     "scene_type": "mystic_bags", 
+     "goods_type": "mystic_bag"
+    }, 
+    "name": "清水", 
+    "price": {
+     "num": 100, 
+     "type": "gold"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_new", 
+    "goods_description": "お面の種と高級肥料が入っています。", 
+    "activity_type": "hot_sale"
    }, 
    "jisu": {
     "specific_type": "re", 
@@ -26000,24 +26030,6 @@
     "modify": false, 
     "goods_description": "使うと動物の生産時間を4時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
-   }, 
-   "jiegumu": {
-    "product_type": {
-     "scene_type": "farm", 
-     "goods_type": "seed"
-    }, 
-    "name": "謎のセイヨウニワトコ", 
-    "start_time": 1328565600.0, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "6日10時間", 
-    "end_time": 1329120000.0, 
-    "goods_description": "謎のセイヨウニワトコ、あなたが植えているのは何色かな？", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "activity_type": "hot_sale"
    }, 
    "siliaobao2": {
     "specific_type": "re", 
@@ -26063,29 +26075,6 @@
     "modify": false, 
     "limit_type": "limit_new", 
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "hot_sale"
-   }, 
-   "gaoji": {
-    "original_price": {
-     "num": 6, 
-     "type": "F_coin"
-    }, 
-    "product_type": {
-     "goods_type": "property", 
-     "scene_type": "farm", 
-     "goods_category": "fertilizer"
-    }, 
-    "name": "高級肥料", 
-    "price": {
-     "num": 5, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "limit_type": "limit_time", 
-    "limit_time": "5日5時間", 
-    "end_time": 1329292800.0, 
-    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
-    "start_time": 1328842800.0, 
     "activity_type": "hot_sale"
    }
   }, 
