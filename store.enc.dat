@@ -26437,21 +26437,6 @@
     "goods_description": "清水を開けることができます。", 
     "activity_type": "hot_sale"
    }, 
-   "fengchehuabaoxiang": {
-    "specific_type": "re", 
-    "product_type": {
-     "scene_type": "mystic_bags", 
-     "goods_type": "mystic_bag"
-    }, 
-    "name": "12月の宝箱", 
-    "price": {
-     "num": 10, 
-     "type": "F_coin"
-    }, 
-    "modify": false, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
-   }, 
    "water": {
     "product_type": {
      "scene_type": "mystic_bags", 
@@ -26481,6 +26466,22 @@
     }, 
     "modify": false, 
     "goods_description": "使うと動物の生産時間を4時間短縮できます。飼料の効果は次の段階へ持ち越すことはできません。", 
+    "activity_type": "discount"
+   }, 
+   "gaoji": {
+    "specific_type": "re", 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "高級肥料", 
+    "price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "goods_description": "使うと作物の成熟時間を5.5時間短縮できます。肥料の効果は次の段階へ持ち越すことはできません。", 
     "activity_type": "discount"
    }, 
    "siliaobao2": {
