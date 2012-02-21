@@ -26456,20 +26456,43 @@
     "goods_description": "増産肥料のパワーアップ版、中級増産肥料はレベル0から35までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
     "activity_type": "discount"
    }, 
-   "jingbingbaoxiang": {
-    "specific_type": "re", 
+   "zengshou3": {
+    "original_price": {
+     "num": 6, 
+     "type": "F_coin"
+    }, 
+    "product_type": {
+     "goods_type": "property", 
+     "scene_type": "farm", 
+     "goods_category": "fertilizer"
+    }, 
+    "name": "高級増産肥料", 
+    "price": {
+     "num": 5, 
+     "type": "F_coin"
+    }, 
+    "modify": false, 
+    "limit_type": "limit_time", 
+    "limit_time": "6日", 
+    "end_time": 1330329600.0, 
+    "goods_description": "高級増産肥料はレベル36から60までの作物の増産量を50%アップします（花には使えません）。同じ作物に2回まで使えます。多期作の場合、次の収穫は普通に戻ります。", 
+    "start_time": 1329811200.0, 
+    "activity_type": "hot_sale"
+   }, 
+   "tcxiangrikuier": {
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "鏡餅の宝箱", 
+    "name": "ヒマワリ第二弾の宝箱", 
     "price": {
-     "num": 10, 
+     "num": 50, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
-    "activity_type": "discount"
+    "limit_type": "limit_new", 
+    "goods_description": "100%の確率でマジック肥料が5個入手できます、100%の確率でヒマワリ第二弾の植物シリーズのすべてが入手できます、お持ち図鑑に収録されます。20%の確率で10万経験値を得るビスケット弁当が入手できます。", 
+    "activity_type": "hot_sale"
    }, 
    "jisu": {
     "specific_type": "re", 
@@ -26556,20 +26579,20 @@
     "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
     "activity_type": "discount"
    }, 
-   "tcxiangrikuier": {
+   "jingbingbaoxiang": {
+    "specific_type": "re", 
     "product_type": {
      "scene_type": "mystic_bags", 
      "goods_type": "mystic_bag"
     }, 
-    "name": "ヒマワリ第二弾の宝箱", 
+    "name": "鏡餅の宝箱", 
     "price": {
-     "num": 50, 
+     "num": 10, 
      "type": "F_coin"
     }, 
     "modify": false, 
-    "limit_type": "limit_new", 
-    "goods_description": "100%の確率でマジック肥料が5個入手できます、100%の確率でヒマワリ第二弾の植物シリーズのすべてが入手できます、お持ち図鑑に収録されます。20%の確率で10万経験値を得るビスケット弁当が入手できます。", 
-    "activity_type": "hot_sale"
+    "goods_description": "100%の確率でマジック肥料が5個入手できます。ランダムで植物シリーズのどれかが入手できます。お持ち図鑑に収録されます。", 
+    "activity_type": "discount"
    }
   }, 
   "farm": {
