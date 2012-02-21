@@ -11755,6 +11755,55 @@
      }
     }
    }, 
+   "tcxiangrikuier": {
+    "config": {
+     "price": {
+      "F_coin": 50
+     }, 
+     "used": false, 
+     "goods_str": "100%の確率でマジック肥料が5個入手できます、100%の確率でヒマワリ第二弾の植物シリーズのすべてが入手できます、お持ち図鑑に収録されます。20%の確率で10万経験値を得るビスケット弁当が入手できます。", 
+     "name": "ヒマワリ第二弾の宝箱", 
+     "introduce": "100%の確率でマジック肥料が5個入手できます、100%の確率でヒマワリ第二弾の植物シリーズのすべてが入手できます、お持ち図鑑に収録されます。20%の確率で10万経験値を得るビスケット弁当が入手できます。"
+    }, 
+    "data": {
+     "farm": {
+      "seeds": {
+       "f800_hudiejiexiangrikui": [
+        1, 
+        1
+       ], 
+       "f797_maoerxiangrikui": [
+        1, 
+        1
+       ], 
+       "bingganbiandang": [
+        1, 
+        0.2
+       ], 
+       "f799_keliandexiangrikui": [
+        1, 
+        1
+       ], 
+       "f801_shizixiangrikui": [
+        1, 
+        1
+       ], 
+       "f798_aixinxiangrikui": [
+        1, 
+        1
+       ]
+      }, 
+      "properties": {
+       "fertilizer": {
+        "xunjie": [
+         5, 
+         1.0
+        ]
+       }
+      }
+     }
+    }
+   }, 
    "hongniudan": {
     "config": {
      "price": {
@@ -85105,6 +85154,7 @@
    "siyuebaoxiang", 
    "jiazhutaobaoxiang", 
    "shengdanlibao", 
+   "tcxiangrikuier", 
    "tunianniudanfen", 
    "tejiabaoxiang1", 
    "tejiabaoxiang2", 
